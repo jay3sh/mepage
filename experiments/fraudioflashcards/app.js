@@ -6,6 +6,7 @@ function play(word, meaning) {
   var audioElem = $('#player')[0];
   audioElem.setAttribute('autoplay','autoplay');
   audioElem.setAttribute('src',url);
+  audioElem.setAttribute('rel','noreferrer');
   $.get();
   audioElem.addEventListener('load',function () {
     audioElem.Play();
