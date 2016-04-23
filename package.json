@@ -1,0 +1,10 @@
+{
+  "name": "mepage",
+  "version": "1.0.0",
+  "description": "Website code for jayesh.me",
+  "author": "Jayesh Salvi",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "markdown": "^0.5.0"
+  }
+}
