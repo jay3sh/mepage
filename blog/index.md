@@ -2,6 +2,7 @@
 Blog
 =====
 
+[Road Trip of Atlantic Canada](road-trip-atlantic-canada.html) *June 30, 2016*
 
 [The "Having done" attitude](having-done-attitude.html) *April 23, 2016*
 
