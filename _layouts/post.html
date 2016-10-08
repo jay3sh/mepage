@@ -30,6 +30,9 @@
     </div>
     <div class="col-lg-4">
       <br>
+      <p><a id="homelink" href="/">Home</a></p>
+      <br>
+      <p id="archiveheader">Archive</p>
       {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}

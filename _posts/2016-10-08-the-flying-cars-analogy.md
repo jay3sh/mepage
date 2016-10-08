@@ -10,7 +10,7 @@ Flying cars have been a symbol of technological progress. We have been predictin
 
 However flying cars are an example of a very generic solution. A generic architecture has a lot of freedom. It can be bent in many possible ways to achieve several different things. However because of those overwhelming possibilities we also have to work on ways to restrict many of them, because they don't pertain to the problem we are trying to solve and can cause damage. In case of flying cars we will have to worry about these problems.
 
-* How to train all drivers to become pilots so that they could fly in dimensions.
+* How to train all drivers to become pilots so that they could fly in three dimensions.
 * A car on ground will be hard to get into a position where gravity is pointing in wrong direction, but a car in air can easily turn upside down. How to avoid that from happening?
 * We will have to deal with a very complicated signaling framework to route the traffic. Imagine the difficulty of navigating through a round-about that has eight roads leaving it. Now imagine doing it on the surface of a sphere with thirty routes emanating from it. 
 
