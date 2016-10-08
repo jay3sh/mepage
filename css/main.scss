@@ -1,0 +1,78 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+#
+---
+@charset "utf-8";
+
+
+// Our variables
+$base-font-family: "Open Sans", sans-serif;
+$homepage-font-family: monospace;
+$base-font-size:   16px;
+$homepage-font-size: 20px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color: #d6d6d6;
+$inactive-text-color: #6FC3DF;
+$active-text-color: #FFE64D;
+$background-color: #0C0C0C;
+$content-background-color: #0C0C0C;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+body {
+  font-family: $base-font-family;
+  font-size : $base-font-size;
+  font-weight: $base-font-weight;
+  color : $text-color;
+  background-color: $background-color;
+
+  .content {
+    background-color: $content-background-color;
+  }
+
+  .homepage-content {
+    font-family : monospace;
+    font-weight : bold;
+    font-size : $homepage-font-size;
+  }
+
+  .blogpage-content {
+    text-align : left;
+
+    .yearentry {
+      font-weight : $base-font-weight * 2;
+    }
+  }
+
+  .post-content {
+    .yearentry {
+      font-weight : $base-font-weight * 2;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color : $inactive-text-color;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color : $active-text-color;
+
+  }
+}
+
