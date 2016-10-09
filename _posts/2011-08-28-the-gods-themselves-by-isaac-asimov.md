@@ -2,7 +2,7 @@
 layout: post
 title: "The Gods Themselves by Isaac Asimov"
 ---
-"The Gods Themselves by Isaac Asimov"
+The Gods Themselves by Isaac Asimov
 ===
 [![The Gods Themselves](http://ecx.images-amazon.com/images/I/51C9NNP0FKL._SX106_.jpg)][0][The Gods Themselves][0] by [Isaac Asimov][1]  
   

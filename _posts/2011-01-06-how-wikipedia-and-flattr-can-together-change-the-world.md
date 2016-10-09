@@ -2,7 +2,7 @@
 layout: post
 title: "How Wikipedia and Flattr can together change the World"
 ---
-"How Wikipedia and Flattr can together change the World"
+How Wikipedia and Flattr can together change the World
 ===
 Wikipedia is one of the best things that could have happened to humanity. That's why it feels awkward to see Wikipedia beg for funds every year, due to their decision to not generate revenue via advertisements. A debate between whether contextual ads are better or worse than page wide banners of Jimmy Wales can go to any length, without result. On the other hand, there is however a middle ground. Why doesn't Wikipedia accept micropayments?  
   

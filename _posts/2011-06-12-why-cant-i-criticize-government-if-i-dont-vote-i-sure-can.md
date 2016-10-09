@@ -2,7 +2,7 @@
 layout: post
 title: "Why can't I criticize Government if I don't vote? I sure can."
 ---
-"Why can't I criticize Government if I don't vote? I sure can."
+Why can't I criticize Government if I don't vote? I sure can.
 ===
 Why do people say that you cannot criticize a Government if you do not vote? I disagree. I have every right to criticize a Government as long as I pay taxes, whether I vote or not.  
   

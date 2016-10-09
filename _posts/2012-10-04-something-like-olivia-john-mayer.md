@@ -2,7 +2,7 @@
 layout: post
 title: "Something like Olivia - John Mayer"
 ---
-"Something like Olivia - John Mayer"
+Something like Olivia - John Mayer
 ===
 One of the best lyrics in John Mayer's latest album - "Born and Raised".  
   

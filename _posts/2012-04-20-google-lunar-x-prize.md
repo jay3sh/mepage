@@ -2,7 +2,7 @@
 layout: post
 title: "Google Lunar X Prize"
 ---
-"Google Lunar X Prize"
+Google Lunar X Prize
 ===
 Came across this [long article][0] about how the teams in [Google Lunar X Prize][1] are faring so far. It looks like many teams are finding it hard to secure funding for the project and may not make it to the 2015 deadline. Many are dropping out.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Kelsey Grammer is spectacular"
 ---
-"Kelsey Grammer is spectacular"
+Kelsey Grammer is spectacular
 ===
 After watching 11 seasons of [Frasier][0], I couldn't imagine [Kelsey Grammer][1] could be anyone but a comedian. When I watched [Boss][2] I was glad to be wrong. The character of Tom Kane is as diametrically opposite of Frasier as possible and Kelsey has packed it with genuine terror of the scale I have rarely seen.
 

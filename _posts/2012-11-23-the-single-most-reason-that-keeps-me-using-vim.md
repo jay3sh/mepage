@@ -2,7 +2,7 @@
 layout: post
 title: "The single most reason that keeps me using Vim"
 ---
-"The single most reason that keeps me using Vim"
+The single most reason that keeps me using Vim
 ===
 I've wanted to use all new and cool Code editors that have come around in past few years. Many times I have switched to them determinedly, only to switch back to Vim after a few days. All the fancy features that I see in the screencasts of these code editors are irresistibly inviting. Yet I can't let go of Vim. After thinking a lot about it, I think it boils down to one single reason.  
   

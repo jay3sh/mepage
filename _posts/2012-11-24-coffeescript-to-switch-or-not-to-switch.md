@@ -2,7 +2,7 @@
 layout: post
 title: "Coffeescript: To switch or not to switch"
 ---
-"Coffeescript: To switch or not to switch"
+Coffeescript: To switch or not to switch
 ===
 For a long time during the development of [3DTin][0] I was toying with the idea of switching to Coffeescript (_"CS" henceforth_) from Javascript (_"JS" henceforth_). I was looking for a comprehensive guide about what are the pros and cons for such move. I didn't find any such document at the time. Now I have been using CS on-and-off for [3DTin][0] in past 6 months. I have learnt a lot about the potential benefits and pitfalls of CS. This blog post is a collection of what I've learnt. Hopefully it will benefit those who are wondering whether to jump the boat. But note that, my experiences are not conclusive. I am still not sure that complete switch to CS is a good thing for every JS project.  
   

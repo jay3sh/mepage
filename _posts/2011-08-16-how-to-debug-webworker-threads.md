@@ -2,7 +2,7 @@
 layout: post
 title: "How to debug WebWorker threads?"
 ---
-"How to debug WebWorker threads?"
+How to debug WebWorker threads?
 ===
 WebWorkers offer your Web app a way to do multithreading. If your advanced web app does some number crunching keeping the CPU busy for a while, then it makes sense to do it in a separate thread instead of doing it in the main thread, which may lead to blocking the browser tab (Chrome) or the entire browser (Firefox and others). One of the troubles of writing programs in WebWorkers is, they are hard to debug. Two key mechanisms required for debugging a program are not available in WebWorkers - print statements (console.log is not available) and breakpoints (even if you manage to place breakpoints in the code running in WebWorker, they won't be hit).  
 

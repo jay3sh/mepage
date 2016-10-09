@@ -2,7 +2,7 @@
 layout: post
 title: "When your git branch diverges from your remote"
 ---
-"When your git branch diverges from your remote"
+When your git branch diverges from your remote
 ===
 This is a tricky state and in past when I occasionally got myself into it I could never cleanly recover from it. Until now. I just found a clean way.  
   

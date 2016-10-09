@@ -2,7 +2,7 @@
 layout: post
 title: "HTML5 offline cache - use swapCache carefully"
 ---
-"HTML5 offline cache - use swapCache carefully"
+HTML5 offline cache - use swapCache carefully
 ===
 HTML5 Offline caching is an incredibly useful feature that allows your users to load your website even when they are not connected to the Internet. When they visit your website first, the browser checks if your webpage mentions a cache manifest file in its html tag. If so, the browser downloads the manifest file and then downloads all the resources mentioned in that file. You are supposed to add all the resources that your webpage needs in the manifest file, so that when user is offline the browser can load the webpage from the cached version of those resources. You will find many articles that will help you implement offline caching for your website- like this [one][0]. This post isn't about it.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Rolling back latest git commit"
 ---
-"Rolling back latest git commit"
+Rolling back latest git commit
 ===
 It's surprising how difficult it's to undo the latest commit you accidentally made in git repository. It's not difficult, but the commands are obscure.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "JavaScript is the next C"
 ---
-"JavaScript is the next C"
+JavaScript is the next C
 ===
 I've been coding in JavaScript for almost a year now. I find it a decent language to write code in. The code written in JavaScript doesn't look as pretty as python, but it doesn't look as bloated as Java either. But that's not why I chose the title of this post. It's everything else that's happening around JavaScript that makes me think that it's going to play as significant a role in computing as C has played.  
   

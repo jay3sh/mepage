@@ -2,7 +2,7 @@
 layout: post
 title: "Truce with exercise"
 ---
-"Truce with exercise"
+Truce with exercise
 ===
 It goes without saying that as computer programmers we need to do regular exercise to stay healthy. Not only do our jobs give near zero physical exercise to our body, it requires us to sit at one place for unhealthily long hours.  
   

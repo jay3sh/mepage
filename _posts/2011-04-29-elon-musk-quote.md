@@ -2,7 +2,7 @@
 layout: post
 title: "Elon Musk quote"
 ---
-"Elon Musk quote"
+Elon Musk quote
 ===
 Some original thoughts I've heard about running a company (from the latest [Elon Musk interview][0])  
   

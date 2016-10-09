@@ -2,7 +2,7 @@
 layout: post
 title: "Why we need to explore Seasteading?"
 ---
-"Why we need to explore Seasteading?"
+Why we need to explore Seasteading?
 ===
 Not because we are running out of land.  
   

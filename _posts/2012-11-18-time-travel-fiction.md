@@ -2,7 +2,7 @@
 layout: post
 title: "Time travel fiction"
 ---
-"Time travel fiction"
+Time travel fiction
 ===
 This year I read two very gripping thriller novels based on Time Travel.  
   

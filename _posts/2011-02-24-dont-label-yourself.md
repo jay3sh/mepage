@@ -2,7 +2,7 @@
 layout: post
 title: "Don't label yourself"
 ---
-"Don't label yourself"
+Don't label yourself
 ===
 Don't call yourself a CEO - You'll find excuse to not write code.  
 Don't call yourself a CTO - You might overlook a potential market.  

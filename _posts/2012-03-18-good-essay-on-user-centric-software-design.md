@@ -2,7 +2,7 @@
 layout: post
 title: "Good essay on user centric software design"
 ---
-"Good essay on user centric software design"
+Good essay on user centric software design
 ===
 Came across this long post "[\#46 -- Why software sucks][0]" by [Scott Berkun][1] via Hacker news.  
   

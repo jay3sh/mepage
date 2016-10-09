@@ -2,7 +2,7 @@
 layout: post
 title: "Why the hi-tech minds are writing Social apps?"
 ---
-"Why the hi-tech minds are writing Social apps?"
+Why the hi-tech minds are writing Social apps?
 ===
 As I had mentioned earlier on this blog, I feel puzzled looking at the torrent of Social Apps created by smartest minds in our field. Couple decades ago, technological progress was synonymous to better machines - the robots that will imitate humans, cars that will fly, rockets that will make space travel cheap and solar panels that will solve our energy problems once and for all. But the biggest companies of today - Apple, Google, Facebook - do none of these things and yet are pointed to as examples of technology leaders. Students with aspirations to build great technologies tend to enroll in Computer Science degree and seek to score a job at one of these companies. If "The Social Network" is even half true, then it clearly shows that this is the choice our bright minds are taking today.  
   

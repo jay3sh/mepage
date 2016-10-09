@@ -2,7 +2,7 @@
 layout: post
 title: "Master pieces from screen"
 ---
-"Master pieces from screen"
+Master pieces from screen
 ===
 A key characteristic of memorable movies/shows is they have a dense storyline.  
   

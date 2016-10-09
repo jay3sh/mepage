@@ -2,7 +2,7 @@
 layout: post
 title: "Why sea steading is important to pursue?"
 ---
-"Why sea steading is important to pursue?"
+Why sea steading is important to pursue?
 ===
 For decades now, people have feared that the explosion of global population is going to harm the planet because we won't have enough space for all of them to live and not enough food to feed them. The population of the planet is now about 7 billion (A number that some scifi authors foresaw to happen when we inhabited entire galaxy). Yet there is enough food and enough space for everyone to live - on land itself. The only problem is that, the food and space is not distributed evenly. The problem is not about producing enough food, but to empower all individuals of the planet to earn their fair share of it. The problem of growing population has less to do with technology, and more to do with social sciences.  
   

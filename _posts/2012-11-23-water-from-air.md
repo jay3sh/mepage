@@ -2,7 +2,7 @@
 layout: post
 title: "Water from air"
 ---
-"Water from air"
+Water from air
 ===
 It's fascinating how a really simple idea can change life as we know it. Today I read this [news][0] via slashdot about a new startup [NBD nano][1], that is building a device that can extract water from air. The most interesting part is its implications and applications.
 

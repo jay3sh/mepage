@@ -2,7 +2,7 @@
 layout: post
 title: "Prometheus"
 ---
-"Prometheus"
+Prometheus
 ===
 Prometheus in IMAX 3D was a great experience. Some of the scenes were mind blowing. Only regret is there weren't more of them.
 

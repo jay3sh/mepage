@@ -8,7 +8,7 @@ Because it takes minimum **76 lines** of code to produce even the least meaningf
   
 [Gist][0]  
 
-{% highlight html %}
+{% highlight javascript %}
 <html>
 <head>
 <title></title>

@@ -104,7 +104,7 @@ function extractPostsFromYear(obj, year) {
 
 fs.readFile('codeovertones.xml', function (err, data) {
   parser.parseString(data, function (err, result) {
-    for(let year of [2006,2007,2008,2009,2010]) {
+    for(let year of [2011,2012]) {
       extractPostsFromYear(result, year);
     }
   });

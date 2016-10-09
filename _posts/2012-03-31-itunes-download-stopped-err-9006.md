@@ -2,7 +2,7 @@
 layout: post
 title: "iTunes Download stopped (err =9006)"
 ---
-"iTunes Download stopped (err =9006)"
+iTunes Download stopped (err =9006)
 ===
 It's pretty frustrating to see this error in iTunes when you have spent a long time downloading some stuff over a slow network. You hit that re-download button, hoping that it will just immediately mark it alright after it has found the already downloaded content, but it starts the download all over again.  
   
