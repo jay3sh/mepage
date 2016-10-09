@@ -2,7 +2,7 @@
 layout: post
 title: "FoF update"
 ---
-"FoF update"
+FoF update
 ===
 After the Frets-on-Fire-on-Fremantle post, the feasibility of it on real actual hardware was discussed on [maemo mailing list][0] and in comments. It became clear that it's not sufficient to get FoF running in SDK to prove that it will also run on final hardware. We will have to work on the OpenGL GUI to make it happen.  
   

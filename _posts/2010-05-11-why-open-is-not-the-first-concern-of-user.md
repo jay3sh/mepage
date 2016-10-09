@@ -2,7 +2,7 @@
 layout: post
 title: "Why \"Open\" is not the first concern of user?"
 ---
-"Why \"Open\" is not the first concern of user?"
+Why "Open" is not the first concern of user?
 ===
 If your life is that of a software professional, you have been definitely exposed to the debate between Open source vs. Proprietary systems. People have opinions ranging from one extreme to the other. For some, this matter is religious. The rest listen to this great debate and depending upon their experience and expertise pick one side or the other or both or neither.  
   

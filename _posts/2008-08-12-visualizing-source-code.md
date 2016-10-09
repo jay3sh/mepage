@@ -2,7 +2,7 @@
 layout: post
 title: "Visualizing source code"
 ---
-"Visualizing source code"
+Visualizing source code
 ===
 I always find it difficult to understand the legacy code after joining a new project. I cannot understand it until I can visualize it. Cscope, Ctags have been great help in this effort, but they don't present the source code structure in visual form. I tried KScope a while back, it's good. But today I got working a very useful method of visualizing the program execution. It's documented in this [article][0] on IBM Developerworks.  
   

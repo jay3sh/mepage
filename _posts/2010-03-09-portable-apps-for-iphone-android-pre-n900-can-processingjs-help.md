@@ -2,7 +2,7 @@
 layout: post
 title: "Portable apps for iPhone, Android, Pre, n900 - Can Processing.js help?"
 ---
-"Portable apps for iPhone, Android, Pre, n900 - Can Processing.js help?"
+Portable apps for iPhone, Android, Pre, n900 - Can Processing.js help?
 ===
 I don't know. But if you want to find out, then I have something for you.  
   

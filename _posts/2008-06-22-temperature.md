@@ -2,7 +2,7 @@
 layout: post
 title: "temperature"
 ---
-"temperature"
+temperature
 ===
 [![](http://farm4.static.flickr.com/3217/2601478483_ee76b684ae_m.jpg)][0]  
 [temperature][1]  

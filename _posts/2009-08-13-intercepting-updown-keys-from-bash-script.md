@@ -2,7 +2,7 @@
 layout: post
 title: "Intercepting Up/Down keys from bash script"
 ---
-"Intercepting Up/Down keys from bash script"
+Intercepting Up/Down keys from bash script
 ===
 I have been working with Android's adb for quite some time now. Over time I have created a custom shell of my own wrapping around the adb. It really speeds up my development tasks. (But more about it in a separate post).  
   

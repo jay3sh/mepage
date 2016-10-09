@@ -2,7 +2,7 @@
 layout: post
 title: "Inkface v0.2 update and automated GUI testing"
 ---
-"Inkface v0.2 update and automated GUI testing"
+Inkface v0.2 update and automated GUI testing
 ===
 As I posted earlier, my work on v0.2 of Inkface is on track. It's implementation of an SVG library entirely in python, with the goal of dynamic rendering in mind.  
   

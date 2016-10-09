@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope v1.3.3 - offline podcasts"
 ---
-"ReaderScope v1.3.3 - offline podcasts"
+ReaderScope v1.3.3 - offline podcasts
 ===
 [ReaderScope][0] primarily started as an Android app to access Google Reader from the phone. Over time however, various features were added as they proved complimentary to the act of news reading - like sharing the news with friends (Twitter, SMS, Email); bookmarking it (Del.icio.us); reading what others think about it (Digg, Reddit, FriendFeed); support for rich forms of news, i.e. podcasts and youtube videos, etc.  
   

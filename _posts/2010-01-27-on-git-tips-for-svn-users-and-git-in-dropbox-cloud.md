@@ -2,7 +2,7 @@
 layout: post
 title: "on Git: tips for SVN users and Git in Dropbox cloud"
 ---
-"on Git: tips for SVN users and Git in Dropbox cloud"
+on Git: tips for SVN users and Git in Dropbox cloud
 ===
 I gave in to the hype of Distributed VCS and decided to learn Git about 6 months ago (No, it's not a hype, even for single person projects). I started managing my latest [projects][0] with Git. Learning Git was not a cake walk, but I put my faith in Git's promise of power and climbed the beginning slope of the learning curve. If you are switching to git after using Subversion for years, then this slope can be steeper. But now I am comfortable with my Git setup and starting to see the glimpses of power that git has to offer.  
 

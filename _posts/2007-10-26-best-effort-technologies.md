@@ -2,7 +2,7 @@
 layout: post
 title: "best effort technologies"
 ---
-"best effort technologies"
+best effort technologies
 ===
 It occurred to me today, that this principle when applied to software design is quite effective. Then I thought about all the softwares we use today and tried to find instances of this principle applied in practice. And I came up with this post.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Inkface v0.1.2, Twitter-inkface client"
 ---
-"Inkface v0.1.2, Twitter-inkface client"
+Inkface v0.1.2, Twitter-inkface client
 ===
 Finally it is ready. Actually it has been ready for more than couple of weeks now, but I wanted to make sure the bugs in my demo app were not due to problems in core library.  
   

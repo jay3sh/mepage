@@ -2,7 +2,7 @@
 layout: post
 title: "Preview android.R.drawable.* images"
 ---
-"Preview android.R.drawable.* images"
+Preview android.R.drawable.* images
 ===
 This morning I was going through the Android SDK docs- specifically android.R.drawable class, to find out what stock icons android has that I can use in my project. Android has lot of icons in this class and one is encouraged to use stock icons whenever possible.  
   

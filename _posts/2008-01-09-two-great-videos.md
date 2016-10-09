@@ -2,7 +2,7 @@
 layout: post
 title: "two great videos"
 ---
-"two great videos"
+two great videos
 ===
 Today I saw two amazing videos reported on slashdot.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope v1.3.2 - Social Channels"
 ---
-"ReaderScope v1.3.2 - Social Channels"
+ReaderScope v1.3.2 - Social Channels
 ===
 Few months back I realized that all the stories I read in my slashdot or ars-technica feeds seemed kinda ... stale. Why? Because most of the interesting ones I had already read - through links posted by the people I follow on Twitter. It is now a cliché to say that Twitter is the fastest medium of spreading news. Consequently, it's the news channel that delivers the latest news. Moreover, it's the news that you care about most; because it is coming from the people you have chosen to follow.  
   

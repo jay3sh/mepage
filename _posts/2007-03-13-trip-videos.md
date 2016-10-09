@@ -2,7 +2,7 @@
 layout: post
 title: "Trip videos"
 ---
-"Trip videos"
+Trip videos
 ===
 When I was browsing through my camera's memory yesterday, I revisited the videos I had taken during my road trip from MN to CA. Two of them I found worth uploading.  
   

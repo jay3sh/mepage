@@ -2,7 +2,7 @@
 layout: post
 title: "Google code"
 ---
-"Google code"
+Google code
 ===
 If you don't already know, I have been working on a little software [project][0], that lets you publish images to Flickr and Picasa. What is different about it is, it works as a plugin in image editing software like Gimp and Inkscape; and now it also works on Nokia's internet tablets. Yesterday I released v0.5 of it.  
   

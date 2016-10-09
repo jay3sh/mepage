@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.8.{2,3} - new authentication and global share"
 ---
-"ReaderScope 1.8.{2,3} - new authentication and global share"
+ReaderScope 1.8.{2,3} - new authentication and global share
 ===
 I released 1.8.2 couple of days ago. The only change it had was the new login mechanism. Google reader team [announced][0] on fougrapi group (that stands for "Friends of the Unofficial Google Reader API") that Google Reader soon will be discontinuing the old SID-based login mechanism. Thanks to them for announcing this well before the actual change is supposed to happen (sometime in April). ReaderScope accordingly has been updated to follow the new rules.  
   

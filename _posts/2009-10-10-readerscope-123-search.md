@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.2.3 - Search"
 ---
-"ReaderScope 1.2.3 - Search"
+ReaderScope 1.2.3 - Search
 ===
 Search box is implicit for any Google product. Google Reader offers one too. Searching through your hundreds of feeds, folders is really handy. With v1.2.3 the same search functionality comes to ReaderScope.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Android AsyncTask template"
 ---
-"Android AsyncTask template"
+Android AsyncTask template
 ===
 Any meaningful GUI application needs to employ multiple threads, otherwise it is very likely to lock while doing any I/O operations - leaving bad impression on the user. Same is true for Android apps. In fact, android framework prompts user to close the app if it doesn't respond in 10 seconds or so. So it's absolutely essential to perform any task - that has even a remote possibility of taking a bit longer - in a background thread.  
   

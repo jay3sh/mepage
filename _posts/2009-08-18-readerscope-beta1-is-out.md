@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope beta1 is out"
 ---
-"ReaderScope beta1 is out"
+ReaderScope beta1 is out
 ===
 Just published beta1 of my second Android app - ReaderScope. It's a Google Reader client for Android.  
   

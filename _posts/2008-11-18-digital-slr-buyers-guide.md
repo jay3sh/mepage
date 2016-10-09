@@ -2,7 +2,7 @@
 layout: post
 title: "Digital SLR buyer's guide"
 ---
-"Digital SLR buyer's guide"
+Digital SLR buyer's guide
 ===
 Between yesterday morning (when I woke up with an epiphany that I need to by a new camera, and that too a digital SLR) and 5 minutes back (when I clicked on the "Place order" button of Amazon's shopping cart), I learnt great deal about digital photography.  
   

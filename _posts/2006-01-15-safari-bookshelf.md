@@ -2,7 +2,7 @@
 layout: post
 title: "Safari Bookshelf"
 ---
-"Safari Bookshelf"
+Safari Bookshelf
 ===
 O'Reilly's Safari bookshelf is a great aid for people learning computer programming/ network administration. You can seach through their database of books to find the book that you want and if the preview of the book's chapters looks like what you are interested in, then add this book to your bookshelf to have full access to it. You can fill your bookshelf with such books. There is a limit on the size of bookshelf and it is proportional to the subscription fee. They have 14 day trial period as well if you want to try.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Colbie Caillat"
 ---
-"Colbie Caillat"
+Colbie Caillat
 ===
 Last month or so I heard "Bubbly" and just loved it. For past week I have been listening to "Realize" and I just adored the way Colbie Caillat can play her voice.  
   

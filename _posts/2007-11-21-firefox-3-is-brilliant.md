@@ -2,7 +2,7 @@
 layout: post
 title: "Firefox 3 is brilliant!!!"
 ---
-"Firefox 3 is brilliant!!!"
+Firefox 3 is brilliant!!!
 ===
 If you read [this][0] on slashdot this morning you must already know. I just tried it on my Mac OSx and the review is completely true.  
   

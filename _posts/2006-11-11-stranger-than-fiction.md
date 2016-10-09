@@ -2,7 +2,7 @@
 layout: post
 title: "Stranger than fiction"
 ---
-"Stranger than fiction"
+Stranger than fiction
 ===
 I saw this movie today. I don't know if it's a good movie or a bad movie. It's not about that. It certainly made me write about it.  
   

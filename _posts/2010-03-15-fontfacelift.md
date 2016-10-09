@@ -2,7 +2,7 @@
 layout: post
 title: "@font-face-lift"
 ---
-"@font-face-lift"
+@font-face-lift
 ===
 I always found that customizing the look of one's website is greatly constrained by the inability to customize the typeface. Traditionally browsers use pre-installed fonts and with the CSS font-family property, you can provide a list of typefaces that you would like your text to be rendered with (Trebuchet MS, Verdana, Sans-Serif, monospace, for instance). But this list is merely a suggestion. You don't have complete control over how your web page is going to look like in X browser on Y platform.  
   

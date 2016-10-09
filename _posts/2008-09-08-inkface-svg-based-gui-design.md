@@ -2,7 +2,7 @@
 layout: post
 title: "Inkface - SVG based GUI design"
 ---
-"Inkface - SVG based GUI design"
+Inkface - SVG based GUI design
 ===
 I have always wondered why are there so many advanced technologies to learn to create the GUI for a software application. GUI is what we see, then if we want to design or customize it, then it should be as simple as editing an image in an Image editor. This becomes more important with the next-gen handheld devices, where the GUIs will be handled more intuitively - by fingers - rather than keyboards or mice. However the problem and its solution wasn't very apparent to me.  
   

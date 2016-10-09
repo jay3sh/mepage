@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.2.7 - Podcasts, Expanded View"
 ---
-"ReaderScope 1.2.7 - Podcasts, Expanded View"
+ReaderScope 1.2.7 - Podcasts, Expanded View
 ===
 Podcast support was a feature request in one of the market comments. I hadn't thought about it before that. When I looked into how to do it, it turned out to be pretty simple - thanks to Android's easy MediaPlayer API.
 

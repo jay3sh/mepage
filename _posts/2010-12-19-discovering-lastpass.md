@@ -2,7 +2,7 @@
 layout: post
 title: "Discovering LastPass"
 ---
-"Discovering LastPass"
+Discovering LastPass
 ===
 I started using LastPass since last week. I never felt a need for such utility dedicated only for password management, given that the browsers remember them well.  
   

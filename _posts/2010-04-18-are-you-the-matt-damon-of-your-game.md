@@ -2,7 +2,7 @@
 layout: post
 title: "Are you the Matt Damon of your game?"
 ---
-"Are you the Matt Damon of your game?"
+Are you the Matt Damon of your game?
 ===
 This is generally a technical blog, but some observations, although non-technical, are too interesting to not write about. I love Hollywood movies and I like Matt Damon ones a lot. Until last night however I didn't realize the most interesting pattern in the roles Matt Damon has portrayed over the years. It struck me after I watched Rounders last night.  
   

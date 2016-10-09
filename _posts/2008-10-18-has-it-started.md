@@ -2,7 +2,7 @@
 layout: post
 title: "Has it started?"
 ---
-"Has it started?"
+Has it started?
 ===
 The recession!  
   

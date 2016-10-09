@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu reviewed"
 ---
-"Ubuntu reviewed"
+Ubuntu reviewed
 ===
 My home desktop is giving problems, probably because of some heat issues. So I cannot continue what I was working on over weekend. That gives me time to write about my review of new release of Ubuntu that I installed on my office machine.  
   

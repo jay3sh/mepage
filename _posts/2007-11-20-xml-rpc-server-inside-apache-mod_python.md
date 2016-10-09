@@ -2,7 +2,7 @@
 layout: post
 title: "XML RPC server inside apache mod_python"
 ---
-"XML RPC server inside apache mod_python"
+XML RPC server inside apache mod_python
 ===
 Writing XML RPC server and client in python is extremely easy. There are many examples. [xmlrpclib][0] is part of python, so writing client doesn't need anything extra. There are many examples of XMLRPC server as well. I used [Julien Oster's][1].  
   

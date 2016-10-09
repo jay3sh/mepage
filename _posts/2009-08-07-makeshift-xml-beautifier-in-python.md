@@ -2,7 +2,7 @@
 layout: post
 title: "Makeshift XML beautifier in python"
 ---
-"Makeshift XML beautifier in python"
+Makeshift XML beautifier in python
 ===
 Lately I had to deal with some XML dumps. It's a pain to analyse XML if it's not properly indented. Browsers do the best job of rendering XML. Those collapsable XML elements are very handy. But they work only if the XML file is downloaded with right MIME type. That's why XML dumped to a local file and opened using a browser doesn't get the same treatment.  
   

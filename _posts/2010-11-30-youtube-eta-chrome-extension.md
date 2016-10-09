@@ -2,7 +2,7 @@
 layout: post
 title: "Youtube ETA - Chrome extension"
 ---
-"Youtube ETA - Chrome extension"
+Youtube ETA - Chrome extension
 ===
 If you have ever tried to watch a youtube video on a slow network connection, you will know the frustration I often face. Wondering when that red progress bar will reach its end. Thanks to a chrome extension like [Stop Autoplay][0], I can let the youtube video open in background tab and let it buffer as I browse other webpages. But still I have to go back to the youtube video's tab to find out if the video is downloaded, can I start watching it?
 

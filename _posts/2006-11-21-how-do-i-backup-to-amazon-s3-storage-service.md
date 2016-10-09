@@ -2,7 +2,7 @@
 layout: post
 title: "How do I backup to Amazon S3 storage service"
 ---
-"How do I backup to Amazon S3 storage service"
+How do I backup to Amazon S3 storage service
 ===
 All of today I spent putting together all the tools to do an incremental backup to the [Amazon S3 storage service][0].  
   

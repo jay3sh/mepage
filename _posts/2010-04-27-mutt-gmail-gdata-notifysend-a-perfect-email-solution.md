@@ -2,7 +2,7 @@
 layout: post
 title: "Mutt, Gmail, gdata, notify-send: A Perfect Email solution"
 ---
-"Mutt, Gmail, gdata, notify-send: A Perfect Email solution"
+Mutt, Gmail, gdata, notify-send: A Perfect Email solution
 ===
 Ever since I started working on my own, GMail has become my primary email account. I was mostly satisfied with the default web interface. However, the heavy javascript interface takes eternity to load on my slow network. The basic HTML interface is slim but doesn't have keyboard shortcuts, so it's useless. Moreover recently I found the GMail tab hogging most amount of memory in Chrome task manager. That gave me the final push to switch to a local email client.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "How to do an online IDE for Android app development"
 ---
-"How to do an online IDE for Android app development"
+How to do an online IDE for Android app development
 ===
 No, this is not a product that I am planning to work on. I am sufficiently occupied with my current projects and plan to continue working on them. But one can't help flirting with new ideas, so I am going to put it out there. If you like it, go implement it.  
   

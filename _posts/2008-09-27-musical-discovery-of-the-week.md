@@ -2,7 +2,7 @@
 layout: post
 title: "Musical discovery of the week"
 ---
-"Musical discovery of the week"
+Musical discovery of the week
 ===
 Well, there are couple.  
   

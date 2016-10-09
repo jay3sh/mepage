@@ -2,7 +2,7 @@
 layout: post
 title: "VI - A capable IDE"
 ---
-"VI - A capable IDE"
+VI - A capable IDE
 ===
 Among the tools software professionals use 'vi' can be considered most geeky (read cooooooooool) tool. People using \*nix based systems for development settle for xemacs or more modern editors/IDEs. vi seems to be a preference of system administrators or people who do more of configuration stuff than only writing and compiling code. This is because vi is very handy and fast tool (no GUI launch like xemacs). One of the reasons for vi being less popular in many developers and more popular in geeks is its very compact and hence hard to learn keyboard commands.  
   

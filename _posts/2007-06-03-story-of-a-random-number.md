@@ -2,7 +2,7 @@
 layout: post
 title: "Story of a random number"
 ---
-"Story of a random number"
+Story of a random number
 ===
 Once upon a time there was a random number generator. It used to generate numbers without any break. After a while all the numbers it generated started piling up. Since they were all random numbers, some of them were smart and some of them were dumb. The smart ones started grouping together. They formed sets, they formed lists, they formed matrices. Some of the groups whose numbers had common factors went along fine and they grew bigger in size. Other random structures which didn't find anything common, just faded in time.   
   

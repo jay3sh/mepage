@@ -2,7 +2,7 @@
 layout: post
 title: "Lions for Lambs"
 ---
-"Lions for Lambs"
+Lions for Lambs
 ===
 I watched this movie last night on DVD. It is a must-see if you are/were an idealist. It is a reflection upon the present US war politics. However, the core theme is far reaching.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Cutewit (preview)"
 ---
-"Cutewit (preview)"
+Cutewit (preview)
 ===
 This blog has been quiet lately despite all the things I have to share. The main culprit is Twitter. Everything there is to share, trickles away 140 characters a time and nothing is left for a long blog post.  
   

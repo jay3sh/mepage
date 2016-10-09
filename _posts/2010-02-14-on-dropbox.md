@@ -2,7 +2,7 @@
 layout: post
 title: "on Dropbox"
 ---
-"on Dropbox"
+on Dropbox
 ===
 I have been using [Dropbox][0] for a few weeks now. There are several solutions to address our storage issues and I have found all those solutions inadequate in one way or another. Dropbox seems to have solved most of those problems for me.  
   

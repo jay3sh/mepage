@@ -2,7 +2,7 @@
 layout: post
 title: "HTC Magic (Indian version) - expectations and facts"
 ---
-"HTC Magic (Indian version) - expectations and facts"
+HTC Magic (Indian version) - expectations and facts
 ===
 This month HTC Magic came to India. Being the first Android phone to be introduced in India, it is much longed for by Indian geeks. I know how much I have waited for it. Yesterday afternoon when I eventually received a list of dealers from HTC support, that are selling Magic, I almost left for the nearest one to buy a piece. But after I googled a little thouroughly, I found some early reports of HTC magic.  
   

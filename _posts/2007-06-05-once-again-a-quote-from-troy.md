@@ -2,7 +2,7 @@
 layout: post
 title: "Once again... a quote from 'Troy'"
 ---
-"Once again... a quote from 'Troy'"
+Once again... a quote from 'Troy'
 ===
 Everytime I watch Troy, I find some dialog worth blogging....  
   

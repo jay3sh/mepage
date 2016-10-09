@@ -2,7 +2,7 @@
 layout: post
 title: "Reality of colors"
 ---
-"Reality of colors"
+Reality of colors
 ===
 Few days back I read an excellent article, titled "The Science of Avatar". It is a great analysis of the movie from scientific point of view. If you liked the movie, you should check out the article.  
   

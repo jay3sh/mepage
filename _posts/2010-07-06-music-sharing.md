@@ -2,7 +2,7 @@
 layout: post
 title: "Music sharing"
 ---
-"Music sharing"
+Music sharing
 ===
 I can't possibly add more to what has already been discussed so many times on Music sharing or piracy. But after reading this [slashdot story][0] yesterday and [this interview][1] of Prince, I couldn't resist from writing something about it. I think all the musicians, artists or any kinds of content creators are clearly missing a point.
 

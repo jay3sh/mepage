@@ -2,7 +2,7 @@
 layout: post
 title: "Today's slashdot and open source"
 ---
-"Today's slashdot and open source"
+Today's slashdot and open source
 ===
 If you read today's slashdot, you couldn't have missed these two news being posted [one][0] after the [other][1]. It supplements my previous post on open souce.  
   

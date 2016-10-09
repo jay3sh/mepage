@@ -2,7 +2,7 @@
 layout: post
 title: "Testing Android (Koolu Beta 3) on Openmoko Freerunner"
 ---
-"Testing Android (Koolu Beta 3) on Openmoko Freerunner"
+Testing Android (Koolu Beta 3) on Openmoko Freerunner
 ===
 \[My Openmoko Freerunner hadn't got much love in a long time. So its battery discharged to absolutely no charge. Then I realised that I have got a deadlock - FR cannot turn ON without battery and the battery won't charge unless FR is ON (because the firmware can't negotiate enough current from USB port to charge the battery, the running FR kernel can do that). Anyway, after coming to India I got a cheap instrument that tests and charges generic cell-phone batteries like FR's. The device's simplicity is amazing. It has two metal probes that can be adjusted to make contact with the battery terminals and with help of two buttons you can either test battery's charge or start charging it. Point is, the external charging worked.\]  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Nice review article on virtualization technologies"
 ---
-"Nice review article on virtualization technologies"
+Nice review article on virtualization technologies
 ===
 This one is [pretty thorough analysis][0] of status quo on Virtualization.  
   

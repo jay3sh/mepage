@@ -2,7 +2,7 @@
 layout: post
 title: "OpenMoko, Android and a great hacking post"
 ---
-"OpenMoko, Android and a great hacking post"
+OpenMoko, Android and a great hacking post
 ===
 I was exploring the OpenMoko phone (Neo 1973) after I read about it in Dec'07 Linux Journal issue. It holds great promise. I might buy it as my next cell phone. Most of my gadget shopping research focuses on the versatility of the hardware. In other words, how many different ways can I use and reuse the hardware. This is essential because after few months I get bored of the software installed on that gadget. After buying Nokia n770, I have decided always to buy such "open" gadgets in future. So I was researching OpenMoko from that perspective. And OpenMoko as it turns out, is the most "Open" a gadget can be - as far as software stack is concerned (I am not interested in Hardware openness anyway).  
   

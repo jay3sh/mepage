@@ -2,7 +2,7 @@
 layout: post
 title: "Debian repository on Google App Engine"
 ---
-"Debian repository on Google App Engine"
+Debian repository on Google App Engine
 ===
 So here is the post about the [eureka moment][0] I promised on Twitter.  
   

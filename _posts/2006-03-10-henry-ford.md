@@ -2,7 +2,7 @@
 layout: post
 title: "Henry Ford"
 ---
-"Henry Ford"
+Henry Ford
 ===
 Long time, no post. So today I am going to post this quote I just read. So true...  
   

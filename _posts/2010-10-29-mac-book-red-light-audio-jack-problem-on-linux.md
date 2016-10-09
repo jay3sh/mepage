@@ -2,7 +2,7 @@
 layout: post
 title: "Mac book red light audio jack problem on Linux"
 ---
-"Mac book red light audio jack problem on Linux"
+Mac book red light audio jack problem on Linux
 ===
 When I upgraded my Macbook (2,1) to Ubunut 10.10 last week, I realized after a while that it wouldn't play any audio through the audio jack. The built-in speakers were working well, but as soon as I plugged in the headphone the built-in speakers would go off (as expected) and the headphone would be quiet too.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Einstein's Dreams"
 ---
-"Einstein's Dreams"
+Einstein's Dreams
 ===
 Hardly ever (i.e. never) do I read a book in one sitting. I started this book last night and it's noon today when I read its last page.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Cringely and Paul Graham"
 ---
-"Cringely and Paul Graham"
+Cringely and Paul Graham
 ===
 I had decided to dedicate a post on the list of my favorite writers/columnists. But today I read two great essays written by two of them in last week. Here are some favorite quotes of mine from the article.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Hilarious nerd comment"
 ---
-"Hilarious nerd comment"
+Hilarious nerd comment
 ===
 Read this in a Register article today. Most hilarious nerd comment I heard lately:\[context - the reporter was at LinuxWorld conference where he saw a FreeBSD booth\]  
   

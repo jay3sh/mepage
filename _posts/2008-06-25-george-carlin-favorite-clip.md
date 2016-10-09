@@ -2,7 +2,7 @@
 layout: post
 title: "George Carlin - favorite clip"
 ---
-"George Carlin - favorite clip"
+George Carlin - favorite clip
 ===
 This one is my favorite from George Carlin's youtube clips.  
   

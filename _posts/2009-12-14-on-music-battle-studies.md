@@ -2,7 +2,7 @@
 layout: post
 title: "on Music: Battle Studies"
 ---
-"on Music: Battle Studies"
+on Music: Battle Studies
 ===
 Past couple of weeks I have been listening to John Mayer's ([@johncmayer][0]) latest album - **Battle Studies**. I am huge fan of JM music. His last album **Continuum **became my favorite when I listened to it non-stop for three days on a cross country [road trip][1]. (You can hear those songs in background in these [trip videos][2]).  
   

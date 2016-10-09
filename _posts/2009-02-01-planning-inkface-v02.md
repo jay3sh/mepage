@@ -2,7 +2,7 @@
 layout: post
 title: "Planning Inkface v0.2"
 ---
-"Planning Inkface v0.2"
+Planning Inkface v0.2
 ===
 With v0.1.X of Inkface libraries feasibility of SVG based GUI framework is proven. With different experiments, the following structure seems to be evolving.  
 [![](http://2.bp.blogspot.com/_W6UcJjyXr24/SYVw7HhqzII/AAAAAAAACts/7_dUbD9lyB4/s400/inkface-arch.png)][0]  

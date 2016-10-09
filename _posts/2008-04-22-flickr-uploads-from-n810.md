@@ -2,7 +2,7 @@
 layout: post
 title: "Flickr uploads from n810"
 ---
-"Flickr uploads from n810"
+Flickr uploads from n810
 ===
 Finally I am done with new version of publishr for Nokia n810\. Check out the demo video.  
   

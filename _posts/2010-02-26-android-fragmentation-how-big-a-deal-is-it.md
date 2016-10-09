@@ -2,7 +2,7 @@
 layout: post
 title: "Android fragmentation : How big a deal is it?"
 ---
-"Android fragmentation : How big a deal is it?"
+Android fragmentation : How big a deal is it?
 ===
 I came across this Infoworld story via slashdot the other day, with a sensational headline: "[Google Android - a Universe of Incompatible Devices][0]". The actual headline of the article is even more catchy "[Google Android's self destruction derby begins][1]".  
   

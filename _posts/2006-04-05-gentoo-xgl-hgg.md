@@ -2,7 +2,7 @@
 layout: post
 title: "Gentoo, XGL, HGG"
 ---
-"Gentoo, XGL, HGG"
+Gentoo, XGL, HGG
 ===
 These are the things to talk about from last month. Gentoo is a hacker's distribution. It is for the bravest of hearts. Starting from a bare minimum installation (aka portage), it lets you build the system of your choice. The package management tool 'emerge' is more powerful than yum/apt. It allows you to build the source code of the application you want to install (with USE flags). I found the power of this feature when I installed Xgl with it. In fact Xgl being available on Gentoo was one of the reasons to try Gentoo. The building of Xgl, compiz window manager and other libraries with opengl support was very customizable because of the emerge's USE flags. Xgl being still an alpha software, this facility for tweaking proved very helpful.  
   

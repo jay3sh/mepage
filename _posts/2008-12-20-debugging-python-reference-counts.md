@@ -2,7 +2,7 @@
 layout: post
 title: "Debugging python reference counts"
 ---
-"Debugging python reference counts"
+Debugging python reference counts
 ===
 If you are wondering about the progress of inkface, it's coming soon. I was planning to release version 0.1.2 couple weeks ago with a cool app demonstrating the improvements in the library (A twitter client), but after I saw the abysmal memory performance of the app on my n810, I decided to wait. Past two weeks I spent understanding the memory leaks in the library. In this post I would like to share my experiences while debugging reference count leaks in my python bindings.  
   

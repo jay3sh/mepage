@@ -2,7 +2,7 @@
 layout: post
 title: "quotes from George Carlin"
 ---
-"quotes from George Carlin"
+quotes from George Carlin
 ===
 Here is the [original post][0].  
   

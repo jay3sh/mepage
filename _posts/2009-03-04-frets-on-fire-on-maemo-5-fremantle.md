@@ -2,7 +2,7 @@
 layout: post
 title: "Frets on Fire on Maemo 5 (Fremantle)"
 ---
-"Frets on Fire on Maemo 5 (Fremantle)"
+Frets on Fire on Maemo 5 (Fremantle)
 ===
 Couple days ago I played Frets on Fire ([FoF][0]) for the first time. I was totally hooked on to it. After going through its hilarious tutorial and starting with a pathetic performance, I managed to score 37K points with 87% accuracy on the "Defy the Machine" song a few moments ago.  
   

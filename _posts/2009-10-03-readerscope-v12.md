@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope v1.2"
 ---
-"ReaderScope v1.2"
+ReaderScope v1.2
 ===
 After 1 week of reimplementation of news cache, 1 day of testing and 1 last hour of crazy epiphanies and patches... v1.2 is out.
 

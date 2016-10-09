@@ -2,7 +2,7 @@
 layout: post
 title: "Crash report for Android App"
 ---
-"Crash report for Android App"
+Crash report for Android App
 ===
 To err is human and to crash is the software created by human (even if it is made for Android ;)  
 

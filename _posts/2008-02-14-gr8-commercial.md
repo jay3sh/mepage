@@ -2,7 +2,7 @@
 layout: post
 title: "Gr8 commercial"
 ---
-"Gr8 commercial"
+Gr8 commercial
 ===
 I always enjoy watching commercials that are genuinely thoughtful. I saw this one today on TV and just loved it.  
   

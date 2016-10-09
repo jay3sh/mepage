@@ -2,7 +2,7 @@
 layout: post
 title: "Indirect experiments"
 ---
-"Indirect experiments"
+Indirect experiments
 ===
 I like how some advanced experiments in science are fantastically indirect. Take for example this experiment of measuring mass of proton ([source][0]).  
   

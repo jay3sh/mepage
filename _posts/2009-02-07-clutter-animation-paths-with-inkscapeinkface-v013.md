@@ -2,7 +2,7 @@
 layout: post
 title: "Clutter animation paths with Inkscape+Inkface (v0.1.3)"
 ---
-"Clutter animation paths with Inkscape+Inkface (v0.1.3)"
+Clutter animation paths with Inkscape+Inkface (v0.1.3)
 ===
 While I am working on inkface v0.2, I will keep releasing dot versions for 0.1.x that will have some improvements that are independent of altsvg backend. So I have posted v0.1.3 source tarballs.  
   

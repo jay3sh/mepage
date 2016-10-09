@@ -2,7 +2,7 @@
 layout: post
 title: "Why don't they publish eBooks for free but with embedded ads?"
 ---
-"Why don't they publish eBooks for free but with embedded ads?"
+Why don't they publish eBooks for free but with embedded ads?
 ===
 Just like the news publishers, book publishing industry seems to be doomed. The convenience of eBooks is going to make paper books obsolete and once something is converted to soft format it is hard to control its spread. Consequently it becomes hard to exchange it for money.  
   

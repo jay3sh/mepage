@@ -2,7 +2,7 @@
 layout: post
 title: "Functional programming in Javascipt using Underscore.js"
 ---
-"Functional programming in Javascipt using Underscore.js"
+Functional programming in Javascipt using Underscore.js
 ===
 My interest in functional programming was re-kindled when I attended a talk on the topic at PyCon India this September. Subsequently I tried to look into how it can benefit my code - Javascript or python.  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "The AND-OR problem of laptop and mobile phone"
 ---
-"The AND-OR problem of laptop and mobile phone"
+The AND-OR problem of laptop and mobile phone
 ===
 As the Laptops are shrinking in size and phones are growing in functionality, some of us are faced with this problem. A significant portion of modern working population has basic minimum need for two devices: A computer and A phone. When they have to carry these devices, the former is in the form of laptop. The later is soon becoming some kind of smart phone. As the phones are matching the computers in terms of processing power; we are soon going to face "Why should I carry two devices?" problem.  
   

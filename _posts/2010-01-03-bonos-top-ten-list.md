@@ -2,7 +2,7 @@
 layout: post
 title: "Bono's top ten list"
 ---
-"Bono's top ten list"
+Bono's top ten list
 ===
 I just came across this op-ed piece by Bono for NY Times via my Twitter stream. It has so many quotable quotes that a simple retweet won't justify how much I enjoyed it. I would dare say this list is most interesting of the top-ten lists I have read during this turn of the decade. It includes topics from Social-Political solutions in Africa to Teleportation to Piracy to sexy cars.  
   

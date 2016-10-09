@@ -2,7 +2,7 @@
 layout: post
 title: "Gas prices... seems like big scam"
 ---
-"Gas prices... seems like big scam"
+Gas prices... seems like big scam
 ===
 I told my friends last weekend that I am gonna fill my tank on the day before election, to avoid the gas price hike that will follow once elections get over. I was little serious though at the back of my mind. But I did fill my tanks on Monday.  
   

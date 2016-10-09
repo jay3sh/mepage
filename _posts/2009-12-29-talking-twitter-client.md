@@ -2,7 +2,7 @@
 layout: post
 title: "Talking Twitter client"
 ---
-"Talking Twitter client"
+Talking Twitter client
 ===
 So I learnt this afternoon about this Linux utility called [festival][0]. It's a text to speech conversion program. Running it is as simple as  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "across two hours"
 ---
-"across two hours"
+across two hours
 ===
 Recently I moved from Minnesota to California. I took the opportunity to see U of S by road. After spending 48 hours behind the wheel of my toyota corolla, I traveled across 9 states and 2 timezones to reach the sunny state. The journey was full of memorable experiences, mainly the variety of landscapes that drove past me. The first day through Iowa, Missouri, Kansas wasn't very eventful. I enjoyed the ride down the I35 with lots of podcasts on my iPod. In Oklahoma city the route turned westwards along I40\. Texas, New Mexico, Arizona and finally California were rich with variety of terrains.  
   

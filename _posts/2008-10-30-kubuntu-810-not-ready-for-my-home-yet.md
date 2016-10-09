@@ -2,7 +2,7 @@
 layout: post
 title: "(k)ubuntu 8.10 - not ready for my home yet"
 ---
-"(k)ubuntu 8.10 - not ready for my home yet"
+(k)ubuntu 8.10 - not ready for my home yet
 ===
 (K)ubuntu is a very glamorous distro and I await its every new release with lot of enthusiasm. So after every release I burn the CD to upgrade my home desktop. And eventually I end up in the step where I realize why it didn't work last time and why it's not gonna work this time either.  
   

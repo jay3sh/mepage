@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.1 - Social Beacons"
 ---
-"ReaderScope 1.1 - Social Beacons"
+ReaderScope 1.1 - Social Beacons
 ===
 Do you ever read a news story or a blog post in your RSS reader and wonder what other readers think about it? You can visit the web page and see what comments it has got. You can go to news ranking sites like Digg/Reddit and read the comments. You can peek into FriendFeed to see what people have to say about this story. But imagine doing that from a 320x480 screen of your android phone. ReaderScope v1.1 tries to make this social interaction easy for you with Social Beacons.
 

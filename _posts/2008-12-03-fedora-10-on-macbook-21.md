@@ -2,7 +2,7 @@
 layout: post
 title: "Fedora 10 on MacBook 2,1"
 ---
-"Fedora 10 on MacBook 2,1"
+Fedora 10 on MacBook 2,1
 ===
 I finally got Linux working on my Macbook. Although, I had bought this Macbook in Dec'06, after confirming that Linux can be installed on it; I never felt any need to do so. My desktop was sufficient for the task. But soon I will be getting rid of my desktop, so have to prepare the Macbook as a primary coding machine.  
   

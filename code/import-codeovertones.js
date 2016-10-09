@@ -52,6 +52,7 @@ function processContent(contentval, year) {
           console.error('No title found', parents[0]['title'][0]);
           return;
         }
+        let quoteescaped_title = title.replace(/"/g,'\\"');
         let sanetitle = title
           .split(/\s+/)
           .map(seg => seg.replace(/[\W]/g,'').toLowerCase())
@@ -70,9 +71,9 @@ function processContent(contentval, year) {
         let mdcontent =
 `---
 layout: post
-title: "${title}"
+title: "${quoteescaped_title}"
 ---
-"${title}"
+${title}
 ===
 ${md(content)}
 `;

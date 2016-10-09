@@ -2,7 +2,7 @@
 layout: post
 title: "If Harry Potter were a computer hacker ..."
 ---
-"If Harry Potter were a computer hacker ..."
+If Harry Potter were a computer hacker ...
 ===
 Rebellion, that makes him the Chosen One, is the quality that Harry Potter seems to share with a computer hacker. So I cannot resist the temptation to see HP's adventures through a computer geek's spectacles.  
   

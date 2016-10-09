@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.0.2 - making deep cache simple"
 ---
-"ReaderScope 1.0.2 - making deep cache simple"
+ReaderScope 1.0.2 - making deep cache simple
 ===
 As was rightly complained, the deep caching feature didn't seem to work in ReaderScope. It appeared so because a) If feed is not marked for periodic download, deep caching won't have any effect b) deep caching wasn't done for news items that were already downloaded. In 1.0.2 this is fixed. 
 

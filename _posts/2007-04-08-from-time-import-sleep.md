@@ -2,7 +2,7 @@
 layout: post
 title: "\"from time import sleep\""
 ---
-"\"from time import sleep\""
+"from time import sleep"
 ===
 Now you wonder what's about the title! What does it mean?   
   

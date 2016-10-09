@@ -2,7 +2,7 @@
 layout: post
 title: "Turning a page"
 ---
-"Turning a page"
+Turning a page
 ===
 "...What I think is, it's never  
     too late...or, in my case, too  

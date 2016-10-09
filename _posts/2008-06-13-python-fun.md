@@ -2,7 +2,7 @@
 layout: post
 title: "Python fun"
 ---
-"Python fun"
+Python fun
 ===
 On Sunday I had great fun writing some cool [python code][0]. Finally I think I got what lambda is good for.  
   

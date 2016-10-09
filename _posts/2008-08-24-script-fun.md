@@ -2,7 +2,7 @@
 layout: post
 title: "Script fun"
 ---
-"Script fun"
+Script fun
 ===
 If you use Gnome, then you can use this quick script for setting casual reminders from command line.  
 

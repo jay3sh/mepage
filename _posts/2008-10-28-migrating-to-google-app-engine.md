@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating to Google App Engine"
 ---
-"Migrating to Google App Engine"
+Migrating to Google App Engine
 ===
 Last year I wrote plugins for Gimp/Inkscape that allow image uploads to Flickr/Picasa from the Image editors. The plugin code talks the public APIs of Flickr/Picasa. Flickr tracks the API user's calls by means of an API key and a corresponding secret key. Typically the apps ship both the API and secret key with their application code. This creates problem if Yahoo disables your API key OR just the idea of sharing your secret key is not comfortable.  
   

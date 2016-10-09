@@ -2,7 +2,7 @@
 layout: post
 title: "more fun with notify-send"
 ---
-"more fun with notify-send"
+more fun with notify-send
 ===
 I [like][0] notify-send. Here is one more simple script that uses notify-send. (notify-send is the command line utility that shows pop-up message in the right hand bottom corner of desktop).  
   

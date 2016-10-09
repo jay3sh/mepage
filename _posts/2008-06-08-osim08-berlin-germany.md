@@ -2,7 +2,7 @@
 layout: post
 title: "OSiM'08 Berlin, Germany"
 ---
-"OSiM'08 Berlin, Germany"
+OSiM'08 Berlin, Germany
 ===
 If you remember my posts \[[1][0],[2][1]\] from OSiM'08 USA in San Francisco back in March, here is an update for you.  
   

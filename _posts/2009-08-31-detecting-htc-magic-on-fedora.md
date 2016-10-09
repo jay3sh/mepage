@@ -2,7 +2,7 @@
 layout: post
 title: "Detecting HTC magic on Fedora"
 ---
-"Detecting HTC magic on Fedora"
+Detecting HTC magic on Fedora
 ===
 It has been full 72 hours I have had the HTC Magic now. I am starting to believe that this is going to be the pefect gadget I have ever had. It is a fully functional mobile+internet device (unlike the Freerunner - no offence); and it's completely programmable to the extent I care (Unlike any other cell phone I ever had); moreover it's hot and mainstream (unlike Nokia IT's I have had - again no offence) enough thus giving access to wide range of apps.  
   

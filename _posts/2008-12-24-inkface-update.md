@@ -2,7 +2,7 @@
 layout: post
 title: "Inkface update"
 ---
-"Inkface update"
+Inkface update
 ===
 So as promised, here is an update on Inkface. I am ready with v0.1.2, almost.  
   

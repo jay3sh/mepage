@@ -2,7 +2,7 @@
 layout: post
 title: "using android AsyncTask"
 ---
-"using android AsyncTask"
+using android AsyncTask
 ===
 While coding for [CuTewit][0], I have refined the multi threading framework of the app couple of times. In this post I am documenting what I have learnt from the experiences. The intial part of the post, describes the old way of coding asynchronous tasks for Android, while the later part talks about how to make use of android.os.AsyncTask and my enhancements to it.  
   

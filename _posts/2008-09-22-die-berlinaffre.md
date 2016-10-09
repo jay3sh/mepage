@@ -2,7 +2,7 @@
 layout: post
 title: "Die Berlin-Affäre"
 ---
-"Die Berlin-Affäre"
+Die Berlin-Affäre
 ===
 \[Originally written on 09/21 on my n810 while waiting in Frankfurt airport\]  
   

@@ -2,7 +2,7 @@
 layout: post
 title: "Accelerometer brainstorming"
 ---
-"Accelerometer brainstorming"
+Accelerometer brainstorming
 ===
 Here is an example of benefits of open architectures.  
   

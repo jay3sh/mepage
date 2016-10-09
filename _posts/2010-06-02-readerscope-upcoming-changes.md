@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope upcoming changes"
 ---
-"ReaderScope upcoming changes"
+ReaderScope upcoming changes
 ===
 Last weekend I released ReaderScope 1.9.8\. It has some changes that should fix crashes that some users have reported in comments at Android market. These crashes went unnoticed for such a long time, because I didn't see them myself during my testing and they were not captured by the built-in crash reporting mechanism. But I found about them last week, thanks to [Android market's new crash report collection][0] mechanism. One frequent crash was happening in the background download service and it wasn't captured by RS's crash handler. It should be fixed in v1.9.8\. So thumbs up to Android team for adding this new facility to Market.  
   

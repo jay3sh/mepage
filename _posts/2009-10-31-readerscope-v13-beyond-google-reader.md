@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope v1.3 - Beyond Google Reader"
 ---
-"ReaderScope v1.3 - Beyond Google Reader"
+ReaderScope v1.3 - Beyond Google Reader
 ===
 Google Reader gives us _choice_ in News Reading. With the advent of RSS aggregators, we got the power to subscribe to selective sources of news. That way we can fetch the up-to-date information from the selective sources that we prefer. This saves us time. We build a focused channel to acquire our daily diet of news. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "New connection with the past"
 ---
-"New connection with the past"
+New connection with the past
 ===
 Recently I've been busy and couldn't post here lately. Between playing with my OpenMoko phone, writing the OSiM blog every weekend, hacking librsvg (why? 'll post about it if it takes any shape), a trip to Bartlesville, OK and of course full-time day job; I couldn't manage enough cycles to write here. However I had many things to write about.  
   

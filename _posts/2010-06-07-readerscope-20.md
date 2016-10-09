@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 2.0"
 ---
-"ReaderScope 2.0"
+ReaderScope 2.0
 ===
 ReaderScope 2.0 is out in the Market today.  
   

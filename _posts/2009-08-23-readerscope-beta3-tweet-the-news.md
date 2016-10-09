@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope beta3 - Tweet the news"
 ---
-"ReaderScope beta3 - Tweet the news"
+ReaderScope beta3 - Tweet the news
 ===
 I am yet to find a straight-forward hassle free way to share my Google Reader news on my Twitter. There are many ways to do it on a desktop (Twitterfeed, "Send to" option), but none I could find is a one-click yet customizable option. With ReaderScope beta3 I am trying to solve that problem at least for the Android phone.  
   

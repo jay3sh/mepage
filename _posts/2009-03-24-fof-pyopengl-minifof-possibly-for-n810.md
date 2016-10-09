@@ -2,7 +2,7 @@
 layout: post
 title: "FoF - PyOpenGL = miniFoF (possibly for n810)"
 ---
-"FoF - PyOpenGL = miniFoF (possibly for n810)"
+FoF - PyOpenGL = miniFoF (possibly for n810)
 ===
 After spending some time on the Frets-on-Fire code I have managed to liberate it from PyOpenGL dependency.  
   

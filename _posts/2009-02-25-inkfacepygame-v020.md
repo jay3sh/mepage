@@ -2,7 +2,7 @@
 layout: post
 title: "Inkface+pygame v0.2.0"
 ---
-"Inkface+pygame v0.2.0"
+Inkface+pygame v0.2.0
 ===
 As per the [plan][0] for v0.2, I am ready with a working implementation of inkface. I also made few more design decisions after my last design post. Here are the highlights:  
   

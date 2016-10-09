@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.8 - Random"
 ---
-"ReaderScope 1.8 - Random"
+ReaderScope 1.8 - Random
 ===
 Just pushed out v1.8 of [ReaderScope][0]. Added a new feature after a long optimization-bugfix cycles in v1.7.x.  
   

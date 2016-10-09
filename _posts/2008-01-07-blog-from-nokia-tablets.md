@@ -2,7 +2,7 @@
 layout: post
 title: "Blog from nokia tablets"
 ---
-"Blog from nokia tablets"
+Blog from nokia tablets
 ===
 Last night I came across [Benoît HERVIER][0]'s Maemo App [PyGTKEditor][1]. That finished my search for a simple text editor tool for Maemo written in Python. I was aware of how simple it was to write a client for Google's blogger.com using the python bindings of its GData protocol. So I was in search of a very simple text editor that I could tweak to write a Blogger client for Maemo.  
   

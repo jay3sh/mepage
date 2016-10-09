@@ -2,7 +2,7 @@
 layout: post
 title: "formula of a horror movie"
 ---
-"formula of a horror movie"
+formula of a horror movie
 ===
 Imagine you are working all day at your office. You interact with so many people. Many people come to your office or desk uninvited. They just show up standing besides you, you at first fail to notice them, then suddenly you become aware of their presence. You travel on a subway or in a bus or shop in a department store, but when a totally stranger face or body shows up in your eyesight, you just take it granted - let alone stun or scare.  
   

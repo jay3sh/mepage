@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope v1.7 - Widget, new Icons and .... Ads"
 ---
-"ReaderScope v1.7 - Widget, new Icons and .... Ads"
+ReaderScope v1.7 - Widget, new Icons and .... Ads
 ===
 Last night I released ReaderScope v1.7\.  
   

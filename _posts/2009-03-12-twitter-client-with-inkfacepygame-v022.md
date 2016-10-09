@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter client with inkface-pygame v0.2.2"
 ---
-"Twitter client with inkface-pygame v0.2.2"
+Twitter client with inkface-pygame v0.2.2
 ===
 Here is an update on the Inkface library. But before that let me give a background of the project for the benefit of new readers that will be reading this post via Planet Maemo.  
   

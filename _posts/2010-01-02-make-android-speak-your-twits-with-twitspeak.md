@@ -2,7 +2,7 @@
 layout: post
 title: "Make Android speak your Twits with \"TwitSpeak\""
 ---
-"Make Android speak your Twits with \"TwitSpeak\""
+Make Android speak your Twits with "TwitSpeak"
 ===
 Happy New Year All.  
   

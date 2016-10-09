@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.9 - OAuth"
 ---
-"ReaderScope 1.9 - OAuth"
+ReaderScope 1.9 - OAuth
 ===
 For past month or so, some of you (ReaderScope users) might be facing problems if you were using AutoLogin. This happened after I updated the login mechanism in [v1.8.2][0] to support Google Reader authentication changes. I won't go into the details, but AutoLogin is very likely to fail in the new scheme of authentication. So I advised some of you who sent me the error reports to switch to Username/Password login. It was a temporary solution.  
   

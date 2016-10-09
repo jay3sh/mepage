@@ -2,7 +2,7 @@
 layout: post
 title: "Paul Graham nails it again!"
 ---
-"Paul Graham nails it again!"
+Paul Graham nails it again!
 ===
 Paul Graham published a new essay today "Could VC be a Casualty of the Recession?" It is one of those awesome ones. The best part of the essay is this:  
 

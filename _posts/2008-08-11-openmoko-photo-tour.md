@@ -2,7 +2,7 @@
 layout: post
 title: "OpenMoko photo tour"
 ---
-"OpenMoko photo tour"
+OpenMoko photo tour
 ===
 Today on the OSiM blog, I reviewed 3 major distribution efforts on OpenMoko phone.  
   

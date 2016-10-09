@@ -2,7 +2,7 @@
 layout: post
 title: "Another nice quote"
 ---
-"Another nice quote"
+Another nice quote
 ===
 > I don't know much poetry... but I can see the beauty of this quote:  
 >   

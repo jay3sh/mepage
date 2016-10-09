@@ -2,7 +2,7 @@
 layout: post
 title: "Preprocessing the GUI"
 ---
-"Preprocessing the GUI"
+Preprocessing the GUI
 ===
 Couple of days ago while on a bus, an old idea resurfaced in my mind. I had briefly thought about it in the past and then shelved it in some corner. But now the idea seemed very relevant.  
   

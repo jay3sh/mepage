@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.5 - quicker, better, prettier"
 ---
-"ReaderScope 1.5 - quicker, better, prettier"
+ReaderScope 1.5 - quicker, better, prettier
 ===
 ReaderScope 1.5 is ready for the holidays. With the latest improvements it gives the best Google Reader experience out there for your Android phone.  
   

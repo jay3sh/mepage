@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.1.3 - SDCard storage"
 ---
-"ReaderScope 1.1.3 - SDCard storage"
+ReaderScope 1.1.3 - SDCard storage
 ===
 Update: Just released 1.1.3a. Thanks to Fernando, found a hidden bug in a background thread. the 'a' version fixes it.  
   

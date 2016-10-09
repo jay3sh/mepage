@@ -2,7 +2,7 @@
 layout: post
 title: "coding Monalisa"
 ---
-"coding Monalisa"
+coding Monalisa
 ===
 Few days back I met an old friend of mine. He is an architect by profession. It didn't take long for the chats to turn philosophical or artistic. I ended up explaining him about my profession. About the school of thought that computer programming is an art and not dry science. How things are in the computer industry when seen from an artist's point of view. I gave him an hypothetical analogy to explain my point. After few days it occurred to me, that could be a topic for this blog....  
   

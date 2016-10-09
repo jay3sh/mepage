@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.1.1 quick-n-easy features"
 ---
-"ReaderScope 1.1.1 quick-n-easy features"
+ReaderScope 1.1.1 quick-n-easy features
 ===
 In the last post I forgot to mention the new feature added - crash reporter. But thanks to the users who used this feature to report the crashes, I found a subtle problem. Also a couple of suggestions from comments in last post were pretty easy to implement on a Sunday afternoon. So I just released v1.1.1 with the fix for the Login crash, two features (zoom functionality, filtering read items) and a little internal optimization.
 

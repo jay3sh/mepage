@@ -2,7 +2,7 @@
 layout: post
 title: "Android opened - first looks inside"
 ---
-"Android opened - first looks inside"
+Android opened - first looks inside
 ===
 Update (Nov 12 '08) Benno has got android [running][0] on Openmoko. Gr8 job!  
   

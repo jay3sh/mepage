@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.8.1 - rethinking features"
 ---
-"ReaderScope 1.8.1 - rethinking features"
+ReaderScope 1.8.1 - rethinking features
 ===
 In the release-early-release-often model, as the software product evolves over time, new features get added consistently. The same happened with ReaderScope for over 7 months. It started with very basic functionality and went through many iterations to reach at its current state.  
   

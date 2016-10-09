@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.2.1 - Auto Login"
 ---
-"ReaderScope 1.2.1 - Auto Login"
+ReaderScope 1.2.1 - Auto Login
 ===
 Today I came across this excellent article ["5 Nice Apps I refuse to use"][0] by [Chuck Falzone][1]. It talks about how all the Google Reader apps (or android app that needs access to Google services) ask for passwords to the user's Google account. As you know ReaderScope does it too. But I completely empathized with the author's point of view. For many like me, Google is the biggest closet in their wired home. Giving the key to this closet to any random app is scary for sure.
 

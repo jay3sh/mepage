@@ -2,7 +2,7 @@
 layout: post
 title: "Sprint HTC Hero problems with ReaderScope"
 ---
-"Sprint HTC Hero problems with ReaderScope"
+Sprint HTC Hero problems with ReaderScope
 ===
 \[Update: A fix for this problem is released in v1.2.8a. Please update.\]  
   

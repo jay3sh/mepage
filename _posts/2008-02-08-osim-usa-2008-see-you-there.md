@@ -2,7 +2,7 @@
 layout: post
 title: "OSiM USA 2008, see you there"
 ---
-"OSiM USA 2008, see you there"
+OSiM USA 2008, see you there
 ===
 I just registered for OSiM USA 2008 for 11-12 March in San Francisco.  
   

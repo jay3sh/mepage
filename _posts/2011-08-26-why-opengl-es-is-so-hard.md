@@ -2,7 +2,7 @@
 layout: post
 title: "Why OpenGL ES is so hard?"
 ---
-"Why OpenGL ES is so hard?"
+Why OpenGL ES is so hard?
 ===
 Because it takes minimum **76 lines** of code to produce even the least meaningful output - A straight line. (And that too, only after doing unfair hard coding of matrix values)  
   

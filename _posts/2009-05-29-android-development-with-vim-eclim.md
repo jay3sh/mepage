@@ -2,7 +2,7 @@
 layout: post
 title: "Android development with Vim + Eclim"
 ---
-"Android development with Vim + Eclim"
+Android development with Vim + Eclim
 ===
 Let me repeat a millionth time that Vim is my favorite code editor. I however have been lured by Eclipse's glitter in the areas such as code completion, live debugging and graphic representation of various aspects of a project. But Eclipse code editor is only a bit better than Notepad, if compared to Vim. As a compromise I found the viPlugin. I used it for a while. It's not as rich as Vim, but good enough. (BTW, it is probably the first piece of software I ever paid for).  
   

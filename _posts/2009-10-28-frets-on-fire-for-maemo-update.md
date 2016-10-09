@@ -2,7 +2,7 @@
 layout: post
 title: "Frets on Fire for Maemo - Update"
 ---
-"Frets on Fire for Maemo - Update"
+Frets on Fire for Maemo - Update
 ===
 [Back in March][0], when Fremantle SDK was released, I had ported Frets on Fire to it. Subsequent discussion made it clear that modifications were required to actually make it run on the device. I created a stripped down [version][1] which could run without the OpenGL code. This made it suitable for n900 (and even n810). But due to lack of actual device, I couldn't test it.  
   

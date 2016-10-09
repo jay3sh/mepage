@@ -2,7 +2,7 @@
 layout: post
 title: "How to save HTML5 canvas image to Google App Engine"
 ---
-"How to save HTML5 canvas image to Google App Engine"
+How to save HTML5 canvas image to Google App Engine
 ===
 This is a very specific problem and not many would have it. But I had to implement it and came up with a solution that works for me. This is how I did it for [3DTin][0].  
   

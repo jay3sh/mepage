@@ -2,7 +2,7 @@
 layout: post
 title: "Silicon Valley and Hi-tech"
 ---
-"Silicon Valley and Hi-tech"
+Silicon Valley and Hi-tech
 ===
 I grew up with a dream of doing something in the "Hi-tech" industry. Back then I imagined it will be some breakthrough scientific work like inventing a perpetual energy machine or engineering a space elevator... something that will fall under the category of rocket science.  
   

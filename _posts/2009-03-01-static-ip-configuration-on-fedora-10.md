@@ -2,7 +2,7 @@
 layout: post
 title: "Static IP configuration on Fedora 10"
 ---
-"Static IP configuration on Fedora 10"
+Static IP configuration on Fedora 10
 ===
 Until last week Hathway (my ISP in Mumbai) was asking me to do DHCP discovery for IP address. After the n/w stopped working yesterday I called their service rep. One of them couldn't resolve it yesterday, so he forwarded me to another guy who turned out to be a funny experience - he gave me all the static IP config valus - and when the network still won't work he started blaming it on computer virus and ultimately rust on my network cable (!) Fortunately for me (and also for him) the modem was little sluggish in picking up the change and the network started working.  
   

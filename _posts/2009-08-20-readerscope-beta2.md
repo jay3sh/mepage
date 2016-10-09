@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope Beta2"
 ---
-"ReaderScope Beta2"
+ReaderScope Beta2
 ===
 Spent last couple of days working on the UI and fixing few bugs. Just uploaded beta2 to the Android market. Here is the list of what's in beta2  
 

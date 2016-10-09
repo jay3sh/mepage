@@ -2,7 +2,7 @@
 layout: post
 title: "Cost of Open Source"
 ---
-"Cost of Open Source"
+Cost of Open Source
 ===
 Recently there have been couple of news regarding Open Source, and it forced me into thinking about it.  
   

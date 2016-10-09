@@ -2,7 +2,7 @@
 layout: post
 title: "Inkface + Clutter"
 ---
-"Inkface + Clutter"
+Inkface + Clutter
 ===
 Clutter is the easiest way to start coding GUIs with accelerated graphics. I liked it when I first saw the demo in March last year. So all the time while working on inkface, I was waiting for some free time to use inkface with clutter. After getting Inkface v0.1.2 out, I tried my pyclutter... pretty soon figured out a simple way to combine the two.  
   

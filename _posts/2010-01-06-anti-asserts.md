@@ -2,7 +2,7 @@
 layout: post
 title: "Anti Asserts"
 ---
-"Anti Asserts"
+Anti Asserts
 ===
 I couldn't help but make this name up after I thought about it in that sense.  
   

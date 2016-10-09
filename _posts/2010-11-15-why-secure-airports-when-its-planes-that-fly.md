@@ -2,7 +2,7 @@
 layout: post
 title: "Why secure airports when it's planes that fly?"
 ---
-"Why secure airports when it's planes that fly?"
+Why secure airports when it's planes that fly?
 ===
 With all the debate going over TSA's naked scanners and intimate pat-downs, I think one simple question is being totally ignored.  
   

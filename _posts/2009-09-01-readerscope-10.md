@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope 1.0"
 ---
-"ReaderScope 1.0"
+ReaderScope 1.0
 ===
 Now that ADC2 submissions are done, I am glad to release ReaderScope with its entire feature set as a 1.0 release.  
   

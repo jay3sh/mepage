@@ -2,7 +2,7 @@
 layout: post
 title: "ReaderScope beta4 - offline fun"
 ---
-"ReaderScope beta4 - offline fun"
+ReaderScope beta4 - offline fun
 ===
 Beta 4 is about some new features that make offline browsing better.  
   

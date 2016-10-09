@@ -2,7 +2,7 @@
 layout: post
 title: "Evas + Inkface in v0.2.5"
 ---
-"Evas + Inkface in v0.2.5"
+Evas + Inkface in v0.2.5
 ===
 Just released [v0.2.5][0] of inkface. In this release the Evas backend was implemented for inkface. (the one that drives [Canola][1]) I wrote the classic twitter app, using this new backend. Here are some screenshots.  
   

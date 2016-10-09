@@ -2,7 +2,7 @@
 layout: post
 title: "next desktop jump"
 ---
-"next desktop jump"
+next desktop jump
 ===
 Now Fedora 7 is out for couple of months, Fiesty Fawn was out even before that. So it was obvious that I would find something wrong with my Fedora 6 installations and convince myself to get bored of it.  
   
