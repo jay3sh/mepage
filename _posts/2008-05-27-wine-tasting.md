@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ""Wine" tasting"
+title: "\"Wine\" tasting"
 ---
-""Wine" tasting"
+"\"Wine\" tasting"
 ===
 Sometimes I wonder why I get so late in trying certain things, even though I know about them all along. One of such things is "Wine". I have been using Linux as my primary desktop OS for around 3 years now. I used to play PC games on Windows before that. After switching to Linux it became an occasional affair on a dual boot system. And lately (for around year or so) it has completely stopped.  
   

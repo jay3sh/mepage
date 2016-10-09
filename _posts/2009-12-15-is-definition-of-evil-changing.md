@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Is definition of "Evil" changing?"
+title: "Is definition of \"Evil\" changing?"
 ---
-"Is definition of "Evil" changing?"
+"Is definition of \"Evil\" changing?"
 ===
 ... in the tech industry that is.  
   

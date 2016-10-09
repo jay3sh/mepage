@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The "Screen""
+title: "The \"Screen\""
 ---
-"The "Screen""
+"The \"Screen\""
 ===
 Thanks to a friend who introduced me to the [screen utility][0] about a year ago. It is a very fine utility for unix programmers/users who spend most of the time using CLIs. I would say it is a desktop virtualization solution applied to command line terminal. It is to the command prompt, what VNC is to the graphical desktop. To learn more follow the above link or google. It is installed on almost all linux distributions by default, so you can just start using it right away.  
   

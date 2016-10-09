@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "New app "Find Comments""
+title: "New app \"Find Comments\""
 ---
-"New app "Find Comments""
+"New app \"Find Comments\""
 ===
 Over the weekend I found a simple API from [ContextVoice][0]. It was something I was looking for a long time. A service that when given a URL of a news story, returns reader comments from all over the web.  
   
