@@ -6,7 +6,7 @@ title: Why Electron is the best development platform?
 Why Electron is the best development platform?
 ==============================================
 
-A year ago, when I was making a choice between development environments to develop [Zector](http://zector.io), I evaluated three options Javascript on Electron, Python3 with PyQt, pure C++ 11. I've developed on Electron for over a year now and I'm convinced it was the right choice. Here are things I learnt and you will find useful while evaluating Electron for your needs.
+A year ago, when I was making a choice between development environments to develop [Zector](http://zector.io), I evaluated three options **Javascript on Electron**, **Python3 with PyQt**, **pure C++ 11**. I've developed on Electron for over a year now and I'm convinced it was the right choice. Here are things I learnt and you will find useful while evaluating Electron for your needs.
 
 ES6
 -----
@@ -24,7 +24,7 @@ C++ 11 also has friendlier syntax with lambda functions, `auto` type, `for(:)` s
 
 GUI Widgets
 -----------
-The biggest downside with using Python for desktop apps is GUI framework. The most mature choice is PyQt. It's mature because it has been around for a while, but that also makes it rigid. You have to learn traditional View framework of GUI widgets. It's a far cry from the fluidity of HTML DOM. Although the DOM wasn't designed for desktop apps, it has evolved and now offers the best of both worlds. If you don't want to reinvent the wheel then you can use built-in widgets, or various jQuery UI plugins for more customizable ones. But if you want to try something new, say a different layout or animated panels you can totally do it. That's very hard to do in frameworks like PyQt (that's why Qt has also adopted some form of DOM in its framework, but then that defeats the point of using Python). Moreover, PyQt is developed by a relatively obscure company with some not-so-clear licensing options for commercial usage.
+The biggest downside of using Python for desktop apps is GUI framework. The most mature option is PyQt. It's mature because it has been around for a while, but that also makes it rigid. You have to learn traditional View framework of GUI widgets. It's a far cry from the fluidity of HTML DOM. Although the DOM wasn't designed for desktop apps, it has evolved and now offers the best of both worlds. If you don't want to reinvent the wheel then you can use built-in widgets, or various jQuery UI plugins for more customizable ones. But if you want to try something new, say a different layout or animated panels you can totally do it. That's very hard to do in frameworks like PyQt (that's why Qt has also adopted some form of DOM in its framework, but then that defeats the point of using Python). Moreover, PyQt is developed by a relatively obscure company with some not-so-clear licensing options for commercial usage.
 
 Debugging GUI written over DOM is also tremendously easy, thanks to Chrome DevTools that is incidentally part of Electron. (more on that later)
 
