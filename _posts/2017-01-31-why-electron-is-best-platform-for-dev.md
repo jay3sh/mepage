@@ -12,6 +12,7 @@ ES6
 -----
 
 Javascript is not my favorite language. Python is. One of the reasons I love python is for its syntax perks. Lambda functions, list iterations, named arguments - to name a few of my favorites. They make writing code very efficient. However, circa early 2016, both Javascript and C++ have features that match Python on this front.
+
 * The [arrow functions](http://kangax.github.io/compat-table/es6/#test-arrow_functions) and array iterations ([for..of loops](http://kangax.github.io/compat-table/es6/#test-for..of_loops)) in ES6 make writing Javascript a lot more fluid than before.
 * The arrow functions with [correct semantics of `this`](http://kangax.github.io/compat-table/es6/#test-arrow_functions_this_unchanged_by_call_or_apply) reduces the cognitive load further, saving some extra code one had to write in pre-ES6 Javascript. 
 * Destructuring is a huge bonus. ES6 has gone further in incorporating destructuring in number of places - [declarations](http://kangax.github.io/compat-table/es6/#test-destructuring,_declarations), [assignment](http://kangax.github.io/compat-table/es6/#test-destructuring,_assignment), [function arguments](http://kangax.github.io/compat-table/es6/#test-destructuring,_parameters). I remember discovering some of these things without knowing that they are actually supported by the new syntax. When I tried and saw them working, it felt like magic. That's the definition of intuitive syntax. 
