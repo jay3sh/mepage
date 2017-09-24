@@ -20469,7 +20469,7 @@ class Terrain {
     constructor(worldW, worldH) {
         this.grid = [
             // X -->
-            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [0, 1, 1, 1, 1, 1, 1, 1, 1, 0],
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
             [1, 1, 0, 0, 1, 1, 1, 1, 1, 1],
             [1, 1, 0, 0, 1, 1, 1, 1, 1, 1],
@@ -20478,8 +20478,9 @@ class Terrain {
             [1, 1, 1, 1, 1, 1, 0, 1, 1, 1],
             [1, 1, 0, 0, 1, 1, 1, 1, 1, 1],
             [1, 1, 0, 0, 1, 1, 1, 1, 1, 1],
-            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+            [0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
         ];
+        console.log('Grid\n\n' + this.grid.map(row => row + '').join('\n'));
         this.graph = new javascript_astar_1.Graph(this.grid);
         this.worldW = worldW;
         this.worldH = worldH;
@@ -20490,8 +20491,8 @@ class Terrain {
     }
     getGridLocation(worldX, worldY) {
         return [
-            Math.round(worldX / this.stepX),
-            Math.round(worldY / this.stepY)
+            Math.floor(worldX / this.stepX),
+            Math.floor(worldY / this.stepY)
         ];
     }
     searchPath(from, to) {
@@ -20500,7 +20501,7 @@ class Terrain {
         let result = javascript_astar_1.astar.search(this.graph, this.graph.grid[fx][fy], this.graph.grid[tx][ty]);
         let sx = this.stepX;
         let sy = this.stepY;
-        console.log(result + '');
+        console.log('Path', result + '');
         return result.map((gridnode) => {
             return [
                 gridnode.x * sx + sx / 2,
@@ -20517,8 +20518,8 @@ class Terrain {
                 let cell = cellsX[xidx];
                 if (cell === 0) {
                     tiles.push([
-                        xidx * this.stepX - this.stepX / 2,
-                        yidx * this.stepY - this.stepY / 2,
+                        xidx * this.stepX,
+                        yidx * this.stepY,
                         this.stepX,
                         this.stepY
                     ]);
@@ -20532,9 +20533,6 @@ class Hero {
     constructor(imgpath, location = [0, 0]) {
         let texture = pixi.Texture.fromImage(imgpath);
         this.sprite = new pixi.Sprite(texture);
-        // this.sprite.interactive = true;
-        // this.sprite.buttonMode = true;
-        // this.sprite.on('pointerdown',(ev:pixi.interaction.InteractionEvent)=>{console.log('down',ev.data)});
         this.speed = 20;
         let spriteref = this.sprite;
         texture.addListener('update', () => {
@@ -20618,7 +20616,7 @@ window.onload = function () {
     let walls = new pixi.Graphics();
     for (let walltile of terrain.getWallTiles()) {
         let [x, y, w, h] = walltile;
-        walls.lineStyle(0, 0x000000, 1);
+        walls.lineStyle(1, 0x000000, 1);
         walls.beginFill(0xFF700B, 1);
         walls.drawRect(x, y, w, h);
     }
