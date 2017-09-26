@@ -42031,7 +42031,7 @@ class Actor {
         this._motionSprite = motionSprite;
         this._allSprites = [this._restSprite, this._motionSprite];
         this.setActiveSprite(this._restSprite);
-        this.speed = 5;
+        this.speed = 1;
         this.inmotion = false;
         this._target = null;
         this._path = null;
@@ -42177,7 +42177,7 @@ class Assets {
                 motionFrames.push(pixi.Texture.fromFrame('hero2.png'));
                 motionFrames.push(pixi.Texture.fromFrame('hero3.png'));
                 let motionAnim = new pixi.extras.AnimatedSprite(motionFrames);
-                motionAnim.animationSpeed = 0.01;
+                motionAnim.animationSpeed = 0.2;
                 motionAnim.play();
                 Assets.sprites.heroMotion = motionAnim;
                 resolve();
