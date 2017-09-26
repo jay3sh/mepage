@@ -42019,6 +42019,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function dot(a, b) {
     return a[0] * b[0] + a[1] * b[1];
 }
+/**
+ * Z-coordinate of cross product (because x and y are zero)
+ */
+function cross(a, b) {
+    return a[0] * b[1] - a[1] * b[0];
+}
 class Actor {
     constructor(restSprite, motionSprite, position = [0, 0]) {
         this._restSprite = restSprite;
@@ -42101,7 +42107,10 @@ class Actor {
             let vec = [tx - x, ty - y];
             let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
             let dir = [vec[0] / len, vec[1] / len];
-            this.rotation = Math.acos(dot(dir, [0, -1])); // No rotation = pointing up
+            // No rotation = pointing up
+            let sense = cross(dir, [0, -1]) >= 0 ? -1 : 1;
+            let angle = Math.acos(dot(dir, [0, -1]));
+            this.rotation = sense * angle;
             let crossedover = false;
             if (this._lastdir !== null) {
                 crossedover = dot(dir, this._lastdir) < 0;
