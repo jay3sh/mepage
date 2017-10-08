@@ -42738,6 +42738,9 @@ class Actor {
     get position() {
         return this._position;
     }
+    setMovementAnimSpeed(value) {
+        this._motionSprite.animationSpeed = value;
+    }
     moveTo(x, y) {
         this.inmotion = true;
         this._target = [x, y];
@@ -43340,25 +43343,49 @@ function loadAssets() {
 function runActorStudio() {
     let W = window.innerWidth;
     let H = window.innerHeight;
+    let actor;
     let app = new pixi.Application(W, H, { backgroundColor: 0xffffff });
     document.body.appendChild(app.view);
     app.view.style.position = 'absolute';
     app.view.style.left = '0px';
     app.view.style.top = '0px';
-    let actor;
-    document.body.addEventListener('mouseup', (ev) => {
+    let controlDiv = document.createElement('div');
+    controlDiv.style.position = 'absolute';
+    controlDiv.style.right = '0px';
+    controlDiv.style.bottom = '0px';
+    controlDiv.style.padding = '20px';
+    controlDiv.innerHTML = `
+  Anim Speed
+  <input type="range" name="animspeed"
+    min="0.1" max="2.0" value="0.2" step="0.1"/>
+  Movement Speed
+  <input type="range" name="movespeed"
+    min="0.1" max="5.0" value="1" step="0.1"/>
+  `;
+    let animSpeedInput = controlDiv.querySelector('input[name=animspeed]');
+    let moveSpeedInput = controlDiv.querySelector('input[name=movespeed]');
+    document.body.appendChild(controlDiv);
+    animSpeedInput.addEventListener('change', () => {
+        actor.setMovementAnimSpeed(parseFloat(animSpeedInput.value));
+    });
+    moveSpeedInput.addEventListener('change', () => {
+        actor.speed = parseFloat(moveSpeedInput.value);
+    });
+    app.view.addEventListener('mouseup', (ev) => {
         if (actor) {
             actor.moveAlongPath([[ev.clientX, ev.clientY]]);
         }
     });
     // Prevent right-click context menu
-    document.addEventListener('contextmenu', (ev) => {
+    app.view.addEventListener('contextmenu', (ev) => {
         ev.preventDefault();
     });
     loadAssets().then((sprites) => {
-        sprites.move.animationSpeed = 0.2;
         sprites.move.play();
-        actor = new actor_1.Actor(sprites.rest, sprites.move, [200, 200]);
+        let center = [W / 2, H / 2];
+        actor = new actor_1.Actor(sprites.rest, sprites.move, center);
+        actor.setMovementAnimSpeed(parseFloat(animSpeedInput.value));
+        actor.speed = parseFloat(moveSpeedInput.value);
         for (let sprite of actor.allSprites) {
             app.stage.addChild(sprite);
         }
