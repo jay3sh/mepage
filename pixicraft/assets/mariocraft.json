@@ -1,0 +1,57 @@
+{"frames": {
+
+"pxc_background.png":
+{
+	"frame": {"x":0,"y":0,"w":2051,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2051,"h":100},
+	"sourceSize": {"w":2051,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"pxc_meadow.png":
+{
+	"frame": {"x":2051,"y":0,"w":421,"h":1164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":1164},
+	"sourceSize": {"w":421,"h":1164},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"pxc_rocks0.png":
+{
+	"frame": {"x":2472,"y":0,"w":211,"h":283},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":283},
+	"sourceSize": {"w":211,"h":283},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"pxc_rocks1.png":
+{
+	"frame": {"x":2683,"y":0,"w":230,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":264},
+	"sourceSize": {"w":230,"h":264},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"pxc_water.png":
+{
+	"frame": {"x":2913,"y":0,"w":502,"h":447},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":502,"h":447},
+	"sourceSize": {"w":502,"h":447},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mariocraft.png",
+	"format": "RGBA8888",
+	"size": {"w":3415,"h":1164},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c741403b3eb0c187cbfd76ad296dd478:8272ea757a3e318df04ac5f5535a63e2:06dc3fe981f287ea46e4be81db5aa66f$"
+}
+}
