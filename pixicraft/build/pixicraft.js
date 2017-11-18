@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 93);
+/******/ 	return __webpack_require__(__webpack_require__.s = 90);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -115,7 +115,7 @@ Object.defineProperty(exports, 'Bounds', {
   }
 });
 
-var _DisplayObject = __webpack_require__(51);
+var _DisplayObject = __webpack_require__(50);
 
 Object.defineProperty(exports, 'DisplayObject', {
   enumerable: true,
@@ -133,7 +133,7 @@ Object.defineProperty(exports, 'Container', {
   }
 });
 
-var _Transform = __webpack_require__(53);
+var _Transform = __webpack_require__(52);
 
 Object.defineProperty(exports, 'Transform', {
   enumerable: true,
@@ -142,7 +142,7 @@ Object.defineProperty(exports, 'Transform', {
   }
 });
 
-var _TransformStatic = __webpack_require__(52);
+var _TransformStatic = __webpack_require__(51);
 
 Object.defineProperty(exports, 'TransformStatic', {
   enumerable: true,
@@ -169,7 +169,7 @@ Object.defineProperty(exports, 'Sprite', {
   }
 });
 
-var _CanvasSpriteRenderer = __webpack_require__(124);
+var _CanvasSpriteRenderer = __webpack_require__(122);
 
 Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   enumerable: true,
@@ -187,7 +187,7 @@ Object.defineProperty(exports, 'CanvasTinter', {
   }
 });
 
-var _SpriteRenderer = __webpack_require__(127);
+var _SpriteRenderer = __webpack_require__(125);
 
 Object.defineProperty(exports, 'SpriteRenderer', {
   enumerable: true,
@@ -196,7 +196,7 @@ Object.defineProperty(exports, 'SpriteRenderer', {
   }
 });
 
-var _Text = __webpack_require__(143);
+var _Text = __webpack_require__(141);
 
 Object.defineProperty(exports, 'Text', {
   enumerable: true,
@@ -205,7 +205,7 @@ Object.defineProperty(exports, 'Text', {
   }
 });
 
-var _TextStyle = __webpack_require__(64);
+var _TextStyle = __webpack_require__(63);
 
 Object.defineProperty(exports, 'TextStyle', {
   enumerable: true,
@@ -214,7 +214,7 @@ Object.defineProperty(exports, 'TextStyle', {
   }
 });
 
-var _TextMetrics = __webpack_require__(65);
+var _TextMetrics = __webpack_require__(64);
 
 Object.defineProperty(exports, 'TextMetrics', {
   enumerable: true,
@@ -223,7 +223,7 @@ Object.defineProperty(exports, 'TextMetrics', {
   }
 });
 
-var _Graphics = __webpack_require__(145);
+var _Graphics = __webpack_require__(143);
 
 Object.defineProperty(exports, 'Graphics', {
   enumerable: true,
@@ -232,7 +232,7 @@ Object.defineProperty(exports, 'Graphics', {
   }
 });
 
-var _GraphicsData = __webpack_require__(66);
+var _GraphicsData = __webpack_require__(65);
 
 Object.defineProperty(exports, 'GraphicsData', {
   enumerable: true,
@@ -241,7 +241,7 @@ Object.defineProperty(exports, 'GraphicsData', {
   }
 });
 
-var _GraphicsRenderer = __webpack_require__(147);
+var _GraphicsRenderer = __webpack_require__(145);
 
 Object.defineProperty(exports, 'GraphicsRenderer', {
   enumerable: true,
@@ -250,7 +250,7 @@ Object.defineProperty(exports, 'GraphicsRenderer', {
   }
 });
 
-var _CanvasGraphicsRenderer = __webpack_require__(154);
+var _CanvasGraphicsRenderer = __webpack_require__(152);
 
 Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   enumerable: true,
@@ -259,7 +259,7 @@ Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   }
 });
 
-var _Spritesheet = __webpack_require__(155);
+var _Spritesheet = __webpack_require__(153);
 
 Object.defineProperty(exports, 'Spritesheet', {
   enumerable: true,
@@ -295,7 +295,7 @@ Object.defineProperty(exports, 'RenderTexture', {
   }
 });
 
-var _BaseRenderTexture = __webpack_require__(58);
+var _BaseRenderTexture = __webpack_require__(57);
 
 Object.defineProperty(exports, 'BaseRenderTexture', {
   enumerable: true,
@@ -304,7 +304,7 @@ Object.defineProperty(exports, 'BaseRenderTexture', {
   }
 });
 
-var _VideoBaseTexture = __webpack_require__(55);
+var _VideoBaseTexture = __webpack_require__(54);
 
 Object.defineProperty(exports, 'VideoBaseTexture', {
   enumerable: true,
@@ -313,7 +313,7 @@ Object.defineProperty(exports, 'VideoBaseTexture', {
   }
 });
 
-var _TextureUvs = __webpack_require__(56);
+var _TextureUvs = __webpack_require__(55);
 
 Object.defineProperty(exports, 'TextureUvs', {
   enumerable: true,
@@ -322,7 +322,7 @@ Object.defineProperty(exports, 'TextureUvs', {
   }
 });
 
-var _CanvasRenderTarget = __webpack_require__(59);
+var _CanvasRenderTarget = __webpack_require__(58);
 
 Object.defineProperty(exports, 'CanvasRenderTarget', {
   enumerable: true,
@@ -349,7 +349,7 @@ Object.defineProperty(exports, 'WebGLManager', {
   }
 });
 
-var _ObjectRenderer = __webpack_require__(17);
+var _ObjectRenderer = __webpack_require__(16);
 
 Object.defineProperty(exports, 'ObjectRenderer', {
   enumerable: true,
@@ -358,7 +358,7 @@ Object.defineProperty(exports, 'ObjectRenderer', {
   }
 });
 
-var _RenderTarget = __webpack_require__(19);
+var _RenderTarget = __webpack_require__(18);
 
 Object.defineProperty(exports, 'RenderTarget', {
   enumerable: true,
@@ -367,7 +367,7 @@ Object.defineProperty(exports, 'RenderTarget', {
   }
 });
 
-var _Quad = __webpack_require__(63);
+var _Quad = __webpack_require__(62);
 
 Object.defineProperty(exports, 'Quad', {
   enumerable: true,
@@ -376,7 +376,7 @@ Object.defineProperty(exports, 'Quad', {
   }
 });
 
-var _SpriteMaskFilter = __webpack_require__(61);
+var _SpriteMaskFilter = __webpack_require__(60);
 
 Object.defineProperty(exports, 'SpriteMaskFilter', {
   enumerable: true,
@@ -385,7 +385,7 @@ Object.defineProperty(exports, 'SpriteMaskFilter', {
   }
 });
 
-var _Filter = __webpack_require__(62);
+var _Filter = __webpack_require__(61);
 
 Object.defineProperty(exports, 'Filter', {
   enumerable: true,
@@ -394,7 +394,7 @@ Object.defineProperty(exports, 'Filter', {
   }
 });
 
-var _Application = __webpack_require__(68);
+var _Application = __webpack_require__(67);
 
 Object.defineProperty(exports, 'Application', {
   enumerable: true,
@@ -403,7 +403,7 @@ Object.defineProperty(exports, 'Application', {
   }
 });
 
-var _autoDetectRenderer = __webpack_require__(69);
+var _autoDetectRenderer = __webpack_require__(68);
 
 Object.defineProperty(exports, 'autoDetectRenderer', {
   enumerable: true,
@@ -428,7 +428,7 @@ var _CanvasRenderer = __webpack_require__(11);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(18);
+var _WebGLRenderer = __webpack_require__(17);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -831,11 +831,11 @@ var _eventemitter = __webpack_require__(7);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _pluginTarget = __webpack_require__(111);
+var _pluginTarget = __webpack_require__(109);
 
 var _pluginTarget2 = _interopRequireDefault(_pluginTarget);
 
-var _mixin = __webpack_require__(112);
+var _mixin = __webpack_require__(110);
 
 var mixins = _interopRequireWildcard(_mixin);
 
@@ -843,11 +843,11 @@ var _ismobilejs = __webpack_require__(27);
 
 var isMobile = _interopRequireWildcard(_ismobilejs);
 
-var _removeArrayItems = __webpack_require__(113);
+var _removeArrayItems = __webpack_require__(111);
 
 var _removeArrayItems2 = _interopRequireDefault(_removeArrayItems);
 
-var _mapPremultipliedBlendModes = __webpack_require__(114);
+var _mapPremultipliedBlendModes = __webpack_require__(112);
 
 var _mapPremultipliedBlendModes2 = _interopRequireDefault(_mapPremultipliedBlendModes);
 
@@ -1281,11 +1281,11 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 
 exports.__esModule = true;
 
-var _maxRecommendedTextures = __webpack_require__(109);
+var _maxRecommendedTextures = __webpack_require__(107);
 
 var _maxRecommendedTextures2 = _interopRequireDefault(_maxRecommendedTextures);
 
-var _canUploadSameBuffer = __webpack_require__(110);
+var _canUploadSameBuffer = __webpack_require__(108);
 
 var _canUploadSameBuffer2 = _interopRequireDefault(_canUploadSameBuffer);
 
@@ -1530,7 +1530,7 @@ Object.defineProperty(exports, 'Point', {
   }
 });
 
-var _ObservablePoint = __webpack_require__(40);
+var _ObservablePoint = __webpack_require__(39);
 
 Object.defineProperty(exports, 'ObservablePoint', {
   enumerable: true,
@@ -1548,7 +1548,7 @@ Object.defineProperty(exports, 'Matrix', {
   }
 });
 
-var _GroupD = __webpack_require__(41);
+var _GroupD = __webpack_require__(40);
 
 Object.defineProperty(exports, 'GroupD8', {
   enumerable: true,
@@ -1557,7 +1557,7 @@ Object.defineProperty(exports, 'GroupD8', {
   }
 });
 
-var _Circle = __webpack_require__(99);
+var _Circle = __webpack_require__(97);
 
 Object.defineProperty(exports, 'Circle', {
   enumerable: true,
@@ -1566,7 +1566,7 @@ Object.defineProperty(exports, 'Circle', {
   }
 });
 
-var _Ellipse = __webpack_require__(100);
+var _Ellipse = __webpack_require__(98);
 
 Object.defineProperty(exports, 'Ellipse', {
   enumerable: true,
@@ -1575,7 +1575,7 @@ Object.defineProperty(exports, 'Ellipse', {
   }
 });
 
-var _Polygon = __webpack_require__(101);
+var _Polygon = __webpack_require__(99);
 
 Object.defineProperty(exports, 'Polygon', {
   enumerable: true,
@@ -1593,7 +1593,7 @@ Object.defineProperty(exports, 'Rectangle', {
   }
 });
 
-var _RoundedRectangle = __webpack_require__(102);
+var _RoundedRectangle = __webpack_require__(100);
 
 Object.defineProperty(exports, 'RoundedRectangle', {
   enumerable: true,
@@ -1610,14 +1610,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /***/ (function(module, exports, __webpack_require__) {
 
 var gl = {
-    createContext:          __webpack_require__(103),
-    setVertexAttribArrays:  __webpack_require__(42),
-    GLBuffer:               __webpack_require__(104),
-    GLFramebuffer:          __webpack_require__(105),
-    GLShader:               __webpack_require__(106),
-    GLTexture:              __webpack_require__(43),
-    VertexArrayObject:      __webpack_require__(107),
-    shader:                 __webpack_require__(108)
+    createContext:          __webpack_require__(101),
+    setVertexAttribArrays:  __webpack_require__(41),
+    GLBuffer:               __webpack_require__(102),
+    GLFramebuffer:          __webpack_require__(103),
+    GLShader:               __webpack_require__(104),
+    GLTexture:              __webpack_require__(42),
+    VertexArrayObject:      __webpack_require__(105),
+    shader:                 __webpack_require__(106)
 };
 
 // Export for Node-compatible environments
@@ -1865,7 +1865,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(130)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(128)))
 
 /***/ }),
 /* 7 */
@@ -2200,11 +2200,11 @@ var _BaseTexture = __webpack_require__(9);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _VideoBaseTexture = __webpack_require__(55);
+var _VideoBaseTexture = __webpack_require__(54);
 
 var _VideoBaseTexture2 = _interopRequireDefault(_VideoBaseTexture);
 
-var _TextureUvs = __webpack_require__(56);
+var _TextureUvs = __webpack_require__(55);
 
 var _TextureUvs2 = _interopRequireDefault(_TextureUvs);
 
@@ -2899,7 +2899,7 @@ var _eventemitter = __webpack_require__(7);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _determineCrossOrigin = __webpack_require__(115);
+var _determineCrossOrigin = __webpack_require__(113);
 
 var _determineCrossOrigin2 = _interopRequireDefault(_determineCrossOrigin);
 
@@ -3742,7 +3742,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _utils = __webpack_require__(2);
 
-var _DisplayObject2 = __webpack_require__(51);
+var _DisplayObject2 = __webpack_require__(50);
 
 var _DisplayObject3 = _interopRequireDefault(_DisplayObject2);
 
@@ -4361,19 +4361,19 @@ Container.prototype.containerUpdateTransform = Container.prototype.updateTransfo
 
 exports.__esModule = true;
 
-var _SystemRenderer2 = __webpack_require__(57);
+var _SystemRenderer2 = __webpack_require__(56);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _CanvasMaskManager = __webpack_require__(125);
+var _CanvasMaskManager = __webpack_require__(123);
 
 var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
 
-var _CanvasRenderTarget = __webpack_require__(59);
+var _CanvasRenderTarget = __webpack_require__(58);
 
 var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
 
-var _mapCanvasBlendModesToPixi = __webpack_require__(126);
+var _mapCanvasBlendModesToPixi = __webpack_require__(124);
 
 var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
 
@@ -4862,10 +4862,10 @@ exports.default = Shader;
 
 /* eslint-disable no-undef */
 
-var Loader = __webpack_require__(179).default;
+var Loader = __webpack_require__(177).default;
 var Resource = __webpack_require__(36).default;
-var async = __webpack_require__(84);
-var b64 = __webpack_require__(85);
+var async = __webpack_require__(83);
+var b64 = __webpack_require__(84);
 
 Loader.Resource = Resource;
 Loader.async = async;
@@ -5255,124 +5255,6 @@ Mesh.DRAW_MODES = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-exports.__esModule = true;
-exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
-
-var _polyfill = __webpack_require__(94);
-
-Object.keys(_polyfill).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _polyfill[key];
-        }
-    });
-});
-
-var _core = __webpack_require__(0);
-
-Object.keys(_core).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _core[key];
-        }
-    });
-});
-
-var _deprecation = __webpack_require__(156);
-
-var _deprecation2 = _interopRequireDefault(_deprecation);
-
-var _accessibility = __webpack_require__(157);
-
-var accessibility = _interopRequireWildcard(_accessibility);
-
-var _extract = __webpack_require__(159);
-
-var extract = _interopRequireWildcard(_extract);
-
-var _extras = __webpack_require__(71);
-
-var extras = _interopRequireWildcard(_extras);
-
-var _filters = __webpack_require__(169);
-
-var filters = _interopRequireWildcard(_filters);
-
-var _interaction = __webpack_require__(176);
-
-var interaction = _interopRequireWildcard(_interaction);
-
-var _loaders = __webpack_require__(178);
-
-var loaders = _interopRequireWildcard(_loaders);
-
-var _mesh = __webpack_require__(182);
-
-var mesh = _interopRequireWildcard(_mesh);
-
-var _particles = __webpack_require__(187);
-
-var particles = _interopRequireWildcard(_particles);
-
-var _prepare = __webpack_require__(192);
-
-var prepare = _interopRequireWildcard(_prepare);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// export core
-_core.utils.mixins.performMixins();
-
-/**
- * Alias for {@link PIXI.loaders.shared}.
- * @name loader
- * @memberof PIXI
- * @type {PIXI.loader.Loader}
- */
-
-
-// handle mixins now, after all code has been added, including deprecation
-
-
-// export libs
-// import polyfills. Done as an export to make sure polyfills are imported first
-var loader = loaders.shared || null;
-
-exports.accessibility = accessibility;
-exports.extract = extract;
-exports.extras = extras;
-exports.filters = filters;
-exports.interaction = interaction;
-exports.loaders = loaders;
-exports.mesh = mesh;
-exports.particles = particles;
-exports.prepare = prepare;
-exports.loader = loader;
-
-// Apply the deprecations
-
-if (typeof _deprecation2.default === 'function') {
-    (0, _deprecation2.default)(exports);
-}
-
-// Always export PixiJS globally.
-global.PIXI = exports; // eslint-disable-line
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21)))
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 
 
 exports.__esModule = true;
@@ -5452,7 +5334,7 @@ exports.default = ObjectRenderer;
 
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5460,31 +5342,31 @@ exports.default = ObjectRenderer;
 
 exports.__esModule = true;
 
-var _SystemRenderer2 = __webpack_require__(57);
+var _SystemRenderer2 = __webpack_require__(56);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _MaskManager = __webpack_require__(128);
+var _MaskManager = __webpack_require__(126);
 
 var _MaskManager2 = _interopRequireDefault(_MaskManager);
 
-var _StencilManager = __webpack_require__(131);
+var _StencilManager = __webpack_require__(129);
 
 var _StencilManager2 = _interopRequireDefault(_StencilManager);
 
-var _FilterManager = __webpack_require__(132);
+var _FilterManager = __webpack_require__(130);
 
 var _FilterManager2 = _interopRequireDefault(_FilterManager);
 
-var _RenderTarget = __webpack_require__(19);
+var _RenderTarget = __webpack_require__(18);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _ObjectRenderer = __webpack_require__(17);
+var _ObjectRenderer = __webpack_require__(16);
 
 var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
 
-var _TextureManager = __webpack_require__(134);
+var _TextureManager = __webpack_require__(132);
 
 var _TextureManager2 = _interopRequireDefault(_TextureManager);
 
@@ -5492,19 +5374,19 @@ var _BaseTexture = __webpack_require__(9);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _TextureGarbageCollector = __webpack_require__(135);
+var _TextureGarbageCollector = __webpack_require__(133);
 
 var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
 
-var _WebGLState = __webpack_require__(136);
+var _WebGLState = __webpack_require__(134);
 
 var _WebGLState2 = _interopRequireDefault(_WebGLState);
 
-var _mapWebGLDrawModesToPixi = __webpack_require__(138);
+var _mapWebGLDrawModesToPixi = __webpack_require__(136);
 
 var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
 
-var _validateContext = __webpack_require__(139);
+var _validateContext = __webpack_require__(137);
 
 var _validateContext2 = _interopRequireDefault(_validateContext);
 
@@ -6269,7 +6151,7 @@ _utils.pluginTarget.mixin(WebGLRenderer);
 
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6601,7 +6483,7 @@ exports.default = RenderTarget;
 
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6874,6 +6756,124 @@ function buildNativeLine(graphicsData, webGLData) {
     }
 }
 
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+exports.__esModule = true;
+exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
+
+var _polyfill = __webpack_require__(92);
+
+Object.keys(_polyfill).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _polyfill[key];
+        }
+    });
+});
+
+var _core = __webpack_require__(0);
+
+Object.keys(_core).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _core[key];
+        }
+    });
+});
+
+var _deprecation = __webpack_require__(154);
+
+var _deprecation2 = _interopRequireDefault(_deprecation);
+
+var _accessibility = __webpack_require__(155);
+
+var accessibility = _interopRequireWildcard(_accessibility);
+
+var _extract = __webpack_require__(157);
+
+var extract = _interopRequireWildcard(_extract);
+
+var _extras = __webpack_require__(70);
+
+var extras = _interopRequireWildcard(_extras);
+
+var _filters = __webpack_require__(167);
+
+var filters = _interopRequireWildcard(_filters);
+
+var _interaction = __webpack_require__(174);
+
+var interaction = _interopRequireWildcard(_interaction);
+
+var _loaders = __webpack_require__(176);
+
+var loaders = _interopRequireWildcard(_loaders);
+
+var _mesh = __webpack_require__(180);
+
+var mesh = _interopRequireWildcard(_mesh);
+
+var _particles = __webpack_require__(185);
+
+var particles = _interopRequireWildcard(_particles);
+
+var _prepare = __webpack_require__(190);
+
+var prepare = _interopRequireWildcard(_prepare);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// export core
+_core.utils.mixins.performMixins();
+
+/**
+ * Alias for {@link PIXI.loaders.shared}.
+ * @name loader
+ * @memberof PIXI
+ * @type {PIXI.loader.Loader}
+ */
+
+
+// handle mixins now, after all code has been added, including deprecation
+
+
+// export libs
+// import polyfills. Done as an export to make sure polyfills are imported first
+var loader = loaders.shared || null;
+
+exports.accessibility = accessibility;
+exports.extract = extract;
+exports.extras = extras;
+exports.filters = filters;
+exports.interaction = interaction;
+exports.loaders = loaders;
+exports.mesh = mesh;
+exports.particles = particles;
+exports.prepare = prepare;
+exports.loader = loader;
+
+// Apply the deprecations
+
+if (typeof _deprecation2.default === 'function') {
+    (0, _deprecation2.default)(exports);
+}
+
+// Always export PixiJS globally.
+global.PIXI = exports; // eslint-disable-line
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21)))
 
 /***/ }),
 /* 21 */
@@ -9289,7 +9289,7 @@ exports.nextCombination = function(v) {
 exports.__esModule = true;
 exports.Ticker = exports.shared = undefined;
 
-var _Ticker = __webpack_require__(122);
+var _Ticker = __webpack_require__(120);
 
 var _Ticker2 = _interopRequireDefault(_Ticker);
 
@@ -9373,7 +9373,7 @@ exports.Ticker = _Ticker2.default;
 
 exports.__esModule = true;
 
-var _BaseRenderTexture = __webpack_require__(58);
+var _BaseRenderTexture = __webpack_require__(57);
 
 var _BaseRenderTexture2 = _interopRequireDefault(_BaseRenderTexture);
 
@@ -9531,7 +9531,7 @@ exports.__esModule = true;
 
 var _utils = __webpack_require__(2);
 
-var _canUseNewCanvasBlendModes = __webpack_require__(60);
+var _canUseNewCanvasBlendModes = __webpack_require__(59);
 
 var _canUseNewCanvasBlendModes2 = _interopRequireDefault(_canUseNewCanvasBlendModes);
 
@@ -9990,11 +9990,11 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _parseUri = __webpack_require__(83);
+var _parseUri = __webpack_require__(82);
 
 var _parseUri2 = _interopRequireDefault(_parseUri);
 
-var _miniSignals = __webpack_require__(82);
+var _miniSignals = __webpack_require__(81);
 
 var _miniSignals2 = _interopRequireDefault(_miniSignals);
 
@@ -11153,7 +11153,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _CountLimiter = __webpack_require__(89);
+var _CountLimiter = __webpack_require__(88);
 
 var _CountLimiter2 = _interopRequireDefault(_CountLimiter);
 
@@ -11742,318 +11742,6 @@ exports.basic_tri = {
 
 "use strict";
 
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(16);
-const terrain_1 = __webpack_require__(196);
-const actor_1 = __webpack_require__(90);
-const assets_1 = __webpack_require__(198);
-const terraingrid_1 = __webpack_require__(91);
-//import {TriTerrain} from './triterrain'
-const gamedata_1 = __webpack_require__(38);
-function runGame(choice = "hex") {
-    assets_1.Assets.load()
-        .then(() => {
-        if (choice === "hex") {
-            setupHexMap();
-        }
-        else if (choice === "tri") {
-            setupTriMap();
-        }
-        else {
-            setupRectMap();
-        }
-    })
-        .catch(e => {
-        console.error('Asset load error:', e);
-    });
-}
-exports.runGame = runGame;
-function playGame() {
-    setupTriMap();
-}
-exports.playGame = playGame;
-function setupHexMap() {
-    let W = window.innerWidth;
-    let H = window.innerHeight;
-    let app = new pixi.Application(W, H, { backgroundColor: 0xdddddd });
-    document.body.appendChild(app.view);
-    app.view.style.position = 'absolute';
-    app.view.style.left = '0px';
-    app.view.style.top = '0px';
-    let terrain = new terraingrid_1.TerrainGrid(gamedata_1.basic_hex);
-    let walls = new pixi.Graphics();
-    let debugGraphics = new pixi.Graphics();
-    for (let walltile of terrain.getTiles()) {
-        let { type, polygon } = walltile;
-        walls.beginFill(type === 0 ? 0x888888 : 0xffffff, 1);
-        walls.lineStyle(1, 0x111111, 1);
-        let firstPoint = polygon[0];
-        walls.moveTo(firstPoint[0], firstPoint[1]);
-        for (let i = 1; i < polygon.length; i++) {
-            let point = polygon[i];
-            walls.lineTo(point[0], point[1]);
-        }
-        walls.lineTo(firstPoint[0], firstPoint[1]);
-        walls.endFill();
-    }
-    app.stage.addChild(walls);
-    app.stage.addChild(debugGraphics);
-    function drawPolyline(polyline, color = 0x444444) {
-        if (polyline.length <= 0) {
-            return;
-        }
-        debugGraphics.lineStyle(2, color, 1);
-        let firstPoint = polyline[0];
-        debugGraphics.moveTo(firstPoint[0], firstPoint[1]);
-        for (let i = 1; i < polyline.length; i++) {
-            let point = polyline[i];
-            debugGraphics.lineTo(point[0], point[1]);
-        }
-    }
-    // Prevent right-click context menu
-    document.addEventListener('contextmenu', (ev) => {
-        ev.preventDefault();
-    });
-    // Hero
-    let hero = new actor_1.Hero(assets_1.Assets.sprites.heroRest, assets_1.Assets.sprites.heroMotion);
-    let actors = [hero];
-    for (let sprite of hero.sprites) {
-        app.stage.addChild(sprite);
-    }
-    hero.position = terrain.getCellAtRowCol(0, 0).getCenterScreenCoord();
-    app.view.addEventListener('mousedown', (ev) => {
-        if (ev.button === 2) {
-            let target = terrain.getCellAtScreenCoord([ev.clientX, ev.clientY]);
-            let source = terrain.getCellAtScreenCoord(hero.position);
-            if (source && target) {
-                debugGraphics.clear();
-                let pathPoints = terrain.searchPath(source, target)
-                    .map(node => node.getCenterScreenCoord());
-                hero.moveAlongPath(pathPoints);
-                drawPolyline(pathPoints);
-            }
-            ev.stopPropagation();
-            ev.preventDefault();
-            return false;
-        }
-        return true;
-    });
-    app.ticker.add((dt) => {
-        for (let actor of actors) {
-            if (actor.inmotion) {
-                actor.move(dt);
-            }
-        }
-    });
-}
-function setupRectMap() {
-    let W = window.innerWidth;
-    let H = window.innerHeight;
-    let app = new pixi.Application(W, H, { backgroundColor: 0xdddddd });
-    document.body.appendChild(app.view);
-    app.view.style.position = 'absolute';
-    app.view.style.left = '0px';
-    app.view.style.top = '0px';
-    let terrain = new terrain_1.Terrain(W, H);
-    let walls = new pixi.Graphics();
-    for (let walltile of terrain.getTiles()) {
-        let { type, dim: [x, y, w, h] } = walltile;
-        if (type === 0) {
-            walls.lineStyle(0, 0x000000, 1);
-            walls.beginFill(0x444444, 1);
-            walls.drawRect(x, y, w, h);
-        }
-    }
-    app.stage.addChild(walls);
-    // Prevent right-click context menu
-    document.addEventListener('contextmenu', (ev) => {
-        ev.preventDefault();
-    });
-    // Hero
-    let hero = new actor_1.Hero(assets_1.Assets.sprites.heroRest, assets_1.Assets.sprites.heroMotion);
-    let actors = [hero];
-    for (let sprite of hero.sprites) {
-        app.stage.addChild(sprite);
-    }
-    hero.position = terrain.fromGridLocation(10, 20);
-    app.view.addEventListener('mousedown', (ev) => {
-        if (ev.button === 2) {
-            let target = [ev.clientX, ev.clientY];
-            let source = hero.position;
-            let pathPoints = terrain.searchPath(terrain.toGridLocation(source[0], source[1]), terrain.toGridLocation(target[0], target[1]));
-            hero.moveAlongPath(pathPoints);
-            ev.stopPropagation();
-            ev.preventDefault();
-            return false;
-        }
-        return true;
-    });
-    app.ticker.add((dt) => {
-        for (let actor of actors) {
-            if (actor.inmotion) {
-                actor.move(dt);
-            }
-        }
-    });
-}
-class Game {
-    constructor() {
-    }
-    setupScrolling() {
-        let center = [this.app.view.width / 2, this.app.view.height / 2];
-        this.app.view.addEventListener('mouseleave', (ev) => {
-            let { offsetX: x, offsetY: y } = ev;
-            let dx = x - center[0];
-            let dy = y - center[1];
-            let dxfrac = dx / this.app.view.width;
-            let dyfrac = dy / this.app.view.height;
-            let dir;
-            if (Math.abs(dxfrac) > 0.3 && Math.abs(dyfrac) > 0.3) {
-                if (dx < 0 && dy < 0) {
-                    dir = 'NW';
-                }
-                else if (dx < 0 && dy > 0) {
-                    dir = 'SW';
-                }
-                else if (dx > 0 && dy > 0) {
-                    dir = 'SE';
-                }
-                else {
-                    dir = 'NE';
-                }
-            }
-            else {
-                if (Math.abs(dx) > Math.abs(dy)) {
-                    if (dx < 0) {
-                        dir = 'W';
-                    }
-                    else {
-                        dir = 'E';
-                    }
-                }
-                else {
-                    if (dy < 0) {
-                        dir = 'N';
-                    }
-                    else {
-                        dir = 'S';
-                    }
-                }
-            }
-            let mag = dx * dx + dy * dy;
-            this.viewMotionVector = [dx / mag, dy / mag];
-        });
-        this.app.view.addEventListener('mouseenter', () => {
-            this.viewMotionVector = null;
-        });
-    }
-    load() {
-        return new Promise((resolve) => {
-            pixi.loader
-                .add('spritejson', 'assets/sprites.json')
-                .add('plan', 'assets/gamelayout.json')
-                .load((loader, resources) => {
-                loader;
-                let { width, height } = resources.plan.data;
-                this.viewCenterInWorldCoord = [width / 2, height / 2];
-                const W = 800;
-                const H = 600;
-                let app = new pixi.Application(W, H, { backgroundColor: 0xdddddd });
-                document.body.appendChild(app.view);
-                app.view.style.position = 'absolute';
-                app.view.style.left = '50%';
-                app.view.style.top = '50%';
-                app.view.style.marginLeft = -W / 2 + 'px';
-                app.view.style.marginTop = -H / 2 + 'px';
-                let viewScale = [W / width, H / height];
-                let sprites = [];
-                for (let key in resources.plan.data) {
-                    if (/pxc_(\w+)/.test(key)) {
-                        let texture = pixi.Texture.fromFrame(key + '.png');
-                        let sprite;
-                        let { x, y, width: w, height: h } = resources.plan.data[key];
-                        if (key === 'pxc_background') {
-                            sprite = new pixi.extras.TilingSprite(texture, Math.max(w, width), Math.max(h, height));
-                            sprites.unshift(sprite);
-                        }
-                        else {
-                            sprite = new pixi.Sprite(texture);
-                            sprites.push(sprite);
-                        }
-                        sprite.position.set(x, y);
-                    }
-                }
-                for (let sprite of sprites) {
-                    app.stage.addChild(sprite);
-                }
-                // Zoom at the max resolution and position view at center of map
-                let dx = -(this.viewCenterInWorldCoord[0] - W / 2);
-                let dy = -(this.viewCenterInWorldCoord[1] - H / 2);
-                viewScale = [1, 1];
-                app.stage.setTransform(dx, dy, viewScale[0], viewScale[1]);
-                this.app = app;
-                this.setupScrolling();
-                resolve();
-            });
-        });
-    }
-    run() {
-        this.app.ticker.add(() => {
-            if (this.viewMotionVector) {
-                let wrldWidth = this.app.stage.width;
-                let wrldHeight = this.app.stage.height;
-                let viewWidth = this.app.view.width;
-                let viewHeight = this.app.view.height;
-                let cur = this.app.stage.transform;
-                let tx = cur.localTransform.tx;
-                let ty = cur.localTransform.ty;
-                let sx = cur.localTransform.a;
-                let sy = cur.localTransform.d;
-                let dx = this.viewMotionVector[0] * 2000;
-                let dy = this.viewMotionVector[1] * 2000;
-                if (this.viewCenterInWorldCoord[0] > wrldWidth - viewWidth / 2) {
-                    this.viewCenterInWorldCoord[0] = wrldWidth - viewWidth / 2;
-                    tx = -(this.viewCenterInWorldCoord[0] - viewWidth / 2);
-                }
-                else if (this.viewCenterInWorldCoord[0] < viewWidth / 2) {
-                    this.viewCenterInWorldCoord[0] = viewWidth / 2;
-                    tx = 0;
-                }
-                else {
-                    tx -= dx;
-                    this.viewCenterInWorldCoord[0] += dx;
-                }
-                if (this.viewCenterInWorldCoord[1] > wrldHeight - viewHeight / 2) {
-                    this.viewCenterInWorldCoord[1] = wrldHeight - viewHeight / 2;
-                    ty = -(this.viewCenterInWorldCoord[1] - viewHeight / 2);
-                }
-                else if (this.viewCenterInWorldCoord[1] < viewHeight / 2) {
-                    this.viewCenterInWorldCoord[1] = viewHeight / 2;
-                    ty = 0;
-                }
-                else {
-                    ty -= dy;
-                    this.viewCenterInWorldCoord[1] += dy;
-                }
-                this.app.stage.setTransform(tx, ty, sx, sy);
-            }
-        });
-    }
-}
-function setupTriMap() {
-    let game = new Game();
-    game.load().then(() => {
-        game.run();
-    });
-}
-
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
 
 exports.__esModule = true;
 
@@ -12171,7 +11859,7 @@ exports.default = ObservablePoint;
 
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12368,7 +12056,7 @@ exports.default = GroupD8;
 
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, exports) {
 
 // var GL_MAP = {};
@@ -12429,7 +12117,7 @@ module.exports = setVertexAttribArrays;
 
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports) {
 
 
@@ -12768,7 +12456,7 @@ module.exports = Texture;
 
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, exports) {
 
 
@@ -12854,12 +12542,12 @@ module.exports = compileProgram;
 
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 var mapType = __webpack_require__(25);
-var mapSize = __webpack_require__(46);
+var mapSize = __webpack_require__(45);
 
 /**
  * Extracts the attributes
@@ -12901,7 +12589,7 @@ module.exports = extractAttributes;
 
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, exports) {
 
 /**
@@ -12943,11 +12631,11 @@ module.exports = mapSize;
 
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var mapType = __webpack_require__(25);
-var defaultValue = __webpack_require__(48);
+var defaultValue = __webpack_require__(47);
 
 /**
  * Extracts the uniforms
@@ -12984,7 +12672,7 @@ module.exports = extractUniforms;
 
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, exports) {
 
 /**
@@ -13068,7 +12756,7 @@ module.exports = defaultValue;
 
 
 /***/ }),
-/* 49 */
+/* 48 */
 /***/ (function(module, exports) {
 
 /**
@@ -13092,7 +12780,7 @@ module.exports = setPrecision;
 
 
 /***/ }),
-/* 50 */
+/* 49 */
 /***/ (function(module, exports) {
 
 /**
@@ -13239,7 +12927,7 @@ module.exports = generateUniformAccessObject;
 
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13259,11 +12947,11 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _TransformStatic = __webpack_require__(52);
+var _TransformStatic = __webpack_require__(51);
 
 var _TransformStatic2 = _interopRequireDefault(_TransformStatic);
 
-var _Transform = __webpack_require__(53);
+var _Transform = __webpack_require__(52);
 
 var _Transform2 = _interopRequireDefault(_Transform);
 
@@ -13936,7 +13624,7 @@ DisplayObject.prototype.displayObjectUpdateTransform = DisplayObject.prototype.u
 
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14151,7 +13839,7 @@ exports.default = TransformStatic;
 
 
 /***/ }),
-/* 53 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14337,7 +14025,7 @@ exports.default = Transform;
 
 
 /***/ }),
-/* 54 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14364,8 +14052,8 @@ exports.default = Transform;
 
 
 
-var punycode = __webpack_require__(116);
-var util = __webpack_require__(118);
+var punycode = __webpack_require__(114);
+var util = __webpack_require__(116);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -14440,7 +14128,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(119);
+    querystring = __webpack_require__(117);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -15076,7 +14764,7 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 55 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15406,7 +15094,7 @@ function createSource(path, type) {
 
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15414,7 +15102,7 @@ function createSource(path, type) {
 
 exports.__esModule = true;
 
-var _GroupD = __webpack_require__(41);
+var _GroupD = __webpack_require__(40);
 
 var _GroupD2 = _interopRequireDefault(_GroupD);
 
@@ -15516,7 +15204,7 @@ exports.default = TextureUvs;
 
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15884,7 +15572,7 @@ exports.default = SystemRenderer;
 
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16048,7 +15736,7 @@ exports.default = BaseRenderTexture;
 
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16177,7 +15865,7 @@ exports.default = CanvasRenderTarget;
 
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16243,7 +15931,7 @@ function canUseNewCanvasBlendModes() {
 
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16251,7 +15939,7 @@ function canUseNewCanvasBlendModes() {
 
 exports.__esModule = true;
 
-var _Filter2 = __webpack_require__(62);
+var _Filter2 = __webpack_require__(61);
 
 var _Filter3 = _interopRequireDefault(_Filter2);
 
@@ -16320,7 +16008,7 @@ exports.default = SpriteMaskFilter;
 
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16330,7 +16018,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extractUniformsFromSrc = __webpack_require__(129);
+var _extractUniformsFromSrc = __webpack_require__(127);
 
 var _extractUniformsFromSrc2 = _interopRequireDefault(_extractUniformsFromSrc);
 
@@ -16521,7 +16209,7 @@ exports.default = Filter;
 
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16707,7 +16395,7 @@ exports.default = Quad;
 
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17496,7 +17184,7 @@ function areArraysEqual(array1, array2) {
 
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17803,7 +17491,7 @@ TextMetrics._fonts = {};
 
 
 /***/ }),
-/* 66 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17930,7 +17618,7 @@ exports.default = GraphicsData;
 
 
 /***/ }),
-/* 67 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18581,7 +18269,7 @@ earcut.flatten = function (data) {
 
 
 /***/ }),
-/* 68 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18591,7 +18279,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _autoDetectRenderer = __webpack_require__(69);
+var _autoDetectRenderer = __webpack_require__(68);
 
 var _Container = __webpack_require__(10);
 
@@ -18809,7 +18497,7 @@ exports.default = Application;
 
 
 /***/ }),
-/* 69 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18826,7 +18514,7 @@ var _CanvasRenderer = __webpack_require__(11);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(18);
+var _WebGLRenderer = __webpack_require__(17);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -18883,7 +18571,7 @@ function autoDetectRenderer(options, arg1, arg2, arg3) {
 
 
 /***/ }),
-/* 70 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18946,7 +18634,7 @@ exports.default = {
 
 
 /***/ }),
-/* 71 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18955,7 +18643,7 @@ exports.default = {
 exports.__esModule = true;
 exports.BitmapText = exports.TilingSpriteRenderer = exports.TilingSprite = exports.TextureTransform = exports.AnimatedSprite = undefined;
 
-var _AnimatedSprite = __webpack_require__(162);
+var _AnimatedSprite = __webpack_require__(160);
 
 Object.defineProperty(exports, 'AnimatedSprite', {
   enumerable: true,
@@ -18973,7 +18661,7 @@ Object.defineProperty(exports, 'TextureTransform', {
   }
 });
 
-var _TilingSprite = __webpack_require__(163);
+var _TilingSprite = __webpack_require__(161);
 
 Object.defineProperty(exports, 'TilingSprite', {
   enumerable: true,
@@ -18982,7 +18670,7 @@ Object.defineProperty(exports, 'TilingSprite', {
   }
 });
 
-var _TilingSpriteRenderer = __webpack_require__(164);
+var _TilingSpriteRenderer = __webpack_require__(162);
 
 Object.defineProperty(exports, 'TilingSpriteRenderer', {
   enumerable: true,
@@ -18991,7 +18679,7 @@ Object.defineProperty(exports, 'TilingSpriteRenderer', {
   }
 });
 
-var _BitmapText = __webpack_require__(165);
+var _BitmapText = __webpack_require__(163);
 
 Object.defineProperty(exports, 'BitmapText', {
   enumerable: true,
@@ -19000,11 +18688,11 @@ Object.defineProperty(exports, 'BitmapText', {
   }
 });
 
+__webpack_require__(164);
+
+__webpack_require__(165);
+
 __webpack_require__(166);
-
-__webpack_require__(167);
-
-__webpack_require__(168);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19012,7 +18700,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 72 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19026,15 +18714,15 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _generateBlurVertSource = __webpack_require__(73);
+var _generateBlurVertSource = __webpack_require__(72);
 
 var _generateBlurVertSource2 = _interopRequireDefault(_generateBlurVertSource);
 
-var _generateBlurFragSource = __webpack_require__(74);
+var _generateBlurFragSource = __webpack_require__(73);
 
 var _generateBlurFragSource2 = _interopRequireDefault(_generateBlurFragSource);
 
-var _getMaxBlurKernelSize = __webpack_require__(75);
+var _getMaxBlurKernelSize = __webpack_require__(74);
 
 var _getMaxBlurKernelSize2 = _interopRequireDefault(_getMaxBlurKernelSize);
 
@@ -19183,7 +18871,7 @@ exports.default = BlurXFilter;
 
 
 /***/ }),
-/* 73 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19232,7 +18920,7 @@ function generateVertBlurSource(kernelSize, x) {
 
 
 /***/ }),
-/* 74 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19284,7 +18972,7 @@ function generateFragBlurSource(kernelSize) {
 
 
 /***/ }),
-/* 75 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19305,7 +18993,7 @@ function getMaxKernelSize(gl) {
 
 
 /***/ }),
-/* 76 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19319,15 +19007,15 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _generateBlurVertSource = __webpack_require__(73);
+var _generateBlurVertSource = __webpack_require__(72);
 
 var _generateBlurVertSource2 = _interopRequireDefault(_generateBlurVertSource);
 
-var _generateBlurFragSource = __webpack_require__(74);
+var _generateBlurFragSource = __webpack_require__(73);
 
 var _generateBlurFragSource2 = _interopRequireDefault(_generateBlurFragSource);
 
-var _getMaxBlurKernelSize = __webpack_require__(75);
+var _getMaxBlurKernelSize = __webpack_require__(74);
 
 var _getMaxBlurKernelSize2 = _interopRequireDefault(_getMaxBlurKernelSize);
 
@@ -19475,7 +19163,7 @@ exports.default = BlurYFilter;
 
 
 /***/ }),
-/* 77 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19704,7 +19392,7 @@ exports.default = InteractionData;
 
 
 /***/ }),
-/* 78 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19794,7 +19482,7 @@ exports.default = InteractionEvent;
 
 
 /***/ }),
-/* 79 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19975,7 +19663,7 @@ InteractionTrackingData.FLAGS = Object.freeze({
 
 
 /***/ }),
-/* 80 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20097,7 +19785,7 @@ exports.default = {
 
 
 /***/ }),
-/* 81 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20176,7 +19864,7 @@ var _core = __webpack_require__(0);
 
 var _resourceLoader = __webpack_require__(14);
 
-var _extras = __webpack_require__(71);
+var _extras = __webpack_require__(70);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -20194,7 +19882,7 @@ function parse(resource, texture) {
 
 
 /***/ }),
-/* 82 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20366,7 +20054,7 @@ module.exports = exports['default'];
 
 
 /***/ }),
-/* 83 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20403,7 +20091,7 @@ module.exports = function parseURI (str, opts) {
 
 
 /***/ }),
-/* 84 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20617,7 +20305,7 @@ function queue(worker, concurrency) {
 
 
 /***/ }),
-/* 85 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20690,7 +20378,7 @@ function encodeBinary(input) {
 
 
 /***/ }),
-/* 86 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20735,7 +20423,7 @@ exports.getResourcePath = getResourcePath;
 
 var _resourceLoader = __webpack_require__(14);
 
-var _url = __webpack_require__(54);
+var _url = __webpack_require__(53);
 
 var _url2 = _interopRequireDefault(_url);
 
@@ -20754,7 +20442,7 @@ function getResourcePath(resource, baseUrl) {
 
 
 /***/ }),
-/* 87 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20782,7 +20470,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 88 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20926,7 +20614,7 @@ exports.default = Plane;
 
 
 /***/ }),
-/* 89 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20989,182 +20677,13 @@ exports.default = CountLimiter;
 
 
 /***/ }),
-/* 90 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(16);
-function dot(a, b) {
-    return a[0] * b[0] + a[1] * b[1];
-}
-/**
- * Z-coordinate of cross product (because x and y are zero)
- */
-function cross(a, b) {
-    return a[0] * b[1] - a[1] * b[0];
-}
-class Actor {
-    constructor(sprites, position = [0, 0]) {
-        this._sprites = sprites;
-        console.assert(sprites.rest);
-        console.assert(sprites.move);
-        for (let key in this._sprites) {
-            if (this._sprites[key] instanceof pixi.extras.AnimatedSprite) {
-                this._sprites[key].play();
-            }
-        }
-        this.setActiveSprite('rest');
-        this.speed = 1;
-        this.inmotion = false;
-        this._target = null;
-        this._path = null;
-        this.position = position;
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.anchor.set(0.5);
-            sprite.scale.x = 0.25;
-            sprite.scale.y = 0.25;
-        }
-    }
-    setActiveSprite(spritekey) {
-        for (let key in this._sprites) {
-            this._sprites[key].visible = false;
-        }
-        this._activeSprite = this._sprites[spritekey];
-        this._activeSprite.visible = true;
-    }
-    get activeSprite() {
-        return this._activeSprite;
-    }
-    get sprites() {
-        let arr = [];
-        for (let key in this._sprites) {
-            arr.push(this._sprites[key]);
-        }
-        return arr;
-    }
-    getSpriteKeys() {
-        return Object.keys(this._sprites);
-    }
-    set position(pos) {
-        this._position = pos;
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.x = pos[0];
-            sprite.y = pos[1];
-        }
-    }
-    set rotation(angle) {
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.rotation = angle;
-        }
-    }
-    get position() {
-        return this._position;
-    }
-    setAnimSpeed(spritekey, value) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].animationSpeed = value;
-        }
-    }
-    moveTo(x, y) {
-        this.inmotion = true;
-        this._target = [x, y];
-        this._lastdir = null;
-        this.setActiveSprite('move');
-    }
-    moveAlongPath(path) {
-        this.inmotion = true;
-        this._path = path;
-        this._lastdir = null;
-        this.setActiveSprite('move');
-    }
-    get target() {
-        return this._target;
-    }
-    move(dt) {
-        dt;
-        if (this._target) {
-            let vec = [this._target[0] - this._sprites.rest.position.x,
-                this._target[1] - this._sprites.rest.position.y];
-            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            if (len < this.speed / 2) {
-                this.inmotion = false;
-                this._target = null;
-                this.setActiveSprite('rest');
-            }
-            else {
-                let dir = [vec[0] / len, vec[1] / len];
-                this.position = [
-                    this._sprites.rest.position.x + this.speed * dir[0],
-                    this._sprites.rest.position.y + this.speed * dir[1]
-                ];
-            }
-        }
-        else if (this._path && this._path.length > 0) {
-            let [tx, ty] = this._path[0];
-            let { x, y } = this._sprites.rest.position;
-            let vec = [tx - x, ty - y];
-            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            let dir = [vec[0] / len, vec[1] / len];
-            // No rotation = pointing up
-            let sense = cross(dir, [0, -1]) >= 0 ? -1 : 1;
-            let angle = Math.acos(dot(dir, [0, -1]));
-            this.rotation = sense * angle;
-            let crossedover = false;
-            if (this._lastdir !== null) {
-                crossedover = dot(dir, this._lastdir) < 0;
-            }
-            if (len < 1 || crossedover) {
-                // switch to next path, if we are not at end of it yet
-                if (this._path.length > 1) {
-                    this._path.shift();
-                }
-                else {
-                    this.inmotion = false;
-                    this._path = null;
-                    this.setActiveSprite('rest');
-                }
-                if (crossedover) {
-                    this.position = [tx, ty];
-                }
-            }
-            else {
-                this.position = [
-                    this._sprites.rest.position.x + this.speed * dir[0],
-                    this._sprites.rest.position.y + this.speed * dir[1]
-                ];
-            }
-            this._lastdir = dir;
-        }
-        else {
-            this.inmotion = false;
-            this._path = null;
-            this._target = null;
-            this.setActiveSprite('rest');
-        }
-    }
-}
-exports.Actor = Actor;
-class Hero extends Actor {
-    constructor(sprites, location = [0, 0]) {
-        super(sprites, location);
-    }
-}
-exports.Hero = Hero;
-
-
-/***/ }),
-/* 91 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(16);
+const pixi = __webpack_require__(20);
 const gamedata_1 = __webpack_require__(38);
 const size = { x: 20, y: 20 };
 const ORIGIN = [50, 50];
@@ -21632,452 +21151,16 @@ exports.runHexDev = runHexDev;
 
 
 /***/ }),
-/* 92 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-class Grid {
-    constructor(nrows, ncols, data) {
-        this.nrows = nrows;
-        this.ncols = ncols;
-        if (data) {
-            console.assert(data.length === nrows * ncols);
-            this.arr = data;
-        }
-        else {
-            this.arr = new Array(this.nrows * this.ncols);
-        }
-    }
-    get(row, col) {
-        return this.arr[row * this.ncols + col];
-    }
-    set(row, col, value) {
-        this.arr[row * this.ncols + col] = value;
-    }
-    fill(value) {
-        this.arr.fill(value);
-    }
-}
-exports.Grid = Grid;
-class TriTerrain {
-    constructor(nrows, ncols, cellsize, weights) {
-        this.nrows = nrows;
-        this.ncols = ncols;
-        this.cellsize = cellsize;
-        this.weightGrid = new Grid(nrows, ncols, weights);
-        if (!weights) {
-            this.weightGrid.fill(0);
-        }
-        this.gCostGrid = new Grid(nrows, ncols);
-        this.hCostGrid = new Grid(nrows, ncols);
-        this.predecessorGrid = new Grid(nrows, ncols);
-    }
-    getNeighbors(row, col) {
-        let neighbors;
-        let nrows = this.nrows;
-        let ncols = this.ncols;
-        if ((row + col) % 2) {
-            neighbors = [
-                [row, col - 1],
-                [row, col + 1],
-                [row + 1, col]
-            ];
-        }
-        else {
-            neighbors = [
-                [row - 1, col],
-                [row, col - 1],
-                [row, col + 1]
-            ];
-        }
-        return neighbors.filter(([row, col]) => {
-            return row >= 0 && row < nrows && col >= 0 && col < ncols;
-        });
-    }
-    static distanceManhattan(a, b) {
-        return Math.abs(b[0] - a[0]) + Math.abs(b[1] - a[1]);
-    }
-    heuristic(from, to) {
-        return TriTerrain.distanceManhattan(from, to);
-    }
-    searchPath(start, goal, algo = 'a*') {
-        let openSet = [];
-        let closedSet = [];
-        if (algo === 'dijkstra') {
-            this.gCostGrid.fill(Infinity);
-            this.hCostGrid.fill(0);
-            this.predecessorGrid.fill(null);
-            for (let i = 0; i < this.nrows; i++) {
-                for (let j = 0; j < this.ncols; j++) {
-                    openSet.push([i, j]);
-                }
-            }
-        }
-        else if (algo === 'a*') {
-            this.gCostGrid.fill(Infinity);
-            this.hCostGrid.fill(0);
-            this.predecessorGrid.fill(null);
-            openSet = [start];
-        }
-        else {
-            console.assert(false);
-        }
-        let lowestFScoreNode = () => {
-            let idx = -1;
-            let lowest = Infinity;
-            for (let i = 0; i < openSet.length; i++) {
-                let [row, col] = openSet[i];
-                let f = this.gCostGrid.get(row, col) + this.hCostGrid.get(row, col);
-                if (f < lowest) {
-                    lowest = f;
-                    idx = i;
-                }
-            }
-            if (idx < 0) {
-                // All costs are infinity, pick first one arbitrarily
-                idx = 0;
-            }
-            return openSet.splice(idx, 1)[0];
-        };
-        let inOpenSet = (coord) => {
-            let [row, col] = coord;
-            for (let i = 0; i < openSet.length; i++) {
-                if (openSet[i][0] === row && openSet[i][1] === col) {
-                    return true;
-                }
-            }
-            return false;
-        };
-        let inClosedSet = (coord) => {
-            let [row, col] = coord;
-            for (let i = 0; i < closedSet.length; i++) {
-                if (closedSet[i][0] === row && closedSet[i][1] === col) {
-                    return true;
-                }
-            }
-            return false;
-        };
-        let reconstructPath = (goal) => {
-            let path = [goal];
-            let node = goal;
-            while (this.predecessorGrid.get(node[0], node[1])) {
-                node = this.predecessorGrid.get(node[0], node[1]);
-                path.unshift(node);
-            }
-            return path;
-        };
-        this.gCostGrid.set(start[0], start[1], 0);
-        this.hCostGrid.set(start[0], start[1], this.heuristic(start, goal));
-        while (openSet.length > 0) {
-            let cur = lowestFScoreNode();
-            if (cur[0] === goal[0] && cur[1] === goal[1]) {
-                return reconstructPath(goal);
-            }
-            closedSet.push(cur);
-            let neighbors = this.getNeighbors(cur[0], cur[1]);
-            for (let neighbor of neighbors) {
-                let [row, col] = neighbor;
-                let iswall = this.weightGrid.get(row, col) === 0;
-                if (iswall) {
-                    continue;
-                }
-                // If neighbor is in closedSet, it's already evaluated. Ignore it
-                if (inClosedSet(neighbor)) {
-                    continue;
-                }
-                // If neighbor is not in openSet, add it to it
-                if (!inOpenSet(neighbor)) {
-                    openSet.push(neighbor);
-                }
-                // Distance from start to the neighbor
-                let g = this.gCostGrid.get(cur[0], cur[1]) +
-                    TriTerrain.distanceManhattan(cur, neighbor);
-                if (g > this.gCostGrid.get(neighbor[0], neighbor[1])) {
-                    continue; // this is not a better path
-                }
-                this.predecessorGrid.set(neighbor[0], neighbor[1], cur);
-                this.gCostGrid.set(neighbor[0], neighbor[1], g);
-                if (algo === 'dijkstra') {
-                    this.hCostGrid.set(neighbor[0], neighbor[1], 0);
-                }
-                else if (algo === 'a*') {
-                    this.hCostGrid.set(neighbor[0], neighbor[1], this.heuristic(neighbor, goal));
-                }
-                else {
-                    console.assert(false);
-                }
-            }
-        }
-        return [];
-    }
-    toSVG(fillopacity = 1.0) {
-        let S = this.cellsize;
-        let H = S * Math.sin(Math.PI / 3);
-        /*
-                  /^\
-                 / | \
-             S  /  |  \  S
-               /   H   \
-              /    |    \
-             / 60  |  60 \
-            /______v______\
-            <------S------>
-            
-        */
-        let shapes = '';
-        for (let i = 0; i < this.nrows; i++) {
-            for (let j = 0; j < this.ncols; j++) {
-                let points = '';
-                let fill;
-                if ((i + j) % 2) {
-                    // Flat-side down triangle
-                    points =
-                        `${j * S / 2 + S / 2},${i * H + H / 2} ` + // Apex
-                            `${(j - 1) * S / 2 + S / 2},${(i + 1) * H + H / 2} ` +
-                            `${(j + 1) * S / 2 + S / 2},${(i + 1) * H + H / 2}`;
-                }
-                else {
-                    // Flat-side up triangle
-                    points =
-                        `${(j - 1) * S / 2 + S / 2},${i * H + H / 2} ` +
-                            `${(j + 1) * S / 2 + S / 2},${i * H + H / 2} ` +
-                            `${j * S / 2 + S / 2},${(i + 1) * H + H / 2}`; // Apex
-                }
-                fill = this.weightGrid.get(i, j) ? '#ffffff' : '#000000';
-                shapes += `<polygon points="${points}" stroke="#aaaaaa"` +
-                    ` fill="${fill}" fill-opacity=${fillopacity} class="tricell"` +
-                    ` id="cell${i}-${j}"></polygon>`;
-            }
-        }
-        return `<svg
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:cc="http://creativecommons.org/ns#"
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-      version="1.1"
-      width="${(this.ncols + 2) * S / 2}" height="${(this.nrows + 1) * H}">
-      <g id="weights" data="${this.nrows},${this.ncols}" ` +
-            `inkscape:label="Weights" inkscape:groupmode="layer">
-      ${shapes}
-      </g>
-      <g id="terrain" inkscape:label="Terrain Art" inkscape:groupmode="layer">
-      </g>
-      <g id="structures" inkscape:label="Structures Art"
-       inkscape:groupmode="layer">
-      </g>
-      <g id="actors" inkscape:label="Actors Art" inkscape:groupmode="layer">
-      </g>
-    </svg>`;
-    }
-}
-exports.TriTerrain = TriTerrain;
-function runTriDev() {
-    let svgDiv = document.createElement('div');
-    svgDiv.style.position = 'absolute';
-    svgDiv.style.left = '0px';
-    svgDiv.style.top = '0px';
-    document.body.appendChild(svgDiv);
-    let inputDiv = document.createElement('div');
-    inputDiv.innerHTML = `
-  Rows
-  <select name="rows">
-    <option value=20>20</option>
-    <option value=30>30</option>
-    <option value=40>40</option>
-    <option value=50>50</option>
-    <option value=60>60</option>
-    <option value=70>70</option>
-    <option value=80>80</option>
-  </select>
-  Columns
-  <select name="cols">
-    <option value=30>30</option>
-    <option value=40>40</option>
-    <option value=50>50</option>
-    <option value=60>60</option>
-    <option value=70>70</option>
-    <option value=80>80</option>
-  </select>
-  Cell Size (px)
-  <select name="cellsize">
-    <option value=10>10</option>
-    <option value=20>20</option>
-    <option value=30>30</option>
-    <option value=40>40</option>
-    <option value=50>50</option>
-    <option value=75>75</option>
-    <option value=100>100</option>
-    <option value=125>125</option>
-    <option value=150>150</option>
-    <option value=175>175</option>
-    <option value=200>200</option>
-  </select>
-  <a id="save-base-grid" href="#save-base-grid">Save Base Grid</a>
-  <a id="save-layout" href="#save-layout">Save Layout</a>
-  <input id="file-input" type="file" name="name" style="display: none;" />
-  <button name="import">Import</button>
-  `;
-    inputDiv.style.position = 'absolute';
-    inputDiv.style.right = '0px';
-    inputDiv.style.bottom = '0px';
-    inputDiv.style.padding = '10px';
-    document.body.appendChild(inputDiv);
-    let rows = document.body.querySelector('select[name=rows]');
-    rows.value = '50';
-    let cols = document.body.querySelector('select[name=cols]');
-    cols.value = '80';
-    let cellsize = document.body.querySelector('select[name=cellsize]');
-    cellsize.value = '20';
-    let importButton = document.body.querySelector('button[name=import]');
-    let fileInput = document.body.querySelector('input[id=file-input]');
-    importButton.addEventListener('click', () => {
-        fileInput.click();
-    });
-    fileInput.addEventListener('change', () => {
-        if (fileInput.files.length > 0) {
-            let file = fileInput.files[0];
-            let reader = new FileReader();
-            reader.onload = ev => {
-                processLayout(ev.target.result);
-            };
-            reader.readAsBinaryString(file);
-        }
-        ;
-    });
-    let aelems = inputDiv.querySelectorAll('a');
-    for (let i = 0; i < aelems.length; i++) {
-        let aelem = aelems[i];
-        aelem.style.color = '#ffffff';
-        aelem.style.background = '#555555';
-        aelem.style.padding = '5px';
-        aelem.style.textDecoration = 'none';
-    }
-    rows.addEventListener('change', () => { redraw(); });
-    cols.addEventListener('change', () => { redraw(); });
-    cellsize.addEventListener('change', () => { redraw(); });
-    let processLayout = (importedSVG) => {
-        svgDiv.innerHTML = importedSVG;
-        let terrainGList = svgDiv.querySelector('g#terrain').children;
-        let terrainPlan = {};
-        let layoutWidth = parseInt(svgDiv.querySelector('svg').getAttribute('width'));
-        let layoutHeight = parseInt(svgDiv.querySelector('svg').getAttribute('height'));
-        terrainPlan.width = layoutWidth;
-        terrainPlan.height = layoutHeight;
-        for (let i = 0; i < terrainGList.length; i++) {
-            let terrG = terrainGList[i];
-            let id = terrG.getAttribute('id');
-            if (id && /^(pxc_\w+)/.test(id)) {
-                let { top: y, left: x, width, height } = terrG.getBoundingClientRect();
-                terrainPlan[id] = { x, y, width, height };
-            }
-        }
-        let weightG = svgDiv.querySelector('g#weights');
-        let [nrows, ncols] = (weightG.getAttribute('data').split(','))
-            .map(s => parseInt(s));
-        let weightGrid = new Grid(nrows, ncols);
-        for (let i = 0; i < nrows; i++) {
-            for (let j = 0; j < ncols; j++) {
-                let cellElem = weightG.querySelector(`#cell${i}-${j}`);
-                console.assert(cellElem !== null);
-                let style = cellElem.getAttribute('style');
-                console.assert(/fill:#(\w+)/.test(style));
-                let fill = /fill:#(\w+)/.exec(style)[1];
-                if (fill === 'ffffff') {
-                    weightGrid.set(i, j, 0); // Free
-                }
-                else if (fill === '000000') {
-                    weightGrid.set(i, j, 1); // Wall
-                }
-            }
-        }
-        terrainPlan.weights = {
-            rows: nrows,
-            cols: ncols,
-            grid: weightGrid.arr
-        };
-        inputDiv.querySelector('a[id=save-layout]').setAttribute('href', `data:text/json;utf8,${JSON.stringify(terrainPlan)}`);
-    };
-    let redraw = () => {
-        let tgrid = new TriTerrain(parseInt(rows.value), parseInt(cols.value), parseInt(cellsize.value));
-        let svgdoc = tgrid.toSVG();
-        svgDiv.innerHTML = svgdoc;
-        inputDiv.querySelector('a[id=save-base-grid]')
-            .setAttribute('href', `data:image/svg+xml;utf8,${svgdoc}`);
-    };
-    redraw();
-    /*
-    let repaintAllCells = () => {
-      for(let row=0; row<tgrid.nrows; row++) {
-        for(let col=0; col<tgrid.ncols; col++) {
-          let cell = document.body.querySelector(`#cell${row}-${col}`);
-          let fill = tgrid.weightGrid.get(row,col) ? '#cccccc' : '#ff7744';
-          if(cell) {
-            cell.setAttribute('fill',fill);
-          }
-        }
-      }
-    }
-  
-    let start = [0,0];
-  
-    let cells = document.body.querySelectorAll('.tricell');
-    for(let i=0; i<cells.length; i++) {
-      let cell = cells[i];
-      cell.addEventListener('mousemove', (ev:MouseEvent) => {
-        let idstr = (<HTMLElement>ev.target).getAttribute('id');
-        if(idstr) {
-          let match = /cell(\d+)-(\d+)/g.exec(idstr);
-          if(match && match.length >= 3) {
-            let row = parseInt(match[1]);
-            let col = parseInt(match[2]);
-            let path = tgrid.searchPath(start,[row,col]);
-            repaintAllCells();
-            for(let coord of path) {
-              let cell = document.body.querySelector(
-                `#cell${coord[0]}-${coord[1]}`);
-              if(cell) {
-                cell.setAttribute('fill','#6666ff');
-              }
-            }
-            outputDiv.textContent = `${row},${col}`;
-          }
-        }
-      });
-      cell.addEventListener('mouseup', (ev:MouseEvent) => {
-        let idstr = (<HTMLElement>ev.target).getAttribute('id');
-        if(idstr) {
-          let match = /cell(\d+)-(\d+)/g.exec(idstr);
-          if(match && match.length >= 3) {
-            let row = parseInt(match[1]);
-            let col = parseInt(match[2]);
-            start = [row,col];
-          }
-        }
-      });
-    }
-    */
-}
-exports.runTriDev = runTriDev;
-
-
-/***/ }),
-/* 93 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const game_1 = __webpack_require__(39);
-const terraingrid_1 = __webpack_require__(91);
-const triterrain_1 = __webpack_require__(92);
+const game_1 = __webpack_require__(91);
+const terraingrid_1 = __webpack_require__(89);
+const triterrain_1 = __webpack_require__(198);
 const actorstudio_1 = __webpack_require__(199);
-const editor_1 = __webpack_require__(200);
-const game_2 = __webpack_require__(39);
 function parseTaskName() {
     let urlmatch = /#([\d\w-]+)$/.exec(window.location.href);
     if (urlmatch) {
@@ -22095,9 +21178,6 @@ window.onload = function () {
     else if (taskname === 'rectgame') {
         game_1.runGame("rect");
     }
-    else if (taskname === 'trigame') {
-        game_1.runGame("tri");
-    }
     else if (taskname === 'hexdev') {
         terraingrid_1.runHexDev();
     }
@@ -22107,27 +21187,175 @@ window.onload = function () {
     else if (taskname === 'actorstudio') {
         actorstudio_1.runActorStudio();
     }
-    else if (taskname === 'edit') {
-        editor_1.editTerrainWeights();
-    }
-    else if (taskname === 'play') {
-        game_2.playGame();
-    }
 };
 
 
 /***/ }),
-/* 94 */
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(20);
+const terrain_1 = __webpack_require__(194);
+const actor_1 = __webpack_require__(196);
+const assets_1 = __webpack_require__(197);
+const terraingrid_1 = __webpack_require__(89);
+const gamedata_1 = __webpack_require__(38);
+function runGame(choice = "hex") {
+    assets_1.Assets.load()
+        .then(() => {
+        if (choice === "hex") {
+            setupHexMap();
+        }
+        else {
+            setupRectMap();
+        }
+    })
+        .catch(e => {
+        console.error('Asset load error:', e);
+    });
+}
+exports.runGame = runGame;
+function setupHexMap() {
+    let W = window.innerWidth;
+    let H = window.innerHeight;
+    let app = new pixi.Application(W, H, { backgroundColor: 0xdddddd });
+    document.body.appendChild(app.view);
+    app.view.style.position = 'absolute';
+    app.view.style.left = '0px';
+    app.view.style.top = '0px';
+    let terrain = new terraingrid_1.TerrainGrid(gamedata_1.basic_hex);
+    let walls = new pixi.Graphics();
+    let debugGraphics = new pixi.Graphics();
+    for (let walltile of terrain.getTiles()) {
+        let { type, polygon } = walltile;
+        walls.beginFill(type === 0 ? 0x888888 : 0xffffff, 1);
+        walls.lineStyle(1, 0x111111, 1);
+        let firstPoint = polygon[0];
+        walls.moveTo(firstPoint[0], firstPoint[1]);
+        for (let i = 1; i < polygon.length; i++) {
+            let point = polygon[i];
+            walls.lineTo(point[0], point[1]);
+        }
+        walls.lineTo(firstPoint[0], firstPoint[1]);
+        walls.endFill();
+    }
+    app.stage.addChild(walls);
+    app.stage.addChild(debugGraphics);
+    function drawPolyline(polyline, color = 0x444444) {
+        if (polyline.length <= 0) {
+            return;
+        }
+        debugGraphics.lineStyle(2, color, 1);
+        let firstPoint = polyline[0];
+        debugGraphics.moveTo(firstPoint[0], firstPoint[1]);
+        for (let i = 1; i < polyline.length; i++) {
+            let point = polyline[i];
+            debugGraphics.lineTo(point[0], point[1]);
+        }
+    }
+    // Prevent right-click context menu
+    document.addEventListener('contextmenu', (ev) => {
+        ev.preventDefault();
+    });
+    // Hero
+    let hero = new actor_1.Hero(assets_1.Assets.sprites.heroRest, assets_1.Assets.sprites.heroMotion);
+    let actors = [hero];
+    for (let sprite of hero.allSprites) {
+        app.stage.addChild(sprite);
+    }
+    hero.position = terrain.getCellAtRowCol(0, 0).getCenterScreenCoord();
+    app.view.addEventListener('mousedown', (ev) => {
+        if (ev.button === 2) {
+            let target = terrain.getCellAtScreenCoord([ev.clientX, ev.clientY]);
+            let source = terrain.getCellAtScreenCoord(hero.position);
+            if (source && target) {
+                debugGraphics.clear();
+                let pathPoints = terrain.searchPath(source, target)
+                    .map(node => node.getCenterScreenCoord());
+                hero.moveAlongPath(pathPoints);
+                drawPolyline(pathPoints);
+            }
+            ev.stopPropagation();
+            ev.preventDefault();
+            return false;
+        }
+        return true;
+    });
+    app.ticker.add((dt) => {
+        for (let actor of actors) {
+            if (actor.inmotion) {
+                actor.move(dt);
+            }
+        }
+    });
+}
+function setupRectMap() {
+    let W = window.innerWidth;
+    let H = window.innerHeight;
+    let app = new pixi.Application(W, H, { backgroundColor: 0xdddddd });
+    document.body.appendChild(app.view);
+    app.view.style.position = 'absolute';
+    app.view.style.left = '0px';
+    app.view.style.top = '0px';
+    let terrain = new terrain_1.Terrain(W, H);
+    let walls = new pixi.Graphics();
+    for (let walltile of terrain.getTiles()) {
+        let { type, dim: [x, y, w, h] } = walltile;
+        if (type === 0) {
+            walls.lineStyle(0, 0x000000, 1);
+            walls.beginFill(0x444444, 1);
+            walls.drawRect(x, y, w, h);
+        }
+    }
+    app.stage.addChild(walls);
+    // Prevent right-click context menu
+    document.addEventListener('contextmenu', (ev) => {
+        ev.preventDefault();
+    });
+    // Hero
+    let hero = new actor_1.Hero(assets_1.Assets.sprites.heroRest, assets_1.Assets.sprites.heroMotion);
+    let actors = [hero];
+    for (let sprite of hero.allSprites) {
+        app.stage.addChild(sprite);
+    }
+    hero.position = terrain.fromGridLocation(10, 20);
+    app.view.addEventListener('mousedown', (ev) => {
+        if (ev.button === 2) {
+            let target = [ev.clientX, ev.clientY];
+            let source = hero.position;
+            let pathPoints = terrain.searchPath(terrain.toGridLocation(source[0], source[1]), terrain.toGridLocation(target[0], target[1]));
+            hero.moveAlongPath(pathPoints);
+            ev.stopPropagation();
+            ev.preventDefault();
+            return false;
+        }
+        return true;
+    });
+    app.ticker.add((dt) => {
+        for (let actor of actors) {
+            if (actor.inmotion) {
+                actor.move(dt);
+            }
+        }
+    });
+}
+
+
+/***/ }),
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+__webpack_require__(93);
+
 __webpack_require__(95);
 
-__webpack_require__(97);
-
-__webpack_require__(98);
+__webpack_require__(96);
 
 if (!window.ArrayBuffer) {
     window.ArrayBuffer = Array;
@@ -22147,13 +21375,13 @@ if (!window.Uint16Array) {
 
 
 /***/ }),
-/* 95 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _objectAssign = __webpack_require__(96);
+var _objectAssign = __webpack_require__(94);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
@@ -22167,7 +21395,7 @@ if (!Object.assign) {
 
 
 /***/ }),
-/* 96 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22264,7 +21492,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 97 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22345,7 +21573,7 @@ if (!global.cancelAnimationFrame) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21)))
 
 /***/ }),
-/* 98 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22368,7 +21596,7 @@ if (!Math.sign) {
 
 
 /***/ }),
-/* 99 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22487,7 +21715,7 @@ exports.default = Circle;
 
 
 /***/ }),
-/* 100 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22614,7 +21842,7 @@ exports.default = Ellipse;
 
 
 /***/ }),
-/* 101 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22750,7 +21978,7 @@ exports.default = Polygon;
 
 
 /***/ }),
-/* 102 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22888,7 +22116,7 @@ exports.default = RoundedRectangle;
 
 
 /***/ }),
-/* 103 */
+/* 101 */
 /***/ (function(module, exports) {
 
 
@@ -22920,7 +22148,7 @@ module.exports = createContext;
 
 
 /***/ }),
-/* 104 */
+/* 102 */
 /***/ (function(module, exports) {
 
 var EMPTY_ARRAY_BUFFER = new ArrayBuffer(0);
@@ -23045,11 +22273,11 @@ module.exports = Buffer;
 
 
 /***/ }),
-/* 105 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var Texture = __webpack_require__(43);
+var Texture = __webpack_require__(42);
 
 /**
  * Helper class to create a webGL Framebuffer
@@ -23276,15 +22504,15 @@ module.exports = Framebuffer;
 
 
 /***/ }),
-/* 106 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var compileProgram = __webpack_require__(44),
-	extractAttributes = __webpack_require__(45),
-	extractUniforms = __webpack_require__(47),
-	setPrecision = __webpack_require__(49),
-	generateUniformAccessObject = __webpack_require__(50);
+var compileProgram = __webpack_require__(43),
+	extractAttributes = __webpack_require__(44),
+	extractUniforms = __webpack_require__(46),
+	setPrecision = __webpack_require__(48),
+	generateUniformAccessObject = __webpack_require__(49);
 
 /**
  * Helper class to create a webGL Shader
@@ -23373,12 +22601,12 @@ module.exports = Shader;
 
 
 /***/ }),
-/* 107 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 // state object//
-var setVertexAttribArrays = __webpack_require__( 42 );
+var setVertexAttribArrays = __webpack_require__( 41 );
 
 /**
  * Helper class to work with WebGL VertexArrayObjects (vaos)
@@ -23641,22 +22869,22 @@ VertexArrayObject.prototype.getSize = function()
 
 
 /***/ }),
-/* 108 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-    compileProgram: __webpack_require__(44),
-    defaultValue: __webpack_require__(48),
-    extractAttributes: __webpack_require__(45),
-    extractUniforms: __webpack_require__(47),
-    generateUniformAccessObject: __webpack_require__(50),
-    setPrecision: __webpack_require__(49),
-    mapSize: __webpack_require__(46),
+    compileProgram: __webpack_require__(43),
+    defaultValue: __webpack_require__(47),
+    extractAttributes: __webpack_require__(44),
+    extractUniforms: __webpack_require__(46),
+    generateUniformAccessObject: __webpack_require__(49),
+    setPrecision: __webpack_require__(48),
+    mapSize: __webpack_require__(45),
     mapType: __webpack_require__(25)
 };
 
 /***/ }),
-/* 109 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23683,7 +22911,7 @@ function maxRecommendedTextures(max) {
 
 
 /***/ }),
-/* 110 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23702,7 +22930,7 @@ function canUploadSameBuffer() {
 
 
 /***/ }),
-/* 111 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23773,7 +23001,7 @@ exports.default = {
 
 
 /***/ }),
-/* 112 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23840,7 +23068,7 @@ function performMixins() {
 
 
 /***/ }),
-/* 113 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23875,7 +23103,7 @@ module.exports = function removeItems(arr, startIdx, removeCount)
 
 
 /***/ }),
-/* 114 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23923,7 +23151,7 @@ function mapPremultipliedBlendModes() {
 
 
 /***/ }),
-/* 115 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23932,7 +23160,7 @@ function mapPremultipliedBlendModes() {
 exports.__esModule = true;
 exports.default = determineCrossOrigin;
 
-var _url2 = __webpack_require__(54);
+var _url2 = __webpack_require__(53);
 
 var _url3 = _interopRequireDefault(_url2);
 
@@ -23984,7 +23212,7 @@ function determineCrossOrigin(url) {
 
 
 /***/ }),
-/* 116 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -24520,10 +23748,10 @@ function determineCrossOrigin(url) {
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(117)(module), __webpack_require__(21)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(115)(module), __webpack_require__(21)))
 
 /***/ }),
-/* 117 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -24551,7 +23779,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 118 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24574,18 +23802,18 @@ module.exports = {
 
 
 /***/ }),
-/* 119 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(120);
-exports.encode = exports.stringify = __webpack_require__(121);
+exports.decode = exports.parse = __webpack_require__(118);
+exports.encode = exports.stringify = __webpack_require__(119);
 
 
 /***/ }),
-/* 120 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24676,7 +23904,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 121 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24768,7 +23996,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 122 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24784,7 +24012,7 @@ var _settings2 = _interopRequireDefault(_settings);
 
 var _const = __webpack_require__(1);
 
-var _TickerListener = __webpack_require__(123);
+var _TickerListener = __webpack_require__(121);
 
 var _TickerListener2 = _interopRequireDefault(_TickerListener);
 
@@ -25246,7 +24474,7 @@ exports.default = Ticker;
 
 
 /***/ }),
-/* 123 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25425,7 +24653,7 @@ exports.default = TickerListener;
 
 
 /***/ }),
-/* 124 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25583,7 +24811,7 @@ _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
 
 
 /***/ }),
-/* 125 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25757,7 +24985,7 @@ exports.default = CanvasMaskManager;
 
 
 /***/ }),
-/* 126 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25768,7 +24996,7 @@ exports.default = mapCanvasBlendModesToPixi;
 
 var _const = __webpack_require__(1);
 
-var _canUseNewCanvasBlendModes = __webpack_require__(60);
+var _canUseNewCanvasBlendModes = __webpack_require__(59);
 
 var _canUseNewCanvasBlendModes2 = _interopRequireDefault(_canUseNewCanvasBlendModes);
 
@@ -25834,7 +25062,7 @@ function mapCanvasBlendModesToPixi() {
 
 
 /***/ }),
-/* 127 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25842,11 +25070,11 @@ function mapCanvasBlendModesToPixi() {
 
 exports.__esModule = true;
 
-var _ObjectRenderer2 = __webpack_require__(17);
+var _ObjectRenderer2 = __webpack_require__(16);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(18);
+var _WebGLRenderer = __webpack_require__(17);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -25854,15 +25082,15 @@ var _createIndicesForQuads = __webpack_require__(34);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
-var _generateMultiTextureShader = __webpack_require__(140);
+var _generateMultiTextureShader = __webpack_require__(138);
 
 var _generateMultiTextureShader2 = _interopRequireDefault(_generateMultiTextureShader);
 
-var _checkMaxIfStatmentsInShader = __webpack_require__(141);
+var _checkMaxIfStatmentsInShader = __webpack_require__(139);
 
 var _checkMaxIfStatmentsInShader2 = _interopRequireDefault(_checkMaxIfStatmentsInShader);
 
-var _BatchBuffer = __webpack_require__(142);
+var _BatchBuffer = __webpack_require__(140);
 
 var _BatchBuffer2 = _interopRequireDefault(_BatchBuffer);
 
@@ -26381,7 +25609,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 
 
 /***/ }),
-/* 128 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26393,7 +25621,7 @@ var _WebGLManager2 = __webpack_require__(12);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _SpriteMaskFilter = __webpack_require__(61);
+var _SpriteMaskFilter = __webpack_require__(60);
 
 var _SpriteMaskFilter2 = _interopRequireDefault(_SpriteMaskFilter);
 
@@ -26596,7 +25824,7 @@ exports.default = MaskManager;
 
 
 /***/ }),
-/* 129 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26663,7 +25891,7 @@ function extractUniformsFromString(string) {
 
 
 /***/ }),
-/* 130 */
+/* 128 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -26853,7 +26081,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 131 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27011,7 +26239,7 @@ exports.default = StencilManager;
 
 
 /***/ }),
-/* 132 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27023,11 +26251,11 @@ var _WebGLManager2 = __webpack_require__(12);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _RenderTarget = __webpack_require__(19);
+var _RenderTarget = __webpack_require__(18);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _Quad = __webpack_require__(63);
+var _Quad = __webpack_require__(62);
 
 var _Quad2 = _interopRequireDefault(_Quad);
 
@@ -27037,7 +26265,7 @@ var _Shader = __webpack_require__(13);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
-var _filterTransforms = __webpack_require__(133);
+var _filterTransforms = __webpack_require__(131);
 
 var filterTransforms = _interopRequireWildcard(_filterTransforms);
 
@@ -27610,7 +26838,7 @@ exports.default = FilterManager;
 
 
 /***/ }),
-/* 133 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27674,7 +26902,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
 
 /***/ }),
-/* 134 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27686,7 +26914,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _const = __webpack_require__(1);
 
-var _RenderTarget = __webpack_require__(19);
+var _RenderTarget = __webpack_require__(18);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -27935,7 +27163,7 @@ exports.default = TextureManager;
 
 
 /***/ }),
-/* 135 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28060,7 +27288,7 @@ exports.default = TextureGarbageCollector;
 
 
 /***/ }),
-/* 136 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28068,7 +27296,7 @@ exports.default = TextureGarbageCollector;
 
 exports.__esModule = true;
 
-var _mapWebGLBlendModesToPixi = __webpack_require__(137);
+var _mapWebGLBlendModesToPixi = __webpack_require__(135);
 
 var _mapWebGLBlendModesToPixi2 = _interopRequireDefault(_mapWebGLBlendModesToPixi);
 
@@ -28345,7 +27573,7 @@ exports.default = WebGLState;
 
 
 /***/ }),
-/* 137 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28399,7 +27627,7 @@ function mapWebGLBlendModesToPixi(gl) {
 
 
 /***/ }),
-/* 138 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28436,7 +27664,7 @@ function mapWebGLDrawModesToPixi(gl) {
 
 
 /***/ }),
-/* 139 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28457,7 +27685,7 @@ function validateContext(gl) {
 
 
 /***/ }),
-/* 140 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28525,7 +27753,7 @@ function generateSampleSrc(maxTextures) {
 
 
 /***/ }),
-/* 141 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28605,7 +27833,7 @@ function generateIfTestSrc(maxIfs) {
 
 
 /***/ }),
-/* 142 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28663,7 +27891,7 @@ exports.default = Buffer;
 
 
 /***/ }),
-/* 143 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28691,15 +27919,15 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _TextStyle = __webpack_require__(64);
+var _TextStyle = __webpack_require__(63);
 
 var _TextStyle2 = _interopRequireDefault(_TextStyle);
 
-var _TextMetrics = __webpack_require__(65);
+var _TextMetrics = __webpack_require__(64);
 
 var _TextMetrics2 = _interopRequireDefault(_TextMetrics);
 
-var _trimCanvas = __webpack_require__(144);
+var _trimCanvas = __webpack_require__(142);
 
 var _trimCanvas2 = _interopRequireDefault(_trimCanvas);
 
@@ -29323,7 +28551,7 @@ exports.default = Text;
 
 
 /***/ }),
-/* 144 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29404,7 +28632,7 @@ function trimCanvas(canvas) {
 
 
 /***/ }),
-/* 145 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29424,7 +28652,7 @@ var _Texture = __webpack_require__(8);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _GraphicsData = __webpack_require__(66);
+var _GraphicsData = __webpack_require__(65);
 
 var _GraphicsData2 = _interopRequireDefault(_GraphicsData);
 
@@ -29442,7 +28670,7 @@ var _Bounds = __webpack_require__(26);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
-var _bezierCurveTo2 = __webpack_require__(146);
+var _bezierCurveTo2 = __webpack_require__(144);
 
 var _bezierCurveTo3 = _interopRequireDefault(_bezierCurveTo2);
 
@@ -30581,7 +29809,7 @@ Graphics._SPRITE_TEXTURE = null;
 
 
 /***/ }),
-/* 146 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30636,7 +29864,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 
 
 /***/ }),
-/* 147 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30648,35 +29876,35 @@ var _utils = __webpack_require__(2);
 
 var _const = __webpack_require__(1);
 
-var _ObjectRenderer2 = __webpack_require__(17);
+var _ObjectRenderer2 = __webpack_require__(16);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(18);
+var _WebGLRenderer = __webpack_require__(17);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _WebGLGraphicsData = __webpack_require__(148);
+var _WebGLGraphicsData = __webpack_require__(146);
 
 var _WebGLGraphicsData2 = _interopRequireDefault(_WebGLGraphicsData);
 
-var _PrimitiveShader = __webpack_require__(149);
+var _PrimitiveShader = __webpack_require__(147);
 
 var _PrimitiveShader2 = _interopRequireDefault(_PrimitiveShader);
 
-var _buildPoly = __webpack_require__(150);
+var _buildPoly = __webpack_require__(148);
 
 var _buildPoly2 = _interopRequireDefault(_buildPoly);
 
-var _buildRectangle = __webpack_require__(151);
+var _buildRectangle = __webpack_require__(149);
 
 var _buildRectangle2 = _interopRequireDefault(_buildRectangle);
 
-var _buildRoundedRectangle = __webpack_require__(152);
+var _buildRoundedRectangle = __webpack_require__(150);
 
 var _buildRoundedRectangle2 = _interopRequireDefault(_buildRoundedRectangle);
 
-var _buildCircle = __webpack_require__(153);
+var _buildCircle = __webpack_require__(151);
 
 var _buildCircle2 = _interopRequireDefault(_buildCircle);
 
@@ -30906,7 +30134,7 @@ _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
 
 
 /***/ }),
-/* 148 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31054,7 +30282,7 @@ exports.default = WebGLGraphicsData;
 
 
 /***/ }),
-/* 149 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31104,7 +30332,7 @@ exports.default = PrimitiveShader;
 
 
 /***/ }),
-/* 150 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31113,13 +30341,13 @@ exports.default = PrimitiveShader;
 exports.__esModule = true;
 exports.default = buildPoly;
 
-var _buildLine = __webpack_require__(20);
+var _buildLine = __webpack_require__(19);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
 var _utils = __webpack_require__(2);
 
-var _earcut = __webpack_require__(67);
+var _earcut = __webpack_require__(66);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
@@ -31195,7 +30423,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 151 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31204,7 +30432,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRectangle;
 
-var _buildLine = __webpack_require__(20);
+var _buildLine = __webpack_require__(19);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -31276,7 +30504,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 152 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31285,11 +30513,11 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRoundedRectangle;
 
-var _earcut = __webpack_require__(67);
+var _earcut = __webpack_require__(66);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
-var _buildLine = __webpack_require__(20);
+var _buildLine = __webpack_require__(19);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -31437,7 +30665,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 
 
 /***/ }),
-/* 153 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31446,7 +30674,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 exports.__esModule = true;
 exports.default = buildCircle;
 
-var _buildLine = __webpack_require__(20);
+var _buildLine = __webpack_require__(19);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -31535,7 +30763,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 154 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31809,7 +31037,7 @@ _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
 
 
 /***/ }),
-/* 155 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32076,7 +31304,7 @@ exports.default = Spritesheet;
 
 
 /***/ }),
-/* 156 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33177,7 +32405,7 @@ function deprecation(core) {
 
 
 /***/ }),
-/* 157 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33185,7 +32413,7 @@ function deprecation(core) {
 
 exports.__esModule = true;
 
-var _accessibleTarget = __webpack_require__(70);
+var _accessibleTarget = __webpack_require__(69);
 
 Object.defineProperty(exports, 'accessibleTarget', {
   enumerable: true,
@@ -33194,7 +32422,7 @@ Object.defineProperty(exports, 'accessibleTarget', {
   }
 });
 
-var _AccessibilityManager = __webpack_require__(158);
+var _AccessibilityManager = __webpack_require__(156);
 
 Object.defineProperty(exports, 'AccessibilityManager', {
   enumerable: true,
@@ -33207,7 +32435,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 158 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33223,7 +32451,7 @@ var _ismobilejs = __webpack_require__(27);
 
 var _ismobilejs2 = _interopRequireDefault(_ismobilejs);
 
-var _accessibleTarget = __webpack_require__(70);
+var _accessibleTarget = __webpack_require__(69);
 
 var _accessibleTarget2 = _interopRequireDefault(_accessibleTarget);
 
@@ -33706,7 +32934,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 
 /***/ }),
-/* 159 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33714,7 +32942,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 exports.__esModule = true;
 
-var _WebGLExtract = __webpack_require__(160);
+var _WebGLExtract = __webpack_require__(158);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -33723,7 +32951,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasExtract = __webpack_require__(161);
+var _CanvasExtract = __webpack_require__(159);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -33736,7 +32964,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 160 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33964,7 +33192,7 @@ core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
 
 
 /***/ }),
-/* 161 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34149,7 +33377,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 
 
 /***/ }),
-/* 162 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34563,7 +33791,7 @@ exports.default = AnimatedSprite;
 
 
 /***/ }),
-/* 163 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35018,7 +34246,7 @@ exports.default = TilingSprite;
 
 
 /***/ }),
-/* 164 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35185,7 +34413,7 @@ core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
 
 
 /***/ }),
-/* 165 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35199,7 +34427,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ObservablePoint = __webpack_require__(40);
+var _ObservablePoint = __webpack_require__(39);
 
 var _ObservablePoint2 = _interopRequireDefault(_ObservablePoint);
 
@@ -35778,7 +35006,7 @@ BitmapText.fonts = {};
 
 
 /***/ }),
-/* 166 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36187,7 +35415,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 
 
 /***/ }),
-/* 167 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36226,7 +35454,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 
 
 /***/ }),
-/* 168 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36264,7 +35492,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 
 /***/ }),
-/* 169 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36272,7 +35500,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 exports.__esModule = true;
 
-var _FXAAFilter = __webpack_require__(170);
+var _FXAAFilter = __webpack_require__(168);
 
 Object.defineProperty(exports, 'FXAAFilter', {
   enumerable: true,
@@ -36281,7 +35509,7 @@ Object.defineProperty(exports, 'FXAAFilter', {
   }
 });
 
-var _NoiseFilter = __webpack_require__(171);
+var _NoiseFilter = __webpack_require__(169);
 
 Object.defineProperty(exports, 'NoiseFilter', {
   enumerable: true,
@@ -36290,7 +35518,7 @@ Object.defineProperty(exports, 'NoiseFilter', {
   }
 });
 
-var _DisplacementFilter = __webpack_require__(172);
+var _DisplacementFilter = __webpack_require__(170);
 
 Object.defineProperty(exports, 'DisplacementFilter', {
   enumerable: true,
@@ -36299,7 +35527,7 @@ Object.defineProperty(exports, 'DisplacementFilter', {
   }
 });
 
-var _BlurFilter = __webpack_require__(173);
+var _BlurFilter = __webpack_require__(171);
 
 Object.defineProperty(exports, 'BlurFilter', {
   enumerable: true,
@@ -36308,7 +35536,7 @@ Object.defineProperty(exports, 'BlurFilter', {
   }
 });
 
-var _BlurXFilter = __webpack_require__(72);
+var _BlurXFilter = __webpack_require__(71);
 
 Object.defineProperty(exports, 'BlurXFilter', {
   enumerable: true,
@@ -36317,7 +35545,7 @@ Object.defineProperty(exports, 'BlurXFilter', {
   }
 });
 
-var _BlurYFilter = __webpack_require__(76);
+var _BlurYFilter = __webpack_require__(75);
 
 Object.defineProperty(exports, 'BlurYFilter', {
   enumerable: true,
@@ -36326,7 +35554,7 @@ Object.defineProperty(exports, 'BlurYFilter', {
   }
 });
 
-var _ColorMatrixFilter = __webpack_require__(174);
+var _ColorMatrixFilter = __webpack_require__(172);
 
 Object.defineProperty(exports, 'ColorMatrixFilter', {
   enumerable: true,
@@ -36335,7 +35563,7 @@ Object.defineProperty(exports, 'ColorMatrixFilter', {
   }
 });
 
-var _VoidFilter = __webpack_require__(175);
+var _VoidFilter = __webpack_require__(173);
 
 Object.defineProperty(exports, 'VoidFilter', {
   enumerable: true,
@@ -36348,7 +35576,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 170 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36407,7 +35635,7 @@ exports.default = FXAAFilter;
 
 
 /***/ }),
-/* 171 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36509,7 +35737,7 @@ exports.default = NoiseFilter;
 
 
 /***/ }),
-/* 172 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36624,7 +35852,7 @@ exports.default = DisplacementFilter;
 
 
 /***/ }),
-/* 173 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36638,11 +35866,11 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _BlurXFilter = __webpack_require__(72);
+var _BlurXFilter = __webpack_require__(71);
 
 var _BlurXFilter2 = _interopRequireDefault(_BlurXFilter);
 
-var _BlurYFilter = __webpack_require__(76);
+var _BlurYFilter = __webpack_require__(75);
 
 var _BlurYFilter2 = _interopRequireDefault(_BlurYFilter);
 
@@ -36803,7 +36031,7 @@ exports.default = BlurFilter;
 
 
 /***/ }),
-/* 174 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37359,7 +36587,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 
 /***/ }),
-/* 175 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37414,7 +36642,7 @@ exports.default = VoidFilter;
 
 
 /***/ }),
-/* 176 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37422,7 +36650,7 @@ exports.default = VoidFilter;
 
 exports.__esModule = true;
 
-var _InteractionData = __webpack_require__(77);
+var _InteractionData = __webpack_require__(76);
 
 Object.defineProperty(exports, 'InteractionData', {
   enumerable: true,
@@ -37431,7 +36659,7 @@ Object.defineProperty(exports, 'InteractionData', {
   }
 });
 
-var _InteractionManager = __webpack_require__(177);
+var _InteractionManager = __webpack_require__(175);
 
 Object.defineProperty(exports, 'InteractionManager', {
   enumerable: true,
@@ -37440,7 +36668,7 @@ Object.defineProperty(exports, 'InteractionManager', {
   }
 });
 
-var _interactiveTarget = __webpack_require__(80);
+var _interactiveTarget = __webpack_require__(79);
 
 Object.defineProperty(exports, 'interactiveTarget', {
   enumerable: true,
@@ -37449,7 +36677,7 @@ Object.defineProperty(exports, 'interactiveTarget', {
   }
 });
 
-var _InteractionTrackingData = __webpack_require__(79);
+var _InteractionTrackingData = __webpack_require__(78);
 
 Object.defineProperty(exports, 'InteractionTrackingData', {
   enumerable: true,
@@ -37458,7 +36686,7 @@ Object.defineProperty(exports, 'InteractionTrackingData', {
   }
 });
 
-var _InteractionEvent = __webpack_require__(78);
+var _InteractionEvent = __webpack_require__(77);
 
 Object.defineProperty(exports, 'InteractionEvent', {
   enumerable: true,
@@ -37471,7 +36699,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 177 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37485,15 +36713,15 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _InteractionData = __webpack_require__(77);
+var _InteractionData = __webpack_require__(76);
 
 var _InteractionData2 = _interopRequireDefault(_InteractionData);
 
-var _InteractionEvent = __webpack_require__(78);
+var _InteractionEvent = __webpack_require__(77);
 
 var _InteractionEvent2 = _interopRequireDefault(_InteractionEvent);
 
-var _InteractionTrackingData = __webpack_require__(79);
+var _InteractionTrackingData = __webpack_require__(78);
 
 var _InteractionTrackingData2 = _interopRequireDefault(_InteractionTrackingData);
 
@@ -37501,7 +36729,7 @@ var _eventemitter = __webpack_require__(7);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _interactiveTarget = __webpack_require__(80);
+var _interactiveTarget = __webpack_require__(79);
 
 var _interactiveTarget2 = _interopRequireDefault(_interactiveTarget);
 
@@ -39236,7 +38464,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 
 
 /***/ }),
-/* 178 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39245,7 +38473,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 exports.__esModule = true;
 exports.shared = exports.Resource = exports.textureParser = exports.getResourcePath = exports.spritesheetParser = exports.parseBitmapFontData = exports.bitmapFontParser = exports.Loader = undefined;
 
-var _bitmapFontParser = __webpack_require__(81);
+var _bitmapFontParser = __webpack_require__(80);
 
 Object.defineProperty(exports, 'bitmapFontParser', {
     enumerable: true,
@@ -39260,7 +38488,7 @@ Object.defineProperty(exports, 'parseBitmapFontData', {
     }
 });
 
-var _spritesheetParser = __webpack_require__(86);
+var _spritesheetParser = __webpack_require__(85);
 
 Object.defineProperty(exports, 'spritesheetParser', {
     enumerable: true,
@@ -39275,7 +38503,7 @@ Object.defineProperty(exports, 'getResourcePath', {
     }
 });
 
-var _textureParser = __webpack_require__(87);
+var _textureParser = __webpack_require__(86);
 
 Object.defineProperty(exports, 'textureParser', {
     enumerable: true,
@@ -39293,11 +38521,11 @@ Object.defineProperty(exports, 'Resource', {
     }
 });
 
-var _Application = __webpack_require__(68);
+var _Application = __webpack_require__(67);
 
 var _Application2 = _interopRequireDefault(_Application);
 
-var _loader = __webpack_require__(180);
+var _loader = __webpack_require__(178);
 
 var _loader2 = _interopRequireDefault(_loader);
 
@@ -39369,7 +38597,7 @@ AppPrototype.destroy = function destroy(removeView) {
 
 
 /***/ }),
-/* 179 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39379,15 +38607,15 @@ exports.__esModule = true;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _miniSignals = __webpack_require__(82);
+var _miniSignals = __webpack_require__(81);
 
 var _miniSignals2 = _interopRequireDefault(_miniSignals);
 
-var _parseUri = __webpack_require__(83);
+var _parseUri = __webpack_require__(82);
 
 var _parseUri2 = _interopRequireDefault(_parseUri);
 
-var _async = __webpack_require__(84);
+var _async = __webpack_require__(83);
 
 var async = _interopRequireWildcard(_async);
 
@@ -39992,7 +39220,7 @@ exports.default = Loader;
 
 
 /***/ }),
-/* 180 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40004,21 +39232,21 @@ var _resourceLoader = __webpack_require__(14);
 
 var _resourceLoader2 = _interopRequireDefault(_resourceLoader);
 
-var _blob = __webpack_require__(181);
+var _blob = __webpack_require__(179);
 
 var _eventemitter = __webpack_require__(7);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _textureParser = __webpack_require__(87);
+var _textureParser = __webpack_require__(86);
 
 var _textureParser2 = _interopRequireDefault(_textureParser);
 
-var _spritesheetParser = __webpack_require__(86);
+var _spritesheetParser = __webpack_require__(85);
 
 var _spritesheetParser2 = _interopRequireDefault(_spritesheetParser);
 
-var _bitmapFontParser = __webpack_require__(81);
+var _bitmapFontParser = __webpack_require__(80);
 
 var _bitmapFontParser2 = _interopRequireDefault(_bitmapFontParser);
 
@@ -40168,7 +39396,7 @@ Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
 
 
 /***/ }),
-/* 181 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40184,7 +39412,7 @@ var _Resource = __webpack_require__(36);
 
 var _Resource2 = _interopRequireDefault(_Resource);
 
-var _b = __webpack_require__(85);
+var _b = __webpack_require__(84);
 
 var _b2 = _interopRequireDefault(_b);
 
@@ -40261,7 +39489,7 @@ function blobMiddlewareFactory() {
 
 
 /***/ }),
-/* 182 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40278,7 +39506,7 @@ Object.defineProperty(exports, 'Mesh', {
   }
 });
 
-var _MeshRenderer = __webpack_require__(183);
+var _MeshRenderer = __webpack_require__(181);
 
 Object.defineProperty(exports, 'MeshRenderer', {
   enumerable: true,
@@ -40287,7 +39515,7 @@ Object.defineProperty(exports, 'MeshRenderer', {
   }
 });
 
-var _CanvasMeshRenderer = __webpack_require__(184);
+var _CanvasMeshRenderer = __webpack_require__(182);
 
 Object.defineProperty(exports, 'CanvasMeshRenderer', {
   enumerable: true,
@@ -40296,7 +39524,7 @@ Object.defineProperty(exports, 'CanvasMeshRenderer', {
   }
 });
 
-var _Plane = __webpack_require__(88);
+var _Plane = __webpack_require__(87);
 
 Object.defineProperty(exports, 'Plane', {
   enumerable: true,
@@ -40305,7 +39533,7 @@ Object.defineProperty(exports, 'Plane', {
   }
 });
 
-var _NineSlicePlane = __webpack_require__(185);
+var _NineSlicePlane = __webpack_require__(183);
 
 Object.defineProperty(exports, 'NineSlicePlane', {
   enumerable: true,
@@ -40314,7 +39542,7 @@ Object.defineProperty(exports, 'NineSlicePlane', {
   }
 });
 
-var _Rope = __webpack_require__(186);
+var _Rope = __webpack_require__(184);
 
 Object.defineProperty(exports, 'Rope', {
   enumerable: true,
@@ -40327,7 +39555,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 183 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40483,7 +39711,7 @@ core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
 
 
 /***/ }),
-/* 184 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40771,7 +39999,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 
 
 /***/ }),
-/* 185 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40781,7 +40009,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Plane2 = __webpack_require__(88);
+var _Plane2 = __webpack_require__(87);
 
 var _Plane3 = _interopRequireDefault(_Plane2);
 
@@ -41162,7 +40390,7 @@ exports.default = NineSlicePlane;
 
 
 /***/ }),
-/* 186 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41403,7 +40631,7 @@ exports.default = Rope;
 
 
 /***/ }),
-/* 187 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41411,7 +40639,7 @@ exports.default = Rope;
 
 exports.__esModule = true;
 
-var _ParticleContainer = __webpack_require__(188);
+var _ParticleContainer = __webpack_require__(186);
 
 Object.defineProperty(exports, 'ParticleContainer', {
   enumerable: true,
@@ -41420,7 +40648,7 @@ Object.defineProperty(exports, 'ParticleContainer', {
   }
 });
 
-var _ParticleRenderer = __webpack_require__(189);
+var _ParticleRenderer = __webpack_require__(187);
 
 Object.defineProperty(exports, 'ParticleRenderer', {
   enumerable: true,
@@ -41433,7 +40661,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 188 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41816,7 +41044,7 @@ exports.default = ParticleContainer;
 
 
 /***/ }),
-/* 189 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41828,11 +41056,11 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ParticleShader = __webpack_require__(190);
+var _ParticleShader = __webpack_require__(188);
 
 var _ParticleShader2 = _interopRequireDefault(_ParticleShader);
 
-var _ParticleBuffer = __webpack_require__(191);
+var _ParticleBuffer = __webpack_require__(189);
 
 var _ParticleBuffer2 = _interopRequireDefault(_ParticleBuffer);
 
@@ -42297,7 +41525,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 
 /***/ }),
-/* 190 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42345,7 +41573,7 @@ exports.default = ParticleShader;
 
 
 /***/ }),
-/* 191 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42593,7 +41821,7 @@ exports.default = ParticleBuffer;
 
 
 /***/ }),
-/* 192 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42601,7 +41829,7 @@ exports.default = ParticleBuffer;
 
 exports.__esModule = true;
 
-var _WebGLPrepare = __webpack_require__(193);
+var _WebGLPrepare = __webpack_require__(191);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -42610,7 +41838,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasPrepare = __webpack_require__(194);
+var _CanvasPrepare = __webpack_require__(192);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -42628,7 +41856,7 @@ Object.defineProperty(exports, 'BasePrepare', {
   }
 });
 
-var _CountLimiter = __webpack_require__(89);
+var _CountLimiter = __webpack_require__(88);
 
 Object.defineProperty(exports, 'CountLimiter', {
   enumerable: true,
@@ -42637,7 +41865,7 @@ Object.defineProperty(exports, 'CountLimiter', {
   }
 });
 
-var _TimeLimiter = __webpack_require__(195);
+var _TimeLimiter = __webpack_require__(193);
 
 Object.defineProperty(exports, 'TimeLimiter', {
   enumerable: true,
@@ -42650,7 +41878,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 193 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42777,7 +42005,7 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 
 
 /***/ }),
-/* 194 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42902,7 +42130,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 
 
 /***/ }),
-/* 195 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42965,14 +42193,14 @@ exports.default = TimeLimiter;
 
 
 /***/ }),
-/* 196 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="../javascript-astar.d.ts"/>
-const javascript_astar_1 = __webpack_require__(197);
+const javascript_astar_1 = __webpack_require__(195);
 const gamedata_1 = __webpack_require__(38);
 class Terrain {
     constructor(worldW, worldH) {
@@ -43038,7 +42266,7 @@ exports.Terrain = Terrain;
 
 
 /***/ }),
-/* 197 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// javascript-astar 0.4.1
@@ -43450,13 +42678,164 @@ return {
 });
 
 /***/ }),
-/* 198 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(16);
+function dot(a, b) {
+    return a[0] * b[0] + a[1] * b[1];
+}
+/**
+ * Z-coordinate of cross product (because x and y are zero)
+ */
+function cross(a, b) {
+    return a[0] * b[1] - a[1] * b[0];
+}
+class Actor {
+    constructor(restSprite, motionSprite, position = [0, 0]) {
+        this._restSprite = restSprite;
+        this._motionSprite = motionSprite;
+        this._allSprites = [this._restSprite, this._motionSprite];
+        this.setActiveSprite(this._restSprite);
+        this.speed = 1;
+        this.inmotion = false;
+        this._target = null;
+        this._path = null;
+        this.position = position;
+        for (let sprite of this._allSprites) {
+            sprite.anchor.set(0.5);
+            sprite.scale.x = 0.25;
+            sprite.scale.y = 0.25;
+        }
+    }
+    setActiveSprite(sprite) {
+        for (let sp of this._allSprites) {
+            sp.visible = false;
+        }
+        this._activeSprite = sprite;
+        sprite.visible = true;
+    }
+    get activeSprite() {
+        return this._activeSprite;
+    }
+    get allSprites() {
+        return this._allSprites;
+    }
+    set position(pos) {
+        this._position = pos;
+        for (let sprite of this._allSprites) {
+            sprite.x = pos[0];
+            sprite.y = pos[1];
+        }
+    }
+    set rotation(angle) {
+        for (let sprite of this._allSprites) {
+            sprite.rotation = angle;
+        }
+    }
+    get position() {
+        return this._position;
+    }
+    setMovementAnimSpeed(value) {
+        this._motionSprite.animationSpeed = value;
+    }
+    moveTo(x, y) {
+        this.inmotion = true;
+        this._target = [x, y];
+        this._lastdir = null;
+        this.setActiveSprite(this._motionSprite);
+    }
+    moveAlongPath(path) {
+        this.inmotion = true;
+        this._path = path;
+        this._lastdir = null;
+        this.setActiveSprite(this._motionSprite);
+    }
+    get target() {
+        return this._target;
+    }
+    move(dt) {
+        dt;
+        if (this._target) {
+            let vec = [this._target[0] - this._restSprite.position.x,
+                this._target[1] - this._restSprite.position.y];
+            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            if (len < this.speed / 2) {
+                this.inmotion = false;
+                this._target = null;
+                this.setActiveSprite(this._restSprite);
+            }
+            else {
+                let dir = [vec[0] / len, vec[1] / len];
+                this.position = [
+                    this._restSprite.position.x + this.speed * dir[0],
+                    this._restSprite.position.y + this.speed * dir[1]
+                ];
+            }
+        }
+        else if (this._path && this._path.length > 0) {
+            let [tx, ty] = this._path[0];
+            let { x, y } = this._restSprite.position;
+            let vec = [tx - x, ty - y];
+            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            let dir = [vec[0] / len, vec[1] / len];
+            // No rotation = pointing up
+            let sense = cross(dir, [0, -1]) >= 0 ? -1 : 1;
+            let angle = Math.acos(dot(dir, [0, -1]));
+            this.rotation = sense * angle;
+            let crossedover = false;
+            if (this._lastdir !== null) {
+                crossedover = dot(dir, this._lastdir) < 0;
+            }
+            if (len < 1 || crossedover) {
+                // switch to next path, if we are not at end of it yet
+                if (this._path.length > 1) {
+                    this._path.shift();
+                }
+                else {
+                    this.inmotion = false;
+                    this._path = null;
+                    this.setActiveSprite(this._restSprite);
+                }
+                if (crossedover) {
+                    this.position = [tx, ty];
+                }
+            }
+            else {
+                this.position = [
+                    this._restSprite.position.x + this.speed * dir[0],
+                    this._restSprite.position.y + this.speed * dir[1]
+                ];
+            }
+            this._lastdir = dir;
+        }
+        else {
+            this.inmotion = false;
+            this._path = null;
+            this._target = null;
+            this.setActiveSprite(this._restSprite);
+        }
+    }
+}
+exports.Actor = Actor;
+class Hero extends Actor {
+    constructor(restSprite, motionSprite, location = [0, 0]) {
+        super(restSprite, motionSprite, location);
+    }
+}
+exports.Hero = Hero;
+
+
+/***/ }),
+/* 197 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(20);
 class Assets {
     static load() {
         return new Promise((resolve, reject) => {
@@ -43488,14 +42867,470 @@ Assets.sprites = {};
 
 
 /***/ }),
+/* 198 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class Grid {
+    constructor(nrows, ncols, data) {
+        this.nrows = nrows;
+        this.ncols = ncols;
+        if (data) {
+            console.assert(data.length === nrows * ncols);
+            this.arr = data;
+        }
+        else {
+            this.arr = new Array(this.nrows * this.ncols);
+        }
+    }
+    get(row, col) {
+        return this.arr[row * this.ncols + col];
+    }
+    set(row, col, value) {
+        this.arr[row * this.ncols + col] = value;
+    }
+    fill(value) {
+        this.arr.fill(value);
+    }
+}
+class TriTerrain {
+    constructor(nrows, ncols, cellsize) {
+        this.nrows = nrows;
+        this.ncols = ncols;
+        this.cellsize = cellsize;
+        /*
+        this.nrows = 20;
+        this.ncols = 30;
+        this.cellsize = 50;
+        this.weightGrid = new Grid<number>(this.nrows,this.ncols,[
+          1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,
+           1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,
+          1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+          1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+           1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+        ]);
+        */
+        this.weightGrid = new Grid(nrows, ncols);
+        this.weightGrid.fill(0);
+        this.gCostGrid = new Grid(nrows, ncols);
+        this.hCostGrid = new Grid(nrows, ncols);
+        this.predecessorGrid = new Grid(nrows, ncols);
+    }
+    getNeighbors(row, col) {
+        let neighbors;
+        let nrows = this.nrows;
+        let ncols = this.ncols;
+        if ((row + col) % 2) {
+            neighbors = [
+                [row, col - 1],
+                [row, col + 1],
+                [row + 1, col]
+            ];
+        }
+        else {
+            neighbors = [
+                [row - 1, col],
+                [row, col - 1],
+                [row, col + 1]
+            ];
+        }
+        return neighbors.filter(([row, col]) => {
+            return row >= 0 && row < nrows && col >= 0 && col < ncols;
+        });
+    }
+    static distanceManhattan(a, b) {
+        return Math.abs(b[0] - a[0]) + Math.abs(b[1] - a[1]);
+    }
+    heuristic(from, to) {
+        return TriTerrain.distanceManhattan(from, to);
+    }
+    searchPath(start, goal, algo = 'a*') {
+        let openSet = [];
+        let closedSet = [];
+        if (algo === 'dijkstra') {
+            this.gCostGrid.fill(Infinity);
+            this.hCostGrid.fill(0);
+            this.predecessorGrid.fill(null);
+            for (let i = 0; i < this.nrows; i++) {
+                for (let j = 0; j < this.ncols; j++) {
+                    openSet.push([i, j]);
+                }
+            }
+        }
+        else if (algo === 'a*') {
+            this.gCostGrid.fill(Infinity);
+            this.hCostGrid.fill(0);
+            this.predecessorGrid.fill(null);
+            openSet = [start];
+        }
+        else {
+            console.assert(false);
+        }
+        let lowestFScoreNode = () => {
+            let idx = -1;
+            let lowest = Infinity;
+            for (let i = 0; i < openSet.length; i++) {
+                let [row, col] = openSet[i];
+                let f = this.gCostGrid.get(row, col) + this.hCostGrid.get(row, col);
+                if (f < lowest) {
+                    lowest = f;
+                    idx = i;
+                }
+            }
+            if (idx < 0) {
+                // All costs are infinity, pick first one arbitrarily
+                idx = 0;
+            }
+            return openSet.splice(idx, 1)[0];
+        };
+        let inOpenSet = (coord) => {
+            let [row, col] = coord;
+            for (let i = 0; i < openSet.length; i++) {
+                if (openSet[i][0] === row && openSet[i][1] === col) {
+                    return true;
+                }
+            }
+            return false;
+        };
+        let inClosedSet = (coord) => {
+            let [row, col] = coord;
+            for (let i = 0; i < closedSet.length; i++) {
+                if (closedSet[i][0] === row && closedSet[i][1] === col) {
+                    return true;
+                }
+            }
+            return false;
+        };
+        let reconstructPath = (goal) => {
+            let path = [goal];
+            let node = goal;
+            while (this.predecessorGrid.get(node[0], node[1])) {
+                node = this.predecessorGrid.get(node[0], node[1]);
+                path.unshift(node);
+            }
+            return path;
+        };
+        this.gCostGrid.set(start[0], start[1], 0);
+        this.hCostGrid.set(start[0], start[1], this.heuristic(start, goal));
+        while (openSet.length > 0) {
+            let cur = lowestFScoreNode();
+            if (cur[0] === goal[0] && cur[1] === goal[1]) {
+                return reconstructPath(goal);
+            }
+            closedSet.push(cur);
+            let neighbors = this.getNeighbors(cur[0], cur[1]);
+            for (let neighbor of neighbors) {
+                let [row, col] = neighbor;
+                let iswall = this.weightGrid.get(row, col) === 0;
+                if (iswall) {
+                    continue;
+                }
+                // If neighbor is in closedSet, it's already evaluated. Ignore it
+                if (inClosedSet(neighbor)) {
+                    continue;
+                }
+                // If neighbor is not in openSet, add it to it
+                if (!inOpenSet(neighbor)) {
+                    openSet.push(neighbor);
+                }
+                // Distance from start to the neighbor
+                let g = this.gCostGrid.get(cur[0], cur[1]) +
+                    TriTerrain.distanceManhattan(cur, neighbor);
+                if (g > this.gCostGrid.get(neighbor[0], neighbor[1])) {
+                    continue; // this is not a better path
+                }
+                this.predecessorGrid.set(neighbor[0], neighbor[1], cur);
+                this.gCostGrid.set(neighbor[0], neighbor[1], g);
+                if (algo === 'dijkstra') {
+                    this.hCostGrid.set(neighbor[0], neighbor[1], 0);
+                }
+                else if (algo === 'a*') {
+                    this.hCostGrid.set(neighbor[0], neighbor[1], this.heuristic(neighbor, goal));
+                }
+                else {
+                    console.assert(false);
+                }
+            }
+        }
+        return [];
+    }
+    toSVG() {
+        let S = this.cellsize;
+        let H = S * Math.sin(Math.PI / 3);
+        /*
+                  /^\
+                 / | \
+             S  /  |  \  S
+               /   H   \
+              /    |    \
+             / 60  |  60 \
+            /______v______\
+            <------S------>
+            
+        */
+        let shapes = '';
+        for (let i = 0; i < this.nrows; i++) {
+            for (let j = 0; j < this.ncols; j++) {
+                let points = '';
+                let fill;
+                if ((i + j) % 2) {
+                    // Flat-side down triangle
+                    points =
+                        `${j * S / 2 + S / 2},${i * H + H / 2} ` + // Apex
+                            `${(j - 1) * S / 2 + S / 2},${(i + 1) * H + H / 2} ` +
+                            `${(j + 1) * S / 2 + S / 2},${(i + 1) * H + H / 2}`;
+                }
+                else {
+                    // Flat-side up triangle
+                    points =
+                        `${(j - 1) * S / 2 + S / 2},${i * H + H / 2} ` +
+                            `${(j + 1) * S / 2 + S / 2},${i * H + H / 2} ` +
+                            `${j * S / 2 + S / 2},${(i + 1) * H + H / 2}`; // Apex
+                }
+                fill = this.weightGrid.get(i, j) ? '#000000' : '#ffffff';
+                shapes += `<polygon points="${points}" stroke="#aaaaaa"` +
+                    ` fill="${fill}" class="tricell" id="cell${i}-${j}"></polygon>`;
+            }
+        }
+        return `<svg
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      version="1.1"
+      width="${(this.ncols + 2) * S / 2}" height="${(this.nrows + 1) * H}">
+      <g id="weights" data="${this.nrows},${this.ncols}" ` +
+            `inkscape:label="Weights" inkscape:groupmode="layer">
+      ${shapes}
+      </g>
+      <g id="terrain" inkscape:label="Terrain Art" inkscape:groupmode="layer">
+      </g>
+      <g id="structures" inkscape:label="Structures Art"
+       inkscape:groupmode="layer">
+      </g>
+      <g id="actors" inkscape:label="Actors Art" inkscape:groupmode="layer">
+      </g>
+    </svg>`;
+    }
+}
+exports.TriTerrain = TriTerrain;
+function runTriDev() {
+    let svgDiv = document.createElement('div');
+    svgDiv.style.position = 'absolute';
+    svgDiv.style.left = '0px';
+    svgDiv.style.top = '0px';
+    document.body.appendChild(svgDiv);
+    let inputDiv = document.createElement('div');
+    inputDiv.innerHTML = `
+  Rows
+  <select name="rows">
+    <option value=20>20</option>
+    <option value=30>30</option>
+    <option value=40>40</option>
+    <option value=50>50</option>
+    <option value=60>60</option>
+    <option value=70>70</option>
+    <option value=80>80</option>
+  </select>
+  Columns
+  <select name="cols">
+    <option value=30>30</option>
+    <option value=40>40</option>
+    <option value=50>50</option>
+    <option value=60>60</option>
+    <option value=70>70</option>
+    <option value=80>80</option>
+  </select>
+  Cell Size (px)
+  <select name="cellsize">
+    <option value=10>10</option>
+    <option value=20>20</option>
+    <option value=30>30</option>
+    <option value=40>40</option>
+    <option value=50>50</option>
+    <option value=75>75</option>
+    <option value=100>100</option>
+    <option value=125>125</option>
+    <option value=150>150</option>
+    <option value=175>175</option>
+    <option value=200>200</option>
+  </select>
+  <a id="save-base-grid" href="#save-base-grid">Save Base Grid</a>
+  <a id="save-layout" href="#save-layout">Save Layout</a>
+  <input id="file-input" type="file" name="name" style="display: none;" />
+  <button name="import">Import</button>
+  `;
+    inputDiv.style.position = 'absolute';
+    inputDiv.style.right = '0px';
+    inputDiv.style.bottom = '0px';
+    inputDiv.style.padding = '10px';
+    document.body.appendChild(inputDiv);
+    let rows = document.body.querySelector('select[name=rows]');
+    rows.value = '50';
+    let cols = document.body.querySelector('select[name=cols]');
+    cols.value = '80';
+    let cellsize = document.body.querySelector('select[name=cellsize]');
+    cellsize.value = '20';
+    let importButton = document.body.querySelector('button[name=import]');
+    let fileInput = document.body.querySelector('input[id=file-input]');
+    importButton.addEventListener('click', () => {
+        fileInput.click();
+    });
+    fileInput.addEventListener('change', () => {
+        if (fileInput.files.length > 0) {
+            let file = fileInput.files[0];
+            let reader = new FileReader();
+            reader.onload = ev => {
+                processLayout(ev.target.result);
+            };
+            reader.readAsBinaryString(file);
+        }
+        ;
+    });
+    let aelems = inputDiv.querySelectorAll('a');
+    for (let i = 0; i < aelems.length; i++) {
+        let aelem = aelems[i];
+        aelem.style.color = '#ffffff';
+        aelem.style.background = '#555555';
+        aelem.style.padding = '5px';
+        aelem.style.textDecoration = 'none';
+    }
+    rows.addEventListener('change', () => { redraw(); });
+    cols.addEventListener('change', () => { redraw(); });
+    cellsize.addEventListener('change', () => { redraw(); });
+    let processLayout = (importedSVG) => {
+        svgDiv.innerHTML = importedSVG;
+        let terrainGList = svgDiv.querySelector('g#terrain').children;
+        let terrainPlan = {};
+        let layoutWidth = parseInt(svgDiv.querySelector('svg').getAttribute('width'));
+        let layoutHeight = parseInt(svgDiv.querySelector('svg').getAttribute('height'));
+        terrainPlan.width = layoutWidth;
+        terrainPlan.height = layoutHeight;
+        for (let i = 0; i < terrainGList.length; i++) {
+            let terrG = terrainGList[i];
+            let id = terrG.getAttribute('id');
+            if (id && /^(pxc_\w+)/.test(id)) {
+                terrainPlan[id] = terrG.getBoundingClientRect();
+            }
+        }
+        let weightG = svgDiv.querySelector('g#weights');
+        let [nrows, ncols] = (weightG.getAttribute('data').split(','))
+            .map(s => parseInt(s));
+        let weightGrid = new Grid(nrows, ncols);
+        for (let i = 0; i < nrows; i++) {
+            for (let j = 0; j < ncols; j++) {
+                let cellElem = weightG.querySelector(`#cell${i}-${j}`);
+                console.assert(cellElem !== null);
+                let style = cellElem.getAttribute('style');
+                console.assert(/fill:#(\w+)/.test(style));
+                let fill = /fill:#(\w+)/.exec(style)[1];
+                if (fill === 'ffffff') {
+                    weightGrid.set(i, j, 0); // Free
+                }
+                else if (fill === '000000') {
+                    weightGrid.set(i, j, 1); // Wall
+                }
+            }
+        }
+        terrainPlan.weights = {
+            rows: nrows,
+            cols: ncols,
+            grid: weightGrid.arr
+        };
+        inputDiv.querySelector('a[id=save-layout]').setAttribute('href', `data:text/json;utf8,${JSON.stringify(terrainPlan)}`);
+    };
+    let redraw = () => {
+        let tgrid = new TriTerrain(parseInt(rows.value), parseInt(cols.value), parseInt(cellsize.value));
+        let svgdoc = tgrid.toSVG();
+        svgDiv.innerHTML = svgdoc;
+        inputDiv.querySelector('a[id=save-base-grid]')
+            .setAttribute('href', `data:image/svg+xml;utf8,${svgdoc}`);
+    };
+    redraw();
+    /*
+    let repaintAllCells = () => {
+      for(let row=0; row<tgrid.nrows; row++) {
+        for(let col=0; col<tgrid.ncols; col++) {
+          let cell = document.body.querySelector(`#cell${row}-${col}`);
+          let fill = tgrid.weightGrid.get(row,col) ? '#cccccc' : '#ff7744';
+          if(cell) {
+            cell.setAttribute('fill',fill);
+          }
+        }
+      }
+    }
+  
+    let start = [0,0];
+  
+    let cells = document.body.querySelectorAll('.tricell');
+    for(let i=0; i<cells.length; i++) {
+      let cell = cells[i];
+      cell.addEventListener('mousemove', (ev:MouseEvent) => {
+        let idstr = (<HTMLElement>ev.target).getAttribute('id');
+        if(idstr) {
+          let match = /cell(\d+)-(\d+)/g.exec(idstr);
+          if(match && match.length >= 3) {
+            let row = parseInt(match[1]);
+            let col = parseInt(match[2]);
+            let path = tgrid.searchPath(start,[row,col]);
+            repaintAllCells();
+            for(let coord of path) {
+              let cell = document.body.querySelector(
+                `#cell${coord[0]}-${coord[1]}`);
+              if(cell) {
+                cell.setAttribute('fill','#6666ff');
+              }
+            }
+            outputDiv.textContent = `${row},${col}`;
+          }
+        }
+      });
+      cell.addEventListener('mouseup', (ev:MouseEvent) => {
+        let idstr = (<HTMLElement>ev.target).getAttribute('id');
+        if(idstr) {
+          let match = /cell(\d+)-(\d+)/g.exec(idstr);
+          if(match && match.length >= 3) {
+            let row = parseInt(match[1]);
+            let col = parseInt(match[2]);
+            start = [row,col];
+          }
+        }
+      });
+    }
+    */
+}
+exports.runTriDev = runTriDev;
+
+
+/***/ }),
 /* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(16);
-const actor_1 = __webpack_require__(90);
+const pixi = __webpack_require__(20);
+const actor_1 = __webpack_require__(196);
 function loadAssets() {
     return new Promise((resolve, reject) => {
         let sprites = {};
@@ -43541,8 +43376,6 @@ function loadAssets() {
                     sprites[actionName] = sprite;
                 }
             }
-            console.assert(sprites.rest);
-            console.assert(sprites.move);
             resolve(sprites);
         })
             .onError.add((e) => {
@@ -43571,15 +43404,12 @@ function runActorStudio() {
   Movement Speed
   <input type="range" name="movespeed"
     min="0.1" max="5.0" value="1" step="0.1"/>
-  Animations
-  <select name="animations"></select>
   `;
     let animSpeedInput = controlDiv.querySelector('input[name=animspeed]');
     let moveSpeedInput = controlDiv.querySelector('input[name=movespeed]');
     document.body.appendChild(controlDiv);
     animSpeedInput.addEventListener('change', () => {
-        actor.setAnimSpeed('move', parseFloat(animSpeedInput.value));
-        actor.setAnimSpeed('rest', parseFloat(animSpeedInput.value));
+        actor.setMovementAnimSpeed(parseFloat(animSpeedInput.value));
     });
     moveSpeedInput.addEventListener('change', () => {
         actor.speed = parseFloat(moveSpeedInput.value);
@@ -43594,24 +43424,14 @@ function runActorStudio() {
         ev.preventDefault();
     });
     loadAssets().then((sprites) => {
+        sprites.move.play();
         let center = [W / 2, H / 2];
-        actor = new actor_1.Actor(sprites, center);
-        actor.setAnimSpeed('move', parseFloat(animSpeedInput.value));
-        actor.setAnimSpeed('rest', parseFloat(animSpeedInput.value));
+        actor = new actor_1.Actor(sprites.rest, sprites.move, center);
+        actor.setMovementAnimSpeed(parseFloat(animSpeedInput.value));
         actor.speed = parseFloat(moveSpeedInput.value);
-        for (let sprite of actor.sprites) {
+        for (let sprite of actor.allSprites) {
             app.stage.addChild(sprite);
         }
-        let animationsSelect = document.body.querySelector('select');
-        for (let spritekey of actor.getSpriteKeys()) {
-            let opt = document.createElement('option');
-            opt.textContent = spritekey;
-            animationsSelect.appendChild(opt);
-        }
-        animationsSelect.value = 'rest';
-        animationsSelect.addEventListener('change', () => {
-            actor.setActiveSprite(animationsSelect.value);
-        });
     });
     app.ticker.add((dt) => {
         if (actor && actor.inmotion) {
@@ -43620,141 +43440,6 @@ function runActorStudio() {
     });
 }
 exports.runActorStudio = runActorStudio;
-
-
-/***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const triterrain_1 = __webpack_require__(92);
-let weightGrid;
-let layout;
-function processImportedSVG(svgdoc, cellsize) {
-    // Create SVG document from the imported file
-    let svgwrap = document.createElement('div');
-    svgwrap.innerHTML = svgdoc;
-    document.body.appendChild(svgwrap);
-    svgwrap.style.position = 'absolute';
-    svgwrap.style.left = '0px';
-    svgwrap.style.top = '0px';
-    // Extract the layout info from SVG document
-    let svgdiv = svgwrap.querySelector('svg');
-    layout = {};
-    layout.width = parseInt(svgwrap.querySelector('svg').getAttribute('width'));
-    layout.height = parseInt(svgwrap.querySelector('svg').getAttribute('height'));
-    for (let i = 0; i < svgdiv.children.length; i++) {
-        let child = svgdiv.children[i];
-        let id = child.getAttribute('id');
-        if (id && /^(pxc_\w+)/.test(id)) {
-            let { top: y, left: x, width, height } = child.getBoundingClientRect();
-            layout[id] = { x, y, width, height };
-        }
-    }
-    // Create SVG overlay for grid. Setup weight-painting of the grid
-    let S = cellsize;
-    let H = S * Math.sin(Math.PI / 3);
-    let ncols = Math.ceil(layout.width * 2 / S) - 2;
-    let nrows = Math.ceil(layout.height / H) - 1;
-    let terrain = new triterrain_1.TriTerrain(nrows, ncols, cellsize);
-    let gridsvgdoc = terrain.toSVG(0.1);
-    let gridsvgwrap = document.createElement('div');
-    gridsvgwrap.innerHTML = gridsvgdoc;
-    document.body.appendChild(gridsvgwrap);
-    gridsvgwrap.style.position = 'absolute';
-    gridsvgwrap.style.left = '0px';
-    gridsvgwrap.style.top = '0px';
-    let tricells = gridsvgwrap.querySelectorAll('.tricell');
-    let drawingInProgress = false;
-    weightGrid = new triterrain_1.Grid(nrows, ncols);
-    weightGrid.fill(0);
-    function parseCoord(polygon) {
-        let match = /cell(\d+)-(\d+)/.exec(polygon.getAttribute('id'));
-        return [parseInt(match[1]), parseInt(match[2])];
-    }
-    for (let i = 0; i < tricells.length; i++) {
-        let tcell = tricells[i];
-        tcell.addEventListener('mouseenter', ev => {
-            let polygon = ev.target;
-            polygon.setAttribute('fill-opacity', '0.8');
-            if (drawingInProgress) {
-                let [row, col] = parseCoord(polygon);
-                weightGrid.set(row, col, 1);
-            }
-        });
-        tcell.addEventListener('mouseleave', ev => {
-            let polygon = ev.target;
-            let [row, col] = parseCoord(polygon);
-            if (weightGrid.get(row, col) !== 1) {
-                polygon.setAttribute('fill-opacity', '0.1');
-            }
-        });
-        tcell.addEventListener('mousedown', ev => {
-            drawingInProgress = true;
-            let polygon = ev.target;
-            let [row, col] = parseCoord(polygon);
-            if (weightGrid.get(row, col) === 0) {
-                weightGrid.set(row, col, 1);
-            }
-            else {
-                weightGrid.set(row, col, 0);
-            }
-        });
-        tcell.addEventListener('mouseup', () => {
-            drawingInProgress = false;
-        });
-    }
-}
-function editTerrainWeights() {
-    let inputDiv = document.createElement('div');
-    inputDiv.innerHTML = `
-  <input id="file-input" type="file" name="name" style="display: none;" />
-  <button name="import">Import</button>
-  <button name="export">Export</button>
-  `;
-    inputDiv.style.position = 'absolute';
-    inputDiv.style.left = '0px';
-    inputDiv.style.top = '0px';
-    inputDiv.style.padding = '10px';
-    inputDiv.style.zIndex = '10';
-    document.body.appendChild(inputDiv);
-    // let cellsize = <HTMLSelectElement>document.body.querySelector(
-    //   'select[name=cellsize]')!;
-    // cellsize.value = '35';
-    let cellsize = 35;
-    let importButton = document.body.querySelector('button[name=import]');
-    let exportButton = document.body.querySelector('button[name=export]');
-    let fileInput = document.body.querySelector('input[id=file-input]');
-    importButton.addEventListener('click', () => {
-        fileInput.click();
-    });
-    fileInput.addEventListener('change', () => {
-        if (fileInput.files.length > 0) {
-            let file = fileInput.files[0];
-            let reader = new FileReader();
-            reader.onload = ev => {
-                let svgdoc = ev.target.result;
-                processImportedSVG(svgdoc, cellsize);
-            };
-            reader.readAsBinaryString(file);
-        }
-        ;
-    });
-    exportButton.addEventListener('click', () => {
-        layout.weights = {
-            rows: weightGrid.nrows,
-            cols: weightGrid.ncols,
-            grid: weightGrid.arr
-        };
-        let aelem = document.createElement('a');
-        aelem.setAttribute('href', `data:text/json;utf8,${JSON.stringify(layout)}`);
-        aelem.setAttribute('download', 'gamelayout.json');
-        aelem.click();
-    });
-}
-exports.editTerrainWeights = editTerrainWeights;
 
 
 /***/ })

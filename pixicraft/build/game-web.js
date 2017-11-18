@@ -106,7 +106,7 @@ Object.defineProperty(exports, 'glCore', {
   }
 });
 
-var _Bounds = __webpack_require__(29);
+var _Bounds = __webpack_require__(28);
 
 Object.defineProperty(exports, 'Bounds', {
   enumerable: true,
@@ -151,7 +151,7 @@ Object.defineProperty(exports, 'TransformStatic', {
   }
 });
 
-var _TransformBase = __webpack_require__(31);
+var _TransformBase = __webpack_require__(30);
 
 Object.defineProperty(exports, 'TransformBase', {
   enumerable: true,
@@ -160,7 +160,7 @@ Object.defineProperty(exports, 'TransformBase', {
   }
 });
 
-var _Sprite = __webpack_require__(32);
+var _Sprite = __webpack_require__(31);
 
 Object.defineProperty(exports, 'Sprite', {
   enumerable: true,
@@ -169,7 +169,7 @@ Object.defineProperty(exports, 'Sprite', {
   }
 });
 
-var _CanvasSpriteRenderer = __webpack_require__(131);
+var _CanvasSpriteRenderer = __webpack_require__(130);
 
 Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   enumerable: true,
@@ -178,7 +178,7 @@ Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   }
 });
 
-var _CanvasTinter = __webpack_require__(35);
+var _CanvasTinter = __webpack_require__(34);
 
 Object.defineProperty(exports, 'CanvasTinter', {
   enumerable: true,
@@ -187,7 +187,7 @@ Object.defineProperty(exports, 'CanvasTinter', {
   }
 });
 
-var _SpriteRenderer = __webpack_require__(134);
+var _SpriteRenderer = __webpack_require__(133);
 
 Object.defineProperty(exports, 'SpriteRenderer', {
   enumerable: true,
@@ -196,7 +196,7 @@ Object.defineProperty(exports, 'SpriteRenderer', {
   }
 });
 
-var _Text = __webpack_require__(150);
+var _Text = __webpack_require__(149);
 
 Object.defineProperty(exports, 'Text', {
   enumerable: true,
@@ -223,7 +223,7 @@ Object.defineProperty(exports, 'TextMetrics', {
   }
 });
 
-var _Graphics = __webpack_require__(152);
+var _Graphics = __webpack_require__(151);
 
 Object.defineProperty(exports, 'Graphics', {
   enumerable: true,
@@ -241,7 +241,7 @@ Object.defineProperty(exports, 'GraphicsData', {
   }
 });
 
-var _GraphicsRenderer = __webpack_require__(154);
+var _GraphicsRenderer = __webpack_require__(153);
 
 Object.defineProperty(exports, 'GraphicsRenderer', {
   enumerable: true,
@@ -250,7 +250,7 @@ Object.defineProperty(exports, 'GraphicsRenderer', {
   }
 });
 
-var _CanvasGraphicsRenderer = __webpack_require__(161);
+var _CanvasGraphicsRenderer = __webpack_require__(160);
 
 Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   enumerable: true,
@@ -259,7 +259,7 @@ Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   }
 });
 
-var _Spritesheet = __webpack_require__(162);
+var _Spritesheet = __webpack_require__(161);
 
 Object.defineProperty(exports, 'Spritesheet', {
   enumerable: true,
@@ -295,7 +295,7 @@ Object.defineProperty(exports, 'BaseTexture', {
   }
 });
 
-var _RenderTexture = __webpack_require__(34);
+var _RenderTexture = __webpack_require__(33);
 
 Object.defineProperty(exports, 'RenderTexture', {
   enumerable: true,
@@ -358,7 +358,7 @@ Object.defineProperty(exports, 'WebGLManager', {
   }
 });
 
-var _ObjectRenderer = __webpack_require__(20);
+var _ObjectRenderer = __webpack_require__(19);
 
 Object.defineProperty(exports, 'ObjectRenderer', {
   enumerable: true,
@@ -367,7 +367,7 @@ Object.defineProperty(exports, 'ObjectRenderer', {
   }
 });
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(21);
 
 Object.defineProperty(exports, 'RenderTarget', {
   enumerable: true,
@@ -425,7 +425,7 @@ var _utils = __webpack_require__(2);
 
 var utils = _interopRequireWildcard(_utils);
 
-var _ticker = __webpack_require__(33);
+var _ticker = __webpack_require__(32);
 
 var ticker = _interopRequireWildcard(_ticker);
 
@@ -437,7 +437,7 @@ var _CanvasRenderer = __webpack_require__(14);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(21);
+var _WebGLRenderer = __webpack_require__(20);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -840,23 +840,23 @@ var _eventemitter = __webpack_require__(8);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _pluginTarget = __webpack_require__(119);
+var _pluginTarget = __webpack_require__(118);
 
 var _pluginTarget2 = _interopRequireDefault(_pluginTarget);
 
-var _mixin = __webpack_require__(120);
+var _mixin = __webpack_require__(119);
 
 var mixins = _interopRequireWildcard(_mixin);
 
-var _ismobilejs = __webpack_require__(30);
+var _ismobilejs = __webpack_require__(29);
 
 var isMobile = _interopRequireWildcard(_ismobilejs);
 
-var _removeArrayItems = __webpack_require__(121);
+var _removeArrayItems = __webpack_require__(120);
 
 var _removeArrayItems2 = _interopRequireDefault(_removeArrayItems);
 
-var _mapPremultipliedBlendModes = __webpack_require__(122);
+var _mapPremultipliedBlendModes = __webpack_require__(121);
 
 var _mapPremultipliedBlendModes2 = _interopRequireDefault(_mapPremultipliedBlendModes);
 
@@ -1290,11 +1290,11 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 
 exports.__esModule = true;
 
-var _maxRecommendedTextures = __webpack_require__(117);
+var _maxRecommendedTextures = __webpack_require__(116);
 
 var _maxRecommendedTextures2 = _interopRequireDefault(_maxRecommendedTextures);
 
-var _canUploadSameBuffer = __webpack_require__(118);
+var _canUploadSameBuffer = __webpack_require__(117);
 
 var _canUploadSameBuffer2 = _interopRequireDefault(_canUploadSameBuffer);
 
@@ -1530,7 +1530,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _Point = __webpack_require__(25);
+var _Point = __webpack_require__(24);
 
 Object.defineProperty(exports, 'Point', {
   enumerable: true,
@@ -1548,7 +1548,7 @@ Object.defineProperty(exports, 'ObservablePoint', {
   }
 });
 
-var _Matrix = __webpack_require__(26);
+var _Matrix = __webpack_require__(25);
 
 Object.defineProperty(exports, 'Matrix', {
   enumerable: true,
@@ -1566,7 +1566,7 @@ Object.defineProperty(exports, 'GroupD8', {
   }
 });
 
-var _Circle = __webpack_require__(107);
+var _Circle = __webpack_require__(106);
 
 Object.defineProperty(exports, 'Circle', {
   enumerable: true,
@@ -1575,7 +1575,7 @@ Object.defineProperty(exports, 'Circle', {
   }
 });
 
-var _Ellipse = __webpack_require__(108);
+var _Ellipse = __webpack_require__(107);
 
 Object.defineProperty(exports, 'Ellipse', {
   enumerable: true,
@@ -1584,7 +1584,7 @@ Object.defineProperty(exports, 'Ellipse', {
   }
 });
 
-var _Polygon = __webpack_require__(109);
+var _Polygon = __webpack_require__(108);
 
 Object.defineProperty(exports, 'Polygon', {
   enumerable: true,
@@ -1593,7 +1593,7 @@ Object.defineProperty(exports, 'Polygon', {
   }
 });
 
-var _Rectangle = __webpack_require__(27);
+var _Rectangle = __webpack_require__(26);
 
 Object.defineProperty(exports, 'Rectangle', {
   enumerable: true,
@@ -1602,7 +1602,7 @@ Object.defineProperty(exports, 'Rectangle', {
   }
 });
 
-var _RoundedRectangle = __webpack_require__(110);
+var _RoundedRectangle = __webpack_require__(109);
 
 Object.defineProperty(exports, 'RoundedRectangle', {
   enumerable: true,
@@ -1619,14 +1619,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /***/ (function(module, exports, __webpack_require__) {
 
 var gl = {
-    createContext:          __webpack_require__(111),
+    createContext:          __webpack_require__(110),
     setVertexAttribArrays:  __webpack_require__(44),
-    GLBuffer:               __webpack_require__(112),
-    GLFramebuffer:          __webpack_require__(113),
-    GLShader:               __webpack_require__(114),
+    GLBuffer:               __webpack_require__(111),
+    GLFramebuffer:          __webpack_require__(112),
+    GLShader:               __webpack_require__(113),
     GLTexture:              __webpack_require__(45),
-    VertexArrayObject:      __webpack_require__(115),
-    shader:                 __webpack_require__(116)
+    VertexArrayObject:      __webpack_require__(114),
+    shader:                 __webpack_require__(115)
 };
 
 // Export for Node-compatible environments
@@ -1874,7 +1874,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(137)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(136)))
 
 /***/ }),
 /* 7 */
@@ -5107,7 +5107,7 @@ var _SystemRenderer2 = __webpack_require__(60);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _CanvasMaskManager = __webpack_require__(132);
+var _CanvasMaskManager = __webpack_require__(131);
 
 var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
 
@@ -5115,7 +5115,7 @@ var _CanvasRenderTarget = __webpack_require__(62);
 
 var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
 
-var _mapCanvasBlendModesToPixi = __webpack_require__(133);
+var _mapCanvasBlendModesToPixi = __webpack_require__(132);
 
 var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
 
@@ -5607,8 +5607,8 @@ exports.default = Shader;
 
 /* eslint-disable no-undef */
 
-var Loader = __webpack_require__(186).default;
-var Resource = __webpack_require__(37).default;
+var Loader = __webpack_require__(185).default;
+var Resource = __webpack_require__(36).default;
 var async = __webpack_require__(88);
 var b64 = __webpack_require__(89);
 
@@ -6001,124 +6001,6 @@ Mesh.DRAW_MODES = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-exports.__esModule = true;
-exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
-
-var _polyfill = __webpack_require__(102);
-
-Object.keys(_polyfill).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _polyfill[key];
-        }
-    });
-});
-
-var _core = __webpack_require__(0);
-
-Object.keys(_core).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _core[key];
-        }
-    });
-});
-
-var _deprecation = __webpack_require__(163);
-
-var _deprecation2 = _interopRequireDefault(_deprecation);
-
-var _accessibility = __webpack_require__(164);
-
-var accessibility = _interopRequireWildcard(_accessibility);
-
-var _extract = __webpack_require__(166);
-
-var extract = _interopRequireWildcard(_extract);
-
-var _extras = __webpack_require__(75);
-
-var extras = _interopRequireWildcard(_extras);
-
-var _filters = __webpack_require__(176);
-
-var filters = _interopRequireWildcard(_filters);
-
-var _interaction = __webpack_require__(183);
-
-var interaction = _interopRequireWildcard(_interaction);
-
-var _loaders = __webpack_require__(185);
-
-var loaders = _interopRequireWildcard(_loaders);
-
-var _mesh = __webpack_require__(189);
-
-var mesh = _interopRequireWildcard(_mesh);
-
-var _particles = __webpack_require__(194);
-
-var particles = _interopRequireWildcard(_particles);
-
-var _prepare = __webpack_require__(199);
-
-var prepare = _interopRequireWildcard(_prepare);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// export core
-_core.utils.mixins.performMixins();
-
-/**
- * Alias for {@link PIXI.loaders.shared}.
- * @name loader
- * @memberof PIXI
- * @type {PIXI.loader.Loader}
- */
-
-
-// handle mixins now, after all code has been added, including deprecation
-
-
-// export libs
-// import polyfills. Done as an export to make sure polyfills are imported first
-var loader = loaders.shared || null;
-
-exports.accessibility = accessibility;
-exports.extract = extract;
-exports.extras = extras;
-exports.filters = filters;
-exports.interaction = interaction;
-exports.loaders = loaders;
-exports.mesh = mesh;
-exports.particles = particles;
-exports.prepare = prepare;
-exports.loader = loader;
-
-// Apply the deprecations
-
-if (typeof _deprecation2.default === 'function') {
-    (0, _deprecation2.default)(exports);
-}
-
-// Always export PixiJS globally.
-global.PIXI = exports; // eslint-disable-line
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 
 
 exports.__esModule = true;
@@ -6198,7 +6080,7 @@ exports.default = ObjectRenderer;
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6210,27 +6092,27 @@ var _SystemRenderer2 = __webpack_require__(60);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _MaskManager = __webpack_require__(135);
+var _MaskManager = __webpack_require__(134);
 
 var _MaskManager2 = _interopRequireDefault(_MaskManager);
 
-var _StencilManager = __webpack_require__(138);
+var _StencilManager = __webpack_require__(137);
 
 var _StencilManager2 = _interopRequireDefault(_StencilManager);
 
-var _FilterManager = __webpack_require__(139);
+var _FilterManager = __webpack_require__(138);
 
 var _FilterManager2 = _interopRequireDefault(_FilterManager);
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(21);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _ObjectRenderer = __webpack_require__(20);
+var _ObjectRenderer = __webpack_require__(19);
 
 var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
 
-var _TextureManager = __webpack_require__(141);
+var _TextureManager = __webpack_require__(140);
 
 var _TextureManager2 = _interopRequireDefault(_TextureManager);
 
@@ -6238,19 +6120,19 @@ var _BaseTexture = __webpack_require__(10);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _TextureGarbageCollector = __webpack_require__(142);
+var _TextureGarbageCollector = __webpack_require__(141);
 
 var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
 
-var _WebGLState = __webpack_require__(143);
+var _WebGLState = __webpack_require__(142);
 
 var _WebGLState2 = _interopRequireDefault(_WebGLState);
 
-var _mapWebGLDrawModesToPixi = __webpack_require__(145);
+var _mapWebGLDrawModesToPixi = __webpack_require__(144);
 
 var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
 
-var _validateContext = __webpack_require__(146);
+var _validateContext = __webpack_require__(145);
 
 var _validateContext2 = _interopRequireDefault(_validateContext);
 
@@ -7020,7 +6902,7 @@ _utils.pluginTarget.mixin(WebGLRenderer);
 
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7352,7 +7234,7 @@ exports.default = RenderTarget;
 
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7627,219 +7509,125 @@ function buildNativeLine(graphicsData, webGLData) {
 
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
 
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(19);
-const helper_1 = __webpack_require__(11);
-class Actor {
-    constructor(sprites, position = [0, 0]) {
-        this._uid = pixi.utils.uid();
-        this._sprites = sprites;
-        console.assert(sprites.rest);
-        for (let key in this._sprites) {
-            if (this._sprites[key] instanceof pixi.extras.AnimatedSprite) {
-                this._sprites[key].play();
-            }
-        }
-        this.setActiveSprite('rest');
-        this.speed = 1;
-        this.inmotion = false;
-        this._target = null;
-        this._path = null;
-        this.position = position;
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.anchor.set(0.5);
-        }
-    }
-    get uid() {
-        return this._uid;
-    }
-    setActiveSprite(spritekey) {
-        for (let key in this._sprites) {
-            this._sprites[key].visible = false;
-        }
-        this._activeSprite = this._sprites[spritekey];
-        this._activeSprite.visible = true;
-    }
-    getActiveSprite() {
-        return this._activeSprite;
-    }
-    get sprites() {
-        let arr = [];
-        for (let key in this._sprites) {
-            arr.push(this._sprites[key]);
-        }
-        return arr;
-    }
-    getSpriteKeys() {
-        return Object.keys(this._sprites);
-    }
-    getSprite(key) {
-        return this._sprites[key];
-    }
-    set position(pos) {
-        this._position = pos;
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.position.set(pos[0], pos[1]);
-        }
-    }
-    set rotation(angle) {
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.rotation = angle;
-        }
-    }
-    get position() {
-        return this._position;
-    }
-    set scale(scale) {
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.scale.set(scale[0], scale[1]);
-        }
-    }
-    setAnimSpeed(spritekey, value) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].animationSpeed = value;
-        }
-    }
-    setAnimLoop(spritekey, loop) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].loop = loop;
-        }
-    }
-    playAnimation(spritekey) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].play();
-        }
-    }
-    stopAnimation(spritekey) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].stop();
-        }
-    }
-    resetAnimation(spritekey) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].gotoAndStop(0);
-            this._sprites[spritekey].loop = false;
-        }
-    }
-    animateOnce(spritekey) {
-        return new Promise((resolve) => {
-            let sprite = this._sprites[spritekey];
-            console.assert(sprite instanceof pixi.extras.AnimatedSprite);
-            sprite.loop = false;
-            sprite.onComplete = () => {
-                sprite.gotoAndStop(0);
-                resolve();
-            };
-            sprite.play();
-        });
-    }
-    get target() {
-        return this._target;
-    }
-}
-exports.Actor = Actor;
-class MovableActor extends Actor {
-    constructor(sprites, location = [0, 0]) {
-        super(sprites, location);
-        console.assert(sprites.move);
-    }
-    moveTo(x, y) {
-        this.inmotion = true;
-        this._target = [x, y];
-        this._lastdir = null;
-        this.setActiveSprite('move');
-    }
-    moveAlongPath(path, cornercutMargin = 50) {
-        this.inmotion = true;
-        this._path = path;
-        this._lastdir = null;
-        this._cornercutMargin = cornercutMargin;
-        this.setActiveSprite('move');
-    }
-    move() {
-        if (this._target) {
-            let vec = [this._target[0] - this._sprites.rest.position.x,
-                this._target[1] - this._sprites.rest.position.y];
-            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            if (len < this.speed / 2) {
-                this.inmotion = false;
-                this._target = null;
-                this.setActiveSprite('rest');
-            }
-            else {
-                let dir = [vec[0] / len, vec[1] / len];
-                this.position = [
-                    this._sprites.rest.position.x + this.speed * dir[0],
-                    this._sprites.rest.position.y + this.speed * dir[1]
-                ];
-            }
-        }
-        else if (this._path && this._path.length > 0) {
-            let [tx, ty] = this._path[0];
-            let { x, y } = this._sprites.rest.position;
-            let vec = [tx - x, ty - y];
-            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            if (len < this._cornercutMargin && this._path.length > 1) {
-                // Turn early if we are near the corner, i.e. cut the corner
-                this._path.shift();
-                let [tx, ty] = this._path[0];
-                let { x, y } = this._sprites.rest.position;
-                vec = [tx - x, ty - y];
-                len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            }
-            let dir = [vec[0] / len, vec[1] / len];
-            // No rotation = pointing up
-            let sense = helper_1.vec2.cross(dir, [0, -1]) >= 0 ? -1 : 1;
-            let angle = Math.acos(helper_1.vec2.dot(dir, [0, -1]));
-            this.rotation = sense * angle;
-            let crossedover = false;
-            if (this._lastdir !== null) {
-                crossedover = helper_1.vec2.dot(dir, this._lastdir) < 0;
-            }
-            if (len < 1 || crossedover) {
-                // switch to next path, if we are not at end of it yet
-                if (this._path.length > 1) {
-                    this._path.shift();
-                }
-                else {
-                    this.inmotion = false;
-                    this._path = null;
-                    this.setActiveSprite('rest');
-                }
-                if (crossedover) {
-                    this.position = [tx, ty];
-                }
-            }
-            else {
-                this.position = [
-                    this._sprites.rest.position.x + this.speed * dir[0],
-                    this._sprites.rest.position.y + this.speed * dir[1]
-                ];
-            }
-            this._lastdir = dir;
-        }
-        else {
-            this.inmotion = false;
-            this._path = null;
-            this._target = null;
-            this.setActiveSprite('rest');
-        }
-    }
-}
-exports.MovableActor = MovableActor;
+exports.__esModule = true;
+exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
 
+var _polyfill = __webpack_require__(101);
+
+Object.keys(_polyfill).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _polyfill[key];
+        }
+    });
+});
+
+var _core = __webpack_require__(0);
+
+Object.keys(_core).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _core[key];
+        }
+    });
+});
+
+var _deprecation = __webpack_require__(162);
+
+var _deprecation2 = _interopRequireDefault(_deprecation);
+
+var _accessibility = __webpack_require__(163);
+
+var accessibility = _interopRequireWildcard(_accessibility);
+
+var _extract = __webpack_require__(165);
+
+var extract = _interopRequireWildcard(_extract);
+
+var _extras = __webpack_require__(75);
+
+var extras = _interopRequireWildcard(_extras);
+
+var _filters = __webpack_require__(175);
+
+var filters = _interopRequireWildcard(_filters);
+
+var _interaction = __webpack_require__(182);
+
+var interaction = _interopRequireWildcard(_interaction);
+
+var _loaders = __webpack_require__(184);
+
+var loaders = _interopRequireWildcard(_loaders);
+
+var _mesh = __webpack_require__(188);
+
+var mesh = _interopRequireWildcard(_mesh);
+
+var _particles = __webpack_require__(193);
+
+var particles = _interopRequireWildcard(_particles);
+
+var _prepare = __webpack_require__(198);
+
+var prepare = _interopRequireWildcard(_prepare);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// export core
+_core.utils.mixins.performMixins();
+
+/**
+ * Alias for {@link PIXI.loaders.shared}.
+ * @name loader
+ * @memberof PIXI
+ * @type {PIXI.loader.Loader}
+ */
+
+
+// handle mixins now, after all code has been added, including deprecation
+
+
+// export libs
+// import polyfills. Done as an export to make sure polyfills are imported first
+var loader = loaders.shared || null;
+
+exports.accessibility = accessibility;
+exports.extract = extract;
+exports.extras = extras;
+exports.filters = filters;
+exports.interaction = interaction;
+exports.loaders = loaders;
+exports.mesh = mesh;
+exports.particles = particles;
+exports.prepare = prepare;
+exports.loader = loader;
+
+// Apply the deprecations
+
+if (typeof _deprecation2.default === 'function') {
+    (0, _deprecation2.default)(exports);
+}
+
+// Always export PixiJS globally.
+global.PIXI = exports; // eslint-disable-line
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7935,7 +7723,7 @@ exports.default = Point;
 
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7945,7 +7733,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Point = __webpack_require__(25);
+var _Point = __webpack_require__(24);
 
 var _Point2 = _interopRequireDefault(_Point);
 
@@ -8471,7 +8259,7 @@ exports.default = Matrix;
 
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8739,7 +8527,7 @@ exports.default = Rectangle;
 
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports) {
 
 
@@ -8791,7 +8579,7 @@ module.exports = mapType;
 
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9139,7 +8927,7 @@ exports.default = Bounds;
 
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -9285,7 +9073,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9377,7 +9165,7 @@ TransformBase.IDENTITY = new TransformBase();
 
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10005,7 +9793,7 @@ exports.default = Sprite;
 
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10014,7 +9802,7 @@ exports.default = Sprite;
 exports.__esModule = true;
 exports.Ticker = exports.shared = undefined;
 
-var _Ticker = __webpack_require__(129);
+var _Ticker = __webpack_require__(128);
 
 var _Ticker2 = _interopRequireDefault(_Ticker);
 
@@ -10090,7 +9878,7 @@ exports.Ticker = _Ticker2.default;
 
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10249,7 +10037,7 @@ exports.default = RenderTexture;
 
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10505,7 +10293,7 @@ exports.default = CanvasTinter;
 
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10544,7 +10332,7 @@ function createIndicesForQuads(size) {
 
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11705,7 +11493,7 @@ function reqType(xhr) {
 
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12198,13 +11986,225 @@ function findTextStyle(item, queue) {
 
 
 /***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(23);
+const helper_1 = __webpack_require__(11);
+class Actor {
+    constructor(sprites, position = [0, 0]) {
+        this._uid = pixi.utils.uid();
+        this._sprites = sprites;
+        console.assert(sprites.rest);
+        for (let key in this._sprites) {
+            if (this._sprites[key] instanceof pixi.extras.AnimatedSprite) {
+                this._sprites[key].play();
+            }
+        }
+        this.setActiveSprite('rest');
+        this.speed = 1;
+        this.inmotion = false;
+        this._target = null;
+        this._path = null;
+        this.position = position;
+        for (let key in this._sprites) {
+            let sprite = this._sprites[key];
+            sprite.anchor.set(0.5);
+        }
+    }
+    get uid() {
+        return this._uid;
+    }
+    setActiveSprite(spritekey) {
+        for (let key in this._sprites) {
+            this._sprites[key].visible = false;
+        }
+        this._activeSprite = this._sprites[spritekey];
+        this._activeSprite.visible = true;
+    }
+    getActiveSprite() {
+        return this._activeSprite;
+    }
+    get sprites() {
+        let arr = [];
+        for (let key in this._sprites) {
+            arr.push(this._sprites[key]);
+        }
+        return arr;
+    }
+    getSpriteKeys() {
+        return Object.keys(this._sprites);
+    }
+    getSprite(key) {
+        return this._sprites[key];
+    }
+    set position(pos) {
+        this._position = pos;
+        for (let key in this._sprites) {
+            let sprite = this._sprites[key];
+            sprite.position.set(pos[0], pos[1]);
+        }
+    }
+    set rotation(angle) {
+        for (let key in this._sprites) {
+            let sprite = this._sprites[key];
+            sprite.rotation = angle;
+        }
+    }
+    get position() {
+        return this._position;
+    }
+    set scale(scale) {
+        for (let key in this._sprites) {
+            let sprite = this._sprites[key];
+            sprite.scale.set(scale[0], scale[1]);
+        }
+    }
+    setAnimSpeed(spritekey, value) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].animationSpeed = value;
+        }
+    }
+    setAnimLoop(spritekey, loop) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].loop = loop;
+        }
+    }
+    playAnimation(spritekey) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].play();
+        }
+    }
+    stopAnimation(spritekey) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].stop();
+        }
+    }
+    resetAnimation(spritekey) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].gotoAndStop(0);
+            this._sprites[spritekey].loop = false;
+        }
+    }
+    animateOnce(spritekey) {
+        return new Promise((resolve) => {
+            let sprite = this._sprites[spritekey];
+            console.assert(sprite instanceof pixi.extras.AnimatedSprite);
+            sprite.loop = false;
+            sprite.onComplete = () => {
+                sprite.gotoAndStop(0);
+                resolve();
+            };
+            sprite.play();
+        });
+    }
+    get target() {
+        return this._target;
+    }
+}
+exports.Actor = Actor;
+class MovableActor extends Actor {
+    constructor(sprites, location = [0, 0]) {
+        super(sprites, location);
+        console.assert(sprites.move);
+    }
+    moveTo(x, y) {
+        this.inmotion = true;
+        this._target = [x, y];
+        this._lastdir = null;
+        this.setActiveSprite('move');
+    }
+    moveAlongPath(path, cornercutMargin = 50) {
+        this.inmotion = true;
+        this._path = path;
+        this._lastdir = null;
+        this._cornercutMargin = cornercutMargin;
+        this.setActiveSprite('move');
+    }
+    move() {
+        if (this._target) {
+            let vec = [this._target[0] - this._sprites.rest.position.x,
+                this._target[1] - this._sprites.rest.position.y];
+            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            if (len < this.speed / 2) {
+                this.inmotion = false;
+                this._target = null;
+                this.setActiveSprite('rest');
+            }
+            else {
+                let dir = [vec[0] / len, vec[1] / len];
+                this.position = [
+                    this._sprites.rest.position.x + this.speed * dir[0],
+                    this._sprites.rest.position.y + this.speed * dir[1]
+                ];
+            }
+        }
+        else if (this._path && this._path.length > 0) {
+            let [tx, ty] = this._path[0];
+            let { x, y } = this._sprites.rest.position;
+            let vec = [tx - x, ty - y];
+            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            if (len < this._cornercutMargin && this._path.length > 1) {
+                // Turn early if we are near the corner, i.e. cut the corner
+                this._path.shift();
+                let [tx, ty] = this._path[0];
+                let { x, y } = this._sprites.rest.position;
+                vec = [tx - x, ty - y];
+                len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            }
+            let dir = [vec[0] / len, vec[1] / len];
+            // No rotation = pointing up
+            let sense = helper_1.vec2.cross(dir, [0, -1]) >= 0 ? -1 : 1;
+            let angle = Math.acos(helper_1.vec2.dot(dir, [0, -1]));
+            this.rotation = sense * angle;
+            let crossedover = false;
+            if (this._lastdir !== null) {
+                crossedover = helper_1.vec2.dot(dir, this._lastdir) < 0;
+            }
+            if (len < 1 || crossedover) {
+                // switch to next path, if we are not at end of it yet
+                if (this._path.length > 1) {
+                    this._path.shift();
+                }
+                else {
+                    this.inmotion = false;
+                    this._path = null;
+                    this.setActiveSprite('rest');
+                }
+                if (crossedover) {
+                    this.position = [tx, ty];
+                }
+            }
+            else {
+                this.position = [
+                    this._sprites.rest.position.x + this.speed * dir[0],
+                    this._sprites.rest.position.y + this.speed * dir[1]
+                ];
+            }
+            this._lastdir = dir;
+        }
+        else {
+            this.inmotion = false;
+            this._path = null;
+            this._target = null;
+            this.setActiveSprite('rest');
+        }
+    }
+}
+exports.MovableActor = MovableActor;
+
+
+/***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const createKDTree = __webpack_require__(209);
+const createKDTree = __webpack_require__(208);
 class Grid {
     constructor(nrows, ncols, data) {
         this.nrows = nrows;
@@ -12569,8 +12569,8 @@ exports.Terra = Terra;
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var iota = __webpack_require__(210)
-var isBuffer = __webpack_require__(211)
+var iota = __webpack_require__(209)
+var isBuffer = __webpack_require__(210)
 
 var hasTypedArrays  = ((typeof Float64Array) !== "undefined")
 
@@ -12922,7 +12922,7 @@ module.exports = wrappedNDArrayCtor
 /* WEBPACK VAR INJECTION */(function(global, Buffer) {
 
 var bits = __webpack_require__(13)
-var dup = __webpack_require__(223)
+var dup = __webpack_require__(222)
 
 //Legacy pool support
 if(!global.__TYPEDARRAY_POOL) {
@@ -13133,7 +13133,7 @@ exports.clearCache = function clearCache() {
     BUFFER[i].length = 0
   }
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(219).Buffer))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(218).Buffer))
 
 /***/ }),
 /* 42 */
@@ -13266,7 +13266,7 @@ exports.default = ObservablePoint;
 
 exports.__esModule = true;
 
-var _Matrix = __webpack_require__(26);
+var _Matrix = __webpack_require__(25);
 
 var _Matrix2 = _interopRequireDefault(_Matrix);
 
@@ -13946,7 +13946,7 @@ module.exports = compileProgram;
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var mapType = __webpack_require__(28);
+var mapType = __webpack_require__(27);
 var mapSize = __webpack_require__(48);
 
 /**
@@ -14034,7 +14034,7 @@ module.exports = mapSize;
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var mapType = __webpack_require__(28);
+var mapType = __webpack_require__(27);
 var defaultValue = __webpack_require__(50);
 
 /**
@@ -14355,7 +14355,7 @@ var _Transform = __webpack_require__(55);
 
 var _Transform2 = _interopRequireDefault(_Transform);
 
-var _Bounds = __webpack_require__(29);
+var _Bounds = __webpack_require__(28);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
@@ -15036,7 +15036,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _math = __webpack_require__(4);
 
-var _TransformBase2 = __webpack_require__(31);
+var _TransformBase2 = __webpack_require__(30);
 
 var _TransformBase3 = _interopRequireDefault(_TransformBase2);
 
@@ -15251,7 +15251,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _math = __webpack_require__(4);
 
-var _TransformBase2 = __webpack_require__(31);
+var _TransformBase2 = __webpack_require__(30);
 
 var _TransformBase3 = _interopRequireDefault(_TransformBase2);
 
@@ -15513,8 +15513,8 @@ function determineCrossOrigin(url) {
 
 
 
-var punycode = __webpack_require__(123);
-var util = __webpack_require__(125);
+var punycode = __webpack_require__(122);
+var util = __webpack_require__(124);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -15589,7 +15589,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(126);
+    querystring = __webpack_require__(125);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -16241,7 +16241,7 @@ var _BaseTexture3 = _interopRequireDefault(_BaseTexture2);
 
 var _utils = __webpack_require__(2);
 
-var _ticker = __webpack_require__(33);
+var _ticker = __webpack_require__(32);
 
 var _const = __webpack_require__(1);
 
@@ -16702,7 +16702,7 @@ var _Container = __webpack_require__(12);
 
 var _Container2 = _interopRequireDefault(_Container);
 
-var _RenderTexture = __webpack_require__(34);
+var _RenderTexture = __webpack_require__(33);
 
 var _RenderTexture2 = _interopRequireDefault(_RenderTexture);
 
@@ -17511,7 +17511,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extractUniformsFromSrc = __webpack_require__(136);
+var _extractUniformsFromSrc = __webpack_require__(135);
 
 var _extractUniformsFromSrc2 = _interopRequireDefault(_extractUniformsFromSrc);
 
@@ -17712,7 +17712,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Matrix = __webpack_require__(26);
+var _Matrix = __webpack_require__(25);
 
 var _Matrix2 = _interopRequireDefault(_Matrix);
 
@@ -17883,7 +17883,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _createIndicesForQuads = __webpack_require__(36);
+var _createIndicesForQuads = __webpack_require__(35);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
@@ -19941,7 +19941,7 @@ var _Container = __webpack_require__(12);
 
 var _Container2 = _interopRequireDefault(_Container);
 
-var _ticker = __webpack_require__(33);
+var _ticker = __webpack_require__(32);
 
 var _settings = __webpack_require__(3);
 
@@ -20170,7 +20170,7 @@ var _CanvasRenderer = __webpack_require__(14);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(21);
+var _WebGLRenderer = __webpack_require__(20);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -20299,7 +20299,7 @@ exports.default = {
 exports.__esModule = true;
 exports.BitmapText = exports.TilingSpriteRenderer = exports.TilingSprite = exports.AnimatedSprite = undefined;
 
-var _AnimatedSprite = __webpack_require__(169);
+var _AnimatedSprite = __webpack_require__(168);
 
 Object.defineProperty(exports, 'AnimatedSprite', {
   enumerable: true,
@@ -20308,7 +20308,7 @@ Object.defineProperty(exports, 'AnimatedSprite', {
   }
 });
 
-var _TilingSprite = __webpack_require__(170);
+var _TilingSprite = __webpack_require__(169);
 
 Object.defineProperty(exports, 'TilingSprite', {
   enumerable: true,
@@ -20317,7 +20317,7 @@ Object.defineProperty(exports, 'TilingSprite', {
   }
 });
 
-var _TilingSpriteRenderer = __webpack_require__(171);
+var _TilingSpriteRenderer = __webpack_require__(170);
 
 Object.defineProperty(exports, 'TilingSpriteRenderer', {
   enumerable: true,
@@ -20326,7 +20326,7 @@ Object.defineProperty(exports, 'TilingSpriteRenderer', {
   }
 });
 
-var _BitmapText = __webpack_require__(172);
+var _BitmapText = __webpack_require__(171);
 
 Object.defineProperty(exports, 'BitmapText', {
   enumerable: true,
@@ -20335,11 +20335,11 @@ Object.defineProperty(exports, 'BitmapText', {
   }
 });
 
+__webpack_require__(172);
+
 __webpack_require__(173);
 
 __webpack_require__(174);
-
-__webpack_require__(175);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22332,7 +22332,7 @@ exports.default = CountLimiter;
 "use strict";
 
 
-var createThunk = __webpack_require__(215)
+var createThunk = __webpack_require__(214)
 
 function Procedure() {
   this.argTypes = []
@@ -23059,7 +23059,7 @@ exports.Animation = Animation;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const actor_1 = __webpack_require__(24);
+const actor_1 = __webpack_require__(38);
 const helper_1 = __webpack_require__(11);
 const animation_1 = __webpack_require__(96);
 const TRACKING_PERIOD = 1000;
@@ -23209,7 +23209,7 @@ exports.Tower = Tower;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const actor_1 = __webpack_require__(24);
+const actor_1 = __webpack_require__(38);
 class Minion extends actor_1.MovableActor {
     constructor(sprites, position, level) {
         super(sprites, position);
@@ -23252,169 +23252,25 @@ exports.Minion = Minion;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const actor_editor_1 = __webpack_require__(100);
-const level_player_1 = __webpack_require__(203);
-const asset_manager_1 = __webpack_require__(234);
-const electron_1 = __webpack_require__(236);
-const fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-let am;
+const asset_manager_1 = __webpack_require__(100);
+const level_1 = __webpack_require__(203);
 window.onload = () => {
-    am = new asset_manager_1.AssetManager();
-    window.am = am;
+    let am = new asset_manager_1.AssetManager();
     document.body.style.overflow = 'hidden';
-    let importBtn = document.createElement('input');
-    importBtn.setAttribute('type', 'button');
-    importBtn.setAttribute('name', 'import');
-    importBtn.setAttribute('value', 'Import');
-    document.body.appendChild(importBtn);
-    let cachedFilename = window.localStorage.getItem('recent-svg-file');
-    if (cachedFilename) {
-        loadSVG(cachedFilename);
-        importBtn.remove();
-    }
-    importBtn.addEventListener('click', () => {
-        electron_1.remote.dialog.showOpenDialog({
-            filters: [
-                { name: 'SVG', extensions: ['svg'] }
-            ]
-        }, filepaths => {
-            if (filepaths && filepaths.length > 0) {
-                loadSVG(filepaths[0]);
-                importBtn.remove();
-                // Remember imported file path
-                window.localStorage.setItem('recent-svg-file', filepaths[0]);
-            }
+    let xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+        let svgdoc = this.responseText;
+        am.loadFromSVG(svgdoc)
+            .then(() => am.loadSounds())
+            .then(() => {
+            let spec = am.metadata['level_first']['pxc_data'];
+            let level = new level_1.Level(spec, am);
+            document.body.appendChild(level.app.view);
         });
-    });
+    };
+    xhr.open('GET', 'artwork/pinheads.svg');
+    xhr.send();
 };
-function hideResumeDialog() {
-    let div = document.getElementById('resume-prompt');
-    console.assert(div);
-    div.style.display = 'none';
-}
-function showResumeDialog() {
-    let div = document.getElementById('resume-prompt');
-    if (!div) {
-        div = document.createElement('div');
-        div.setAttribute('id', 'resume-prompt');
-        let S = 100;
-        div.style.background = 'rgba(0,0,0,0.7)';
-        div.style.opacity = '30%';
-        div.style.width = S + 'px';
-        div.style.height = S + 'px';
-        div.style.left = '50%';
-        div.style.top = '50%';
-        div.style.marginLeft = `-${S / 2}px`;
-        div.style.marginTop = `-${S / 2}px`;
-        div.style.borderRadius = (S / 10) + 'px';
-        div.style.position = 'absolute';
-        div.style.cursor = 'pointer';
-        div.style.zIndex = '100';
-        let fr = 0.3;
-        div.innerHTML = `
-    <svg width="${S}px" height="${S}px">
-    <path d="M ${fr * S},${fr * S} L ${fr * S},${(1 - fr) * S} L ${(1 - fr) * S},${0.5 * S} Z"
-      style="stroke:#ffffff;fill:#ffffff;stroke-width:5;stroke-linejoin:round">
-    </path>
-    </svg>
-    `;
-        document.body.appendChild(div);
-        div.addEventListener('click', () => {
-            div.style.display = 'none';
-            activeEditor.resume();
-        });
-    }
-    div.style.display = 'block';
-}
-window.onblur = () => {
-    if (window.localStorage.getItem('disableAutoPause')) {
-        return;
-    }
-    if (activeEditor && activeEditor.isPlaying()) {
-        activeEditor.pause();
-        showResumeDialog();
-    }
-};
-window.onkeydown = (ev) => {
-    if (ev.keyCode === 27) {
-        if (activeEditor) {
-            if (activeEditor.isPlaying()) {
-                activeEditor.pause();
-                showResumeDialog();
-            }
-            else {
-                activeEditor.resume();
-                hideResumeDialog();
-            }
-        }
-    }
-};
-function loadSVG(filepath) {
-    let data = fs.readFileSync(filepath);
-    let svgdoc = new String(data).toString();
-    am.loadFromSVG(svgdoc).then(() => {
-        setupEditors(am);
-        am.loadSounds();
-    });
-}
-let activeEditor;
-function loadEditor(layername, am, editorDiv) {
-    window.localStorage.setItem('recent-editor-choice', layername);
-    let editorType = layername.split('_')[0];
-    if (activeEditor) {
-        activeEditor.remove();
-    }
-    if (editorType === 'actor') {
-        activeEditor = new actor_editor_1.ActorEditor(layername, am, editorDiv);
-    }
-    else if (editorType === 'level') {
-        let spec = am.metadata[layername]['pxc_data'];
-        activeEditor = new level_player_1.LevelPlayer(spec, am, editorDiv);
-    }
-    else {
-        console.assert(false);
-    }
-    activeEditor.load();
-    window.activeEditor = activeEditor; // For debugging purposes
-}
-function setupEditors(am) {
-    let selectorDiv = document.createElement('div');
-    selectorDiv.setAttribute('id', 'selector-wrapper');
-    selectorDiv.style.position = 'absolute';
-    selectorDiv.style.left = '0px';
-    selectorDiv.style.top = '0px';
-    selectorDiv.style.padding = '5px';
-    let modeSelect = document.createElement('select');
-    for (let layername in am.layerMap) {
-        let editorType = layername.split('_')[0];
-        if (['actor', 'level'].indexOf(editorType) >= 0) {
-            let opt = document.createElement('option');
-            opt.textContent = layername;
-            modeSelect.appendChild(opt);
-        }
-    }
-    selectorDiv.appendChild(modeSelect);
-    let editorDiv = document.createElement('div');
-    editorDiv.setAttribute('id', 'editor-wrapper');
-    editorDiv.style.position = 'absolute';
-    editorDiv.style.left = '0px';
-    editorDiv.style.top = '0px';
-    editorDiv.style.width = window.innerWidth + 'px';
-    editorDiv.style.height = window.innerHeight + 'px';
-    document.body.appendChild(editorDiv);
-    document.body.appendChild(selectorDiv);
-    let recentEditorChoice = window.localStorage.getItem('recent-editor-choice');
-    if (recentEditorChoice) {
-        modeSelect.value = recentEditorChoice;
-        loadEditor(recentEditorChoice, am, editorDiv);
-    }
-    else {
-        loadEditor(modeSelect.value, am, editorDiv);
-    }
-    modeSelect.addEventListener('change', () => {
-        loadEditor(modeSelect.value, am, editorDiv);
-    });
-}
 
 
 /***/ }),
@@ -23424,113 +23280,204 @@ function setupEditors(am) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const editor_1 = __webpack_require__(101);
-const actor_1 = __webpack_require__(24);
-class ActorEditor extends editor_1.Editor {
-    load() {
-        this.vportWidth = window.innerWidth;
-        this.vportHeight = window.innerHeight;
-        super.load(this.vportWidth, this.vportHeight);
-        this.setupControls();
-        let center = [this.vportWidth / 2, this.vportHeight / 2];
-        this.actor = this.assetMan.createActor(this.layername);
-        this.actor.position = center;
-        this.setupActorInteraction();
-        this.play();
+const pixi = __webpack_require__(23);
+const howler = __webpack_require__(202);
+const helper_1 = __webpack_require__(11);
+const PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
+const actor_1 = __webpack_require__(38);
+class AssetManager {
+    constructor() {
+        this.sounds = {};
     }
-    setupActorInteraction() {
-        let animSpeedInput = this.parent.querySelector('input[name=animspeed]');
-        let moveSpeedInput = this.parent.querySelector('input[name=movespeed]');
-        for (let spritekey of this.actor.getSpriteKeys()) {
-            this.actor.setAnimSpeed(spritekey, parseFloat(animSpeedInput.value));
-        }
-        this.actor.speed = parseFloat(moveSpeedInput.value);
-        for (let sprite of this.actor.sprites) {
-            this.pixiapp.stage.addChild(sprite);
-        }
-        this.pixiapp.view.addEventListener('mouseup', (ev) => {
-            if (this.actor && this.actor instanceof actor_1.MovableActor) {
-                this.actor.moveAlongPath([[ev.clientX, ev.clientY]]);
+    hideAllLayersInSVG() {
+        let layers = this.svgroot.children;
+        // Hide all layers
+        for (let i = 0; i < layers.length; i++) {
+            let layer = layers[i];
+            let label = layer.getAttribute('inkscape:label');
+            if (label && PXC_LAYER_REGEX.test(label)) {
+                layer.style.display = 'none'; // hide all layers
             }
-        });
-        // Prevent right-click context menu
-        this.pixiapp.view.addEventListener('contextmenu', (ev) => {
-            ev.preventDefault();
-        });
-        // Populate animation actions in dropdown
-        let animationsSelect = this.parent.querySelector('select');
-        for (let spritekey of this.actor.getSpriteKeys()) {
-            let opt = document.createElement('option');
-            opt.textContent = spritekey;
-            animationsSelect.appendChild(opt);
         }
-        animationsSelect.value = 'rest';
-        animationsSelect.addEventListener('change', () => {
-            this.actor.setActiveSprite(animationsSelect.value);
-        });
     }
-    setupControls() {
-        let controlDiv = document.createElement('div');
-        controlDiv.style.position = 'fixed';
-        controlDiv.style.right = '0px';
-        controlDiv.style.bottom = '0px';
-        controlDiv.style.padding = '20px';
-        controlDiv.innerHTML = `
-    Loop
-    <input type="checkbox" name="loop" checked=true/>
-    Anim Speed
-    <input type="range" name="animspeed"
-      min="0.05" max="1.0" value="0.2" step="0.05"/>
-    Movement Speed
-    <input type="range" name="movespeed"
-      min="0.1" max="5.0" value="1" step="0.1"/>
-    Animations
-    <select name="animations"></select>
-    `;
-        let animSpeedInput = controlDiv.querySelector('input[name=animspeed]');
-        let moveSpeedInput = controlDiv.querySelector('input[name=movespeed]');
-        let loopInput = controlDiv.querySelector('input[name=loop]');
-        this.parent.appendChild(controlDiv);
-        this.controlDiv = controlDiv;
-        animSpeedInput.addEventListener('change', () => {
-            let animSelect = this.parent.querySelector('select');
-            this.actor.setAnimSpeed(animSelect.value, parseFloat(animSpeedInput.value));
-        });
-        moveSpeedInput.addEventListener('change', () => {
-            this.actor.speed = parseFloat(moveSpeedInput.value);
-        });
-        loopInput.addEventListener('change', () => {
-            let animSelect = this.parent.querySelector('select');
-            this.actor.setAnimLoop(animSelect.value, loopInput.checked);
-            if (loopInput.checked) {
-                this.actor.playAnimation(animSelect.value);
+    loadFromSVG(svgmarkup) {
+        this.svgmarkup = svgmarkup;
+        this.createOffscreenSVGDiv(svgmarkup);
+        this.spriteBoxes = {};
+        this.spriteCanvases = {};
+        this.metadata = {};
+        this.layerMap = {};
+        this.svgroot = document.body.querySelector('svg');
+        let layers = this.svgroot.children;
+        let pxc_layers = [];
+        for (let i = 0; i < layers.length; i++) {
+            this.hideAllLayersInSVG();
+            // Turn only i-th layer visible
+            let layer = layers[i];
+            let label = layer.getAttribute('inkscape:label');
+            if (label && PXC_LAYER_REGEX.test(label)) {
+                let layername = PXC_LAYER_REGEX.exec(label)[1];
+                layer.style.display = 'inline'; // TODO: test if this's necessary
+                this.spriteBoxes[layername] = {};
+                this.metadata[layername] = {};
+                pxc_layers.push(layer);
+                this.layerMap[layername] = layer;
+                this.extractSpriteBoxesForLayer(layer, layername);
             }
+        }
+        ;
+        return new Promise((allspritesready) => {
+            let lidx = 0;
+            let sidx = 0;
+            let extractSpritesFromLayer = () => {
+                return new Promise((resolve) => {
+                    let layer = pxc_layers[lidx];
+                    let label = layer.getAttribute('inkscape:label');
+                    let layername = PXC_LAYER_REGEX.exec(label)[1];
+                    if (!this.spriteCanvases[layername]) {
+                        this.spriteCanvases[layername] = {};
+                    }
+                    // Only display current layer, hide all other layers
+                    this.hideAllLayersInSVG();
+                    layer.style.display = 'inline';
+                    // Hide all sprites in this layer
+                    for (let si = 0; si < layer.children.length; si++) {
+                        if (si !== sidx) {
+                            layer.children[si].style.display = 'none';
+                        }
+                        else {
+                            layer.children[si].style.display = 'inline';
+                        }
+                    }
+                    let svgmarkup = layer.parentElement.parentElement.innerHTML;
+                    helper_1.svgToCanvas(svgmarkup).then((canvas) => {
+                        let key = layer.children[sidx].getAttribute('inkscape:label');
+                        let box = this.spriteBoxes[layername][key];
+                        // Create canvas for the sprite
+                        let spriteCan = document.createElement('canvas');
+                        spriteCan.width = box.width;
+                        spriteCan.height = box.height;
+                        let spriteCtx = spriteCan.getContext('2d');
+                        spriteCtx.drawImage(canvas, box.left, box.top, box.width, box.height, 0, 0, box.width, box.height);
+                        this.spriteCanvases[layername][key] = spriteCan;
+                        // Extract metadata of this sprite
+                        let desc = layer.children[sidx].querySelector('desc');
+                        if (desc) {
+                            this.metadata[layername][key] = JSON.parse(desc.textContent || '{}');
+                        }
+                        else {
+                            this.metadata[layername][key] = {};
+                        }
+                        if (sidx >= layer.children.length - 1) {
+                            // Next layer
+                            lidx++;
+                            sidx = 0;
+                        }
+                        else {
+                            // Next sprite in current layer
+                            sidx++;
+                        }
+                        if (lidx < pxc_layers.length) {
+                            resolve();
+                        }
+                        else {
+                            allspritesready();
+                        }
+                    });
+                }).then(() => {
+                    return extractSpritesFromLayer();
+                });
+            };
+            extractSpritesFromLayer();
         });
     }
-    remove() {
-        this.controlDiv.remove();
-        this.pixidiv.remove();
+    createOffscreenSVGDiv(svgmarkup) {
+        let svgDiv = document.createElement('div');
+        svgDiv.setAttribute('id', 'svg-wrapper');
+        svgDiv.style.position = 'absolute';
+        svgDiv.style.left = '-10000px';
+        svgDiv.style.top = '0px';
+        svgDiv.innerHTML = svgmarkup;
+        document.body.appendChild(svgDiv);
+        let svg = svgDiv.querySelector('svg');
+        this.docWidth = parseInt(svg.getAttribute('width'));
+        this.docHeight = parseInt(svg.getAttribute('height'));
     }
-    play() {
-        this.pixiapp.ticker.add(() => {
-            if (this.actor &&
-                this.actor instanceof actor_1.MovableActor &&
-                this.actor.inmotion) {
-                this.actor.move();
+    extractSpriteBoxesForLayer(layer, name) {
+        layer.style.display = 'inline';
+        let { left: offsetX, top: offsetY } = this.svgroot.getBoundingClientRect();
+        for (let j = 0; j < layer.children.length; j++) {
+            let spriteG = layer.children[j];
+            let { left, top, width, height } = spriteG.getBoundingClientRect();
+            let spriteName = spriteG.getAttribute('inkscape:label');
+            console.assert(spriteName);
+            this.spriteBoxes[name][spriteName] = {
+                left: left - offsetX,
+                top: top - offsetY,
+                width,
+                height
+            };
+        }
+    }
+    loadSounds() {
+        return new Promise((resolve) => {
+            this.sounds['tower-fire'] = new howler.Howl({
+                src: ['assets/tower-fire.mp3'],
+                volume: 0.5,
+                loop: false,
+                autoplay: false,
+                onload: () => {
+                    resolve();
+                }
+            });
+        });
+    }
+    getSound(key) {
+        return this.sounds[key];
+    }
+    createActor(layername) {
+        let spriteActionGroups = {};
+        let storeSpriteCanvas = (key, canvas) => {
+            console.assert(/(\w+)(\d+)/.test(key));
+            let match = /(\w+)(\d+)/.exec(key);
+            let action = match[1];
+            let sequence = parseInt(match[2]);
+            if (!spriteActionGroups[action]) {
+                spriteActionGroups[action] = [];
             }
-        });
+            spriteActionGroups[action].push({
+                index: sequence,
+                canvas: canvas
+            });
+        };
+        let spriteCanvases = this.spriteCanvases[layername];
+        for (let key in spriteCanvases) {
+            storeSpriteCanvas(key, spriteCanvases[key]);
+        }
+        let actorSprites = {};
+        for (let action in spriteActionGroups) {
+            let actionGroup = spriteActionGroups[action];
+            actionGroup.sort((a, b) => a.index - b.index);
+            let frames = actionGroup.map((entry) => {
+                return pixi.Texture.fromCanvas(entry.canvas);
+            });
+            let animSprite = new pixi.extras.AnimatedSprite(frames);
+            animSprite.play();
+            animSprite.animationSpeed = 0.2;
+            actorSprites[action] = animSprite;
+        }
+        return actorSprites.move ?
+            new actor_1.MovableActor(actorSprites) : new actor_1.Actor(actorSprites);
     }
-    isPlaying() {
-        return this.pixiapp.ticker.started;
-    }
-    pause() {
-        this.pixiapp.ticker.stop();
-    }
-    resume() {
-        this.pixiapp.ticker.start();
+    createSprite(layername, keyPrefix) {
+        let spriteCanvas = this.spriteCanvases[layername][keyPrefix];
+        let texture = pixi.Texture.from(spriteCanvas);
+        let sprite = new pixi.Sprite(texture);
+        sprite.anchor.set(0.5);
+        return sprite;
     }
 }
-exports.ActorEditor = ActorEditor;
+exports.AssetManager = AssetManager;
 
 
 /***/ }),
@@ -23539,80 +23486,12 @@ exports.ActorEditor = ActorEditor;
 
 "use strict";
 
-/*
 
-Copyright (C) 2017 Jayesh Salvi, Blue Math Software Inc.
+__webpack_require__(102);
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-*/
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(19);
-class Editor {
-    constructor(layername, assetMan, parent) {
-        this.layername = layername;
-        this.assetMan = assetMan;
-        this.parent = parent;
-        this.pixidiv = document.createElement('div');
-        this.pixidiv.setAttribute('id', 'pixiapp-wrapper');
-        this.pixidiv.style.position = 'absolute';
-        this.pixidiv.style.left = '0px';
-        this.pixidiv.style.top = '0px';
-        this.parent.appendChild(this.pixidiv);
-        let layer = this.assetMan.layerMap[layername];
-        let dataAttr = layer.getAttribute('data');
-        if (dataAttr) {
-            this.layerData = JSON.parse(dataAttr);
-        }
-    }
-    load(vpWidth, vpHeight) {
-        // Setup Pixi App
-        this.pixiapp = new pixi.Application(vpWidth, vpHeight, { backgroundColor: 0xffffff, antialias: true });
-        this.pixidiv.appendChild(this.pixiapp.view);
-        this.pixiapp.view.setAttribute('id', 'pixiapp');
-        this.pixiapp.view.style.position = 'absolute';
-        this.pixiapp.view.style.left = '50%';
-        this.pixiapp.view.style.top = '50%';
-        this.pixiapp.view.style.marginLeft = -vpWidth / 2 + 'px';
-        this.pixiapp.view.style.marginTop = -vpHeight / 2 + 'px';
-        this.pixidiv.style.width = window.innerWidth + 'px';
-        this.pixidiv.style.height = window.innerHeight + 'px';
-    }
-    isPlaying() {
-        return true;
-    }
-    pause() {
-    }
-    resume() {
-    }
-    play() {
-    }
-}
-exports.Editor = Editor;
-
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-__webpack_require__(103);
+__webpack_require__(104);
 
 __webpack_require__(105);
-
-__webpack_require__(106);
 
 if (!window.ArrayBuffer) {
     window.ArrayBuffer = Array;
@@ -23632,13 +23511,13 @@ if (!window.Uint16Array) {
 
 
 /***/ }),
-/* 103 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _objectAssign = __webpack_require__(104);
+var _objectAssign = __webpack_require__(103);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
@@ -23652,7 +23531,7 @@ if (!Object.assign) {
 
 
 /***/ }),
-/* 104 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23749,7 +23628,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 105 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23830,7 +23709,7 @@ if (!global.cancelAnimationFrame) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 106 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23853,7 +23732,7 @@ if (!Math.sign) {
 
 
 /***/ }),
-/* 107 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23861,7 +23740,7 @@ if (!Math.sign) {
 
 exports.__esModule = true;
 
-var _Rectangle = __webpack_require__(27);
+var _Rectangle = __webpack_require__(26);
 
 var _Rectangle2 = _interopRequireDefault(_Rectangle);
 
@@ -23972,7 +23851,7 @@ exports.default = Circle;
 
 
 /***/ }),
-/* 108 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23980,7 +23859,7 @@ exports.default = Circle;
 
 exports.__esModule = true;
 
-var _Rectangle = __webpack_require__(27);
+var _Rectangle = __webpack_require__(26);
 
 var _Rectangle2 = _interopRequireDefault(_Rectangle);
 
@@ -24099,7 +23978,7 @@ exports.default = Ellipse;
 
 
 /***/ }),
-/* 109 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24107,7 +23986,7 @@ exports.default = Ellipse;
 
 exports.__esModule = true;
 
-var _Point = __webpack_require__(25);
+var _Point = __webpack_require__(24);
 
 var _Point2 = _interopRequireDefault(_Point);
 
@@ -24235,7 +24114,7 @@ exports.default = Polygon;
 
 
 /***/ }),
-/* 110 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24373,7 +24252,7 @@ exports.default = RoundedRectangle;
 
 
 /***/ }),
-/* 111 */
+/* 110 */
 /***/ (function(module, exports) {
 
 
@@ -24405,7 +24284,7 @@ module.exports = createContext;
 
 
 /***/ }),
-/* 112 */
+/* 111 */
 /***/ (function(module, exports) {
 
 var EMPTY_ARRAY_BUFFER = new ArrayBuffer(0);
@@ -24530,7 +24409,7 @@ module.exports = Buffer;
 
 
 /***/ }),
-/* 113 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -24761,7 +24640,7 @@ module.exports = Framebuffer;
 
 
 /***/ }),
-/* 114 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -24861,7 +24740,7 @@ module.exports = Shader;
 
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -25129,7 +25008,7 @@ VertexArrayObject.prototype.getSize = function()
 
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
@@ -25140,11 +25019,11 @@ module.exports = {
     generateUniformAccessObject: __webpack_require__(52),
     setPrecision: __webpack_require__(51),
     mapSize: __webpack_require__(48),
-    mapType: __webpack_require__(28)
+    mapType: __webpack_require__(27)
 };
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25153,7 +25032,7 @@ module.exports = {
 exports.__esModule = true;
 exports.default = maxRecommendedTextures;
 
-var _ismobilejs = __webpack_require__(30);
+var _ismobilejs = __webpack_require__(29);
 
 var _ismobilejs2 = _interopRequireDefault(_ismobilejs);
 
@@ -25171,7 +25050,7 @@ function maxRecommendedTextures(max) {
 
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25190,7 +25069,7 @@ function canUploadSameBuffer() {
 
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25261,7 +25140,7 @@ exports.default = {
 
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25328,7 +25207,7 @@ function performMixins() {
 
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25363,7 +25242,7 @@ module.exports = function removeItems(arr, startIdx, removeCount)
 
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25411,7 +25290,7 @@ function mapPremultipliedBlendModes() {
 
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -25947,10 +25826,10 @@ function mapPremultipliedBlendModes() {
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(124)(module), __webpack_require__(9)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(123)(module), __webpack_require__(9)))
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -25978,7 +25857,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26001,18 +25880,18 @@ module.exports = {
 
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(127);
-exports.encode = exports.stringify = __webpack_require__(128);
+exports.decode = exports.parse = __webpack_require__(126);
+exports.encode = exports.stringify = __webpack_require__(127);
 
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26103,7 +25982,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26195,7 +26074,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26211,7 +26090,7 @@ var _settings2 = _interopRequireDefault(_settings);
 
 var _const = __webpack_require__(1);
 
-var _TickerListener = __webpack_require__(130);
+var _TickerListener = __webpack_require__(129);
 
 var _TickerListener2 = _interopRequireDefault(_TickerListener);
 
@@ -26673,7 +26552,7 @@ exports.default = Ticker;
 
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26852,7 +26731,7 @@ exports.default = TickerListener;
 
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26868,7 +26747,7 @@ var _const = __webpack_require__(1);
 
 var _math = __webpack_require__(4);
 
-var _CanvasTinter = __webpack_require__(35);
+var _CanvasTinter = __webpack_require__(34);
 
 var _CanvasTinter2 = _interopRequireDefault(_CanvasTinter);
 
@@ -27010,7 +26889,7 @@ _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
 
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27184,7 +27063,7 @@ exports.default = CanvasMaskManager;
 
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27261,7 +27140,7 @@ function mapCanvasBlendModesToPixi() {
 
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27269,27 +27148,27 @@ function mapCanvasBlendModesToPixi() {
 
 exports.__esModule = true;
 
-var _ObjectRenderer2 = __webpack_require__(20);
+var _ObjectRenderer2 = __webpack_require__(19);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(21);
+var _WebGLRenderer = __webpack_require__(20);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _createIndicesForQuads = __webpack_require__(36);
+var _createIndicesForQuads = __webpack_require__(35);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
-var _generateMultiTextureShader = __webpack_require__(147);
+var _generateMultiTextureShader = __webpack_require__(146);
 
 var _generateMultiTextureShader2 = _interopRequireDefault(_generateMultiTextureShader);
 
-var _checkMaxIfStatmentsInShader = __webpack_require__(148);
+var _checkMaxIfStatmentsInShader = __webpack_require__(147);
 
 var _checkMaxIfStatmentsInShader2 = _interopRequireDefault(_checkMaxIfStatmentsInShader);
 
-var _BatchBuffer = __webpack_require__(149);
+var _BatchBuffer = __webpack_require__(148);
 
 var _BatchBuffer2 = _interopRequireDefault(_BatchBuffer);
 
@@ -27808,7 +27687,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28023,7 +27902,7 @@ exports.default = MaskManager;
 
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28090,7 +27969,7 @@ function extractUniformsFromString(string) {
 
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -28280,7 +28159,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28438,7 +28317,7 @@ exports.default = StencilManager;
 
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28450,7 +28329,7 @@ var _WebGLManager2 = __webpack_require__(15);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(21);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -28464,7 +28343,7 @@ var _Shader = __webpack_require__(16);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
-var _filterTransforms = __webpack_require__(140);
+var _filterTransforms = __webpack_require__(139);
 
 var filterTransforms = _interopRequireWildcard(_filterTransforms);
 
@@ -29037,7 +28916,7 @@ exports.default = FilterManager;
 
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29101,7 +28980,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29113,7 +28992,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _const = __webpack_require__(1);
 
-var _RenderTarget = __webpack_require__(22);
+var _RenderTarget = __webpack_require__(21);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -29362,7 +29241,7 @@ exports.default = TextureManager;
 
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29487,7 +29366,7 @@ exports.default = TextureGarbageCollector;
 
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29495,7 +29374,7 @@ exports.default = TextureGarbageCollector;
 
 exports.__esModule = true;
 
-var _mapWebGLBlendModesToPixi = __webpack_require__(144);
+var _mapWebGLBlendModesToPixi = __webpack_require__(143);
 
 var _mapWebGLBlendModesToPixi2 = _interopRequireDefault(_mapWebGLBlendModesToPixi);
 
@@ -29772,7 +29651,7 @@ exports.default = WebGLState;
 
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29826,7 +29705,7 @@ function mapWebGLBlendModesToPixi(gl) {
 
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29863,7 +29742,7 @@ function mapWebGLDrawModesToPixi(gl) {
 
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29884,7 +29763,7 @@ function validateContext(gl) {
 
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29952,7 +29831,7 @@ function generateSampleSrc(maxTextures) {
 
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30032,7 +29911,7 @@ function generateIfTestSrc(maxIfs) {
 
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30090,7 +29969,7 @@ exports.default = Buffer;
 
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30100,7 +29979,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Sprite2 = __webpack_require__(32);
+var _Sprite2 = __webpack_require__(31);
 
 var _Sprite3 = _interopRequireDefault(_Sprite2);
 
@@ -30126,7 +30005,7 @@ var _TextMetrics = __webpack_require__(69);
 
 var _TextMetrics2 = _interopRequireDefault(_TextMetrics);
 
-var _trimCanvas = __webpack_require__(151);
+var _trimCanvas = __webpack_require__(150);
 
 var _trimCanvas2 = _interopRequireDefault(_trimCanvas);
 
@@ -30750,7 +30629,7 @@ exports.default = Text;
 
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30831,7 +30710,7 @@ function trimCanvas(canvas) {
 
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30843,7 +30722,7 @@ var _Container2 = __webpack_require__(12);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
-var _RenderTexture = __webpack_require__(34);
+var _RenderTexture = __webpack_require__(33);
 
 var _RenderTexture2 = _interopRequireDefault(_RenderTexture);
 
@@ -30855,7 +30734,7 @@ var _GraphicsData = __webpack_require__(70);
 
 var _GraphicsData2 = _interopRequireDefault(_GraphicsData);
 
-var _Sprite = __webpack_require__(32);
+var _Sprite = __webpack_require__(31);
 
 var _Sprite2 = _interopRequireDefault(_Sprite);
 
@@ -30865,11 +30744,11 @@ var _utils = __webpack_require__(2);
 
 var _const = __webpack_require__(1);
 
-var _Bounds = __webpack_require__(29);
+var _Bounds = __webpack_require__(28);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
-var _bezierCurveTo2 = __webpack_require__(153);
+var _bezierCurveTo2 = __webpack_require__(152);
 
 var _bezierCurveTo3 = _interopRequireDefault(_bezierCurveTo2);
 
@@ -32008,7 +31887,7 @@ Graphics._SPRITE_TEXTURE = null;
 
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32063,7 +31942,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32075,35 +31954,35 @@ var _utils = __webpack_require__(2);
 
 var _const = __webpack_require__(1);
 
-var _ObjectRenderer2 = __webpack_require__(20);
+var _ObjectRenderer2 = __webpack_require__(19);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(21);
+var _WebGLRenderer = __webpack_require__(20);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _WebGLGraphicsData = __webpack_require__(155);
+var _WebGLGraphicsData = __webpack_require__(154);
 
 var _WebGLGraphicsData2 = _interopRequireDefault(_WebGLGraphicsData);
 
-var _PrimitiveShader = __webpack_require__(156);
+var _PrimitiveShader = __webpack_require__(155);
 
 var _PrimitiveShader2 = _interopRequireDefault(_PrimitiveShader);
 
-var _buildPoly = __webpack_require__(157);
+var _buildPoly = __webpack_require__(156);
 
 var _buildPoly2 = _interopRequireDefault(_buildPoly);
 
-var _buildRectangle = __webpack_require__(158);
+var _buildRectangle = __webpack_require__(157);
 
 var _buildRectangle2 = _interopRequireDefault(_buildRectangle);
 
-var _buildRoundedRectangle = __webpack_require__(159);
+var _buildRoundedRectangle = __webpack_require__(158);
 
 var _buildRoundedRectangle2 = _interopRequireDefault(_buildRoundedRectangle);
 
-var _buildCircle = __webpack_require__(160);
+var _buildCircle = __webpack_require__(159);
 
 var _buildCircle2 = _interopRequireDefault(_buildCircle);
 
@@ -32333,7 +32212,7 @@ _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
 
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32481,7 +32360,7 @@ exports.default = WebGLGraphicsData;
 
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32531,7 +32410,7 @@ exports.default = PrimitiveShader;
 
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32540,7 +32419,7 @@ exports.default = PrimitiveShader;
 exports.__esModule = true;
 exports.default = buildPoly;
 
-var _buildLine = __webpack_require__(23);
+var _buildLine = __webpack_require__(22);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -32622,7 +32501,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32631,7 +32510,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRectangle;
 
-var _buildLine = __webpack_require__(23);
+var _buildLine = __webpack_require__(22);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -32703,7 +32582,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32716,7 +32595,7 @@ var _earcut = __webpack_require__(71);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
-var _buildLine = __webpack_require__(23);
+var _buildLine = __webpack_require__(22);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -32864,7 +32743,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32873,7 +32752,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 exports.__esModule = true;
 exports.default = buildCircle;
 
-var _buildLine = __webpack_require__(23);
+var _buildLine = __webpack_require__(22);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -32962,7 +32841,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33236,7 +33115,7 @@ _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
 
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33503,7 +33382,7 @@ exports.default = Spritesheet;
 
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34652,7 +34531,7 @@ function deprecation(core) {
 
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34669,7 +34548,7 @@ Object.defineProperty(exports, 'accessibleTarget', {
   }
 });
 
-var _AccessibilityManager = __webpack_require__(165);
+var _AccessibilityManager = __webpack_require__(164);
 
 Object.defineProperty(exports, 'AccessibilityManager', {
   enumerable: true,
@@ -34682,7 +34561,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34694,7 +34573,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ismobilejs = __webpack_require__(30);
+var _ismobilejs = __webpack_require__(29);
 
 var _ismobilejs2 = _interopRequireDefault(_ismobilejs);
 
@@ -35181,7 +35060,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35189,7 +35068,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 exports.__esModule = true;
 
-var _WebGLExtract = __webpack_require__(167);
+var _WebGLExtract = __webpack_require__(166);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -35198,7 +35077,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasExtract = __webpack_require__(168);
+var _CanvasExtract = __webpack_require__(167);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -35211,7 +35090,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35439,7 +35318,7 @@ core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
 
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35624,7 +35503,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36038,7 +35917,7 @@ exports.default = AnimatedSprite;
 
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36052,7 +35931,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _CanvasTinter = __webpack_require__(35);
+var _CanvasTinter = __webpack_require__(34);
 
 var _CanvasTinter2 = _interopRequireDefault(_CanvasTinter);
 
@@ -36489,7 +36368,7 @@ exports.default = TilingSprite;
 
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36656,7 +36535,7 @@ core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
 
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37252,7 +37131,7 @@ BitmapText.fonts = {};
 
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37661,7 +37540,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37700,7 +37579,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37738,7 +37617,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37746,7 +37625,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 exports.__esModule = true;
 
-var _FXAAFilter = __webpack_require__(177);
+var _FXAAFilter = __webpack_require__(176);
 
 Object.defineProperty(exports, 'FXAAFilter', {
   enumerable: true,
@@ -37755,7 +37634,7 @@ Object.defineProperty(exports, 'FXAAFilter', {
   }
 });
 
-var _NoiseFilter = __webpack_require__(178);
+var _NoiseFilter = __webpack_require__(177);
 
 Object.defineProperty(exports, 'NoiseFilter', {
   enumerable: true,
@@ -37764,7 +37643,7 @@ Object.defineProperty(exports, 'NoiseFilter', {
   }
 });
 
-var _DisplacementFilter = __webpack_require__(179);
+var _DisplacementFilter = __webpack_require__(178);
 
 Object.defineProperty(exports, 'DisplacementFilter', {
   enumerable: true,
@@ -37773,7 +37652,7 @@ Object.defineProperty(exports, 'DisplacementFilter', {
   }
 });
 
-var _BlurFilter = __webpack_require__(180);
+var _BlurFilter = __webpack_require__(179);
 
 Object.defineProperty(exports, 'BlurFilter', {
   enumerable: true,
@@ -37800,7 +37679,7 @@ Object.defineProperty(exports, 'BlurYFilter', {
   }
 });
 
-var _ColorMatrixFilter = __webpack_require__(181);
+var _ColorMatrixFilter = __webpack_require__(180);
 
 Object.defineProperty(exports, 'ColorMatrixFilter', {
   enumerable: true,
@@ -37809,7 +37688,7 @@ Object.defineProperty(exports, 'ColorMatrixFilter', {
   }
 });
 
-var _AlphaFilter = __webpack_require__(182);
+var _AlphaFilter = __webpack_require__(181);
 
 Object.defineProperty(exports, 'AlphaFilter', {
   enumerable: true,
@@ -37822,7 +37701,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37881,7 +37760,7 @@ exports.default = FXAAFilter;
 
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37983,7 +37862,7 @@ exports.default = NoiseFilter;
 
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38098,7 +37977,7 @@ exports.default = DisplacementFilter;
 
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38277,7 +38156,7 @@ exports.default = BlurFilter;
 
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38833,7 +38712,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38920,7 +38799,7 @@ exports.default = AlphaFilter;
 
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38937,7 +38816,7 @@ Object.defineProperty(exports, 'InteractionData', {
   }
 });
 
-var _InteractionManager = __webpack_require__(184);
+var _InteractionManager = __webpack_require__(183);
 
 Object.defineProperty(exports, 'InteractionManager', {
   enumerable: true,
@@ -38977,7 +38856,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40742,7 +40621,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40803,7 +40682,7 @@ var _Application = __webpack_require__(72);
 
 var _Application2 = _interopRequireDefault(_Application);
 
-var _loader = __webpack_require__(187);
+var _loader = __webpack_require__(186);
 
 var _loader2 = _interopRequireDefault(_loader);
 
@@ -40875,7 +40754,7 @@ AppPrototype.destroy = function destroy(removeView) {
 
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40897,7 +40776,7 @@ var _async = __webpack_require__(88);
 
 var async = _interopRequireWildcard(_async);
 
-var _Resource = __webpack_require__(37);
+var _Resource = __webpack_require__(36);
 
 var _Resource2 = _interopRequireDefault(_Resource);
 
@@ -41498,7 +41377,7 @@ exports.default = Loader;
 
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41510,7 +41389,7 @@ var _resourceLoader = __webpack_require__(17);
 
 var _resourceLoader2 = _interopRequireDefault(_resourceLoader);
 
-var _blob = __webpack_require__(188);
+var _blob = __webpack_require__(187);
 
 var _eventemitter = __webpack_require__(8);
 
@@ -41674,7 +41553,7 @@ Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
 
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41686,7 +41565,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 exports.blobMiddlewareFactory = blobMiddlewareFactory;
 
-var _Resource = __webpack_require__(37);
+var _Resource = __webpack_require__(36);
 
 var _Resource2 = _interopRequireDefault(_Resource);
 
@@ -41767,7 +41646,7 @@ function blobMiddlewareFactory() {
 
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41784,7 +41663,7 @@ Object.defineProperty(exports, 'Mesh', {
   }
 });
 
-var _MeshRenderer = __webpack_require__(190);
+var _MeshRenderer = __webpack_require__(189);
 
 Object.defineProperty(exports, 'MeshRenderer', {
   enumerable: true,
@@ -41793,7 +41672,7 @@ Object.defineProperty(exports, 'MeshRenderer', {
   }
 });
 
-var _CanvasMeshRenderer = __webpack_require__(191);
+var _CanvasMeshRenderer = __webpack_require__(190);
 
 Object.defineProperty(exports, 'CanvasMeshRenderer', {
   enumerable: true,
@@ -41811,7 +41690,7 @@ Object.defineProperty(exports, 'Plane', {
   }
 });
 
-var _NineSlicePlane = __webpack_require__(192);
+var _NineSlicePlane = __webpack_require__(191);
 
 Object.defineProperty(exports, 'NineSlicePlane', {
   enumerable: true,
@@ -41820,7 +41699,7 @@ Object.defineProperty(exports, 'NineSlicePlane', {
   }
 });
 
-var _Rope = __webpack_require__(193);
+var _Rope = __webpack_require__(192);
 
 Object.defineProperty(exports, 'Rope', {
   enumerable: true,
@@ -41833,7 +41712,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41989,7 +41868,7 @@ core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
 
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42277,7 +42156,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42668,7 +42547,7 @@ exports.default = NineSlicePlane;
 
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42909,7 +42788,7 @@ exports.default = Rope;
 
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42917,7 +42796,7 @@ exports.default = Rope;
 
 exports.__esModule = true;
 
-var _ParticleContainer = __webpack_require__(195);
+var _ParticleContainer = __webpack_require__(194);
 
 Object.defineProperty(exports, 'ParticleContainer', {
   enumerable: true,
@@ -42926,7 +42805,7 @@ Object.defineProperty(exports, 'ParticleContainer', {
   }
 });
 
-var _ParticleRenderer = __webpack_require__(196);
+var _ParticleRenderer = __webpack_require__(195);
 
 Object.defineProperty(exports, 'ParticleRenderer', {
   enumerable: true,
@@ -42939,7 +42818,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43322,7 +43201,7 @@ exports.default = ParticleContainer;
 
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43334,11 +43213,11 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ParticleShader = __webpack_require__(197);
+var _ParticleShader = __webpack_require__(196);
 
 var _ParticleShader2 = _interopRequireDefault(_ParticleShader);
 
-var _ParticleBuffer = __webpack_require__(198);
+var _ParticleBuffer = __webpack_require__(197);
 
 var _ParticleBuffer2 = _interopRequireDefault(_ParticleBuffer);
 
@@ -43803,7 +43682,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43851,7 +43730,7 @@ exports.default = ParticleShader;
 
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43863,7 +43742,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _createIndicesForQuads = __webpack_require__(36);
+var _createIndicesForQuads = __webpack_require__(35);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
@@ -44099,7 +43978,7 @@ exports.default = ParticleBuffer;
 
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44107,7 +43986,7 @@ exports.default = ParticleBuffer;
 
 exports.__esModule = true;
 
-var _WebGLPrepare = __webpack_require__(200);
+var _WebGLPrepare = __webpack_require__(199);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -44116,7 +43995,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasPrepare = __webpack_require__(201);
+var _CanvasPrepare = __webpack_require__(200);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -44125,7 +44004,7 @@ Object.defineProperty(exports, 'canvas', {
   }
 });
 
-var _BasePrepare = __webpack_require__(38);
+var _BasePrepare = __webpack_require__(37);
 
 Object.defineProperty(exports, 'BasePrepare', {
   enumerable: true,
@@ -44143,7 +44022,7 @@ Object.defineProperty(exports, 'CountLimiter', {
   }
 });
 
-var _TimeLimiter = __webpack_require__(202);
+var _TimeLimiter = __webpack_require__(201);
 
 Object.defineProperty(exports, 'TimeLimiter', {
   enumerable: true,
@@ -44156,7 +44035,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44168,7 +44047,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _BasePrepare2 = __webpack_require__(38);
+var _BasePrepare2 = __webpack_require__(37);
 
 var _BasePrepare3 = _interopRequireDefault(_BasePrepare2);
 
@@ -44283,7 +44162,7 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44295,7 +44174,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _BasePrepare2 = __webpack_require__(38);
+var _BasePrepare2 = __webpack_require__(37);
 
 var _BasePrepare3 = _interopRequireDefault(_BasePrepare2);
 
@@ -44408,7 +44287,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44471,5548 +44350,7 @@ exports.default = TimeLimiter;
 
 
 /***/ }),
-/* 203 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const level_1 = __webpack_require__(204);
-class LevelPlayer {
-    constructor(spec, am, parent) {
-        this.spec = spec;
-        this.am = am;
-        this.parent = parent;
-        this.level = new level_1.Level(spec, this.am);
-        this.parent.appendChild(this.level.app.view);
-    }
-    load() {
-    }
-    remove() {
-    }
-    isPlaying() {
-        return this.level.isPlaying();
-    }
-    pause() {
-        this.level.pause();
-    }
-    resume() {
-        this.level.resume();
-    }
-}
-exports.LevelPlayer = LevelPlayer;
-
-
-/***/ }),
-/* 204 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const level_1 = __webpack_require__(205);
-exports.Level = level_1.Level;
-
-
-/***/ }),
-/* 205 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(19);
-const enemy_ai_1 = __webpack_require__(206);
-const player_ai_1 = __webpack_require__(207);
-const terragrid_1 = __webpack_require__(208);
-const fountain_1 = __webpack_require__(229);
-const constants_1 = __webpack_require__(230);
-const spawner_1 = __webpack_require__(231);
-const helper_1 = __webpack_require__(11);
-const animator_1 = __webpack_require__(232);
-const animation_1 = __webpack_require__(96);
-const tower_1 = __webpack_require__(97);
-const minion_1 = __webpack_require__(98);
-const collision_sys_1 = __webpack_require__(233);
-const USE_DOM_FOR_GRID_ANALYSIS = true;
-const HIGHLIGHT_CELL_UNDER_CURSOR = false;
-const PADDING = 20;
-const DEBUG = true;
-const SCROLL_MULTIPLIER = 4000;
-class Level {
-    constructor(spec, am) {
-        this.spec = spec;
-        this.am = am;
-        this.spawners = [];
-        this.towers = [];
-        this.minions = [];
-        this.mapname = 'map_' + this.spec.map;
-        this.animator = new animator_1.Animator();
-        this.collsys = new collision_sys_1.CollisionSystem();
-        let [vpw, vph] = this.computeViewportDimensions();
-        this.initApp(vpw, vph);
-        this.viewScaleRange = { min: vpw / this.am.docWidth, max: 1 };
-        this.terra = new terragrid_1.HexTerra({
-            width: this.am.docWidth,
-            height: this.am.docHeight,
-            cellsize: 50
-        });
-        this.doGridAnalysis().then(() => {
-            this.setupScene();
-            this.registerMouseInteraction();
-            this.enemyAI = new enemy_ai_1.EnemyAI(this);
-            this.playerAI = new player_ai_1.PlayerAI(this);
-            this.play();
-        });
-        const SCAN_UPDATE_INTERVAL = 100; // msec
-        // rotation in radians per update interval for 30 revolutions per minute
-        const DELTA_TOWER_ROTATION = (Math.PI / 2) * SCAN_UPDATE_INTERVAL / 1000;
-        this.towerScanTimer = new helper_1.Timer(SCAN_UPDATE_INTERVAL, () => {
-            this.towers.forEach(tower => {
-                tower.rotateToScanIfNotBusy(DELTA_TOWER_ROTATION);
-            });
-        });
-    }
-    addTower(tower) {
-        this.collsys.addMember(tower);
-        this.towers.push(tower);
-        for (let sprite of tower.sprites) {
-            this.app.stage.addChild(sprite);
-        }
-        // Add weight at tower location on terrain
-        let cell = this.terra.resolveCell(tower.position[0], tower.position[1]);
-        console.assert(!!cell);
-        this.terra.setWallAt(cell[0], cell[1]);
-        // Make spawners recompute paths for minions spawned in future
-        this.spawners.forEach(spawner => spawner.recomputePath());
-        // Update paths of existing minions
-        this.minions.forEach(minion => minion.recomputePath());
-        tower.setupAnimation();
-    }
-    removeTower(tower) {
-        for (let sprite of tower.sprites) {
-            this.app.stage.removeChild(sprite);
-        }
-        let idx = this.towers.indexOf(tower);
-        this.towers.splice(idx, 1);
-    }
-    computeViewportDimensions() {
-        let mapAspectRatio = this.am.docWidth / this.am.docHeight;
-        let sx = window.innerWidth / this.am.docWidth;
-        let sy = window.innerHeight / this.am.docHeight;
-        let width;
-        let height;
-        if (sx < sy) {
-            width = window.innerWidth;
-            height = width / mapAspectRatio;
-        }
-        else {
-            height = window.innerHeight;
-            width = height * mapAspectRatio;
-        }
-        return [width - PADDING, height - PADDING];
-    }
-    doGridAnalysis() {
-        let svgGridDiv = document.createElement('div');
-        svgGridDiv.style.position = 'absolute';
-        svgGridDiv.style.left = '0px';
-        svgGridDiv.style.top = '0px';
-        document.body.appendChild(svgGridDiv);
-        svgGridDiv.innerHTML = this.am.svgmarkup;
-        let svg = svgGridDiv.querySelector('svg');
-        let docwidth = this.am.docWidth;
-        let docheight = this.am.docHeight;
-        // Hide all pxc_layers and then unhide only the current layer
-        let layers = svg.children;
-        for (let i = 0; i < layers.length; i++) {
-            let layer = layers[i];
-            let label = layer.getAttribute('inkscape:label');
-            if (label && constants_1.PXC_LAYER_REGEX.test(label)) {
-                layer.style.display = 'none'; // hide all layers
-            }
-            if (label === 'pxc_layer_' + this.mapname) {
-                layer.style.display = 'inline';
-            }
-        }
-        let aspectRatio = docwidth / docheight;
-        let width = 800;
-        let height = 600;
-        if (width < height) {
-            height = width / aspectRatio;
-        }
-        else {
-            width = height * aspectRatio;
-        }
-        let viewBox = `0 0 ${docwidth} ${docheight}`;
-        svg.setAttribute('width', `${width}px`);
-        svg.setAttribute('height', `${height}px`);
-        svg.setAttribute('viewBox', viewBox);
-        let sx = width / docwidth;
-        let sy = height / docheight;
-        return new Promise((resolve) => {
-            if (USE_DOM_FOR_GRID_ANALYSIS) {
-                this.analyseAllCells((point) => {
-                    let x = Math.round(sx * point[0]);
-                    let y = Math.round(sy * point[1]);
-                    let elem = document.elementFromPoint(x, y);
-                    if (x < 0 || y < 0 || x >= width || y >= height) {
-                        return false;
-                    }
-                    if (elem) {
-                        let label = elem.getAttribute('inkscape:label');
-                        if (elem.tagName !== 'svg') {
-                            if (label && constants_1.PXC_META_REGEX.test(label)) {
-                                return false;
-                            }
-                            return true;
-                        }
-                    }
-                    return false;
-                });
-                svgGridDiv.remove();
-                resolve();
-            }
-            else {
-                let getRawColorAt = (idata, x, y, w) => {
-                    let data = idata.data;
-                    let pos = 4 * (y * w + x);
-                    return [
-                        data[pos],
-                        data[pos + 1],
-                        data[pos + 2],
-                        data[pos + 3] // Alpha
-                    ];
-                };
-                // Draw things on a canvas
-                helper_1.svgToCanvas(svgGridDiv.innerHTML, '#ffffff').then((canvas) => {
-                    let ctx = canvas.getContext('2d');
-                    let imgdata = ctx.getImageData(0, 0, width, height);
-                    this.analyseAllCells((point) => {
-                        let x = Math.round(sx * point[0]);
-                        let y = Math.round(sy * point[1]);
-                        let [r, g, b] = getRawColorAt(imgdata, x, y, width);
-                        if (x < 0 || y < 0 || x >= width || y >= height) {
-                            return false;
-                        }
-                        return (r !== 255 || g !== 255 || b !== 255);
-                    });
-                    svgGridDiv.remove();
-                    resolve();
-                });
-            }
-        });
-    }
-    analyseAllCells(iswall) {
-        let interpolateCorners = (corners, n = 2) => {
-            let allpoints = [];
-            for (let i = 0; i < corners.length; i++) {
-                let cur = corners[i];
-                let next = i < corners.length - 1 ? corners[i + 1] : corners[0];
-                allpoints.push(cur);
-                for (let j = 0; j < n; j++) {
-                    allpoints.push([
-                        cur[0] + ((j + 1) / (n + 1)) * (next[0] - cur[0]),
-                        cur[1] + ((j + 1) / (n + 1)) * (next[1] - cur[1]),
-                    ]);
-                }
-            }
-            return allpoints;
-        };
-        this.terra.cornersForEachCell((corners, row, col) => {
-            let weight = 1;
-            let perimeter = interpolateCorners(corners);
-            for (let point of perimeter) {
-                if (iswall(point)) {
-                    weight = 0;
-                }
-            }
-            this.terra.setWeight(row, col, weight);
-        });
-    }
-    hideGridDebugVisual() {
-        let div = document.getElementById('grid-visual-wrapper');
-        if (div) {
-            div.style.display = 'none';
-        }
-    }
-    showGridDebugVisual() {
-        let vpW = this.app.view.width;
-        let vpH = this.app.view.height;
-        let div = document.getElementById('grid-visual-wrapper');
-        if (!div) {
-            div = document.createElement('div');
-            div.setAttribute('id', 'grid-visual-wrapper');
-            div.innerHTML = this.terra.toSVG(0.2);
-            let svg = div.querySelector('svg');
-            svg.setAttribute('id', 'grid-visual');
-            let width = parseInt(svg.getAttribute('width'));
-            let height = parseInt(svg.getAttribute('height'));
-            svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-            svg.setAttribute('width', vpW + '');
-            svg.setAttribute('height', vpH + '');
-            div.style.position = 'absolute';
-            div.style.left = '50%';
-            div.style.top = '50%';
-            div.style.marginLeft = -vpW / 2 + 'px';
-            div.style.marginTop = -vpH / 2 + 'px';
-            div.style.zIndex = '10';
-            div.style.pointerEvents = 'none';
-            this.app.view.parentElement.appendChild(div);
-            let sx = vpW / width;
-            let sy = vpH / height;
-            let highlightCellAndNeighbors = (coord) => {
-                // Reset color of all cells according to weights
-                this.terra.forEachCell((row, col) => {
-                    let weight = this.terra.getWeight(row, col);
-                    let cell = div.querySelector(`polygon#cell${row}-${col}`);
-                    cell.setAttribute('fill', weight ? '#ffffff' : '#000000');
-                });
-                // Paint cell under cursor
-                let cell = div.querySelector(`polygon#cell${coord[0]}-${coord[1]}`);
-                cell.setAttribute('fill', '#ff0000');
-                // Paint neighbors of cell under cursor
-                let neighbors = this.terra.getNeighbors(coord[0], coord[1]);
-                for (let neighbor of neighbors) {
-                    let cell = div.querySelector(`polygon#cell${neighbor[0]}-${neighbor[1]}`);
-                    cell.setAttribute('fill', '#0000ff');
-                }
-            };
-            let showCoord = (coord) => {
-                console.log(coord);
-            };
-            div.addEventListener('mousemove', (ev) => {
-                let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
-                if (HIGHLIGHT_CELL_UNDER_CURSOR) {
-                    highlightCellAndNeighbors(coord);
-                }
-                showCoord(coord);
-            });
-            div.addEventListener('click', (ev) => {
-                let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
-                console.log(this.terra.getCellDebugInfo(coord[0], coord[1]));
-            });
-        }
-        div.style.display = 'inherit';
-    }
-    highlightCell(row, col, color) {
-        let svg = this.app.view.parentElement.querySelector('#grid-visual');
-        let cell = svg.querySelector(`polygon#cell${row}-${col}`);
-        cell.setAttribute('fill', color);
-    }
-    initApp(vpWidth, vpHeight) {
-        // Setup Pixi App
-        this.app = new pixi.Application(vpWidth, vpHeight, {
-            backgroundColor: 0xffffff,
-            antialias: true,
-            autoStart: false
-        });
-        this.app.view.setAttribute('id', 'app');
-        this.app.view.style.position = 'absolute';
-        this.app.view.style.left = '50%';
-        this.app.view.style.top = '50%';
-        this.app.view.style.marginLeft = -vpWidth / 2 + 'px';
-        this.app.view.style.marginTop = -vpHeight / 2 + 'px';
-    }
-    initFountain(spec, cell) {
-        let sprite = this.am.createSprite('sprites', 'fountain');
-        let [fnx, fny] = this.terra.getCellCenter(cell[0], cell[1]);
-        sprite.position.set(fnx, fny);
-        sprite.scale.set(0.5, 0.5);
-        let radius = Math.max(sprite.height, sprite.width) / 2;
-        this.fountain = new fountain_1.Fountain(cell, spec.divinityPeriod, spec.baseSpirit, spec.spiritGoal, spec.spiritLossPerAttack, radius, sprite, () => {
-            console.log('%cDivinity', 'background:#00ff00;color:#ffffff');
-            this.pause();
-        }, () => {
-            console.log('%cDestruction', 'background:#ff0000;color:#ffffff');
-            this.pause();
-        });
-        this.app.stage.addChild(sprite);
-    }
-    setupScene() {
-        let am = this.am;
-        let app = this.app;
-        document.body.style.background = 'black';
-        let mapWidth = am.docWidth;
-        let mapHeight = am.docHeight;
-        let spriteCanvasMap = am.spriteCanvases[this.mapname];
-        let spriteBoxes = am.spriteBoxes[this.mapname];
-        let metadata = am.metadata[this.mapname];
-        for (let key in spriteCanvasMap) {
-            let texture = pixi.Texture.from(spriteCanvasMap[key]);
-            let { left, top, width, height } = spriteBoxes[key];
-            let sprite = null;
-            if (key === 'background') {
-                sprite = new pixi.extras.TilingSprite(texture, mapWidth, mapHeight);
-            }
-            else if (constants_1.PXC_META_REGEX.test(key)) {
-                let cell = this.terra.resolveCell(left + width / 2, top + height / 2);
-                console.assert(cell);
-                if (constants_1.PXC_META_SPAWN_REGEX.test(key)) {
-                    let spec = metadata[key];
-                    this.spawners.push(new spawner_1.Spawner(cell, this, spec.interval, spec.rate));
-                }
-                else if (key === 'pxc_meta_fountain') {
-                    this.initFountain(metadata[key], cell);
-                }
-            }
-            else {
-                sprite = new pixi.Sprite(texture);
-                sprite.position.set(left, top);
-            }
-            if (sprite) {
-                app.stage.addChild(sprite);
-            }
-        }
-        let scale = this.viewScaleRange.min;
-        let tx = 0;
-        let ty = 0;
-        this.app.stage.setTransform(tx, ty, scale, scale);
-        this.viewTransformDirty = true;
-        if (DEBUG) {
-            this.debugGraphics = new pixi.Graphics();
-            this.app.stage.addChild(this.debugGraphics);
-        }
-    }
-    createTowerHolderSprite() {
-        let sprite = this.am.createSprite('sprites', 'towerpreview');
-        let rangeSpriteRadius = sprite.getBounds().width / 2;
-        sprite.scale.set(this.spec.towerFireRange / rangeSpriteRadius);
-        return sprite;
-    }
-    fetchActorSprites(actorLayerName) {
-        let spriteActionGroups = {};
-        let storeSpriteCanvas = (key, canvas) => {
-            console.assert(/(\w+)(\d+)/.test(key));
-            let match = /(\w+)(\d+)/.exec(key);
-            let action = match[1];
-            let sequence = parseInt(match[2]);
-            if (!spriteActionGroups[action]) {
-                spriteActionGroups[action] = [];
-            }
-            spriteActionGroups[action].push({
-                index: sequence,
-                canvas: canvas
-            });
-        };
-        let spriteCanvases = this.am.spriteCanvases[actorLayerName];
-        for (let key in spriteCanvases) {
-            storeSpriteCanvas(key, spriteCanvases[key]);
-        }
-        let actorSprites = {};
-        for (let action in spriteActionGroups) {
-            let actionGroup = spriteActionGroups[action];
-            actionGroup.sort((a, b) => a.index - b.index);
-            let frames = actionGroup.map((entry) => {
-                return pixi.Texture.fromCanvas(entry.canvas);
-            });
-            let animSprite = new pixi.extras.AnimatedSprite(frames);
-            animSprite.play();
-            animSprite.animationSpeed = 0.2;
-            actorSprites[action] = animSprite;
-        }
-        return actorSprites;
-    }
-    createMinion() {
-        let minionSprites = this.fetchActorSprites('actor_' + this.spec.minionActorName);
-        return new minion_1.Minion(minionSprites, [0, 0], this);
-    }
-    createTower() {
-        let towerSprites = this.fetchActorSprites('actor_' + this.spec.towerActorName);
-        let cellsize = this.terra.radiusInner * 2;
-        for (let key in towerSprites) {
-            let sprite = towerSprites[key];
-            let spriteSize = sprite.getBounds().width;
-            sprite.scale.set(cellsize / spriteSize);
-        }
-        return new tower_1.Tower(towerSprites, [0, 0], this);
-    }
-    addMinion(cell, path) {
-        let terrain = this.terra;
-        let app = this.app;
-        console.assert(!this.terra.isWallAt(cell[0], cell[1]));
-        let minion = this.createMinion();
-        minion.position = terrain.getCellCenter(cell[0], cell[1]);
-        minion.scale = [0.5, 0.5];
-        minion.speed = 3;
-        for (let sprite of minion.sprites) {
-            app.stage.addChild(sprite);
-        }
-        this.minions.push(minion);
-        this.collsys.addMember(minion);
-        minion.moveAlongPath(path, 5);
-    }
-    viewportToDocument(x, y) {
-        return this.app.stage.transform.worldTransform
-            .applyInverse(new pixi.Point(x, y));
-    }
-    documentToViewport(x, y) {
-        return this.app.stage.transform.worldTransform
-            .apply(new pixi.Point(x, y));
-    }
-    doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1) {
-        let zoomAnimation = new animation_1.Animation(200, animation_1.Animation.EASEOUT, (u) => {
-            let tx = tx0 + (tx1 - tx0) * u;
-            let ty = ty0 + (ty1 - ty0) * u;
-            let scale = scale0 + (scale1 - scale0) * u;
-            this.app.stage.setTransform(tx, ty, scale, scale);
-        }, () => {
-            this.app.stage.setTransform(tx1, ty1, scale1, scale1);
-        });
-        this.animator.add(zoomAnimation);
-    }
-    zoomOut() {
-        let tx0 = this.app.stage.position.x;
-        let ty0 = this.app.stage.position.y;
-        let scale0 = this.app.stage.scale.x;
-        let tx1 = 0;
-        let ty1 = 0;
-        let scale1 = this.viewScaleRange.min;
-        this.doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1);
-    }
-    zoomIn(vpCursor) {
-        let vpWidth = this.app.view.width;
-        let vpHeight = this.app.view.height;
-        let docWidth = this.am.docWidth;
-        let docHeight = this.am.docHeight;
-        let docCenter = [docWidth / 2, docHeight / 2];
-        let docCursor = this.viewportToDocument(vpCursor.x, vpCursor.y);
-        let tx0 = this.app.stage.position.x;
-        let ty0 = this.app.stage.position.y;
-        let scale0 = this.app.stage.scale.x;
-        let tx1 = 0;
-        let ty1 = 0;
-        let scale1 = this.viewScaleRange.max;
-        if (Math.abs(docCursor.x - docCenter[0]) < vpWidth / 2) {
-            tx1 = (docWidth - vpWidth) / 2;
-        }
-        else if (docCursor.x > docWidth - vpWidth) {
-            tx1 = docWidth - vpWidth;
-        }
-        else if (docCursor.x < vpWidth) {
-            tx1 = 0;
-        }
-        else {
-            console.assert(false);
-        }
-        if (Math.abs(docCursor.y - docCenter[1]) < vpHeight / 2) {
-            ty1 = (docHeight - vpHeight) / 2;
-        }
-        else if (docCursor.y > docHeight - vpHeight) {
-            ty1 = docHeight - vpHeight;
-        }
-        else if (docCursor.y < vpHeight) {
-            ty1 = 0;
-        }
-        else {
-            console.assert(false);
-        }
-        this.doZoomAnimation(tx0, ty0, scale0, -tx1, -ty1, scale1);
-    }
-    registerMouseInteraction() {
-        let vpWidth = this.app.view.width;
-        let vpHeight = this.app.view.height;
-        let vpCenter = [vpWidth / 2, vpHeight / 2];
-        this.app.view.addEventListener('mouseleave', (ev) => {
-            let { offsetX: x, offsetY: y } = ev;
-            let dx = x - vpCenter[0];
-            let dy = y - vpCenter[1];
-            let mag = dx * dx + dy * dy;
-            this.viewScrollVector = [dx / mag, dy / mag];
-        });
-        this.app.view.addEventListener('mouseenter', () => {
-            this.viewScrollVector = null;
-        });
-        this.app.view.addEventListener('mousewheel', (ev) => {
-            if (ev.deltaY > 0) {
-                this.zoomOut();
-            }
-            else {
-                this.zoomIn(new pixi.Point(ev.offsetX, ev.offsetY));
-            }
-        });
-        this.app.view.addEventListener('mousedown', (ev) => {
-            this.playerAI.onMouseDown(ev);
-        });
-        this.app.view.addEventListener('mouseup', (ev) => {
-            this.playerAI.onMouseUp(ev);
-        });
-        this.app.view.addEventListener('mousemove', (ev) => {
-            this.playerAI.onMouseMove(ev);
-        });
-    }
-    isPlaying() {
-        return this.app.ticker.started;
-    }
-    pause() {
-        this.app.ticker.stop();
-    }
-    resume() {
-        this.app.ticker.start();
-    }
-    doViewScroll() {
-        let app = this.app;
-        if (this.viewScrollVector) {
-            let vpWidth = this.app.view.width;
-            let vpHeight = this.app.view.height;
-            let docWidth = this.am.docWidth;
-            let docHeight = this.am.docHeight;
-            let scale = app.stage.scale.x;
-            let tx = app.stage.position.x;
-            let ty = app.stage.position.y;
-            let dx = 0;
-            let dy = 0;
-            if (this.viewScrollVector) {
-                dx = this.viewScrollVector[0] * SCROLL_MULTIPLIER;
-                dy = this.viewScrollVector[1] * SCROLL_MULTIPLIER;
-            }
-            tx -= dx;
-            ty -= dy;
-            // Since we only support two zoom levels, we clamp the scale
-            // to those two values. There are instances when scale value
-            // varies from them due to numerical errors or other reasons
-            // (for e.g. zooming and scrolling happending simultaneously)
-            let isScaleMin = Math.abs(scale - this.viewScaleRange.min) <
-                Math.abs(scale - this.viewScaleRange.max);
-            if (isScaleMin) {
-                tx = 0;
-                ty = 0;
-            }
-            else {
-                tx = Math.max(Math.min(-tx, docWidth - vpWidth), 0);
-                ty = Math.max(Math.min(-ty, docHeight - vpHeight), 0);
-            }
-            app.stage.setTransform(-tx, -ty, scale, scale);
-            this.viewTransformDirty = false;
-        }
-    }
-    play() {
-        let app = this.app;
-        app.ticker.add(() => {
-            this.doViewScroll();
-            let [row, col] = this.fountain.cell;
-            let [fx, fy] = this.terra.getCellCenter(row, col);
-            let proxLimitSq = this.fountain.radius * this.fountain.radius;
-            // Move actors if they are in motion
-            for (let minion of this.minions) {
-                if (minion.inmotion) {
-                    minion.move();
-                    let [mx, my] = minion.position;
-                    let dx = fx - mx;
-                    let dy = fy - my;
-                    if (dx * dx + dy * dy <= proxLimitSq) {
-                        // Fountain suffers finite attack
-                        this.fountain.sufferAttack(minion);
-                        // Minion suffers infinite attack, thus dying
-                        minion.sufferAttack(Infinity);
-                    }
-                }
-            }
-            this.cleanupDeadMinions();
-            let t = new Date().valueOf(); // TODO: convert to game time from real time
-            this.enemyAI.tick(t);
-            this.playerAI.tick(t);
-            this.animator.tick(t);
-            this.towers.forEach(tower => tower.tick(t));
-            this.towerScanTimer.tick(t);
-            this.collsys.analyse();
-        });
-        app.ticker.start();
-    }
-    cleanupDeadMinions() {
-        let minionsToRemove = [];
-        for (let minion of this.minions) {
-            if (minion.isdead()) {
-                minionsToRemove.push(minion);
-            }
-        }
-        minionsToRemove.forEach(minion => this.removeMinion(minion));
-    }
-    removeMinion(minion) {
-        // Minion self destructs after the attack on fountain
-        for (let sprite of minion.sprites) {
-            this.app.stage.removeChild(sprite);
-        }
-        let idx = this.minions.indexOf(minion);
-        console.assert(idx >= 0);
-        this.minions.splice(idx, 1);
-    }
-    // Debug routines
-    drawLine(pa, pb, color = 0x000000) {
-        console.assert(DEBUG);
-        this.debugGraphics.beginFill(0x000000);
-        this.debugGraphics.lineStyle(2, color);
-        this.debugGraphics.moveTo(pa[0], pa[1]);
-        this.debugGraphics.lineTo(pb[0], pb[1]);
-        this.debugGraphics.endFill();
-    }
-}
-exports.Level = Level;
-
-
-/***/ }),
-/* 206 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(11);
-class EnemyAI {
-    constructor(level) {
-        this.level = level;
-        this.spawnTimers = this.level.spawners.map((spl) => {
-            let interval;
-            if (spl.interval) {
-                interval = spl.interval;
-            }
-            else if (spl.rate) {
-                interval = Math.round(60 / spl.rate);
-            }
-            else {
-                interval = 10;
-            }
-            return new helper_1.Timer(interval * 1000, () => {
-                this.level.addMinion(spl.cell, spl.pathcopy());
-            });
-        });
-    }
-    tick(t) {
-        this.spawnTimers.forEach(sptmr => sptmr.tick(t));
-    }
-}
-exports.EnemyAI = EnemyAI;
-
-
-/***/ }),
-/* 207 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(11);
-class PlayerAI {
-    constructor(level) {
-        this.level = level;
-        let spiritGainIntervalmsec = 1000 *
-            this.level.fountain.divinityPeriod / this.level.fountain.spiritGainSteps;
-        this.towerHolder = this.level.createTowerHolderSprite();
-        this.towerHolder.alpha = 0.3;
-        this.spiritGainTimer = new helper_1.Timer(spiritGainIntervalmsec, () => {
-            this.level.fountain.gainSpirit();
-        });
-    }
-    onMouseDown(ev) {
-        ev;
-    }
-    onMouseUp(ev) {
-        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
-        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
-        if (cell && !this.level.terra.isWallAt(cell[0], cell[1])) {
-            let tower = this.level.createTower();
-            tower.place(cell);
-            this.level.addTower(tower);
-        }
-    }
-    onMouseMove(ev) {
-        let stage = this.level.app.stage;
-        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
-        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
-        if (cell && !this.level.terra.isWallAt(cell[0], cell[1])) {
-            if (stage.children.indexOf(this.towerHolder) < 0) {
-                stage.addChild(this.towerHolder);
-            }
-            let [x, y] = this.level.terra.getCellCenter(cell[0], cell[1]);
-            this.towerHolder.position.set(x, y);
-        }
-        else {
-            if (stage.children.indexOf(this.towerHolder) >= 0) {
-                stage.removeChild(this.towerHolder);
-            }
-        }
-    }
-    tick(t) {
-        this.spiritGainTimer.tick(t);
-    }
-}
-exports.PlayerAI = PlayerAI;
-
-
-/***/ }),
-/* 208 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const terra_1 = __webpack_require__(39);
-exports.Terra = terra_1.Terra;
-const triterra_1 = __webpack_require__(227);
-exports.TriTerra = triterra_1.TriTerra;
-const hexterra_1 = __webpack_require__(228);
-exports.HexTerra = hexterra_1.HexTerra;
-
-
-/***/ }),
-/* 209 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = createKDTree
-module.exports.deserialize = deserializeKDTree
-
-var ndarray = __webpack_require__(40)
-var ndselect = __webpack_require__(212)
-var pack = __webpack_require__(213)
-var ops = __webpack_require__(95)
-var ndscratch = __webpack_require__(218)
-var pool = __webpack_require__(41)
-var inorderTree = __webpack_require__(224)
-var bits = __webpack_require__(13)
-var KDTHeap = __webpack_require__(226)
-
-function KDTree(points, ids, n, d) {
-  this.points = points
-  this.ids = ids
-  this.dimension = d
-  this.length = n
-}
-
-var proto = KDTree.prototype
-
-proto.serialize = function() {
-  if(this.length > 0) {
-    return {
-      p: Array.prototype.slice.call(this.points.data, 0, this.length*this.dimension),
-      i: Array.prototype.slice.call(this.ids, 0, this.length)
-    }
-  } else {
-    return { d: this.dimension }
-  }
-}
-
-//Range query
-proto.range = function kdtRangeQuery(lo, hi, visit) {
-  var n = this.length
-  if(n < 1) {
-    return
-  }
-
-  //Check degenerate case
-  var d = this.dimension
-  for(var i=0; i<d; ++i) {
-    if(hi[i] < lo[i]) {
-      return
-    }
-  }
-
-  var points = this.points
-  var ids = this.ids
-
-  //Walk tree in level order, skipping subtrees which do not intersect range
-  var visitRange = ndscratch.malloc([n, 2, d])
-  var visitIndex = pool.mallocInt32(n)
-  var rangeData = visitRange.data
-  var pointData = points.data
-  var visitCount = 1
-  var visitTop = 0
-  var retval
-
-  visitIndex[0] = 0
-  pack(lo, visitRange.pick(0,0))
-  pack(hi, visitRange.pick(0,1))
-  
-  while(visitTop < visitCount) {
-    var idx = visitIndex[visitTop]
-    var k = bits.log2(idx+1)%d
-    var loidx = visitRange.index(visitTop, 0, 0)
-    var hiidx = visitRange.index(visitTop, 1, 0)
-    var pidx = points.index(idx, 0)
-
-    var visitPoint = true
-    for(var i=0; i<d; ++i) {
-      var pc = pointData[pidx+i]
-      if((pc < rangeData[loidx + i]) || 
-         (rangeData[hiidx + i] < pc)) {
-        visitPoint = false
-        break
-      }
-    }
-    if(visitPoint) {
-      retval = visit(ids[idx])
-      if(retval !== undefined) {
-        break
-      }
-    }
-
-    //Visit children
-    var pk = pointData[pidx+k]
-    var hk = rangeData[hiidx+k]
-    var lk = rangeData[loidx+k]
-    if(lk <= pk) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        visitIndex[visitCount] = left
-        var y = visitRange.index(visitCount, 0, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[y+i] = rangeData[loidx+i]
-        }
-        var z = visitRange.index(visitCount, 1, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[z+i] = rangeData[hiidx+i]
-        }
-        rangeData[z+k] = Math.min(hk, pk)
-        visitCount += 1
-      }
-    }
-    if(pk <= hk) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        visitIndex[visitCount] = right
-        var y = visitRange.index(visitCount, 0, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[y+i] = rangeData[loidx+i]
-        }
-        var z = visitRange.index(visitCount, 1, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[z+i] = rangeData[hiidx+i]
-        }
-        rangeData[y+k] = Math.max(lk, pk)
-        visitCount += 1
-      }
-    }
-
-    //Increment pointer
-    visitTop += 1
-  }
-  ndscratch.free(visitRange)
-  pool.free(visitIndex)
-  return retval
-}
-
-proto.rnn = function(point, radius, visit) {
-  if(radius < 0) {
-    return
-  }
-  var n = this.length
-  if(n < 1) {
-    return
-  }
-  var d = this.dimension
-  var points = this.points
-  var ids = this.ids
-
-  //Walk tree in level order, skipping subtrees which do not intersect sphere
-  var visitDistance = ndscratch.malloc([n, d])
-  var visitIndex = pool.mallocInt32(n)
-  var distanceData = visitDistance.data
-  var pointData = points.data
-  var visitCount = 1
-  var visitTop = 0
-  var r2 = radius*radius
-  var retval
-
-  //Initialize top of queue
-  visitIndex[0] = 0
-  for(var i=0; i<d; ++i) {
-    visitDistance.set(0, i, 0)
-  }
-
-  //Walk over queue
-  while(visitTop < visitCount) {
-    var idx = visitIndex[visitTop]
-    var pidx = points.index(idx, 0)
-
-    //Check if point in sphere
-    var d2 = 0.0
-    for(var i=0; i<d; ++i) {
-      d2 += Math.pow(point[i] - pointData[pidx+i], 2)
-    }
-    if(d2 <= r2) {
-      retval = visit(ids[idx])
-      if(retval !== undefined) {
-        break
-      }
-    }
-
-    //Visit children
-    var k = bits.log2(idx+1)%d
-    var ds = 0.0
-    var didx = visitDistance.index(visitTop, 0)
-    for(var i=0; i<d; ++i) {
-      if(i !== k) {
-        ds += distanceData[didx + i]
-      }
-    }
-
-    //Handle split axis
-    var qk = point[k]
-    var pk = pointData[pidx+k]
-    var dk = distanceData[didx+k]
-    var lk = dk
-    var hk = dk
-    if(qk < pk) {
-      hk = Math.max(dk, Math.pow(pk - qk, 2))
-    } else {
-      lk = Math.max(dk, Math.pow(pk - qk, 2))
-    }
-
-    var d2l = lk + ds
-    var d2h = hk + ds
-
-    if(d2l <= r2) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        visitIndex[visitCount] = left
-        var y = visitDistance.index(visitCount, 0)
-        for(var i=0; i<d; ++i) {
-          distanceData[y+i] = distanceData[didx+i]
-        }
-        distanceData[y+k] = lk
-        visitCount += 1
-      }
-    }
-    if(d2h <= r2) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        visitIndex[visitCount] = right
-        var y = visitDistance.index(visitCount, 0)
-        for(var i=0; i<d; ++i) {
-          distanceData[y+i] = distanceData[didx+i]
-        }
-        distanceData[y+k] = hk
-        visitCount += 1
-      }
-    }
-
-    //Increment pointer
-    visitTop += 1
-  }
-
-  ndscratch.free(visitDistance)
-  pool.free(visitIndex)
-  return retval
-}
-
-proto.nn = function(point, maxDistance) {
-  var n = this.length
-  if(n < 1) {
-    return -1
-  }
-  if(typeof maxDistance === "number") {
-    if(maxDistance < 0) {
-      return -1
-    } 
-  } else {
-    maxDistance = Infinity
-  }
-  var d = this.dimension
-  var points = this.points
-  var pointData = points.data
-  var dataVector = pool.mallocFloat64(d)
-
-  var toVisit = new KDTHeap(n, d+1)
-  var index = toVisit.index
-  var data = toVisit.data
-  index[0] = 0
-  for(var i=0; i<=d; ++i) {
-    data[i] = 0
-  }
-  toVisit.count += 1
-
-  var nearest = -1
-  var nearestD = maxDistance
-
-  while(toVisit.count > 0) {
-    if(data[0] >= nearestD) {
-      break
-    }
-
-    var idx = index[0]
-    var pidx = points.index(idx, 0)
-    var d2 = 0.0
-    for(var i=0; i<d; ++i) {
-      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
-    }
-    if(d2 < nearestD) {
-      nearestD = d2
-      nearest = idx
-    }
-
-    //Compute distance bounds for children
-    var k = bits.log2(idx+1)%d
-    var ds = 0
-    for(var i=0; i<d; ++i) {
-      var dd = data[i+1]
-      if(i !== k) {
-        ds += dd
-      }
-      dataVector[i] = dd
-    }
-    var qk = point[k]
-    var pk = pointData[pidx+k]
-    var dk = dataVector[k]
-    var lk = dk
-    var hk = dk
-    if(qk < pk) {
-      hk = Math.max(dk, Math.pow(pk - qk, 2))
-    } else {
-      lk = Math.max(dk, Math.pow(pk - qk, 2))
-    }
-    var d2l = lk + ds
-    var d2h = hk + ds
-
-    toVisit.pop()
-    
-    if(d2l < nearestD) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        var vcount = toVisit.count
-        index[vcount] = left
-        var vptr = vcount * (d+1)
-        data[vptr] = d2l
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = lk
-        toVisit.push()
-      }
-    }
-    if(d2h < nearestD) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        var vcount = toVisit.count
-        index[vcount] = right
-        var vptr = vcount * (d+1)
-        data[vptr] = d2h
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = hk
-        toVisit.push()
-      }
-    }
-  }
-
-  pool.freeFloat64(dataVector)
-  toVisit.dispose()
-  
-  if(nearest < 0) {
-    return -1
-  }
-  return this.ids[nearest]
-}
-
-proto.knn = function(point, maxPoints, maxDistance) {
-  //Check degenerate cases
-  if(typeof maxDistance === "number") {
-    if(maxDistance < 0) {
-      return []
-    }
-  } else {
-    maxDistance = Infinity
-  }
-  var n = this.length
-  if(n < 1) {
-    return []
-  }
-  if(typeof maxPoints === "number") {
-    if(maxPoints <= 0) {
-      return []
-    }
-    maxPoints = Math.min(maxPoints, n)|0
-  } else {
-    maxPoints = n
-  }
-  var ids = this.ids
-
-  var d = this.dimension
-  var points = this.points
-  var pointData = points.data
-  var dataVector = pool.mallocFloat64(d)
-  
-  //List of closest points
-  var closestPoints = new KDTHeap(maxPoints, 1)
-  var cl_index = closestPoints.index
-  var cl_data = closestPoints.data
-
-  var toVisit = new KDTHeap(n, d+1)
-  var index = toVisit.index
-  var data = toVisit.data
-  index[0] = 0
-  for(var i=0; i<=d; ++i) {
-    data[i] = 0
-  }
-  toVisit.count += 1
-
-  var nearest = -1
-  var nearestD = maxDistance
-
-  while(toVisit.count > 0) {
-    if(data[0] >= nearestD) {
-      break
-    }
-
-    var idx = index[0]
-    var pidx = points.index(idx, 0)
-    var d2 = 0.0
-    for(var i=0; i<d; ++i) {
-      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
-    }
-    if(d2 < nearestD) {
-      if(closestPoints.count >= maxPoints) {
-        closestPoints.pop()
-      }
-      var pcount = closestPoints.count
-      cl_index[pcount] = idx
-      cl_data[pcount] = -d2
-      closestPoints.push()
-      if(closestPoints.count >= maxPoints) {
-        nearestD = -cl_data[0]
-      }
-    }
-
-    //Compute distance bounds for children
-    var k = bits.log2(idx+1)%d
-    var ds = 0
-    for(var i=0; i<d; ++i) {
-      var dd = data[i+1]
-      if(i !== k) {
-        ds += dd
-      }
-      dataVector[i] = dd
-    }
-    var qk = point[k]
-    var pk = pointData[pidx+k]
-    var dk = dataVector[k]
-    var lk = dk
-    var hk = dk
-    if(qk < pk) {
-      hk = Math.max(dk, Math.pow(pk - qk, 2))
-    } else {
-      lk = Math.max(dk, Math.pow(pk - qk, 2))
-    }
-    var d2l = lk + ds
-    var d2h = hk + ds
-
-    toVisit.pop()
-    if(d2l < nearestD) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        var vcount = toVisit.count
-        index[vcount] = left
-        var vptr = vcount * (d+1)
-        data[vptr] = d2l
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = lk
-        toVisit.push()
-      }
-    }
-    if(d2h < nearestD) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        var vcount = toVisit.count
-        index[vcount] = right
-        var vptr = vcount * (d+1)
-        data[vptr] = d2h
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = hk
-        toVisit.push()
-      }
-    }
-  }
-
-  pool.freeFloat64(dataVector)
-  toVisit.dispose()
-
-  //Sort result
-  var result = new Array(closestPoints.count)
-  var ids = this.ids
-  for(var i=closestPoints.count-1; i>=0; --i) {
-    result[i] = ids[cl_index[0]]
-    closestPoints.pop()
-  }
-  closestPoints.dispose()
-
-  return result
-}
-
-proto.dispose = function kdtDispose() {
-  pool.free(this.points.data)
-  pool.freeInt32(this.ids)
-  this.points = null
-  this.ids = null
-  this.length = 0
-}
-
-function createKDTree(points) {
-  var n, d, indexed
-  if(Array.isArray(points)) {
-    n = points.length
-    if(n === 0) {
-      return new KDTree(null, null, 0, 0)
-    }
-    d = points[0].length
-    indexed = ndarray(pool.mallocDouble(n*(d+1)), [n, d+1])
-    pack(points, indexed.hi(n, d))
-  } else {
-    n = points.shape[0]
-    d = points.shape[1]
-
-    //Round up data type size
-    var type = points.dtype
-    if(type === "int8" ||
-       type === "int16" ||
-       type === "int32" ) {
-      type = "int32"
-    } else if(type === "uint8" ||
-      type === "uint8_clamped" ||
-      type === "buffer" ||
-      type === "uint16" ||
-      type === "uint32") {
-      type = "uint32"
-    } else if(type === "float32") {
-      type = "float32"
-    } else {
-      type = "float64"
-    }
-    indexed = ndarray(pool.malloc(n*(d+1)), [n, d+1])
-    ops.assign(indexed.hi(n,d), points)
-  }
-  for(var i=0; i<n; ++i) {
-    indexed.set(i, d, i)
-  }
-
-  var pointArray = ndscratch.malloc([n, d], points.dtype)
-  var indexArray = pool.mallocInt32(n)
-  var pointer = 0
-  var pointData = pointArray.data
-  var arrayData = indexed.data
-  var l2_n = bits.log2(bits.nextPow2(n))
-
-  var sel_cmp = ndselect.compile(indexed.order, true, indexed.dtype)
-
-  //Walk tree in level order
-  var toVisit = [indexed]
-  while(pointer < n) {
-    var head = toVisit.shift()
-    var array = head
-    var nn = array.shape[0]|0
-    
-    //Find median
-    if(nn > 1) {
-      var k = bits.log2(pointer+1)%d
-      var median
-      var n_2 = inorderTree.root(nn)
-      median = sel_cmp(array, n_2, function(a,b) {
-        return a.get(k) - b.get(k)
-      })
-
-      //Copy into new array
-      var pptr = pointArray.index(pointer, 0)
-      var mptr = median.offset
-      for(var i=0; i<d; ++i) {
-        pointData[pptr++] = arrayData[mptr++]
-      }
-      indexArray[pointer] = arrayData[mptr]
-      pointer += 1
-
-      //Queue new items
-      toVisit.push(array.hi(n_2))
-      if(nn > 2) {
-        toVisit.push(array.lo(n_2+1))
-      }
-    } else {
-      //Copy into new array
-      var mptr = array.offset
-      var pptr = pointArray.index(pointer, 0)
-      for(var i=0; i<d; ++i) {
-        pointData[pptr+i] = arrayData[mptr++]
-      }
-      indexArray[pointer] = arrayData[mptr]
-      pointer += 1
-    }
-  }
-
-  //Release indexed
-  pool.free(indexed.data)
-
-  return new KDTree(pointArray, indexArray, n, d)
-}
-
-function deserializeKDTree(data) {
-  var points = data.p
-  var ids = data.i
-  if(points) {
-    var nd = points.length
-    var pointArray = pool.mallocFloat64(nd)
-    for(var i=0; i<nd; ++i) {
-      pointArray[i] = points[i]
-    }
-    var n = ids.length
-    var idArray = pool.mallocInt32(n)
-    for(var i=0; i<n; ++i) {
-      idArray[i] = ids[i]
-    }
-    var d = (nd/n)|0
-    return new KDTree(
-      ndarray(pointArray, [n,d]),
-      idArray,
-      n,
-      d)
-  } else {
-    return new KDTree(null, null, 0, data.d)
-  }
-}
-
-/***/ }),
-/* 210 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function iota(n) {
-  var result = new Array(n)
-  for(var i=0; i<n; ++i) {
-    result[i] = i
-  }
-  return result
-}
-
-module.exports = iota
-
-/***/ }),
-/* 211 */
-/***/ (function(module, exports) {
-
-/*!
- * Determine if an object is a Buffer
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
-
-// The _isBuffer check is for Safari 5-7 support, because it's missing
-// Object.prototype.constructor. Remove this eventually
-module.exports = function (obj) {
-  return obj != null && (isBuffer(obj) || isSlowBuffer(obj) || !!obj._isBuffer)
-}
-
-function isBuffer (obj) {
-  return !!obj.constructor && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
-}
-
-// For Node v0.10 support. Remove this eventually.
-function isSlowBuffer (obj) {
-  return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
-}
-
-
-/***/ }),
-/* 212 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = ndSelect
-module.exports.compile = lookupCache
-
-//Macros
-var ARRAY = "a"
-var RANK = "K"
-var CMP = "C"
-var DATA = "d"
-var OFFSET = "o"
-var RND = "R"
-var TMP = "T"
-var LO = "L"
-var HI = "H"
-var PIVOT = "X"
-function SHAPE(i) {
-  return "s" + i
-}
-function STRIDE(i) {
-  return "t" + i
-}
-function STEP(i) {
-  return "u" + i
-}
-function STEP_CMP(i) {
-  return "v" + i
-}
-function INDEX(i) {
-  return "i" + i
-}
-function PICK(i) {
-  return "p" + i
-}
-function PTR(i) {
-  return "x" + i
-}
-
-//Create new order where index 0 is slowest index
-function permuteOrder(order) {
-  var norder = order.slice()
-  norder.splice(order.indexOf(0), 1)
-  norder.unshift(0)
-  return norder
-}
-
-//Generate quick select procedure
-function compileQuickSelect(order, useCompare, dtype) {
-  order = permuteOrder(order)
-
-  var dimension = order.length
-  var useGetter = (dtype === "generic")
-  var funcName = "ndSelect" + dtype + order.join("_") + "_" + (useCompare ? "cmp" : "lex")
-
-  var code = []
-
-  //Get arguments for code
-  var args = [ARRAY, RANK]
-  if(useCompare) {
-    args.push(CMP)
-  }
-
-  //Unpack ndarray variables
-  var vars = [
-    DATA + "=" + ARRAY + ".data",
-    OFFSET + "=" + ARRAY + ".offset|0",
-    RND + "=Math.random",
-    TMP]
-  for(var i=0; i<2; ++i) {
-    vars.push(PTR(i) + "=0")
-  }
-  for(var i=0; i<dimension; ++i) {
-    vars.push(
-      SHAPE(i) + "=" + ARRAY + ".shape[" + i + "]|0",
-      STRIDE(i) + "=" + ARRAY + ".stride[" + i + "]|0",
-      INDEX(i) + "=0")
-  }
-  for(var i=1; i<dimension; ++i) {
-    if(i > 1) {
-      vars.push(STEP_CMP(i) + "=(" + STRIDE(i) + "-" + SHAPE(i-1) + "*" + STRIDE(i-1) + ")|0",
-                STEP(order[i]) + "=(" + STRIDE(order[i]) + "-" + SHAPE(order[i-1]) + "*" + STRIDE(order[i-1]) + ")|0")
-    } else {
-      vars.push(STEP_CMP(i) + "=" + STRIDE(i),
-                STEP(order[i]) + "=" + STRIDE(order[i]))
-    }
-  }
-  if(useCompare) {
-    for(var i=0; i<2; ++i) {
-      vars.push(PICK(i) + "=" + ARRAY + ".pick(0)")
-    }
-  }
-  vars.push(
-    PIVOT + "=0",
-    LO + "=0",
-    HI + "=" + SHAPE(order[0]) + "-1")
-
-  function compare(out, i0, i1) {
-    if(useCompare) {
-      code.push(
-        PICK(0), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
-        PICK(1), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");",
-        out, "=", CMP, "(", PICK(0), ",", PICK(1), ");")
-    } else {
-      code.push(
-        PTR(0), "=", OFFSET, "+", STRIDE(0), "*(", i0, ");",
-        PTR(1), "=", OFFSET, "+", STRIDE(0), "*(", i1, ");")
-      if(dimension > 1) {
-        code.push("_cmp:")
-      }
-      for(var i=dimension-1; i>0; --i) {
-        code.push("for(", INDEX(i), "=0;", 
-          INDEX(i), "<", SHAPE(i), ";",
-          INDEX(i), "++){")
-      }
-      if(useGetter) {
-        code.push(out, "=", DATA, ".get(", PTR(0), ")-", 
-                            DATA, ".get(", PTR(1), ");")
-      } else {
-        code.push(out, "=", DATA, "[", PTR(0), "]-", 
-                            DATA, "[", PTR(1), "];")
-      }
-      if(dimension > 1) {
-        code.push("if(", out, ")break _cmp;")
-      }
-      for(var i=1; i<dimension; ++i) {
-        code.push(
-          PTR(0), "+=", STEP_CMP(i), ";",
-          PTR(1), "+=", STEP_CMP(i),
-          "}")
-      }
-    }
-  }
-
-  function swap(i0, i1) {
-    code.push(
-      PTR(0), "=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
-      PTR(1), "=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");")
-    for(var i=dimension-1; i>0; --i) {
-      code.push("for(", INDEX(order[i]), "=0;", 
-        INDEX(order[i]), "<", SHAPE(order[i]), ";",
-        INDEX(order[i]), "++){")
-    }
-    if(useGetter) {
-      code.push(TMP, "=", DATA, ".get(", PTR(0), ");", 
-                DATA, ".set(", PTR(0), ",", DATA, ".get(", PTR(1), "));",
-                DATA, ".set(", PTR(1), ",", TMP, ");")
-    } else {
-      code.push(TMP, "=", DATA, "[", PTR(0), "];", 
-                DATA, "[", PTR(0), "]=", DATA, "[", PTR(1), "];",
-                DATA, "[", PTR(1), "]=", TMP, ";")
-    }
-    for(var i=1; i<dimension; ++i) {
-      code.push(
-        PTR(0), "+=", STEP(order[i]), ";",
-        PTR(1), "+=", STEP(order[i]),
-        "}")
-    }
-  }
-
-  code.push(
-    "while(", LO, "<", HI, "){",
-      PIVOT, "=(", RND, "()*(", HI, "-", LO, "+1)+", LO, ")|0;")
-
-  //Partition array by pivot
-  swap(PIVOT, HI) // Store pivot temporarily at the end of the array
-
-  code.push(
-    PIVOT, "=", LO, ";", // PIVOT will now be used to keep track of the end of the interval of elements less than the pivot
-    "for(", INDEX(0), "=", LO, ";",
-      INDEX(0), "<", HI, ";",
-      INDEX(0), "++){") // Loop over other elements (unequal to the pivot), note that HI now points to the pivot
-  compare(TMP, INDEX(0), HI) // Lexicographical compare of element with pivot
-  code.push("if(", TMP, "<0){")
-  swap(PIVOT, INDEX(0)) // Swap current element with element at index PIVOT if it is less than the pivot
-  code.push(PIVOT, "++;")
-  code.push("}}")
-  swap(PIVOT, HI) // Store pivot right after all elements that are less than the pivot (implying that all elements >= the pivot are behind the pivot)
-
-  //Check pivot bounds
-  code.push(
-    "if(", PIVOT, "===", RANK, "){",
-      LO, "=", PIVOT, ";",
-      "break;",
-    "}else if(", RANK, "<", PIVOT, "){",
-      HI, "=", PIVOT, "-1;",
-    "}else{",
-      LO, "=", PIVOT, "+1;",
-    "}",
-  "}")
-
-  if(useCompare) {
-    code.push(PICK(0), ".offset=", OFFSET, "+", LO, "*", STRIDE(0), ";",
-      "return ", PICK(0), ";")
-  } else {
-    code.push("return ", ARRAY, ".pick(", LO, ");")
-  }
-
-  //Compile and link js together
-  var procCode = [
-    "'use strict';function ", funcName, "(", args, "){",
-      "var ", vars.join(), ";",
-      code.join(""),
-    "};return ", funcName
-  ].join("")
-
-  var proc = new Function(procCode)
-  return proc()
-}
-
-var CACHE = {}
-
-function lookupCache(order, useCompare, dtype) {
-  var typesig = order.join() + useCompare + dtype
-  var proc = CACHE[typesig]
-  if(proc) {
-    return proc
-  }
-  return CACHE[typesig] = compileQuickSelect(order, useCompare, dtype)
-}
-
-function ndSelect(array, k, compare) {
-  k |= 0
-  if((array.dimension === 0) || 
-    (array.shape[0] <= k) ||
-    (k < 0)) {
-    return null
-  }
-  var useCompare = !!compare
-  var proc = lookupCache(array.order, useCompare, array.dtype)
-  if(useCompare) {
-    return proc(array, k, compare)
-  } else {
-    return proc(array, k)
-  }
-}
-
-/***/ }),
-/* 213 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var ndarray = __webpack_require__(40)
-var do_convert = __webpack_require__(214)
-
-module.exports = function convert(arr, result) {
-  var shape = [], c = arr, sz = 1
-  while(Array.isArray(c)) {
-    shape.push(c.length)
-    sz *= c.length
-    c = c[0]
-  }
-  if(shape.length === 0) {
-    return ndarray()
-  }
-  if(!result) {
-    result = ndarray(new Float64Array(sz), shape)
-  }
-  do_convert(result, arr)
-  return result
-}
-
-
-/***/ }),
-/* 214 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports=__webpack_require__(94)({"args":["array","scalar","index"],"pre":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"body":{"body":"{\nvar _inline_1_v=_inline_1_arg1_,_inline_1_i\nfor(_inline_1_i=0;_inline_1_i<_inline_1_arg2_.length-1;++_inline_1_i) {\n_inline_1_v=_inline_1_v[_inline_1_arg2_[_inline_1_i]]\n}\n_inline_1_arg0_=_inline_1_v[_inline_1_arg2_[_inline_1_arg2_.length-1]]\n}","args":[{"name":"_inline_1_arg0_","lvalue":true,"rvalue":false,"count":1},{"name":"_inline_1_arg1_","lvalue":false,"rvalue":true,"count":1},{"name":"_inline_1_arg2_","lvalue":false,"rvalue":true,"count":4}],"thisVars":[],"localVars":["_inline_1_i","_inline_1_v"]},"post":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"funcName":"convert","blockSize":64})
-
-
-/***/ }),
-/* 215 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// The function below is called when constructing a cwise function object, and does the following:
-// A function object is constructed which accepts as argument a compilation function and returns another function.
-// It is this other function that is eventually returned by createThunk, and this function is the one that actually
-// checks whether a certain pattern of arguments has already been used before and compiles new loops as needed.
-// The compilation passed to the first function object is used for compiling new functions.
-// Once this function object is created, it is called with compile as argument, where the first argument of compile
-// is bound to "proc" (essentially containing a preprocessed version of the user arguments to cwise).
-// So createThunk roughly works like this:
-// function createThunk(proc) {
-//   var thunk = function(compileBound) {
-//     var CACHED = {}
-//     return function(arrays and scalars) {
-//       if (dtype and order of arrays in CACHED) {
-//         var func = CACHED[dtype and order of arrays]
-//       } else {
-//         var func = CACHED[dtype and order of arrays] = compileBound(dtype and order of arrays)
-//       }
-//       return func(arrays and scalars)
-//     }
-//   }
-//   return thunk(compile.bind1(proc))
-// }
-
-var compile = __webpack_require__(216)
-
-function createThunk(proc) {
-  var code = ["'use strict'", "var CACHED={}"]
-  var vars = []
-  var thunkName = proc.funcName + "_cwise_thunk"
-  
-  //Build thunk
-  code.push(["return function ", thunkName, "(", proc.shimArgs.join(","), "){"].join(""))
-  var typesig = []
-  var string_typesig = []
-  var proc_args = [["array",proc.arrayArgs[0],".shape.slice(", // Slice shape so that we only retain the shape over which we iterate (which gets passed to the cwise operator as SS).
-                    Math.max(0,proc.arrayBlockIndices[0]),proc.arrayBlockIndices[0]<0?(","+proc.arrayBlockIndices[0]+")"):")"].join("")]
-  var shapeLengthConditions = [], shapeConditions = []
-  // Process array arguments
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    var j = proc.arrayArgs[i]
-    vars.push(["t", j, "=array", j, ".dtype,",
-               "r", j, "=array", j, ".order"].join(""))
-    typesig.push("t" + j)
-    typesig.push("r" + j)
-    string_typesig.push("t"+j)
-    string_typesig.push("r"+j+".join()")
-    proc_args.push("array" + j + ".data")
-    proc_args.push("array" + j + ".stride")
-    proc_args.push("array" + j + ".offset|0")
-    if (i>0) { // Gather conditions to check for shape equality (ignoring block indices)
-      shapeLengthConditions.push("array" + proc.arrayArgs[0] + ".shape.length===array" + j + ".shape.length+" + (Math.abs(proc.arrayBlockIndices[0])-Math.abs(proc.arrayBlockIndices[i])))
-      shapeConditions.push("array" + proc.arrayArgs[0] + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[0]) + "]===array" + j + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[i]) + "]")
-    }
-  }
-  // Check for shape equality
-  if (proc.arrayArgs.length > 1) {
-    code.push("if (!(" + shapeLengthConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same dimensionality!')")
-    code.push("for(var shapeIndex=array" + proc.arrayArgs[0] + ".shape.length-" + Math.abs(proc.arrayBlockIndices[0]) + "; shapeIndex-->0;) {")
-    code.push("if (!(" + shapeConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same shape!')")
-    code.push("}")
-  }
-  // Process scalar arguments
-  for(var i=0; i<proc.scalarArgs.length; ++i) {
-    proc_args.push("scalar" + proc.scalarArgs[i])
-  }
-  // Check for cached function (and if not present, generate it)
-  vars.push(["type=[", string_typesig.join(","), "].join()"].join(""))
-  vars.push("proc=CACHED[type]")
-  code.push("var " + vars.join(","))
-  
-  code.push(["if(!proc){",
-             "CACHED[type]=proc=compile([", typesig.join(","), "])}",
-             "return proc(", proc_args.join(","), ")}"].join(""))
-
-  if(proc.debug) {
-    console.log("-----Generated thunk:\n" + code.join("\n") + "\n----------")
-  }
-  
-  //Compile thunk
-  var thunk = new Function("compile", code.join("\n"))
-  return thunk(compile.bind(undefined, proc))
-}
-
-module.exports = createThunk
-
-
-/***/ }),
-/* 216 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var uniq = __webpack_require__(217)
-
-// This function generates very simple loops analogous to how you typically traverse arrays (the outermost loop corresponds to the slowest changing index, the innermost loop to the fastest changing index)
-// TODO: If two arrays have the same strides (and offsets) there is potential for decreasing the number of "pointers" and related variables. The drawback is that the type signature would become more specific and that there would thus be less potential for caching, but it might still be worth it, especially when dealing with large numbers of arguments.
-function innerFill(order, proc, body) {
-  var dimension = order.length
-    , nargs = proc.arrayArgs.length
-    , has_index = proc.indexArgs.length>0
-    , code = []
-    , vars = []
-    , idx=0, pidx=0, i, j
-  for(i=0; i<dimension; ++i) { // Iteration variables
-    vars.push(["i",i,"=0"].join(""))
-  }
-  //Compute scan deltas
-  for(j=0; j<nargs; ++j) {
-    for(i=0; i<dimension; ++i) {
-      pidx = idx
-      idx = order[i]
-      if(i === 0) { // The innermost/fastest dimension's delta is simply its stride
-        vars.push(["d",j,"s",i,"=t",j,"p",idx].join(""))
-      } else { // For other dimensions the delta is basically the stride minus something which essentially "rewinds" the previous (more inner) dimension
-        vars.push(["d",j,"s",i,"=(t",j,"p",idx,"-s",pidx,"*t",j,"p",pidx,")"].join(""))
-      }
-    }
-  }
-  if (vars.length > 0) {
-    code.push("var " + vars.join(","))
-  }  
-  //Scan loop
-  for(i=dimension-1; i>=0; --i) { // Start at largest stride and work your way inwards
-    idx = order[i]
-    code.push(["for(i",i,"=0;i",i,"<s",idx,";++i",i,"){"].join(""))
-  }
-  //Push body of inner loop
-  code.push(body)
-  //Advance scan pointers
-  for(i=0; i<dimension; ++i) {
-    pidx = idx
-    idx = order[i]
-    for(j=0; j<nargs; ++j) {
-      code.push(["p",j,"+=d",j,"s",i].join(""))
-    }
-    if(has_index) {
-      if(i > 0) {
-        code.push(["index[",pidx,"]-=s",pidx].join(""))
-      }
-      code.push(["++index[",idx,"]"].join(""))
-    }
-    code.push("}")
-  }
-  return code.join("\n")
-}
-
-// Generate "outer" loops that loop over blocks of data, applying "inner" loops to the blocks by manipulating the local variables in such a way that the inner loop only "sees" the current block.
-// TODO: If this is used, then the previous declaration (done by generateCwiseOp) of s* is essentially unnecessary.
-//       I believe the s* are not used elsewhere (in particular, I don't think they're used in the pre/post parts and "shape" is defined independently), so it would be possible to make defining the s* dependent on what loop method is being used.
-function outerFill(matched, order, proc, body) {
-  var dimension = order.length
-    , nargs = proc.arrayArgs.length
-    , blockSize = proc.blockSize
-    , has_index = proc.indexArgs.length > 0
-    , code = []
-  for(var i=0; i<nargs; ++i) {
-    code.push(["var offset",i,"=p",i].join(""))
-  }
-  //Generate loops for unmatched dimensions
-  // The order in which these dimensions are traversed is fairly arbitrary (from small stride to large stride, for the first argument)
-  // TODO: It would be nice if the order in which these loops are placed would also be somehow "optimal" (at the very least we should check that it really doesn't hurt us if they're not).
-  for(var i=matched; i<dimension; ++i) {
-    code.push(["for(var j"+i+"=SS[", order[i], "]|0;j", i, ">0;){"].join("")) // Iterate back to front
-    code.push(["if(j",i,"<",blockSize,"){"].join("")) // Either decrease j by blockSize (s = blockSize), or set it to zero (after setting s = j).
-    code.push(["s",order[i],"=j",i].join(""))
-    code.push(["j",i,"=0"].join(""))
-    code.push(["}else{s",order[i],"=",blockSize].join(""))
-    code.push(["j",i,"-=",blockSize,"}"].join(""))
-    if(has_index) {
-      code.push(["index[",order[i],"]=j",i].join(""))
-    }
-  }
-  for(var i=0; i<nargs; ++i) {
-    var indexStr = ["offset"+i]
-    for(var j=matched; j<dimension; ++j) {
-      indexStr.push(["j",j,"*t",i,"p",order[j]].join(""))
-    }
-    code.push(["p",i,"=(",indexStr.join("+"),")"].join(""))
-  }
-  code.push(innerFill(order, proc, body))
-  for(var i=matched; i<dimension; ++i) {
-    code.push("}")
-  }
-  return code.join("\n")
-}
-
-//Count the number of compatible inner orders
-// This is the length of the longest common prefix of the arrays in orders.
-// Each array in orders lists the dimensions of the correspond ndarray in order of increasing stride.
-// This is thus the maximum number of dimensions that can be efficiently traversed by simple nested loops for all arrays.
-function countMatches(orders) {
-  var matched = 0, dimension = orders[0].length
-  while(matched < dimension) {
-    for(var j=1; j<orders.length; ++j) {
-      if(orders[j][matched] !== orders[0][matched]) {
-        return matched
-      }
-    }
-    ++matched
-  }
-  return matched
-}
-
-//Processes a block according to the given data types
-// Replaces variable names by different ones, either "local" ones (that are then ferried in and out of the given array) or ones matching the arguments that the function performing the ultimate loop will accept.
-function processBlock(block, proc, dtypes) {
-  var code = block.body
-  var pre = []
-  var post = []
-  for(var i=0; i<block.args.length; ++i) {
-    var carg = block.args[i]
-    if(carg.count <= 0) {
-      continue
-    }
-    var re = new RegExp(carg.name, "g")
-    var ptrStr = ""
-    var arrNum = proc.arrayArgs.indexOf(i)
-    switch(proc.argTypes[i]) {
-      case "offset":
-        var offArgIndex = proc.offsetArgIndex.indexOf(i)
-        var offArg = proc.offsetArgs[offArgIndex]
-        arrNum = offArg.array
-        ptrStr = "+q" + offArgIndex // Adds offset to the "pointer" in the array
-      case "array":
-        ptrStr = "p" + arrNum + ptrStr
-        var localStr = "l" + i
-        var arrStr = "a" + arrNum
-        if (proc.arrayBlockIndices[arrNum] === 0) { // Argument to body is just a single value from this array
-          if(carg.count === 1) { // Argument/array used only once(?)
-            if(dtypes[arrNum] === "generic") {
-              if(carg.lvalue) {
-                pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
-                code = code.replace(re, localStr)
-                post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
-              } else {
-                code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
-              }
-            } else {
-              code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
-            }
-          } else if(dtypes[arrNum] === "generic") {
-            pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
-            code = code.replace(re, localStr)
-            if(carg.lvalue) {
-              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
-            }
-          } else {
-            pre.push(["var ", localStr, "=", arrStr, "[", ptrStr, "]"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
-            code = code.replace(re, localStr)
-            if(carg.lvalue) {
-              post.push([arrStr, "[", ptrStr, "]=", localStr].join(""))
-            }
-          }
-        } else { // Argument to body is a "block"
-          var reStrArr = [carg.name], ptrStrArr = [ptrStr]
-          for(var j=0; j<Math.abs(proc.arrayBlockIndices[arrNum]); j++) {
-            reStrArr.push("\\s*\\[([^\\]]+)\\]")
-            ptrStrArr.push("$" + (j+1) + "*t" + arrNum + "b" + j) // Matched index times stride
-          }
-          re = new RegExp(reStrArr.join(""), "g")
-          ptrStr = ptrStrArr.join("+")
-          if(dtypes[arrNum] === "generic") {
-            /*if(carg.lvalue) {
-              pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
-              code = code.replace(re, localStr)
-              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
-            } else {
-              code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
-            }*/
-            throw new Error("cwise: Generic arrays not supported in combination with blocks!")
-          } else {
-            // This does not produce any local variables, even if variables are used multiple times. It would be possible to do so, but it would complicate things quite a bit.
-            code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
-          }
-        }
-      break
-      case "scalar":
-        code = code.replace(re, "Y" + proc.scalarArgs.indexOf(i))
-      break
-      case "index":
-        code = code.replace(re, "index")
-      break
-      case "shape":
-        code = code.replace(re, "shape")
-      break
-    }
-  }
-  return [pre.join("\n"), code, post.join("\n")].join("\n").trim()
-}
-
-function typeSummary(dtypes) {
-  var summary = new Array(dtypes.length)
-  var allEqual = true
-  for(var i=0; i<dtypes.length; ++i) {
-    var t = dtypes[i]
-    var digits = t.match(/\d+/)
-    if(!digits) {
-      digits = ""
-    } else {
-      digits = digits[0]
-    }
-    if(t.charAt(0) === 0) {
-      summary[i] = "u" + t.charAt(1) + digits
-    } else {
-      summary[i] = t.charAt(0) + digits
-    }
-    if(i > 0) {
-      allEqual = allEqual && summary[i] === summary[i-1]
-    }
-  }
-  if(allEqual) {
-    return summary[0]
-  }
-  return summary.join("")
-}
-
-//Generates a cwise operator
-function generateCWiseOp(proc, typesig) {
-
-  //Compute dimension
-  // Arrays get put first in typesig, and there are two entries per array (dtype and order), so this gets the number of dimensions in the first array arg.
-  var dimension = (typesig[1].length - Math.abs(proc.arrayBlockIndices[0]))|0
-  var orders = new Array(proc.arrayArgs.length)
-  var dtypes = new Array(proc.arrayArgs.length)
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    dtypes[i] = typesig[2*i]
-    orders[i] = typesig[2*i+1]
-  }
-  
-  //Determine where block and loop indices start and end
-  var blockBegin = [], blockEnd = [] // These indices are exposed as blocks
-  var loopBegin = [], loopEnd = [] // These indices are iterated over
-  var loopOrders = [] // orders restricted to the loop indices
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    if (proc.arrayBlockIndices[i]<0) {
-      loopBegin.push(0)
-      loopEnd.push(dimension)
-      blockBegin.push(dimension)
-      blockEnd.push(dimension+proc.arrayBlockIndices[i])
-    } else {
-      loopBegin.push(proc.arrayBlockIndices[i]) // Non-negative
-      loopEnd.push(proc.arrayBlockIndices[i]+dimension)
-      blockBegin.push(0)
-      blockEnd.push(proc.arrayBlockIndices[i])
-    }
-    var newOrder = []
-    for(var j=0; j<orders[i].length; j++) {
-      if (loopBegin[i]<=orders[i][j] && orders[i][j]<loopEnd[i]) {
-        newOrder.push(orders[i][j]-loopBegin[i]) // If this is a loop index, put it in newOrder, subtracting loopBegin, to make sure that all loopOrders are using a common set of indices.
-      }
-    }
-    loopOrders.push(newOrder)
-  }
-
-  //First create arguments for procedure
-  var arglist = ["SS"] // SS is the overall shape over which we iterate
-  var code = ["'use strict'"]
-  var vars = []
-  
-  for(var j=0; j<dimension; ++j) {
-    vars.push(["s", j, "=SS[", j, "]"].join("")) // The limits for each dimension.
-  }
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    arglist.push("a"+i) // Actual data array
-    arglist.push("t"+i) // Strides
-    arglist.push("p"+i) // Offset in the array at which the data starts (also used for iterating over the data)
-    
-    for(var j=0; j<dimension; ++j) { // Unpack the strides into vars for looping
-      vars.push(["t",i,"p",j,"=t",i,"[",loopBegin[i]+j,"]"].join(""))
-    }
-    
-    for(var j=0; j<Math.abs(proc.arrayBlockIndices[i]); ++j) { // Unpack the strides into vars for block iteration
-      vars.push(["t",i,"b",j,"=t",i,"[",blockBegin[i]+j,"]"].join(""))
-    }
-  }
-  for(var i=0; i<proc.scalarArgs.length; ++i) {
-    arglist.push("Y" + i)
-  }
-  if(proc.shapeArgs.length > 0) {
-    vars.push("shape=SS.slice(0)") // Makes the shape over which we iterate available to the user defined functions (so you can use width/height for example)
-  }
-  if(proc.indexArgs.length > 0) {
-    // Prepare an array to keep track of the (logical) indices, initialized to dimension zeroes.
-    var zeros = new Array(dimension)
-    for(var i=0; i<dimension; ++i) {
-      zeros[i] = "0"
-    }
-    vars.push(["index=[", zeros.join(","), "]"].join(""))
-  }
-  for(var i=0; i<proc.offsetArgs.length; ++i) { // Offset arguments used for stencil operations
-    var off_arg = proc.offsetArgs[i]
-    var init_string = []
-    for(var j=0; j<off_arg.offset.length; ++j) {
-      if(off_arg.offset[j] === 0) {
-        continue
-      } else if(off_arg.offset[j] === 1) {
-        init_string.push(["t", off_arg.array, "p", j].join(""))      
-      } else {
-        init_string.push([off_arg.offset[j], "*t", off_arg.array, "p", j].join(""))
-      }
-    }
-    if(init_string.length === 0) {
-      vars.push("q" + i + "=0")
-    } else {
-      vars.push(["q", i, "=", init_string.join("+")].join(""))
-    }
-  }
-
-  //Prepare this variables
-  var thisVars = uniq([].concat(proc.pre.thisVars)
-                      .concat(proc.body.thisVars)
-                      .concat(proc.post.thisVars))
-  vars = vars.concat(thisVars)
-  if (vars.length > 0) {
-    code.push("var " + vars.join(","))
-  }
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    code.push("p"+i+"|=0")
-  }
-  
-  //Inline prelude
-  if(proc.pre.body.length > 3) {
-    code.push(processBlock(proc.pre, proc, dtypes))
-  }
-
-  //Process body
-  var body = processBlock(proc.body, proc, dtypes)
-  var matched = countMatches(loopOrders)
-  if(matched < dimension) {
-    code.push(outerFill(matched, loopOrders[0], proc, body)) // TODO: Rather than passing loopOrders[0], it might be interesting to look at passing an order that represents the majority of the arguments for example.
-  } else {
-    code.push(innerFill(loopOrders[0], proc, body))
-  }
-
-  //Inline epilog
-  if(proc.post.body.length > 3) {
-    code.push(processBlock(proc.post, proc, dtypes))
-  }
-  
-  if(proc.debug) {
-    console.log("-----Generated cwise routine for ", typesig, ":\n" + code.join("\n") + "\n----------")
-  }
-  
-  var loopName = [(proc.funcName||"unnamed"), "_cwise_loop_", orders[0].join("s"),"m",matched,typeSummary(dtypes)].join("")
-  var f = new Function(["function ",loopName,"(", arglist.join(","),"){", code.join("\n"),"} return ", loopName].join(""))
-  return f()
-}
-module.exports = generateCWiseOp
-
-
-/***/ }),
-/* 217 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function unique_pred(list, compare) {
-  var ptr = 1
-    , len = list.length
-    , a=list[0], b=list[0]
-  for(var i=1; i<len; ++i) {
-    b = a
-    a = list[i]
-    if(compare(a, b)) {
-      if(i === ptr) {
-        ptr++
-        continue
-      }
-      list[ptr++] = a
-    }
-  }
-  list.length = ptr
-  return list
-}
-
-function unique_eq(list) {
-  var ptr = 1
-    , len = list.length
-    , a=list[0], b = list[0]
-  for(var i=1; i<len; ++i, b=a) {
-    b = a
-    a = list[i]
-    if(a !== b) {
-      if(i === ptr) {
-        ptr++
-        continue
-      }
-      list[ptr++] = a
-    }
-  }
-  list.length = ptr
-  return list
-}
-
-function unique(list, compare, sorted) {
-  if(list.length === 0) {
-    return list
-  }
-  if(compare) {
-    if(!sorted) {
-      list.sort(compare)
-    }
-    return unique_pred(list, compare)
-  }
-  if(!sorted) {
-    list.sort()
-  }
-  return unique_eq(list)
-}
-
-module.exports = unique
-
-
-/***/ }),
-/* 218 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var ndarray = __webpack_require__(40)
-var ops = __webpack_require__(95)
-var pool = __webpack_require__(41)
-
-function clone(array) {
-  var dtype = array.dtype
-  if(dtype === "generic" || dtype === "array") {
-    dtype = "double"
-  }
-  var data = pool.malloc(array.size, dtype)
-  var result = ndarray(data, array.shape)
-  ops.assign(result, array)
-  return result
-}
-exports.clone = clone
-
-function malloc(shape, dtype) {
-  if(!dtype) {
-    dtype = "double"
-  }
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(var i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  return ndarray(pool.malloc(sz, dtype), shape, stride, 0)
-}
-exports.malloc = malloc
-
-function free(array) {
-  if(array.dtype === "generic" || array.dtype === "array") {
-    return
-  }
-  pool.free(array.data)
-}
-exports.free = free
-
-function zeros(shape, dtype) {
-  if(!dtype) {
-    dtype = "double"
-  }
-
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(var i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  var buf = pool.malloc(sz, dtype)
-  for(var i=0; i<sz; ++i) {
-    buf[i] = 0
-  }
-  return ndarray(buf, shape, stride, 0)
-}
-exports.zeros = zeros
-
-function ones(shape, dtype) {
-  if(!dtype) {
-    dtype = "double"
-  }
-
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(var i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  var buf = pool.malloc(sz, dtype)
-  for(var i=0; i<sz; ++i) {
-    buf[i] = 1
-  }
-  return ndarray(buf, shape, stride, 0)
-}
-exports.ones = ones
-
-function eye(shape, dtype) {
-  var i, offset
-  if(!dtype) {
-    dtype = "double"
-  }
-
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  var buf = pool.malloc(sz, dtype)
-  for(i=0; i<sz; ++i) {
-    buf[i] = 0
-  }
-  var mindim = Infinity
-  var offsum = 0
-  for( i=shape.length-1; i>=0; i--) {
-    offsum += stride[i]
-    mindim = Math.min(mindim,shape[i])
-  }
-  for(i=0,offset=0; i<mindim; i++,offset+=offsum) {
-    buf[offset] = 1
-  }
-  return ndarray(buf, shape, stride, 0)
-}
-exports.eye = eye
-
-
-/***/ }),
-/* 219 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
- * @license  MIT
- */
-/* eslint-disable no-proto */
-
-
-
-var base64 = __webpack_require__(220)
-var ieee754 = __webpack_require__(221)
-var isArray = __webpack_require__(222)
-
-exports.Buffer = Buffer
-exports.SlowBuffer = SlowBuffer
-exports.INSPECT_MAX_BYTES = 50
-
-/**
- * If `Buffer.TYPED_ARRAY_SUPPORT`:
- *   === true    Use Uint8Array implementation (fastest)
- *   === false   Use Object implementation (most compatible, even IE6)
- *
- * Browsers that support typed arrays are IE 10+, Firefox 4+, Chrome 7+, Safari 5.1+,
- * Opera 11.6+, iOS 4.2+.
- *
- * Due to various browser bugs, sometimes the Object implementation will be used even
- * when the browser supports typed arrays.
- *
- * Note:
- *
- *   - Firefox 4-29 lacks support for adding new properties to `Uint8Array` instances,
- *     See: https://bugzilla.mozilla.org/show_bug.cgi?id=695438.
- *
- *   - Chrome 9-10 is missing the `TypedArray.prototype.subarray` function.
- *
- *   - IE10 has a broken `TypedArray.prototype.subarray` function which returns arrays of
- *     incorrect length in some situations.
-
- * We detect these buggy browsers and set `Buffer.TYPED_ARRAY_SUPPORT` to `false` so they
- * get the Object implementation, which is slower but behaves correctly.
- */
-Buffer.TYPED_ARRAY_SUPPORT = global.TYPED_ARRAY_SUPPORT !== undefined
-  ? global.TYPED_ARRAY_SUPPORT
-  : typedArraySupport()
-
-/*
- * Export kMaxLength after typed array support is determined.
- */
-exports.kMaxLength = kMaxLength()
-
-function typedArraySupport () {
-  try {
-    var arr = new Uint8Array(1)
-    arr.__proto__ = {__proto__: Uint8Array.prototype, foo: function () { return 42 }}
-    return arr.foo() === 42 && // typed array instances can be augmented
-        typeof arr.subarray === 'function' && // chrome 9-10 lack `subarray`
-        arr.subarray(1, 1).byteLength === 0 // ie10 has broken `subarray`
-  } catch (e) {
-    return false
-  }
-}
-
-function kMaxLength () {
-  return Buffer.TYPED_ARRAY_SUPPORT
-    ? 0x7fffffff
-    : 0x3fffffff
-}
-
-function createBuffer (that, length) {
-  if (kMaxLength() < length) {
-    throw new RangeError('Invalid typed array length')
-  }
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    // Return an augmented `Uint8Array` instance, for best performance
-    that = new Uint8Array(length)
-    that.__proto__ = Buffer.prototype
-  } else {
-    // Fallback: Return an object instance of the Buffer class
-    if (that === null) {
-      that = new Buffer(length)
-    }
-    that.length = length
-  }
-
-  return that
-}
-
-/**
- * The Buffer constructor returns instances of `Uint8Array` that have their
- * prototype changed to `Buffer.prototype`. Furthermore, `Buffer` is a subclass of
- * `Uint8Array`, so the returned instances will have all the node `Buffer` methods
- * and the `Uint8Array` methods. Square bracket notation works as expected -- it
- * returns a single octet.
- *
- * The `Uint8Array` prototype remains unmodified.
- */
-
-function Buffer (arg, encodingOrOffset, length) {
-  if (!Buffer.TYPED_ARRAY_SUPPORT && !(this instanceof Buffer)) {
-    return new Buffer(arg, encodingOrOffset, length)
-  }
-
-  // Common case.
-  if (typeof arg === 'number') {
-    if (typeof encodingOrOffset === 'string') {
-      throw new Error(
-        'If encoding is specified then the first argument must be a string'
-      )
-    }
-    return allocUnsafe(this, arg)
-  }
-  return from(this, arg, encodingOrOffset, length)
-}
-
-Buffer.poolSize = 8192 // not used by this implementation
-
-// TODO: Legacy, not needed anymore. Remove in next major version.
-Buffer._augment = function (arr) {
-  arr.__proto__ = Buffer.prototype
-  return arr
-}
-
-function from (that, value, encodingOrOffset, length) {
-  if (typeof value === 'number') {
-    throw new TypeError('"value" argument must not be a number')
-  }
-
-  if (typeof ArrayBuffer !== 'undefined' && value instanceof ArrayBuffer) {
-    return fromArrayBuffer(that, value, encodingOrOffset, length)
-  }
-
-  if (typeof value === 'string') {
-    return fromString(that, value, encodingOrOffset)
-  }
-
-  return fromObject(that, value)
-}
-
-/**
- * Functionally equivalent to Buffer(arg, encoding) but throws a TypeError
- * if value is a number.
- * Buffer.from(str[, encoding])
- * Buffer.from(array)
- * Buffer.from(buffer)
- * Buffer.from(arrayBuffer[, byteOffset[, length]])
- **/
-Buffer.from = function (value, encodingOrOffset, length) {
-  return from(null, value, encodingOrOffset, length)
-}
-
-if (Buffer.TYPED_ARRAY_SUPPORT) {
-  Buffer.prototype.__proto__ = Uint8Array.prototype
-  Buffer.__proto__ = Uint8Array
-  if (typeof Symbol !== 'undefined' && Symbol.species &&
-      Buffer[Symbol.species] === Buffer) {
-    // Fix subarray() in ES2016. See: https://github.com/feross/buffer/pull/97
-    Object.defineProperty(Buffer, Symbol.species, {
-      value: null,
-      configurable: true
-    })
-  }
-}
-
-function assertSize (size) {
-  if (typeof size !== 'number') {
-    throw new TypeError('"size" argument must be a number')
-  } else if (size < 0) {
-    throw new RangeError('"size" argument must not be negative')
-  }
-}
-
-function alloc (that, size, fill, encoding) {
-  assertSize(size)
-  if (size <= 0) {
-    return createBuffer(that, size)
-  }
-  if (fill !== undefined) {
-    // Only pay attention to encoding if it's a string. This
-    // prevents accidentally sending in a number that would
-    // be interpretted as a start offset.
-    return typeof encoding === 'string'
-      ? createBuffer(that, size).fill(fill, encoding)
-      : createBuffer(that, size).fill(fill)
-  }
-  return createBuffer(that, size)
-}
-
-/**
- * Creates a new filled Buffer instance.
- * alloc(size[, fill[, encoding]])
- **/
-Buffer.alloc = function (size, fill, encoding) {
-  return alloc(null, size, fill, encoding)
-}
-
-function allocUnsafe (that, size) {
-  assertSize(size)
-  that = createBuffer(that, size < 0 ? 0 : checked(size) | 0)
-  if (!Buffer.TYPED_ARRAY_SUPPORT) {
-    for (var i = 0; i < size; ++i) {
-      that[i] = 0
-    }
-  }
-  return that
-}
-
-/**
- * Equivalent to Buffer(num), by default creates a non-zero-filled Buffer instance.
- * */
-Buffer.allocUnsafe = function (size) {
-  return allocUnsafe(null, size)
-}
-/**
- * Equivalent to SlowBuffer(num), by default creates a non-zero-filled Buffer instance.
- */
-Buffer.allocUnsafeSlow = function (size) {
-  return allocUnsafe(null, size)
-}
-
-function fromString (that, string, encoding) {
-  if (typeof encoding !== 'string' || encoding === '') {
-    encoding = 'utf8'
-  }
-
-  if (!Buffer.isEncoding(encoding)) {
-    throw new TypeError('"encoding" must be a valid string encoding')
-  }
-
-  var length = byteLength(string, encoding) | 0
-  that = createBuffer(that, length)
-
-  var actual = that.write(string, encoding)
-
-  if (actual !== length) {
-    // Writing a hex string, for example, that contains invalid characters will
-    // cause everything after the first invalid character to be ignored. (e.g.
-    // 'abxxcd' will be treated as 'ab')
-    that = that.slice(0, actual)
-  }
-
-  return that
-}
-
-function fromArrayLike (that, array) {
-  var length = array.length < 0 ? 0 : checked(array.length) | 0
-  that = createBuffer(that, length)
-  for (var i = 0; i < length; i += 1) {
-    that[i] = array[i] & 255
-  }
-  return that
-}
-
-function fromArrayBuffer (that, array, byteOffset, length) {
-  array.byteLength // this throws if `array` is not a valid ArrayBuffer
-
-  if (byteOffset < 0 || array.byteLength < byteOffset) {
-    throw new RangeError('\'offset\' is out of bounds')
-  }
-
-  if (array.byteLength < byteOffset + (length || 0)) {
-    throw new RangeError('\'length\' is out of bounds')
-  }
-
-  if (byteOffset === undefined && length === undefined) {
-    array = new Uint8Array(array)
-  } else if (length === undefined) {
-    array = new Uint8Array(array, byteOffset)
-  } else {
-    array = new Uint8Array(array, byteOffset, length)
-  }
-
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    // Return an augmented `Uint8Array` instance, for best performance
-    that = array
-    that.__proto__ = Buffer.prototype
-  } else {
-    // Fallback: Return an object instance of the Buffer class
-    that = fromArrayLike(that, array)
-  }
-  return that
-}
-
-function fromObject (that, obj) {
-  if (Buffer.isBuffer(obj)) {
-    var len = checked(obj.length) | 0
-    that = createBuffer(that, len)
-
-    if (that.length === 0) {
-      return that
-    }
-
-    obj.copy(that, 0, 0, len)
-    return that
-  }
-
-  if (obj) {
-    if ((typeof ArrayBuffer !== 'undefined' &&
-        obj.buffer instanceof ArrayBuffer) || 'length' in obj) {
-      if (typeof obj.length !== 'number' || isnan(obj.length)) {
-        return createBuffer(that, 0)
-      }
-      return fromArrayLike(that, obj)
-    }
-
-    if (obj.type === 'Buffer' && isArray(obj.data)) {
-      return fromArrayLike(that, obj.data)
-    }
-  }
-
-  throw new TypeError('First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.')
-}
-
-function checked (length) {
-  // Note: cannot use `length < kMaxLength()` here because that fails when
-  // length is NaN (which is otherwise coerced to zero.)
-  if (length >= kMaxLength()) {
-    throw new RangeError('Attempt to allocate Buffer larger than maximum ' +
-                         'size: 0x' + kMaxLength().toString(16) + ' bytes')
-  }
-  return length | 0
-}
-
-function SlowBuffer (length) {
-  if (+length != length) { // eslint-disable-line eqeqeq
-    length = 0
-  }
-  return Buffer.alloc(+length)
-}
-
-Buffer.isBuffer = function isBuffer (b) {
-  return !!(b != null && b._isBuffer)
-}
-
-Buffer.compare = function compare (a, b) {
-  if (!Buffer.isBuffer(a) || !Buffer.isBuffer(b)) {
-    throw new TypeError('Arguments must be Buffers')
-  }
-
-  if (a === b) return 0
-
-  var x = a.length
-  var y = b.length
-
-  for (var i = 0, len = Math.min(x, y); i < len; ++i) {
-    if (a[i] !== b[i]) {
-      x = a[i]
-      y = b[i]
-      break
-    }
-  }
-
-  if (x < y) return -1
-  if (y < x) return 1
-  return 0
-}
-
-Buffer.isEncoding = function isEncoding (encoding) {
-  switch (String(encoding).toLowerCase()) {
-    case 'hex':
-    case 'utf8':
-    case 'utf-8':
-    case 'ascii':
-    case 'latin1':
-    case 'binary':
-    case 'base64':
-    case 'ucs2':
-    case 'ucs-2':
-    case 'utf16le':
-    case 'utf-16le':
-      return true
-    default:
-      return false
-  }
-}
-
-Buffer.concat = function concat (list, length) {
-  if (!isArray(list)) {
-    throw new TypeError('"list" argument must be an Array of Buffers')
-  }
-
-  if (list.length === 0) {
-    return Buffer.alloc(0)
-  }
-
-  var i
-  if (length === undefined) {
-    length = 0
-    for (i = 0; i < list.length; ++i) {
-      length += list[i].length
-    }
-  }
-
-  var buffer = Buffer.allocUnsafe(length)
-  var pos = 0
-  for (i = 0; i < list.length; ++i) {
-    var buf = list[i]
-    if (!Buffer.isBuffer(buf)) {
-      throw new TypeError('"list" argument must be an Array of Buffers')
-    }
-    buf.copy(buffer, pos)
-    pos += buf.length
-  }
-  return buffer
-}
-
-function byteLength (string, encoding) {
-  if (Buffer.isBuffer(string)) {
-    return string.length
-  }
-  if (typeof ArrayBuffer !== 'undefined' && typeof ArrayBuffer.isView === 'function' &&
-      (ArrayBuffer.isView(string) || string instanceof ArrayBuffer)) {
-    return string.byteLength
-  }
-  if (typeof string !== 'string') {
-    string = '' + string
-  }
-
-  var len = string.length
-  if (len === 0) return 0
-
-  // Use a for loop to avoid recursion
-  var loweredCase = false
-  for (;;) {
-    switch (encoding) {
-      case 'ascii':
-      case 'latin1':
-      case 'binary':
-        return len
-      case 'utf8':
-      case 'utf-8':
-      case undefined:
-        return utf8ToBytes(string).length
-      case 'ucs2':
-      case 'ucs-2':
-      case 'utf16le':
-      case 'utf-16le':
-        return len * 2
-      case 'hex':
-        return len >>> 1
-      case 'base64':
-        return base64ToBytes(string).length
-      default:
-        if (loweredCase) return utf8ToBytes(string).length // assume utf8
-        encoding = ('' + encoding).toLowerCase()
-        loweredCase = true
-    }
-  }
-}
-Buffer.byteLength = byteLength
-
-function slowToString (encoding, start, end) {
-  var loweredCase = false
-
-  // No need to verify that "this.length <= MAX_UINT32" since it's a read-only
-  // property of a typed array.
-
-  // This behaves neither like String nor Uint8Array in that we set start/end
-  // to their upper/lower bounds if the value passed is out of range.
-  // undefined is handled specially as per ECMA-262 6th Edition,
-  // Section 13.3.3.7 Runtime Semantics: KeyedBindingInitialization.
-  if (start === undefined || start < 0) {
-    start = 0
-  }
-  // Return early if start > this.length. Done here to prevent potential uint32
-  // coercion fail below.
-  if (start > this.length) {
-    return ''
-  }
-
-  if (end === undefined || end > this.length) {
-    end = this.length
-  }
-
-  if (end <= 0) {
-    return ''
-  }
-
-  // Force coersion to uint32. This will also coerce falsey/NaN values to 0.
-  end >>>= 0
-  start >>>= 0
-
-  if (end <= start) {
-    return ''
-  }
-
-  if (!encoding) encoding = 'utf8'
-
-  while (true) {
-    switch (encoding) {
-      case 'hex':
-        return hexSlice(this, start, end)
-
-      case 'utf8':
-      case 'utf-8':
-        return utf8Slice(this, start, end)
-
-      case 'ascii':
-        return asciiSlice(this, start, end)
-
-      case 'latin1':
-      case 'binary':
-        return latin1Slice(this, start, end)
-
-      case 'base64':
-        return base64Slice(this, start, end)
-
-      case 'ucs2':
-      case 'ucs-2':
-      case 'utf16le':
-      case 'utf-16le':
-        return utf16leSlice(this, start, end)
-
-      default:
-        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
-        encoding = (encoding + '').toLowerCase()
-        loweredCase = true
-    }
-  }
-}
-
-// The property is used by `Buffer.isBuffer` and `is-buffer` (in Safari 5-7) to detect
-// Buffer instances.
-Buffer.prototype._isBuffer = true
-
-function swap (b, n, m) {
-  var i = b[n]
-  b[n] = b[m]
-  b[m] = i
-}
-
-Buffer.prototype.swap16 = function swap16 () {
-  var len = this.length
-  if (len % 2 !== 0) {
-    throw new RangeError('Buffer size must be a multiple of 16-bits')
-  }
-  for (var i = 0; i < len; i += 2) {
-    swap(this, i, i + 1)
-  }
-  return this
-}
-
-Buffer.prototype.swap32 = function swap32 () {
-  var len = this.length
-  if (len % 4 !== 0) {
-    throw new RangeError('Buffer size must be a multiple of 32-bits')
-  }
-  for (var i = 0; i < len; i += 4) {
-    swap(this, i, i + 3)
-    swap(this, i + 1, i + 2)
-  }
-  return this
-}
-
-Buffer.prototype.swap64 = function swap64 () {
-  var len = this.length
-  if (len % 8 !== 0) {
-    throw new RangeError('Buffer size must be a multiple of 64-bits')
-  }
-  for (var i = 0; i < len; i += 8) {
-    swap(this, i, i + 7)
-    swap(this, i + 1, i + 6)
-    swap(this, i + 2, i + 5)
-    swap(this, i + 3, i + 4)
-  }
-  return this
-}
-
-Buffer.prototype.toString = function toString () {
-  var length = this.length | 0
-  if (length === 0) return ''
-  if (arguments.length === 0) return utf8Slice(this, 0, length)
-  return slowToString.apply(this, arguments)
-}
-
-Buffer.prototype.equals = function equals (b) {
-  if (!Buffer.isBuffer(b)) throw new TypeError('Argument must be a Buffer')
-  if (this === b) return true
-  return Buffer.compare(this, b) === 0
-}
-
-Buffer.prototype.inspect = function inspect () {
-  var str = ''
-  var max = exports.INSPECT_MAX_BYTES
-  if (this.length > 0) {
-    str = this.toString('hex', 0, max).match(/.{2}/g).join(' ')
-    if (this.length > max) str += ' ... '
-  }
-  return '<Buffer ' + str + '>'
-}
-
-Buffer.prototype.compare = function compare (target, start, end, thisStart, thisEnd) {
-  if (!Buffer.isBuffer(target)) {
-    throw new TypeError('Argument must be a Buffer')
-  }
-
-  if (start === undefined) {
-    start = 0
-  }
-  if (end === undefined) {
-    end = target ? target.length : 0
-  }
-  if (thisStart === undefined) {
-    thisStart = 0
-  }
-  if (thisEnd === undefined) {
-    thisEnd = this.length
-  }
-
-  if (start < 0 || end > target.length || thisStart < 0 || thisEnd > this.length) {
-    throw new RangeError('out of range index')
-  }
-
-  if (thisStart >= thisEnd && start >= end) {
-    return 0
-  }
-  if (thisStart >= thisEnd) {
-    return -1
-  }
-  if (start >= end) {
-    return 1
-  }
-
-  start >>>= 0
-  end >>>= 0
-  thisStart >>>= 0
-  thisEnd >>>= 0
-
-  if (this === target) return 0
-
-  var x = thisEnd - thisStart
-  var y = end - start
-  var len = Math.min(x, y)
-
-  var thisCopy = this.slice(thisStart, thisEnd)
-  var targetCopy = target.slice(start, end)
-
-  for (var i = 0; i < len; ++i) {
-    if (thisCopy[i] !== targetCopy[i]) {
-      x = thisCopy[i]
-      y = targetCopy[i]
-      break
-    }
-  }
-
-  if (x < y) return -1
-  if (y < x) return 1
-  return 0
-}
-
-// Finds either the first index of `val` in `buffer` at offset >= `byteOffset`,
-// OR the last index of `val` in `buffer` at offset <= `byteOffset`.
-//
-// Arguments:
-// - buffer - a Buffer to search
-// - val - a string, Buffer, or number
-// - byteOffset - an index into `buffer`; will be clamped to an int32
-// - encoding - an optional encoding, relevant is val is a string
-// - dir - true for indexOf, false for lastIndexOf
-function bidirectionalIndexOf (buffer, val, byteOffset, encoding, dir) {
-  // Empty buffer means no match
-  if (buffer.length === 0) return -1
-
-  // Normalize byteOffset
-  if (typeof byteOffset === 'string') {
-    encoding = byteOffset
-    byteOffset = 0
-  } else if (byteOffset > 0x7fffffff) {
-    byteOffset = 0x7fffffff
-  } else if (byteOffset < -0x80000000) {
-    byteOffset = -0x80000000
-  }
-  byteOffset = +byteOffset  // Coerce to Number.
-  if (isNaN(byteOffset)) {
-    // byteOffset: it it's undefined, null, NaN, "foo", etc, search whole buffer
-    byteOffset = dir ? 0 : (buffer.length - 1)
-  }
-
-  // Normalize byteOffset: negative offsets start from the end of the buffer
-  if (byteOffset < 0) byteOffset = buffer.length + byteOffset
-  if (byteOffset >= buffer.length) {
-    if (dir) return -1
-    else byteOffset = buffer.length - 1
-  } else if (byteOffset < 0) {
-    if (dir) byteOffset = 0
-    else return -1
-  }
-
-  // Normalize val
-  if (typeof val === 'string') {
-    val = Buffer.from(val, encoding)
-  }
-
-  // Finally, search either indexOf (if dir is true) or lastIndexOf
-  if (Buffer.isBuffer(val)) {
-    // Special case: looking for empty string/buffer always fails
-    if (val.length === 0) {
-      return -1
-    }
-    return arrayIndexOf(buffer, val, byteOffset, encoding, dir)
-  } else if (typeof val === 'number') {
-    val = val & 0xFF // Search for a byte value [0-255]
-    if (Buffer.TYPED_ARRAY_SUPPORT &&
-        typeof Uint8Array.prototype.indexOf === 'function') {
-      if (dir) {
-        return Uint8Array.prototype.indexOf.call(buffer, val, byteOffset)
-      } else {
-        return Uint8Array.prototype.lastIndexOf.call(buffer, val, byteOffset)
-      }
-    }
-    return arrayIndexOf(buffer, [ val ], byteOffset, encoding, dir)
-  }
-
-  throw new TypeError('val must be string, number or Buffer')
-}
-
-function arrayIndexOf (arr, val, byteOffset, encoding, dir) {
-  var indexSize = 1
-  var arrLength = arr.length
-  var valLength = val.length
-
-  if (encoding !== undefined) {
-    encoding = String(encoding).toLowerCase()
-    if (encoding === 'ucs2' || encoding === 'ucs-2' ||
-        encoding === 'utf16le' || encoding === 'utf-16le') {
-      if (arr.length < 2 || val.length < 2) {
-        return -1
-      }
-      indexSize = 2
-      arrLength /= 2
-      valLength /= 2
-      byteOffset /= 2
-    }
-  }
-
-  function read (buf, i) {
-    if (indexSize === 1) {
-      return buf[i]
-    } else {
-      return buf.readUInt16BE(i * indexSize)
-    }
-  }
-
-  var i
-  if (dir) {
-    var foundIndex = -1
-    for (i = byteOffset; i < arrLength; i++) {
-      if (read(arr, i) === read(val, foundIndex === -1 ? 0 : i - foundIndex)) {
-        if (foundIndex === -1) foundIndex = i
-        if (i - foundIndex + 1 === valLength) return foundIndex * indexSize
-      } else {
-        if (foundIndex !== -1) i -= i - foundIndex
-        foundIndex = -1
-      }
-    }
-  } else {
-    if (byteOffset + valLength > arrLength) byteOffset = arrLength - valLength
-    for (i = byteOffset; i >= 0; i--) {
-      var found = true
-      for (var j = 0; j < valLength; j++) {
-        if (read(arr, i + j) !== read(val, j)) {
-          found = false
-          break
-        }
-      }
-      if (found) return i
-    }
-  }
-
-  return -1
-}
-
-Buffer.prototype.includes = function includes (val, byteOffset, encoding) {
-  return this.indexOf(val, byteOffset, encoding) !== -1
-}
-
-Buffer.prototype.indexOf = function indexOf (val, byteOffset, encoding) {
-  return bidirectionalIndexOf(this, val, byteOffset, encoding, true)
-}
-
-Buffer.prototype.lastIndexOf = function lastIndexOf (val, byteOffset, encoding) {
-  return bidirectionalIndexOf(this, val, byteOffset, encoding, false)
-}
-
-function hexWrite (buf, string, offset, length) {
-  offset = Number(offset) || 0
-  var remaining = buf.length - offset
-  if (!length) {
-    length = remaining
-  } else {
-    length = Number(length)
-    if (length > remaining) {
-      length = remaining
-    }
-  }
-
-  // must be an even number of digits
-  var strLen = string.length
-  if (strLen % 2 !== 0) throw new TypeError('Invalid hex string')
-
-  if (length > strLen / 2) {
-    length = strLen / 2
-  }
-  for (var i = 0; i < length; ++i) {
-    var parsed = parseInt(string.substr(i * 2, 2), 16)
-    if (isNaN(parsed)) return i
-    buf[offset + i] = parsed
-  }
-  return i
-}
-
-function utf8Write (buf, string, offset, length) {
-  return blitBuffer(utf8ToBytes(string, buf.length - offset), buf, offset, length)
-}
-
-function asciiWrite (buf, string, offset, length) {
-  return blitBuffer(asciiToBytes(string), buf, offset, length)
-}
-
-function latin1Write (buf, string, offset, length) {
-  return asciiWrite(buf, string, offset, length)
-}
-
-function base64Write (buf, string, offset, length) {
-  return blitBuffer(base64ToBytes(string), buf, offset, length)
-}
-
-function ucs2Write (buf, string, offset, length) {
-  return blitBuffer(utf16leToBytes(string, buf.length - offset), buf, offset, length)
-}
-
-Buffer.prototype.write = function write (string, offset, length, encoding) {
-  // Buffer#write(string)
-  if (offset === undefined) {
-    encoding = 'utf8'
-    length = this.length
-    offset = 0
-  // Buffer#write(string, encoding)
-  } else if (length === undefined && typeof offset === 'string') {
-    encoding = offset
-    length = this.length
-    offset = 0
-  // Buffer#write(string, offset[, length][, encoding])
-  } else if (isFinite(offset)) {
-    offset = offset | 0
-    if (isFinite(length)) {
-      length = length | 0
-      if (encoding === undefined) encoding = 'utf8'
-    } else {
-      encoding = length
-      length = undefined
-    }
-  // legacy write(string, encoding, offset, length) - remove in v0.13
-  } else {
-    throw new Error(
-      'Buffer.write(string, encoding, offset[, length]) is no longer supported'
-    )
-  }
-
-  var remaining = this.length - offset
-  if (length === undefined || length > remaining) length = remaining
-
-  if ((string.length > 0 && (length < 0 || offset < 0)) || offset > this.length) {
-    throw new RangeError('Attempt to write outside buffer bounds')
-  }
-
-  if (!encoding) encoding = 'utf8'
-
-  var loweredCase = false
-  for (;;) {
-    switch (encoding) {
-      case 'hex':
-        return hexWrite(this, string, offset, length)
-
-      case 'utf8':
-      case 'utf-8':
-        return utf8Write(this, string, offset, length)
-
-      case 'ascii':
-        return asciiWrite(this, string, offset, length)
-
-      case 'latin1':
-      case 'binary':
-        return latin1Write(this, string, offset, length)
-
-      case 'base64':
-        // Warning: maxLength not taken into account in base64Write
-        return base64Write(this, string, offset, length)
-
-      case 'ucs2':
-      case 'ucs-2':
-      case 'utf16le':
-      case 'utf-16le':
-        return ucs2Write(this, string, offset, length)
-
-      default:
-        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
-        encoding = ('' + encoding).toLowerCase()
-        loweredCase = true
-    }
-  }
-}
-
-Buffer.prototype.toJSON = function toJSON () {
-  return {
-    type: 'Buffer',
-    data: Array.prototype.slice.call(this._arr || this, 0)
-  }
-}
-
-function base64Slice (buf, start, end) {
-  if (start === 0 && end === buf.length) {
-    return base64.fromByteArray(buf)
-  } else {
-    return base64.fromByteArray(buf.slice(start, end))
-  }
-}
-
-function utf8Slice (buf, start, end) {
-  end = Math.min(buf.length, end)
-  var res = []
-
-  var i = start
-  while (i < end) {
-    var firstByte = buf[i]
-    var codePoint = null
-    var bytesPerSequence = (firstByte > 0xEF) ? 4
-      : (firstByte > 0xDF) ? 3
-      : (firstByte > 0xBF) ? 2
-      : 1
-
-    if (i + bytesPerSequence <= end) {
-      var secondByte, thirdByte, fourthByte, tempCodePoint
-
-      switch (bytesPerSequence) {
-        case 1:
-          if (firstByte < 0x80) {
-            codePoint = firstByte
-          }
-          break
-        case 2:
-          secondByte = buf[i + 1]
-          if ((secondByte & 0xC0) === 0x80) {
-            tempCodePoint = (firstByte & 0x1F) << 0x6 | (secondByte & 0x3F)
-            if (tempCodePoint > 0x7F) {
-              codePoint = tempCodePoint
-            }
-          }
-          break
-        case 3:
-          secondByte = buf[i + 1]
-          thirdByte = buf[i + 2]
-          if ((secondByte & 0xC0) === 0x80 && (thirdByte & 0xC0) === 0x80) {
-            tempCodePoint = (firstByte & 0xF) << 0xC | (secondByte & 0x3F) << 0x6 | (thirdByte & 0x3F)
-            if (tempCodePoint > 0x7FF && (tempCodePoint < 0xD800 || tempCodePoint > 0xDFFF)) {
-              codePoint = tempCodePoint
-            }
-          }
-          break
-        case 4:
-          secondByte = buf[i + 1]
-          thirdByte = buf[i + 2]
-          fourthByte = buf[i + 3]
-          if ((secondByte & 0xC0) === 0x80 && (thirdByte & 0xC0) === 0x80 && (fourthByte & 0xC0) === 0x80) {
-            tempCodePoint = (firstByte & 0xF) << 0x12 | (secondByte & 0x3F) << 0xC | (thirdByte & 0x3F) << 0x6 | (fourthByte & 0x3F)
-            if (tempCodePoint > 0xFFFF && tempCodePoint < 0x110000) {
-              codePoint = tempCodePoint
-            }
-          }
-      }
-    }
-
-    if (codePoint === null) {
-      // we did not generate a valid codePoint so insert a
-      // replacement char (U+FFFD) and advance only 1 byte
-      codePoint = 0xFFFD
-      bytesPerSequence = 1
-    } else if (codePoint > 0xFFFF) {
-      // encode to utf16 (surrogate pair dance)
-      codePoint -= 0x10000
-      res.push(codePoint >>> 10 & 0x3FF | 0xD800)
-      codePoint = 0xDC00 | codePoint & 0x3FF
-    }
-
-    res.push(codePoint)
-    i += bytesPerSequence
-  }
-
-  return decodeCodePointsArray(res)
-}
-
-// Based on http://stackoverflow.com/a/22747272/680742, the browser with
-// the lowest limit is Chrome, with 0x10000 args.
-// We go 1 magnitude less, for safety
-var MAX_ARGUMENTS_LENGTH = 0x1000
-
-function decodeCodePointsArray (codePoints) {
-  var len = codePoints.length
-  if (len <= MAX_ARGUMENTS_LENGTH) {
-    return String.fromCharCode.apply(String, codePoints) // avoid extra slice()
-  }
-
-  // Decode in chunks to avoid "call stack size exceeded".
-  var res = ''
-  var i = 0
-  while (i < len) {
-    res += String.fromCharCode.apply(
-      String,
-      codePoints.slice(i, i += MAX_ARGUMENTS_LENGTH)
-    )
-  }
-  return res
-}
-
-function asciiSlice (buf, start, end) {
-  var ret = ''
-  end = Math.min(buf.length, end)
-
-  for (var i = start; i < end; ++i) {
-    ret += String.fromCharCode(buf[i] & 0x7F)
-  }
-  return ret
-}
-
-function latin1Slice (buf, start, end) {
-  var ret = ''
-  end = Math.min(buf.length, end)
-
-  for (var i = start; i < end; ++i) {
-    ret += String.fromCharCode(buf[i])
-  }
-  return ret
-}
-
-function hexSlice (buf, start, end) {
-  var len = buf.length
-
-  if (!start || start < 0) start = 0
-  if (!end || end < 0 || end > len) end = len
-
-  var out = ''
-  for (var i = start; i < end; ++i) {
-    out += toHex(buf[i])
-  }
-  return out
-}
-
-function utf16leSlice (buf, start, end) {
-  var bytes = buf.slice(start, end)
-  var res = ''
-  for (var i = 0; i < bytes.length; i += 2) {
-    res += String.fromCharCode(bytes[i] + bytes[i + 1] * 256)
-  }
-  return res
-}
-
-Buffer.prototype.slice = function slice (start, end) {
-  var len = this.length
-  start = ~~start
-  end = end === undefined ? len : ~~end
-
-  if (start < 0) {
-    start += len
-    if (start < 0) start = 0
-  } else if (start > len) {
-    start = len
-  }
-
-  if (end < 0) {
-    end += len
-    if (end < 0) end = 0
-  } else if (end > len) {
-    end = len
-  }
-
-  if (end < start) end = start
-
-  var newBuf
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    newBuf = this.subarray(start, end)
-    newBuf.__proto__ = Buffer.prototype
-  } else {
-    var sliceLen = end - start
-    newBuf = new Buffer(sliceLen, undefined)
-    for (var i = 0; i < sliceLen; ++i) {
-      newBuf[i] = this[i + start]
-    }
-  }
-
-  return newBuf
-}
-
-/*
- * Need to make sure that buffer isn't trying to write out of bounds.
- */
-function checkOffset (offset, ext, length) {
-  if ((offset % 1) !== 0 || offset < 0) throw new RangeError('offset is not uint')
-  if (offset + ext > length) throw new RangeError('Trying to access beyond buffer length')
-}
-
-Buffer.prototype.readUIntLE = function readUIntLE (offset, byteLength, noAssert) {
-  offset = offset | 0
-  byteLength = byteLength | 0
-  if (!noAssert) checkOffset(offset, byteLength, this.length)
-
-  var val = this[offset]
-  var mul = 1
-  var i = 0
-  while (++i < byteLength && (mul *= 0x100)) {
-    val += this[offset + i] * mul
-  }
-
-  return val
-}
-
-Buffer.prototype.readUIntBE = function readUIntBE (offset, byteLength, noAssert) {
-  offset = offset | 0
-  byteLength = byteLength | 0
-  if (!noAssert) {
-    checkOffset(offset, byteLength, this.length)
-  }
-
-  var val = this[offset + --byteLength]
-  var mul = 1
-  while (byteLength > 0 && (mul *= 0x100)) {
-    val += this[offset + --byteLength] * mul
-  }
-
-  return val
-}
-
-Buffer.prototype.readUInt8 = function readUInt8 (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 1, this.length)
-  return this[offset]
-}
-
-Buffer.prototype.readUInt16LE = function readUInt16LE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 2, this.length)
-  return this[offset] | (this[offset + 1] << 8)
-}
-
-Buffer.prototype.readUInt16BE = function readUInt16BE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 2, this.length)
-  return (this[offset] << 8) | this[offset + 1]
-}
-
-Buffer.prototype.readUInt32LE = function readUInt32LE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 4, this.length)
-
-  return ((this[offset]) |
-      (this[offset + 1] << 8) |
-      (this[offset + 2] << 16)) +
-      (this[offset + 3] * 0x1000000)
-}
-
-Buffer.prototype.readUInt32BE = function readUInt32BE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 4, this.length)
-
-  return (this[offset] * 0x1000000) +
-    ((this[offset + 1] << 16) |
-    (this[offset + 2] << 8) |
-    this[offset + 3])
-}
-
-Buffer.prototype.readIntLE = function readIntLE (offset, byteLength, noAssert) {
-  offset = offset | 0
-  byteLength = byteLength | 0
-  if (!noAssert) checkOffset(offset, byteLength, this.length)
-
-  var val = this[offset]
-  var mul = 1
-  var i = 0
-  while (++i < byteLength && (mul *= 0x100)) {
-    val += this[offset + i] * mul
-  }
-  mul *= 0x80
-
-  if (val >= mul) val -= Math.pow(2, 8 * byteLength)
-
-  return val
-}
-
-Buffer.prototype.readIntBE = function readIntBE (offset, byteLength, noAssert) {
-  offset = offset | 0
-  byteLength = byteLength | 0
-  if (!noAssert) checkOffset(offset, byteLength, this.length)
-
-  var i = byteLength
-  var mul = 1
-  var val = this[offset + --i]
-  while (i > 0 && (mul *= 0x100)) {
-    val += this[offset + --i] * mul
-  }
-  mul *= 0x80
-
-  if (val >= mul) val -= Math.pow(2, 8 * byteLength)
-
-  return val
-}
-
-Buffer.prototype.readInt8 = function readInt8 (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 1, this.length)
-  if (!(this[offset] & 0x80)) return (this[offset])
-  return ((0xff - this[offset] + 1) * -1)
-}
-
-Buffer.prototype.readInt16LE = function readInt16LE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 2, this.length)
-  var val = this[offset] | (this[offset + 1] << 8)
-  return (val & 0x8000) ? val | 0xFFFF0000 : val
-}
-
-Buffer.prototype.readInt16BE = function readInt16BE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 2, this.length)
-  var val = this[offset + 1] | (this[offset] << 8)
-  return (val & 0x8000) ? val | 0xFFFF0000 : val
-}
-
-Buffer.prototype.readInt32LE = function readInt32LE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 4, this.length)
-
-  return (this[offset]) |
-    (this[offset + 1] << 8) |
-    (this[offset + 2] << 16) |
-    (this[offset + 3] << 24)
-}
-
-Buffer.prototype.readInt32BE = function readInt32BE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 4, this.length)
-
-  return (this[offset] << 24) |
-    (this[offset + 1] << 16) |
-    (this[offset + 2] << 8) |
-    (this[offset + 3])
-}
-
-Buffer.prototype.readFloatLE = function readFloatLE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 4, this.length)
-  return ieee754.read(this, offset, true, 23, 4)
-}
-
-Buffer.prototype.readFloatBE = function readFloatBE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 4, this.length)
-  return ieee754.read(this, offset, false, 23, 4)
-}
-
-Buffer.prototype.readDoubleLE = function readDoubleLE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 8, this.length)
-  return ieee754.read(this, offset, true, 52, 8)
-}
-
-Buffer.prototype.readDoubleBE = function readDoubleBE (offset, noAssert) {
-  if (!noAssert) checkOffset(offset, 8, this.length)
-  return ieee754.read(this, offset, false, 52, 8)
-}
-
-function checkInt (buf, value, offset, ext, max, min) {
-  if (!Buffer.isBuffer(buf)) throw new TypeError('"buffer" argument must be a Buffer instance')
-  if (value > max || value < min) throw new RangeError('"value" argument is out of bounds')
-  if (offset + ext > buf.length) throw new RangeError('Index out of range')
-}
-
-Buffer.prototype.writeUIntLE = function writeUIntLE (value, offset, byteLength, noAssert) {
-  value = +value
-  offset = offset | 0
-  byteLength = byteLength | 0
-  if (!noAssert) {
-    var maxBytes = Math.pow(2, 8 * byteLength) - 1
-    checkInt(this, value, offset, byteLength, maxBytes, 0)
-  }
-
-  var mul = 1
-  var i = 0
-  this[offset] = value & 0xFF
-  while (++i < byteLength && (mul *= 0x100)) {
-    this[offset + i] = (value / mul) & 0xFF
-  }
-
-  return offset + byteLength
-}
-
-Buffer.prototype.writeUIntBE = function writeUIntBE (value, offset, byteLength, noAssert) {
-  value = +value
-  offset = offset | 0
-  byteLength = byteLength | 0
-  if (!noAssert) {
-    var maxBytes = Math.pow(2, 8 * byteLength) - 1
-    checkInt(this, value, offset, byteLength, maxBytes, 0)
-  }
-
-  var i = byteLength - 1
-  var mul = 1
-  this[offset + i] = value & 0xFF
-  while (--i >= 0 && (mul *= 0x100)) {
-    this[offset + i] = (value / mul) & 0xFF
-  }
-
-  return offset + byteLength
-}
-
-Buffer.prototype.writeUInt8 = function writeUInt8 (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 1, 0xff, 0)
-  if (!Buffer.TYPED_ARRAY_SUPPORT) value = Math.floor(value)
-  this[offset] = (value & 0xff)
-  return offset + 1
-}
-
-function objectWriteUInt16 (buf, value, offset, littleEndian) {
-  if (value < 0) value = 0xffff + value + 1
-  for (var i = 0, j = Math.min(buf.length - offset, 2); i < j; ++i) {
-    buf[offset + i] = (value & (0xff << (8 * (littleEndian ? i : 1 - i)))) >>>
-      (littleEndian ? i : 1 - i) * 8
-  }
-}
-
-Buffer.prototype.writeUInt16LE = function writeUInt16LE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value & 0xff)
-    this[offset + 1] = (value >>> 8)
-  } else {
-    objectWriteUInt16(this, value, offset, true)
-  }
-  return offset + 2
-}
-
-Buffer.prototype.writeUInt16BE = function writeUInt16BE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value >>> 8)
-    this[offset + 1] = (value & 0xff)
-  } else {
-    objectWriteUInt16(this, value, offset, false)
-  }
-  return offset + 2
-}
-
-function objectWriteUInt32 (buf, value, offset, littleEndian) {
-  if (value < 0) value = 0xffffffff + value + 1
-  for (var i = 0, j = Math.min(buf.length - offset, 4); i < j; ++i) {
-    buf[offset + i] = (value >>> (littleEndian ? i : 3 - i) * 8) & 0xff
-  }
-}
-
-Buffer.prototype.writeUInt32LE = function writeUInt32LE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset + 3] = (value >>> 24)
-    this[offset + 2] = (value >>> 16)
-    this[offset + 1] = (value >>> 8)
-    this[offset] = (value & 0xff)
-  } else {
-    objectWriteUInt32(this, value, offset, true)
-  }
-  return offset + 4
-}
-
-Buffer.prototype.writeUInt32BE = function writeUInt32BE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value >>> 24)
-    this[offset + 1] = (value >>> 16)
-    this[offset + 2] = (value >>> 8)
-    this[offset + 3] = (value & 0xff)
-  } else {
-    objectWriteUInt32(this, value, offset, false)
-  }
-  return offset + 4
-}
-
-Buffer.prototype.writeIntLE = function writeIntLE (value, offset, byteLength, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) {
-    var limit = Math.pow(2, 8 * byteLength - 1)
-
-    checkInt(this, value, offset, byteLength, limit - 1, -limit)
-  }
-
-  var i = 0
-  var mul = 1
-  var sub = 0
-  this[offset] = value & 0xFF
-  while (++i < byteLength && (mul *= 0x100)) {
-    if (value < 0 && sub === 0 && this[offset + i - 1] !== 0) {
-      sub = 1
-    }
-    this[offset + i] = ((value / mul) >> 0) - sub & 0xFF
-  }
-
-  return offset + byteLength
-}
-
-Buffer.prototype.writeIntBE = function writeIntBE (value, offset, byteLength, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) {
-    var limit = Math.pow(2, 8 * byteLength - 1)
-
-    checkInt(this, value, offset, byteLength, limit - 1, -limit)
-  }
-
-  var i = byteLength - 1
-  var mul = 1
-  var sub = 0
-  this[offset + i] = value & 0xFF
-  while (--i >= 0 && (mul *= 0x100)) {
-    if (value < 0 && sub === 0 && this[offset + i + 1] !== 0) {
-      sub = 1
-    }
-    this[offset + i] = ((value / mul) >> 0) - sub & 0xFF
-  }
-
-  return offset + byteLength
-}
-
-Buffer.prototype.writeInt8 = function writeInt8 (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 1, 0x7f, -0x80)
-  if (!Buffer.TYPED_ARRAY_SUPPORT) value = Math.floor(value)
-  if (value < 0) value = 0xff + value + 1
-  this[offset] = (value & 0xff)
-  return offset + 1
-}
-
-Buffer.prototype.writeInt16LE = function writeInt16LE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value & 0xff)
-    this[offset + 1] = (value >>> 8)
-  } else {
-    objectWriteUInt16(this, value, offset, true)
-  }
-  return offset + 2
-}
-
-Buffer.prototype.writeInt16BE = function writeInt16BE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value >>> 8)
-    this[offset + 1] = (value & 0xff)
-  } else {
-    objectWriteUInt16(this, value, offset, false)
-  }
-  return offset + 2
-}
-
-Buffer.prototype.writeInt32LE = function writeInt32LE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value & 0xff)
-    this[offset + 1] = (value >>> 8)
-    this[offset + 2] = (value >>> 16)
-    this[offset + 3] = (value >>> 24)
-  } else {
-    objectWriteUInt32(this, value, offset, true)
-  }
-  return offset + 4
-}
-
-Buffer.prototype.writeInt32BE = function writeInt32BE (value, offset, noAssert) {
-  value = +value
-  offset = offset | 0
-  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
-  if (value < 0) value = 0xffffffff + value + 1
-  if (Buffer.TYPED_ARRAY_SUPPORT) {
-    this[offset] = (value >>> 24)
-    this[offset + 1] = (value >>> 16)
-    this[offset + 2] = (value >>> 8)
-    this[offset + 3] = (value & 0xff)
-  } else {
-    objectWriteUInt32(this, value, offset, false)
-  }
-  return offset + 4
-}
-
-function checkIEEE754 (buf, value, offset, ext, max, min) {
-  if (offset + ext > buf.length) throw new RangeError('Index out of range')
-  if (offset < 0) throw new RangeError('Index out of range')
-}
-
-function writeFloat (buf, value, offset, littleEndian, noAssert) {
-  if (!noAssert) {
-    checkIEEE754(buf, value, offset, 4, 3.4028234663852886e+38, -3.4028234663852886e+38)
-  }
-  ieee754.write(buf, value, offset, littleEndian, 23, 4)
-  return offset + 4
-}
-
-Buffer.prototype.writeFloatLE = function writeFloatLE (value, offset, noAssert) {
-  return writeFloat(this, value, offset, true, noAssert)
-}
-
-Buffer.prototype.writeFloatBE = function writeFloatBE (value, offset, noAssert) {
-  return writeFloat(this, value, offset, false, noAssert)
-}
-
-function writeDouble (buf, value, offset, littleEndian, noAssert) {
-  if (!noAssert) {
-    checkIEEE754(buf, value, offset, 8, 1.7976931348623157E+308, -1.7976931348623157E+308)
-  }
-  ieee754.write(buf, value, offset, littleEndian, 52, 8)
-  return offset + 8
-}
-
-Buffer.prototype.writeDoubleLE = function writeDoubleLE (value, offset, noAssert) {
-  return writeDouble(this, value, offset, true, noAssert)
-}
-
-Buffer.prototype.writeDoubleBE = function writeDoubleBE (value, offset, noAssert) {
-  return writeDouble(this, value, offset, false, noAssert)
-}
-
-// copy(targetBuffer, targetStart=0, sourceStart=0, sourceEnd=buffer.length)
-Buffer.prototype.copy = function copy (target, targetStart, start, end) {
-  if (!start) start = 0
-  if (!end && end !== 0) end = this.length
-  if (targetStart >= target.length) targetStart = target.length
-  if (!targetStart) targetStart = 0
-  if (end > 0 && end < start) end = start
-
-  // Copy 0 bytes; we're done
-  if (end === start) return 0
-  if (target.length === 0 || this.length === 0) return 0
-
-  // Fatal error conditions
-  if (targetStart < 0) {
-    throw new RangeError('targetStart out of bounds')
-  }
-  if (start < 0 || start >= this.length) throw new RangeError('sourceStart out of bounds')
-  if (end < 0) throw new RangeError('sourceEnd out of bounds')
-
-  // Are we oob?
-  if (end > this.length) end = this.length
-  if (target.length - targetStart < end - start) {
-    end = target.length - targetStart + start
-  }
-
-  var len = end - start
-  var i
-
-  if (this === target && start < targetStart && targetStart < end) {
-    // descending copy from end
-    for (i = len - 1; i >= 0; --i) {
-      target[i + targetStart] = this[i + start]
-    }
-  } else if (len < 1000 || !Buffer.TYPED_ARRAY_SUPPORT) {
-    // ascending copy from start
-    for (i = 0; i < len; ++i) {
-      target[i + targetStart] = this[i + start]
-    }
-  } else {
-    Uint8Array.prototype.set.call(
-      target,
-      this.subarray(start, start + len),
-      targetStart
-    )
-  }
-
-  return len
-}
-
-// Usage:
-//    buffer.fill(number[, offset[, end]])
-//    buffer.fill(buffer[, offset[, end]])
-//    buffer.fill(string[, offset[, end]][, encoding])
-Buffer.prototype.fill = function fill (val, start, end, encoding) {
-  // Handle string cases:
-  if (typeof val === 'string') {
-    if (typeof start === 'string') {
-      encoding = start
-      start = 0
-      end = this.length
-    } else if (typeof end === 'string') {
-      encoding = end
-      end = this.length
-    }
-    if (val.length === 1) {
-      var code = val.charCodeAt(0)
-      if (code < 256) {
-        val = code
-      }
-    }
-    if (encoding !== undefined && typeof encoding !== 'string') {
-      throw new TypeError('encoding must be a string')
-    }
-    if (typeof encoding === 'string' && !Buffer.isEncoding(encoding)) {
-      throw new TypeError('Unknown encoding: ' + encoding)
-    }
-  } else if (typeof val === 'number') {
-    val = val & 255
-  }
-
-  // Invalid ranges are not set to a default, so can range check early.
-  if (start < 0 || this.length < start || this.length < end) {
-    throw new RangeError('Out of range index')
-  }
-
-  if (end <= start) {
-    return this
-  }
-
-  start = start >>> 0
-  end = end === undefined ? this.length : end >>> 0
-
-  if (!val) val = 0
-
-  var i
-  if (typeof val === 'number') {
-    for (i = start; i < end; ++i) {
-      this[i] = val
-    }
-  } else {
-    var bytes = Buffer.isBuffer(val)
-      ? val
-      : utf8ToBytes(new Buffer(val, encoding).toString())
-    var len = bytes.length
-    for (i = 0; i < end - start; ++i) {
-      this[i + start] = bytes[i % len]
-    }
-  }
-
-  return this
-}
-
-// HELPER FUNCTIONS
-// ================
-
-var INVALID_BASE64_RE = /[^+\/0-9A-Za-z-_]/g
-
-function base64clean (str) {
-  // Node strips out invalid characters like \n and \t from the string, base64-js does not
-  str = stringtrim(str).replace(INVALID_BASE64_RE, '')
-  // Node converts strings with length < 2 to ''
-  if (str.length < 2) return ''
-  // Node allows for non-padded base64 strings (missing trailing ===), base64-js does not
-  while (str.length % 4 !== 0) {
-    str = str + '='
-  }
-  return str
-}
-
-function stringtrim (str) {
-  if (str.trim) return str.trim()
-  return str.replace(/^\s+|\s+$/g, '')
-}
-
-function toHex (n) {
-  if (n < 16) return '0' + n.toString(16)
-  return n.toString(16)
-}
-
-function utf8ToBytes (string, units) {
-  units = units || Infinity
-  var codePoint
-  var length = string.length
-  var leadSurrogate = null
-  var bytes = []
-
-  for (var i = 0; i < length; ++i) {
-    codePoint = string.charCodeAt(i)
-
-    // is surrogate component
-    if (codePoint > 0xD7FF && codePoint < 0xE000) {
-      // last char was a lead
-      if (!leadSurrogate) {
-        // no lead yet
-        if (codePoint > 0xDBFF) {
-          // unexpected trail
-          if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
-          continue
-        } else if (i + 1 === length) {
-          // unpaired lead
-          if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
-          continue
-        }
-
-        // valid lead
-        leadSurrogate = codePoint
-
-        continue
-      }
-
-      // 2 leads in a row
-      if (codePoint < 0xDC00) {
-        if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
-        leadSurrogate = codePoint
-        continue
-      }
-
-      // valid surrogate pair
-      codePoint = (leadSurrogate - 0xD800 << 10 | codePoint - 0xDC00) + 0x10000
-    } else if (leadSurrogate) {
-      // valid bmp char, but last char was a lead
-      if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
-    }
-
-    leadSurrogate = null
-
-    // encode utf8
-    if (codePoint < 0x80) {
-      if ((units -= 1) < 0) break
-      bytes.push(codePoint)
-    } else if (codePoint < 0x800) {
-      if ((units -= 2) < 0) break
-      bytes.push(
-        codePoint >> 0x6 | 0xC0,
-        codePoint & 0x3F | 0x80
-      )
-    } else if (codePoint < 0x10000) {
-      if ((units -= 3) < 0) break
-      bytes.push(
-        codePoint >> 0xC | 0xE0,
-        codePoint >> 0x6 & 0x3F | 0x80,
-        codePoint & 0x3F | 0x80
-      )
-    } else if (codePoint < 0x110000) {
-      if ((units -= 4) < 0) break
-      bytes.push(
-        codePoint >> 0x12 | 0xF0,
-        codePoint >> 0xC & 0x3F | 0x80,
-        codePoint >> 0x6 & 0x3F | 0x80,
-        codePoint & 0x3F | 0x80
-      )
-    } else {
-      throw new Error('Invalid code point')
-    }
-  }
-
-  return bytes
-}
-
-function asciiToBytes (str) {
-  var byteArray = []
-  for (var i = 0; i < str.length; ++i) {
-    // Node's code seems to be doing this and not & 0x7F..
-    byteArray.push(str.charCodeAt(i) & 0xFF)
-  }
-  return byteArray
-}
-
-function utf16leToBytes (str, units) {
-  var c, hi, lo
-  var byteArray = []
-  for (var i = 0; i < str.length; ++i) {
-    if ((units -= 2) < 0) break
-
-    c = str.charCodeAt(i)
-    hi = c >> 8
-    lo = c % 256
-    byteArray.push(lo)
-    byteArray.push(hi)
-  }
-
-  return byteArray
-}
-
-function base64ToBytes (str) {
-  return base64.toByteArray(base64clean(str))
-}
-
-function blitBuffer (src, dst, offset, length) {
-  for (var i = 0; i < length; ++i) {
-    if ((i + offset >= dst.length) || (i >= src.length)) break
-    dst[i + offset] = src[i]
-  }
-  return i
-}
-
-function isnan (val) {
-  return val !== val // eslint-disable-line no-self-compare
-}
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
-
-/***/ }),
-/* 220 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.byteLength = byteLength
-exports.toByteArray = toByteArray
-exports.fromByteArray = fromByteArray
-
-var lookup = []
-var revLookup = []
-var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array
-
-var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-for (var i = 0, len = code.length; i < len; ++i) {
-  lookup[i] = code[i]
-  revLookup[code.charCodeAt(i)] = i
-}
-
-revLookup['-'.charCodeAt(0)] = 62
-revLookup['_'.charCodeAt(0)] = 63
-
-function placeHoldersCount (b64) {
-  var len = b64.length
-  if (len % 4 > 0) {
-    throw new Error('Invalid string. Length must be a multiple of 4')
-  }
-
-  // the number of equal signs (place holders)
-  // if there are two placeholders, than the two characters before it
-  // represent one byte
-  // if there is only one, then the three characters before it represent 2 bytes
-  // this is just a cheap hack to not do indexOf twice
-  return b64[len - 2] === '=' ? 2 : b64[len - 1] === '=' ? 1 : 0
-}
-
-function byteLength (b64) {
-  // base64 is 4/3 + up to two characters of the original data
-  return (b64.length * 3 / 4) - placeHoldersCount(b64)
-}
-
-function toByteArray (b64) {
-  var i, l, tmp, placeHolders, arr
-  var len = b64.length
-  placeHolders = placeHoldersCount(b64)
-
-  arr = new Arr((len * 3 / 4) - placeHolders)
-
-  // if there are placeholders, only get up to the last complete 4 chars
-  l = placeHolders > 0 ? len - 4 : len
-
-  var L = 0
-
-  for (i = 0; i < l; i += 4) {
-    tmp = (revLookup[b64.charCodeAt(i)] << 18) | (revLookup[b64.charCodeAt(i + 1)] << 12) | (revLookup[b64.charCodeAt(i + 2)] << 6) | revLookup[b64.charCodeAt(i + 3)]
-    arr[L++] = (tmp >> 16) & 0xFF
-    arr[L++] = (tmp >> 8) & 0xFF
-    arr[L++] = tmp & 0xFF
-  }
-
-  if (placeHolders === 2) {
-    tmp = (revLookup[b64.charCodeAt(i)] << 2) | (revLookup[b64.charCodeAt(i + 1)] >> 4)
-    arr[L++] = tmp & 0xFF
-  } else if (placeHolders === 1) {
-    tmp = (revLookup[b64.charCodeAt(i)] << 10) | (revLookup[b64.charCodeAt(i + 1)] << 4) | (revLookup[b64.charCodeAt(i + 2)] >> 2)
-    arr[L++] = (tmp >> 8) & 0xFF
-    arr[L++] = tmp & 0xFF
-  }
-
-  return arr
-}
-
-function tripletToBase64 (num) {
-  return lookup[num >> 18 & 0x3F] + lookup[num >> 12 & 0x3F] + lookup[num >> 6 & 0x3F] + lookup[num & 0x3F]
-}
-
-function encodeChunk (uint8, start, end) {
-  var tmp
-  var output = []
-  for (var i = start; i < end; i += 3) {
-    tmp = (uint8[i] << 16) + (uint8[i + 1] << 8) + (uint8[i + 2])
-    output.push(tripletToBase64(tmp))
-  }
-  return output.join('')
-}
-
-function fromByteArray (uint8) {
-  var tmp
-  var len = uint8.length
-  var extraBytes = len % 3 // if we have 1 byte left, pad 2 bytes
-  var output = ''
-  var parts = []
-  var maxChunkLength = 16383 // must be multiple of 3
-
-  // go through the array every three bytes, we'll deal with trailing stuff later
-  for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
-    parts.push(encodeChunk(uint8, i, (i + maxChunkLength) > len2 ? len2 : (i + maxChunkLength)))
-  }
-
-  // pad the end with zeros, but make sure to not forget the extra bytes
-  if (extraBytes === 1) {
-    tmp = uint8[len - 1]
-    output += lookup[tmp >> 2]
-    output += lookup[(tmp << 4) & 0x3F]
-    output += '=='
-  } else if (extraBytes === 2) {
-    tmp = (uint8[len - 2] << 8) + (uint8[len - 1])
-    output += lookup[tmp >> 10]
-    output += lookup[(tmp >> 4) & 0x3F]
-    output += lookup[(tmp << 2) & 0x3F]
-    output += '='
-  }
-
-  parts.push(output)
-
-  return parts.join('')
-}
-
-
-/***/ }),
-/* 221 */
-/***/ (function(module, exports) {
-
-exports.read = function (buffer, offset, isLE, mLen, nBytes) {
-  var e, m
-  var eLen = nBytes * 8 - mLen - 1
-  var eMax = (1 << eLen) - 1
-  var eBias = eMax >> 1
-  var nBits = -7
-  var i = isLE ? (nBytes - 1) : 0
-  var d = isLE ? -1 : 1
-  var s = buffer[offset + i]
-
-  i += d
-
-  e = s & ((1 << (-nBits)) - 1)
-  s >>= (-nBits)
-  nBits += eLen
-  for (; nBits > 0; e = e * 256 + buffer[offset + i], i += d, nBits -= 8) {}
-
-  m = e & ((1 << (-nBits)) - 1)
-  e >>= (-nBits)
-  nBits += mLen
-  for (; nBits > 0; m = m * 256 + buffer[offset + i], i += d, nBits -= 8) {}
-
-  if (e === 0) {
-    e = 1 - eBias
-  } else if (e === eMax) {
-    return m ? NaN : ((s ? -1 : 1) * Infinity)
-  } else {
-    m = m + Math.pow(2, mLen)
-    e = e - eBias
-  }
-  return (s ? -1 : 1) * m * Math.pow(2, e - mLen)
-}
-
-exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
-  var e, m, c
-  var eLen = nBytes * 8 - mLen - 1
-  var eMax = (1 << eLen) - 1
-  var eBias = eMax >> 1
-  var rt = (mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0)
-  var i = isLE ? 0 : (nBytes - 1)
-  var d = isLE ? 1 : -1
-  var s = value < 0 || (value === 0 && 1 / value < 0) ? 1 : 0
-
-  value = Math.abs(value)
-
-  if (isNaN(value) || value === Infinity) {
-    m = isNaN(value) ? 1 : 0
-    e = eMax
-  } else {
-    e = Math.floor(Math.log(value) / Math.LN2)
-    if (value * (c = Math.pow(2, -e)) < 1) {
-      e--
-      c *= 2
-    }
-    if (e + eBias >= 1) {
-      value += rt / c
-    } else {
-      value += rt * Math.pow(2, 1 - eBias)
-    }
-    if (value * c >= 2) {
-      e++
-      c /= 2
-    }
-
-    if (e + eBias >= eMax) {
-      m = 0
-      e = eMax
-    } else if (e + eBias >= 1) {
-      m = (value * c - 1) * Math.pow(2, mLen)
-      e = e + eBias
-    } else {
-      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen)
-      e = 0
-    }
-  }
-
-  for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
-
-  e = (e << mLen) | m
-  eLen += mLen
-  for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
-
-  buffer[offset + i - d] |= s * 128
-}
-
-
-/***/ }),
-/* 222 */
-/***/ (function(module, exports) {
-
-var toString = {}.toString;
-
-module.exports = Array.isArray || function (arr) {
-  return toString.call(arr) == '[object Array]';
-};
-
-
-/***/ }),
-/* 223 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function dupe_array(count, value, i) {
-  var c = count[i]|0
-  if(c <= 0) {
-    return []
-  }
-  var result = new Array(c), j
-  if(i === count.length-1) {
-    for(j=0; j<c; ++j) {
-      result[j] = value
-    }
-  } else {
-    for(j=0; j<c; ++j) {
-      result[j] = dupe_array(count, value, i+1)
-    }
-  }
-  return result
-}
-
-function dupe_number(count, value) {
-  var result, i
-  result = new Array(count)
-  for(i=0; i<count; ++i) {
-    result[i] = value
-  }
-  return result
-}
-
-function dupe(count, value) {
-  if(typeof value === "undefined") {
-    value = 0
-  }
-  switch(typeof count) {
-    case "number":
-      if(count > 0) {
-        return dupe_number(count|0, value)
-      }
-    break
-    case "object":
-      if(typeof (count.length) === "number") {
-        return dupe_array(count, value, 0)
-      }
-    break
-  }
-  return []
-}
-
-module.exports = dupe
-
-/***/ }),
-/* 224 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var bits = __webpack_require__(225)
-
-function rootInorder(n) {
-  var ptree = (bits.nextPow2(n+1)>>>1) - 1
-  var f     = n - ptree
-  if(bits.nextPow2(f)-1 >= ptree) {
-    return ptree
-  }
-  return (ptree>>>1)+f
-}
-exports.root = rootInorder
-
-function beginInorder(n) {
-  return 0
-}
-exports.begin = beginInorder
-
-function endInorder(n) {
-  return n-1
-}
-exports.end = endInorder
-
-
-//This is really horrible because n is not necessarily a power of 2
-// If it was, we could just do:
-//
-//    height = bits.countTrailingZeros(~x)
-//
-// Instead, we just binary search because doing the right thing here is way too complicated.
-function heightInorder(n, x) {
-  if(n <= 0) {
-    return 0
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    return heightInorder(n-r-1, x-r-1)
-  } else if(x === r) {
-    return bits.log2(n)
-  }
-  return heightInorder(r, x)
-}
-exports.height = heightInorder
-
-function prevInorder(n, x) {
-  return Math.max(x-1,0)
-}
-exports.prev = prevInorder
-
-function nextInorder(n, x) {
-  return Math.min(x+1,n-1)
-}
-exports.next = nextInorder
-
-
-//The version for n = (1<<k)-1:
-//
-//  parent = (x & ~(1<<(h+1))) + (1<<h)
-//
-function parentInorder(n, x) {
-  if(n <= 0) {
-    return -1
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    var q = parentInorder(n-r-1, x-r-1)
-    if(q < 0) {
-      return r
-    } else {
-      return q + r + 1
-    }
-  } else if(x === r) {
-    return -1
-  }
-  var q =  parentInorder(r, x)
-  if(q < 0) {
-    return r
-  }
-  return q
-}
-exports.parent = parentInorder
-
-
-//Again, we get screwed because n is not a power of two -1.  If it was, we could do:
-//
-//    left = x - (1 << (h-1) )
-//
-// Where h is the height of the node
-//
-function leftInorder(n, x) {
-  if(n <= 0) {
-    return 0
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    return leftInorder(n-r-1, x-r-1) + r + 1
-  } else if(x === r) {
-    return rootInorder(x)
-  }
-  return leftInorder(r, x)
-
-}
-exports.left = leftInorder
-
-//for power of two minus one:
-//
-//    right = x + (1<<(h-1))
-//
-function rightInorder(n, x) {
-  if(n <= 0) {
-    return 0
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    return rightInorder(n-r-1, x-r-1) + r + 1
-  } else if(x === r) {
-    return rootInorder(n-r-1) + r + 1
-  }
-  return rightInorder(r, x)
-}
-exports.right = rightInorder
-
-
-function leafInorder(n, x) {
-  return heightInorder(n, x) === 0
-}
-exports.leaf = leafInorder
-
-
-function loInorder(n, x) {
-  n |= 0
-  x |= 0
-  var l = 0
-  while(n > 1) {
-    var r = rootInorder(n)
-    if(x > r) {
-      l += r + 1
-      n -= r + 1
-      x -= r + 1
-    } else if(x === r) {
-      break
-    } else {
-      n = r
-    }
-  }
-  return l
-}
-exports.lo = loInorder
-
-function hiInorder(n, x) {
-  n |= 0
-  x |= 0
-  var l = 0
-  while(n > 1) {
-    var r = rootInorder(n)
-    if(x > r) {
-      l += r + 1
-      n -= r + 1
-      x -= r + 1
-    } else if(x === r) {
-      l += n-1
-      break
-    } else {
-      n = r
-    }
-  }
-  return l
-}
-exports.hi = hiInorder
-
-
-/***/ }),
-/* 225 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/**
- * Bit twiddling hacks for JavaScript.
- *
- * Author: Mikola Lysenko
- *
- * Ported from Stanford bit twiddling hack library:
- *    http://graphics.stanford.edu/~seander/bithacks.html
- */
-
- "use restrict";
-
-//Number of bits in an integer
-var INT_BITS = 32;
-
-//Constants
-exports.INT_BITS  = INT_BITS;
-exports.INT_MAX   =  0x7fffffff;
-exports.INT_MIN   = -1<<(INT_BITS-1);
-
-//Returns -1, 0, +1 depending on sign of x
-exports.sign = function(v) {
-  return (v > 0) - (v < 0);
-}
-
-//Computes absolute value of integer
-exports.abs = function(v) {
-  var mask = v >> (INT_BITS-1);
-  return (v ^ mask) - mask;
-}
-
-//Computes minimum of integers x and y
-exports.min = function(x, y) {
-  return y ^ ((x ^ y) & -(x < y));
-}
-
-//Computes maximum of integers x and y
-exports.max = function(x, y) {
-  return x ^ ((x ^ y) & -(x < y));
-}
-
-//Checks if a number is a power of two
-exports.isPow2 = function(v) {
-  return !(v & (v-1)) && (!!v);
-}
-
-//Computes log base 2 of v
-exports.log2 = function(v) {
-  var r, shift;
-  r =     (v > 0xFFFF) << 4; v >>>= r;
-  shift = (v > 0xFF  ) << 3; v >>>= shift; r |= shift;
-  shift = (v > 0xF   ) << 2; v >>>= shift; r |= shift;
-  shift = (v > 0x3   ) << 1; v >>>= shift; r |= shift;
-  return r | (v >> 1);
-}
-
-//Computes log base 10 of v
-exports.log10 = function(v) {
-  return  (v >= 1000000000) ? 9 : (v >= 100000000) ? 8 : (v >= 10000000) ? 7 :
-          (v >= 1000000) ? 6 : (v >= 100000) ? 5 : (v >= 10000) ? 4 :
-          (v >= 1000) ? 3 : (v >= 100) ? 2 : (v >= 10) ? 1 : 0;
-}
-
-//Counts number of bits
-exports.popCount = function(v) {
-  v = v - ((v >>> 1) & 0x55555555);
-  v = (v & 0x33333333) + ((v >>> 2) & 0x33333333);
-  return ((v + (v >>> 4) & 0xF0F0F0F) * 0x1010101) >>> 24;
-}
-
-//Counts number of trailing zeros
-function countTrailingZeros(v) {
-  var c = 32;
-  v &= -v;
-  if (v) c--;
-  if (v & 0x0000FFFF) c -= 16;
-  if (v & 0x00FF00FF) c -= 8;
-  if (v & 0x0F0F0F0F) c -= 4;
-  if (v & 0x33333333) c -= 2;
-  if (v & 0x55555555) c -= 1;
-  return c;
-}
-exports.countTrailingZeros = countTrailingZeros;
-
-//Rounds to next power of 2
-exports.nextPow2 = function(v) {
-  v += v === 0;
-  --v;
-  v |= v >>> 1;
-  v |= v >>> 2;
-  v |= v >>> 4;
-  v |= v >>> 8;
-  v |= v >>> 16;
-  return v + 1;
-}
-
-//Rounds down to previous power of 2
-exports.prevPow2 = function(v) {
-  v |= v >>> 1;
-  v |= v >>> 2;
-  v |= v >>> 4;
-  v |= v >>> 8;
-  v |= v >>> 16;
-  return v - (v>>>1);
-}
-
-//Computes parity of word
-exports.parity = function(v) {
-  v ^= v >>> 16;
-  v ^= v >>> 8;
-  v ^= v >>> 4;
-  v &= 0xf;
-  return (0x6996 >>> v) & 1;
-}
-
-var REVERSE_TABLE = new Array(256);
-
-(function(tab) {
-  for(var i=0; i<256; ++i) {
-    var v = i, r = i, s = 7;
-    for (v >>>= 1; v; v >>>= 1) {
-      r <<= 1;
-      r |= v & 1;
-      --s;
-    }
-    tab[i] = (r << s) & 0xff;
-  }
-})(REVERSE_TABLE);
-
-//Reverse bits in a 32 bit word
-exports.reverse = function(v) {
-  return  (REVERSE_TABLE[ v         & 0xff] << 24) |
-          (REVERSE_TABLE[(v >>> 8)  & 0xff] << 16) |
-          (REVERSE_TABLE[(v >>> 16) & 0xff] << 8)  |
-           REVERSE_TABLE[(v >>> 24) & 0xff];
-}
-
-//Interleave bits of 2 coordinates with 16 bits.  Useful for fast quadtree codes
-exports.interleave2 = function(x, y) {
-  x &= 0xFFFF;
-  x = (x | (x << 8)) & 0x00FF00FF;
-  x = (x | (x << 4)) & 0x0F0F0F0F;
-  x = (x | (x << 2)) & 0x33333333;
-  x = (x | (x << 1)) & 0x55555555;
-
-  y &= 0xFFFF;
-  y = (y | (y << 8)) & 0x00FF00FF;
-  y = (y | (y << 4)) & 0x0F0F0F0F;
-  y = (y | (y << 2)) & 0x33333333;
-  y = (y | (y << 1)) & 0x55555555;
-
-  return x | (y << 1);
-}
-
-//Extracts the nth interleaved component
-exports.deinterleave2 = function(v, n) {
-  v = (v >>> n) & 0x55555555;
-  v = (v | (v >>> 1))  & 0x33333333;
-  v = (v | (v >>> 2))  & 0x0F0F0F0F;
-  v = (v | (v >>> 4))  & 0x00FF00FF;
-  v = (v | (v >>> 16)) & 0x000FFFF;
-  return (v << 16) >> 16;
-}
-
-
-//Interleave bits of 3 coordinates, each with 10 bits.  Useful for fast octree codes
-exports.interleave3 = function(x, y, z) {
-  x &= 0x3FF;
-  x  = (x | (x<<16)) & 4278190335;
-  x  = (x | (x<<8))  & 251719695;
-  x  = (x | (x<<4))  & 3272356035;
-  x  = (x | (x<<2))  & 1227133513;
-
-  y &= 0x3FF;
-  y  = (y | (y<<16)) & 4278190335;
-  y  = (y | (y<<8))  & 251719695;
-  y  = (y | (y<<4))  & 3272356035;
-  y  = (y | (y<<2))  & 1227133513;
-  x |= (y << 1);
-  
-  z &= 0x3FF;
-  z  = (z | (z<<16)) & 4278190335;
-  z  = (z | (z<<8))  & 251719695;
-  z  = (z | (z<<4))  & 3272356035;
-  z  = (z | (z<<2))  & 1227133513;
-  
-  return x | (z << 2);
-}
-
-//Extracts nth interleaved component of a 3-tuple
-exports.deinterleave3 = function(v, n) {
-  v = (v >>> n)       & 1227133513;
-  v = (v | (v>>>2))   & 3272356035;
-  v = (v | (v>>>4))   & 251719695;
-  v = (v | (v>>>8))   & 4278190335;
-  v = (v | (v>>>16))  & 0x3FF;
-  return (v<<22)>>22;
-}
-
-//Computes next combination in colexicographic order (this is mistakenly called nextPermutation on the bit twiddling hacks page)
-exports.nextCombination = function(v) {
-  var t = v | (v - 1);
-  return (t + 1) | (((~t & -~t) - 1) >>> (countTrailingZeros(v) + 1));
-}
-
-
-
-/***/ }),
-/* 226 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = KDTHeap
-
-var pool = __webpack_require__(41)
-
-function heapParent(i) {
-  if(i & 1) {
-    return (i - 1) >> 1
-  }
-  return (i >> 1) - 1
-}
-
-function KDTHeap(n, d) {
-  this.count = 0
-  this.dataSize = d
-  this.index = pool.mallocInt32(n)
-  this.data = pool.mallocFloat64(n*d)
-}
-
-var proto = KDTHeap.prototype
-
-proto.heapSwap = function(_i,_j) {
-  var data = this.data
-  var index = this.index
-  var d = this.dataSize
-  var tmp = index[_i]
-  index[_i] = index[_j]
-  index[_j] = tmp
-  var aptr = d*_i
-  var bptr = d*_j
-  for(var _k=0; _k<d; ++_k) {
-    var t2 = data[aptr]
-    data[aptr] = data[bptr]
-    data[bptr] = t2
-    aptr += 1
-    bptr += 1
-  }
-}
-
-proto.heapUp = function(i) {
-  var d = this.dataSize
-  var index = this.index
-  var data = this.data
-  var w = data[d*i]
-  while(i>0) {
-    var parent = heapParent(i)
-    if(parent >= 0) {
-      var pw = data[d*parent]
-      if(w < pw) {
-        this.heapSwap(i, parent)
-        i = parent
-        continue
-      }
-    }
-    break
-  }
-}
-
-proto.heapDown = function(i) {
-  var d = this.dataSize
-  var index = this.index
-  var data = this.data
-  var count = this.count
-  var w = data[d*i]
-  while(true) {
-    var tw = w
-    var left  = 2*i + 1
-    var right = 2*(i + 1)
-    var next = i
-    if(left < count) {
-      var lw = data[d*left]
-      if(lw < tw) {
-        next = left
-        tw = lw
-      }
-    }
-    if(right < count) {
-      var rw = data[d*right]
-      if(rw < tw) {
-        next = right
-      }
-    }
-    if(next === i) {
-      break
-    }
-    this.heapSwap(i, next)
-    i = next      
-  }
-}
-
-//Clear item from top of heap
-proto.pop = function() {
-  this.count -= 1
-  this.heapSwap(0, this.count)
-  this.heapDown(0)
-}
-
-//Assume object already written to data
-proto.push = function() {
-  this.heapUp(this.count)
-  this.count += 1
-}
-
-proto.dispose = function() {
-  pool.freeInt32(this.index)
-  pool.freeFloat64(this.data)
-}
-
-/***/ }),
-/* 227 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const terra_1 = __webpack_require__(39);
-class TriTerra extends terra_1.Terra {
-    deriveGridSize() {
-        let S = this.cellsize;
-        let H = this.cellsize * Math.sin(Math.PI / 3);
-        this.nrows = Math.ceil(this.height / H) - 1;
-        this.ncols = 2 * Math.ceil(this.width / S) - 2;
-    }
-    deriveTerraDimensions() {
-        let S = this.cellsize;
-        let H = this.cellsize * Math.sin(Math.PI / 3);
-        this.width = (this.ncols + 2) * S / 2;
-        this.height = (this.nrows + 1) * H;
-    }
-    getNeighbors(row, col) {
-        let neighbors;
-        let nrows = this.nrows;
-        let ncols = this.ncols;
-        if ((row + col) % 2) {
-            neighbors = [
-                [row, col - 1],
-                [row, col + 1],
-                [row + 1, col]
-            ];
-        }
-        else {
-            neighbors = [
-                [row - 1, col],
-                [row, col - 1],
-                [row, col + 1]
-            ];
-        }
-        return neighbors.filter(([row, col]) => {
-            return row >= 0 && row < nrows && col >= 0 && col < ncols;
-        });
-    }
-    isValidCellCoord(coord) {
-        coord;
-        return true; // TODO
-    }
-    distanceManhattan(a, b) {
-        return Math.abs(b[0] - a[0]) + Math.abs(b[1] - a[1]);
-    }
-    heuristic(from, to) {
-        return this.distanceManhattan(from, to);
-    }
-    getCellCenter(row, col) {
-        console.error('Not implemented');
-        return [row, col];
-    }
-    getCellCorners(i, j) {
-        let S = this.cellsize;
-        let H = S * Math.sin(Math.PI / 3);
-        if ((i + j) % 2) {
-            // Flat-side down triangle
-            return [
-                [j * S / 2 + S / 2, i * H],
-                [(j - 1) * S / 2 + S / 2, (i + 1) * H],
-                [(j + 1) * S / 2 + S / 2, (i + 1) * H],
-            ];
-        }
-        else {
-            // Flat-side up triangle
-            return [
-                [(j - 1) * S / 2 + S / 2, i * H],
-                [(j + 1) * S / 2 + S / 2, i * H],
-                [j * S / 2 + S / 2, (i + 1) * H]
-            ];
-        }
-    }
-}
-exports.TriTerra = TriTerra;
-
-
-/***/ }),
-/* 228 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const terra_1 = __webpack_require__(39);
-class HexTerra extends terra_1.Terra {
-    constructor(spec) {
-        super(spec);
-    }
-    get radiusInner() {
-        return this.cellsize * Math.sin(Math.PI / 3);
-    }
-    get radiusOuter() {
-        return this.cellsize;
-    }
-    deriveGridSize() {
-        let s = this.cellsize;
-        let h = s * Math.cos(Math.PI / 3);
-        let W = this.width;
-        let H = this.height;
-        this.ncols = Math.floor((W / s) * (2 / 3) + 1);
-        this.nrows = Math.ceil((H / (2 * h)) + 1);
-    }
-    deriveTerraDimensions() {
-        throw new Error('Not implemented');
-    }
-    getCellCenter(row, col) {
-        let s = this.cellsize;
-        let h = s * Math.cos(Math.PI / 6);
-        let cx, cy;
-        if (col % 2) {
-            cx = (0.5 + col + Math.floor(col / 2)) * s;
-            cy = (2 * row + 1) * h;
-        }
-        else {
-            cx = (3 * col / 2) * s;
-            cy = 2 * row * h;
-        }
-        return [cx, cy];
-    }
-    getCellCorners(row, col) {
-        let s = this.cellsize;
-        let h = s * Math.cos(Math.PI / 6);
-        let [cx, cy] = this.getCellCenter(row, col);
-        return [
-            [cx + s, cy],
-            [cx + s / 2, cy + h],
-            [cx - s / 2, cy + h],
-            [cx - s, cy],
-            [cx - s / 2, cy - h],
-            [cx + s / 2, cy - h]
-        ];
-    }
-    distanceManhattan(a, b) {
-        return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
-    }
-    isValidCellCoord(coord) {
-        let [row, col] = coord;
-        // Row min check
-        if (row < 0) {
-            return false;
-        }
-        // Row max check
-        if (col % 2) {
-            if (row >= this.nrows - 1) {
-                return false;
-            }
-        }
-        else {
-            if (row >= this.nrows) {
-                return false;
-            }
-        }
-        // Column min check
-        if (col < 0) {
-            return false;
-        }
-        // Column max check
-        if (col >= this.ncols) {
-            return false;
-        }
-        return true;
-    }
-    getNeighbors(row, col) {
-        let neighbors = [
-            [row + 1, col],
-            [row - 1, col]
-        ];
-        if (col % 2) {
-            neighbors.push([row, col - 1]);
-            neighbors.push([row + 1, col - 1]);
-            neighbors.push([row, col + 1]);
-            neighbors.push([row + 1, col + 1]);
-        }
-        else {
-            neighbors.push([row - 1, col - 1]);
-            neighbors.push([row, col - 1]);
-            neighbors.push([row - 1, col + 1]);
-            neighbors.push([row, col + 1]);
-        }
-        return neighbors.filter(coord => {
-            return this.isValidCellCoord(coord);
-        });
-    }
-    heuristic(from, to) {
-        return this.distanceManhattan(from, to);
-    }
-}
-exports.HexTerra = HexTerra;
-
-
-/***/ }),
-/* 229 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Fountain {
-    constructor(
-        // location of the fountain
-        cell, 
-        // When a fountain achieves divinity, the game is over
-        divinityPeriod, // in seconds
-        // Amount of spirit the fountain starts with.
-        // Striking minions will diminish this spirit.
-        // Passage of time will replenish it.
-        baseSpirit, 
-        // Total spirit required for divinity
-        spiritGoal, 
-        // The fountain generates spirit in order to reach divinity. The rate of
-        // spirit generation is spiritGoal/divinityPeriod
-        // The fountain loses spirit for every enemy actor that attacks it
-        spiritLossPerAttack, radius, sprite, onDivinity, onDestruction) {
-        this.cell = cell;
-        this.divinityPeriod = divinityPeriod;
-        this.baseSpirit = baseSpirit;
-        this.spiritGoal = spiritGoal;
-        this.spiritLossPerAttack = spiritLossPerAttack;
-        this.radius = radius;
-        this.sprite = sprite;
-        this.onDivinity = onDivinity;
-        this.onDestruction = onDestruction;
-        this.spirit = this.baseSpirit;
-        this.spiritGainSteps = 100;
-    }
-    sufferAttack(minion) {
-        // A weaker minion will impart lesser damage to fountain on attack
-        let minionStrength = minion.health / minion.maxhealth;
-        let spiritLoss = this.spiritLossPerAttack * minionStrength;
-        this.spirit -= spiritLoss;
-        this.updateDisplay();
-        if (this.spirit < 0) {
-            this.onDestruction();
-        }
-    }
-    updateDisplay() {
-        let frac = (this.spirit - this.baseSpirit) / this.spiritGoal;
-        let red, green, blue;
-        if (frac > 0) {
-            red = Math.round((1 - frac) * 255);
-            green = 255;
-            blue = Math.round((1 - frac) * 255);
-        }
-        else {
-            frac = Math.abs(frac);
-            red = 255;
-            green = Math.round((1 - frac) * 255);
-            blue = Math.round((1 - frac) * 255);
-        }
-        this.sprite.tint = red << 16 | green << 8 | blue;
-    }
-    gainSpirit() {
-        this.spirit += (this.spiritGoal - this.baseSpirit) / this.spiritGainSteps;
-        this.updateDisplay();
-        if (this.spirit >= this.spiritGoal) {
-            this.onDivinity();
-        }
-    }
-}
-exports.Fountain = Fountain;
-
-
-/***/ }),
-/* 230 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
-exports.PXC_META_REGEX = /pxc_meta_(\w+)/;
-exports.PXC_META_SPAWN_REGEX = /pxc_meta_spawn(\d+)/;
-
-
-/***/ }),
-/* 231 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Spawner {
-    constructor(cell, level, interval, // time between spawn (in seconds)
-        rate) {
-        this.cell = cell;
-        this.level = level;
-        this.interval = interval;
-        this.rate = rate;
-    }
-    recomputePath() {
-        let terrain = this.level.terra;
-        let source = this.cell;
-        let target = this.level.fountain.cell;
-        this.pathFromSource = terrain
-            .searchPath(source, target, 'bfs')
-            .map(c => terrain.getCellCenter(c[0], c[1]));
-    }
-    pathcopy() {
-        if (!this.pathFromSource) {
-            this.recomputePath();
-        }
-        return JSON.parse(JSON.stringify(this.pathFromSource));
-    }
-}
-exports.Spawner = Spawner;
-
-
-/***/ }),
-/* 232 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Animator {
-    constructor() {
-        this._queue = [];
-    }
-    add(animation) {
-        this._queue.push(animation);
-    }
-    tick(tstamp) {
-        // Process animations
-        for (let i = 0; i < this._queue.length; i++) {
-            let anim = this._queue[i];
-            if (!anim.isStarted()) {
-                anim.start(tstamp);
-            }
-            anim.eval(tstamp);
-            if (anim.isPastEnd(tstamp)) {
-                anim.end();
-                this._queue.splice(i, 1);
-                i--;
-            }
-        }
-    }
-}
-exports.Animator = Animator;
-
-
-/***/ }),
-/* 233 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const minion_1 = __webpack_require__(98);
-const tower_1 = __webpack_require__(97);
-class CollisionSystem {
-    constructor() {
-        this.minions = [];
-        this.towers = [];
-        this.inRangePairs = {};
-    }
-    addMember(member) {
-        if (member instanceof minion_1.Minion) {
-            this.minions.push(member);
-        }
-        else if (member instanceof tower_1.Tower) {
-            this.towers.push(member);
-        }
-    }
-    analyse() {
-        for (let mi = 0; mi < this.minions.length; mi++) {
-            let minion = this.minions[mi];
-            let [mx, my] = minion.position;
-            let mr = 0;
-            for (let ti = 0; ti < this.towers.length; ti++) {
-                let tower = this.towers[ti];
-                let [tx, ty] = tower.position;
-                let tr = tower.fireRange;
-                let dx = tx - mx;
-                let dy = ty - my;
-                let pairId = minion.uid + '-' + tower.uid;
-                if (dx * dx + dy * dy < (mr + tr) * (mr + tr)) {
-                    if (!this.inRangePairs.hasOwnProperty(pairId)) {
-                        // not in range already
-                        tower.onCollisionStart(minion);
-                        minion.onCollisionStart(tower);
-                        this.inRangePairs[pairId] = 1;
-                    }
-                }
-                else {
-                    if (this.inRangePairs.hasOwnProperty(pairId)) {
-                        tower.onCollisionEnd(minion);
-                        minion.onCollisionEnd(tower);
-                        delete this.inRangePairs[pairId];
-                    }
-                }
-            }
-        }
-    }
-}
-exports.CollisionSystem = CollisionSystem;
-
-
-/***/ }),
-/* 234 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(19);
-const howler = __webpack_require__(235);
-const helper_1 = __webpack_require__(11);
-const PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
-const actor_1 = __webpack_require__(24);
-class AssetManager {
-    constructor() {
-        this.sounds = {};
-    }
-    hideAllLayersInSVG() {
-        let layers = this.svgroot.children;
-        // Hide all layers
-        for (let i = 0; i < layers.length; i++) {
-            let layer = layers[i];
-            let label = layer.getAttribute('inkscape:label');
-            if (label && PXC_LAYER_REGEX.test(label)) {
-                layer.style.display = 'none'; // hide all layers
-            }
-        }
-    }
-    loadFromSVG(svgmarkup) {
-        this.svgmarkup = svgmarkup;
-        this.createOffscreenSVGDiv(svgmarkup);
-        this.spriteBoxes = {};
-        this.spriteCanvases = {};
-        this.metadata = {};
-        this.layerMap = {};
-        this.svgroot = document.body.querySelector('svg');
-        let layers = this.svgroot.children;
-        let pxc_layers = [];
-        for (let i = 0; i < layers.length; i++) {
-            this.hideAllLayersInSVG();
-            // Turn only i-th layer visible
-            let layer = layers[i];
-            let label = layer.getAttribute('inkscape:label');
-            if (label && PXC_LAYER_REGEX.test(label)) {
-                let layername = PXC_LAYER_REGEX.exec(label)[1];
-                layer.style.display = 'inline'; // TODO: test if this's necessary
-                this.spriteBoxes[layername] = {};
-                this.metadata[layername] = {};
-                pxc_layers.push(layer);
-                this.layerMap[layername] = layer;
-                this.extractSpriteBoxesForLayer(layer, layername);
-            }
-        }
-        ;
-        return new Promise((allspritesready) => {
-            let lidx = 0;
-            let sidx = 0;
-            let extractSpritesFromLayer = () => {
-                return new Promise((resolve) => {
-                    let layer = pxc_layers[lidx];
-                    let label = layer.getAttribute('inkscape:label');
-                    let layername = PXC_LAYER_REGEX.exec(label)[1];
-                    if (!this.spriteCanvases[layername]) {
-                        this.spriteCanvases[layername] = {};
-                    }
-                    // Only display current layer, hide all other layers
-                    this.hideAllLayersInSVG();
-                    layer.style.display = 'inline';
-                    // Hide all sprites in this layer
-                    for (let si = 0; si < layer.children.length; si++) {
-                        if (si !== sidx) {
-                            layer.children[si].style.display = 'none';
-                        }
-                        else {
-                            layer.children[si].style.display = 'inline';
-                        }
-                    }
-                    let svgmarkup = layer.parentElement.parentElement.innerHTML;
-                    helper_1.svgToCanvas(svgmarkup).then((canvas) => {
-                        let key = layer.children[sidx].getAttribute('inkscape:label');
-                        let box = this.spriteBoxes[layername][key];
-                        // Create canvas for the sprite
-                        let spriteCan = document.createElement('canvas');
-                        spriteCan.width = box.width;
-                        spriteCan.height = box.height;
-                        let spriteCtx = spriteCan.getContext('2d');
-                        spriteCtx.drawImage(canvas, box.left, box.top, box.width, box.height, 0, 0, box.width, box.height);
-                        this.spriteCanvases[layername][key] = spriteCan;
-                        // Extract metadata of this sprite
-                        let desc = layer.children[sidx].querySelector('desc');
-                        if (desc) {
-                            this.metadata[layername][key] = JSON.parse(desc.textContent || '{}');
-                        }
-                        else {
-                            this.metadata[layername][key] = {};
-                        }
-                        if (sidx >= layer.children.length - 1) {
-                            // Next layer
-                            lidx++;
-                            sidx = 0;
-                        }
-                        else {
-                            // Next sprite in current layer
-                            sidx++;
-                        }
-                        if (lidx < pxc_layers.length) {
-                            resolve();
-                        }
-                        else {
-                            allspritesready();
-                        }
-                    });
-                }).then(() => {
-                    return extractSpritesFromLayer();
-                });
-            };
-            extractSpritesFromLayer();
-        });
-    }
-    createOffscreenSVGDiv(svgmarkup) {
-        let svgDiv = document.createElement('div');
-        svgDiv.setAttribute('id', 'svg-wrapper');
-        svgDiv.style.position = 'absolute';
-        svgDiv.style.left = '-10000px';
-        svgDiv.style.top = '0px';
-        svgDiv.innerHTML = svgmarkup;
-        document.body.appendChild(svgDiv);
-        let svg = svgDiv.querySelector('svg');
-        this.docWidth = parseInt(svg.getAttribute('width'));
-        this.docHeight = parseInt(svg.getAttribute('height'));
-    }
-    extractSpriteBoxesForLayer(layer, name) {
-        layer.style.display = 'inline';
-        let { left: offsetX, top: offsetY } = this.svgroot.getBoundingClientRect();
-        for (let j = 0; j < layer.children.length; j++) {
-            let spriteG = layer.children[j];
-            let { left, top, width, height } = spriteG.getBoundingClientRect();
-            let spriteName = spriteG.getAttribute('inkscape:label');
-            console.assert(spriteName);
-            this.spriteBoxes[name][spriteName] = {
-                left: left - offsetX,
-                top: top - offsetY,
-                width,
-                height
-            };
-        }
-    }
-    loadSounds() {
-        return new Promise((resolve) => {
-            this.sounds['tower-fire'] = new howler.Howl({
-                src: ['assets/tower-fire.mp3'],
-                volume: 0.5,
-                loop: false,
-                autoplay: false,
-                onload: () => {
-                    resolve();
-                }
-            });
-        });
-    }
-    getSound(key) {
-        return this.sounds[key];
-    }
-    createActor(layername) {
-        let spriteActionGroups = {};
-        let storeSpriteCanvas = (key, canvas) => {
-            console.assert(/(\w+)(\d+)/.test(key));
-            let match = /(\w+)(\d+)/.exec(key);
-            let action = match[1];
-            let sequence = parseInt(match[2]);
-            if (!spriteActionGroups[action]) {
-                spriteActionGroups[action] = [];
-            }
-            spriteActionGroups[action].push({
-                index: sequence,
-                canvas: canvas
-            });
-        };
-        let spriteCanvases = this.spriteCanvases[layername];
-        for (let key in spriteCanvases) {
-            storeSpriteCanvas(key, spriteCanvases[key]);
-        }
-        let actorSprites = {};
-        for (let action in spriteActionGroups) {
-            let actionGroup = spriteActionGroups[action];
-            actionGroup.sort((a, b) => a.index - b.index);
-            let frames = actionGroup.map((entry) => {
-                return pixi.Texture.fromCanvas(entry.canvas);
-            });
-            let animSprite = new pixi.extras.AnimatedSprite(frames);
-            animSprite.play();
-            animSprite.animationSpeed = 0.2;
-            actorSprites[action] = animSprite;
-        }
-        return actorSprites.move ?
-            new actor_1.MovableActor(actorSprites) : new actor_1.Actor(actorSprites);
-    }
-    createSprite(layername, keyPrefix) {
-        let spriteCanvas = this.spriteCanvases[layername][keyPrefix];
-        let texture = pixi.Texture.from(spriteCanvas);
-        let sprite = new pixi.Sprite(texture);
-        sprite.anchor.set(0.5);
-        return sprite;
-    }
-}
-exports.AssetManager = AssetManager;
-
-
-/***/ }),
-/* 235 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -52866,22 +47204,5306 @@ exports.AssetManager = AssetManager;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 236 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(__dirname) {var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
-var path = __webpack_require__(6)
+"use strict";
 
-var pathFile = path.join(__dirname, 'path.txt')
+Object.defineProperty(exports, "__esModule", { value: true });
+const level_1 = __webpack_require__(204);
+exports.Level = level_1.Level;
 
-if (fs.existsSync(pathFile)) {
-  module.exports = path.join(__dirname, fs.readFileSync(pathFile, 'utf-8'))
-} else {
-  throw new Error('Electron failed to install correctly, please delete node_modules/electron and try installing again')
+
+/***/ }),
+/* 204 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(23);
+const enemy_ai_1 = __webpack_require__(205);
+const player_ai_1 = __webpack_require__(206);
+const terragrid_1 = __webpack_require__(207);
+const fountain_1 = __webpack_require__(228);
+const constants_1 = __webpack_require__(229);
+const spawner_1 = __webpack_require__(230);
+const helper_1 = __webpack_require__(11);
+const animator_1 = __webpack_require__(231);
+const animation_1 = __webpack_require__(96);
+const tower_1 = __webpack_require__(97);
+const minion_1 = __webpack_require__(98);
+const collision_sys_1 = __webpack_require__(232);
+const USE_DOM_FOR_GRID_ANALYSIS = true;
+const HIGHLIGHT_CELL_UNDER_CURSOR = false;
+const PADDING = 20;
+const DEBUG = true;
+const SCROLL_MULTIPLIER = 4000;
+class Level {
+    constructor(spec, am) {
+        this.spec = spec;
+        this.am = am;
+        this.spawners = [];
+        this.towers = [];
+        this.minions = [];
+        this.mapname = 'map_' + this.spec.map;
+        this.animator = new animator_1.Animator();
+        this.collsys = new collision_sys_1.CollisionSystem();
+        let [vpw, vph] = this.computeViewportDimensions();
+        this.initApp(vpw, vph);
+        this.viewScaleRange = { min: vpw / this.am.docWidth, max: 1 };
+        this.terra = new terragrid_1.HexTerra({
+            width: this.am.docWidth,
+            height: this.am.docHeight,
+            cellsize: 50
+        });
+        this.doGridAnalysis().then(() => {
+            this.setupScene();
+            this.registerMouseInteraction();
+            this.enemyAI = new enemy_ai_1.EnemyAI(this);
+            this.playerAI = new player_ai_1.PlayerAI(this);
+            this.play();
+        });
+        const SCAN_UPDATE_INTERVAL = 100; // msec
+        // rotation in radians per update interval for 30 revolutions per minute
+        const DELTA_TOWER_ROTATION = (Math.PI / 2) * SCAN_UPDATE_INTERVAL / 1000;
+        this.towerScanTimer = new helper_1.Timer(SCAN_UPDATE_INTERVAL, () => {
+            this.towers.forEach(tower => {
+                tower.rotateToScanIfNotBusy(DELTA_TOWER_ROTATION);
+            });
+        });
+    }
+    addTower(tower) {
+        this.collsys.addMember(tower);
+        this.towers.push(tower);
+        for (let sprite of tower.sprites) {
+            this.app.stage.addChild(sprite);
+        }
+        // Add weight at tower location on terrain
+        let cell = this.terra.resolveCell(tower.position[0], tower.position[1]);
+        console.assert(!!cell);
+        this.terra.setWallAt(cell[0], cell[1]);
+        // Make spawners recompute paths for minions spawned in future
+        this.spawners.forEach(spawner => spawner.recomputePath());
+        // Update paths of existing minions
+        this.minions.forEach(minion => minion.recomputePath());
+        tower.setupAnimation();
+    }
+    removeTower(tower) {
+        for (let sprite of tower.sprites) {
+            this.app.stage.removeChild(sprite);
+        }
+        let idx = this.towers.indexOf(tower);
+        this.towers.splice(idx, 1);
+    }
+    computeViewportDimensions() {
+        let mapAspectRatio = this.am.docWidth / this.am.docHeight;
+        let sx = window.innerWidth / this.am.docWidth;
+        let sy = window.innerHeight / this.am.docHeight;
+        let width;
+        let height;
+        if (sx < sy) {
+            width = window.innerWidth;
+            height = width / mapAspectRatio;
+        }
+        else {
+            height = window.innerHeight;
+            width = height * mapAspectRatio;
+        }
+        return [width - PADDING, height - PADDING];
+    }
+    doGridAnalysis() {
+        let svgGridDiv = document.createElement('div');
+        svgGridDiv.style.position = 'absolute';
+        svgGridDiv.style.left = '0px';
+        svgGridDiv.style.top = '0px';
+        document.body.appendChild(svgGridDiv);
+        svgGridDiv.innerHTML = this.am.svgmarkup;
+        let svg = svgGridDiv.querySelector('svg');
+        let docwidth = this.am.docWidth;
+        let docheight = this.am.docHeight;
+        // Hide all pxc_layers and then unhide only the current layer
+        let layers = svg.children;
+        for (let i = 0; i < layers.length; i++) {
+            let layer = layers[i];
+            let label = layer.getAttribute('inkscape:label');
+            if (label && constants_1.PXC_LAYER_REGEX.test(label)) {
+                layer.style.display = 'none'; // hide all layers
+            }
+            if (label === 'pxc_layer_' + this.mapname) {
+                layer.style.display = 'inline';
+            }
+        }
+        let aspectRatio = docwidth / docheight;
+        let width = 800;
+        let height = 600;
+        if (width < height) {
+            height = width / aspectRatio;
+        }
+        else {
+            width = height * aspectRatio;
+        }
+        let viewBox = `0 0 ${docwidth} ${docheight}`;
+        svg.setAttribute('width', `${width}px`);
+        svg.setAttribute('height', `${height}px`);
+        svg.setAttribute('viewBox', viewBox);
+        let sx = width / docwidth;
+        let sy = height / docheight;
+        return new Promise((resolve) => {
+            if (USE_DOM_FOR_GRID_ANALYSIS) {
+                this.analyseAllCells((point) => {
+                    let x = Math.round(sx * point[0]);
+                    let y = Math.round(sy * point[1]);
+                    let elem = document.elementFromPoint(x, y);
+                    if (x < 0 || y < 0 || x >= width || y >= height) {
+                        return false;
+                    }
+                    if (elem) {
+                        let label = elem.getAttribute('inkscape:label');
+                        if (elem.tagName !== 'svg') {
+                            if (label && constants_1.PXC_META_REGEX.test(label)) {
+                                return false;
+                            }
+                            return true;
+                        }
+                    }
+                    return false;
+                });
+                svgGridDiv.remove();
+                resolve();
+            }
+            else {
+                let getRawColorAt = (idata, x, y, w) => {
+                    let data = idata.data;
+                    let pos = 4 * (y * w + x);
+                    return [
+                        data[pos],
+                        data[pos + 1],
+                        data[pos + 2],
+                        data[pos + 3] // Alpha
+                    ];
+                };
+                // Draw things on a canvas
+                helper_1.svgToCanvas(svgGridDiv.innerHTML, '#ffffff').then((canvas) => {
+                    let ctx = canvas.getContext('2d');
+                    let imgdata = ctx.getImageData(0, 0, width, height);
+                    this.analyseAllCells((point) => {
+                        let x = Math.round(sx * point[0]);
+                        let y = Math.round(sy * point[1]);
+                        let [r, g, b] = getRawColorAt(imgdata, x, y, width);
+                        if (x < 0 || y < 0 || x >= width || y >= height) {
+                            return false;
+                        }
+                        return (r !== 255 || g !== 255 || b !== 255);
+                    });
+                    svgGridDiv.remove();
+                    resolve();
+                });
+            }
+        });
+    }
+    analyseAllCells(iswall) {
+        let interpolateCorners = (corners, n = 2) => {
+            let allpoints = [];
+            for (let i = 0; i < corners.length; i++) {
+                let cur = corners[i];
+                let next = i < corners.length - 1 ? corners[i + 1] : corners[0];
+                allpoints.push(cur);
+                for (let j = 0; j < n; j++) {
+                    allpoints.push([
+                        cur[0] + ((j + 1) / (n + 1)) * (next[0] - cur[0]),
+                        cur[1] + ((j + 1) / (n + 1)) * (next[1] - cur[1]),
+                    ]);
+                }
+            }
+            return allpoints;
+        };
+        this.terra.cornersForEachCell((corners, row, col) => {
+            let weight = 1;
+            let perimeter = interpolateCorners(corners);
+            for (let point of perimeter) {
+                if (iswall(point)) {
+                    weight = 0;
+                }
+            }
+            this.terra.setWeight(row, col, weight);
+        });
+    }
+    hideGridDebugVisual() {
+        let div = document.getElementById('grid-visual-wrapper');
+        if (div) {
+            div.style.display = 'none';
+        }
+    }
+    showGridDebugVisual() {
+        let vpW = this.app.view.width;
+        let vpH = this.app.view.height;
+        let div = document.getElementById('grid-visual-wrapper');
+        if (!div) {
+            div = document.createElement('div');
+            div.setAttribute('id', 'grid-visual-wrapper');
+            div.innerHTML = this.terra.toSVG(0.2);
+            let svg = div.querySelector('svg');
+            svg.setAttribute('id', 'grid-visual');
+            let width = parseInt(svg.getAttribute('width'));
+            let height = parseInt(svg.getAttribute('height'));
+            svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+            svg.setAttribute('width', vpW + '');
+            svg.setAttribute('height', vpH + '');
+            div.style.position = 'absolute';
+            div.style.left = '50%';
+            div.style.top = '50%';
+            div.style.marginLeft = -vpW / 2 + 'px';
+            div.style.marginTop = -vpH / 2 + 'px';
+            div.style.zIndex = '10';
+            div.style.pointerEvents = 'none';
+            this.app.view.parentElement.appendChild(div);
+            let sx = vpW / width;
+            let sy = vpH / height;
+            let highlightCellAndNeighbors = (coord) => {
+                // Reset color of all cells according to weights
+                this.terra.forEachCell((row, col) => {
+                    let weight = this.terra.getWeight(row, col);
+                    let cell = div.querySelector(`polygon#cell${row}-${col}`);
+                    cell.setAttribute('fill', weight ? '#ffffff' : '#000000');
+                });
+                // Paint cell under cursor
+                let cell = div.querySelector(`polygon#cell${coord[0]}-${coord[1]}`);
+                cell.setAttribute('fill', '#ff0000');
+                // Paint neighbors of cell under cursor
+                let neighbors = this.terra.getNeighbors(coord[0], coord[1]);
+                for (let neighbor of neighbors) {
+                    let cell = div.querySelector(`polygon#cell${neighbor[0]}-${neighbor[1]}`);
+                    cell.setAttribute('fill', '#0000ff');
+                }
+            };
+            let showCoord = (coord) => {
+                console.log(coord);
+            };
+            div.addEventListener('mousemove', (ev) => {
+                let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
+                if (HIGHLIGHT_CELL_UNDER_CURSOR) {
+                    highlightCellAndNeighbors(coord);
+                }
+                showCoord(coord);
+            });
+            div.addEventListener('click', (ev) => {
+                let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
+                console.log(this.terra.getCellDebugInfo(coord[0], coord[1]));
+            });
+        }
+        div.style.display = 'inherit';
+    }
+    highlightCell(row, col, color) {
+        let svg = this.app.view.parentElement.querySelector('#grid-visual');
+        let cell = svg.querySelector(`polygon#cell${row}-${col}`);
+        cell.setAttribute('fill', color);
+    }
+    initApp(vpWidth, vpHeight) {
+        // Setup Pixi App
+        this.app = new pixi.Application(vpWidth, vpHeight, {
+            backgroundColor: 0xffffff,
+            antialias: true,
+            autoStart: false
+        });
+        this.app.view.setAttribute('id', 'app');
+        this.app.view.style.position = 'absolute';
+        this.app.view.style.left = '50%';
+        this.app.view.style.top = '50%';
+        this.app.view.style.marginLeft = -vpWidth / 2 + 'px';
+        this.app.view.style.marginTop = -vpHeight / 2 + 'px';
+    }
+    initFountain(spec, cell) {
+        let sprite = this.am.createSprite('sprites', 'fountain');
+        let [fnx, fny] = this.terra.getCellCenter(cell[0], cell[1]);
+        sprite.position.set(fnx, fny);
+        sprite.scale.set(0.5, 0.5);
+        let radius = Math.max(sprite.height, sprite.width) / 2;
+        this.fountain = new fountain_1.Fountain(cell, spec.divinityPeriod, spec.baseSpirit, spec.spiritGoal, spec.spiritLossPerAttack, radius, sprite, () => {
+            console.log('%cDivinity', 'background:#00ff00;color:#ffffff');
+            this.pause();
+        }, () => {
+            console.log('%cDestruction', 'background:#ff0000;color:#ffffff');
+            this.pause();
+        });
+        this.app.stage.addChild(sprite);
+    }
+    setupScene() {
+        let am = this.am;
+        let app = this.app;
+        document.body.style.background = 'black';
+        let mapWidth = am.docWidth;
+        let mapHeight = am.docHeight;
+        let spriteCanvasMap = am.spriteCanvases[this.mapname];
+        let spriteBoxes = am.spriteBoxes[this.mapname];
+        let metadata = am.metadata[this.mapname];
+        for (let key in spriteCanvasMap) {
+            let texture = pixi.Texture.from(spriteCanvasMap[key]);
+            let { left, top, width, height } = spriteBoxes[key];
+            let sprite = null;
+            if (key === 'background') {
+                sprite = new pixi.extras.TilingSprite(texture, mapWidth, mapHeight);
+            }
+            else if (constants_1.PXC_META_REGEX.test(key)) {
+                let cell = this.terra.resolveCell(left + width / 2, top + height / 2);
+                console.assert(cell);
+                if (constants_1.PXC_META_SPAWN_REGEX.test(key)) {
+                    let spec = metadata[key];
+                    this.spawners.push(new spawner_1.Spawner(cell, this, spec.interval, spec.rate));
+                }
+                else if (key === 'pxc_meta_fountain') {
+                    this.initFountain(metadata[key], cell);
+                }
+            }
+            else {
+                sprite = new pixi.Sprite(texture);
+                sprite.position.set(left, top);
+            }
+            if (sprite) {
+                app.stage.addChild(sprite);
+            }
+        }
+        let scale = this.viewScaleRange.min;
+        let tx = 0;
+        let ty = 0;
+        this.app.stage.setTransform(tx, ty, scale, scale);
+        this.viewTransformDirty = true;
+        if (DEBUG) {
+            this.debugGraphics = new pixi.Graphics();
+            this.app.stage.addChild(this.debugGraphics);
+        }
+    }
+    createTowerHolderSprite() {
+        let sprite = this.am.createSprite('sprites', 'towerpreview');
+        let rangeSpriteRadius = sprite.getBounds().width / 2;
+        sprite.scale.set(this.spec.towerFireRange / rangeSpriteRadius);
+        return sprite;
+    }
+    fetchActorSprites(actorLayerName) {
+        let spriteActionGroups = {};
+        let storeSpriteCanvas = (key, canvas) => {
+            console.assert(/(\w+)(\d+)/.test(key));
+            let match = /(\w+)(\d+)/.exec(key);
+            let action = match[1];
+            let sequence = parseInt(match[2]);
+            if (!spriteActionGroups[action]) {
+                spriteActionGroups[action] = [];
+            }
+            spriteActionGroups[action].push({
+                index: sequence,
+                canvas: canvas
+            });
+        };
+        let spriteCanvases = this.am.spriteCanvases[actorLayerName];
+        for (let key in spriteCanvases) {
+            storeSpriteCanvas(key, spriteCanvases[key]);
+        }
+        let actorSprites = {};
+        for (let action in spriteActionGroups) {
+            let actionGroup = spriteActionGroups[action];
+            actionGroup.sort((a, b) => a.index - b.index);
+            let frames = actionGroup.map((entry) => {
+                return pixi.Texture.fromCanvas(entry.canvas);
+            });
+            let animSprite = new pixi.extras.AnimatedSprite(frames);
+            animSprite.play();
+            animSprite.animationSpeed = 0.2;
+            actorSprites[action] = animSprite;
+        }
+        return actorSprites;
+    }
+    createMinion() {
+        let minionSprites = this.fetchActorSprites('actor_' + this.spec.minionActorName);
+        return new minion_1.Minion(minionSprites, [0, 0], this);
+    }
+    createTower() {
+        let towerSprites = this.fetchActorSprites('actor_' + this.spec.towerActorName);
+        let cellsize = this.terra.radiusInner * 2;
+        for (let key in towerSprites) {
+            let sprite = towerSprites[key];
+            let spriteSize = sprite.getBounds().width;
+            sprite.scale.set(cellsize / spriteSize);
+        }
+        return new tower_1.Tower(towerSprites, [0, 0], this);
+    }
+    addMinion(cell, path) {
+        let terrain = this.terra;
+        let app = this.app;
+        console.assert(!this.terra.isWallAt(cell[0], cell[1]));
+        let minion = this.createMinion();
+        minion.position = terrain.getCellCenter(cell[0], cell[1]);
+        minion.scale = [0.5, 0.5];
+        minion.speed = 3;
+        for (let sprite of minion.sprites) {
+            app.stage.addChild(sprite);
+        }
+        this.minions.push(minion);
+        this.collsys.addMember(minion);
+        minion.moveAlongPath(path, 5);
+    }
+    viewportToDocument(x, y) {
+        return this.app.stage.transform.worldTransform
+            .applyInverse(new pixi.Point(x, y));
+    }
+    documentToViewport(x, y) {
+        return this.app.stage.transform.worldTransform
+            .apply(new pixi.Point(x, y));
+    }
+    doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1) {
+        let zoomAnimation = new animation_1.Animation(200, animation_1.Animation.EASEOUT, (u) => {
+            let tx = tx0 + (tx1 - tx0) * u;
+            let ty = ty0 + (ty1 - ty0) * u;
+            let scale = scale0 + (scale1 - scale0) * u;
+            this.app.stage.setTransform(tx, ty, scale, scale);
+        }, () => {
+            this.app.stage.setTransform(tx1, ty1, scale1, scale1);
+        });
+        this.animator.add(zoomAnimation);
+    }
+    zoomOut() {
+        let tx0 = this.app.stage.position.x;
+        let ty0 = this.app.stage.position.y;
+        let scale0 = this.app.stage.scale.x;
+        let tx1 = 0;
+        let ty1 = 0;
+        let scale1 = this.viewScaleRange.min;
+        this.doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1);
+    }
+    zoomIn(vpCursor) {
+        let vpWidth = this.app.view.width;
+        let vpHeight = this.app.view.height;
+        let docWidth = this.am.docWidth;
+        let docHeight = this.am.docHeight;
+        let docCenter = [docWidth / 2, docHeight / 2];
+        let docCursor = this.viewportToDocument(vpCursor.x, vpCursor.y);
+        let tx0 = this.app.stage.position.x;
+        let ty0 = this.app.stage.position.y;
+        let scale0 = this.app.stage.scale.x;
+        let tx1 = 0;
+        let ty1 = 0;
+        let scale1 = this.viewScaleRange.max;
+        if (Math.abs(docCursor.x - docCenter[0]) < vpWidth / 2) {
+            tx1 = (docWidth - vpWidth) / 2;
+        }
+        else if (docCursor.x > docWidth - vpWidth) {
+            tx1 = docWidth - vpWidth;
+        }
+        else if (docCursor.x < vpWidth) {
+            tx1 = 0;
+        }
+        else {
+            console.assert(false);
+        }
+        if (Math.abs(docCursor.y - docCenter[1]) < vpHeight / 2) {
+            ty1 = (docHeight - vpHeight) / 2;
+        }
+        else if (docCursor.y > docHeight - vpHeight) {
+            ty1 = docHeight - vpHeight;
+        }
+        else if (docCursor.y < vpHeight) {
+            ty1 = 0;
+        }
+        else {
+            console.assert(false);
+        }
+        this.doZoomAnimation(tx0, ty0, scale0, -tx1, -ty1, scale1);
+    }
+    registerMouseInteraction() {
+        let vpWidth = this.app.view.width;
+        let vpHeight = this.app.view.height;
+        let vpCenter = [vpWidth / 2, vpHeight / 2];
+        this.app.view.addEventListener('mouseleave', (ev) => {
+            let { offsetX: x, offsetY: y } = ev;
+            let dx = x - vpCenter[0];
+            let dy = y - vpCenter[1];
+            let mag = dx * dx + dy * dy;
+            this.viewScrollVector = [dx / mag, dy / mag];
+        });
+        this.app.view.addEventListener('mouseenter', () => {
+            this.viewScrollVector = null;
+        });
+        this.app.view.addEventListener('mousewheel', (ev) => {
+            if (ev.deltaY > 0) {
+                this.zoomOut();
+            }
+            else {
+                this.zoomIn(new pixi.Point(ev.offsetX, ev.offsetY));
+            }
+        });
+        this.app.view.addEventListener('mousedown', (ev) => {
+            this.playerAI.onMouseDown(ev);
+        });
+        this.app.view.addEventListener('mouseup', (ev) => {
+            this.playerAI.onMouseUp(ev);
+        });
+        this.app.view.addEventListener('mousemove', (ev) => {
+            this.playerAI.onMouseMove(ev);
+        });
+    }
+    isPlaying() {
+        return this.app.ticker.started;
+    }
+    pause() {
+        this.app.ticker.stop();
+    }
+    resume() {
+        this.app.ticker.start();
+    }
+    doViewScroll() {
+        let app = this.app;
+        if (this.viewScrollVector) {
+            let vpWidth = this.app.view.width;
+            let vpHeight = this.app.view.height;
+            let docWidth = this.am.docWidth;
+            let docHeight = this.am.docHeight;
+            let scale = app.stage.scale.x;
+            let tx = app.stage.position.x;
+            let ty = app.stage.position.y;
+            let dx = 0;
+            let dy = 0;
+            if (this.viewScrollVector) {
+                dx = this.viewScrollVector[0] * SCROLL_MULTIPLIER;
+                dy = this.viewScrollVector[1] * SCROLL_MULTIPLIER;
+            }
+            tx -= dx;
+            ty -= dy;
+            // Since we only support two zoom levels, we clamp the scale
+            // to those two values. There are instances when scale value
+            // varies from them due to numerical errors or other reasons
+            // (for e.g. zooming and scrolling happending simultaneously)
+            let isScaleMin = Math.abs(scale - this.viewScaleRange.min) <
+                Math.abs(scale - this.viewScaleRange.max);
+            if (isScaleMin) {
+                tx = 0;
+                ty = 0;
+            }
+            else {
+                tx = Math.max(Math.min(-tx, docWidth - vpWidth), 0);
+                ty = Math.max(Math.min(-ty, docHeight - vpHeight), 0);
+            }
+            app.stage.setTransform(-tx, -ty, scale, scale);
+            this.viewTransformDirty = false;
+        }
+    }
+    play() {
+        let app = this.app;
+        app.ticker.add(() => {
+            this.doViewScroll();
+            let [row, col] = this.fountain.cell;
+            let [fx, fy] = this.terra.getCellCenter(row, col);
+            let proxLimitSq = this.fountain.radius * this.fountain.radius;
+            // Move actors if they are in motion
+            for (let minion of this.minions) {
+                if (minion.inmotion) {
+                    minion.move();
+                    let [mx, my] = minion.position;
+                    let dx = fx - mx;
+                    let dy = fy - my;
+                    if (dx * dx + dy * dy <= proxLimitSq) {
+                        // Fountain suffers finite attack
+                        this.fountain.sufferAttack(minion);
+                        // Minion suffers infinite attack, thus dying
+                        minion.sufferAttack(Infinity);
+                    }
+                }
+            }
+            this.cleanupDeadMinions();
+            let t = new Date().valueOf(); // TODO: convert to game time from real time
+            this.enemyAI.tick(t);
+            this.playerAI.tick(t);
+            this.animator.tick(t);
+            this.towers.forEach(tower => tower.tick(t));
+            this.towerScanTimer.tick(t);
+            this.collsys.analyse();
+        });
+        app.ticker.start();
+    }
+    cleanupDeadMinions() {
+        let minionsToRemove = [];
+        for (let minion of this.minions) {
+            if (minion.isdead()) {
+                minionsToRemove.push(minion);
+            }
+        }
+        minionsToRemove.forEach(minion => this.removeMinion(minion));
+    }
+    removeMinion(minion) {
+        // Minion self destructs after the attack on fountain
+        for (let sprite of minion.sprites) {
+            this.app.stage.removeChild(sprite);
+        }
+        let idx = this.minions.indexOf(minion);
+        console.assert(idx >= 0);
+        this.minions.splice(idx, 1);
+    }
+    // Debug routines
+    drawLine(pa, pb, color = 0x000000) {
+        console.assert(DEBUG);
+        this.debugGraphics.beginFill(0x000000);
+        this.debugGraphics.lineStyle(2, color);
+        this.debugGraphics.moveTo(pa[0], pa[1]);
+        this.debugGraphics.lineTo(pb[0], pb[1]);
+        this.debugGraphics.endFill();
+    }
+}
+exports.Level = Level;
+
+
+/***/ }),
+/* 205 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const helper_1 = __webpack_require__(11);
+class EnemyAI {
+    constructor(level) {
+        this.level = level;
+        this.spawnTimers = this.level.spawners.map((spl) => {
+            let interval;
+            if (spl.interval) {
+                interval = spl.interval;
+            }
+            else if (spl.rate) {
+                interval = Math.round(60 / spl.rate);
+            }
+            else {
+                interval = 10;
+            }
+            return new helper_1.Timer(interval * 1000, () => {
+                this.level.addMinion(spl.cell, spl.pathcopy());
+            });
+        });
+    }
+    tick(t) {
+        this.spawnTimers.forEach(sptmr => sptmr.tick(t));
+    }
+}
+exports.EnemyAI = EnemyAI;
+
+
+/***/ }),
+/* 206 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const helper_1 = __webpack_require__(11);
+class PlayerAI {
+    constructor(level) {
+        this.level = level;
+        let spiritGainIntervalmsec = 1000 *
+            this.level.fountain.divinityPeriod / this.level.fountain.spiritGainSteps;
+        this.towerHolder = this.level.createTowerHolderSprite();
+        this.towerHolder.alpha = 0.3;
+        this.spiritGainTimer = new helper_1.Timer(spiritGainIntervalmsec, () => {
+            this.level.fountain.gainSpirit();
+        });
+    }
+    onMouseDown(ev) {
+        ev;
+    }
+    onMouseUp(ev) {
+        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
+        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
+        if (cell && !this.level.terra.isWallAt(cell[0], cell[1])) {
+            let tower = this.level.createTower();
+            tower.place(cell);
+            this.level.addTower(tower);
+        }
+    }
+    onMouseMove(ev) {
+        let stage = this.level.app.stage;
+        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
+        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
+        if (cell && !this.level.terra.isWallAt(cell[0], cell[1])) {
+            if (stage.children.indexOf(this.towerHolder) < 0) {
+                stage.addChild(this.towerHolder);
+            }
+            let [x, y] = this.level.terra.getCellCenter(cell[0], cell[1]);
+            this.towerHolder.position.set(x, y);
+        }
+        else {
+            if (stage.children.indexOf(this.towerHolder) >= 0) {
+                stage.removeChild(this.towerHolder);
+            }
+        }
+    }
+    tick(t) {
+        this.spiritGainTimer.tick(t);
+    }
+}
+exports.PlayerAI = PlayerAI;
+
+
+/***/ }),
+/* 207 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const terra_1 = __webpack_require__(39);
+exports.Terra = terra_1.Terra;
+const triterra_1 = __webpack_require__(226);
+exports.TriTerra = triterra_1.TriTerra;
+const hexterra_1 = __webpack_require__(227);
+exports.HexTerra = hexterra_1.HexTerra;
+
+
+/***/ }),
+/* 208 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = createKDTree
+module.exports.deserialize = deserializeKDTree
+
+var ndarray = __webpack_require__(40)
+var ndselect = __webpack_require__(211)
+var pack = __webpack_require__(212)
+var ops = __webpack_require__(95)
+var ndscratch = __webpack_require__(217)
+var pool = __webpack_require__(41)
+var inorderTree = __webpack_require__(223)
+var bits = __webpack_require__(13)
+var KDTHeap = __webpack_require__(225)
+
+function KDTree(points, ids, n, d) {
+  this.points = points
+  this.ids = ids
+  this.dimension = d
+  this.length = n
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "/"))
+var proto = KDTree.prototype
+
+proto.serialize = function() {
+  if(this.length > 0) {
+    return {
+      p: Array.prototype.slice.call(this.points.data, 0, this.length*this.dimension),
+      i: Array.prototype.slice.call(this.ids, 0, this.length)
+    }
+  } else {
+    return { d: this.dimension }
+  }
+}
+
+//Range query
+proto.range = function kdtRangeQuery(lo, hi, visit) {
+  var n = this.length
+  if(n < 1) {
+    return
+  }
+
+  //Check degenerate case
+  var d = this.dimension
+  for(var i=0; i<d; ++i) {
+    if(hi[i] < lo[i]) {
+      return
+    }
+  }
+
+  var points = this.points
+  var ids = this.ids
+
+  //Walk tree in level order, skipping subtrees which do not intersect range
+  var visitRange = ndscratch.malloc([n, 2, d])
+  var visitIndex = pool.mallocInt32(n)
+  var rangeData = visitRange.data
+  var pointData = points.data
+  var visitCount = 1
+  var visitTop = 0
+  var retval
+
+  visitIndex[0] = 0
+  pack(lo, visitRange.pick(0,0))
+  pack(hi, visitRange.pick(0,1))
+  
+  while(visitTop < visitCount) {
+    var idx = visitIndex[visitTop]
+    var k = bits.log2(idx+1)%d
+    var loidx = visitRange.index(visitTop, 0, 0)
+    var hiidx = visitRange.index(visitTop, 1, 0)
+    var pidx = points.index(idx, 0)
+
+    var visitPoint = true
+    for(var i=0; i<d; ++i) {
+      var pc = pointData[pidx+i]
+      if((pc < rangeData[loidx + i]) || 
+         (rangeData[hiidx + i] < pc)) {
+        visitPoint = false
+        break
+      }
+    }
+    if(visitPoint) {
+      retval = visit(ids[idx])
+      if(retval !== undefined) {
+        break
+      }
+    }
+
+    //Visit children
+    var pk = pointData[pidx+k]
+    var hk = rangeData[hiidx+k]
+    var lk = rangeData[loidx+k]
+    if(lk <= pk) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        visitIndex[visitCount] = left
+        var y = visitRange.index(visitCount, 0, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[y+i] = rangeData[loidx+i]
+        }
+        var z = visitRange.index(visitCount, 1, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[z+i] = rangeData[hiidx+i]
+        }
+        rangeData[z+k] = Math.min(hk, pk)
+        visitCount += 1
+      }
+    }
+    if(pk <= hk) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        visitIndex[visitCount] = right
+        var y = visitRange.index(visitCount, 0, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[y+i] = rangeData[loidx+i]
+        }
+        var z = visitRange.index(visitCount, 1, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[z+i] = rangeData[hiidx+i]
+        }
+        rangeData[y+k] = Math.max(lk, pk)
+        visitCount += 1
+      }
+    }
+
+    //Increment pointer
+    visitTop += 1
+  }
+  ndscratch.free(visitRange)
+  pool.free(visitIndex)
+  return retval
+}
+
+proto.rnn = function(point, radius, visit) {
+  if(radius < 0) {
+    return
+  }
+  var n = this.length
+  if(n < 1) {
+    return
+  }
+  var d = this.dimension
+  var points = this.points
+  var ids = this.ids
+
+  //Walk tree in level order, skipping subtrees which do not intersect sphere
+  var visitDistance = ndscratch.malloc([n, d])
+  var visitIndex = pool.mallocInt32(n)
+  var distanceData = visitDistance.data
+  var pointData = points.data
+  var visitCount = 1
+  var visitTop = 0
+  var r2 = radius*radius
+  var retval
+
+  //Initialize top of queue
+  visitIndex[0] = 0
+  for(var i=0; i<d; ++i) {
+    visitDistance.set(0, i, 0)
+  }
+
+  //Walk over queue
+  while(visitTop < visitCount) {
+    var idx = visitIndex[visitTop]
+    var pidx = points.index(idx, 0)
+
+    //Check if point in sphere
+    var d2 = 0.0
+    for(var i=0; i<d; ++i) {
+      d2 += Math.pow(point[i] - pointData[pidx+i], 2)
+    }
+    if(d2 <= r2) {
+      retval = visit(ids[idx])
+      if(retval !== undefined) {
+        break
+      }
+    }
+
+    //Visit children
+    var k = bits.log2(idx+1)%d
+    var ds = 0.0
+    var didx = visitDistance.index(visitTop, 0)
+    for(var i=0; i<d; ++i) {
+      if(i !== k) {
+        ds += distanceData[didx + i]
+      }
+    }
+
+    //Handle split axis
+    var qk = point[k]
+    var pk = pointData[pidx+k]
+    var dk = distanceData[didx+k]
+    var lk = dk
+    var hk = dk
+    if(qk < pk) {
+      hk = Math.max(dk, Math.pow(pk - qk, 2))
+    } else {
+      lk = Math.max(dk, Math.pow(pk - qk, 2))
+    }
+
+    var d2l = lk + ds
+    var d2h = hk + ds
+
+    if(d2l <= r2) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        visitIndex[visitCount] = left
+        var y = visitDistance.index(visitCount, 0)
+        for(var i=0; i<d; ++i) {
+          distanceData[y+i] = distanceData[didx+i]
+        }
+        distanceData[y+k] = lk
+        visitCount += 1
+      }
+    }
+    if(d2h <= r2) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        visitIndex[visitCount] = right
+        var y = visitDistance.index(visitCount, 0)
+        for(var i=0; i<d; ++i) {
+          distanceData[y+i] = distanceData[didx+i]
+        }
+        distanceData[y+k] = hk
+        visitCount += 1
+      }
+    }
+
+    //Increment pointer
+    visitTop += 1
+  }
+
+  ndscratch.free(visitDistance)
+  pool.free(visitIndex)
+  return retval
+}
+
+proto.nn = function(point, maxDistance) {
+  var n = this.length
+  if(n < 1) {
+    return -1
+  }
+  if(typeof maxDistance === "number") {
+    if(maxDistance < 0) {
+      return -1
+    } 
+  } else {
+    maxDistance = Infinity
+  }
+  var d = this.dimension
+  var points = this.points
+  var pointData = points.data
+  var dataVector = pool.mallocFloat64(d)
+
+  var toVisit = new KDTHeap(n, d+1)
+  var index = toVisit.index
+  var data = toVisit.data
+  index[0] = 0
+  for(var i=0; i<=d; ++i) {
+    data[i] = 0
+  }
+  toVisit.count += 1
+
+  var nearest = -1
+  var nearestD = maxDistance
+
+  while(toVisit.count > 0) {
+    if(data[0] >= nearestD) {
+      break
+    }
+
+    var idx = index[0]
+    var pidx = points.index(idx, 0)
+    var d2 = 0.0
+    for(var i=0; i<d; ++i) {
+      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
+    }
+    if(d2 < nearestD) {
+      nearestD = d2
+      nearest = idx
+    }
+
+    //Compute distance bounds for children
+    var k = bits.log2(idx+1)%d
+    var ds = 0
+    for(var i=0; i<d; ++i) {
+      var dd = data[i+1]
+      if(i !== k) {
+        ds += dd
+      }
+      dataVector[i] = dd
+    }
+    var qk = point[k]
+    var pk = pointData[pidx+k]
+    var dk = dataVector[k]
+    var lk = dk
+    var hk = dk
+    if(qk < pk) {
+      hk = Math.max(dk, Math.pow(pk - qk, 2))
+    } else {
+      lk = Math.max(dk, Math.pow(pk - qk, 2))
+    }
+    var d2l = lk + ds
+    var d2h = hk + ds
+
+    toVisit.pop()
+    
+    if(d2l < nearestD) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        var vcount = toVisit.count
+        index[vcount] = left
+        var vptr = vcount * (d+1)
+        data[vptr] = d2l
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = lk
+        toVisit.push()
+      }
+    }
+    if(d2h < nearestD) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        var vcount = toVisit.count
+        index[vcount] = right
+        var vptr = vcount * (d+1)
+        data[vptr] = d2h
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = hk
+        toVisit.push()
+      }
+    }
+  }
+
+  pool.freeFloat64(dataVector)
+  toVisit.dispose()
+  
+  if(nearest < 0) {
+    return -1
+  }
+  return this.ids[nearest]
+}
+
+proto.knn = function(point, maxPoints, maxDistance) {
+  //Check degenerate cases
+  if(typeof maxDistance === "number") {
+    if(maxDistance < 0) {
+      return []
+    }
+  } else {
+    maxDistance = Infinity
+  }
+  var n = this.length
+  if(n < 1) {
+    return []
+  }
+  if(typeof maxPoints === "number") {
+    if(maxPoints <= 0) {
+      return []
+    }
+    maxPoints = Math.min(maxPoints, n)|0
+  } else {
+    maxPoints = n
+  }
+  var ids = this.ids
+
+  var d = this.dimension
+  var points = this.points
+  var pointData = points.data
+  var dataVector = pool.mallocFloat64(d)
+  
+  //List of closest points
+  var closestPoints = new KDTHeap(maxPoints, 1)
+  var cl_index = closestPoints.index
+  var cl_data = closestPoints.data
+
+  var toVisit = new KDTHeap(n, d+1)
+  var index = toVisit.index
+  var data = toVisit.data
+  index[0] = 0
+  for(var i=0; i<=d; ++i) {
+    data[i] = 0
+  }
+  toVisit.count += 1
+
+  var nearest = -1
+  var nearestD = maxDistance
+
+  while(toVisit.count > 0) {
+    if(data[0] >= nearestD) {
+      break
+    }
+
+    var idx = index[0]
+    var pidx = points.index(idx, 0)
+    var d2 = 0.0
+    for(var i=0; i<d; ++i) {
+      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
+    }
+    if(d2 < nearestD) {
+      if(closestPoints.count >= maxPoints) {
+        closestPoints.pop()
+      }
+      var pcount = closestPoints.count
+      cl_index[pcount] = idx
+      cl_data[pcount] = -d2
+      closestPoints.push()
+      if(closestPoints.count >= maxPoints) {
+        nearestD = -cl_data[0]
+      }
+    }
+
+    //Compute distance bounds for children
+    var k = bits.log2(idx+1)%d
+    var ds = 0
+    for(var i=0; i<d; ++i) {
+      var dd = data[i+1]
+      if(i !== k) {
+        ds += dd
+      }
+      dataVector[i] = dd
+    }
+    var qk = point[k]
+    var pk = pointData[pidx+k]
+    var dk = dataVector[k]
+    var lk = dk
+    var hk = dk
+    if(qk < pk) {
+      hk = Math.max(dk, Math.pow(pk - qk, 2))
+    } else {
+      lk = Math.max(dk, Math.pow(pk - qk, 2))
+    }
+    var d2l = lk + ds
+    var d2h = hk + ds
+
+    toVisit.pop()
+    if(d2l < nearestD) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        var vcount = toVisit.count
+        index[vcount] = left
+        var vptr = vcount * (d+1)
+        data[vptr] = d2l
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = lk
+        toVisit.push()
+      }
+    }
+    if(d2h < nearestD) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        var vcount = toVisit.count
+        index[vcount] = right
+        var vptr = vcount * (d+1)
+        data[vptr] = d2h
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = hk
+        toVisit.push()
+      }
+    }
+  }
+
+  pool.freeFloat64(dataVector)
+  toVisit.dispose()
+
+  //Sort result
+  var result = new Array(closestPoints.count)
+  var ids = this.ids
+  for(var i=closestPoints.count-1; i>=0; --i) {
+    result[i] = ids[cl_index[0]]
+    closestPoints.pop()
+  }
+  closestPoints.dispose()
+
+  return result
+}
+
+proto.dispose = function kdtDispose() {
+  pool.free(this.points.data)
+  pool.freeInt32(this.ids)
+  this.points = null
+  this.ids = null
+  this.length = 0
+}
+
+function createKDTree(points) {
+  var n, d, indexed
+  if(Array.isArray(points)) {
+    n = points.length
+    if(n === 0) {
+      return new KDTree(null, null, 0, 0)
+    }
+    d = points[0].length
+    indexed = ndarray(pool.mallocDouble(n*(d+1)), [n, d+1])
+    pack(points, indexed.hi(n, d))
+  } else {
+    n = points.shape[0]
+    d = points.shape[1]
+
+    //Round up data type size
+    var type = points.dtype
+    if(type === "int8" ||
+       type === "int16" ||
+       type === "int32" ) {
+      type = "int32"
+    } else if(type === "uint8" ||
+      type === "uint8_clamped" ||
+      type === "buffer" ||
+      type === "uint16" ||
+      type === "uint32") {
+      type = "uint32"
+    } else if(type === "float32") {
+      type = "float32"
+    } else {
+      type = "float64"
+    }
+    indexed = ndarray(pool.malloc(n*(d+1)), [n, d+1])
+    ops.assign(indexed.hi(n,d), points)
+  }
+  for(var i=0; i<n; ++i) {
+    indexed.set(i, d, i)
+  }
+
+  var pointArray = ndscratch.malloc([n, d], points.dtype)
+  var indexArray = pool.mallocInt32(n)
+  var pointer = 0
+  var pointData = pointArray.data
+  var arrayData = indexed.data
+  var l2_n = bits.log2(bits.nextPow2(n))
+
+  var sel_cmp = ndselect.compile(indexed.order, true, indexed.dtype)
+
+  //Walk tree in level order
+  var toVisit = [indexed]
+  while(pointer < n) {
+    var head = toVisit.shift()
+    var array = head
+    var nn = array.shape[0]|0
+    
+    //Find median
+    if(nn > 1) {
+      var k = bits.log2(pointer+1)%d
+      var median
+      var n_2 = inorderTree.root(nn)
+      median = sel_cmp(array, n_2, function(a,b) {
+        return a.get(k) - b.get(k)
+      })
+
+      //Copy into new array
+      var pptr = pointArray.index(pointer, 0)
+      var mptr = median.offset
+      for(var i=0; i<d; ++i) {
+        pointData[pptr++] = arrayData[mptr++]
+      }
+      indexArray[pointer] = arrayData[mptr]
+      pointer += 1
+
+      //Queue new items
+      toVisit.push(array.hi(n_2))
+      if(nn > 2) {
+        toVisit.push(array.lo(n_2+1))
+      }
+    } else {
+      //Copy into new array
+      var mptr = array.offset
+      var pptr = pointArray.index(pointer, 0)
+      for(var i=0; i<d; ++i) {
+        pointData[pptr+i] = arrayData[mptr++]
+      }
+      indexArray[pointer] = arrayData[mptr]
+      pointer += 1
+    }
+  }
+
+  //Release indexed
+  pool.free(indexed.data)
+
+  return new KDTree(pointArray, indexArray, n, d)
+}
+
+function deserializeKDTree(data) {
+  var points = data.p
+  var ids = data.i
+  if(points) {
+    var nd = points.length
+    var pointArray = pool.mallocFloat64(nd)
+    for(var i=0; i<nd; ++i) {
+      pointArray[i] = points[i]
+    }
+    var n = ids.length
+    var idArray = pool.mallocInt32(n)
+    for(var i=0; i<n; ++i) {
+      idArray[i] = ids[i]
+    }
+    var d = (nd/n)|0
+    return new KDTree(
+      ndarray(pointArray, [n,d]),
+      idArray,
+      n,
+      d)
+  } else {
+    return new KDTree(null, null, 0, data.d)
+  }
+}
+
+/***/ }),
+/* 209 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function iota(n) {
+  var result = new Array(n)
+  for(var i=0; i<n; ++i) {
+    result[i] = i
+  }
+  return result
+}
+
+module.exports = iota
+
+/***/ }),
+/* 210 */
+/***/ (function(module, exports) {
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+// The _isBuffer check is for Safari 5-7 support, because it's missing
+// Object.prototype.constructor. Remove this eventually
+module.exports = function (obj) {
+  return obj != null && (isBuffer(obj) || isSlowBuffer(obj) || !!obj._isBuffer)
+}
+
+function isBuffer (obj) {
+  return !!obj.constructor && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
+}
+
+// For Node v0.10 support. Remove this eventually.
+function isSlowBuffer (obj) {
+  return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
+}
+
+
+/***/ }),
+/* 211 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = ndSelect
+module.exports.compile = lookupCache
+
+//Macros
+var ARRAY = "a"
+var RANK = "K"
+var CMP = "C"
+var DATA = "d"
+var OFFSET = "o"
+var RND = "R"
+var TMP = "T"
+var LO = "L"
+var HI = "H"
+var PIVOT = "X"
+function SHAPE(i) {
+  return "s" + i
+}
+function STRIDE(i) {
+  return "t" + i
+}
+function STEP(i) {
+  return "u" + i
+}
+function STEP_CMP(i) {
+  return "v" + i
+}
+function INDEX(i) {
+  return "i" + i
+}
+function PICK(i) {
+  return "p" + i
+}
+function PTR(i) {
+  return "x" + i
+}
+
+//Create new order where index 0 is slowest index
+function permuteOrder(order) {
+  var norder = order.slice()
+  norder.splice(order.indexOf(0), 1)
+  norder.unshift(0)
+  return norder
+}
+
+//Generate quick select procedure
+function compileQuickSelect(order, useCompare, dtype) {
+  order = permuteOrder(order)
+
+  var dimension = order.length
+  var useGetter = (dtype === "generic")
+  var funcName = "ndSelect" + dtype + order.join("_") + "_" + (useCompare ? "cmp" : "lex")
+
+  var code = []
+
+  //Get arguments for code
+  var args = [ARRAY, RANK]
+  if(useCompare) {
+    args.push(CMP)
+  }
+
+  //Unpack ndarray variables
+  var vars = [
+    DATA + "=" + ARRAY + ".data",
+    OFFSET + "=" + ARRAY + ".offset|0",
+    RND + "=Math.random",
+    TMP]
+  for(var i=0; i<2; ++i) {
+    vars.push(PTR(i) + "=0")
+  }
+  for(var i=0; i<dimension; ++i) {
+    vars.push(
+      SHAPE(i) + "=" + ARRAY + ".shape[" + i + "]|0",
+      STRIDE(i) + "=" + ARRAY + ".stride[" + i + "]|0",
+      INDEX(i) + "=0")
+  }
+  for(var i=1; i<dimension; ++i) {
+    if(i > 1) {
+      vars.push(STEP_CMP(i) + "=(" + STRIDE(i) + "-" + SHAPE(i-1) + "*" + STRIDE(i-1) + ")|0",
+                STEP(order[i]) + "=(" + STRIDE(order[i]) + "-" + SHAPE(order[i-1]) + "*" + STRIDE(order[i-1]) + ")|0")
+    } else {
+      vars.push(STEP_CMP(i) + "=" + STRIDE(i),
+                STEP(order[i]) + "=" + STRIDE(order[i]))
+    }
+  }
+  if(useCompare) {
+    for(var i=0; i<2; ++i) {
+      vars.push(PICK(i) + "=" + ARRAY + ".pick(0)")
+    }
+  }
+  vars.push(
+    PIVOT + "=0",
+    LO + "=0",
+    HI + "=" + SHAPE(order[0]) + "-1")
+
+  function compare(out, i0, i1) {
+    if(useCompare) {
+      code.push(
+        PICK(0), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
+        PICK(1), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");",
+        out, "=", CMP, "(", PICK(0), ",", PICK(1), ");")
+    } else {
+      code.push(
+        PTR(0), "=", OFFSET, "+", STRIDE(0), "*(", i0, ");",
+        PTR(1), "=", OFFSET, "+", STRIDE(0), "*(", i1, ");")
+      if(dimension > 1) {
+        code.push("_cmp:")
+      }
+      for(var i=dimension-1; i>0; --i) {
+        code.push("for(", INDEX(i), "=0;", 
+          INDEX(i), "<", SHAPE(i), ";",
+          INDEX(i), "++){")
+      }
+      if(useGetter) {
+        code.push(out, "=", DATA, ".get(", PTR(0), ")-", 
+                            DATA, ".get(", PTR(1), ");")
+      } else {
+        code.push(out, "=", DATA, "[", PTR(0), "]-", 
+                            DATA, "[", PTR(1), "];")
+      }
+      if(dimension > 1) {
+        code.push("if(", out, ")break _cmp;")
+      }
+      for(var i=1; i<dimension; ++i) {
+        code.push(
+          PTR(0), "+=", STEP_CMP(i), ";",
+          PTR(1), "+=", STEP_CMP(i),
+          "}")
+      }
+    }
+  }
+
+  function swap(i0, i1) {
+    code.push(
+      PTR(0), "=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
+      PTR(1), "=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");")
+    for(var i=dimension-1; i>0; --i) {
+      code.push("for(", INDEX(order[i]), "=0;", 
+        INDEX(order[i]), "<", SHAPE(order[i]), ";",
+        INDEX(order[i]), "++){")
+    }
+    if(useGetter) {
+      code.push(TMP, "=", DATA, ".get(", PTR(0), ");", 
+                DATA, ".set(", PTR(0), ",", DATA, ".get(", PTR(1), "));",
+                DATA, ".set(", PTR(1), ",", TMP, ");")
+    } else {
+      code.push(TMP, "=", DATA, "[", PTR(0), "];", 
+                DATA, "[", PTR(0), "]=", DATA, "[", PTR(1), "];",
+                DATA, "[", PTR(1), "]=", TMP, ";")
+    }
+    for(var i=1; i<dimension; ++i) {
+      code.push(
+        PTR(0), "+=", STEP(order[i]), ";",
+        PTR(1), "+=", STEP(order[i]),
+        "}")
+    }
+  }
+
+  code.push(
+    "while(", LO, "<", HI, "){",
+      PIVOT, "=(", RND, "()*(", HI, "-", LO, "+1)+", LO, ")|0;")
+
+  //Partition array by pivot
+  swap(PIVOT, HI) // Store pivot temporarily at the end of the array
+
+  code.push(
+    PIVOT, "=", LO, ";", // PIVOT will now be used to keep track of the end of the interval of elements less than the pivot
+    "for(", INDEX(0), "=", LO, ";",
+      INDEX(0), "<", HI, ";",
+      INDEX(0), "++){") // Loop over other elements (unequal to the pivot), note that HI now points to the pivot
+  compare(TMP, INDEX(0), HI) // Lexicographical compare of element with pivot
+  code.push("if(", TMP, "<0){")
+  swap(PIVOT, INDEX(0)) // Swap current element with element at index PIVOT if it is less than the pivot
+  code.push(PIVOT, "++;")
+  code.push("}}")
+  swap(PIVOT, HI) // Store pivot right after all elements that are less than the pivot (implying that all elements >= the pivot are behind the pivot)
+
+  //Check pivot bounds
+  code.push(
+    "if(", PIVOT, "===", RANK, "){",
+      LO, "=", PIVOT, ";",
+      "break;",
+    "}else if(", RANK, "<", PIVOT, "){",
+      HI, "=", PIVOT, "-1;",
+    "}else{",
+      LO, "=", PIVOT, "+1;",
+    "}",
+  "}")
+
+  if(useCompare) {
+    code.push(PICK(0), ".offset=", OFFSET, "+", LO, "*", STRIDE(0), ";",
+      "return ", PICK(0), ";")
+  } else {
+    code.push("return ", ARRAY, ".pick(", LO, ");")
+  }
+
+  //Compile and link js together
+  var procCode = [
+    "'use strict';function ", funcName, "(", args, "){",
+      "var ", vars.join(), ";",
+      code.join(""),
+    "};return ", funcName
+  ].join("")
+
+  var proc = new Function(procCode)
+  return proc()
+}
+
+var CACHE = {}
+
+function lookupCache(order, useCompare, dtype) {
+  var typesig = order.join() + useCompare + dtype
+  var proc = CACHE[typesig]
+  if(proc) {
+    return proc
+  }
+  return CACHE[typesig] = compileQuickSelect(order, useCompare, dtype)
+}
+
+function ndSelect(array, k, compare) {
+  k |= 0
+  if((array.dimension === 0) || 
+    (array.shape[0] <= k) ||
+    (k < 0)) {
+    return null
+  }
+  var useCompare = !!compare
+  var proc = lookupCache(array.order, useCompare, array.dtype)
+  if(useCompare) {
+    return proc(array, k, compare)
+  } else {
+    return proc(array, k)
+  }
+}
+
+/***/ }),
+/* 212 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var ndarray = __webpack_require__(40)
+var do_convert = __webpack_require__(213)
+
+module.exports = function convert(arr, result) {
+  var shape = [], c = arr, sz = 1
+  while(Array.isArray(c)) {
+    shape.push(c.length)
+    sz *= c.length
+    c = c[0]
+  }
+  if(shape.length === 0) {
+    return ndarray()
+  }
+  if(!result) {
+    result = ndarray(new Float64Array(sz), shape)
+  }
+  do_convert(result, arr)
+  return result
+}
+
+
+/***/ }),
+/* 213 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports=__webpack_require__(94)({"args":["array","scalar","index"],"pre":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"body":{"body":"{\nvar _inline_1_v=_inline_1_arg1_,_inline_1_i\nfor(_inline_1_i=0;_inline_1_i<_inline_1_arg2_.length-1;++_inline_1_i) {\n_inline_1_v=_inline_1_v[_inline_1_arg2_[_inline_1_i]]\n}\n_inline_1_arg0_=_inline_1_v[_inline_1_arg2_[_inline_1_arg2_.length-1]]\n}","args":[{"name":"_inline_1_arg0_","lvalue":true,"rvalue":false,"count":1},{"name":"_inline_1_arg1_","lvalue":false,"rvalue":true,"count":1},{"name":"_inline_1_arg2_","lvalue":false,"rvalue":true,"count":4}],"thisVars":[],"localVars":["_inline_1_i","_inline_1_v"]},"post":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"funcName":"convert","blockSize":64})
+
+
+/***/ }),
+/* 214 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// The function below is called when constructing a cwise function object, and does the following:
+// A function object is constructed which accepts as argument a compilation function and returns another function.
+// It is this other function that is eventually returned by createThunk, and this function is the one that actually
+// checks whether a certain pattern of arguments has already been used before and compiles new loops as needed.
+// The compilation passed to the first function object is used for compiling new functions.
+// Once this function object is created, it is called with compile as argument, where the first argument of compile
+// is bound to "proc" (essentially containing a preprocessed version of the user arguments to cwise).
+// So createThunk roughly works like this:
+// function createThunk(proc) {
+//   var thunk = function(compileBound) {
+//     var CACHED = {}
+//     return function(arrays and scalars) {
+//       if (dtype and order of arrays in CACHED) {
+//         var func = CACHED[dtype and order of arrays]
+//       } else {
+//         var func = CACHED[dtype and order of arrays] = compileBound(dtype and order of arrays)
+//       }
+//       return func(arrays and scalars)
+//     }
+//   }
+//   return thunk(compile.bind1(proc))
+// }
+
+var compile = __webpack_require__(215)
+
+function createThunk(proc) {
+  var code = ["'use strict'", "var CACHED={}"]
+  var vars = []
+  var thunkName = proc.funcName + "_cwise_thunk"
+  
+  //Build thunk
+  code.push(["return function ", thunkName, "(", proc.shimArgs.join(","), "){"].join(""))
+  var typesig = []
+  var string_typesig = []
+  var proc_args = [["array",proc.arrayArgs[0],".shape.slice(", // Slice shape so that we only retain the shape over which we iterate (which gets passed to the cwise operator as SS).
+                    Math.max(0,proc.arrayBlockIndices[0]),proc.arrayBlockIndices[0]<0?(","+proc.arrayBlockIndices[0]+")"):")"].join("")]
+  var shapeLengthConditions = [], shapeConditions = []
+  // Process array arguments
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    var j = proc.arrayArgs[i]
+    vars.push(["t", j, "=array", j, ".dtype,",
+               "r", j, "=array", j, ".order"].join(""))
+    typesig.push("t" + j)
+    typesig.push("r" + j)
+    string_typesig.push("t"+j)
+    string_typesig.push("r"+j+".join()")
+    proc_args.push("array" + j + ".data")
+    proc_args.push("array" + j + ".stride")
+    proc_args.push("array" + j + ".offset|0")
+    if (i>0) { // Gather conditions to check for shape equality (ignoring block indices)
+      shapeLengthConditions.push("array" + proc.arrayArgs[0] + ".shape.length===array" + j + ".shape.length+" + (Math.abs(proc.arrayBlockIndices[0])-Math.abs(proc.arrayBlockIndices[i])))
+      shapeConditions.push("array" + proc.arrayArgs[0] + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[0]) + "]===array" + j + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[i]) + "]")
+    }
+  }
+  // Check for shape equality
+  if (proc.arrayArgs.length > 1) {
+    code.push("if (!(" + shapeLengthConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same dimensionality!')")
+    code.push("for(var shapeIndex=array" + proc.arrayArgs[0] + ".shape.length-" + Math.abs(proc.arrayBlockIndices[0]) + "; shapeIndex-->0;) {")
+    code.push("if (!(" + shapeConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same shape!')")
+    code.push("}")
+  }
+  // Process scalar arguments
+  for(var i=0; i<proc.scalarArgs.length; ++i) {
+    proc_args.push("scalar" + proc.scalarArgs[i])
+  }
+  // Check for cached function (and if not present, generate it)
+  vars.push(["type=[", string_typesig.join(","), "].join()"].join(""))
+  vars.push("proc=CACHED[type]")
+  code.push("var " + vars.join(","))
+  
+  code.push(["if(!proc){",
+             "CACHED[type]=proc=compile([", typesig.join(","), "])}",
+             "return proc(", proc_args.join(","), ")}"].join(""))
+
+  if(proc.debug) {
+    console.log("-----Generated thunk:\n" + code.join("\n") + "\n----------")
+  }
+  
+  //Compile thunk
+  var thunk = new Function("compile", code.join("\n"))
+  return thunk(compile.bind(undefined, proc))
+}
+
+module.exports = createThunk
+
+
+/***/ }),
+/* 215 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var uniq = __webpack_require__(216)
+
+// This function generates very simple loops analogous to how you typically traverse arrays (the outermost loop corresponds to the slowest changing index, the innermost loop to the fastest changing index)
+// TODO: If two arrays have the same strides (and offsets) there is potential for decreasing the number of "pointers" and related variables. The drawback is that the type signature would become more specific and that there would thus be less potential for caching, but it might still be worth it, especially when dealing with large numbers of arguments.
+function innerFill(order, proc, body) {
+  var dimension = order.length
+    , nargs = proc.arrayArgs.length
+    , has_index = proc.indexArgs.length>0
+    , code = []
+    , vars = []
+    , idx=0, pidx=0, i, j
+  for(i=0; i<dimension; ++i) { // Iteration variables
+    vars.push(["i",i,"=0"].join(""))
+  }
+  //Compute scan deltas
+  for(j=0; j<nargs; ++j) {
+    for(i=0; i<dimension; ++i) {
+      pidx = idx
+      idx = order[i]
+      if(i === 0) { // The innermost/fastest dimension's delta is simply its stride
+        vars.push(["d",j,"s",i,"=t",j,"p",idx].join(""))
+      } else { // For other dimensions the delta is basically the stride minus something which essentially "rewinds" the previous (more inner) dimension
+        vars.push(["d",j,"s",i,"=(t",j,"p",idx,"-s",pidx,"*t",j,"p",pidx,")"].join(""))
+      }
+    }
+  }
+  if (vars.length > 0) {
+    code.push("var " + vars.join(","))
+  }  
+  //Scan loop
+  for(i=dimension-1; i>=0; --i) { // Start at largest stride and work your way inwards
+    idx = order[i]
+    code.push(["for(i",i,"=0;i",i,"<s",idx,";++i",i,"){"].join(""))
+  }
+  //Push body of inner loop
+  code.push(body)
+  //Advance scan pointers
+  for(i=0; i<dimension; ++i) {
+    pidx = idx
+    idx = order[i]
+    for(j=0; j<nargs; ++j) {
+      code.push(["p",j,"+=d",j,"s",i].join(""))
+    }
+    if(has_index) {
+      if(i > 0) {
+        code.push(["index[",pidx,"]-=s",pidx].join(""))
+      }
+      code.push(["++index[",idx,"]"].join(""))
+    }
+    code.push("}")
+  }
+  return code.join("\n")
+}
+
+// Generate "outer" loops that loop over blocks of data, applying "inner" loops to the blocks by manipulating the local variables in such a way that the inner loop only "sees" the current block.
+// TODO: If this is used, then the previous declaration (done by generateCwiseOp) of s* is essentially unnecessary.
+//       I believe the s* are not used elsewhere (in particular, I don't think they're used in the pre/post parts and "shape" is defined independently), so it would be possible to make defining the s* dependent on what loop method is being used.
+function outerFill(matched, order, proc, body) {
+  var dimension = order.length
+    , nargs = proc.arrayArgs.length
+    , blockSize = proc.blockSize
+    , has_index = proc.indexArgs.length > 0
+    , code = []
+  for(var i=0; i<nargs; ++i) {
+    code.push(["var offset",i,"=p",i].join(""))
+  }
+  //Generate loops for unmatched dimensions
+  // The order in which these dimensions are traversed is fairly arbitrary (from small stride to large stride, for the first argument)
+  // TODO: It would be nice if the order in which these loops are placed would also be somehow "optimal" (at the very least we should check that it really doesn't hurt us if they're not).
+  for(var i=matched; i<dimension; ++i) {
+    code.push(["for(var j"+i+"=SS[", order[i], "]|0;j", i, ">0;){"].join("")) // Iterate back to front
+    code.push(["if(j",i,"<",blockSize,"){"].join("")) // Either decrease j by blockSize (s = blockSize), or set it to zero (after setting s = j).
+    code.push(["s",order[i],"=j",i].join(""))
+    code.push(["j",i,"=0"].join(""))
+    code.push(["}else{s",order[i],"=",blockSize].join(""))
+    code.push(["j",i,"-=",blockSize,"}"].join(""))
+    if(has_index) {
+      code.push(["index[",order[i],"]=j",i].join(""))
+    }
+  }
+  for(var i=0; i<nargs; ++i) {
+    var indexStr = ["offset"+i]
+    for(var j=matched; j<dimension; ++j) {
+      indexStr.push(["j",j,"*t",i,"p",order[j]].join(""))
+    }
+    code.push(["p",i,"=(",indexStr.join("+"),")"].join(""))
+  }
+  code.push(innerFill(order, proc, body))
+  for(var i=matched; i<dimension; ++i) {
+    code.push("}")
+  }
+  return code.join("\n")
+}
+
+//Count the number of compatible inner orders
+// This is the length of the longest common prefix of the arrays in orders.
+// Each array in orders lists the dimensions of the correspond ndarray in order of increasing stride.
+// This is thus the maximum number of dimensions that can be efficiently traversed by simple nested loops for all arrays.
+function countMatches(orders) {
+  var matched = 0, dimension = orders[0].length
+  while(matched < dimension) {
+    for(var j=1; j<orders.length; ++j) {
+      if(orders[j][matched] !== orders[0][matched]) {
+        return matched
+      }
+    }
+    ++matched
+  }
+  return matched
+}
+
+//Processes a block according to the given data types
+// Replaces variable names by different ones, either "local" ones (that are then ferried in and out of the given array) or ones matching the arguments that the function performing the ultimate loop will accept.
+function processBlock(block, proc, dtypes) {
+  var code = block.body
+  var pre = []
+  var post = []
+  for(var i=0; i<block.args.length; ++i) {
+    var carg = block.args[i]
+    if(carg.count <= 0) {
+      continue
+    }
+    var re = new RegExp(carg.name, "g")
+    var ptrStr = ""
+    var arrNum = proc.arrayArgs.indexOf(i)
+    switch(proc.argTypes[i]) {
+      case "offset":
+        var offArgIndex = proc.offsetArgIndex.indexOf(i)
+        var offArg = proc.offsetArgs[offArgIndex]
+        arrNum = offArg.array
+        ptrStr = "+q" + offArgIndex // Adds offset to the "pointer" in the array
+      case "array":
+        ptrStr = "p" + arrNum + ptrStr
+        var localStr = "l" + i
+        var arrStr = "a" + arrNum
+        if (proc.arrayBlockIndices[arrNum] === 0) { // Argument to body is just a single value from this array
+          if(carg.count === 1) { // Argument/array used only once(?)
+            if(dtypes[arrNum] === "generic") {
+              if(carg.lvalue) {
+                pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
+                code = code.replace(re, localStr)
+                post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
+              } else {
+                code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
+              }
+            } else {
+              code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
+            }
+          } else if(dtypes[arrNum] === "generic") {
+            pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
+            code = code.replace(re, localStr)
+            if(carg.lvalue) {
+              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
+            }
+          } else {
+            pre.push(["var ", localStr, "=", arrStr, "[", ptrStr, "]"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
+            code = code.replace(re, localStr)
+            if(carg.lvalue) {
+              post.push([arrStr, "[", ptrStr, "]=", localStr].join(""))
+            }
+          }
+        } else { // Argument to body is a "block"
+          var reStrArr = [carg.name], ptrStrArr = [ptrStr]
+          for(var j=0; j<Math.abs(proc.arrayBlockIndices[arrNum]); j++) {
+            reStrArr.push("\\s*\\[([^\\]]+)\\]")
+            ptrStrArr.push("$" + (j+1) + "*t" + arrNum + "b" + j) // Matched index times stride
+          }
+          re = new RegExp(reStrArr.join(""), "g")
+          ptrStr = ptrStrArr.join("+")
+          if(dtypes[arrNum] === "generic") {
+            /*if(carg.lvalue) {
+              pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
+              code = code.replace(re, localStr)
+              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
+            } else {
+              code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
+            }*/
+            throw new Error("cwise: Generic arrays not supported in combination with blocks!")
+          } else {
+            // This does not produce any local variables, even if variables are used multiple times. It would be possible to do so, but it would complicate things quite a bit.
+            code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
+          }
+        }
+      break
+      case "scalar":
+        code = code.replace(re, "Y" + proc.scalarArgs.indexOf(i))
+      break
+      case "index":
+        code = code.replace(re, "index")
+      break
+      case "shape":
+        code = code.replace(re, "shape")
+      break
+    }
+  }
+  return [pre.join("\n"), code, post.join("\n")].join("\n").trim()
+}
+
+function typeSummary(dtypes) {
+  var summary = new Array(dtypes.length)
+  var allEqual = true
+  for(var i=0; i<dtypes.length; ++i) {
+    var t = dtypes[i]
+    var digits = t.match(/\d+/)
+    if(!digits) {
+      digits = ""
+    } else {
+      digits = digits[0]
+    }
+    if(t.charAt(0) === 0) {
+      summary[i] = "u" + t.charAt(1) + digits
+    } else {
+      summary[i] = t.charAt(0) + digits
+    }
+    if(i > 0) {
+      allEqual = allEqual && summary[i] === summary[i-1]
+    }
+  }
+  if(allEqual) {
+    return summary[0]
+  }
+  return summary.join("")
+}
+
+//Generates a cwise operator
+function generateCWiseOp(proc, typesig) {
+
+  //Compute dimension
+  // Arrays get put first in typesig, and there are two entries per array (dtype and order), so this gets the number of dimensions in the first array arg.
+  var dimension = (typesig[1].length - Math.abs(proc.arrayBlockIndices[0]))|0
+  var orders = new Array(proc.arrayArgs.length)
+  var dtypes = new Array(proc.arrayArgs.length)
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    dtypes[i] = typesig[2*i]
+    orders[i] = typesig[2*i+1]
+  }
+  
+  //Determine where block and loop indices start and end
+  var blockBegin = [], blockEnd = [] // These indices are exposed as blocks
+  var loopBegin = [], loopEnd = [] // These indices are iterated over
+  var loopOrders = [] // orders restricted to the loop indices
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    if (proc.arrayBlockIndices[i]<0) {
+      loopBegin.push(0)
+      loopEnd.push(dimension)
+      blockBegin.push(dimension)
+      blockEnd.push(dimension+proc.arrayBlockIndices[i])
+    } else {
+      loopBegin.push(proc.arrayBlockIndices[i]) // Non-negative
+      loopEnd.push(proc.arrayBlockIndices[i]+dimension)
+      blockBegin.push(0)
+      blockEnd.push(proc.arrayBlockIndices[i])
+    }
+    var newOrder = []
+    for(var j=0; j<orders[i].length; j++) {
+      if (loopBegin[i]<=orders[i][j] && orders[i][j]<loopEnd[i]) {
+        newOrder.push(orders[i][j]-loopBegin[i]) // If this is a loop index, put it in newOrder, subtracting loopBegin, to make sure that all loopOrders are using a common set of indices.
+      }
+    }
+    loopOrders.push(newOrder)
+  }
+
+  //First create arguments for procedure
+  var arglist = ["SS"] // SS is the overall shape over which we iterate
+  var code = ["'use strict'"]
+  var vars = []
+  
+  for(var j=0; j<dimension; ++j) {
+    vars.push(["s", j, "=SS[", j, "]"].join("")) // The limits for each dimension.
+  }
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    arglist.push("a"+i) // Actual data array
+    arglist.push("t"+i) // Strides
+    arglist.push("p"+i) // Offset in the array at which the data starts (also used for iterating over the data)
+    
+    for(var j=0; j<dimension; ++j) { // Unpack the strides into vars for looping
+      vars.push(["t",i,"p",j,"=t",i,"[",loopBegin[i]+j,"]"].join(""))
+    }
+    
+    for(var j=0; j<Math.abs(proc.arrayBlockIndices[i]); ++j) { // Unpack the strides into vars for block iteration
+      vars.push(["t",i,"b",j,"=t",i,"[",blockBegin[i]+j,"]"].join(""))
+    }
+  }
+  for(var i=0; i<proc.scalarArgs.length; ++i) {
+    arglist.push("Y" + i)
+  }
+  if(proc.shapeArgs.length > 0) {
+    vars.push("shape=SS.slice(0)") // Makes the shape over which we iterate available to the user defined functions (so you can use width/height for example)
+  }
+  if(proc.indexArgs.length > 0) {
+    // Prepare an array to keep track of the (logical) indices, initialized to dimension zeroes.
+    var zeros = new Array(dimension)
+    for(var i=0; i<dimension; ++i) {
+      zeros[i] = "0"
+    }
+    vars.push(["index=[", zeros.join(","), "]"].join(""))
+  }
+  for(var i=0; i<proc.offsetArgs.length; ++i) { // Offset arguments used for stencil operations
+    var off_arg = proc.offsetArgs[i]
+    var init_string = []
+    for(var j=0; j<off_arg.offset.length; ++j) {
+      if(off_arg.offset[j] === 0) {
+        continue
+      } else if(off_arg.offset[j] === 1) {
+        init_string.push(["t", off_arg.array, "p", j].join(""))      
+      } else {
+        init_string.push([off_arg.offset[j], "*t", off_arg.array, "p", j].join(""))
+      }
+    }
+    if(init_string.length === 0) {
+      vars.push("q" + i + "=0")
+    } else {
+      vars.push(["q", i, "=", init_string.join("+")].join(""))
+    }
+  }
+
+  //Prepare this variables
+  var thisVars = uniq([].concat(proc.pre.thisVars)
+                      .concat(proc.body.thisVars)
+                      .concat(proc.post.thisVars))
+  vars = vars.concat(thisVars)
+  if (vars.length > 0) {
+    code.push("var " + vars.join(","))
+  }
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    code.push("p"+i+"|=0")
+  }
+  
+  //Inline prelude
+  if(proc.pre.body.length > 3) {
+    code.push(processBlock(proc.pre, proc, dtypes))
+  }
+
+  //Process body
+  var body = processBlock(proc.body, proc, dtypes)
+  var matched = countMatches(loopOrders)
+  if(matched < dimension) {
+    code.push(outerFill(matched, loopOrders[0], proc, body)) // TODO: Rather than passing loopOrders[0], it might be interesting to look at passing an order that represents the majority of the arguments for example.
+  } else {
+    code.push(innerFill(loopOrders[0], proc, body))
+  }
+
+  //Inline epilog
+  if(proc.post.body.length > 3) {
+    code.push(processBlock(proc.post, proc, dtypes))
+  }
+  
+  if(proc.debug) {
+    console.log("-----Generated cwise routine for ", typesig, ":\n" + code.join("\n") + "\n----------")
+  }
+  
+  var loopName = [(proc.funcName||"unnamed"), "_cwise_loop_", orders[0].join("s"),"m",matched,typeSummary(dtypes)].join("")
+  var f = new Function(["function ",loopName,"(", arglist.join(","),"){", code.join("\n"),"} return ", loopName].join(""))
+  return f()
+}
+module.exports = generateCWiseOp
+
+
+/***/ }),
+/* 216 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function unique_pred(list, compare) {
+  var ptr = 1
+    , len = list.length
+    , a=list[0], b=list[0]
+  for(var i=1; i<len; ++i) {
+    b = a
+    a = list[i]
+    if(compare(a, b)) {
+      if(i === ptr) {
+        ptr++
+        continue
+      }
+      list[ptr++] = a
+    }
+  }
+  list.length = ptr
+  return list
+}
+
+function unique_eq(list) {
+  var ptr = 1
+    , len = list.length
+    , a=list[0], b = list[0]
+  for(var i=1; i<len; ++i, b=a) {
+    b = a
+    a = list[i]
+    if(a !== b) {
+      if(i === ptr) {
+        ptr++
+        continue
+      }
+      list[ptr++] = a
+    }
+  }
+  list.length = ptr
+  return list
+}
+
+function unique(list, compare, sorted) {
+  if(list.length === 0) {
+    return list
+  }
+  if(compare) {
+    if(!sorted) {
+      list.sort(compare)
+    }
+    return unique_pred(list, compare)
+  }
+  if(!sorted) {
+    list.sort()
+  }
+  return unique_eq(list)
+}
+
+module.exports = unique
+
+
+/***/ }),
+/* 217 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var ndarray = __webpack_require__(40)
+var ops = __webpack_require__(95)
+var pool = __webpack_require__(41)
+
+function clone(array) {
+  var dtype = array.dtype
+  if(dtype === "generic" || dtype === "array") {
+    dtype = "double"
+  }
+  var data = pool.malloc(array.size, dtype)
+  var result = ndarray(data, array.shape)
+  ops.assign(result, array)
+  return result
+}
+exports.clone = clone
+
+function malloc(shape, dtype) {
+  if(!dtype) {
+    dtype = "double"
+  }
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(var i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  return ndarray(pool.malloc(sz, dtype), shape, stride, 0)
+}
+exports.malloc = malloc
+
+function free(array) {
+  if(array.dtype === "generic" || array.dtype === "array") {
+    return
+  }
+  pool.free(array.data)
+}
+exports.free = free
+
+function zeros(shape, dtype) {
+  if(!dtype) {
+    dtype = "double"
+  }
+
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(var i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  var buf = pool.malloc(sz, dtype)
+  for(var i=0; i<sz; ++i) {
+    buf[i] = 0
+  }
+  return ndarray(buf, shape, stride, 0)
+}
+exports.zeros = zeros
+
+function ones(shape, dtype) {
+  if(!dtype) {
+    dtype = "double"
+  }
+
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(var i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  var buf = pool.malloc(sz, dtype)
+  for(var i=0; i<sz; ++i) {
+    buf[i] = 1
+  }
+  return ndarray(buf, shape, stride, 0)
+}
+exports.ones = ones
+
+function eye(shape, dtype) {
+  var i, offset
+  if(!dtype) {
+    dtype = "double"
+  }
+
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  var buf = pool.malloc(sz, dtype)
+  for(i=0; i<sz; ++i) {
+    buf[i] = 0
+  }
+  var mindim = Infinity
+  var offsum = 0
+  for( i=shape.length-1; i>=0; i--) {
+    offsum += stride[i]
+    mindim = Math.min(mindim,shape[i])
+  }
+  for(i=0,offset=0; i<mindim; i++,offset+=offsum) {
+    buf[offset] = 1
+  }
+  return ndarray(buf, shape, stride, 0)
+}
+exports.eye = eye
+
+
+/***/ }),
+/* 218 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+/* eslint-disable no-proto */
+
+
+
+var base64 = __webpack_require__(219)
+var ieee754 = __webpack_require__(220)
+var isArray = __webpack_require__(221)
+
+exports.Buffer = Buffer
+exports.SlowBuffer = SlowBuffer
+exports.INSPECT_MAX_BYTES = 50
+
+/**
+ * If `Buffer.TYPED_ARRAY_SUPPORT`:
+ *   === true    Use Uint8Array implementation (fastest)
+ *   === false   Use Object implementation (most compatible, even IE6)
+ *
+ * Browsers that support typed arrays are IE 10+, Firefox 4+, Chrome 7+, Safari 5.1+,
+ * Opera 11.6+, iOS 4.2+.
+ *
+ * Due to various browser bugs, sometimes the Object implementation will be used even
+ * when the browser supports typed arrays.
+ *
+ * Note:
+ *
+ *   - Firefox 4-29 lacks support for adding new properties to `Uint8Array` instances,
+ *     See: https://bugzilla.mozilla.org/show_bug.cgi?id=695438.
+ *
+ *   - Chrome 9-10 is missing the `TypedArray.prototype.subarray` function.
+ *
+ *   - IE10 has a broken `TypedArray.prototype.subarray` function which returns arrays of
+ *     incorrect length in some situations.
+
+ * We detect these buggy browsers and set `Buffer.TYPED_ARRAY_SUPPORT` to `false` so they
+ * get the Object implementation, which is slower but behaves correctly.
+ */
+Buffer.TYPED_ARRAY_SUPPORT = global.TYPED_ARRAY_SUPPORT !== undefined
+  ? global.TYPED_ARRAY_SUPPORT
+  : typedArraySupport()
+
+/*
+ * Export kMaxLength after typed array support is determined.
+ */
+exports.kMaxLength = kMaxLength()
+
+function typedArraySupport () {
+  try {
+    var arr = new Uint8Array(1)
+    arr.__proto__ = {__proto__: Uint8Array.prototype, foo: function () { return 42 }}
+    return arr.foo() === 42 && // typed array instances can be augmented
+        typeof arr.subarray === 'function' && // chrome 9-10 lack `subarray`
+        arr.subarray(1, 1).byteLength === 0 // ie10 has broken `subarray`
+  } catch (e) {
+    return false
+  }
+}
+
+function kMaxLength () {
+  return Buffer.TYPED_ARRAY_SUPPORT
+    ? 0x7fffffff
+    : 0x3fffffff
+}
+
+function createBuffer (that, length) {
+  if (kMaxLength() < length) {
+    throw new RangeError('Invalid typed array length')
+  }
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    // Return an augmented `Uint8Array` instance, for best performance
+    that = new Uint8Array(length)
+    that.__proto__ = Buffer.prototype
+  } else {
+    // Fallback: Return an object instance of the Buffer class
+    if (that === null) {
+      that = new Buffer(length)
+    }
+    that.length = length
+  }
+
+  return that
+}
+
+/**
+ * The Buffer constructor returns instances of `Uint8Array` that have their
+ * prototype changed to `Buffer.prototype`. Furthermore, `Buffer` is a subclass of
+ * `Uint8Array`, so the returned instances will have all the node `Buffer` methods
+ * and the `Uint8Array` methods. Square bracket notation works as expected -- it
+ * returns a single octet.
+ *
+ * The `Uint8Array` prototype remains unmodified.
+ */
+
+function Buffer (arg, encodingOrOffset, length) {
+  if (!Buffer.TYPED_ARRAY_SUPPORT && !(this instanceof Buffer)) {
+    return new Buffer(arg, encodingOrOffset, length)
+  }
+
+  // Common case.
+  if (typeof arg === 'number') {
+    if (typeof encodingOrOffset === 'string') {
+      throw new Error(
+        'If encoding is specified then the first argument must be a string'
+      )
+    }
+    return allocUnsafe(this, arg)
+  }
+  return from(this, arg, encodingOrOffset, length)
+}
+
+Buffer.poolSize = 8192 // not used by this implementation
+
+// TODO: Legacy, not needed anymore. Remove in next major version.
+Buffer._augment = function (arr) {
+  arr.__proto__ = Buffer.prototype
+  return arr
+}
+
+function from (that, value, encodingOrOffset, length) {
+  if (typeof value === 'number') {
+    throw new TypeError('"value" argument must not be a number')
+  }
+
+  if (typeof ArrayBuffer !== 'undefined' && value instanceof ArrayBuffer) {
+    return fromArrayBuffer(that, value, encodingOrOffset, length)
+  }
+
+  if (typeof value === 'string') {
+    return fromString(that, value, encodingOrOffset)
+  }
+
+  return fromObject(that, value)
+}
+
+/**
+ * Functionally equivalent to Buffer(arg, encoding) but throws a TypeError
+ * if value is a number.
+ * Buffer.from(str[, encoding])
+ * Buffer.from(array)
+ * Buffer.from(buffer)
+ * Buffer.from(arrayBuffer[, byteOffset[, length]])
+ **/
+Buffer.from = function (value, encodingOrOffset, length) {
+  return from(null, value, encodingOrOffset, length)
+}
+
+if (Buffer.TYPED_ARRAY_SUPPORT) {
+  Buffer.prototype.__proto__ = Uint8Array.prototype
+  Buffer.__proto__ = Uint8Array
+  if (typeof Symbol !== 'undefined' && Symbol.species &&
+      Buffer[Symbol.species] === Buffer) {
+    // Fix subarray() in ES2016. See: https://github.com/feross/buffer/pull/97
+    Object.defineProperty(Buffer, Symbol.species, {
+      value: null,
+      configurable: true
+    })
+  }
+}
+
+function assertSize (size) {
+  if (typeof size !== 'number') {
+    throw new TypeError('"size" argument must be a number')
+  } else if (size < 0) {
+    throw new RangeError('"size" argument must not be negative')
+  }
+}
+
+function alloc (that, size, fill, encoding) {
+  assertSize(size)
+  if (size <= 0) {
+    return createBuffer(that, size)
+  }
+  if (fill !== undefined) {
+    // Only pay attention to encoding if it's a string. This
+    // prevents accidentally sending in a number that would
+    // be interpretted as a start offset.
+    return typeof encoding === 'string'
+      ? createBuffer(that, size).fill(fill, encoding)
+      : createBuffer(that, size).fill(fill)
+  }
+  return createBuffer(that, size)
+}
+
+/**
+ * Creates a new filled Buffer instance.
+ * alloc(size[, fill[, encoding]])
+ **/
+Buffer.alloc = function (size, fill, encoding) {
+  return alloc(null, size, fill, encoding)
+}
+
+function allocUnsafe (that, size) {
+  assertSize(size)
+  that = createBuffer(that, size < 0 ? 0 : checked(size) | 0)
+  if (!Buffer.TYPED_ARRAY_SUPPORT) {
+    for (var i = 0; i < size; ++i) {
+      that[i] = 0
+    }
+  }
+  return that
+}
+
+/**
+ * Equivalent to Buffer(num), by default creates a non-zero-filled Buffer instance.
+ * */
+Buffer.allocUnsafe = function (size) {
+  return allocUnsafe(null, size)
+}
+/**
+ * Equivalent to SlowBuffer(num), by default creates a non-zero-filled Buffer instance.
+ */
+Buffer.allocUnsafeSlow = function (size) {
+  return allocUnsafe(null, size)
+}
+
+function fromString (that, string, encoding) {
+  if (typeof encoding !== 'string' || encoding === '') {
+    encoding = 'utf8'
+  }
+
+  if (!Buffer.isEncoding(encoding)) {
+    throw new TypeError('"encoding" must be a valid string encoding')
+  }
+
+  var length = byteLength(string, encoding) | 0
+  that = createBuffer(that, length)
+
+  var actual = that.write(string, encoding)
+
+  if (actual !== length) {
+    // Writing a hex string, for example, that contains invalid characters will
+    // cause everything after the first invalid character to be ignored. (e.g.
+    // 'abxxcd' will be treated as 'ab')
+    that = that.slice(0, actual)
+  }
+
+  return that
+}
+
+function fromArrayLike (that, array) {
+  var length = array.length < 0 ? 0 : checked(array.length) | 0
+  that = createBuffer(that, length)
+  for (var i = 0; i < length; i += 1) {
+    that[i] = array[i] & 255
+  }
+  return that
+}
+
+function fromArrayBuffer (that, array, byteOffset, length) {
+  array.byteLength // this throws if `array` is not a valid ArrayBuffer
+
+  if (byteOffset < 0 || array.byteLength < byteOffset) {
+    throw new RangeError('\'offset\' is out of bounds')
+  }
+
+  if (array.byteLength < byteOffset + (length || 0)) {
+    throw new RangeError('\'length\' is out of bounds')
+  }
+
+  if (byteOffset === undefined && length === undefined) {
+    array = new Uint8Array(array)
+  } else if (length === undefined) {
+    array = new Uint8Array(array, byteOffset)
+  } else {
+    array = new Uint8Array(array, byteOffset, length)
+  }
+
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    // Return an augmented `Uint8Array` instance, for best performance
+    that = array
+    that.__proto__ = Buffer.prototype
+  } else {
+    // Fallback: Return an object instance of the Buffer class
+    that = fromArrayLike(that, array)
+  }
+  return that
+}
+
+function fromObject (that, obj) {
+  if (Buffer.isBuffer(obj)) {
+    var len = checked(obj.length) | 0
+    that = createBuffer(that, len)
+
+    if (that.length === 0) {
+      return that
+    }
+
+    obj.copy(that, 0, 0, len)
+    return that
+  }
+
+  if (obj) {
+    if ((typeof ArrayBuffer !== 'undefined' &&
+        obj.buffer instanceof ArrayBuffer) || 'length' in obj) {
+      if (typeof obj.length !== 'number' || isnan(obj.length)) {
+        return createBuffer(that, 0)
+      }
+      return fromArrayLike(that, obj)
+    }
+
+    if (obj.type === 'Buffer' && isArray(obj.data)) {
+      return fromArrayLike(that, obj.data)
+    }
+  }
+
+  throw new TypeError('First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.')
+}
+
+function checked (length) {
+  // Note: cannot use `length < kMaxLength()` here because that fails when
+  // length is NaN (which is otherwise coerced to zero.)
+  if (length >= kMaxLength()) {
+    throw new RangeError('Attempt to allocate Buffer larger than maximum ' +
+                         'size: 0x' + kMaxLength().toString(16) + ' bytes')
+  }
+  return length | 0
+}
+
+function SlowBuffer (length) {
+  if (+length != length) { // eslint-disable-line eqeqeq
+    length = 0
+  }
+  return Buffer.alloc(+length)
+}
+
+Buffer.isBuffer = function isBuffer (b) {
+  return !!(b != null && b._isBuffer)
+}
+
+Buffer.compare = function compare (a, b) {
+  if (!Buffer.isBuffer(a) || !Buffer.isBuffer(b)) {
+    throw new TypeError('Arguments must be Buffers')
+  }
+
+  if (a === b) return 0
+
+  var x = a.length
+  var y = b.length
+
+  for (var i = 0, len = Math.min(x, y); i < len; ++i) {
+    if (a[i] !== b[i]) {
+      x = a[i]
+      y = b[i]
+      break
+    }
+  }
+
+  if (x < y) return -1
+  if (y < x) return 1
+  return 0
+}
+
+Buffer.isEncoding = function isEncoding (encoding) {
+  switch (String(encoding).toLowerCase()) {
+    case 'hex':
+    case 'utf8':
+    case 'utf-8':
+    case 'ascii':
+    case 'latin1':
+    case 'binary':
+    case 'base64':
+    case 'ucs2':
+    case 'ucs-2':
+    case 'utf16le':
+    case 'utf-16le':
+      return true
+    default:
+      return false
+  }
+}
+
+Buffer.concat = function concat (list, length) {
+  if (!isArray(list)) {
+    throw new TypeError('"list" argument must be an Array of Buffers')
+  }
+
+  if (list.length === 0) {
+    return Buffer.alloc(0)
+  }
+
+  var i
+  if (length === undefined) {
+    length = 0
+    for (i = 0; i < list.length; ++i) {
+      length += list[i].length
+    }
+  }
+
+  var buffer = Buffer.allocUnsafe(length)
+  var pos = 0
+  for (i = 0; i < list.length; ++i) {
+    var buf = list[i]
+    if (!Buffer.isBuffer(buf)) {
+      throw new TypeError('"list" argument must be an Array of Buffers')
+    }
+    buf.copy(buffer, pos)
+    pos += buf.length
+  }
+  return buffer
+}
+
+function byteLength (string, encoding) {
+  if (Buffer.isBuffer(string)) {
+    return string.length
+  }
+  if (typeof ArrayBuffer !== 'undefined' && typeof ArrayBuffer.isView === 'function' &&
+      (ArrayBuffer.isView(string) || string instanceof ArrayBuffer)) {
+    return string.byteLength
+  }
+  if (typeof string !== 'string') {
+    string = '' + string
+  }
+
+  var len = string.length
+  if (len === 0) return 0
+
+  // Use a for loop to avoid recursion
+  var loweredCase = false
+  for (;;) {
+    switch (encoding) {
+      case 'ascii':
+      case 'latin1':
+      case 'binary':
+        return len
+      case 'utf8':
+      case 'utf-8':
+      case undefined:
+        return utf8ToBytes(string).length
+      case 'ucs2':
+      case 'ucs-2':
+      case 'utf16le':
+      case 'utf-16le':
+        return len * 2
+      case 'hex':
+        return len >>> 1
+      case 'base64':
+        return base64ToBytes(string).length
+      default:
+        if (loweredCase) return utf8ToBytes(string).length // assume utf8
+        encoding = ('' + encoding).toLowerCase()
+        loweredCase = true
+    }
+  }
+}
+Buffer.byteLength = byteLength
+
+function slowToString (encoding, start, end) {
+  var loweredCase = false
+
+  // No need to verify that "this.length <= MAX_UINT32" since it's a read-only
+  // property of a typed array.
+
+  // This behaves neither like String nor Uint8Array in that we set start/end
+  // to their upper/lower bounds if the value passed is out of range.
+  // undefined is handled specially as per ECMA-262 6th Edition,
+  // Section 13.3.3.7 Runtime Semantics: KeyedBindingInitialization.
+  if (start === undefined || start < 0) {
+    start = 0
+  }
+  // Return early if start > this.length. Done here to prevent potential uint32
+  // coercion fail below.
+  if (start > this.length) {
+    return ''
+  }
+
+  if (end === undefined || end > this.length) {
+    end = this.length
+  }
+
+  if (end <= 0) {
+    return ''
+  }
+
+  // Force coersion to uint32. This will also coerce falsey/NaN values to 0.
+  end >>>= 0
+  start >>>= 0
+
+  if (end <= start) {
+    return ''
+  }
+
+  if (!encoding) encoding = 'utf8'
+
+  while (true) {
+    switch (encoding) {
+      case 'hex':
+        return hexSlice(this, start, end)
+
+      case 'utf8':
+      case 'utf-8':
+        return utf8Slice(this, start, end)
+
+      case 'ascii':
+        return asciiSlice(this, start, end)
+
+      case 'latin1':
+      case 'binary':
+        return latin1Slice(this, start, end)
+
+      case 'base64':
+        return base64Slice(this, start, end)
+
+      case 'ucs2':
+      case 'ucs-2':
+      case 'utf16le':
+      case 'utf-16le':
+        return utf16leSlice(this, start, end)
+
+      default:
+        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
+        encoding = (encoding + '').toLowerCase()
+        loweredCase = true
+    }
+  }
+}
+
+// The property is used by `Buffer.isBuffer` and `is-buffer` (in Safari 5-7) to detect
+// Buffer instances.
+Buffer.prototype._isBuffer = true
+
+function swap (b, n, m) {
+  var i = b[n]
+  b[n] = b[m]
+  b[m] = i
+}
+
+Buffer.prototype.swap16 = function swap16 () {
+  var len = this.length
+  if (len % 2 !== 0) {
+    throw new RangeError('Buffer size must be a multiple of 16-bits')
+  }
+  for (var i = 0; i < len; i += 2) {
+    swap(this, i, i + 1)
+  }
+  return this
+}
+
+Buffer.prototype.swap32 = function swap32 () {
+  var len = this.length
+  if (len % 4 !== 0) {
+    throw new RangeError('Buffer size must be a multiple of 32-bits')
+  }
+  for (var i = 0; i < len; i += 4) {
+    swap(this, i, i + 3)
+    swap(this, i + 1, i + 2)
+  }
+  return this
+}
+
+Buffer.prototype.swap64 = function swap64 () {
+  var len = this.length
+  if (len % 8 !== 0) {
+    throw new RangeError('Buffer size must be a multiple of 64-bits')
+  }
+  for (var i = 0; i < len; i += 8) {
+    swap(this, i, i + 7)
+    swap(this, i + 1, i + 6)
+    swap(this, i + 2, i + 5)
+    swap(this, i + 3, i + 4)
+  }
+  return this
+}
+
+Buffer.prototype.toString = function toString () {
+  var length = this.length | 0
+  if (length === 0) return ''
+  if (arguments.length === 0) return utf8Slice(this, 0, length)
+  return slowToString.apply(this, arguments)
+}
+
+Buffer.prototype.equals = function equals (b) {
+  if (!Buffer.isBuffer(b)) throw new TypeError('Argument must be a Buffer')
+  if (this === b) return true
+  return Buffer.compare(this, b) === 0
+}
+
+Buffer.prototype.inspect = function inspect () {
+  var str = ''
+  var max = exports.INSPECT_MAX_BYTES
+  if (this.length > 0) {
+    str = this.toString('hex', 0, max).match(/.{2}/g).join(' ')
+    if (this.length > max) str += ' ... '
+  }
+  return '<Buffer ' + str + '>'
+}
+
+Buffer.prototype.compare = function compare (target, start, end, thisStart, thisEnd) {
+  if (!Buffer.isBuffer(target)) {
+    throw new TypeError('Argument must be a Buffer')
+  }
+
+  if (start === undefined) {
+    start = 0
+  }
+  if (end === undefined) {
+    end = target ? target.length : 0
+  }
+  if (thisStart === undefined) {
+    thisStart = 0
+  }
+  if (thisEnd === undefined) {
+    thisEnd = this.length
+  }
+
+  if (start < 0 || end > target.length || thisStart < 0 || thisEnd > this.length) {
+    throw new RangeError('out of range index')
+  }
+
+  if (thisStart >= thisEnd && start >= end) {
+    return 0
+  }
+  if (thisStart >= thisEnd) {
+    return -1
+  }
+  if (start >= end) {
+    return 1
+  }
+
+  start >>>= 0
+  end >>>= 0
+  thisStart >>>= 0
+  thisEnd >>>= 0
+
+  if (this === target) return 0
+
+  var x = thisEnd - thisStart
+  var y = end - start
+  var len = Math.min(x, y)
+
+  var thisCopy = this.slice(thisStart, thisEnd)
+  var targetCopy = target.slice(start, end)
+
+  for (var i = 0; i < len; ++i) {
+    if (thisCopy[i] !== targetCopy[i]) {
+      x = thisCopy[i]
+      y = targetCopy[i]
+      break
+    }
+  }
+
+  if (x < y) return -1
+  if (y < x) return 1
+  return 0
+}
+
+// Finds either the first index of `val` in `buffer` at offset >= `byteOffset`,
+// OR the last index of `val` in `buffer` at offset <= `byteOffset`.
+//
+// Arguments:
+// - buffer - a Buffer to search
+// - val - a string, Buffer, or number
+// - byteOffset - an index into `buffer`; will be clamped to an int32
+// - encoding - an optional encoding, relevant is val is a string
+// - dir - true for indexOf, false for lastIndexOf
+function bidirectionalIndexOf (buffer, val, byteOffset, encoding, dir) {
+  // Empty buffer means no match
+  if (buffer.length === 0) return -1
+
+  // Normalize byteOffset
+  if (typeof byteOffset === 'string') {
+    encoding = byteOffset
+    byteOffset = 0
+  } else if (byteOffset > 0x7fffffff) {
+    byteOffset = 0x7fffffff
+  } else if (byteOffset < -0x80000000) {
+    byteOffset = -0x80000000
+  }
+  byteOffset = +byteOffset  // Coerce to Number.
+  if (isNaN(byteOffset)) {
+    // byteOffset: it it's undefined, null, NaN, "foo", etc, search whole buffer
+    byteOffset = dir ? 0 : (buffer.length - 1)
+  }
+
+  // Normalize byteOffset: negative offsets start from the end of the buffer
+  if (byteOffset < 0) byteOffset = buffer.length + byteOffset
+  if (byteOffset >= buffer.length) {
+    if (dir) return -1
+    else byteOffset = buffer.length - 1
+  } else if (byteOffset < 0) {
+    if (dir) byteOffset = 0
+    else return -1
+  }
+
+  // Normalize val
+  if (typeof val === 'string') {
+    val = Buffer.from(val, encoding)
+  }
+
+  // Finally, search either indexOf (if dir is true) or lastIndexOf
+  if (Buffer.isBuffer(val)) {
+    // Special case: looking for empty string/buffer always fails
+    if (val.length === 0) {
+      return -1
+    }
+    return arrayIndexOf(buffer, val, byteOffset, encoding, dir)
+  } else if (typeof val === 'number') {
+    val = val & 0xFF // Search for a byte value [0-255]
+    if (Buffer.TYPED_ARRAY_SUPPORT &&
+        typeof Uint8Array.prototype.indexOf === 'function') {
+      if (dir) {
+        return Uint8Array.prototype.indexOf.call(buffer, val, byteOffset)
+      } else {
+        return Uint8Array.prototype.lastIndexOf.call(buffer, val, byteOffset)
+      }
+    }
+    return arrayIndexOf(buffer, [ val ], byteOffset, encoding, dir)
+  }
+
+  throw new TypeError('val must be string, number or Buffer')
+}
+
+function arrayIndexOf (arr, val, byteOffset, encoding, dir) {
+  var indexSize = 1
+  var arrLength = arr.length
+  var valLength = val.length
+
+  if (encoding !== undefined) {
+    encoding = String(encoding).toLowerCase()
+    if (encoding === 'ucs2' || encoding === 'ucs-2' ||
+        encoding === 'utf16le' || encoding === 'utf-16le') {
+      if (arr.length < 2 || val.length < 2) {
+        return -1
+      }
+      indexSize = 2
+      arrLength /= 2
+      valLength /= 2
+      byteOffset /= 2
+    }
+  }
+
+  function read (buf, i) {
+    if (indexSize === 1) {
+      return buf[i]
+    } else {
+      return buf.readUInt16BE(i * indexSize)
+    }
+  }
+
+  var i
+  if (dir) {
+    var foundIndex = -1
+    for (i = byteOffset; i < arrLength; i++) {
+      if (read(arr, i) === read(val, foundIndex === -1 ? 0 : i - foundIndex)) {
+        if (foundIndex === -1) foundIndex = i
+        if (i - foundIndex + 1 === valLength) return foundIndex * indexSize
+      } else {
+        if (foundIndex !== -1) i -= i - foundIndex
+        foundIndex = -1
+      }
+    }
+  } else {
+    if (byteOffset + valLength > arrLength) byteOffset = arrLength - valLength
+    for (i = byteOffset; i >= 0; i--) {
+      var found = true
+      for (var j = 0; j < valLength; j++) {
+        if (read(arr, i + j) !== read(val, j)) {
+          found = false
+          break
+        }
+      }
+      if (found) return i
+    }
+  }
+
+  return -1
+}
+
+Buffer.prototype.includes = function includes (val, byteOffset, encoding) {
+  return this.indexOf(val, byteOffset, encoding) !== -1
+}
+
+Buffer.prototype.indexOf = function indexOf (val, byteOffset, encoding) {
+  return bidirectionalIndexOf(this, val, byteOffset, encoding, true)
+}
+
+Buffer.prototype.lastIndexOf = function lastIndexOf (val, byteOffset, encoding) {
+  return bidirectionalIndexOf(this, val, byteOffset, encoding, false)
+}
+
+function hexWrite (buf, string, offset, length) {
+  offset = Number(offset) || 0
+  var remaining = buf.length - offset
+  if (!length) {
+    length = remaining
+  } else {
+    length = Number(length)
+    if (length > remaining) {
+      length = remaining
+    }
+  }
+
+  // must be an even number of digits
+  var strLen = string.length
+  if (strLen % 2 !== 0) throw new TypeError('Invalid hex string')
+
+  if (length > strLen / 2) {
+    length = strLen / 2
+  }
+  for (var i = 0; i < length; ++i) {
+    var parsed = parseInt(string.substr(i * 2, 2), 16)
+    if (isNaN(parsed)) return i
+    buf[offset + i] = parsed
+  }
+  return i
+}
+
+function utf8Write (buf, string, offset, length) {
+  return blitBuffer(utf8ToBytes(string, buf.length - offset), buf, offset, length)
+}
+
+function asciiWrite (buf, string, offset, length) {
+  return blitBuffer(asciiToBytes(string), buf, offset, length)
+}
+
+function latin1Write (buf, string, offset, length) {
+  return asciiWrite(buf, string, offset, length)
+}
+
+function base64Write (buf, string, offset, length) {
+  return blitBuffer(base64ToBytes(string), buf, offset, length)
+}
+
+function ucs2Write (buf, string, offset, length) {
+  return blitBuffer(utf16leToBytes(string, buf.length - offset), buf, offset, length)
+}
+
+Buffer.prototype.write = function write (string, offset, length, encoding) {
+  // Buffer#write(string)
+  if (offset === undefined) {
+    encoding = 'utf8'
+    length = this.length
+    offset = 0
+  // Buffer#write(string, encoding)
+  } else if (length === undefined && typeof offset === 'string') {
+    encoding = offset
+    length = this.length
+    offset = 0
+  // Buffer#write(string, offset[, length][, encoding])
+  } else if (isFinite(offset)) {
+    offset = offset | 0
+    if (isFinite(length)) {
+      length = length | 0
+      if (encoding === undefined) encoding = 'utf8'
+    } else {
+      encoding = length
+      length = undefined
+    }
+  // legacy write(string, encoding, offset, length) - remove in v0.13
+  } else {
+    throw new Error(
+      'Buffer.write(string, encoding, offset[, length]) is no longer supported'
+    )
+  }
+
+  var remaining = this.length - offset
+  if (length === undefined || length > remaining) length = remaining
+
+  if ((string.length > 0 && (length < 0 || offset < 0)) || offset > this.length) {
+    throw new RangeError('Attempt to write outside buffer bounds')
+  }
+
+  if (!encoding) encoding = 'utf8'
+
+  var loweredCase = false
+  for (;;) {
+    switch (encoding) {
+      case 'hex':
+        return hexWrite(this, string, offset, length)
+
+      case 'utf8':
+      case 'utf-8':
+        return utf8Write(this, string, offset, length)
+
+      case 'ascii':
+        return asciiWrite(this, string, offset, length)
+
+      case 'latin1':
+      case 'binary':
+        return latin1Write(this, string, offset, length)
+
+      case 'base64':
+        // Warning: maxLength not taken into account in base64Write
+        return base64Write(this, string, offset, length)
+
+      case 'ucs2':
+      case 'ucs-2':
+      case 'utf16le':
+      case 'utf-16le':
+        return ucs2Write(this, string, offset, length)
+
+      default:
+        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
+        encoding = ('' + encoding).toLowerCase()
+        loweredCase = true
+    }
+  }
+}
+
+Buffer.prototype.toJSON = function toJSON () {
+  return {
+    type: 'Buffer',
+    data: Array.prototype.slice.call(this._arr || this, 0)
+  }
+}
+
+function base64Slice (buf, start, end) {
+  if (start === 0 && end === buf.length) {
+    return base64.fromByteArray(buf)
+  } else {
+    return base64.fromByteArray(buf.slice(start, end))
+  }
+}
+
+function utf8Slice (buf, start, end) {
+  end = Math.min(buf.length, end)
+  var res = []
+
+  var i = start
+  while (i < end) {
+    var firstByte = buf[i]
+    var codePoint = null
+    var bytesPerSequence = (firstByte > 0xEF) ? 4
+      : (firstByte > 0xDF) ? 3
+      : (firstByte > 0xBF) ? 2
+      : 1
+
+    if (i + bytesPerSequence <= end) {
+      var secondByte, thirdByte, fourthByte, tempCodePoint
+
+      switch (bytesPerSequence) {
+        case 1:
+          if (firstByte < 0x80) {
+            codePoint = firstByte
+          }
+          break
+        case 2:
+          secondByte = buf[i + 1]
+          if ((secondByte & 0xC0) === 0x80) {
+            tempCodePoint = (firstByte & 0x1F) << 0x6 | (secondByte & 0x3F)
+            if (tempCodePoint > 0x7F) {
+              codePoint = tempCodePoint
+            }
+          }
+          break
+        case 3:
+          secondByte = buf[i + 1]
+          thirdByte = buf[i + 2]
+          if ((secondByte & 0xC0) === 0x80 && (thirdByte & 0xC0) === 0x80) {
+            tempCodePoint = (firstByte & 0xF) << 0xC | (secondByte & 0x3F) << 0x6 | (thirdByte & 0x3F)
+            if (tempCodePoint > 0x7FF && (tempCodePoint < 0xD800 || tempCodePoint > 0xDFFF)) {
+              codePoint = tempCodePoint
+            }
+          }
+          break
+        case 4:
+          secondByte = buf[i + 1]
+          thirdByte = buf[i + 2]
+          fourthByte = buf[i + 3]
+          if ((secondByte & 0xC0) === 0x80 && (thirdByte & 0xC0) === 0x80 && (fourthByte & 0xC0) === 0x80) {
+            tempCodePoint = (firstByte & 0xF) << 0x12 | (secondByte & 0x3F) << 0xC | (thirdByte & 0x3F) << 0x6 | (fourthByte & 0x3F)
+            if (tempCodePoint > 0xFFFF && tempCodePoint < 0x110000) {
+              codePoint = tempCodePoint
+            }
+          }
+      }
+    }
+
+    if (codePoint === null) {
+      // we did not generate a valid codePoint so insert a
+      // replacement char (U+FFFD) and advance only 1 byte
+      codePoint = 0xFFFD
+      bytesPerSequence = 1
+    } else if (codePoint > 0xFFFF) {
+      // encode to utf16 (surrogate pair dance)
+      codePoint -= 0x10000
+      res.push(codePoint >>> 10 & 0x3FF | 0xD800)
+      codePoint = 0xDC00 | codePoint & 0x3FF
+    }
+
+    res.push(codePoint)
+    i += bytesPerSequence
+  }
+
+  return decodeCodePointsArray(res)
+}
+
+// Based on http://stackoverflow.com/a/22747272/680742, the browser with
+// the lowest limit is Chrome, with 0x10000 args.
+// We go 1 magnitude less, for safety
+var MAX_ARGUMENTS_LENGTH = 0x1000
+
+function decodeCodePointsArray (codePoints) {
+  var len = codePoints.length
+  if (len <= MAX_ARGUMENTS_LENGTH) {
+    return String.fromCharCode.apply(String, codePoints) // avoid extra slice()
+  }
+
+  // Decode in chunks to avoid "call stack size exceeded".
+  var res = ''
+  var i = 0
+  while (i < len) {
+    res += String.fromCharCode.apply(
+      String,
+      codePoints.slice(i, i += MAX_ARGUMENTS_LENGTH)
+    )
+  }
+  return res
+}
+
+function asciiSlice (buf, start, end) {
+  var ret = ''
+  end = Math.min(buf.length, end)
+
+  for (var i = start; i < end; ++i) {
+    ret += String.fromCharCode(buf[i] & 0x7F)
+  }
+  return ret
+}
+
+function latin1Slice (buf, start, end) {
+  var ret = ''
+  end = Math.min(buf.length, end)
+
+  for (var i = start; i < end; ++i) {
+    ret += String.fromCharCode(buf[i])
+  }
+  return ret
+}
+
+function hexSlice (buf, start, end) {
+  var len = buf.length
+
+  if (!start || start < 0) start = 0
+  if (!end || end < 0 || end > len) end = len
+
+  var out = ''
+  for (var i = start; i < end; ++i) {
+    out += toHex(buf[i])
+  }
+  return out
+}
+
+function utf16leSlice (buf, start, end) {
+  var bytes = buf.slice(start, end)
+  var res = ''
+  for (var i = 0; i < bytes.length; i += 2) {
+    res += String.fromCharCode(bytes[i] + bytes[i + 1] * 256)
+  }
+  return res
+}
+
+Buffer.prototype.slice = function slice (start, end) {
+  var len = this.length
+  start = ~~start
+  end = end === undefined ? len : ~~end
+
+  if (start < 0) {
+    start += len
+    if (start < 0) start = 0
+  } else if (start > len) {
+    start = len
+  }
+
+  if (end < 0) {
+    end += len
+    if (end < 0) end = 0
+  } else if (end > len) {
+    end = len
+  }
+
+  if (end < start) end = start
+
+  var newBuf
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    newBuf = this.subarray(start, end)
+    newBuf.__proto__ = Buffer.prototype
+  } else {
+    var sliceLen = end - start
+    newBuf = new Buffer(sliceLen, undefined)
+    for (var i = 0; i < sliceLen; ++i) {
+      newBuf[i] = this[i + start]
+    }
+  }
+
+  return newBuf
+}
+
+/*
+ * Need to make sure that buffer isn't trying to write out of bounds.
+ */
+function checkOffset (offset, ext, length) {
+  if ((offset % 1) !== 0 || offset < 0) throw new RangeError('offset is not uint')
+  if (offset + ext > length) throw new RangeError('Trying to access beyond buffer length')
+}
+
+Buffer.prototype.readUIntLE = function readUIntLE (offset, byteLength, noAssert) {
+  offset = offset | 0
+  byteLength = byteLength | 0
+  if (!noAssert) checkOffset(offset, byteLength, this.length)
+
+  var val = this[offset]
+  var mul = 1
+  var i = 0
+  while (++i < byteLength && (mul *= 0x100)) {
+    val += this[offset + i] * mul
+  }
+
+  return val
+}
+
+Buffer.prototype.readUIntBE = function readUIntBE (offset, byteLength, noAssert) {
+  offset = offset | 0
+  byteLength = byteLength | 0
+  if (!noAssert) {
+    checkOffset(offset, byteLength, this.length)
+  }
+
+  var val = this[offset + --byteLength]
+  var mul = 1
+  while (byteLength > 0 && (mul *= 0x100)) {
+    val += this[offset + --byteLength] * mul
+  }
+
+  return val
+}
+
+Buffer.prototype.readUInt8 = function readUInt8 (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 1, this.length)
+  return this[offset]
+}
+
+Buffer.prototype.readUInt16LE = function readUInt16LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
+  return this[offset] | (this[offset + 1] << 8)
+}
+
+Buffer.prototype.readUInt16BE = function readUInt16BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
+  return (this[offset] << 8) | this[offset + 1]
+}
+
+Buffer.prototype.readUInt32LE = function readUInt32LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
+
+  return ((this[offset]) |
+      (this[offset + 1] << 8) |
+      (this[offset + 2] << 16)) +
+      (this[offset + 3] * 0x1000000)
+}
+
+Buffer.prototype.readUInt32BE = function readUInt32BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
+
+  return (this[offset] * 0x1000000) +
+    ((this[offset + 1] << 16) |
+    (this[offset + 2] << 8) |
+    this[offset + 3])
+}
+
+Buffer.prototype.readIntLE = function readIntLE (offset, byteLength, noAssert) {
+  offset = offset | 0
+  byteLength = byteLength | 0
+  if (!noAssert) checkOffset(offset, byteLength, this.length)
+
+  var val = this[offset]
+  var mul = 1
+  var i = 0
+  while (++i < byteLength && (mul *= 0x100)) {
+    val += this[offset + i] * mul
+  }
+  mul *= 0x80
+
+  if (val >= mul) val -= Math.pow(2, 8 * byteLength)
+
+  return val
+}
+
+Buffer.prototype.readIntBE = function readIntBE (offset, byteLength, noAssert) {
+  offset = offset | 0
+  byteLength = byteLength | 0
+  if (!noAssert) checkOffset(offset, byteLength, this.length)
+
+  var i = byteLength
+  var mul = 1
+  var val = this[offset + --i]
+  while (i > 0 && (mul *= 0x100)) {
+    val += this[offset + --i] * mul
+  }
+  mul *= 0x80
+
+  if (val >= mul) val -= Math.pow(2, 8 * byteLength)
+
+  return val
+}
+
+Buffer.prototype.readInt8 = function readInt8 (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 1, this.length)
+  if (!(this[offset] & 0x80)) return (this[offset])
+  return ((0xff - this[offset] + 1) * -1)
+}
+
+Buffer.prototype.readInt16LE = function readInt16LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
+  var val = this[offset] | (this[offset + 1] << 8)
+  return (val & 0x8000) ? val | 0xFFFF0000 : val
+}
+
+Buffer.prototype.readInt16BE = function readInt16BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 2, this.length)
+  var val = this[offset + 1] | (this[offset] << 8)
+  return (val & 0x8000) ? val | 0xFFFF0000 : val
+}
+
+Buffer.prototype.readInt32LE = function readInt32LE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
+
+  return (this[offset]) |
+    (this[offset + 1] << 8) |
+    (this[offset + 2] << 16) |
+    (this[offset + 3] << 24)
+}
+
+Buffer.prototype.readInt32BE = function readInt32BE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
+
+  return (this[offset] << 24) |
+    (this[offset + 1] << 16) |
+    (this[offset + 2] << 8) |
+    (this[offset + 3])
+}
+
+Buffer.prototype.readFloatLE = function readFloatLE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
+  return ieee754.read(this, offset, true, 23, 4)
+}
+
+Buffer.prototype.readFloatBE = function readFloatBE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 4, this.length)
+  return ieee754.read(this, offset, false, 23, 4)
+}
+
+Buffer.prototype.readDoubleLE = function readDoubleLE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 8, this.length)
+  return ieee754.read(this, offset, true, 52, 8)
+}
+
+Buffer.prototype.readDoubleBE = function readDoubleBE (offset, noAssert) {
+  if (!noAssert) checkOffset(offset, 8, this.length)
+  return ieee754.read(this, offset, false, 52, 8)
+}
+
+function checkInt (buf, value, offset, ext, max, min) {
+  if (!Buffer.isBuffer(buf)) throw new TypeError('"buffer" argument must be a Buffer instance')
+  if (value > max || value < min) throw new RangeError('"value" argument is out of bounds')
+  if (offset + ext > buf.length) throw new RangeError('Index out of range')
+}
+
+Buffer.prototype.writeUIntLE = function writeUIntLE (value, offset, byteLength, noAssert) {
+  value = +value
+  offset = offset | 0
+  byteLength = byteLength | 0
+  if (!noAssert) {
+    var maxBytes = Math.pow(2, 8 * byteLength) - 1
+    checkInt(this, value, offset, byteLength, maxBytes, 0)
+  }
+
+  var mul = 1
+  var i = 0
+  this[offset] = value & 0xFF
+  while (++i < byteLength && (mul *= 0x100)) {
+    this[offset + i] = (value / mul) & 0xFF
+  }
+
+  return offset + byteLength
+}
+
+Buffer.prototype.writeUIntBE = function writeUIntBE (value, offset, byteLength, noAssert) {
+  value = +value
+  offset = offset | 0
+  byteLength = byteLength | 0
+  if (!noAssert) {
+    var maxBytes = Math.pow(2, 8 * byteLength) - 1
+    checkInt(this, value, offset, byteLength, maxBytes, 0)
+  }
+
+  var i = byteLength - 1
+  var mul = 1
+  this[offset + i] = value & 0xFF
+  while (--i >= 0 && (mul *= 0x100)) {
+    this[offset + i] = (value / mul) & 0xFF
+  }
+
+  return offset + byteLength
+}
+
+Buffer.prototype.writeUInt8 = function writeUInt8 (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 1, 0xff, 0)
+  if (!Buffer.TYPED_ARRAY_SUPPORT) value = Math.floor(value)
+  this[offset] = (value & 0xff)
+  return offset + 1
+}
+
+function objectWriteUInt16 (buf, value, offset, littleEndian) {
+  if (value < 0) value = 0xffff + value + 1
+  for (var i = 0, j = Math.min(buf.length - offset, 2); i < j; ++i) {
+    buf[offset + i] = (value & (0xff << (8 * (littleEndian ? i : 1 - i)))) >>>
+      (littleEndian ? i : 1 - i) * 8
+  }
+}
+
+Buffer.prototype.writeUInt16LE = function writeUInt16LE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value & 0xff)
+    this[offset + 1] = (value >>> 8)
+  } else {
+    objectWriteUInt16(this, value, offset, true)
+  }
+  return offset + 2
+}
+
+Buffer.prototype.writeUInt16BE = function writeUInt16BE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value >>> 8)
+    this[offset + 1] = (value & 0xff)
+  } else {
+    objectWriteUInt16(this, value, offset, false)
+  }
+  return offset + 2
+}
+
+function objectWriteUInt32 (buf, value, offset, littleEndian) {
+  if (value < 0) value = 0xffffffff + value + 1
+  for (var i = 0, j = Math.min(buf.length - offset, 4); i < j; ++i) {
+    buf[offset + i] = (value >>> (littleEndian ? i : 3 - i) * 8) & 0xff
+  }
+}
+
+Buffer.prototype.writeUInt32LE = function writeUInt32LE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset + 3] = (value >>> 24)
+    this[offset + 2] = (value >>> 16)
+    this[offset + 1] = (value >>> 8)
+    this[offset] = (value & 0xff)
+  } else {
+    objectWriteUInt32(this, value, offset, true)
+  }
+  return offset + 4
+}
+
+Buffer.prototype.writeUInt32BE = function writeUInt32BE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value >>> 24)
+    this[offset + 1] = (value >>> 16)
+    this[offset + 2] = (value >>> 8)
+    this[offset + 3] = (value & 0xff)
+  } else {
+    objectWriteUInt32(this, value, offset, false)
+  }
+  return offset + 4
+}
+
+Buffer.prototype.writeIntLE = function writeIntLE (value, offset, byteLength, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) {
+    var limit = Math.pow(2, 8 * byteLength - 1)
+
+    checkInt(this, value, offset, byteLength, limit - 1, -limit)
+  }
+
+  var i = 0
+  var mul = 1
+  var sub = 0
+  this[offset] = value & 0xFF
+  while (++i < byteLength && (mul *= 0x100)) {
+    if (value < 0 && sub === 0 && this[offset + i - 1] !== 0) {
+      sub = 1
+    }
+    this[offset + i] = ((value / mul) >> 0) - sub & 0xFF
+  }
+
+  return offset + byteLength
+}
+
+Buffer.prototype.writeIntBE = function writeIntBE (value, offset, byteLength, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) {
+    var limit = Math.pow(2, 8 * byteLength - 1)
+
+    checkInt(this, value, offset, byteLength, limit - 1, -limit)
+  }
+
+  var i = byteLength - 1
+  var mul = 1
+  var sub = 0
+  this[offset + i] = value & 0xFF
+  while (--i >= 0 && (mul *= 0x100)) {
+    if (value < 0 && sub === 0 && this[offset + i + 1] !== 0) {
+      sub = 1
+    }
+    this[offset + i] = ((value / mul) >> 0) - sub & 0xFF
+  }
+
+  return offset + byteLength
+}
+
+Buffer.prototype.writeInt8 = function writeInt8 (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 1, 0x7f, -0x80)
+  if (!Buffer.TYPED_ARRAY_SUPPORT) value = Math.floor(value)
+  if (value < 0) value = 0xff + value + 1
+  this[offset] = (value & 0xff)
+  return offset + 1
+}
+
+Buffer.prototype.writeInt16LE = function writeInt16LE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value & 0xff)
+    this[offset + 1] = (value >>> 8)
+  } else {
+    objectWriteUInt16(this, value, offset, true)
+  }
+  return offset + 2
+}
+
+Buffer.prototype.writeInt16BE = function writeInt16BE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value >>> 8)
+    this[offset + 1] = (value & 0xff)
+  } else {
+    objectWriteUInt16(this, value, offset, false)
+  }
+  return offset + 2
+}
+
+Buffer.prototype.writeInt32LE = function writeInt32LE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value & 0xff)
+    this[offset + 1] = (value >>> 8)
+    this[offset + 2] = (value >>> 16)
+    this[offset + 3] = (value >>> 24)
+  } else {
+    objectWriteUInt32(this, value, offset, true)
+  }
+  return offset + 4
+}
+
+Buffer.prototype.writeInt32BE = function writeInt32BE (value, offset, noAssert) {
+  value = +value
+  offset = offset | 0
+  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000)
+  if (value < 0) value = 0xffffffff + value + 1
+  if (Buffer.TYPED_ARRAY_SUPPORT) {
+    this[offset] = (value >>> 24)
+    this[offset + 1] = (value >>> 16)
+    this[offset + 2] = (value >>> 8)
+    this[offset + 3] = (value & 0xff)
+  } else {
+    objectWriteUInt32(this, value, offset, false)
+  }
+  return offset + 4
+}
+
+function checkIEEE754 (buf, value, offset, ext, max, min) {
+  if (offset + ext > buf.length) throw new RangeError('Index out of range')
+  if (offset < 0) throw new RangeError('Index out of range')
+}
+
+function writeFloat (buf, value, offset, littleEndian, noAssert) {
+  if (!noAssert) {
+    checkIEEE754(buf, value, offset, 4, 3.4028234663852886e+38, -3.4028234663852886e+38)
+  }
+  ieee754.write(buf, value, offset, littleEndian, 23, 4)
+  return offset + 4
+}
+
+Buffer.prototype.writeFloatLE = function writeFloatLE (value, offset, noAssert) {
+  return writeFloat(this, value, offset, true, noAssert)
+}
+
+Buffer.prototype.writeFloatBE = function writeFloatBE (value, offset, noAssert) {
+  return writeFloat(this, value, offset, false, noAssert)
+}
+
+function writeDouble (buf, value, offset, littleEndian, noAssert) {
+  if (!noAssert) {
+    checkIEEE754(buf, value, offset, 8, 1.7976931348623157E+308, -1.7976931348623157E+308)
+  }
+  ieee754.write(buf, value, offset, littleEndian, 52, 8)
+  return offset + 8
+}
+
+Buffer.prototype.writeDoubleLE = function writeDoubleLE (value, offset, noAssert) {
+  return writeDouble(this, value, offset, true, noAssert)
+}
+
+Buffer.prototype.writeDoubleBE = function writeDoubleBE (value, offset, noAssert) {
+  return writeDouble(this, value, offset, false, noAssert)
+}
+
+// copy(targetBuffer, targetStart=0, sourceStart=0, sourceEnd=buffer.length)
+Buffer.prototype.copy = function copy (target, targetStart, start, end) {
+  if (!start) start = 0
+  if (!end && end !== 0) end = this.length
+  if (targetStart >= target.length) targetStart = target.length
+  if (!targetStart) targetStart = 0
+  if (end > 0 && end < start) end = start
+
+  // Copy 0 bytes; we're done
+  if (end === start) return 0
+  if (target.length === 0 || this.length === 0) return 0
+
+  // Fatal error conditions
+  if (targetStart < 0) {
+    throw new RangeError('targetStart out of bounds')
+  }
+  if (start < 0 || start >= this.length) throw new RangeError('sourceStart out of bounds')
+  if (end < 0) throw new RangeError('sourceEnd out of bounds')
+
+  // Are we oob?
+  if (end > this.length) end = this.length
+  if (target.length - targetStart < end - start) {
+    end = target.length - targetStart + start
+  }
+
+  var len = end - start
+  var i
+
+  if (this === target && start < targetStart && targetStart < end) {
+    // descending copy from end
+    for (i = len - 1; i >= 0; --i) {
+      target[i + targetStart] = this[i + start]
+    }
+  } else if (len < 1000 || !Buffer.TYPED_ARRAY_SUPPORT) {
+    // ascending copy from start
+    for (i = 0; i < len; ++i) {
+      target[i + targetStart] = this[i + start]
+    }
+  } else {
+    Uint8Array.prototype.set.call(
+      target,
+      this.subarray(start, start + len),
+      targetStart
+    )
+  }
+
+  return len
+}
+
+// Usage:
+//    buffer.fill(number[, offset[, end]])
+//    buffer.fill(buffer[, offset[, end]])
+//    buffer.fill(string[, offset[, end]][, encoding])
+Buffer.prototype.fill = function fill (val, start, end, encoding) {
+  // Handle string cases:
+  if (typeof val === 'string') {
+    if (typeof start === 'string') {
+      encoding = start
+      start = 0
+      end = this.length
+    } else if (typeof end === 'string') {
+      encoding = end
+      end = this.length
+    }
+    if (val.length === 1) {
+      var code = val.charCodeAt(0)
+      if (code < 256) {
+        val = code
+      }
+    }
+    if (encoding !== undefined && typeof encoding !== 'string') {
+      throw new TypeError('encoding must be a string')
+    }
+    if (typeof encoding === 'string' && !Buffer.isEncoding(encoding)) {
+      throw new TypeError('Unknown encoding: ' + encoding)
+    }
+  } else if (typeof val === 'number') {
+    val = val & 255
+  }
+
+  // Invalid ranges are not set to a default, so can range check early.
+  if (start < 0 || this.length < start || this.length < end) {
+    throw new RangeError('Out of range index')
+  }
+
+  if (end <= start) {
+    return this
+  }
+
+  start = start >>> 0
+  end = end === undefined ? this.length : end >>> 0
+
+  if (!val) val = 0
+
+  var i
+  if (typeof val === 'number') {
+    for (i = start; i < end; ++i) {
+      this[i] = val
+    }
+  } else {
+    var bytes = Buffer.isBuffer(val)
+      ? val
+      : utf8ToBytes(new Buffer(val, encoding).toString())
+    var len = bytes.length
+    for (i = 0; i < end - start; ++i) {
+      this[i + start] = bytes[i % len]
+    }
+  }
+
+  return this
+}
+
+// HELPER FUNCTIONS
+// ================
+
+var INVALID_BASE64_RE = /[^+\/0-9A-Za-z-_]/g
+
+function base64clean (str) {
+  // Node strips out invalid characters like \n and \t from the string, base64-js does not
+  str = stringtrim(str).replace(INVALID_BASE64_RE, '')
+  // Node converts strings with length < 2 to ''
+  if (str.length < 2) return ''
+  // Node allows for non-padded base64 strings (missing trailing ===), base64-js does not
+  while (str.length % 4 !== 0) {
+    str = str + '='
+  }
+  return str
+}
+
+function stringtrim (str) {
+  if (str.trim) return str.trim()
+  return str.replace(/^\s+|\s+$/g, '')
+}
+
+function toHex (n) {
+  if (n < 16) return '0' + n.toString(16)
+  return n.toString(16)
+}
+
+function utf8ToBytes (string, units) {
+  units = units || Infinity
+  var codePoint
+  var length = string.length
+  var leadSurrogate = null
+  var bytes = []
+
+  for (var i = 0; i < length; ++i) {
+    codePoint = string.charCodeAt(i)
+
+    // is surrogate component
+    if (codePoint > 0xD7FF && codePoint < 0xE000) {
+      // last char was a lead
+      if (!leadSurrogate) {
+        // no lead yet
+        if (codePoint > 0xDBFF) {
+          // unexpected trail
+          if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
+          continue
+        } else if (i + 1 === length) {
+          // unpaired lead
+          if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
+          continue
+        }
+
+        // valid lead
+        leadSurrogate = codePoint
+
+        continue
+      }
+
+      // 2 leads in a row
+      if (codePoint < 0xDC00) {
+        if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
+        leadSurrogate = codePoint
+        continue
+      }
+
+      // valid surrogate pair
+      codePoint = (leadSurrogate - 0xD800 << 10 | codePoint - 0xDC00) + 0x10000
+    } else if (leadSurrogate) {
+      // valid bmp char, but last char was a lead
+      if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD)
+    }
+
+    leadSurrogate = null
+
+    // encode utf8
+    if (codePoint < 0x80) {
+      if ((units -= 1) < 0) break
+      bytes.push(codePoint)
+    } else if (codePoint < 0x800) {
+      if ((units -= 2) < 0) break
+      bytes.push(
+        codePoint >> 0x6 | 0xC0,
+        codePoint & 0x3F | 0x80
+      )
+    } else if (codePoint < 0x10000) {
+      if ((units -= 3) < 0) break
+      bytes.push(
+        codePoint >> 0xC | 0xE0,
+        codePoint >> 0x6 & 0x3F | 0x80,
+        codePoint & 0x3F | 0x80
+      )
+    } else if (codePoint < 0x110000) {
+      if ((units -= 4) < 0) break
+      bytes.push(
+        codePoint >> 0x12 | 0xF0,
+        codePoint >> 0xC & 0x3F | 0x80,
+        codePoint >> 0x6 & 0x3F | 0x80,
+        codePoint & 0x3F | 0x80
+      )
+    } else {
+      throw new Error('Invalid code point')
+    }
+  }
+
+  return bytes
+}
+
+function asciiToBytes (str) {
+  var byteArray = []
+  for (var i = 0; i < str.length; ++i) {
+    // Node's code seems to be doing this and not & 0x7F..
+    byteArray.push(str.charCodeAt(i) & 0xFF)
+  }
+  return byteArray
+}
+
+function utf16leToBytes (str, units) {
+  var c, hi, lo
+  var byteArray = []
+  for (var i = 0; i < str.length; ++i) {
+    if ((units -= 2) < 0) break
+
+    c = str.charCodeAt(i)
+    hi = c >> 8
+    lo = c % 256
+    byteArray.push(lo)
+    byteArray.push(hi)
+  }
+
+  return byteArray
+}
+
+function base64ToBytes (str) {
+  return base64.toByteArray(base64clean(str))
+}
+
+function blitBuffer (src, dst, offset, length) {
+  for (var i = 0; i < length; ++i) {
+    if ((i + offset >= dst.length) || (i >= src.length)) break
+    dst[i + offset] = src[i]
+  }
+  return i
+}
+
+function isnan (val) {
+  return val !== val // eslint-disable-line no-self-compare
+}
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
+
+/***/ }),
+/* 219 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.byteLength = byteLength
+exports.toByteArray = toByteArray
+exports.fromByteArray = fromByteArray
+
+var lookup = []
+var revLookup = []
+var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array
+
+var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+for (var i = 0, len = code.length; i < len; ++i) {
+  lookup[i] = code[i]
+  revLookup[code.charCodeAt(i)] = i
+}
+
+revLookup['-'.charCodeAt(0)] = 62
+revLookup['_'.charCodeAt(0)] = 63
+
+function placeHoldersCount (b64) {
+  var len = b64.length
+  if (len % 4 > 0) {
+    throw new Error('Invalid string. Length must be a multiple of 4')
+  }
+
+  // the number of equal signs (place holders)
+  // if there are two placeholders, than the two characters before it
+  // represent one byte
+  // if there is only one, then the three characters before it represent 2 bytes
+  // this is just a cheap hack to not do indexOf twice
+  return b64[len - 2] === '=' ? 2 : b64[len - 1] === '=' ? 1 : 0
+}
+
+function byteLength (b64) {
+  // base64 is 4/3 + up to two characters of the original data
+  return (b64.length * 3 / 4) - placeHoldersCount(b64)
+}
+
+function toByteArray (b64) {
+  var i, l, tmp, placeHolders, arr
+  var len = b64.length
+  placeHolders = placeHoldersCount(b64)
+
+  arr = new Arr((len * 3 / 4) - placeHolders)
+
+  // if there are placeholders, only get up to the last complete 4 chars
+  l = placeHolders > 0 ? len - 4 : len
+
+  var L = 0
+
+  for (i = 0; i < l; i += 4) {
+    tmp = (revLookup[b64.charCodeAt(i)] << 18) | (revLookup[b64.charCodeAt(i + 1)] << 12) | (revLookup[b64.charCodeAt(i + 2)] << 6) | revLookup[b64.charCodeAt(i + 3)]
+    arr[L++] = (tmp >> 16) & 0xFF
+    arr[L++] = (tmp >> 8) & 0xFF
+    arr[L++] = tmp & 0xFF
+  }
+
+  if (placeHolders === 2) {
+    tmp = (revLookup[b64.charCodeAt(i)] << 2) | (revLookup[b64.charCodeAt(i + 1)] >> 4)
+    arr[L++] = tmp & 0xFF
+  } else if (placeHolders === 1) {
+    tmp = (revLookup[b64.charCodeAt(i)] << 10) | (revLookup[b64.charCodeAt(i + 1)] << 4) | (revLookup[b64.charCodeAt(i + 2)] >> 2)
+    arr[L++] = (tmp >> 8) & 0xFF
+    arr[L++] = tmp & 0xFF
+  }
+
+  return arr
+}
+
+function tripletToBase64 (num) {
+  return lookup[num >> 18 & 0x3F] + lookup[num >> 12 & 0x3F] + lookup[num >> 6 & 0x3F] + lookup[num & 0x3F]
+}
+
+function encodeChunk (uint8, start, end) {
+  var tmp
+  var output = []
+  for (var i = start; i < end; i += 3) {
+    tmp = (uint8[i] << 16) + (uint8[i + 1] << 8) + (uint8[i + 2])
+    output.push(tripletToBase64(tmp))
+  }
+  return output.join('')
+}
+
+function fromByteArray (uint8) {
+  var tmp
+  var len = uint8.length
+  var extraBytes = len % 3 // if we have 1 byte left, pad 2 bytes
+  var output = ''
+  var parts = []
+  var maxChunkLength = 16383 // must be multiple of 3
+
+  // go through the array every three bytes, we'll deal with trailing stuff later
+  for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
+    parts.push(encodeChunk(uint8, i, (i + maxChunkLength) > len2 ? len2 : (i + maxChunkLength)))
+  }
+
+  // pad the end with zeros, but make sure to not forget the extra bytes
+  if (extraBytes === 1) {
+    tmp = uint8[len - 1]
+    output += lookup[tmp >> 2]
+    output += lookup[(tmp << 4) & 0x3F]
+    output += '=='
+  } else if (extraBytes === 2) {
+    tmp = (uint8[len - 2] << 8) + (uint8[len - 1])
+    output += lookup[tmp >> 10]
+    output += lookup[(tmp >> 4) & 0x3F]
+    output += lookup[(tmp << 2) & 0x3F]
+    output += '='
+  }
+
+  parts.push(output)
+
+  return parts.join('')
+}
+
+
+/***/ }),
+/* 220 */
+/***/ (function(module, exports) {
+
+exports.read = function (buffer, offset, isLE, mLen, nBytes) {
+  var e, m
+  var eLen = nBytes * 8 - mLen - 1
+  var eMax = (1 << eLen) - 1
+  var eBias = eMax >> 1
+  var nBits = -7
+  var i = isLE ? (nBytes - 1) : 0
+  var d = isLE ? -1 : 1
+  var s = buffer[offset + i]
+
+  i += d
+
+  e = s & ((1 << (-nBits)) - 1)
+  s >>= (-nBits)
+  nBits += eLen
+  for (; nBits > 0; e = e * 256 + buffer[offset + i], i += d, nBits -= 8) {}
+
+  m = e & ((1 << (-nBits)) - 1)
+  e >>= (-nBits)
+  nBits += mLen
+  for (; nBits > 0; m = m * 256 + buffer[offset + i], i += d, nBits -= 8) {}
+
+  if (e === 0) {
+    e = 1 - eBias
+  } else if (e === eMax) {
+    return m ? NaN : ((s ? -1 : 1) * Infinity)
+  } else {
+    m = m + Math.pow(2, mLen)
+    e = e - eBias
+  }
+  return (s ? -1 : 1) * m * Math.pow(2, e - mLen)
+}
+
+exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
+  var e, m, c
+  var eLen = nBytes * 8 - mLen - 1
+  var eMax = (1 << eLen) - 1
+  var eBias = eMax >> 1
+  var rt = (mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0)
+  var i = isLE ? 0 : (nBytes - 1)
+  var d = isLE ? 1 : -1
+  var s = value < 0 || (value === 0 && 1 / value < 0) ? 1 : 0
+
+  value = Math.abs(value)
+
+  if (isNaN(value) || value === Infinity) {
+    m = isNaN(value) ? 1 : 0
+    e = eMax
+  } else {
+    e = Math.floor(Math.log(value) / Math.LN2)
+    if (value * (c = Math.pow(2, -e)) < 1) {
+      e--
+      c *= 2
+    }
+    if (e + eBias >= 1) {
+      value += rt / c
+    } else {
+      value += rt * Math.pow(2, 1 - eBias)
+    }
+    if (value * c >= 2) {
+      e++
+      c /= 2
+    }
+
+    if (e + eBias >= eMax) {
+      m = 0
+      e = eMax
+    } else if (e + eBias >= 1) {
+      m = (value * c - 1) * Math.pow(2, mLen)
+      e = e + eBias
+    } else {
+      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen)
+      e = 0
+    }
+  }
+
+  for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
+
+  e = (e << mLen) | m
+  eLen += mLen
+  for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
+
+  buffer[offset + i - d] |= s * 128
+}
+
+
+/***/ }),
+/* 221 */
+/***/ (function(module, exports) {
+
+var toString = {}.toString;
+
+module.exports = Array.isArray || function (arr) {
+  return toString.call(arr) == '[object Array]';
+};
+
+
+/***/ }),
+/* 222 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function dupe_array(count, value, i) {
+  var c = count[i]|0
+  if(c <= 0) {
+    return []
+  }
+  var result = new Array(c), j
+  if(i === count.length-1) {
+    for(j=0; j<c; ++j) {
+      result[j] = value
+    }
+  } else {
+    for(j=0; j<c; ++j) {
+      result[j] = dupe_array(count, value, i+1)
+    }
+  }
+  return result
+}
+
+function dupe_number(count, value) {
+  var result, i
+  result = new Array(count)
+  for(i=0; i<count; ++i) {
+    result[i] = value
+  }
+  return result
+}
+
+function dupe(count, value) {
+  if(typeof value === "undefined") {
+    value = 0
+  }
+  switch(typeof count) {
+    case "number":
+      if(count > 0) {
+        return dupe_number(count|0, value)
+      }
+    break
+    case "object":
+      if(typeof (count.length) === "number") {
+        return dupe_array(count, value, 0)
+      }
+    break
+  }
+  return []
+}
+
+module.exports = dupe
+
+/***/ }),
+/* 223 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var bits = __webpack_require__(224)
+
+function rootInorder(n) {
+  var ptree = (bits.nextPow2(n+1)>>>1) - 1
+  var f     = n - ptree
+  if(bits.nextPow2(f)-1 >= ptree) {
+    return ptree
+  }
+  return (ptree>>>1)+f
+}
+exports.root = rootInorder
+
+function beginInorder(n) {
+  return 0
+}
+exports.begin = beginInorder
+
+function endInorder(n) {
+  return n-1
+}
+exports.end = endInorder
+
+
+//This is really horrible because n is not necessarily a power of 2
+// If it was, we could just do:
+//
+//    height = bits.countTrailingZeros(~x)
+//
+// Instead, we just binary search because doing the right thing here is way too complicated.
+function heightInorder(n, x) {
+  if(n <= 0) {
+    return 0
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    return heightInorder(n-r-1, x-r-1)
+  } else if(x === r) {
+    return bits.log2(n)
+  }
+  return heightInorder(r, x)
+}
+exports.height = heightInorder
+
+function prevInorder(n, x) {
+  return Math.max(x-1,0)
+}
+exports.prev = prevInorder
+
+function nextInorder(n, x) {
+  return Math.min(x+1,n-1)
+}
+exports.next = nextInorder
+
+
+//The version for n = (1<<k)-1:
+//
+//  parent = (x & ~(1<<(h+1))) + (1<<h)
+//
+function parentInorder(n, x) {
+  if(n <= 0) {
+    return -1
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    var q = parentInorder(n-r-1, x-r-1)
+    if(q < 0) {
+      return r
+    } else {
+      return q + r + 1
+    }
+  } else if(x === r) {
+    return -1
+  }
+  var q =  parentInorder(r, x)
+  if(q < 0) {
+    return r
+  }
+  return q
+}
+exports.parent = parentInorder
+
+
+//Again, we get screwed because n is not a power of two -1.  If it was, we could do:
+//
+//    left = x - (1 << (h-1) )
+//
+// Where h is the height of the node
+//
+function leftInorder(n, x) {
+  if(n <= 0) {
+    return 0
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    return leftInorder(n-r-1, x-r-1) + r + 1
+  } else if(x === r) {
+    return rootInorder(x)
+  }
+  return leftInorder(r, x)
+
+}
+exports.left = leftInorder
+
+//for power of two minus one:
+//
+//    right = x + (1<<(h-1))
+//
+function rightInorder(n, x) {
+  if(n <= 0) {
+    return 0
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    return rightInorder(n-r-1, x-r-1) + r + 1
+  } else if(x === r) {
+    return rootInorder(n-r-1) + r + 1
+  }
+  return rightInorder(r, x)
+}
+exports.right = rightInorder
+
+
+function leafInorder(n, x) {
+  return heightInorder(n, x) === 0
+}
+exports.leaf = leafInorder
+
+
+function loInorder(n, x) {
+  n |= 0
+  x |= 0
+  var l = 0
+  while(n > 1) {
+    var r = rootInorder(n)
+    if(x > r) {
+      l += r + 1
+      n -= r + 1
+      x -= r + 1
+    } else if(x === r) {
+      break
+    } else {
+      n = r
+    }
+  }
+  return l
+}
+exports.lo = loInorder
+
+function hiInorder(n, x) {
+  n |= 0
+  x |= 0
+  var l = 0
+  while(n > 1) {
+    var r = rootInorder(n)
+    if(x > r) {
+      l += r + 1
+      n -= r + 1
+      x -= r + 1
+    } else if(x === r) {
+      l += n-1
+      break
+    } else {
+      n = r
+    }
+  }
+  return l
+}
+exports.hi = hiInorder
+
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Bit twiddling hacks for JavaScript.
+ *
+ * Author: Mikola Lysenko
+ *
+ * Ported from Stanford bit twiddling hack library:
+ *    http://graphics.stanford.edu/~seander/bithacks.html
+ */
+
+ "use restrict";
+
+//Number of bits in an integer
+var INT_BITS = 32;
+
+//Constants
+exports.INT_BITS  = INT_BITS;
+exports.INT_MAX   =  0x7fffffff;
+exports.INT_MIN   = -1<<(INT_BITS-1);
+
+//Returns -1, 0, +1 depending on sign of x
+exports.sign = function(v) {
+  return (v > 0) - (v < 0);
+}
+
+//Computes absolute value of integer
+exports.abs = function(v) {
+  var mask = v >> (INT_BITS-1);
+  return (v ^ mask) - mask;
+}
+
+//Computes minimum of integers x and y
+exports.min = function(x, y) {
+  return y ^ ((x ^ y) & -(x < y));
+}
+
+//Computes maximum of integers x and y
+exports.max = function(x, y) {
+  return x ^ ((x ^ y) & -(x < y));
+}
+
+//Checks if a number is a power of two
+exports.isPow2 = function(v) {
+  return !(v & (v-1)) && (!!v);
+}
+
+//Computes log base 2 of v
+exports.log2 = function(v) {
+  var r, shift;
+  r =     (v > 0xFFFF) << 4; v >>>= r;
+  shift = (v > 0xFF  ) << 3; v >>>= shift; r |= shift;
+  shift = (v > 0xF   ) << 2; v >>>= shift; r |= shift;
+  shift = (v > 0x3   ) << 1; v >>>= shift; r |= shift;
+  return r | (v >> 1);
+}
+
+//Computes log base 10 of v
+exports.log10 = function(v) {
+  return  (v >= 1000000000) ? 9 : (v >= 100000000) ? 8 : (v >= 10000000) ? 7 :
+          (v >= 1000000) ? 6 : (v >= 100000) ? 5 : (v >= 10000) ? 4 :
+          (v >= 1000) ? 3 : (v >= 100) ? 2 : (v >= 10) ? 1 : 0;
+}
+
+//Counts number of bits
+exports.popCount = function(v) {
+  v = v - ((v >>> 1) & 0x55555555);
+  v = (v & 0x33333333) + ((v >>> 2) & 0x33333333);
+  return ((v + (v >>> 4) & 0xF0F0F0F) * 0x1010101) >>> 24;
+}
+
+//Counts number of trailing zeros
+function countTrailingZeros(v) {
+  var c = 32;
+  v &= -v;
+  if (v) c--;
+  if (v & 0x0000FFFF) c -= 16;
+  if (v & 0x00FF00FF) c -= 8;
+  if (v & 0x0F0F0F0F) c -= 4;
+  if (v & 0x33333333) c -= 2;
+  if (v & 0x55555555) c -= 1;
+  return c;
+}
+exports.countTrailingZeros = countTrailingZeros;
+
+//Rounds to next power of 2
+exports.nextPow2 = function(v) {
+  v += v === 0;
+  --v;
+  v |= v >>> 1;
+  v |= v >>> 2;
+  v |= v >>> 4;
+  v |= v >>> 8;
+  v |= v >>> 16;
+  return v + 1;
+}
+
+//Rounds down to previous power of 2
+exports.prevPow2 = function(v) {
+  v |= v >>> 1;
+  v |= v >>> 2;
+  v |= v >>> 4;
+  v |= v >>> 8;
+  v |= v >>> 16;
+  return v - (v>>>1);
+}
+
+//Computes parity of word
+exports.parity = function(v) {
+  v ^= v >>> 16;
+  v ^= v >>> 8;
+  v ^= v >>> 4;
+  v &= 0xf;
+  return (0x6996 >>> v) & 1;
+}
+
+var REVERSE_TABLE = new Array(256);
+
+(function(tab) {
+  for(var i=0; i<256; ++i) {
+    var v = i, r = i, s = 7;
+    for (v >>>= 1; v; v >>>= 1) {
+      r <<= 1;
+      r |= v & 1;
+      --s;
+    }
+    tab[i] = (r << s) & 0xff;
+  }
+})(REVERSE_TABLE);
+
+//Reverse bits in a 32 bit word
+exports.reverse = function(v) {
+  return  (REVERSE_TABLE[ v         & 0xff] << 24) |
+          (REVERSE_TABLE[(v >>> 8)  & 0xff] << 16) |
+          (REVERSE_TABLE[(v >>> 16) & 0xff] << 8)  |
+           REVERSE_TABLE[(v >>> 24) & 0xff];
+}
+
+//Interleave bits of 2 coordinates with 16 bits.  Useful for fast quadtree codes
+exports.interleave2 = function(x, y) {
+  x &= 0xFFFF;
+  x = (x | (x << 8)) & 0x00FF00FF;
+  x = (x | (x << 4)) & 0x0F0F0F0F;
+  x = (x | (x << 2)) & 0x33333333;
+  x = (x | (x << 1)) & 0x55555555;
+
+  y &= 0xFFFF;
+  y = (y | (y << 8)) & 0x00FF00FF;
+  y = (y | (y << 4)) & 0x0F0F0F0F;
+  y = (y | (y << 2)) & 0x33333333;
+  y = (y | (y << 1)) & 0x55555555;
+
+  return x | (y << 1);
+}
+
+//Extracts the nth interleaved component
+exports.deinterleave2 = function(v, n) {
+  v = (v >>> n) & 0x55555555;
+  v = (v | (v >>> 1))  & 0x33333333;
+  v = (v | (v >>> 2))  & 0x0F0F0F0F;
+  v = (v | (v >>> 4))  & 0x00FF00FF;
+  v = (v | (v >>> 16)) & 0x000FFFF;
+  return (v << 16) >> 16;
+}
+
+
+//Interleave bits of 3 coordinates, each with 10 bits.  Useful for fast octree codes
+exports.interleave3 = function(x, y, z) {
+  x &= 0x3FF;
+  x  = (x | (x<<16)) & 4278190335;
+  x  = (x | (x<<8))  & 251719695;
+  x  = (x | (x<<4))  & 3272356035;
+  x  = (x | (x<<2))  & 1227133513;
+
+  y &= 0x3FF;
+  y  = (y | (y<<16)) & 4278190335;
+  y  = (y | (y<<8))  & 251719695;
+  y  = (y | (y<<4))  & 3272356035;
+  y  = (y | (y<<2))  & 1227133513;
+  x |= (y << 1);
+  
+  z &= 0x3FF;
+  z  = (z | (z<<16)) & 4278190335;
+  z  = (z | (z<<8))  & 251719695;
+  z  = (z | (z<<4))  & 3272356035;
+  z  = (z | (z<<2))  & 1227133513;
+  
+  return x | (z << 2);
+}
+
+//Extracts nth interleaved component of a 3-tuple
+exports.deinterleave3 = function(v, n) {
+  v = (v >>> n)       & 1227133513;
+  v = (v | (v>>>2))   & 3272356035;
+  v = (v | (v>>>4))   & 251719695;
+  v = (v | (v>>>8))   & 4278190335;
+  v = (v | (v>>>16))  & 0x3FF;
+  return (v<<22)>>22;
+}
+
+//Computes next combination in colexicographic order (this is mistakenly called nextPermutation on the bit twiddling hacks page)
+exports.nextCombination = function(v) {
+  var t = v | (v - 1);
+  return (t + 1) | (((~t & -~t) - 1) >>> (countTrailingZeros(v) + 1));
+}
+
+
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = KDTHeap
+
+var pool = __webpack_require__(41)
+
+function heapParent(i) {
+  if(i & 1) {
+    return (i - 1) >> 1
+  }
+  return (i >> 1) - 1
+}
+
+function KDTHeap(n, d) {
+  this.count = 0
+  this.dataSize = d
+  this.index = pool.mallocInt32(n)
+  this.data = pool.mallocFloat64(n*d)
+}
+
+var proto = KDTHeap.prototype
+
+proto.heapSwap = function(_i,_j) {
+  var data = this.data
+  var index = this.index
+  var d = this.dataSize
+  var tmp = index[_i]
+  index[_i] = index[_j]
+  index[_j] = tmp
+  var aptr = d*_i
+  var bptr = d*_j
+  for(var _k=0; _k<d; ++_k) {
+    var t2 = data[aptr]
+    data[aptr] = data[bptr]
+    data[bptr] = t2
+    aptr += 1
+    bptr += 1
+  }
+}
+
+proto.heapUp = function(i) {
+  var d = this.dataSize
+  var index = this.index
+  var data = this.data
+  var w = data[d*i]
+  while(i>0) {
+    var parent = heapParent(i)
+    if(parent >= 0) {
+      var pw = data[d*parent]
+      if(w < pw) {
+        this.heapSwap(i, parent)
+        i = parent
+        continue
+      }
+    }
+    break
+  }
+}
+
+proto.heapDown = function(i) {
+  var d = this.dataSize
+  var index = this.index
+  var data = this.data
+  var count = this.count
+  var w = data[d*i]
+  while(true) {
+    var tw = w
+    var left  = 2*i + 1
+    var right = 2*(i + 1)
+    var next = i
+    if(left < count) {
+      var lw = data[d*left]
+      if(lw < tw) {
+        next = left
+        tw = lw
+      }
+    }
+    if(right < count) {
+      var rw = data[d*right]
+      if(rw < tw) {
+        next = right
+      }
+    }
+    if(next === i) {
+      break
+    }
+    this.heapSwap(i, next)
+    i = next      
+  }
+}
+
+//Clear item from top of heap
+proto.pop = function() {
+  this.count -= 1
+  this.heapSwap(0, this.count)
+  this.heapDown(0)
+}
+
+//Assume object already written to data
+proto.push = function() {
+  this.heapUp(this.count)
+  this.count += 1
+}
+
+proto.dispose = function() {
+  pool.freeInt32(this.index)
+  pool.freeFloat64(this.data)
+}
+
+/***/ }),
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const terra_1 = __webpack_require__(39);
+class TriTerra extends terra_1.Terra {
+    deriveGridSize() {
+        let S = this.cellsize;
+        let H = this.cellsize * Math.sin(Math.PI / 3);
+        this.nrows = Math.ceil(this.height / H) - 1;
+        this.ncols = 2 * Math.ceil(this.width / S) - 2;
+    }
+    deriveTerraDimensions() {
+        let S = this.cellsize;
+        let H = this.cellsize * Math.sin(Math.PI / 3);
+        this.width = (this.ncols + 2) * S / 2;
+        this.height = (this.nrows + 1) * H;
+    }
+    getNeighbors(row, col) {
+        let neighbors;
+        let nrows = this.nrows;
+        let ncols = this.ncols;
+        if ((row + col) % 2) {
+            neighbors = [
+                [row, col - 1],
+                [row, col + 1],
+                [row + 1, col]
+            ];
+        }
+        else {
+            neighbors = [
+                [row - 1, col],
+                [row, col - 1],
+                [row, col + 1]
+            ];
+        }
+        return neighbors.filter(([row, col]) => {
+            return row >= 0 && row < nrows && col >= 0 && col < ncols;
+        });
+    }
+    isValidCellCoord(coord) {
+        coord;
+        return true; // TODO
+    }
+    distanceManhattan(a, b) {
+        return Math.abs(b[0] - a[0]) + Math.abs(b[1] - a[1]);
+    }
+    heuristic(from, to) {
+        return this.distanceManhattan(from, to);
+    }
+    getCellCenter(row, col) {
+        console.error('Not implemented');
+        return [row, col];
+    }
+    getCellCorners(i, j) {
+        let S = this.cellsize;
+        let H = S * Math.sin(Math.PI / 3);
+        if ((i + j) % 2) {
+            // Flat-side down triangle
+            return [
+                [j * S / 2 + S / 2, i * H],
+                [(j - 1) * S / 2 + S / 2, (i + 1) * H],
+                [(j + 1) * S / 2 + S / 2, (i + 1) * H],
+            ];
+        }
+        else {
+            // Flat-side up triangle
+            return [
+                [(j - 1) * S / 2 + S / 2, i * H],
+                [(j + 1) * S / 2 + S / 2, i * H],
+                [j * S / 2 + S / 2, (i + 1) * H]
+            ];
+        }
+    }
+}
+exports.TriTerra = TriTerra;
+
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const terra_1 = __webpack_require__(39);
+class HexTerra extends terra_1.Terra {
+    constructor(spec) {
+        super(spec);
+    }
+    get radiusInner() {
+        return this.cellsize * Math.sin(Math.PI / 3);
+    }
+    get radiusOuter() {
+        return this.cellsize;
+    }
+    deriveGridSize() {
+        let s = this.cellsize;
+        let h = s * Math.cos(Math.PI / 3);
+        let W = this.width;
+        let H = this.height;
+        this.ncols = Math.floor((W / s) * (2 / 3) + 1);
+        this.nrows = Math.ceil((H / (2 * h)) + 1);
+    }
+    deriveTerraDimensions() {
+        throw new Error('Not implemented');
+    }
+    getCellCenter(row, col) {
+        let s = this.cellsize;
+        let h = s * Math.cos(Math.PI / 6);
+        let cx, cy;
+        if (col % 2) {
+            cx = (0.5 + col + Math.floor(col / 2)) * s;
+            cy = (2 * row + 1) * h;
+        }
+        else {
+            cx = (3 * col / 2) * s;
+            cy = 2 * row * h;
+        }
+        return [cx, cy];
+    }
+    getCellCorners(row, col) {
+        let s = this.cellsize;
+        let h = s * Math.cos(Math.PI / 6);
+        let [cx, cy] = this.getCellCenter(row, col);
+        return [
+            [cx + s, cy],
+            [cx + s / 2, cy + h],
+            [cx - s / 2, cy + h],
+            [cx - s, cy],
+            [cx - s / 2, cy - h],
+            [cx + s / 2, cy - h]
+        ];
+    }
+    distanceManhattan(a, b) {
+        return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
+    }
+    isValidCellCoord(coord) {
+        let [row, col] = coord;
+        // Row min check
+        if (row < 0) {
+            return false;
+        }
+        // Row max check
+        if (col % 2) {
+            if (row >= this.nrows - 1) {
+                return false;
+            }
+        }
+        else {
+            if (row >= this.nrows) {
+                return false;
+            }
+        }
+        // Column min check
+        if (col < 0) {
+            return false;
+        }
+        // Column max check
+        if (col >= this.ncols) {
+            return false;
+        }
+        return true;
+    }
+    getNeighbors(row, col) {
+        let neighbors = [
+            [row + 1, col],
+            [row - 1, col]
+        ];
+        if (col % 2) {
+            neighbors.push([row, col - 1]);
+            neighbors.push([row + 1, col - 1]);
+            neighbors.push([row, col + 1]);
+            neighbors.push([row + 1, col + 1]);
+        }
+        else {
+            neighbors.push([row - 1, col - 1]);
+            neighbors.push([row, col - 1]);
+            neighbors.push([row - 1, col + 1]);
+            neighbors.push([row, col + 1]);
+        }
+        return neighbors.filter(coord => {
+            return this.isValidCellCoord(coord);
+        });
+    }
+    heuristic(from, to) {
+        return this.distanceManhattan(from, to);
+    }
+}
+exports.HexTerra = HexTerra;
+
+
+/***/ }),
+/* 228 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class Fountain {
+    constructor(
+        // location of the fountain
+        cell, 
+        // When a fountain achieves divinity, the game is over
+        divinityPeriod, // in seconds
+        // Amount of spirit the fountain starts with.
+        // Striking minions will diminish this spirit.
+        // Passage of time will replenish it.
+        baseSpirit, 
+        // Total spirit required for divinity
+        spiritGoal, 
+        // The fountain generates spirit in order to reach divinity. The rate of
+        // spirit generation is spiritGoal/divinityPeriod
+        // The fountain loses spirit for every enemy actor that attacks it
+        spiritLossPerAttack, radius, sprite, onDivinity, onDestruction) {
+        this.cell = cell;
+        this.divinityPeriod = divinityPeriod;
+        this.baseSpirit = baseSpirit;
+        this.spiritGoal = spiritGoal;
+        this.spiritLossPerAttack = spiritLossPerAttack;
+        this.radius = radius;
+        this.sprite = sprite;
+        this.onDivinity = onDivinity;
+        this.onDestruction = onDestruction;
+        this.spirit = this.baseSpirit;
+        this.spiritGainSteps = 100;
+    }
+    sufferAttack(minion) {
+        // A weaker minion will impart lesser damage to fountain on attack
+        let minionStrength = minion.health / minion.maxhealth;
+        let spiritLoss = this.spiritLossPerAttack * minionStrength;
+        this.spirit -= spiritLoss;
+        this.updateDisplay();
+        if (this.spirit < 0) {
+            this.onDestruction();
+        }
+    }
+    updateDisplay() {
+        let frac = (this.spirit - this.baseSpirit) / this.spiritGoal;
+        let red, green, blue;
+        if (frac > 0) {
+            red = Math.round((1 - frac) * 255);
+            green = 255;
+            blue = Math.round((1 - frac) * 255);
+        }
+        else {
+            frac = Math.abs(frac);
+            red = 255;
+            green = Math.round((1 - frac) * 255);
+            blue = Math.round((1 - frac) * 255);
+        }
+        this.sprite.tint = red << 16 | green << 8 | blue;
+    }
+    gainSpirit() {
+        this.spirit += (this.spiritGoal - this.baseSpirit) / this.spiritGainSteps;
+        this.updateDisplay();
+        if (this.spirit >= this.spiritGoal) {
+            this.onDivinity();
+        }
+    }
+}
+exports.Fountain = Fountain;
+
+
+/***/ }),
+/* 229 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
+exports.PXC_META_REGEX = /pxc_meta_(\w+)/;
+exports.PXC_META_SPAWN_REGEX = /pxc_meta_spawn(\d+)/;
+
+
+/***/ }),
+/* 230 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class Spawner {
+    constructor(cell, level, interval, // time between spawn (in seconds)
+        rate) {
+        this.cell = cell;
+        this.level = level;
+        this.interval = interval;
+        this.rate = rate;
+    }
+    recomputePath() {
+        let terrain = this.level.terra;
+        let source = this.cell;
+        let target = this.level.fountain.cell;
+        this.pathFromSource = terrain
+            .searchPath(source, target, 'bfs')
+            .map(c => terrain.getCellCenter(c[0], c[1]));
+    }
+    pathcopy() {
+        if (!this.pathFromSource) {
+            this.recomputePath();
+        }
+        return JSON.parse(JSON.stringify(this.pathFromSource));
+    }
+}
+exports.Spawner = Spawner;
+
+
+/***/ }),
+/* 231 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class Animator {
+    constructor() {
+        this._queue = [];
+    }
+    add(animation) {
+        this._queue.push(animation);
+    }
+    tick(tstamp) {
+        // Process animations
+        for (let i = 0; i < this._queue.length; i++) {
+            let anim = this._queue[i];
+            if (!anim.isStarted()) {
+                anim.start(tstamp);
+            }
+            anim.eval(tstamp);
+            if (anim.isPastEnd(tstamp)) {
+                anim.end();
+                this._queue.splice(i, 1);
+                i--;
+            }
+        }
+    }
+}
+exports.Animator = Animator;
+
+
+/***/ }),
+/* 232 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const minion_1 = __webpack_require__(98);
+const tower_1 = __webpack_require__(97);
+class CollisionSystem {
+    constructor() {
+        this.minions = [];
+        this.towers = [];
+        this.inRangePairs = {};
+    }
+    addMember(member) {
+        if (member instanceof minion_1.Minion) {
+            this.minions.push(member);
+        }
+        else if (member instanceof tower_1.Tower) {
+            this.towers.push(member);
+        }
+    }
+    analyse() {
+        for (let mi = 0; mi < this.minions.length; mi++) {
+            let minion = this.minions[mi];
+            let [mx, my] = minion.position;
+            let mr = 0;
+            for (let ti = 0; ti < this.towers.length; ti++) {
+                let tower = this.towers[ti];
+                let [tx, ty] = tower.position;
+                let tr = tower.fireRange;
+                let dx = tx - mx;
+                let dy = ty - my;
+                let pairId = minion.uid + '-' + tower.uid;
+                if (dx * dx + dy * dy < (mr + tr) * (mr + tr)) {
+                    if (!this.inRangePairs.hasOwnProperty(pairId)) {
+                        // not in range already
+                        tower.onCollisionStart(minion);
+                        minion.onCollisionStart(tower);
+                        this.inRangePairs[pairId] = 1;
+                    }
+                }
+                else {
+                    if (this.inRangePairs.hasOwnProperty(pairId)) {
+                        tower.onCollisionEnd(minion);
+                        minion.onCollisionEnd(tower);
+                        delete this.inRangePairs[pairId];
+                    }
+                }
+            }
+        }
+    }
+}
+exports.CollisionSystem = CollisionSystem;
+
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=studio.js.map
+//# sourceMappingURL=game-web.js.map
