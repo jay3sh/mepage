@@ -37,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16734861"
-     inkscape:cx="3180.0228"
-     inkscape:cy="-423.58839"
+     inkscape:zoom="0.23666667"
+     inkscape:cx="370.11852"
+     inkscape:cy="1279.3284"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="true"
@@ -913,28 +913,6 @@
          inkscape:connector-curvature="0" />
     </g>
     <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:0.99539173;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect924"
-       width="32.332157"
-       height="32.332157"
-       x="2327.6677"
-       y="160"
-       inkscape:label="pxc_meta_spawn0">
-      <desc
-         id="desc927">{&quot;rate&quot;:15}</desc>
-    </rect>
-    <rect
-       inkscape:label="pxc_meta_spawn1"
-       y="1167.6678"
-       x="40"
-       height="32.332157"
-       width="32.332157"
-       id="rect926"
-       style="opacity:1;fill:#ff0000;fill-opacity:0.99539173;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc929">{&quot;interval&quot;:4}</desc>
-    </rect>
-    <rect
        inkscape:label="pxc_meta_fountain"
        y="1527.6678"
        x="2120"
@@ -949,28 +927,6 @@
   &quot;spiritGoal&quot;:200,
   &quot;spiritLossPerAttack&quot;:0.4
 }</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:0.99539173;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect8261"
-       width="32.332157"
-       height="32.332157"
-       x="400.42404"
-       y="118.19788"
-       inkscape:label="pxc_meta_spawn2">
-      <desc
-         id="desc8259">{&quot;interval&quot;:4}</desc>
-    </rect>
-    <rect
-       inkscape:label="pxc_meta_spawn3"
-       y="1345.7598"
-       x="756.60779"
-       height="32.332157"
-       width="32.332157"
-       id="rect8265"
-       style="opacity:1;fill:#ff0000;fill-opacity:0.99539173;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc8263">{&quot;interval&quot;:7}</desc>
     </rect>
     <g
        id="g8308"
@@ -1028,6 +984,56 @@
          style="fill:#1e621e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          sodipodi:nodetypes="ccccccccccc" />
     </g>
+    <circle
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99607843"
+       id="path8312"
+       cx="76.197182"
+       cy="1155.4225"
+       r="23.732391"
+       inkscape:label="pxc_meta_spawn1">
+      <desc
+         id="desc8322">{&quot;interval&quot;:4}</desc>
+    </circle>
+    <circle
+       inkscape:label="pxc_meta_spawn2"
+       r="23.732391"
+       cy="59.999943"
+       cx="65.633827"
+       id="circle8326"
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99607843">
+      <desc
+         id="desc8324">{&quot;interval&quot;:4}</desc>
+    </circle>
+    <circle
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99607843"
+       id="circle8330"
+       cx="2337.8865"
+       cy="128.71312"
+       r="23.732391"
+       inkscape:label="pxc_meta_spawn0">
+      <desc
+         id="desc8328">{&quot;interval&quot;:4}</desc>
+    </circle>
+    <circle
+       inkscape:label="pxc_meta_spawn3"
+       r="23.732391"
+       cy="1373.0282"
+       cx="772.32391"
+       id="circle8334"
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99607843">
+      <desc
+         id="desc8332">{&quot;interval&quot;:2}</desc>
+    </circle>
+    <circle
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99607843"
+       id="circle8338"
+       cx="882.18304"
+       cy="544.85919"
+       r="23.732391"
+       inkscape:label="pxc_meta_spawn4">
+      <desc
+         id="desc8336">{&quot;interval&quot;:2}</desc>
+    </circle>
   </g>
   <g
      inkscape:groupmode="layer"
