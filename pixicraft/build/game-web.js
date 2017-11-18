@@ -23422,17 +23422,30 @@ class AssetManager {
         }
     }
     loadSounds() {
-        return new Promise((resolve) => {
-            this.sounds['tower-fire'] = new howler.Howl({
-                src: ['assets/tower-fire.mp3'],
-                volume: 0.5,
-                loop: false,
-                autoplay: false,
-                onload: () => {
-                    resolve();
-                }
-            });
-        });
+        return Promise.all([
+            new Promise((resolve) => {
+                this.sounds['tower-fire'] = new howler.Howl({
+                    src: ['assets/tower-fire.mp3'],
+                    volume: 0.3,
+                    loop: false,
+                    autoplay: false,
+                    onload: () => {
+                        resolve();
+                    }
+                });
+            }),
+            new Promise((resolve) => {
+                this.sounds['background-beat'] = new howler.Howl({
+                    src: ['assets/background-beat.mp3'],
+                    volume: 0.5,
+                    loop: true,
+                    autoplay: false,
+                    onload: () => {
+                        resolve();
+                    }
+                });
+            })
+        ]);
     }
     getSound(key) {
         return this.sounds[key];
@@ -47239,7 +47252,6 @@ const collision_sys_1 = __webpack_require__(232);
 const hud_1 = __webpack_require__(233);
 const USE_DOM_FOR_GRID_ANALYSIS = true;
 const HIGHLIGHT_CELL_UNDER_CURSOR = false;
-const X_PADDING = 20;
 const Y_PADDING = 50;
 const DEBUG = true;
 const SCROLL_MULTIPLIER = 4000;
@@ -47833,6 +47845,7 @@ class Level {
             this.hud.tick(t);
         });
         app.ticker.start();
+        this.am.getSound('background-beat').play();
     }
     cleanupDeadMinions() {
         let minionsToRemove = [];

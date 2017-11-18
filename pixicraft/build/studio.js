@@ -286,7 +286,7 @@ Object.defineProperty(exports, 'TextureMatrix', {
   }
 });
 
-var _BaseTexture = __webpack_require__(9);
+var _BaseTexture = __webpack_require__(10);
 
 Object.defineProperty(exports, 'BaseTexture', {
   enumerable: true,
@@ -1662,7 +1662,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _BaseTexture = __webpack_require__(9);
+var _BaseTexture = __webpack_require__(10);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
@@ -2672,6 +2672,499 @@ if (true) {
 
 "use strict";
 
+Object.defineProperty(exports, "__esModule", { value: true });
+function svgToCanvas(svgmarkup, background) {
+    return new Promise((resolve) => {
+        let div = document.createElement('div');
+        div.innerHTML = svgmarkup;
+        let svg = div.querySelector('svg');
+        let width = parseInt(svg.getAttribute('width'));
+        let height = parseInt(svg.getAttribute('height'));
+        let canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        let ctx = canvas.getContext('2d');
+        let svgdataurl = 'data:image/svg+xml;utf8,' + svgmarkup;
+        let img = new Image();
+        img.onload = () => {
+            if (background) {
+                ctx.fillStyle = background;
+                ctx.fillRect(0, 0, width, height);
+            }
+            ctx.drawImage(img, 0, 0);
+            resolve(canvas);
+        };
+        img.src = svgdataurl;
+    });
+}
+exports.svgToCanvas = svgToCanvas;
+/**
+ * Calls callback at specified time intervals
+ */
+class Timer {
+    constructor(interval, callback) {
+        this.interval = interval;
+        this.callback = callback;
+        this.count = 0;
+        this.t0 = NaN;
+    }
+    tick(t) {
+        if (isNaN(this.t0)) {
+            this.t0 = t;
+            this.tlast = t;
+        }
+        else {
+            let elapsed = t - this.tlast;
+            if (elapsed >= this.interval) {
+                this.callback(this.count);
+                this.tlast = t;
+            }
+        }
+    }
+}
+exports.Timer = Timer;
+exports.EPSILON = 1e-4;
+exports.vec2 = {
+    add: function (...varr) {
+        let answer = [0, 0];
+        for (let v of varr) {
+            answer[0] += v[0];
+            answer[1] += v[1];
+        }
+        return answer;
+    },
+    sub: function (va, vb) {
+        return [va[0] - vb[0], va[1] - vb[1]];
+    },
+    mul: function (va, k) {
+        return [va[0] * k, va[1] * k];
+    },
+    isNonZero: function (v, tolerance = exports.EPSILON) {
+        return Math.abs(v[0]) > tolerance || Math.abs(v[1]) > tolerance;
+    },
+    isZero: function (v, tolerance = exports.EPSILON) {
+        return !exports.vec2.isNonZero(v, tolerance);
+    },
+    lenSq: function (v) {
+        return v[0] * v[0] + v[1] * v[1];
+    },
+    len: function (v) {
+        return Math.sqrt(exports.vec2.lenSq(v));
+    },
+    unit: function (v) {
+        let len = exports.vec2.len(v);
+        if (len !== 0) {
+            return exports.vec2.mul(v, 1 / exports.vec2.len(v));
+        }
+        else {
+            return [0, 0];
+        }
+    },
+    distSq: function (va, vb) {
+        return exports.vec2.lenSq(exports.vec2.sub(va, vb));
+    },
+    dist: function (va, vb) {
+        return Math.sqrt(exports.vec2.distSq(va, vb));
+    },
+    dot: function (va, vb) {
+        return va[0] * vb[0] + va[1] * vb[1];
+    },
+    /**
+     * Z-coordinate of cross product (because x and y are zero)
+     */
+    cross: function (va, vb) {
+        return va[0] * vb[1] - va[1] * vb[0];
+    },
+    toInt: function (v) {
+        return [Math.round(v[0]), Math.round(v[1])];
+    },
+    equal: function (va, vb, tolerance = exports.EPSILON) {
+        return Math.abs(va[0] - vb[0]) < tolerance &&
+            Math.abs(va[1] - vb[1]) < tolerance;
+    },
+    low: function (...points) {
+        let xlow = Infinity, ylow = Infinity;
+        for (let point of points) {
+            xlow = Math.min(point[0], xlow);
+            ylow = Math.min(point[1], ylow);
+        }
+        return [xlow, ylow];
+    },
+    high: function (...points) {
+        let xhigh = -Infinity, yhigh = -Infinity;
+        for (let point of points) {
+            xhigh = Math.max(point[0], xhigh);
+            yhigh = Math.max(point[1], yhigh);
+        }
+        return [xhigh, yhigh];
+    },
+    format: function (v) {
+        return '[' + v[0].toFixed(2) + ',' + v[1].toFixed(2) + ']';
+    },
+    dir: function (vfrom, vto) {
+        return exports.vec2.unit(exports.vec2.sub(vto, vfrom));
+    },
+    orthogonal: function (point) {
+        let [x, y] = point;
+        return [y, -x];
+    }
+};
+/*
+function pruneNearPoints(points:number[][], tolerance = 1) {
+  let sqtol = tolerance * tolerance;
+  let pruned = [points[0]];
+  let lastpt = pruned[0];
+  let pruneCount = 0;
+  for (let i = 1; i < points.length; i++) {
+    if (vec2.distSq(lastpt, points[i]) > sqtol) {
+      pruned.push(points[i]);
+      lastpt = points[i];
+    } else {
+      pruneCount++;
+    }
+  }
+  return pruned;
+}
+
+export interface ApproximateOptions {
+  tolerance? : number;
+  pruneNearPoints? : boolean;
+  sharpAngleDegrees? : number;
+}
+
+const defaults:ApproximateOptions = {
+  tolerance: 1,
+  pruneNearPoints: true,
+  sharpAngleDegrees: 45
+};
+
+export function approximate(points:number[][], options?:ApproximateOptions) {
+  let o = Object.assign({}, defaults, options);
+  if (o.pruneNearPoints) {
+    points = pruneNearPoints(points, 1);
+  }
+  let isClosed = false;
+  if (vec2.dist(points[0], points[points.length - 1]) < 1e-2) {
+    isClosed = true;
+  }
+
+  if (points.length <= 2) {
+    return {curves:[],continuities:[]};
+  }
+
+  let curveFitter = new CurveFitter(points, o);
+  let curves = curveFitter.fit();
+
+  console.assert(curves.length !== 0);
+
+  let continuities = curveFitter.continuities.filter(x => x !== 0).map(x => x > 0);
+
+  if (isClosed) {
+    // If the cbez curves touching at the closing point of the freehand curve
+    // meet each other with almost parallel tangents, then we should redefine
+    // them so that they are G1 continuous, i.e. have parallel tangents
+    let cbezFirst = curves[0];
+    let cbezLast = curves[curves.length - 1];
+
+    let tanStart = vec2.dir(cbezFirst[0], cbezFirst[1]);
+    let tanEnd = vec2.dir(cbezLast[2], cbezLast[3]);
+    let costheta = vec2.dot(tanStart, tanEnd);
+    console.assert(vec2.dist(cbezFirst[0], cbezLast[3]) < 1e-2);
+    if (costheta > Math.cos(o.sharpAngleDegrees! * Math.PI / 180.0)) {
+      let avgtan = vec2.unit(vec2.add(tanStart, tanEnd));
+
+      let tan1Mag = vec2.dist(cbezFirst[1], cbezFirst[0]);
+      cbezFirst[1] = vec2.add(cbezFirst[0], vec2.mul(avgtan, tan1Mag));
+
+      avgtan = vec2.mul(avgtan, -1);
+      let tan2Mag = vec2.dist(cbezLast[2], cbezLast[3]);
+      cbezLast[2] = vec2.add(cbezLast[3], vec2.mul(avgtan, tan2Mag));
+
+      continuities[0] = true;
+      continuities[continuities.length - 1] = true;
+    }
+  }
+  return { curves, continuities };
+}
+
+class CurveFitter {
+
+  private options : ApproximateOptions;
+  private sharpAngleCosine : number;
+  private _points : number[][];
+  private answer : number[][][];
+  public continuities : number[];
+
+  constructor(iPoints:number[][], options:ApproximateOptions) {
+    this.options = options;
+    this.sharpAngleCosine = Math.cos(options.sharpAngleDegrees! * Math.PI / 180.0);
+    this._points = iPoints.slice(0);
+  }
+
+  fit() {
+    this.answer = [];
+    let p = this._points;
+    let l = p.length;
+    console.assert(l > 2);
+
+    // The continuities array may have values 0,1,-1
+    // 0 - There isn't a bezier curve endpoint at this index
+    // 1 - The bezier curve endpoints meet at this index and are G1 continuous
+    // -1 - The bezier curve endpoints meet at this index and are not G1 continuous
+    this.continuities = new Array(l);
+    this.continuities.fill(0);
+
+    // The first and last point are not G1 continuous
+    this.continuities[0] = -1;
+    this.continuities[l - 1] = -1;
+
+    let tan1 = vec2.unit(vec2.sub(p[1], p[0]));
+    let tan2 = vec2.unit(vec2.sub(p[l - 2], p[l - 1]));
+    this.fitCubic(0, l - 1, tan1, tan2, this.options.tolerance!);
+
+    return this.answer;
+  }
+
+  fitCubic(first:number, last:number, tan1:number[], tan2:number[], error:number) {
+    let maxError = Math.max(error, error * error);
+    let p = this._points;
+    if (last - first === 1) {
+      let d = vec2.dist(p[last], p[first]) / 3.0;
+      this.answer.push([
+        p[first],
+        vec2.add(p[first], vec2.mul(tan1, d)),
+        vec2.add(p[last], vec2.mul(tan2, d)),
+        p[last]
+      ]);
+      return;
+    }
+
+    let uPrime = this.chordLengthParameterize(first, last);
+    let dirUnchanged = true;
+    let split=-1;
+
+    // Try to reparameterise the curve 4 times in order to reduce the max error
+    for (let i = 0; i <= 4; i++) {
+      let curve = this.generateCubicBezier(first, last, uPrime, tan1, tan2);
+      let maxerr = this.findMaxError(first, last, curve, uPrime);
+
+      if (maxerr.error < error && dirUnchanged) {
+        this.answer.push(curve);
+        return;
+      }
+      split = maxerr.index;
+
+      if (i > 0 && maxerr.error >= maxError) { // The error is not reducing
+        break;
+      }
+      dirUnchanged = this.reparameterize(first, last, uPrime, curve);
+      maxError = maxerr.error;
+    }
+    console.assert(split >= 0);
+
+    if (this.isSharpCorner(split)) {
+      this.continuities[split] = -1;
+      let tanCenter1 = vec2.dir(p[split], p[split - 1]);
+      this.fitCubic(first, split, tan1, tanCenter1, error);
+      let tanCenter2 = vec2.dir(p[split], p[split + 1]);
+      this.fitCubic(split, last, tanCenter2, tan2, error);
+    } else {
+      this.continuities[split] = 1;
+      let tanCenter = vec2.unit(vec2.sub(p[split - 1], p[split + 1]));
+      this.fitCubic(first, split, tan1, tanCenter, error);
+      this.fitCubic(split, last, vec2.mul(tanCenter, -1), tan2, error)
+    }
+
+  }
+
+  isSharpCorner(idx:number) {
+    let tan1 = vec2.dir(this._points[idx - 1], this._points[idx]);
+    let tan2 = vec2.dir(this._points[idx], this._points[idx + 1]);
+    let costheta = vec2.dot(tan1, tan2);
+    return costheta < this.sharpAngleCosine;
+  }
+
+  reparameterize(first:number, last:number, uarr:number[], curve:number[][]) {
+    let p = this._points;
+    for (let i = first; i <= last; i++) {
+      uarr[i - first] = this.findRoot(curve, p[i], uarr[i - first]);
+    }
+    for (let i = 1, l = p.length; i < l; i++) {
+      if (uarr[i] <= uarr[i - 1]) { return false; }
+    }
+    return true;
+  }
+
+  // Use Newton-Raphson iteration to find better root.
+  findRoot(curve:number[][], point:number[], u:number) {
+    let curve1 = [],
+      curve2 = [];
+    // Generate control vertices for Q'
+    for (let i = 0; i <= 2; i++) {
+      //curve1[i] = curve.cpoints[i + 1].subtract(curve.cpoints[i]).multiply(3);
+      curve1[i] = vec2.mul(vec2.sub(curve[i + 1], curve[i]), 3);
+    }
+    // Generate control vertices for Q''
+    for (let i = 0; i <= 1; i++) {
+      //curve2[i] = curve1[i + 1].subtract(curve1[i]).multiply(2);
+      curve2[i] = vec2.mul(vec2.sub(curve1[i + 1], curve1[i]), 2);
+    }
+    // Compute Q(u), Q'(u) and Q''(u)
+    let pt = this.evaluate(3, curve, u),
+      pt1 = this.evaluate(2, curve1, u),
+      pt2 = this.evaluate(1, curve2, u),
+      //diff = pt.subtract(point),
+      diff = vec2.sub(pt, point),
+      //df = pt1.dot(pt1) + diff.dot(pt2);
+      df = vec2.dot(pt1, pt1) + vec2.dot(diff, pt2);
+    // Compute f(u) / f'(u)
+    if (Math.abs(df) < 1e-6) {
+      return u;
+    }
+    // u = u - f(u) / f'(u)
+    //return u - diff.dot(pt1) / df;
+    return u - vec2.dot(diff, pt1) / df;
+  }
+
+  // Evaluate a bezier curve at a particular parameter value
+  evaluate(degree:number, curve:number[][], t:number) {
+    // Copy array
+    var tmp = curve.slice();
+    // Triangle computation
+    for (var i = 1; i <= degree; i++) {
+      for (var j = 0; j <= degree - i; j++) {
+        //tmp[j] = tmp[j].multiply(1 - t).add(tmp[j + 1].multiply(t));
+        tmp[j] = vec2.add(vec2.mul(tmp[j], 1 - t), vec2.mul(tmp[j + 1], t));
+      }
+    }
+    return tmp[0];
+  }
+
+  findMaxError(first:number, last:number, curve:number[][], uarr:number[]) {
+    let index = Math.floor((last - first + 1) / 2);
+    let maxdsq = 0;
+    for (let i = first + 1; i < last; i++) {
+      let P = this.evaluate(3, curve, uarr[i - first]);
+      let dsq = vec2.distSq(P, this._points[i]);
+      if (dsq >= maxdsq) {
+        maxdsq = dsq;
+        index = i;
+      }
+    }
+    return {
+      error: maxdsq,
+      index: index
+    };
+  }
+
+  generateCubicBezier(
+    first:number, last:number, uarr:number[], tan1:number[], tan2:number[])
+  {
+    let p = this._points;
+    let n = last - first + 1;
+    let C = [[0, 0], [0, 0]];
+    let X = [0, 0];
+    let pt1 = p[first];
+    let pt2 = p[last];
+    for (let i = 0; i < n; i++) {
+      let u = uarr[i],
+        t = 1 - u,
+        b = 3 * u * t,
+        b0 = t * t * t,
+        b1 = b * t,
+        b2 = b * u,
+        b3 = u * u * u,
+        a1 = vec2.mul(vec2.unit(tan1), b1),
+        a2 = vec2.mul(vec2.unit(tan2), b2);
+
+      let tmp = vec2.sub(p[first + i], vec2.mul(pt1, b0 + b1));
+      tmp = vec2.sub(tmp, vec2.mul(pt2, b2 + b3));
+
+      C[0][0] += vec2.dot(a1, a1);
+      C[0][1] += vec2.dot(a1, a2);
+      C[1][0] = C[0][1];
+      C[1][1] += vec2.dot(a2, a2);
+
+      X[0] += vec2.dot(a1, tmp);
+      X[1] += vec2.dot(a2, tmp);
+    }
+
+    let detC0C1 = C[0][0] * C[1][1] - C[1][0] * C[0][1];
+    let alpha1, alpha2;
+    let epsilon = 1e-6;
+    if (Math.abs(detC0C1) > epsilon) {
+      let detC0X = C[0][0] * X[1] - C[1][0] * X[0],
+        detXC1 = X[0] * C[1][1] - X[1] * C[0][1];
+      // Derive alpha values
+      alpha1 = detXC1 / detC0C1;
+      alpha2 = detC0X / detC0C1;
+    } else {
+      // Matrix is under-determined, try assuming alpha1 == alpha2
+      var c0 = C[0][0] + C[0][1],
+        c1 = C[1][0] + C[1][1];
+      if (Math.abs(c0) > epsilon) {
+        alpha1 = alpha2 = X[0] / c0;
+      } else if (Math.abs(c1) > epsilon) {
+        alpha1 = alpha2 = X[1] / c1;
+      } else {
+        // Handle below
+        alpha1 = alpha2 = 0;
+      }
+    }
+
+    // If alpha negative, use the Wu/Barsky heuristic (see text)
+    // (if alpha is 0, you get coincident control points that lead to
+    // divide by zero in any subsequent NewtonRaphsonRootFind() call.
+    let segLength = vec2.dist(pt2, pt1);
+    let eps = epsilon * segLength;
+    let handle1, handle2;
+    if (alpha1 < eps || alpha2 < eps) {
+      // fall back on standard (probably inaccurate) formula,
+      // and subdivide further if needed.
+      alpha1 = alpha2 = segLength / 3;
+    } else {
+      // Check if the found control points are in the right order when
+      // projected onto the line through pt1 and pt2.
+      let line = vec2.sub(pt2, pt1);
+      handle1 = vec2.mul(vec2.unit(tan1), alpha1);
+      handle2 = vec2.mul(vec2.unit(tan2), alpha2);
+      if (vec2.dot(handle1, line) - vec2.dot(handle2, line) > segLength * segLength) {
+        alpha1 = alpha2 = segLength / 3;
+        handle1 = handle2 = null;
+      }
+    }
+
+    return [
+      pt1,
+      vec2.add(pt1, handle1 || vec2.mul(vec2.unit(tan1), alpha1)),
+      vec2.add(pt2, handle2 || vec2.mul(vec2.unit(tan2), alpha2)),
+      pt2
+    ];
+  }
+
+  chordLengthParameterize(first:number, last:number) {
+    let u = new Array(last - first + 1);
+    let p = this._points;
+    u[0] = 0.0;
+    for (let i = first + 1; i <= last; i++) {
+      u[i - first] = u[i - first - 1] + vec2.dist(p[i], p[i - 1]);
+    }
+    let umax = u[last - first];
+    for (let i = first + 1; i <= last; i++) {
+      u[i - first] = u[i - first] / umax;
+    }
+    return u;
+  }
+}
+*/ 
+
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 exports.__esModule = true;
 
@@ -3513,499 +4006,6 @@ var BaseTexture = function (_EventEmitter) {
 }(_eventemitter2.default);
 
 exports.default = BaseTexture;
-
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-function svgToCanvas(svgmarkup, background) {
-    return new Promise((resolve) => {
-        let div = document.createElement('div');
-        div.innerHTML = svgmarkup;
-        let svg = div.querySelector('svg');
-        let width = parseInt(svg.getAttribute('width'));
-        let height = parseInt(svg.getAttribute('height'));
-        let canvas = document.createElement('canvas');
-        canvas.width = width;
-        canvas.height = height;
-        let ctx = canvas.getContext('2d');
-        let svgdataurl = 'data:image/svg+xml;utf8,' + svgmarkup;
-        let img = new Image();
-        img.onload = () => {
-            if (background) {
-                ctx.fillStyle = background;
-                ctx.fillRect(0, 0, width, height);
-            }
-            ctx.drawImage(img, 0, 0);
-            resolve(canvas);
-        };
-        img.src = svgdataurl;
-    });
-}
-exports.svgToCanvas = svgToCanvas;
-/**
- * Calls callback at specified time intervals
- */
-class Timer {
-    constructor(interval, callback) {
-        this.interval = interval;
-        this.callback = callback;
-        this.count = 0;
-        this.t0 = NaN;
-    }
-    tick(t) {
-        if (isNaN(this.t0)) {
-            this.t0 = t;
-            this.tlast = t;
-        }
-        else {
-            let elapsed = t - this.tlast;
-            if (elapsed >= this.interval) {
-                this.callback(this.count);
-                this.tlast = t;
-            }
-        }
-    }
-}
-exports.Timer = Timer;
-exports.EPSILON = 1e-4;
-exports.vec2 = {
-    add: function (...varr) {
-        let answer = [0, 0];
-        for (let v of varr) {
-            answer[0] += v[0];
-            answer[1] += v[1];
-        }
-        return answer;
-    },
-    sub: function (va, vb) {
-        return [va[0] - vb[0], va[1] - vb[1]];
-    },
-    mul: function (va, k) {
-        return [va[0] * k, va[1] * k];
-    },
-    isNonZero: function (v, tolerance = exports.EPSILON) {
-        return Math.abs(v[0]) > tolerance || Math.abs(v[1]) > tolerance;
-    },
-    isZero: function (v, tolerance = exports.EPSILON) {
-        return !exports.vec2.isNonZero(v, tolerance);
-    },
-    lenSq: function (v) {
-        return v[0] * v[0] + v[1] * v[1];
-    },
-    len: function (v) {
-        return Math.sqrt(exports.vec2.lenSq(v));
-    },
-    unit: function (v) {
-        let len = exports.vec2.len(v);
-        if (len !== 0) {
-            return exports.vec2.mul(v, 1 / exports.vec2.len(v));
-        }
-        else {
-            return [0, 0];
-        }
-    },
-    distSq: function (va, vb) {
-        return exports.vec2.lenSq(exports.vec2.sub(va, vb));
-    },
-    dist: function (va, vb) {
-        return Math.sqrt(exports.vec2.distSq(va, vb));
-    },
-    dot: function (va, vb) {
-        return va[0] * vb[0] + va[1] * vb[1];
-    },
-    /**
-     * Z-coordinate of cross product (because x and y are zero)
-     */
-    cross: function (va, vb) {
-        return va[0] * vb[1] - va[1] * vb[0];
-    },
-    toInt: function (v) {
-        return [Math.round(v[0]), Math.round(v[1])];
-    },
-    equal: function (va, vb, tolerance = exports.EPSILON) {
-        return Math.abs(va[0] - vb[0]) < tolerance &&
-            Math.abs(va[1] - vb[1]) < tolerance;
-    },
-    low: function (...points) {
-        let xlow = Infinity, ylow = Infinity;
-        for (let point of points) {
-            xlow = Math.min(point[0], xlow);
-            ylow = Math.min(point[1], ylow);
-        }
-        return [xlow, ylow];
-    },
-    high: function (...points) {
-        let xhigh = -Infinity, yhigh = -Infinity;
-        for (let point of points) {
-            xhigh = Math.max(point[0], xhigh);
-            yhigh = Math.max(point[1], yhigh);
-        }
-        return [xhigh, yhigh];
-    },
-    format: function (v) {
-        return '[' + v[0].toFixed(2) + ',' + v[1].toFixed(2) + ']';
-    },
-    dir: function (vfrom, vto) {
-        return exports.vec2.unit(exports.vec2.sub(vto, vfrom));
-    },
-    orthogonal: function (point) {
-        let [x, y] = point;
-        return [y, -x];
-    }
-};
-/*
-function pruneNearPoints(points:number[][], tolerance = 1) {
-  let sqtol = tolerance * tolerance;
-  let pruned = [points[0]];
-  let lastpt = pruned[0];
-  let pruneCount = 0;
-  for (let i = 1; i < points.length; i++) {
-    if (vec2.distSq(lastpt, points[i]) > sqtol) {
-      pruned.push(points[i]);
-      lastpt = points[i];
-    } else {
-      pruneCount++;
-    }
-  }
-  return pruned;
-}
-
-export interface ApproximateOptions {
-  tolerance? : number;
-  pruneNearPoints? : boolean;
-  sharpAngleDegrees? : number;
-}
-
-const defaults:ApproximateOptions = {
-  tolerance: 1,
-  pruneNearPoints: true,
-  sharpAngleDegrees: 45
-};
-
-export function approximate(points:number[][], options?:ApproximateOptions) {
-  let o = Object.assign({}, defaults, options);
-  if (o.pruneNearPoints) {
-    points = pruneNearPoints(points, 1);
-  }
-  let isClosed = false;
-  if (vec2.dist(points[0], points[points.length - 1]) < 1e-2) {
-    isClosed = true;
-  }
-
-  if (points.length <= 2) {
-    return {curves:[],continuities:[]};
-  }
-
-  let curveFitter = new CurveFitter(points, o);
-  let curves = curveFitter.fit();
-
-  console.assert(curves.length !== 0);
-
-  let continuities = curveFitter.continuities.filter(x => x !== 0).map(x => x > 0);
-
-  if (isClosed) {
-    // If the cbez curves touching at the closing point of the freehand curve
-    // meet each other with almost parallel tangents, then we should redefine
-    // them so that they are G1 continuous, i.e. have parallel tangents
-    let cbezFirst = curves[0];
-    let cbezLast = curves[curves.length - 1];
-
-    let tanStart = vec2.dir(cbezFirst[0], cbezFirst[1]);
-    let tanEnd = vec2.dir(cbezLast[2], cbezLast[3]);
-    let costheta = vec2.dot(tanStart, tanEnd);
-    console.assert(vec2.dist(cbezFirst[0], cbezLast[3]) < 1e-2);
-    if (costheta > Math.cos(o.sharpAngleDegrees! * Math.PI / 180.0)) {
-      let avgtan = vec2.unit(vec2.add(tanStart, tanEnd));
-
-      let tan1Mag = vec2.dist(cbezFirst[1], cbezFirst[0]);
-      cbezFirst[1] = vec2.add(cbezFirst[0], vec2.mul(avgtan, tan1Mag));
-
-      avgtan = vec2.mul(avgtan, -1);
-      let tan2Mag = vec2.dist(cbezLast[2], cbezLast[3]);
-      cbezLast[2] = vec2.add(cbezLast[3], vec2.mul(avgtan, tan2Mag));
-
-      continuities[0] = true;
-      continuities[continuities.length - 1] = true;
-    }
-  }
-  return { curves, continuities };
-}
-
-class CurveFitter {
-
-  private options : ApproximateOptions;
-  private sharpAngleCosine : number;
-  private _points : number[][];
-  private answer : number[][][];
-  public continuities : number[];
-
-  constructor(iPoints:number[][], options:ApproximateOptions) {
-    this.options = options;
-    this.sharpAngleCosine = Math.cos(options.sharpAngleDegrees! * Math.PI / 180.0);
-    this._points = iPoints.slice(0);
-  }
-
-  fit() {
-    this.answer = [];
-    let p = this._points;
-    let l = p.length;
-    console.assert(l > 2);
-
-    // The continuities array may have values 0,1,-1
-    // 0 - There isn't a bezier curve endpoint at this index
-    // 1 - The bezier curve endpoints meet at this index and are G1 continuous
-    // -1 - The bezier curve endpoints meet at this index and are not G1 continuous
-    this.continuities = new Array(l);
-    this.continuities.fill(0);
-
-    // The first and last point are not G1 continuous
-    this.continuities[0] = -1;
-    this.continuities[l - 1] = -1;
-
-    let tan1 = vec2.unit(vec2.sub(p[1], p[0]));
-    let tan2 = vec2.unit(vec2.sub(p[l - 2], p[l - 1]));
-    this.fitCubic(0, l - 1, tan1, tan2, this.options.tolerance!);
-
-    return this.answer;
-  }
-
-  fitCubic(first:number, last:number, tan1:number[], tan2:number[], error:number) {
-    let maxError = Math.max(error, error * error);
-    let p = this._points;
-    if (last - first === 1) {
-      let d = vec2.dist(p[last], p[first]) / 3.0;
-      this.answer.push([
-        p[first],
-        vec2.add(p[first], vec2.mul(tan1, d)),
-        vec2.add(p[last], vec2.mul(tan2, d)),
-        p[last]
-      ]);
-      return;
-    }
-
-    let uPrime = this.chordLengthParameterize(first, last);
-    let dirUnchanged = true;
-    let split=-1;
-
-    // Try to reparameterise the curve 4 times in order to reduce the max error
-    for (let i = 0; i <= 4; i++) {
-      let curve = this.generateCubicBezier(first, last, uPrime, tan1, tan2);
-      let maxerr = this.findMaxError(first, last, curve, uPrime);
-
-      if (maxerr.error < error && dirUnchanged) {
-        this.answer.push(curve);
-        return;
-      }
-      split = maxerr.index;
-
-      if (i > 0 && maxerr.error >= maxError) { // The error is not reducing
-        break;
-      }
-      dirUnchanged = this.reparameterize(first, last, uPrime, curve);
-      maxError = maxerr.error;
-    }
-    console.assert(split >= 0);
-
-    if (this.isSharpCorner(split)) {
-      this.continuities[split] = -1;
-      let tanCenter1 = vec2.dir(p[split], p[split - 1]);
-      this.fitCubic(first, split, tan1, tanCenter1, error);
-      let tanCenter2 = vec2.dir(p[split], p[split + 1]);
-      this.fitCubic(split, last, tanCenter2, tan2, error);
-    } else {
-      this.continuities[split] = 1;
-      let tanCenter = vec2.unit(vec2.sub(p[split - 1], p[split + 1]));
-      this.fitCubic(first, split, tan1, tanCenter, error);
-      this.fitCubic(split, last, vec2.mul(tanCenter, -1), tan2, error)
-    }
-
-  }
-
-  isSharpCorner(idx:number) {
-    let tan1 = vec2.dir(this._points[idx - 1], this._points[idx]);
-    let tan2 = vec2.dir(this._points[idx], this._points[idx + 1]);
-    let costheta = vec2.dot(tan1, tan2);
-    return costheta < this.sharpAngleCosine;
-  }
-
-  reparameterize(first:number, last:number, uarr:number[], curve:number[][]) {
-    let p = this._points;
-    for (let i = first; i <= last; i++) {
-      uarr[i - first] = this.findRoot(curve, p[i], uarr[i - first]);
-    }
-    for (let i = 1, l = p.length; i < l; i++) {
-      if (uarr[i] <= uarr[i - 1]) { return false; }
-    }
-    return true;
-  }
-
-  // Use Newton-Raphson iteration to find better root.
-  findRoot(curve:number[][], point:number[], u:number) {
-    let curve1 = [],
-      curve2 = [];
-    // Generate control vertices for Q'
-    for (let i = 0; i <= 2; i++) {
-      //curve1[i] = curve.cpoints[i + 1].subtract(curve.cpoints[i]).multiply(3);
-      curve1[i] = vec2.mul(vec2.sub(curve[i + 1], curve[i]), 3);
-    }
-    // Generate control vertices for Q''
-    for (let i = 0; i <= 1; i++) {
-      //curve2[i] = curve1[i + 1].subtract(curve1[i]).multiply(2);
-      curve2[i] = vec2.mul(vec2.sub(curve1[i + 1], curve1[i]), 2);
-    }
-    // Compute Q(u), Q'(u) and Q''(u)
-    let pt = this.evaluate(3, curve, u),
-      pt1 = this.evaluate(2, curve1, u),
-      pt2 = this.evaluate(1, curve2, u),
-      //diff = pt.subtract(point),
-      diff = vec2.sub(pt, point),
-      //df = pt1.dot(pt1) + diff.dot(pt2);
-      df = vec2.dot(pt1, pt1) + vec2.dot(diff, pt2);
-    // Compute f(u) / f'(u)
-    if (Math.abs(df) < 1e-6) {
-      return u;
-    }
-    // u = u - f(u) / f'(u)
-    //return u - diff.dot(pt1) / df;
-    return u - vec2.dot(diff, pt1) / df;
-  }
-
-  // Evaluate a bezier curve at a particular parameter value
-  evaluate(degree:number, curve:number[][], t:number) {
-    // Copy array
-    var tmp = curve.slice();
-    // Triangle computation
-    for (var i = 1; i <= degree; i++) {
-      for (var j = 0; j <= degree - i; j++) {
-        //tmp[j] = tmp[j].multiply(1 - t).add(tmp[j + 1].multiply(t));
-        tmp[j] = vec2.add(vec2.mul(tmp[j], 1 - t), vec2.mul(tmp[j + 1], t));
-      }
-    }
-    return tmp[0];
-  }
-
-  findMaxError(first:number, last:number, curve:number[][], uarr:number[]) {
-    let index = Math.floor((last - first + 1) / 2);
-    let maxdsq = 0;
-    for (let i = first + 1; i < last; i++) {
-      let P = this.evaluate(3, curve, uarr[i - first]);
-      let dsq = vec2.distSq(P, this._points[i]);
-      if (dsq >= maxdsq) {
-        maxdsq = dsq;
-        index = i;
-      }
-    }
-    return {
-      error: maxdsq,
-      index: index
-    };
-  }
-
-  generateCubicBezier(
-    first:number, last:number, uarr:number[], tan1:number[], tan2:number[])
-  {
-    let p = this._points;
-    let n = last - first + 1;
-    let C = [[0, 0], [0, 0]];
-    let X = [0, 0];
-    let pt1 = p[first];
-    let pt2 = p[last];
-    for (let i = 0; i < n; i++) {
-      let u = uarr[i],
-        t = 1 - u,
-        b = 3 * u * t,
-        b0 = t * t * t,
-        b1 = b * t,
-        b2 = b * u,
-        b3 = u * u * u,
-        a1 = vec2.mul(vec2.unit(tan1), b1),
-        a2 = vec2.mul(vec2.unit(tan2), b2);
-
-      let tmp = vec2.sub(p[first + i], vec2.mul(pt1, b0 + b1));
-      tmp = vec2.sub(tmp, vec2.mul(pt2, b2 + b3));
-
-      C[0][0] += vec2.dot(a1, a1);
-      C[0][1] += vec2.dot(a1, a2);
-      C[1][0] = C[0][1];
-      C[1][1] += vec2.dot(a2, a2);
-
-      X[0] += vec2.dot(a1, tmp);
-      X[1] += vec2.dot(a2, tmp);
-    }
-
-    let detC0C1 = C[0][0] * C[1][1] - C[1][0] * C[0][1];
-    let alpha1, alpha2;
-    let epsilon = 1e-6;
-    if (Math.abs(detC0C1) > epsilon) {
-      let detC0X = C[0][0] * X[1] - C[1][0] * X[0],
-        detXC1 = X[0] * C[1][1] - X[1] * C[0][1];
-      // Derive alpha values
-      alpha1 = detXC1 / detC0C1;
-      alpha2 = detC0X / detC0C1;
-    } else {
-      // Matrix is under-determined, try assuming alpha1 == alpha2
-      var c0 = C[0][0] + C[0][1],
-        c1 = C[1][0] + C[1][1];
-      if (Math.abs(c0) > epsilon) {
-        alpha1 = alpha2 = X[0] / c0;
-      } else if (Math.abs(c1) > epsilon) {
-        alpha1 = alpha2 = X[1] / c1;
-      } else {
-        // Handle below
-        alpha1 = alpha2 = 0;
-      }
-    }
-
-    // If alpha negative, use the Wu/Barsky heuristic (see text)
-    // (if alpha is 0, you get coincident control points that lead to
-    // divide by zero in any subsequent NewtonRaphsonRootFind() call.
-    let segLength = vec2.dist(pt2, pt1);
-    let eps = epsilon * segLength;
-    let handle1, handle2;
-    if (alpha1 < eps || alpha2 < eps) {
-      // fall back on standard (probably inaccurate) formula,
-      // and subdivide further if needed.
-      alpha1 = alpha2 = segLength / 3;
-    } else {
-      // Check if the found control points are in the right order when
-      // projected onto the line through pt1 and pt2.
-      let line = vec2.sub(pt2, pt1);
-      handle1 = vec2.mul(vec2.unit(tan1), alpha1);
-      handle2 = vec2.mul(vec2.unit(tan2), alpha2);
-      if (vec2.dot(handle1, line) - vec2.dot(handle2, line) > segLength * segLength) {
-        alpha1 = alpha2 = segLength / 3;
-        handle1 = handle2 = null;
-      }
-    }
-
-    return [
-      pt1,
-      vec2.add(pt1, handle1 || vec2.mul(vec2.unit(tan1), alpha1)),
-      vec2.add(pt2, handle2 || vec2.mul(vec2.unit(tan2), alpha2)),
-      pt2
-    ];
-  }
-
-  chordLengthParameterize(first:number, last:number) {
-    let u = new Array(last - first + 1);
-    let p = this._points;
-    u[0] = 0.0;
-    for (let i = first + 1; i <= last; i++) {
-      u[i - first] = u[i - first - 1] + vec2.dist(p[i], p[i - 1]);
-    }
-    let umax = u[last - first];
-    for (let i = first + 1; i <= last; i++) {
-      u[i - first] = u[i - first] / umax;
-    }
-    return u;
-  }
-}
-*/ 
 
 
 /***/ }),
@@ -5981,7 +5981,7 @@ var _TextureManager = __webpack_require__(133);
 
 var _TextureManager2 = _interopRequireDefault(_TextureManager);
 
-var _BaseTexture = __webpack_require__(9);
+var _BaseTexture = __webpack_require__(10);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
@@ -7381,7 +7381,7 @@ function buildNativeLine(graphicsData, webGLData) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const pixi = __webpack_require__(18);
-const helper_1 = __webpack_require__(10);
+const helper_1 = __webpack_require__(9);
 class Actor {
     constructor(sprites, position = [0, 0]) {
         this._uid = pixi.utils.uid();
@@ -15248,7 +15248,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _BaseTexture2 = __webpack_require__(9);
+var _BaseTexture2 = __webpack_require__(10);
 
 var _BaseTexture3 = _interopRequireDefault(_BaseTexture2);
 
@@ -16067,7 +16067,7 @@ exports.default = SystemRenderer;
 
 exports.__esModule = true;
 
-var _BaseTexture2 = __webpack_require__(9);
+var _BaseTexture2 = __webpack_require__(10);
 
 var _BaseTexture3 = _interopRequireDefault(_BaseTexture2);
 
@@ -22073,7 +22073,7 @@ exports.Animation = Animation;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const actor_1 = __webpack_require__(23);
-const helper_1 = __webpack_require__(10);
+const helper_1 = __webpack_require__(9);
 const animation_1 = __webpack_require__(95);
 const TRACKING_PERIOD = 1000;
 const FIRE_START_INSTANT = 500;
@@ -22268,9 +22268,9 @@ exports.Minion = Minion;
 Object.defineProperty(exports, "__esModule", { value: true });
 const actor_editor_1 = __webpack_require__(99);
 const level_player_1 = __webpack_require__(195);
-const asset_manager_1 = __webpack_require__(222);
-const electron_1 = __webpack_require__(224);
-const fs = __webpack_require__(225);
+const asset_manager_1 = __webpack_require__(223);
+const electron_1 = __webpack_require__(225);
+const fs = __webpack_require__(226);
 let am;
 window.onload = () => {
     am = new asset_manager_1.AssetManager();
@@ -22366,8 +22366,9 @@ function loadSVG(filepath) {
     let data = fs.readFileSync(filepath);
     let svgdoc = new String(data).toString();
     am.loadFromSVG(svgdoc).then(() => {
+        return am.loadSounds();
+    }).then(() => {
         setupEditors(am);
-        am.loadSounds();
     });
 }
 let activeEditor;
@@ -35304,7 +35305,7 @@ var _Texture = __webpack_require__(7);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _BaseTexture = __webpack_require__(9);
+var _BaseTexture = __webpack_require__(10);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
@@ -42567,16 +42568,16 @@ const terragrid_1 = __webpack_require__(200);
 const fountain_1 = __webpack_require__(217);
 const constants_1 = __webpack_require__(218);
 const spawner_1 = __webpack_require__(219);
-const helper_1 = __webpack_require__(10);
+const helper_1 = __webpack_require__(9);
 const animator_1 = __webpack_require__(220);
 const animation_1 = __webpack_require__(95);
 const tower_1 = __webpack_require__(96);
 const minion_1 = __webpack_require__(97);
 const collision_sys_1 = __webpack_require__(221);
-const hud_1 = __webpack_require__(226);
+const hud_1 = __webpack_require__(222);
 const USE_DOM_FOR_GRID_ANALYSIS = true;
 const HIGHLIGHT_CELL_UNDER_CURSOR = false;
-const PADDING = 20;
+const Y_PADDING = 50;
 const DEBUG = true;
 const SCROLL_MULTIPLIER = 4000;
 class Level {
@@ -42650,14 +42651,15 @@ class Level {
         let width;
         let height;
         if (sx < sy) {
-            width = window.innerWidth;
-            height = width / mapAspectRatio;
+            let padding = Y_PADDING * mapAspectRatio;
+            width = window.innerWidth - padding;
+            height = (width / mapAspectRatio);
         }
         else {
-            height = window.innerHeight;
+            height = window.innerHeight - Y_PADDING;
             width = height * mapAspectRatio;
         }
-        return [width - PADDING, height - PADDING];
+        return [width, height];
     }
     doGridAnalysis() {
         let svgGridDiv = document.createElement('div');
@@ -43168,6 +43170,7 @@ class Level {
             this.hud.tick(t);
         });
         app.ticker.start();
+        this.am.getSound('background-beat').play();
     }
     cleanupDeadMinions() {
         let minionsToRemove = [];
@@ -43208,7 +43211,7 @@ exports.Level = Level;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(10);
+const helper_1 = __webpack_require__(9);
 class EnemyAI {
     constructor(level) {
         this.level = level;
@@ -43242,7 +43245,7 @@ exports.EnemyAI = EnemyAI;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(10);
+const helper_1 = __webpack_require__(9);
 class PlayerAI {
     constructor(level) {
         this.level = level;
@@ -45854,9 +45857,82 @@ exports.CollisionSystem = CollisionSystem;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
+const helper_1 = __webpack_require__(9);
+class HUD {
+    constructor(level) {
+        this.level = level;
+        this.div = document.createElement('div');
+        this.div.setAttribute('id', 'hud');
+        this.div.style.width = level.app.view.width + 'px';
+        this.div.style.height = '20px';
+        this.div.style.position = 'absolute';
+        this.div.style.bottom = '0px';
+        this.div.style.left = '50%';
+        this.div.style.fontFamily = 'monospace';
+        this.div.style.marginLeft = (-level.app.view.width / 2) + 'px';
+        this.updateTimer = new helper_1.Timer(3000, () => {
+            this.update();
+        });
+    }
+    update() {
+        let stats = this.level.stats;
+        let f = this.level.fountain;
+        let progress = (f.spirit - f.baseSpirit) * 100 / f.baseSpirit;
+        let progressColor = (progress < 0) ? '#ff0000' : '#00ff00';
+        let progressText = (progress < 0) ?
+            `Destruction ${Math.abs(Math.round(progress))}%` :
+            `Divinity ${Math.abs(Math.round(progress))}%`;
+        let progressSpan = `<span id="progress-status" style="color:${progressColor};font-weight:bold;font-size:15px;font-family:serif">${progressText}</span>`;
+        let timeSpent = (Date.now().valueOf() - stats.startTime) / 1000;
+        if (timeSpent > 60) {
+            timeSpent = Math.round(timeSpent / 60) + 'm';
+        }
+        else if (timeSpent > 60 * 60) {
+            let minutes = Math.round(timeSpent / 60);
+            timeSpent = Math.round(minutes / 60) + 'h' + (minutes % 60) + 'm';
+        }
+        else {
+            timeSpent = Math.round(timeSpent) + 's';
+        }
+        /*
+        <span id="spawned-minions-count" style="color:#555555">
+        Spawned ${stats.spawnedMinionCount}
+        </span>
+        <span id="dead-minions-count" style="color:#994444">
+        Dead ${stats.deadMinionCount}
+        </span>
+        <span id="ammo-fired" style="color:#ff8800">
+        Ammo fired ${stats.ammoFired}
+        </span>
+        &nbsp;
+        &nbsp;
+        */
+        this.div.innerHTML = `
+    ${progressSpan}
+    &nbsp;
+    &nbsp;
+    <span id="time-spent" style="color:#444444">
+    ${timeSpent}
+    </span>
+    `;
+    }
+    tick(t) {
+        this.updateTimer.tick(t);
+    }
+}
+exports.HUD = HUD;
+
+
+/***/ }),
+/* 223 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
 const pixi = __webpack_require__(18);
-const howler = __webpack_require__(223);
-const helper_1 = __webpack_require__(10);
+const howler = __webpack_require__(224);
+const helper_1 = __webpack_require__(9);
 const PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
 const actor_1 = __webpack_require__(23);
 class AssetManager {
@@ -45994,17 +46070,30 @@ class AssetManager {
         }
     }
     loadSounds() {
-        return new Promise((resolve) => {
-            this.sounds['tower-fire'] = new howler.Howl({
-                src: ['assets/tower-fire.mp3'],
-                volume: 0.5,
-                loop: false,
-                autoplay: false,
-                onload: () => {
-                    resolve();
-                }
-            });
-        });
+        return Promise.all([
+            new Promise((resolve) => {
+                this.sounds['tower-fire'] = new howler.Howl({
+                    src: ['assets/tower-fire.mp3'],
+                    volume: 0.3,
+                    loop: false,
+                    autoplay: false,
+                    onload: () => {
+                        resolve();
+                    }
+                });
+            }),
+            new Promise((resolve) => {
+                this.sounds['background-beat'] = new howler.Howl({
+                    src: ['assets/background-beat.mp3'],
+                    volume: 0.5,
+                    loop: true,
+                    autoplay: false,
+                    onload: () => {
+                        resolve();
+                    }
+                });
+            })
+        ]);
     }
     getSound(key) {
         return this.sounds[key];
@@ -46055,7 +46144,7 @@ exports.AssetManager = AssetManager;
 
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -48908,89 +48997,16 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, exports) {
 
 module.exports = require("electron");
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, exports) {
 
 module.exports = require("fs");
-
-/***/ }),
-/* 226 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(10);
-class HUD {
-    constructor(level) {
-        this.level = level;
-        this.div = document.createElement('div');
-        this.div.setAttribute('id', 'hud');
-        this.div.style.width = level.app.view.width + 'px';
-        this.div.style.height = '20px';
-        this.div.style.position = 'absolute';
-        this.div.style.bottom = '0px';
-        this.div.style.left = '50%';
-        this.div.style.fontFamily = 'monospace';
-        this.div.style.marginLeft = (-level.app.view.width / 2) + 'px';
-        this.updateTimer = new helper_1.Timer(3000, () => {
-            this.update();
-        });
-    }
-    update() {
-        let stats = this.level.stats;
-        let f = this.level.fountain;
-        let progress = (f.spirit - f.baseSpirit) * 100 / f.baseSpirit;
-        let progressColor = (progress < 0) ? '#ff0000' : '#00ff00';
-        let progressText = (progress < 0) ?
-            `Destruction ${Math.abs(Math.round(progress))}%` :
-            `Divinity ${Math.abs(Math.round(progress))}%`;
-        let progressSpan = `<span id="progress-status" style="color:${progressColor};font-weight:bold;font-size:15px;font-family:serif">${progressText}</span>`;
-        let timeSpent = (Date.now().valueOf() - stats.startTime) / 1000;
-        if (timeSpent > 60) {
-            timeSpent = Math.round(timeSpent / 60) + 'm';
-        }
-        else if (timeSpent > 60 * 60) {
-            let minutes = Math.round(timeSpent / 60);
-            timeSpent = Math.round(minutes / 60) + 'h' + (minutes % 60) + 'm';
-        }
-        else {
-            timeSpent = Math.round(timeSpent) + 's';
-        }
-        /*
-        <span id="spawned-minions-count" style="color:#555555">
-        Spawned ${stats.spawnedMinionCount}
-        </span>
-        <span id="dead-minions-count" style="color:#994444">
-        Dead ${stats.deadMinionCount}
-        </span>
-        <span id="ammo-fired" style="color:#ff8800">
-        Ammo fired ${stats.ammoFired}
-        </span>
-        &nbsp;
-        &nbsp;
-        */
-        this.div.innerHTML = `
-    ${progressSpan}
-    &nbsp;
-    &nbsp;
-    <span id="time-spent" style="color:#444444">
-    ${timeSpent}
-    </span>
-    `;
-    }
-    tick(t) {
-        this.updateTimer.tick(t);
-    }
-}
-exports.HUD = HUD;
-
 
 /***/ })
 /******/ ]);
