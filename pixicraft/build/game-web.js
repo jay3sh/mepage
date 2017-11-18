@@ -23267,6 +23267,7 @@ window.onload = () => {
             let spec = am.metadata['level_first']['pxc_data'];
             let level = new level_1.Level(spec, am);
             document.body.appendChild(level.app.view);
+            document.body.appendChild(level.hud.div);
         });
     };
     xhr.open('GET', 'artwork/pinheads.svg');
@@ -47238,7 +47239,8 @@ const collision_sys_1 = __webpack_require__(232);
 const hud_1 = __webpack_require__(233);
 const USE_DOM_FOR_GRID_ANALYSIS = true;
 const HIGHLIGHT_CELL_UNDER_CURSOR = false;
-const PADDING = 20;
+const X_PADDING = 20;
+const Y_PADDING = 50;
 const DEBUG = true;
 const SCROLL_MULTIPLIER = 4000;
 class Level {
@@ -47312,14 +47314,15 @@ class Level {
         let width;
         let height;
         if (sx < sy) {
-            width = window.innerWidth;
-            height = width / mapAspectRatio;
+            let padding = Y_PADDING * mapAspectRatio;
+            width = window.innerWidth - padding;
+            height = (width / mapAspectRatio);
         }
         else {
-            height = window.innerHeight;
+            height = window.innerHeight - Y_PADDING;
             width = height * mapAspectRatio;
         }
-        return [width - PADDING, height - PADDING];
+        return [width, height];
     }
     doGridAnalysis() {
         let svgGridDiv = document.createElement('div');
