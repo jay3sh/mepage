@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 98);
+/******/ 	return __webpack_require__(__webpack_require__.s = 101);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -115,7 +115,7 @@ Object.defineProperty(exports, 'Bounds', {
   }
 });
 
-var _DisplayObject = __webpack_require__(52);
+var _DisplayObject = __webpack_require__(53);
 
 Object.defineProperty(exports, 'DisplayObject', {
   enumerable: true,
@@ -124,7 +124,7 @@ Object.defineProperty(exports, 'DisplayObject', {
   }
 });
 
-var _Container = __webpack_require__(11);
+var _Container = __webpack_require__(13);
 
 Object.defineProperty(exports, 'Container', {
   enumerable: true,
@@ -133,7 +133,7 @@ Object.defineProperty(exports, 'Container', {
   }
 });
 
-var _Transform = __webpack_require__(54);
+var _Transform = __webpack_require__(55);
 
 Object.defineProperty(exports, 'Transform', {
   enumerable: true,
@@ -142,7 +142,7 @@ Object.defineProperty(exports, 'Transform', {
   }
 });
 
-var _TransformStatic = __webpack_require__(53);
+var _TransformStatic = __webpack_require__(54);
 
 Object.defineProperty(exports, 'TransformStatic', {
   enumerable: true,
@@ -169,7 +169,7 @@ Object.defineProperty(exports, 'Sprite', {
   }
 });
 
-var _CanvasSpriteRenderer = __webpack_require__(124);
+var _CanvasSpriteRenderer = __webpack_require__(127);
 
 Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   enumerable: true,
@@ -187,7 +187,7 @@ Object.defineProperty(exports, 'CanvasTinter', {
   }
 });
 
-var _SpriteRenderer = __webpack_require__(127);
+var _SpriteRenderer = __webpack_require__(130);
 
 Object.defineProperty(exports, 'SpriteRenderer', {
   enumerable: true,
@@ -196,7 +196,7 @@ Object.defineProperty(exports, 'SpriteRenderer', {
   }
 });
 
-var _Text = __webpack_require__(142);
+var _Text = __webpack_require__(145);
 
 Object.defineProperty(exports, 'Text', {
   enumerable: true,
@@ -205,7 +205,7 @@ Object.defineProperty(exports, 'Text', {
   }
 });
 
-var _TextStyle = __webpack_require__(67);
+var _TextStyle = __webpack_require__(68);
 
 Object.defineProperty(exports, 'TextStyle', {
   enumerable: true,
@@ -214,7 +214,7 @@ Object.defineProperty(exports, 'TextStyle', {
   }
 });
 
-var _TextMetrics = __webpack_require__(68);
+var _TextMetrics = __webpack_require__(69);
 
 Object.defineProperty(exports, 'TextMetrics', {
   enumerable: true,
@@ -223,7 +223,7 @@ Object.defineProperty(exports, 'TextMetrics', {
   }
 });
 
-var _Graphics = __webpack_require__(144);
+var _Graphics = __webpack_require__(147);
 
 Object.defineProperty(exports, 'Graphics', {
   enumerable: true,
@@ -232,7 +232,7 @@ Object.defineProperty(exports, 'Graphics', {
   }
 });
 
-var _GraphicsData = __webpack_require__(69);
+var _GraphicsData = __webpack_require__(70);
 
 Object.defineProperty(exports, 'GraphicsData', {
   enumerable: true,
@@ -241,7 +241,7 @@ Object.defineProperty(exports, 'GraphicsData', {
   }
 });
 
-var _GraphicsRenderer = __webpack_require__(146);
+var _GraphicsRenderer = __webpack_require__(149);
 
 Object.defineProperty(exports, 'GraphicsRenderer', {
   enumerable: true,
@@ -250,7 +250,7 @@ Object.defineProperty(exports, 'GraphicsRenderer', {
   }
 });
 
-var _CanvasGraphicsRenderer = __webpack_require__(153);
+var _CanvasGraphicsRenderer = __webpack_require__(156);
 
 Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   enumerable: true,
@@ -259,7 +259,7 @@ Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   }
 });
 
-var _Spritesheet = __webpack_require__(154);
+var _Spritesheet = __webpack_require__(157);
 
 Object.defineProperty(exports, 'Spritesheet', {
   enumerable: true,
@@ -277,7 +277,7 @@ Object.defineProperty(exports, 'Texture', {
   }
 });
 
-var _TextureMatrix = __webpack_require__(65);
+var _TextureMatrix = __webpack_require__(66);
 
 Object.defineProperty(exports, 'TextureMatrix', {
   enumerable: true,
@@ -304,7 +304,7 @@ Object.defineProperty(exports, 'RenderTexture', {
   }
 });
 
-var _BaseRenderTexture = __webpack_require__(60);
+var _BaseRenderTexture = __webpack_require__(61);
 
 Object.defineProperty(exports, 'BaseRenderTexture', {
   enumerable: true,
@@ -313,7 +313,7 @@ Object.defineProperty(exports, 'BaseRenderTexture', {
   }
 });
 
-var _VideoBaseTexture = __webpack_require__(57);
+var _VideoBaseTexture = __webpack_require__(58);
 
 Object.defineProperty(exports, 'VideoBaseTexture', {
   enumerable: true,
@@ -322,7 +322,7 @@ Object.defineProperty(exports, 'VideoBaseTexture', {
   }
 });
 
-var _TextureUvs = __webpack_require__(58);
+var _TextureUvs = __webpack_require__(59);
 
 Object.defineProperty(exports, 'TextureUvs', {
   enumerable: true,
@@ -331,7 +331,7 @@ Object.defineProperty(exports, 'TextureUvs', {
   }
 });
 
-var _CanvasRenderTarget = __webpack_require__(61);
+var _CanvasRenderTarget = __webpack_require__(62);
 
 Object.defineProperty(exports, 'CanvasRenderTarget', {
   enumerable: true,
@@ -340,7 +340,7 @@ Object.defineProperty(exports, 'CanvasRenderTarget', {
   }
 });
 
-var _Shader = __webpack_require__(15);
+var _Shader = __webpack_require__(17);
 
 Object.defineProperty(exports, 'Shader', {
   enumerable: true,
@@ -349,7 +349,7 @@ Object.defineProperty(exports, 'Shader', {
   }
 });
 
-var _WebGLManager = __webpack_require__(14);
+var _WebGLManager = __webpack_require__(16);
 
 Object.defineProperty(exports, 'WebGLManager', {
   enumerable: true,
@@ -358,7 +358,7 @@ Object.defineProperty(exports, 'WebGLManager', {
   }
 });
 
-var _ObjectRenderer = __webpack_require__(19);
+var _ObjectRenderer = __webpack_require__(20);
 
 Object.defineProperty(exports, 'ObjectRenderer', {
   enumerable: true,
@@ -367,7 +367,7 @@ Object.defineProperty(exports, 'ObjectRenderer', {
   }
 });
 
-var _RenderTarget = __webpack_require__(21);
+var _RenderTarget = __webpack_require__(22);
 
 Object.defineProperty(exports, 'RenderTarget', {
   enumerable: true,
@@ -376,7 +376,7 @@ Object.defineProperty(exports, 'RenderTarget', {
   }
 });
 
-var _Quad = __webpack_require__(66);
+var _Quad = __webpack_require__(67);
 
 Object.defineProperty(exports, 'Quad', {
   enumerable: true,
@@ -385,7 +385,7 @@ Object.defineProperty(exports, 'Quad', {
   }
 });
 
-var _SpriteMaskFilter = __webpack_require__(63);
+var _SpriteMaskFilter = __webpack_require__(64);
 
 Object.defineProperty(exports, 'SpriteMaskFilter', {
   enumerable: true,
@@ -394,7 +394,7 @@ Object.defineProperty(exports, 'SpriteMaskFilter', {
   }
 });
 
-var _Filter = __webpack_require__(64);
+var _Filter = __webpack_require__(65);
 
 Object.defineProperty(exports, 'Filter', {
   enumerable: true,
@@ -403,7 +403,7 @@ Object.defineProperty(exports, 'Filter', {
   }
 });
 
-var _Application = __webpack_require__(71);
+var _Application = __webpack_require__(72);
 
 Object.defineProperty(exports, 'Application', {
   enumerable: true,
@@ -412,7 +412,7 @@ Object.defineProperty(exports, 'Application', {
   }
 });
 
-var _autoDetectRenderer = __webpack_require__(72);
+var _autoDetectRenderer = __webpack_require__(73);
 
 Object.defineProperty(exports, 'autoDetectRenderer', {
   enumerable: true,
@@ -433,11 +433,11 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _CanvasRenderer = __webpack_require__(13);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -836,15 +836,15 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _pluginTarget = __webpack_require__(118);
+var _pluginTarget = __webpack_require__(121);
 
 var _pluginTarget2 = _interopRequireDefault(_pluginTarget);
 
-var _mixin = __webpack_require__(119);
+var _mixin = __webpack_require__(122);
 
 var mixins = _interopRequireWildcard(_mixin);
 
@@ -852,11 +852,11 @@ var _ismobilejs = __webpack_require__(29);
 
 var isMobile = _interopRequireWildcard(_ismobilejs);
 
-var _removeArrayItems = __webpack_require__(120);
+var _removeArrayItems = __webpack_require__(123);
 
 var _removeArrayItems2 = _interopRequireDefault(_removeArrayItems);
 
-var _mapPremultipliedBlendModes = __webpack_require__(121);
+var _mapPremultipliedBlendModes = __webpack_require__(124);
 
 var _mapPremultipliedBlendModes2 = _interopRequireDefault(_mapPremultipliedBlendModes);
 
@@ -1290,11 +1290,11 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 
 exports.__esModule = true;
 
-var _maxRecommendedTextures = __webpack_require__(116);
+var _maxRecommendedTextures = __webpack_require__(119);
 
 var _maxRecommendedTextures2 = _interopRequireDefault(_maxRecommendedTextures);
 
-var _canUploadSameBuffer = __webpack_require__(117);
+var _canUploadSameBuffer = __webpack_require__(120);
 
 var _canUploadSameBuffer2 = _interopRequireDefault(_canUploadSameBuffer);
 
@@ -1539,7 +1539,7 @@ Object.defineProperty(exports, 'Point', {
   }
 });
 
-var _ObservablePoint = __webpack_require__(41);
+var _ObservablePoint = __webpack_require__(42);
 
 Object.defineProperty(exports, 'ObservablePoint', {
   enumerable: true,
@@ -1557,7 +1557,7 @@ Object.defineProperty(exports, 'Matrix', {
   }
 });
 
-var _GroupD = __webpack_require__(42);
+var _GroupD = __webpack_require__(43);
 
 Object.defineProperty(exports, 'GroupD8', {
   enumerable: true,
@@ -1566,7 +1566,7 @@ Object.defineProperty(exports, 'GroupD8', {
   }
 });
 
-var _Circle = __webpack_require__(106);
+var _Circle = __webpack_require__(109);
 
 Object.defineProperty(exports, 'Circle', {
   enumerable: true,
@@ -1575,7 +1575,7 @@ Object.defineProperty(exports, 'Circle', {
   }
 });
 
-var _Ellipse = __webpack_require__(107);
+var _Ellipse = __webpack_require__(110);
 
 Object.defineProperty(exports, 'Ellipse', {
   enumerable: true,
@@ -1584,7 +1584,7 @@ Object.defineProperty(exports, 'Ellipse', {
   }
 });
 
-var _Polygon = __webpack_require__(108);
+var _Polygon = __webpack_require__(111);
 
 Object.defineProperty(exports, 'Polygon', {
   enumerable: true,
@@ -1602,7 +1602,7 @@ Object.defineProperty(exports, 'Rectangle', {
   }
 });
 
-var _RoundedRectangle = __webpack_require__(109);
+var _RoundedRectangle = __webpack_require__(112);
 
 Object.defineProperty(exports, 'RoundedRectangle', {
   enumerable: true,
@@ -1619,14 +1619,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /***/ (function(module, exports, __webpack_require__) {
 
 var gl = {
-    createContext:          __webpack_require__(110),
-    setVertexAttribArrays:  __webpack_require__(43),
-    GLBuffer:               __webpack_require__(111),
-    GLFramebuffer:          __webpack_require__(112),
-    GLShader:               __webpack_require__(113),
-    GLTexture:              __webpack_require__(44),
-    VertexArrayObject:      __webpack_require__(114),
-    shader:                 __webpack_require__(115)
+    createContext:          __webpack_require__(113),
+    setVertexAttribArrays:  __webpack_require__(44),
+    GLBuffer:               __webpack_require__(114),
+    GLFramebuffer:          __webpack_require__(115),
+    GLShader:               __webpack_require__(116),
+    GLTexture:              __webpack_require__(45),
+    VertexArrayObject:      __webpack_require__(117),
+    shader:                 __webpack_require__(118)
 };
 
 // Export for Node-compatible environments
@@ -1666,15 +1666,15 @@ var _BaseTexture = __webpack_require__(10);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _VideoBaseTexture = __webpack_require__(57);
+var _VideoBaseTexture = __webpack_require__(58);
 
 var _VideoBaseTexture2 = _interopRequireDefault(_VideoBaseTexture);
 
-var _TextureUvs = __webpack_require__(58);
+var _TextureUvs = __webpack_require__(59);
 
 var _TextureUvs2 = _interopRequireDefault(_TextureUvs);
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
@@ -2354,324 +2354,6 @@ removeAllHandlers(Texture.WHITE.baseTexture);
 
 "use strict";
 
-
-var has = Object.prototype.hasOwnProperty
-  , prefix = '~';
-
-/**
- * Constructor to create a storage for our `EE` objects.
- * An `Events` instance is a plain object whose properties are event names.
- *
- * @constructor
- * @api private
- */
-function Events() {}
-
-//
-// We try to not inherit from `Object.prototype`. In some engines creating an
-// instance in this way is faster than calling `Object.create(null)` directly.
-// If `Object.create(null)` is not supported we prefix the event names with a
-// character to make sure that the built-in object properties are not
-// overridden or used as an attack vector.
-//
-if (Object.create) {
-  Events.prototype = Object.create(null);
-
-  //
-  // This hack is needed because the `__proto__` property is still inherited in
-  // some old browsers like Android 4, iPhone 5.1, Opera 11 and Safari 5.
-  //
-  if (!new Events().__proto__) prefix = false;
-}
-
-/**
- * Representation of a single event listener.
- *
- * @param {Function} fn The listener function.
- * @param {Mixed} context The context to invoke the listener with.
- * @param {Boolean} [once=false] Specify if the listener is a one-time listener.
- * @constructor
- * @api private
- */
-function EE(fn, context, once) {
-  this.fn = fn;
-  this.context = context;
-  this.once = once || false;
-}
-
-/**
- * Minimal `EventEmitter` interface that is molded against the Node.js
- * `EventEmitter` interface.
- *
- * @constructor
- * @api public
- */
-function EventEmitter() {
-  this._events = new Events();
-  this._eventsCount = 0;
-}
-
-/**
- * Return an array listing the events for which the emitter has registered
- * listeners.
- *
- * @returns {Array}
- * @api public
- */
-EventEmitter.prototype.eventNames = function eventNames() {
-  var names = []
-    , events
-    , name;
-
-  if (this._eventsCount === 0) return names;
-
-  for (name in (events = this._events)) {
-    if (has.call(events, name)) names.push(prefix ? name.slice(1) : name);
-  }
-
-  if (Object.getOwnPropertySymbols) {
-    return names.concat(Object.getOwnPropertySymbols(events));
-  }
-
-  return names;
-};
-
-/**
- * Return the listeners registered for a given event.
- *
- * @param {String|Symbol} event The event name.
- * @param {Boolean} exists Only check if there are listeners.
- * @returns {Array|Boolean}
- * @api public
- */
-EventEmitter.prototype.listeners = function listeners(event, exists) {
-  var evt = prefix ? prefix + event : event
-    , available = this._events[evt];
-
-  if (exists) return !!available;
-  if (!available) return [];
-  if (available.fn) return [available.fn];
-
-  for (var i = 0, l = available.length, ee = new Array(l); i < l; i++) {
-    ee[i] = available[i].fn;
-  }
-
-  return ee;
-};
-
-/**
- * Calls each of the listeners registered for a given event.
- *
- * @param {String|Symbol} event The event name.
- * @returns {Boolean} `true` if the event had listeners, else `false`.
- * @api public
- */
-EventEmitter.prototype.emit = function emit(event, a1, a2, a3, a4, a5) {
-  var evt = prefix ? prefix + event : event;
-
-  if (!this._events[evt]) return false;
-
-  var listeners = this._events[evt]
-    , len = arguments.length
-    , args
-    , i;
-
-  if (listeners.fn) {
-    if (listeners.once) this.removeListener(event, listeners.fn, undefined, true);
-
-    switch (len) {
-      case 1: return listeners.fn.call(listeners.context), true;
-      case 2: return listeners.fn.call(listeners.context, a1), true;
-      case 3: return listeners.fn.call(listeners.context, a1, a2), true;
-      case 4: return listeners.fn.call(listeners.context, a1, a2, a3), true;
-      case 5: return listeners.fn.call(listeners.context, a1, a2, a3, a4), true;
-      case 6: return listeners.fn.call(listeners.context, a1, a2, a3, a4, a5), true;
-    }
-
-    for (i = 1, args = new Array(len -1); i < len; i++) {
-      args[i - 1] = arguments[i];
-    }
-
-    listeners.fn.apply(listeners.context, args);
-  } else {
-    var length = listeners.length
-      , j;
-
-    for (i = 0; i < length; i++) {
-      if (listeners[i].once) this.removeListener(event, listeners[i].fn, undefined, true);
-
-      switch (len) {
-        case 1: listeners[i].fn.call(listeners[i].context); break;
-        case 2: listeners[i].fn.call(listeners[i].context, a1); break;
-        case 3: listeners[i].fn.call(listeners[i].context, a1, a2); break;
-        case 4: listeners[i].fn.call(listeners[i].context, a1, a2, a3); break;
-        default:
-          if (!args) for (j = 1, args = new Array(len -1); j < len; j++) {
-            args[j - 1] = arguments[j];
-          }
-
-          listeners[i].fn.apply(listeners[i].context, args);
-      }
-    }
-  }
-
-  return true;
-};
-
-/**
- * Add a listener for a given event.
- *
- * @param {String|Symbol} event The event name.
- * @param {Function} fn The listener function.
- * @param {Mixed} [context=this] The context to invoke the listener with.
- * @returns {EventEmitter} `this`.
- * @api public
- */
-EventEmitter.prototype.on = function on(event, fn, context) {
-  var listener = new EE(fn, context || this)
-    , evt = prefix ? prefix + event : event;
-
-  if (!this._events[evt]) this._events[evt] = listener, this._eventsCount++;
-  else if (!this._events[evt].fn) this._events[evt].push(listener);
-  else this._events[evt] = [this._events[evt], listener];
-
-  return this;
-};
-
-/**
- * Add a one-time listener for a given event.
- *
- * @param {String|Symbol} event The event name.
- * @param {Function} fn The listener function.
- * @param {Mixed} [context=this] The context to invoke the listener with.
- * @returns {EventEmitter} `this`.
- * @api public
- */
-EventEmitter.prototype.once = function once(event, fn, context) {
-  var listener = new EE(fn, context || this, true)
-    , evt = prefix ? prefix + event : event;
-
-  if (!this._events[evt]) this._events[evt] = listener, this._eventsCount++;
-  else if (!this._events[evt].fn) this._events[evt].push(listener);
-  else this._events[evt] = [this._events[evt], listener];
-
-  return this;
-};
-
-/**
- * Remove the listeners of a given event.
- *
- * @param {String|Symbol} event The event name.
- * @param {Function} fn Only remove the listeners that match this function.
- * @param {Mixed} context Only remove the listeners that have this context.
- * @param {Boolean} once Only remove one-time listeners.
- * @returns {EventEmitter} `this`.
- * @api public
- */
-EventEmitter.prototype.removeListener = function removeListener(event, fn, context, once) {
-  var evt = prefix ? prefix + event : event;
-
-  if (!this._events[evt]) return this;
-  if (!fn) {
-    if (--this._eventsCount === 0) this._events = new Events();
-    else delete this._events[evt];
-    return this;
-  }
-
-  var listeners = this._events[evt];
-
-  if (listeners.fn) {
-    if (
-         listeners.fn === fn
-      && (!once || listeners.once)
-      && (!context || listeners.context === context)
-    ) {
-      if (--this._eventsCount === 0) this._events = new Events();
-      else delete this._events[evt];
-    }
-  } else {
-    for (var i = 0, events = [], length = listeners.length; i < length; i++) {
-      if (
-           listeners[i].fn !== fn
-        || (once && !listeners[i].once)
-        || (context && listeners[i].context !== context)
-      ) {
-        events.push(listeners[i]);
-      }
-    }
-
-    //
-    // Reset the array, or remove it completely if we have no more listeners.
-    //
-    if (events.length) this._events[evt] = events.length === 1 ? events[0] : events;
-    else if (--this._eventsCount === 0) this._events = new Events();
-    else delete this._events[evt];
-  }
-
-  return this;
-};
-
-/**
- * Remove all listeners, or those of the specified event.
- *
- * @param {String|Symbol} [event] The event name.
- * @returns {EventEmitter} `this`.
- * @api public
- */
-EventEmitter.prototype.removeAllListeners = function removeAllListeners(event) {
-  var evt;
-
-  if (event) {
-    evt = prefix ? prefix + event : event;
-    if (this._events[evt]) {
-      if (--this._eventsCount === 0) this._events = new Events();
-      else delete this._events[evt];
-    }
-  } else {
-    this._events = new Events();
-    this._eventsCount = 0;
-  }
-
-  return this;
-};
-
-//
-// Alias methods names because people roll like that.
-//
-EventEmitter.prototype.off = EventEmitter.prototype.removeListener;
-EventEmitter.prototype.addListener = EventEmitter.prototype.on;
-
-//
-// This function doesn't apply anymore.
-//
-EventEmitter.prototype.setMaxListeners = function setMaxListeners() {
-  return this;
-};
-
-//
-// Expose the prefix.
-//
-EventEmitter.prefixed = prefix;
-
-//
-// Allow `EventEmitter` to be imported as module namespace.
-//
-EventEmitter.EventEmitter = EventEmitter;
-
-//
-// Expose the module.
-//
-if (true) {
-  module.exports = EventEmitter;
-}
-
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 function svgToCanvas(svgmarkup, background) {
     return new Promise((resolve) => {
@@ -2684,7 +2366,7 @@ function svgToCanvas(svgmarkup, background) {
         canvas.width = width;
         canvas.height = height;
         let ctx = canvas.getContext('2d');
-        let svgdataurl = 'data:image/svg+xml;utf8,' + svgmarkup;
+        let svgdataurl = 'data:image/svg+xml;utf8,' + svgmarkup.replace(/#/g, '%23');
         let img = new Image();
         img.onload = () => {
             if (background) {
@@ -2706,17 +2388,16 @@ class Timer {
         this.interval = interval;
         this.callback = callback;
         this.count = 0;
-        this.t0 = NaN;
+        this.tlast = NaN;
     }
     tick(t) {
-        if (isNaN(this.t0)) {
-            this.t0 = t;
+        if (isNaN(this.tlast)) {
             this.tlast = t;
         }
         else {
             let elapsed = t - this.tlast;
             if (elapsed >= this.interval) {
-                this.callback(this.count);
+                this.callback(this.count++);
                 this.tlast = t;
             }
         }
@@ -3160,6 +2841,324 @@ class CurveFitter {
 
 
 /***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var has = Object.prototype.hasOwnProperty
+  , prefix = '~';
+
+/**
+ * Constructor to create a storage for our `EE` objects.
+ * An `Events` instance is a plain object whose properties are event names.
+ *
+ * @constructor
+ * @api private
+ */
+function Events() {}
+
+//
+// We try to not inherit from `Object.prototype`. In some engines creating an
+// instance in this way is faster than calling `Object.create(null)` directly.
+// If `Object.create(null)` is not supported we prefix the event names with a
+// character to make sure that the built-in object properties are not
+// overridden or used as an attack vector.
+//
+if (Object.create) {
+  Events.prototype = Object.create(null);
+
+  //
+  // This hack is needed because the `__proto__` property is still inherited in
+  // some old browsers like Android 4, iPhone 5.1, Opera 11 and Safari 5.
+  //
+  if (!new Events().__proto__) prefix = false;
+}
+
+/**
+ * Representation of a single event listener.
+ *
+ * @param {Function} fn The listener function.
+ * @param {Mixed} context The context to invoke the listener with.
+ * @param {Boolean} [once=false] Specify if the listener is a one-time listener.
+ * @constructor
+ * @api private
+ */
+function EE(fn, context, once) {
+  this.fn = fn;
+  this.context = context;
+  this.once = once || false;
+}
+
+/**
+ * Minimal `EventEmitter` interface that is molded against the Node.js
+ * `EventEmitter` interface.
+ *
+ * @constructor
+ * @api public
+ */
+function EventEmitter() {
+  this._events = new Events();
+  this._eventsCount = 0;
+}
+
+/**
+ * Return an array listing the events for which the emitter has registered
+ * listeners.
+ *
+ * @returns {Array}
+ * @api public
+ */
+EventEmitter.prototype.eventNames = function eventNames() {
+  var names = []
+    , events
+    , name;
+
+  if (this._eventsCount === 0) return names;
+
+  for (name in (events = this._events)) {
+    if (has.call(events, name)) names.push(prefix ? name.slice(1) : name);
+  }
+
+  if (Object.getOwnPropertySymbols) {
+    return names.concat(Object.getOwnPropertySymbols(events));
+  }
+
+  return names;
+};
+
+/**
+ * Return the listeners registered for a given event.
+ *
+ * @param {String|Symbol} event The event name.
+ * @param {Boolean} exists Only check if there are listeners.
+ * @returns {Array|Boolean}
+ * @api public
+ */
+EventEmitter.prototype.listeners = function listeners(event, exists) {
+  var evt = prefix ? prefix + event : event
+    , available = this._events[evt];
+
+  if (exists) return !!available;
+  if (!available) return [];
+  if (available.fn) return [available.fn];
+
+  for (var i = 0, l = available.length, ee = new Array(l); i < l; i++) {
+    ee[i] = available[i].fn;
+  }
+
+  return ee;
+};
+
+/**
+ * Calls each of the listeners registered for a given event.
+ *
+ * @param {String|Symbol} event The event name.
+ * @returns {Boolean} `true` if the event had listeners, else `false`.
+ * @api public
+ */
+EventEmitter.prototype.emit = function emit(event, a1, a2, a3, a4, a5) {
+  var evt = prefix ? prefix + event : event;
+
+  if (!this._events[evt]) return false;
+
+  var listeners = this._events[evt]
+    , len = arguments.length
+    , args
+    , i;
+
+  if (listeners.fn) {
+    if (listeners.once) this.removeListener(event, listeners.fn, undefined, true);
+
+    switch (len) {
+      case 1: return listeners.fn.call(listeners.context), true;
+      case 2: return listeners.fn.call(listeners.context, a1), true;
+      case 3: return listeners.fn.call(listeners.context, a1, a2), true;
+      case 4: return listeners.fn.call(listeners.context, a1, a2, a3), true;
+      case 5: return listeners.fn.call(listeners.context, a1, a2, a3, a4), true;
+      case 6: return listeners.fn.call(listeners.context, a1, a2, a3, a4, a5), true;
+    }
+
+    for (i = 1, args = new Array(len -1); i < len; i++) {
+      args[i - 1] = arguments[i];
+    }
+
+    listeners.fn.apply(listeners.context, args);
+  } else {
+    var length = listeners.length
+      , j;
+
+    for (i = 0; i < length; i++) {
+      if (listeners[i].once) this.removeListener(event, listeners[i].fn, undefined, true);
+
+      switch (len) {
+        case 1: listeners[i].fn.call(listeners[i].context); break;
+        case 2: listeners[i].fn.call(listeners[i].context, a1); break;
+        case 3: listeners[i].fn.call(listeners[i].context, a1, a2); break;
+        case 4: listeners[i].fn.call(listeners[i].context, a1, a2, a3); break;
+        default:
+          if (!args) for (j = 1, args = new Array(len -1); j < len; j++) {
+            args[j - 1] = arguments[j];
+          }
+
+          listeners[i].fn.apply(listeners[i].context, args);
+      }
+    }
+  }
+
+  return true;
+};
+
+/**
+ * Add a listener for a given event.
+ *
+ * @param {String|Symbol} event The event name.
+ * @param {Function} fn The listener function.
+ * @param {Mixed} [context=this] The context to invoke the listener with.
+ * @returns {EventEmitter} `this`.
+ * @api public
+ */
+EventEmitter.prototype.on = function on(event, fn, context) {
+  var listener = new EE(fn, context || this)
+    , evt = prefix ? prefix + event : event;
+
+  if (!this._events[evt]) this._events[evt] = listener, this._eventsCount++;
+  else if (!this._events[evt].fn) this._events[evt].push(listener);
+  else this._events[evt] = [this._events[evt], listener];
+
+  return this;
+};
+
+/**
+ * Add a one-time listener for a given event.
+ *
+ * @param {String|Symbol} event The event name.
+ * @param {Function} fn The listener function.
+ * @param {Mixed} [context=this] The context to invoke the listener with.
+ * @returns {EventEmitter} `this`.
+ * @api public
+ */
+EventEmitter.prototype.once = function once(event, fn, context) {
+  var listener = new EE(fn, context || this, true)
+    , evt = prefix ? prefix + event : event;
+
+  if (!this._events[evt]) this._events[evt] = listener, this._eventsCount++;
+  else if (!this._events[evt].fn) this._events[evt].push(listener);
+  else this._events[evt] = [this._events[evt], listener];
+
+  return this;
+};
+
+/**
+ * Remove the listeners of a given event.
+ *
+ * @param {String|Symbol} event The event name.
+ * @param {Function} fn Only remove the listeners that match this function.
+ * @param {Mixed} context Only remove the listeners that have this context.
+ * @param {Boolean} once Only remove one-time listeners.
+ * @returns {EventEmitter} `this`.
+ * @api public
+ */
+EventEmitter.prototype.removeListener = function removeListener(event, fn, context, once) {
+  var evt = prefix ? prefix + event : event;
+
+  if (!this._events[evt]) return this;
+  if (!fn) {
+    if (--this._eventsCount === 0) this._events = new Events();
+    else delete this._events[evt];
+    return this;
+  }
+
+  var listeners = this._events[evt];
+
+  if (listeners.fn) {
+    if (
+         listeners.fn === fn
+      && (!once || listeners.once)
+      && (!context || listeners.context === context)
+    ) {
+      if (--this._eventsCount === 0) this._events = new Events();
+      else delete this._events[evt];
+    }
+  } else {
+    for (var i = 0, events = [], length = listeners.length; i < length; i++) {
+      if (
+           listeners[i].fn !== fn
+        || (once && !listeners[i].once)
+        || (context && listeners[i].context !== context)
+      ) {
+        events.push(listeners[i]);
+      }
+    }
+
+    //
+    // Reset the array, or remove it completely if we have no more listeners.
+    //
+    if (events.length) this._events[evt] = events.length === 1 ? events[0] : events;
+    else if (--this._eventsCount === 0) this._events = new Events();
+    else delete this._events[evt];
+  }
+
+  return this;
+};
+
+/**
+ * Remove all listeners, or those of the specified event.
+ *
+ * @param {String|Symbol} [event] The event name.
+ * @returns {EventEmitter} `this`.
+ * @api public
+ */
+EventEmitter.prototype.removeAllListeners = function removeAllListeners(event) {
+  var evt;
+
+  if (event) {
+    evt = prefix ? prefix + event : event;
+    if (this._events[evt]) {
+      if (--this._eventsCount === 0) this._events = new Events();
+      else delete this._events[evt];
+    }
+  } else {
+    this._events = new Events();
+    this._eventsCount = 0;
+  }
+
+  return this;
+};
+
+//
+// Alias methods names because people roll like that.
+//
+EventEmitter.prototype.off = EventEmitter.prototype.removeListener;
+EventEmitter.prototype.addListener = EventEmitter.prototype.on;
+
+//
+// This function doesn't apply anymore.
+//
+EventEmitter.prototype.setMaxListeners = function setMaxListeners() {
+  return this;
+};
+
+//
+// Expose the prefix.
+//
+EventEmitter.prefixed = prefix;
+
+//
+// Allow `EventEmitter` to be imported as module namespace.
+//
+EventEmitter.EventEmitter = EventEmitter;
+
+//
+// Expose the module.
+//
+if (true) {
+  module.exports = EventEmitter;
+}
+
+
+/***/ }),
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3174,15 +3173,15 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _determineCrossOrigin = __webpack_require__(55);
+var _determineCrossOrigin = __webpack_require__(56);
 
 var _determineCrossOrigin2 = _interopRequireDefault(_determineCrossOrigin);
 
-var _bitTwiddle = __webpack_require__(12);
+var _bitTwiddle = __webpack_require__(14);
 
 var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
 
@@ -4014,6 +4013,342 @@ exports.default = BaseTexture;
 
 "use strict";
 
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(12);
+const helper_1 = __webpack_require__(8);
+class Actor {
+    constructor(sprites, position = [0, 0]) {
+        this._uid = pixi.utils.uid();
+        this.visual = new pixi.Container();
+        this._sprites = sprites;
+        for (let key in this._sprites) {
+            if (this._sprites[key] instanceof pixi.extras.AnimatedSprite) {
+                this._sprites[key].play();
+            }
+            this.visual.addChild(this._sprites[key]);
+        }
+        if (sprites.rest) {
+            this.setAction('rest');
+        }
+        else {
+            let keys = Object.keys(sprites);
+            this.setAction(keys[0]);
+        }
+        this.inmotion = false;
+        this._target = null;
+        this._path = null;
+        this.position = position;
+        for (let key in this._sprites) {
+            let sprite = this._sprites[key];
+            sprite.anchor.set(0.5);
+            sprite.visible = true;
+        }
+    }
+    isVisible() {
+        return this.visual.visible;
+    }
+    show() {
+        this.visual.visible = true;
+    }
+    hide() {
+        this.visual.visible = false;
+    }
+    get uid() {
+        return this._uid;
+    }
+    setAction(action) {
+        for (let key in this._sprites) {
+            this._sprites[key].visible = false;
+        }
+        this._activeSprite = this._sprites[action];
+        this._activeSprite.visible = true;
+    }
+    getActions() {
+        return Object.keys(this._sprites);
+    }
+    set position(pos) {
+        this.visual.position.set(pos[0], pos[1]);
+    }
+    set rotation(angle) {
+        this.visual.rotation = angle;
+    }
+    get position() {
+        return [this.visual.position.x, this.visual.position.y];
+    }
+    get rotation() {
+        return this.visual.rotation;
+    }
+    set scale(scale) {
+        for (let key in this._sprites) {
+            let sprite = this._sprites[key];
+            sprite.scale.set(scale[0], scale[1]);
+        }
+    }
+    setAnimSpeed(spritekey, value) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].animationSpeed = value;
+        }
+    }
+    setAnimLoop(spritekey, loop) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].loop = loop;
+        }
+    }
+    playAnimation(spritekey) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].play();
+        }
+    }
+    stopAnimation(spritekey) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].stop();
+        }
+    }
+    resetAnimation(spritekey) {
+        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
+            this._sprites[spritekey].gotoAndStop(0);
+            this._sprites[spritekey].loop = false;
+        }
+    }
+    animateOnce(spritekey) {
+        return new Promise((resolve) => {
+            let sprite = this._sprites[spritekey];
+            console.assert(sprite instanceof pixi.extras.AnimatedSprite);
+            sprite.loop = false;
+            sprite.onComplete = () => {
+                sprite.gotoAndStop(0);
+                resolve();
+            };
+            sprite.play();
+        });
+    }
+    get target() {
+        return this._target;
+    }
+}
+exports.Actor = Actor;
+class MovableActor extends Actor {
+    constructor(sprites, location = [0, 0]) {
+        super(sprites, location);
+        this.speed = 1;
+        this.tlast = NaN;
+        console.assert(sprites.move);
+    }
+    moveTo(x, y) {
+        this.inmotion = true;
+        this._target = [x, y];
+        this._lastdir = null;
+        this.setAction('move');
+    }
+    moveAlongPath(path, cornercutMargin = 50) {
+        this.inmotion = true;
+        this._path = path;
+        this._lastdir = null;
+        this._cornercutMargin = cornercutMargin;
+        this.setAction('move');
+    }
+    move(t) {
+        if (isNaN(this.tlast)) {
+            this.tlast = t;
+            return;
+        }
+        let dt = t - this.tlast; // msec
+        if (this._target) {
+            let vec = [this._target[0] - this.visual.position.x,
+                this._target[1] - this.visual.position.y];
+            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            if (len < this.speed / 2) {
+                this.inmotion = false;
+                this._target = null;
+                this.setAction('rest');
+            }
+            else {
+                let dir = [vec[0] / len, vec[1] / len];
+                this.position = [
+                    this.visual.position.x + this.speed * dir[0] * dt / 1000,
+                    this.visual.position.y + this.speed * dir[1] * dt / 1000
+                ];
+            }
+        }
+        else if (this._path && this._path.length > 0) {
+            let [tx, ty] = this._path[0];
+            let { x, y } = this.visual.position;
+            let vec = [tx - x, ty - y];
+            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            if (len < this._cornercutMargin && this._path.length > 1) {
+                // Turn early if we are near the corner, i.e. cut the corner
+                this._path.shift();
+                let [tx, ty] = this._path[0];
+                let { x, y } = this.visual.position;
+                vec = [tx - x, ty - y];
+                len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
+            }
+            let dir = [vec[0] / len, vec[1] / len];
+            // No rotation = pointing up
+            let sense = helper_1.vec2.cross(dir, [0, -1]) >= 0 ? -1 : 1;
+            let angle = Math.acos(helper_1.vec2.dot(dir, [0, -1]));
+            this.rotation = sense * angle;
+            let crossedover = false;
+            if (this._lastdir !== null) {
+                crossedover = helper_1.vec2.dot(dir, this._lastdir) < 0;
+            }
+            if (len < 1 || crossedover) {
+                // switch to next path, if we are not at end of it yet
+                if (this._path.length > 1) {
+                    this._path.shift();
+                }
+                else {
+                    this.inmotion = false;
+                    this._path = null;
+                    this.setAction('rest');
+                }
+                if (crossedover) {
+                    this.position = [tx, ty];
+                }
+            }
+            else {
+                this.position = [
+                    this.visual.position.x + this.speed * dir[0] * dt / 1000,
+                    this.visual.position.y + this.speed * dir[1] * dt / 1000
+                ];
+            }
+            this._lastdir = dir;
+        }
+        else {
+            this.inmotion = false;
+            this._path = null;
+            this._target = null;
+            this.setAction('rest');
+        }
+        this.tlast = t;
+    }
+}
+exports.MovableActor = MovableActor;
+
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
+
+var _polyfill = __webpack_require__(104);
+
+Object.keys(_polyfill).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _polyfill[key];
+        }
+    });
+});
+
+var _core = __webpack_require__(0);
+
+Object.keys(_core).forEach(function (key) {
+    if (key === "default" || key === "__esModule") return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _core[key];
+        }
+    });
+});
+
+var _deprecation = __webpack_require__(158);
+
+var _deprecation2 = _interopRequireDefault(_deprecation);
+
+var _accessibility = __webpack_require__(159);
+
+var accessibility = _interopRequireWildcard(_accessibility);
+
+var _extract = __webpack_require__(161);
+
+var extract = _interopRequireWildcard(_extract);
+
+var _extras = __webpack_require__(75);
+
+var extras = _interopRequireWildcard(_extras);
+
+var _filters = __webpack_require__(171);
+
+var filters = _interopRequireWildcard(_filters);
+
+var _interaction = __webpack_require__(178);
+
+var interaction = _interopRequireWildcard(_interaction);
+
+var _loaders = __webpack_require__(180);
+
+var loaders = _interopRequireWildcard(_loaders);
+
+var _mesh = __webpack_require__(184);
+
+var mesh = _interopRequireWildcard(_mesh);
+
+var _particles = __webpack_require__(189);
+
+var particles = _interopRequireWildcard(_particles);
+
+var _prepare = __webpack_require__(194);
+
+var prepare = _interopRequireWildcard(_prepare);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// export core
+_core.utils.mixins.performMixins();
+
+/**
+ * Alias for {@link PIXI.loaders.shared}.
+ * @name loader
+ * @memberof PIXI
+ * @type {PIXI.loader.Loader}
+ */
+
+
+// handle mixins now, after all code has been added, including deprecation
+
+
+// export libs
+// import polyfills. Done as an export to make sure polyfills are imported first
+var loader = loaders.shared || null;
+
+exports.accessibility = accessibility;
+exports.extract = extract;
+exports.extras = extras;
+exports.filters = filters;
+exports.interaction = interaction;
+exports.loaders = loaders;
+exports.mesh = mesh;
+exports.particles = particles;
+exports.prepare = prepare;
+exports.loader = loader;
+
+// Apply the deprecations
+
+if (typeof _deprecation2.default === 'function') {
+    (0, _deprecation2.default)(exports);
+}
+
+// Always export PixiJS globally.
+global.PIXI = exports; // eslint-disable-line
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 exports.__esModule = true;
 
@@ -4021,7 +4356,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _utils = __webpack_require__(2);
 
-var _DisplayObject2 = __webpack_require__(52);
+var _DisplayObject2 = __webpack_require__(53);
 
 var _DisplayObject3 = _interopRequireDefault(_DisplayObject2);
 
@@ -4632,7 +4967,7 @@ Container.prototype.containerUpdateTransform = Container.prototype.updateTransfo
 
 
 /***/ }),
-/* 12 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4843,7 +5178,7 @@ exports.nextCombination = function(v) {
 
 
 /***/ }),
-/* 13 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4851,19 +5186,19 @@ exports.nextCombination = function(v) {
 
 exports.__esModule = true;
 
-var _SystemRenderer2 = __webpack_require__(59);
+var _SystemRenderer2 = __webpack_require__(60);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _CanvasMaskManager = __webpack_require__(125);
+var _CanvasMaskManager = __webpack_require__(128);
 
 var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
 
-var _CanvasRenderTarget = __webpack_require__(61);
+var _CanvasRenderTarget = __webpack_require__(62);
 
 var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
 
-var _mapCanvasBlendModesToPixi = __webpack_require__(126);
+var _mapCanvasBlendModesToPixi = __webpack_require__(129);
 
 var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
 
@@ -5213,7 +5548,7 @@ _utils.pluginTarget.mixin(CanvasRenderer);
 
 
 /***/ }),
-/* 14 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5273,7 +5608,7 @@ exports.default = WebGLManager;
 
 
 /***/ }),
-/* 15 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5342,7 +5677,7 @@ exports.default = Shader;
 
 
 /***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5355,10 +5690,10 @@ exports.default = Shader;
 
 /* eslint-disable no-undef */
 
-var Loader = __webpack_require__(178).default;
+var Loader = __webpack_require__(181).default;
 var Resource = __webpack_require__(36).default;
-var async = __webpack_require__(87);
-var b64 = __webpack_require__(88);
+var async = __webpack_require__(88);
+var b64 = __webpack_require__(89);
 
 Loader.Resource = Resource;
 Loader.async = async;
@@ -5371,7 +5706,7 @@ module.exports.default = Loader;
 
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5745,124 +6080,7 @@ Mesh.DRAW_MODES = {
 
 
 /***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
-
-var _polyfill = __webpack_require__(101);
-
-Object.keys(_polyfill).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _polyfill[key];
-        }
-    });
-});
-
-var _core = __webpack_require__(0);
-
-Object.keys(_core).forEach(function (key) {
-    if (key === "default" || key === "__esModule") return;
-    Object.defineProperty(exports, key, {
-        enumerable: true,
-        get: function get() {
-            return _core[key];
-        }
-    });
-});
-
-var _deprecation = __webpack_require__(155);
-
-var _deprecation2 = _interopRequireDefault(_deprecation);
-
-var _accessibility = __webpack_require__(156);
-
-var accessibility = _interopRequireWildcard(_accessibility);
-
-var _extract = __webpack_require__(158);
-
-var extract = _interopRequireWildcard(_extract);
-
-var _extras = __webpack_require__(74);
-
-var extras = _interopRequireWildcard(_extras);
-
-var _filters = __webpack_require__(168);
-
-var filters = _interopRequireWildcard(_filters);
-
-var _interaction = __webpack_require__(175);
-
-var interaction = _interopRequireWildcard(_interaction);
-
-var _loaders = __webpack_require__(177);
-
-var loaders = _interopRequireWildcard(_loaders);
-
-var _mesh = __webpack_require__(181);
-
-var mesh = _interopRequireWildcard(_mesh);
-
-var _particles = __webpack_require__(186);
-
-var particles = _interopRequireWildcard(_particles);
-
-var _prepare = __webpack_require__(191);
-
-var prepare = _interopRequireWildcard(_prepare);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// export core
-_core.utils.mixins.performMixins();
-
-/**
- * Alias for {@link PIXI.loaders.shared}.
- * @name loader
- * @memberof PIXI
- * @type {PIXI.loader.Loader}
- */
-
-
-// handle mixins now, after all code has been added, including deprecation
-
-
-// export libs
-// import polyfills. Done as an export to make sure polyfills are imported first
-var loader = loaders.shared || null;
-
-exports.accessibility = accessibility;
-exports.extract = extract;
-exports.extras = extras;
-exports.filters = filters;
-exports.interaction = interaction;
-exports.loaders = loaders;
-exports.mesh = mesh;
-exports.particles = particles;
-exports.prepare = prepare;
-exports.loader = loader;
-
-// Apply the deprecations
-
-if (typeof _deprecation2.default === 'function') {
-    (0, _deprecation2.default)(exports);
-}
-
-// Always export PixiJS globally.
-global.PIXI = exports; // eslint-disable-line
-
-
-/***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5870,7 +6088,7 @@ global.PIXI = exports; // eslint-disable-line
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(14);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
@@ -5945,7 +6163,7 @@ exports.default = ObjectRenderer;
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5953,31 +6171,31 @@ exports.default = ObjectRenderer;
 
 exports.__esModule = true;
 
-var _SystemRenderer2 = __webpack_require__(59);
+var _SystemRenderer2 = __webpack_require__(60);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _MaskManager = __webpack_require__(128);
+var _MaskManager = __webpack_require__(131);
 
 var _MaskManager2 = _interopRequireDefault(_MaskManager);
 
-var _StencilManager = __webpack_require__(130);
+var _StencilManager = __webpack_require__(133);
 
 var _StencilManager2 = _interopRequireDefault(_StencilManager);
 
-var _FilterManager = __webpack_require__(131);
+var _FilterManager = __webpack_require__(134);
 
 var _FilterManager2 = _interopRequireDefault(_FilterManager);
 
-var _RenderTarget = __webpack_require__(21);
+var _RenderTarget = __webpack_require__(22);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _ObjectRenderer = __webpack_require__(19);
+var _ObjectRenderer = __webpack_require__(20);
 
 var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
 
-var _TextureManager = __webpack_require__(133);
+var _TextureManager = __webpack_require__(136);
 
 var _TextureManager2 = _interopRequireDefault(_TextureManager);
 
@@ -5985,19 +6203,19 @@ var _BaseTexture = __webpack_require__(10);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _TextureGarbageCollector = __webpack_require__(134);
+var _TextureGarbageCollector = __webpack_require__(137);
 
 var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
 
-var _WebGLState = __webpack_require__(135);
+var _WebGLState = __webpack_require__(138);
 
 var _WebGLState2 = _interopRequireDefault(_WebGLState);
 
-var _mapWebGLDrawModesToPixi = __webpack_require__(137);
+var _mapWebGLDrawModesToPixi = __webpack_require__(140);
 
 var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
 
-var _validateContext = __webpack_require__(138);
+var _validateContext = __webpack_require__(141);
 
 var _validateContext2 = _interopRequireDefault(_validateContext);
 
@@ -6767,7 +6985,7 @@ _utils.pluginTarget.mixin(WebGLRenderer);
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7099,7 +7317,7 @@ exports.default = RenderTarget;
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7371,218 +7589,6 @@ function buildNativeLine(graphicsData, webGLData) {
         verts.push(r, g, b, alpha);
     }
 }
-
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(18);
-const helper_1 = __webpack_require__(9);
-class Actor {
-    constructor(sprites, position = [0, 0]) {
-        this._uid = pixi.utils.uid();
-        this._sprites = sprites;
-        console.assert(sprites.rest);
-        for (let key in this._sprites) {
-            if (this._sprites[key] instanceof pixi.extras.AnimatedSprite) {
-                this._sprites[key].play();
-            }
-        }
-        this.setActiveSprite('rest');
-        this.speed = 1;
-        this.inmotion = false;
-        this._target = null;
-        this._path = null;
-        this.position = position;
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.anchor.set(0.5);
-        }
-    }
-    get uid() {
-        return this._uid;
-    }
-    setActiveSprite(spritekey) {
-        for (let key in this._sprites) {
-            this._sprites[key].visible = false;
-        }
-        this._activeSprite = this._sprites[spritekey];
-        this._activeSprite.visible = true;
-    }
-    getActiveSprite() {
-        return this._activeSprite;
-    }
-    get sprites() {
-        let arr = [];
-        for (let key in this._sprites) {
-            arr.push(this._sprites[key]);
-        }
-        return arr;
-    }
-    getSpriteKeys() {
-        return Object.keys(this._sprites);
-    }
-    getSprite(key) {
-        return this._sprites[key];
-    }
-    set position(pos) {
-        this._position = pos;
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.position.set(pos[0], pos[1]);
-        }
-    }
-    set rotation(angle) {
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.rotation = angle;
-        }
-    }
-    get position() {
-        return this._position;
-    }
-    set scale(scale) {
-        for (let key in this._sprites) {
-            let sprite = this._sprites[key];
-            sprite.scale.set(scale[0], scale[1]);
-        }
-    }
-    setAnimSpeed(spritekey, value) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].animationSpeed = value;
-        }
-    }
-    setAnimLoop(spritekey, loop) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].loop = loop;
-        }
-    }
-    playAnimation(spritekey) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].play();
-        }
-    }
-    stopAnimation(spritekey) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].stop();
-        }
-    }
-    resetAnimation(spritekey) {
-        if (this._sprites[spritekey] instanceof pixi.extras.AnimatedSprite) {
-            this._sprites[spritekey].gotoAndStop(0);
-            this._sprites[spritekey].loop = false;
-        }
-    }
-    animateOnce(spritekey) {
-        return new Promise((resolve) => {
-            let sprite = this._sprites[spritekey];
-            console.assert(sprite instanceof pixi.extras.AnimatedSprite);
-            sprite.loop = false;
-            sprite.onComplete = () => {
-                sprite.gotoAndStop(0);
-                resolve();
-            };
-            sprite.play();
-        });
-    }
-    get target() {
-        return this._target;
-    }
-}
-exports.Actor = Actor;
-class MovableActor extends Actor {
-    constructor(sprites, location = [0, 0]) {
-        super(sprites, location);
-        console.assert(sprites.move);
-    }
-    moveTo(x, y) {
-        this.inmotion = true;
-        this._target = [x, y];
-        this._lastdir = null;
-        this.setActiveSprite('move');
-    }
-    moveAlongPath(path, cornercutMargin = 50) {
-        this.inmotion = true;
-        this._path = path;
-        this._lastdir = null;
-        this._cornercutMargin = cornercutMargin;
-        this.setActiveSprite('move');
-    }
-    move() {
-        if (this._target) {
-            let vec = [this._target[0] - this._sprites.rest.position.x,
-                this._target[1] - this._sprites.rest.position.y];
-            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            if (len < this.speed / 2) {
-                this.inmotion = false;
-                this._target = null;
-                this.setActiveSprite('rest');
-            }
-            else {
-                let dir = [vec[0] / len, vec[1] / len];
-                this.position = [
-                    this._sprites.rest.position.x + this.speed * dir[0],
-                    this._sprites.rest.position.y + this.speed * dir[1]
-                ];
-            }
-        }
-        else if (this._path && this._path.length > 0) {
-            let [tx, ty] = this._path[0];
-            let { x, y } = this._sprites.rest.position;
-            let vec = [tx - x, ty - y];
-            let len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            if (len < this._cornercutMargin && this._path.length > 1) {
-                // Turn early if we are near the corner, i.e. cut the corner
-                this._path.shift();
-                let [tx, ty] = this._path[0];
-                let { x, y } = this._sprites.rest.position;
-                vec = [tx - x, ty - y];
-                len = Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
-            }
-            let dir = [vec[0] / len, vec[1] / len];
-            // No rotation = pointing up
-            let sense = helper_1.vec2.cross(dir, [0, -1]) >= 0 ? -1 : 1;
-            let angle = Math.acos(helper_1.vec2.dot(dir, [0, -1]));
-            this.rotation = sense * angle;
-            let crossedover = false;
-            if (this._lastdir !== null) {
-                crossedover = helper_1.vec2.dot(dir, this._lastdir) < 0;
-            }
-            if (len < 1 || crossedover) {
-                // switch to next path, if we are not at end of it yet
-                if (this._path.length > 1) {
-                    this._path.shift();
-                }
-                else {
-                    this.inmotion = false;
-                    this._path = null;
-                    this.setActiveSprite('rest');
-                }
-                if (crossedover) {
-                    this.position = [tx, ty];
-                }
-            }
-            else {
-                this.position = [
-                    this._sprites.rest.position.x + this.speed * dir[0],
-                    this._sprites.rest.position.y + this.speed * dir[1]
-                ];
-            }
-            this._lastdir = dir;
-        }
-        else {
-            this.inmotion = false;
-            this._path = null;
-            this._target = null;
-            this.setActiveSprite('rest');
-        }
-    }
-}
-exports.MovableActor = MovableActor;
 
 
 /***/ }),
@@ -9144,7 +9150,7 @@ var _Texture = __webpack_require__(7);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _Container2 = __webpack_require__(11);
+var _Container2 = __webpack_require__(13);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
@@ -9761,7 +9767,7 @@ exports.default = Sprite;
 exports.__esModule = true;
 exports.Ticker = exports.shared = undefined;
 
-var _Ticker = __webpack_require__(122);
+var _Ticker = __webpack_require__(125);
 
 var _Ticker2 = _interopRequireDefault(_Ticker);
 
@@ -9845,7 +9851,7 @@ exports.Ticker = _Ticker2.default;
 
 exports.__esModule = true;
 
-var _BaseRenderTexture = __webpack_require__(60);
+var _BaseRenderTexture = __webpack_require__(61);
 
 var _BaseRenderTexture2 = _interopRequireDefault(_BaseRenderTexture);
 
@@ -10006,7 +10012,7 @@ exports.__esModule = true;
 
 var _utils = __webpack_require__(2);
 
-var _canUseNewCanvasBlendModes = __webpack_require__(62);
+var _canUseNewCanvasBlendModes = __webpack_require__(63);
 
 var _canUseNewCanvasBlendModes2 = _interopRequireDefault(_canUseNewCanvasBlendModes);
 
@@ -10301,11 +10307,11 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _parseUri = __webpack_require__(86);
+var _parseUri = __webpack_require__(87);
 
 var _parseUri2 = _interopRequireDefault(_parseUri);
 
-var _miniSignals = __webpack_require__(85);
+var _miniSignals = __webpack_require__(86);
 
 var _miniSignals2 = _interopRequireDefault(_miniSignals);
 
@@ -11464,7 +11470,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _CountLimiter = __webpack_require__(92);
+var _CountLimiter = __webpack_require__(93);
 
 var _CountLimiter2 = _interopRequireDefault(_CountLimiter);
 
@@ -11951,27 +11957,41 @@ function findTextStyle(item, queue) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const createKDTree = __webpack_require__(201);
+exports.PXC_REGEX = /pxc_(\w+)/;
+exports.PXC_META_REGEX = /pxc_meta_(\w+)/;
+exports.PXC_IGNORE_REGEX = /pxc_ignore/;
+exports.PXC_META_SPAWN_REGEX = /pxc_meta_spawn(\d+)/;
+exports.ACTION_NAME_REGEX = /([a-zA-Z_]+)(\d*)/;
+
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const createKDTree = __webpack_require__(212);
 class Grid {
     constructor(nrows, ncols, data) {
         this.nrows = nrows;
         this.ncols = ncols;
         if (data) {
             console.assert(data.length === nrows * ncols);
-            this.arr = data;
+            this.data = data.slice();
         }
         else {
-            this.arr = new Array(this.nrows * this.ncols);
+            this.data = new Array(this.nrows * this.ncols);
         }
     }
     get(row, col) {
-        return this.arr[row * this.ncols + col];
+        return this.data[row * this.ncols + col];
     }
     set(row, col, value) {
-        this.arr[row * this.ncols + col] = value;
+        this.data[row * this.ncols + col] = value;
     }
     fill(value) {
-        this.arr.fill(value);
+        this.data.fill(value);
     }
     forEach(callback) {
         for (let row = 0; row < this.nrows; row++) {
@@ -12003,14 +12023,19 @@ class Terra {
         if (!spec.weights) {
             this.weightGrid.fill(1);
         }
-        this.cellCenters = [];
+        if (spec.resolvable) {
+            this.indexForCellResolution();
+        }
+        this.bfsData = {};
+    }
+    indexForCellResolution() {
+        let cellCenters = [];
         this.cellCoords = [];
         this.forEachCell((row, col) => {
-            this.cellCenters.push(this.getCellCenter(row, col));
+            cellCenters.push(this.getCellCenter(row, col));
             this.cellCoords.push([row, col]);
         });
-        this.kdt = createKDTree(this.cellCenters);
-        this.bfsData = {};
+        this.kdt = createKDTree(cellCenters);
     }
     get cellsize() {
         return this._cellsize;
@@ -12228,6 +12253,10 @@ class Terra {
         this.weightGrid.set(row, col, 0);
         this.areWeightsDirty = true;
     }
+    removeWallAt(row, col) {
+        this.weightGrid.set(row, col, 1);
+        this.areWeightsDirty = true;
+    }
     generateCellKey(row, col) {
         return row * this.ncols + col;
     }
@@ -12239,7 +12268,7 @@ class Terra {
         let path = this.reconstructPath(start, this.bfsData[key].camefromGrid);
         return path.reverse();
     }
-    searchPath(start, goal, algo = 'a*') {
+    searchPath(start, goal, algo = 'bfs') {
         if (algo === 'dijkstra') {
             this.allocateGrids(algo);
             this.gCostGrid.fill(Infinity);
@@ -12281,7 +12310,7 @@ class Terra {
                 let fill;
                 fill = this.weightGrid.get(row, col) ? '#ffffff' : '#000000';
                 shapes += `<polygon points="${points}" stroke="#aaaaaa"` +
-                    ` fill="${fill}" fill-opacity=${fillopacity} class="cell"` +
+                    ` fill="${fill}" fill-opacity="${fillopacity}" class="cell"` +
                     ` id="cell${row}-${col}"></polygon>`;
             }
         }
@@ -12313,11 +12342,11 @@ exports.Terra = Terra;
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var iota = __webpack_require__(202)
-var isBuffer = __webpack_require__(203)
+var iota = __webpack_require__(213)
+var isBuffer = __webpack_require__(214)
 
 var hasTypedArrays  = ((typeof Float64Array) !== "undefined")
 
@@ -12662,14 +12691,14 @@ module.exports = wrappedNDArrayCtor
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var bits = __webpack_require__(12)
-var dup = __webpack_require__(211)
+var bits = __webpack_require__(14)
+var dup = __webpack_require__(222)
 
 //Legacy pool support
 if(!global.__TYPEDARRAY_POOL) {
@@ -12882,7 +12911,7 @@ exports.clearCache = function clearCache() {
 }
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13004,7 +13033,7 @@ exports.default = ObservablePoint;
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13202,7 +13231,7 @@ exports.default = GroupD8;
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports) {
 
 // var GL_MAP = {};
@@ -13263,7 +13292,7 @@ module.exports = setVertexAttribArrays;
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports) {
 
 
@@ -13602,7 +13631,7 @@ module.exports = Texture;
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports) {
 
 
@@ -13688,12 +13717,12 @@ module.exports = compileProgram;
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 var mapType = __webpack_require__(27);
-var mapSize = __webpack_require__(47);
+var mapSize = __webpack_require__(48);
 
 /**
  * Extracts the attributes
@@ -13735,7 +13764,7 @@ module.exports = extractAttributes;
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports) {
 
 /**
@@ -13777,11 +13806,11 @@ module.exports = mapSize;
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var mapType = __webpack_require__(27);
-var defaultValue = __webpack_require__(49);
+var defaultValue = __webpack_require__(50);
 
 /**
  * Extracts the uniforms
@@ -13818,7 +13847,7 @@ module.exports = extractUniforms;
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports) {
 
 /**
@@ -13902,7 +13931,7 @@ module.exports = defaultValue;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports) {
 
 /**
@@ -13926,7 +13955,7 @@ module.exports = setPrecision;
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports) {
 
 /**
@@ -14073,7 +14102,7 @@ module.exports = generateUniformAccessObject;
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14083,7 +14112,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
@@ -14093,11 +14122,11 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _TransformStatic = __webpack_require__(53);
+var _TransformStatic = __webpack_require__(54);
 
 var _TransformStatic2 = _interopRequireDefault(_TransformStatic);
 
-var _Transform = __webpack_require__(54);
+var _Transform = __webpack_require__(55);
 
 var _Transform2 = _interopRequireDefault(_Transform);
 
@@ -14770,7 +14799,7 @@ DisplayObject.prototype.displayObjectUpdateTransform = DisplayObject.prototype.u
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14985,7 +15014,7 @@ exports.default = TransformStatic;
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15171,7 +15200,7 @@ exports.default = Transform;
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15180,7 +15209,7 @@ exports.default = Transform;
 exports.__esModule = true;
 exports.default = determineCrossOrigin;
 
-var _url2 = __webpack_require__(56);
+var _url2 = __webpack_require__(57);
 
 var _url3 = _interopRequireDefault(_url2);
 
@@ -15232,13 +15261,13 @@ function determineCrossOrigin(url) {
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports) {
 
 module.exports = require("url");
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15258,7 +15287,7 @@ var _ticker = __webpack_require__(32);
 
 var _const = __webpack_require__(1);
 
-var _determineCrossOrigin = __webpack_require__(55);
+var _determineCrossOrigin = __webpack_require__(56);
 
 var _determineCrossOrigin2 = _interopRequireDefault(_determineCrossOrigin);
 
@@ -15581,7 +15610,7 @@ function createSource(path, type) {
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15589,7 +15618,7 @@ function createSource(path, type) {
 
 exports.__esModule = true;
 
-var _GroupD = __webpack_require__(42);
+var _GroupD = __webpack_require__(43);
 
 var _GroupD2 = _interopRequireDefault(_GroupD);
 
@@ -15691,7 +15720,7 @@ exports.default = TextureUvs;
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15711,7 +15740,7 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _Container = __webpack_require__(11);
+var _Container = __webpack_require__(13);
 
 var _Container2 = _interopRequireDefault(_Container);
 
@@ -15719,7 +15748,7 @@ var _RenderTexture = __webpack_require__(33);
 
 var _RenderTexture2 = _interopRequireDefault(_RenderTexture);
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
@@ -16059,7 +16088,7 @@ exports.default = SystemRenderer;
 
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16226,7 +16255,7 @@ exports.default = BaseRenderTexture;
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16355,7 +16384,7 @@ exports.default = CanvasRenderTarget;
 
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16421,7 +16450,7 @@ function canUseNewCanvasBlendModes() {
 
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16429,7 +16458,7 @@ function canUseNewCanvasBlendModes() {
 
 exports.__esModule = true;
 
-var _Filter2 = __webpack_require__(64);
+var _Filter2 = __webpack_require__(65);
 
 var _Filter3 = _interopRequireDefault(_Filter2);
 
@@ -16437,7 +16466,7 @@ var _math = __webpack_require__(4);
 
 var _path = __webpack_require__(6);
 
-var _TextureMatrix = __webpack_require__(65);
+var _TextureMatrix = __webpack_require__(66);
 
 var _TextureMatrix2 = _interopRequireDefault(_TextureMatrix);
 
@@ -16514,7 +16543,7 @@ exports.default = SpriteMaskFilter;
 
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16524,7 +16553,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extractUniformsFromSrc = __webpack_require__(129);
+var _extractUniformsFromSrc = __webpack_require__(132);
 
 var _extractUniformsFromSrc2 = _interopRequireDefault(_extractUniformsFromSrc);
 
@@ -16715,7 +16744,7 @@ exports.default = Filter;
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16884,7 +16913,7 @@ exports.default = TextureMatrix;
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17070,7 +17099,7 @@ exports.default = Quad;
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17859,7 +17888,7 @@ function areArraysEqual(array1, array2) {
 
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18166,7 +18195,7 @@ TextMetrics._fonts = {};
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18293,7 +18322,7 @@ exports.default = GraphicsData;
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18938,7 +18967,7 @@ earcut.flatten = function (data) {
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18948,9 +18977,9 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _autoDetectRenderer = __webpack_require__(72);
+var _autoDetectRenderer = __webpack_require__(73);
 
-var _Container = __webpack_require__(11);
+var _Container = __webpack_require__(13);
 
 var _Container2 = _interopRequireDefault(_Container);
 
@@ -19166,7 +19195,7 @@ exports.default = Application;
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19179,11 +19208,11 @@ var _utils = __webpack_require__(2);
 
 var utils = _interopRequireWildcard(_utils);
 
-var _CanvasRenderer = __webpack_require__(13);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -19240,7 +19269,7 @@ function autoDetectRenderer(options, arg1, arg2, arg3) {
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19303,7 +19332,7 @@ exports.default = {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19312,7 +19341,7 @@ exports.default = {
 exports.__esModule = true;
 exports.BitmapText = exports.TilingSpriteRenderer = exports.TilingSprite = exports.AnimatedSprite = undefined;
 
-var _AnimatedSprite = __webpack_require__(161);
+var _AnimatedSprite = __webpack_require__(164);
 
 Object.defineProperty(exports, 'AnimatedSprite', {
   enumerable: true,
@@ -19321,7 +19350,7 @@ Object.defineProperty(exports, 'AnimatedSprite', {
   }
 });
 
-var _TilingSprite = __webpack_require__(162);
+var _TilingSprite = __webpack_require__(165);
 
 Object.defineProperty(exports, 'TilingSprite', {
   enumerable: true,
@@ -19330,7 +19359,7 @@ Object.defineProperty(exports, 'TilingSprite', {
   }
 });
 
-var _TilingSpriteRenderer = __webpack_require__(163);
+var _TilingSpriteRenderer = __webpack_require__(166);
 
 Object.defineProperty(exports, 'TilingSpriteRenderer', {
   enumerable: true,
@@ -19339,7 +19368,7 @@ Object.defineProperty(exports, 'TilingSpriteRenderer', {
   }
 });
 
-var _BitmapText = __webpack_require__(164);
+var _BitmapText = __webpack_require__(167);
 
 Object.defineProperty(exports, 'BitmapText', {
   enumerable: true,
@@ -19348,11 +19377,11 @@ Object.defineProperty(exports, 'BitmapText', {
   }
 });
 
-__webpack_require__(165);
+__webpack_require__(168);
 
-__webpack_require__(166);
+__webpack_require__(169);
 
-__webpack_require__(167);
+__webpack_require__(170);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19360,7 +19389,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19374,15 +19403,15 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _generateBlurVertSource = __webpack_require__(76);
+var _generateBlurVertSource = __webpack_require__(77);
 
 var _generateBlurVertSource2 = _interopRequireDefault(_generateBlurVertSource);
 
-var _generateBlurFragSource = __webpack_require__(77);
+var _generateBlurFragSource = __webpack_require__(78);
 
 var _generateBlurFragSource2 = _interopRequireDefault(_generateBlurFragSource);
 
-var _getMaxBlurKernelSize = __webpack_require__(78);
+var _getMaxBlurKernelSize = __webpack_require__(79);
 
 var _getMaxBlurKernelSize2 = _interopRequireDefault(_getMaxBlurKernelSize);
 
@@ -19531,7 +19560,7 @@ exports.default = BlurXFilter;
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19580,7 +19609,7 @@ function generateVertBlurSource(kernelSize, x) {
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19632,7 +19661,7 @@ function generateFragBlurSource(kernelSize) {
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19653,7 +19682,7 @@ function getMaxKernelSize(gl) {
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19667,15 +19696,15 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _generateBlurVertSource = __webpack_require__(76);
+var _generateBlurVertSource = __webpack_require__(77);
 
 var _generateBlurVertSource2 = _interopRequireDefault(_generateBlurVertSource);
 
-var _generateBlurFragSource = __webpack_require__(77);
+var _generateBlurFragSource = __webpack_require__(78);
 
 var _generateBlurFragSource2 = _interopRequireDefault(_generateBlurFragSource);
 
-var _getMaxBlurKernelSize = __webpack_require__(78);
+var _getMaxBlurKernelSize = __webpack_require__(79);
 
 var _getMaxBlurKernelSize2 = _interopRequireDefault(_getMaxBlurKernelSize);
 
@@ -19823,7 +19852,7 @@ exports.default = BlurYFilter;
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20052,7 +20081,7 @@ exports.default = InteractionData;
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20142,7 +20171,7 @@ exports.default = InteractionEvent;
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20323,7 +20352,7 @@ InteractionTrackingData.FLAGS = Object.freeze({
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20445,7 +20474,7 @@ exports.default = {
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20522,9 +20551,9 @@ var path = _interopRequireWildcard(_path);
 
 var _core = __webpack_require__(0);
 
-var _resourceLoader = __webpack_require__(16);
+var _resourceLoader = __webpack_require__(18);
 
-var _extras = __webpack_require__(74);
+var _extras = __webpack_require__(75);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -20542,7 +20571,7 @@ function parse(resource, texture) {
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20714,7 +20743,7 @@ module.exports = exports['default'];
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20751,7 +20780,7 @@ module.exports = function parseURI (str, opts) {
 
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20965,7 +20994,7 @@ function queue(worker, concurrency) {
 
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21038,7 +21067,7 @@ function encodeBinary(input) {
 
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21081,9 +21110,9 @@ exports.default = function () {
 
 exports.getResourcePath = getResourcePath;
 
-var _resourceLoader = __webpack_require__(16);
+var _resourceLoader = __webpack_require__(18);
 
-var _url = __webpack_require__(56);
+var _url = __webpack_require__(57);
 
 var _url2 = _interopRequireDefault(_url);
 
@@ -21102,7 +21131,7 @@ function getResourcePath(resource, baseUrl) {
 
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21120,7 +21149,7 @@ exports.default = function () {
     };
 };
 
-var _resourceLoader = __webpack_require__(16);
+var _resourceLoader = __webpack_require__(18);
 
 var _Texture = __webpack_require__(7);
 
@@ -21130,7 +21159,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21138,7 +21167,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.__esModule = true;
 
-var _Mesh2 = __webpack_require__(17);
+var _Mesh2 = __webpack_require__(19);
 
 var _Mesh3 = _interopRequireDefault(_Mesh2);
 
@@ -21276,7 +21305,7 @@ exports.default = Plane;
 
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21339,13 +21368,363 @@ exports.default = CountLimiter;
 
 
 /***/ }),
-/* 93 */
+/* 94 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class CubicBezier {
+    constructor(cpoints) {
+        this.cpoints = cpoints;
+        this.degree = cpoints.length - 1;
+    }
+    evaluate(t) {
+        let p = this.cpoints;
+        let t2 = t * t;
+        let t3 = t * t2;
+        let one_t2 = (1 - t) * (1 - t);
+        let one_t3 = (1 - t) * one_t2;
+        let x = one_t3 * p[0][0] + 3 * t * one_t2 * p[1][0] + 3 * t2 * (1 - t) * p[2][0] + t3 * p[3][0];
+        let y = one_t3 * p[0][1] + 3 * t * one_t2 * p[1][1] + 3 * t2 * (1 - t) * p[2][1] + t3 * p[3][1];
+        return [x, y];
+    }
+}
+/**
+
+ Tweening
+ --------
+
+        ^                   cp2           cp3
+    1.0 |                   O             O-------+
+        |                                 .
+        |                                 .
+        |                                 .
+        |                                 .
+        |                                 .
+        |                                 .
+        |                                 .
+        |    cp0                          .
+    0.0 +-----O             O             .
+        |     .             cp1           .
+        +------------------------------------------------>
+              .                           .
+              .                           .
+              .         duration          .
+              <--------------------------->
+              ti                          tf
+
+ */
+class Animation {
+    /**
+     * @param duration Time in milliseconds to reach the target value
+     * @param type A type value or cubic bezier curve for custom animation curve
+     */
+    constructor(duration, type, onEval, onEnd) {
+        this.duration = duration;
+        this.type = type;
+        this.onEval = onEval;
+        this.onEnd = onEnd;
+        this.tstart = NaN;
+    }
+    /**
+     * Start the animation at given time instant
+     * Will be invoked by the Animator when this animation is picked from the
+     * queue of animations
+     * @param t
+     */
+    start(t) {
+        this.tstart = t;
+        let ti = t;
+        let tf = t + this.duration;
+        switch (this.type) {
+            case Animation.LINEAR:
+                this._curve = null;
+                break;
+            case Animation.EASEIN:
+                this._curve = new CubicBezier([
+                    [ti, 0.0],
+                    [ti + (tf - ti) / 2, 0.0],
+                    [tf, 1.0],
+                    [tf, 1.0]
+                ]);
+                break;
+            case Animation.EASEOUT:
+                this._curve = new CubicBezier([
+                    [ti, 0.0],
+                    [ti, 0.0],
+                    [ti + (tf - ti) / 2, 1.0],
+                    [tf, 1.0]
+                ]);
+                break;
+            case Animation.EASEINOUT:
+                this._curve = new CubicBezier([
+                    [ti, 0.0],
+                    [ti + (tf - ti) / 2, 0.0],
+                    [ti + (tf - ti) / 2, 1.0],
+                    [tf, 1.0]
+                ]);
+                break;
+            default:
+                throw new Error('Not implemented');
+        }
+    }
+    end() {
+        if (this.onEnd) {
+            this.onEnd();
+        }
+    }
+    _calcParameter(t) {
+        let u = (t - this.tstart) / this.duration;
+        switch (this.type) {
+            case Animation.LINEAR:
+                return u;
+            case Animation.EASEIN:
+                return this._curve.evaluate(u)[1];
+            case Animation.EASEOUT:
+                return this._curve.evaluate(u)[1];
+            case Animation.EASEINOUT:
+                return this._curve.evaluate(u)[1];
+            default:
+                throw new Error('Not implemented');
+        }
+    }
+    eval(t) {
+        let u = Math.min(1.0, Math.max(0.0, this._calcParameter(t)));
+        if (this.onEval) {
+            this.onEval(u);
+        }
+    }
+    isStarted() {
+        return !isNaN(this.tstart);
+    }
+    isPastEnd(t) {
+        return (t - this.tstart) > this.duration;
+    }
+}
+Animation.LINEAR = 1;
+Animation.EASEIN = 2;
+Animation.EASEOUT = 3;
+Animation.EASEINOUT = 4;
+Animation.EASECUBIC = 5;
+exports.Animation = Animation;
+
+
+/***/ }),
+/* 95 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const actor_1 = __webpack_require__(11);
+const helper_1 = __webpack_require__(8);
+const animation_1 = __webpack_require__(94);
+class Tower extends actor_1.Actor {
+    constructor(sprites, cell, level) {
+        super(sprites, [0, 0]);
+        this.cell = cell;
+        this.level = level;
+        this.position = level.terra.getCellCenter(cell[0], cell[1]);
+        this.ammoStrength = this.level.spec.tower.ammoStrength;
+        this.fireRange = this.level.spec.tower.fireRange;
+        this.fireInterval = this.level.spec.tower.fireInterval;
+        this.trackingPeriod = this.level.spec.tower.trackingPeriod;
+        this.fireStartInstant = this.trackingPeriod * 0.5;
+        this.fireShellInstant = this.trackingPeriod * 0.7;
+        this.shellFlightTime = this.trackingPeriod - this.fireShellInstant;
+        this.targetMinions = [];
+        this.fireTimer = new helper_1.Timer(this.fireInterval, () => {
+            if (this.targetMinions.length > 0 && this.level.hasAmmo()) {
+                this.level.useAmmo();
+                let targetMinion = this.targetMinions[0];
+                this.isFiring = true;
+                this.trackMinion(targetMinion);
+            }
+        });
+        this.rangeSprite = this.level.am.createSprite('sprites', 'towerrange');
+        this.rangeSprite.alpha = 0.2;
+        let rangeSpriteRadius = this.rangeSprite.getBounds().width / 2;
+        this.rangeSprite.scale.set(this.fireRange / rangeSpriteRadius);
+        this.visual.addChild(this.rangeSprite);
+        this.rangeSprite.visible = false;
+        this.fireSound = this.level.am.getSound('tower-fire');
+    }
+    createShellSprite() {
+        return this.level.am.createSprite('sprites', 'shell');
+    }
+    showRange() {
+        this.rangeSprite.visible = true;
+    }
+    hideRange() {
+        this.rangeSprite.visible = false;
+    }
+    rotateToScanIfNotBusy(deltaRot) {
+        if (!this.isFiring) {
+            this.rotation = this.rotation + deltaRot;
+        }
+    }
+    trackMinion(minion) {
+        let origRot = this.rotation - Math.PI / 2;
+        let fireStarted = false;
+        let shellFired = false;
+        let uFireStart = this.fireStartInstant / this.trackingPeriod;
+        let uFireShell = this.fireShellInstant / this.trackingPeriod;
+        let trackAnim = new animation_1.Animation(this.trackingPeriod, animation_1.Animation.LINEAR, (u) => {
+            let targetDir = helper_1.vec2.dir(this.position, minion.position);
+            let targetRot = Math.atan2(targetDir[1], targetDir[0]);
+            let deltaRot = (targetRot - origRot) % (2 * Math.PI);
+            let newRot = origRot + u * deltaRot;
+            this.rotation = newRot + Math.PI / 2;
+            // Initiate next step (firing) midway into tracking
+            // The timing between animation and this timer is not accurate
+            // but it will do for the time being
+            if (u >= uFireStart && !fireStarted) {
+                this.startFire(minion);
+                fireStarted = true;
+            }
+            if (u >= uFireShell && !shellFired) {
+                this.fireShell(minion);
+                shellFired = true;
+            }
+        }, () => {
+            this.isFiring = false;
+        });
+        this.level.animator.add(trackAnim);
+    }
+    setupAnimation() {
+        this.resetAnimation('fire');
+        this.setAnimSpeed('fire', 0.4);
+        this.setAction('rest');
+    }
+    startFire(minion) {
+        return new Promise((resolve) => {
+            this.setAction('fire');
+            this.animateOnce('fire').then(() => {
+                this.setAction('rest');
+                // console.log(`%c Tower ${this.uid} -> Minion ${minion.uid}`,
+                //   'color:white;background:red;font-weight:bold');
+                minion.sufferAttack(this.ammoStrength);
+                resolve();
+            });
+        });
+    }
+    fireShell(minion) {
+        this.fireSound.play();
+        let shellSprite = this.createShellSprite();
+        let cellsize = this.level.terra.cellsize;
+        let shellSpriteSize = shellSprite.getBounds().width;
+        shellSprite.scale.set(0.2 * cellsize / shellSpriteSize);
+        let startPos = this.position;
+        shellSprite.position.set(startPos[0], startPos[1]);
+        let shellAnim = new animation_1.Animation(this.shellFlightTime, animation_1.Animation.LINEAR, (u) => {
+            let vec = helper_1.vec2.sub(minion.position, startPos);
+            let curPos = helper_1.vec2.add(startPos, helper_1.vec2.mul(vec, u));
+            shellSprite.position.set(curPos[0], curPos[1]);
+        }, () => {
+            this.level.layers['shells'].removeChild(shellSprite);
+        });
+        this.level.layers['shells'].addChild(shellSprite);
+        this.level.animator.add(shellAnim);
+    }
+    onCollisionStart(minion) {
+        this.targetMinions.push(minion);
+    }
+    onCollisionEnd(minion) {
+        let idx = this.targetMinions.indexOf(minion);
+        if (idx >= 0) {
+            this.targetMinions.splice(idx, 1);
+        }
+    }
+    tick(t) {
+        this.fireTimer.tick(t);
+        // Remove dead minions
+        for (let i = this.targetMinions.length - 1; i >= 0; i--) {
+            if (this.targetMinions[i].isdead()) {
+                this.targetMinions.splice(i, 1);
+            }
+        }
+    }
+}
+exports.Tower = Tower;
+
+
+/***/ }),
+/* 96 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const actor_1 = __webpack_require__(11);
+class Minion extends actor_1.MovableActor {
+    constructor(sprites, position, level) {
+        super(sprites, position);
+        this.level = level;
+        this.health = this.level.spec.minion.health;
+        this.maxhealth = this.level.spec.minion.health;
+        this.speed = this.level.spec.minion.speed;
+    }
+    recomputePath() {
+        let terra = this.level.terra;
+        let target = this.level.fountain.cell;
+        let curCell = terra.resolveCell(this.position[0], this.position[1]);
+        console.assert(curCell);
+        let cellPath = terra.searchPath(curCell, target, 'bfs');
+        cellPath.shift(); // Remove first entry (curCell) from the path
+        let newpath = cellPath.map(c => terra.getCellCenter(c[0], c[1]));
+        // Insert current position of minion as the start of path, to make
+        // movement smooth
+        newpath.unshift(this.position.slice());
+        this.moveAlongPath(newpath, 5);
+    }
+    sufferAttack(healthloss) {
+        this.health -= healthloss;
+        let fraction = Math.max(0.1, this.health / this.level.spec.minion.health);
+        this.visual.alpha = fraction;
+    }
+    isdead() {
+        return this.health <= 0;
+    }
+    onCollisionStart(other) {
+        other;
+    }
+    onCollisionEnd(other) {
+        other;
+    }
+}
+exports.Minion = Minion;
+
+
+/***/ }),
+/* 97 */
+/***/ (function(module, exports) {
+
+module.exports = require("electron");
+
+/***/ }),
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const terra_1 = __webpack_require__(39);
+exports.Terra = terra_1.Terra;
+const triterra_1 = __webpack_require__(226);
+exports.TriTerra = triterra_1.TriTerra;
+const hexterra_1 = __webpack_require__(227);
+exports.HexTerra = hexterra_1.HexTerra;
+
+
+/***/ }),
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createThunk = __webpack_require__(207)
+var createThunk = __webpack_require__(218)
 
 function Procedure() {
   this.argTypes = []
@@ -21455,13 +21834,13 @@ module.exports = compileCwise
 
 
 /***/ }),
-/* 94 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var compile = __webpack_require__(93)
+var compile = __webpack_require__(99)
 
 var EmptyProc = {
   body: "",
@@ -21923,380 +22302,42 @@ exports.equals = compile({
 
 
 /***/ }),
-/* 95 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-class CubicBezier {
-    constructor(cpoints) {
-        this.cpoints = cpoints;
-        this.degree = cpoints.length - 1;
-    }
-    evaluate(t) {
-        let p = this.cpoints;
-        let t2 = t * t;
-        let t3 = t * t2;
-        let one_t2 = (1 - t) * (1 - t);
-        let one_t3 = (1 - t) * one_t2;
-        let x = one_t3 * p[0][0] + 3 * t * one_t2 * p[1][0] + 3 * t2 * (1 - t) * p[2][0] + t3 * p[3][0];
-        let y = one_t3 * p[0][1] + 3 * t * one_t2 * p[1][1] + 3 * t2 * (1 - t) * p[2][1] + t3 * p[3][1];
-        return [x, y];
-    }
-}
-/**
-
- Tweening
- --------
-
-        ^                   cp2           cp3
-    1.0 |                   O             O-------+
-        |                                 .
-        |                                 .
-        |                                 .
-        |                                 .
-        |                                 .
-        |                                 .
-        |                                 .
-        |    cp0                          .
-    0.0 +-----O             O             .
-        |     .             cp1           .
-        +------------------------------------------------>
-              .                           .
-              .                           .
-              .         duration          .
-              <--------------------------->
-              ti                          tf
-
- */
-class Animation {
-    /**
-     * @param duration Time in milliseconds to reach the target value
-     * @param type A type value or cubic bezier curve for custom animation curve
-     */
-    constructor(duration, type, onEval, onEnd) {
-        this.duration = duration;
-        this.type = type;
-        this.onEval = onEval;
-        this.onEnd = onEnd;
-        this.tstart = NaN;
-    }
-    /**
-     * Start the animation at given time instant
-     * Will be invoked by the Animator when this animation is picked from the
-     * queue of animations
-     * @param t
-     */
-    start(t) {
-        this.tstart = t;
-        let ti = t;
-        let tf = t + this.duration;
-        switch (this.type) {
-            case Animation.LINEAR:
-                this._curve = null;
-                break;
-            case Animation.EASEIN:
-                this._curve = new CubicBezier([
-                    [ti, 0.0],
-                    [ti + (tf - ti) / 2, 0.0],
-                    [tf, 1.0],
-                    [tf, 1.0]
-                ]);
-                break;
-            case Animation.EASEOUT:
-                this._curve = new CubicBezier([
-                    [ti, 0.0],
-                    [ti, 0.0],
-                    [ti + (tf - ti) / 2, 1.0],
-                    [tf, 1.0]
-                ]);
-                break;
-            case Animation.EASEINOUT:
-                this._curve = new CubicBezier([
-                    [ti, 0.0],
-                    [ti + (tf - ti) / 2, 0.0],
-                    [ti + (tf - ti) / 2, 1.0],
-                    [tf, 1.0]
-                ]);
-                break;
-            default:
-                throw new Error('Not implemented');
-        }
-    }
-    end() {
-        if (this.onEnd) {
-            this.onEnd();
-        }
-    }
-    _calcParameter(t) {
-        let u = (t - this.tstart) / this.duration;
-        switch (this.type) {
-            case Animation.LINEAR:
-                return u;
-            case Animation.EASEIN:
-                return this._curve.evaluate(u)[1];
-            case Animation.EASEOUT:
-                return this._curve.evaluate(u)[1];
-            case Animation.EASEINOUT:
-                return this._curve.evaluate(u)[1];
-            default:
-                throw new Error('Not implemented');
-        }
-    }
-    eval(t) {
-        let u = Math.min(1.0, Math.max(0.0, this._calcParameter(t)));
-        if (this.onEval) {
-            this.onEval(u);
-        }
-    }
-    isStarted() {
-        return !isNaN(this.tstart);
-    }
-    isPastEnd(t) {
-        return (t - this.tstart) > this.duration;
-    }
-}
-Animation.LINEAR = 1;
-Animation.EASEIN = 2;
-Animation.EASEOUT = 3;
-Animation.EASEINOUT = 4;
-Animation.EASECUBIC = 5;
-exports.Animation = Animation;
-
-
-/***/ }),
-/* 96 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const actor_1 = __webpack_require__(23);
-const helper_1 = __webpack_require__(9);
-const animation_1 = __webpack_require__(95);
-const TRACKING_PERIOD = 1000;
-const FIRE_START_INSTANT = 500;
-const FIRE_SHELL_INSTANT = 700;
-const SHELL_FLIGHT_TIME = TRACKING_PERIOD - FIRE_SHELL_INSTANT;
-class Tower extends actor_1.Actor {
-    constructor(sprites, position, level) {
-        super(sprites, position);
-        this.level = level;
-        this.ammoStrength = this.level.spec.towerAmmoStrength;
-        this.fireRange = this.level.spec.towerFireRange;
-        this.fireInterval = this.level.spec.towerFireInterval;
-        this.targetMinions = [];
-        this.fireTimer = new helper_1.Timer(this.fireInterval, () => {
-            if (this.targetMinions.length > 0) {
-                let targetMinion = this.targetMinions[0];
-                this.isFiring = true;
-                this.trackMinion(targetMinion);
-            }
-        });
-        this.rangeSprite = this.level.am.createSprite('sprites', 'towerrange');
-        this.rangeSprite.alpha = 0.2;
-        this.rangeSprite.position.set(position[0], position[1]);
-        let rangeSpriteRadius = this.rangeSprite.getBounds().width / 2;
-        this.rangeSprite.scale.set(this.fireRange / rangeSpriteRadius);
-        this.level.app.stage.addChild(this.rangeSprite);
-        this.fireSound = this.level.am.getSound('tower-fire');
-    }
-    set position(pos) {
-        super.position = pos;
-        if (this.rangeSprite) {
-            this.rangeSprite.position.set(pos[0], pos[1]);
-        }
-    }
-    get position() {
-        return super.position;
-    }
-    createShellSprite() {
-        return this.level.am.createSprite('sprites', 'shell');
-    }
-    rotateToScanIfNotBusy(deltaRot) {
-        if (!this.isFiring) {
-            this.rotation = this.rotation + deltaRot;
-        }
-    }
-    get rotation() {
-        return this._sprites['rest'].rotation;
-    }
-    set rotation(rot) {
-        for (let spritekey in this._sprites) {
-            let sprite = this._sprites[spritekey];
-            sprite.rotation = rot;
-        }
-    }
-    trackMinion(minion) {
-        let origRot = this.rotation - Math.PI / 2;
-        let tstart = performance.now();
-        let fireStarted = false;
-        let shellFired = false;
-        let trackAnim = new animation_1.Animation(TRACKING_PERIOD, animation_1.Animation.LINEAR, (u) => {
-            let targetDir = helper_1.vec2.dir(this.position, minion.position);
-            let targetRot = Math.atan2(targetDir[1], targetDir[0]);
-            let deltaRot = (targetRot - origRot) % (2 * Math.PI);
-            let newRot = origRot + u * deltaRot;
-            this.rotation = newRot + Math.PI / 2;
-            // Initiate next step (firing) midway into tracking
-            // The timing between animation and this timer is not accurate
-            // but it will do for the time being
-            if (performance.now() - tstart >= FIRE_START_INSTANT && !fireStarted) {
-                this.startFire(minion);
-                fireStarted = true;
-            }
-            if (performance.now() - tstart >= FIRE_SHELL_INSTANT && !shellFired) {
-                this.fireShell(minion);
-                shellFired = true;
-            }
-        }, () => {
-            this.isFiring = false;
-        });
-        this.level.animator.add(trackAnim);
-    }
-    setupAnimation() {
-        this.resetAnimation('fire');
-        this.setAnimSpeed('fire', 0.4);
-        this.setActiveSprite('rest');
-    }
-    place(cell) {
-        this.position = this.level.terra.getCellCenter(cell[0], cell[1]);
-    }
-    startFire(minion) {
-        return new Promise((resolve) => {
-            this.setActiveSprite('fire');
-            this.animateOnce('fire').then(() => {
-                this.setActiveSprite('rest');
-                // console.log(`%c Tower ${this.uid} -> Minion ${minion.uid}`,
-                //   'color:white;background:red;font-weight:bold');
-                minion.sufferAttack(this.ammoStrength);
-                resolve();
-            });
-        });
-    }
-    fireShell(minion) {
-        this.fireSound.play();
-        this.level.stats.ammoFired++;
-        let shellSprite = this.createShellSprite();
-        let cellsize = this.level.terra.cellsize;
-        let shellSpriteSize = shellSprite.getBounds().width;
-        shellSprite.scale.set(0.2 * cellsize / shellSpriteSize);
-        let startPos = this.position;
-        shellSprite.position.set(startPos[0], startPos[1]);
-        let shellAnim = new animation_1.Animation(SHELL_FLIGHT_TIME, animation_1.Animation.LINEAR, (u) => {
-            let vec = helper_1.vec2.sub(minion.position, startPos);
-            let curPos = helper_1.vec2.add(startPos, helper_1.vec2.mul(vec, u));
-            shellSprite.position.set(curPos[0], curPos[1]);
-        }, () => {
-            this.level.app.stage.removeChild(shellSprite);
-        });
-        this.level.app.stage.addChild(shellSprite);
-        this.level.animator.add(shellAnim);
-    }
-    onCollisionStart(minion) {
-        this.targetMinions.push(minion);
-    }
-    onCollisionEnd(minion) {
-        let idx = this.targetMinions.indexOf(minion);
-        if (idx >= 0) {
-            this.targetMinions.splice(idx, 1);
-        }
-    }
-    tick(t) {
-        this.fireTimer.tick(t);
-        // Remove dead minions
-        for (let i = this.targetMinions.length - 1; i >= 0; i--) {
-            if (this.targetMinions[i].isdead()) {
-                this.targetMinions.splice(i, 1);
-            }
-        }
-    }
-}
-exports.Tower = Tower;
-
-
-/***/ }),
-/* 97 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const actor_1 = __webpack_require__(23);
-class Minion extends actor_1.MovableActor {
-    constructor(sprites, position, level) {
-        super(sprites, position);
-        this.level = level;
-        this.health = this.level.spec.minionHealth;
-        this.maxhealth = this.level.spec.minionHealth;
-    }
-    recomputePath() {
-        let terra = this.level.terra;
-        let target = this.level.fountain.cell;
-        let curCell = terra.resolveCell(this.position[0], this.position[1]);
-        console.assert(curCell);
-        let newpath = terra
-            .searchPath(curCell, target, 'bfs')
-            .map(c => terra.getCellCenter(c[0], c[1]));
-        this.moveAlongPath(newpath, 5);
-    }
-    sufferAttack(healthloss) {
-        this.health -= healthloss;
-        let fraction = Math.max(0.1, this.health / this.level.spec.minionHealth);
-        this.sprites.forEach(sprite => sprite.alpha = fraction);
-    }
-    isdead() {
-        return this.health <= 0;
-    }
-    onCollisionStart(other) {
-        other;
-    }
-    onCollisionEnd(other) {
-        other;
-    }
-}
-exports.Minion = Minion;
-
-
-/***/ }),
-/* 98 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const actor_editor_1 = __webpack_require__(99);
-const level_player_1 = __webpack_require__(195);
-const asset_manager_1 = __webpack_require__(223);
-const electron_1 = __webpack_require__(225);
-const fs = __webpack_require__(226);
+const actor_editor_1 = __webpack_require__(102);
+const level_player_1 = __webpack_require__(198);
+const native_asset_manager_1 = __webpack_require__(208);
+const electron_1 = __webpack_require__(97);
 let am;
 window.onload = () => {
-    am = new asset_manager_1.AssetManager();
+    am = new native_asset_manager_1.NativeAssetManager();
+    window.am = am;
     document.body.style.overflow = 'hidden';
-    let importBtn = document.createElement('input');
-    importBtn.setAttribute('type', 'button');
-    importBtn.setAttribute('name', 'import');
-    importBtn.setAttribute('value', 'Import');
-    document.body.appendChild(importBtn);
-    let cachedFilename = window.localStorage.getItem('recent-svg-file');
-    if (cachedFilename) {
-        loadSVG(cachedFilename);
-        importBtn.remove();
-    }
-    importBtn.addEventListener('click', () => {
-        electron_1.remote.dialog.showOpenDialog({
-            filters: [
-                { name: 'SVG', extensions: ['svg'] }
-            ]
-        }, (filepaths) => {
-            if (filepaths && filepaths.length > 0) {
-                loadSVG(filepaths[0]);
-                importBtn.remove();
-                // Remember imported file path
-                window.localStorage.setItem('recent-svg-file', filepaths[0]);
-            }
+    am.load().then(() => {
+        setupEditors(am);
+    }).catch(() => {
+        let importBtn = document.createElement('input');
+        importBtn.setAttribute('type', 'button');
+        importBtn.setAttribute('name', 'import');
+        importBtn.setAttribute('value', 'Import');
+        document.body.appendChild(importBtn);
+        importBtn.addEventListener('click', () => {
+            electron_1.remote.dialog.showOpenDialog({
+                filters: [
+                    { name: 'SVG', extensions: ['svg'] }
+                ]
+            }, (filepaths) => {
+                if (filepaths && filepaths.length > 0) {
+                    am.load(filepaths[0]).then(() => {
+                        setupEditors(am);
+                        importBtn.remove();
+                    });
+                }
+            });
         });
     });
 };
@@ -22362,15 +22403,6 @@ window.onkeydown = (ev) => {
         }
     }
 };
-function loadSVG(filepath) {
-    let data = fs.readFileSync(filepath);
-    let svgdoc = new String(data).toString();
-    am.loadFromSVG(svgdoc).then(() => {
-        return am.loadSounds();
-    }).then(() => {
-        setupEditors(am);
-    });
-}
 let activeEditor;
 function loadEditor(layername, am, editorDiv) {
     window.localStorage.setItem('recent-editor-choice', layername);
@@ -22399,7 +22431,7 @@ function setupEditors(am) {
     selectorDiv.style.top = '0px';
     selectorDiv.style.padding = '5px';
     let modeSelect = document.createElement('select');
-    for (let layername in am.layerMap) {
+    for (let layername of am.layerNames) {
         let editorType = layername.split('_')[0];
         if (['actor', 'level'].indexOf(editorType) >= 0) {
             let opt = document.createElement('option');
@@ -22432,14 +22464,14 @@ function setupEditors(am) {
 
 
 /***/ }),
-/* 99 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const editor_1 = __webpack_require__(100);
-const actor_1 = __webpack_require__(23);
+const editor_1 = __webpack_require__(103);
+const actor_1 = __webpack_require__(11);
 class ActorEditor extends editor_1.Editor {
     load() {
         this.vportWidth = window.innerWidth;
@@ -22455,13 +22487,13 @@ class ActorEditor extends editor_1.Editor {
     setupActorInteraction() {
         let animSpeedInput = this.parent.querySelector('input[name=animspeed]');
         let moveSpeedInput = this.parent.querySelector('input[name=movespeed]');
-        for (let spritekey of this.actor.getSpriteKeys()) {
+        for (let spritekey of this.actor.getActions()) {
             this.actor.setAnimSpeed(spritekey, parseFloat(animSpeedInput.value));
         }
-        this.actor.speed = parseFloat(moveSpeedInput.value);
-        for (let sprite of this.actor.sprites) {
-            this.pixiapp.stage.addChild(sprite);
+        if (this.actor instanceof actor_1.MovableActor) {
+            this.actor.speed = parseFloat(moveSpeedInput.value);
         }
+        this.pixiapp.stage.addChild(this.actor.visual);
         this.pixiapp.view.addEventListener('mouseup', (ev) => {
             if (this.actor && this.actor instanceof actor_1.MovableActor) {
                 this.actor.moveAlongPath([[ev.clientX, ev.clientY]]);
@@ -22473,14 +22505,14 @@ class ActorEditor extends editor_1.Editor {
         });
         // Populate animation actions in dropdown
         let animationsSelect = this.parent.querySelector('select');
-        for (let spritekey of this.actor.getSpriteKeys()) {
+        for (let spritekey of this.actor.getActions()) {
             let opt = document.createElement('option');
             opt.textContent = spritekey;
             animationsSelect.appendChild(opt);
         }
         animationsSelect.value = 'rest';
         animationsSelect.addEventListener('change', () => {
-            this.actor.setActiveSprite(animationsSelect.value);
+            this.actor.setAction(animationsSelect.value);
         });
     }
     setupControls() {
@@ -22511,7 +22543,9 @@ class ActorEditor extends editor_1.Editor {
             this.actor.setAnimSpeed(animSelect.value, parseFloat(animSpeedInput.value));
         });
         moveSpeedInput.addEventListener('change', () => {
-            this.actor.speed = parseFloat(moveSpeedInput.value);
+            if (this.actor && this.actor instanceof actor_1.MovableActor) {
+                this.actor.speed = parseFloat(moveSpeedInput.value);
+            }
         });
         loopInput.addEventListener('change', () => {
             let animSelect = this.parent.querySelector('select');
@@ -22526,11 +22560,11 @@ class ActorEditor extends editor_1.Editor {
         this.pixidiv.remove();
     }
     play() {
-        this.pixiapp.ticker.add(() => {
+        this.pixiapp.ticker.add((t) => {
             if (this.actor &&
                 this.actor instanceof actor_1.MovableActor &&
                 this.actor.inmotion) {
-                this.actor.move();
+                this.actor.move(t);
             }
         });
     }
@@ -22548,7 +22582,7 @@ exports.ActorEditor = ActorEditor;
 
 
 /***/ }),
-/* 100 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22571,7 +22605,7 @@ limitations under the License.
 
 */
 Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(18);
+const pixi = __webpack_require__(12);
 class Editor {
     constructor(layername, assetMan, parent) {
         this.layername = layername;
@@ -22583,11 +22617,6 @@ class Editor {
         this.pixidiv.style.left = '0px';
         this.pixidiv.style.top = '0px';
         this.parent.appendChild(this.pixidiv);
-        let layer = this.assetMan.layerMap[layername];
-        let dataAttr = layer.getAttribute('data');
-        if (dataAttr) {
-            this.layerData = JSON.parse(dataAttr);
-        }
     }
     load(vpWidth, vpHeight) {
         // Setup Pixi App
@@ -22616,17 +22645,17 @@ exports.Editor = Editor;
 
 
 /***/ }),
-/* 101 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(102);
-
-__webpack_require__(104);
-
 __webpack_require__(105);
+
+__webpack_require__(107);
+
+__webpack_require__(108);
 
 if (!window.ArrayBuffer) {
     window.ArrayBuffer = Array;
@@ -22646,13 +22675,13 @@ if (!window.Uint16Array) {
 
 
 /***/ }),
-/* 102 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _objectAssign = __webpack_require__(103);
+var _objectAssign = __webpack_require__(106);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
@@ -22666,7 +22695,7 @@ if (!Object.assign) {
 
 
 /***/ }),
-/* 103 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22763,7 +22792,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 104 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22843,7 +22872,7 @@ if (!global.cancelAnimationFrame) {
 
 
 /***/ }),
-/* 105 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22866,7 +22895,7 @@ if (!Math.sign) {
 
 
 /***/ }),
-/* 106 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22985,7 +23014,7 @@ exports.default = Circle;
 
 
 /***/ }),
-/* 107 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23112,7 +23141,7 @@ exports.default = Ellipse;
 
 
 /***/ }),
-/* 108 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23248,7 +23277,7 @@ exports.default = Polygon;
 
 
 /***/ }),
-/* 109 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23386,7 +23415,7 @@ exports.default = RoundedRectangle;
 
 
 /***/ }),
-/* 110 */
+/* 113 */
 /***/ (function(module, exports) {
 
 
@@ -23418,7 +23447,7 @@ module.exports = createContext;
 
 
 /***/ }),
-/* 111 */
+/* 114 */
 /***/ (function(module, exports) {
 
 var EMPTY_ARRAY_BUFFER = new ArrayBuffer(0);
@@ -23543,11 +23572,11 @@ module.exports = Buffer;
 
 
 /***/ }),
-/* 112 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var Texture = __webpack_require__(44);
+var Texture = __webpack_require__(45);
 
 /**
  * Helper class to create a webGL Framebuffer
@@ -23774,15 +23803,15 @@ module.exports = Framebuffer;
 
 
 /***/ }),
-/* 113 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var compileProgram = __webpack_require__(45),
-	extractAttributes = __webpack_require__(46),
-	extractUniforms = __webpack_require__(48),
-	setPrecision = __webpack_require__(50),
-	generateUniformAccessObject = __webpack_require__(51);
+var compileProgram = __webpack_require__(46),
+	extractAttributes = __webpack_require__(47),
+	extractUniforms = __webpack_require__(49),
+	setPrecision = __webpack_require__(51),
+	generateUniformAccessObject = __webpack_require__(52);
 
 /**
  * Helper class to create a webGL Shader
@@ -23874,12 +23903,12 @@ module.exports = Shader;
 
 
 /***/ }),
-/* 114 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 // state object//
-var setVertexAttribArrays = __webpack_require__( 43 );
+var setVertexAttribArrays = __webpack_require__( 44 );
 
 /**
  * Helper class to work with WebGL VertexArrayObjects (vaos)
@@ -24142,22 +24171,22 @@ VertexArrayObject.prototype.getSize = function()
 
 
 /***/ }),
-/* 115 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-    compileProgram: __webpack_require__(45),
-    defaultValue: __webpack_require__(49),
-    extractAttributes: __webpack_require__(46),
-    extractUniforms: __webpack_require__(48),
-    generateUniformAccessObject: __webpack_require__(51),
-    setPrecision: __webpack_require__(50),
-    mapSize: __webpack_require__(47),
+    compileProgram: __webpack_require__(46),
+    defaultValue: __webpack_require__(50),
+    extractAttributes: __webpack_require__(47),
+    extractUniforms: __webpack_require__(49),
+    generateUniformAccessObject: __webpack_require__(52),
+    setPrecision: __webpack_require__(51),
+    mapSize: __webpack_require__(48),
     mapType: __webpack_require__(27)
 };
 
 /***/ }),
-/* 116 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24184,7 +24213,7 @@ function maxRecommendedTextures(max) {
 
 
 /***/ }),
-/* 117 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24203,7 +24232,7 @@ function canUploadSameBuffer() {
 
 
 /***/ }),
-/* 118 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24274,7 +24303,7 @@ exports.default = {
 
 
 /***/ }),
-/* 119 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24341,7 +24370,7 @@ function performMixins() {
 
 
 /***/ }),
-/* 120 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24376,7 +24405,7 @@ module.exports = function removeItems(arr, startIdx, removeCount)
 
 
 /***/ }),
-/* 121 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24424,7 +24453,7 @@ function mapPremultipliedBlendModes() {
 
 
 /***/ }),
-/* 122 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24440,7 +24469,7 @@ var _settings2 = _interopRequireDefault(_settings);
 
 var _const = __webpack_require__(1);
 
-var _TickerListener = __webpack_require__(123);
+var _TickerListener = __webpack_require__(126);
 
 var _TickerListener2 = _interopRequireDefault(_TickerListener);
 
@@ -24902,7 +24931,7 @@ exports.default = Ticker;
 
 
 /***/ }),
-/* 123 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25081,7 +25110,7 @@ exports.default = TickerListener;
 
 
 /***/ }),
-/* 124 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25089,7 +25118,7 @@ exports.default = TickerListener;
 
 exports.__esModule = true;
 
-var _CanvasRenderer = __webpack_require__(13);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -25239,7 +25268,7 @@ _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
 
 
 /***/ }),
-/* 125 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25413,7 +25442,7 @@ exports.default = CanvasMaskManager;
 
 
 /***/ }),
-/* 126 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25424,7 +25453,7 @@ exports.default = mapCanvasBlendModesToPixi;
 
 var _const = __webpack_require__(1);
 
-var _canUseNewCanvasBlendModes = __webpack_require__(62);
+var _canUseNewCanvasBlendModes = __webpack_require__(63);
 
 var _canUseNewCanvasBlendModes2 = _interopRequireDefault(_canUseNewCanvasBlendModes);
 
@@ -25490,7 +25519,7 @@ function mapCanvasBlendModesToPixi() {
 
 
 /***/ }),
-/* 127 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25498,11 +25527,11 @@ function mapCanvasBlendModesToPixi() {
 
 exports.__esModule = true;
 
-var _ObjectRenderer2 = __webpack_require__(19);
+var _ObjectRenderer2 = __webpack_require__(20);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
@@ -25510,15 +25539,15 @@ var _createIndicesForQuads = __webpack_require__(35);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
-var _generateMultiTextureShader = __webpack_require__(139);
+var _generateMultiTextureShader = __webpack_require__(142);
 
 var _generateMultiTextureShader2 = _interopRequireDefault(_generateMultiTextureShader);
 
-var _checkMaxIfStatmentsInShader = __webpack_require__(140);
+var _checkMaxIfStatmentsInShader = __webpack_require__(143);
 
 var _checkMaxIfStatmentsInShader2 = _interopRequireDefault(_checkMaxIfStatmentsInShader);
 
-var _BatchBuffer = __webpack_require__(141);
+var _BatchBuffer = __webpack_require__(144);
 
 var _BatchBuffer2 = _interopRequireDefault(_BatchBuffer);
 
@@ -25532,7 +25561,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _bitTwiddle = __webpack_require__(12);
+var _bitTwiddle = __webpack_require__(14);
 
 var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
 
@@ -26037,7 +26066,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 
 
 /***/ }),
-/* 128 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26045,11 +26074,11 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(14);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _SpriteMaskFilter = __webpack_require__(63);
+var _SpriteMaskFilter = __webpack_require__(64);
 
 var _SpriteMaskFilter2 = _interopRequireDefault(_SpriteMaskFilter);
 
@@ -26252,7 +26281,7 @@ exports.default = MaskManager;
 
 
 /***/ }),
-/* 129 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26319,7 +26348,7 @@ function extractUniformsFromString(string) {
 
 
 /***/ }),
-/* 130 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26327,7 +26356,7 @@ function extractUniformsFromString(string) {
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(14);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
@@ -26477,7 +26506,7 @@ exports.default = StencilManager;
 
 
 /***/ }),
-/* 131 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26485,29 +26514,29 @@ exports.default = StencilManager;
 
 exports.__esModule = true;
 
-var _WebGLManager2 = __webpack_require__(14);
+var _WebGLManager2 = __webpack_require__(16);
 
 var _WebGLManager3 = _interopRequireDefault(_WebGLManager2);
 
-var _RenderTarget = __webpack_require__(21);
+var _RenderTarget = __webpack_require__(22);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
-var _Quad = __webpack_require__(66);
+var _Quad = __webpack_require__(67);
 
 var _Quad2 = _interopRequireDefault(_Quad);
 
 var _math = __webpack_require__(4);
 
-var _Shader = __webpack_require__(15);
+var _Shader = __webpack_require__(17);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
-var _filterTransforms = __webpack_require__(132);
+var _filterTransforms = __webpack_require__(135);
 
 var filterTransforms = _interopRequireWildcard(_filterTransforms);
 
-var _bitTwiddle = __webpack_require__(12);
+var _bitTwiddle = __webpack_require__(14);
 
 var _bitTwiddle2 = _interopRequireDefault(_bitTwiddle);
 
@@ -27076,7 +27105,7 @@ exports.default = FilterManager;
 
 
 /***/ }),
-/* 132 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27140,7 +27169,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 
 
 /***/ }),
-/* 133 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27152,7 +27181,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _const = __webpack_require__(1);
 
-var _RenderTarget = __webpack_require__(21);
+var _RenderTarget = __webpack_require__(22);
 
 var _RenderTarget2 = _interopRequireDefault(_RenderTarget);
 
@@ -27401,7 +27430,7 @@ exports.default = TextureManager;
 
 
 /***/ }),
-/* 134 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27526,7 +27555,7 @@ exports.default = TextureGarbageCollector;
 
 
 /***/ }),
-/* 135 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27534,7 +27563,7 @@ exports.default = TextureGarbageCollector;
 
 exports.__esModule = true;
 
-var _mapWebGLBlendModesToPixi = __webpack_require__(136);
+var _mapWebGLBlendModesToPixi = __webpack_require__(139);
 
 var _mapWebGLBlendModesToPixi2 = _interopRequireDefault(_mapWebGLBlendModesToPixi);
 
@@ -27811,7 +27840,7 @@ exports.default = WebGLState;
 
 
 /***/ }),
-/* 136 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27865,7 +27894,7 @@ function mapWebGLBlendModesToPixi(gl) {
 
 
 /***/ }),
-/* 137 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27902,7 +27931,7 @@ function mapWebGLDrawModesToPixi(gl) {
 
 
 /***/ }),
-/* 138 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27923,7 +27952,7 @@ function validateContext(gl) {
 
 
 /***/ }),
-/* 139 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27932,7 +27961,7 @@ function validateContext(gl) {
 exports.__esModule = true;
 exports.default = generateMultiTextureShader;
 
-var _Shader = __webpack_require__(15);
+var _Shader = __webpack_require__(17);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
@@ -27991,7 +28020,7 @@ function generateSampleSrc(maxTextures) {
 
 
 /***/ }),
-/* 140 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28071,7 +28100,7 @@ function generateIfTestSrc(maxIfs) {
 
 
 /***/ }),
-/* 141 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28129,7 +28158,7 @@ exports.default = Buffer;
 
 
 /***/ }),
-/* 142 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28157,15 +28186,15 @@ var _settings = __webpack_require__(3);
 
 var _settings2 = _interopRequireDefault(_settings);
 
-var _TextStyle = __webpack_require__(67);
+var _TextStyle = __webpack_require__(68);
 
 var _TextStyle2 = _interopRequireDefault(_TextStyle);
 
-var _TextMetrics = __webpack_require__(68);
+var _TextMetrics = __webpack_require__(69);
 
 var _TextMetrics2 = _interopRequireDefault(_TextMetrics);
 
-var _trimCanvas = __webpack_require__(143);
+var _trimCanvas = __webpack_require__(146);
 
 var _trimCanvas2 = _interopRequireDefault(_trimCanvas);
 
@@ -28789,7 +28818,7 @@ exports.default = Text;
 
 
 /***/ }),
-/* 143 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28870,7 +28899,7 @@ function trimCanvas(canvas) {
 
 
 /***/ }),
-/* 144 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28878,7 +28907,7 @@ function trimCanvas(canvas) {
 
 exports.__esModule = true;
 
-var _Container2 = __webpack_require__(11);
+var _Container2 = __webpack_require__(13);
 
 var _Container3 = _interopRequireDefault(_Container2);
 
@@ -28890,7 +28919,7 @@ var _Texture = __webpack_require__(7);
 
 var _Texture2 = _interopRequireDefault(_Texture);
 
-var _GraphicsData = __webpack_require__(69);
+var _GraphicsData = __webpack_require__(70);
 
 var _GraphicsData2 = _interopRequireDefault(_GraphicsData);
 
@@ -28908,11 +28937,11 @@ var _Bounds = __webpack_require__(28);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
-var _bezierCurveTo2 = __webpack_require__(145);
+var _bezierCurveTo2 = __webpack_require__(148);
 
 var _bezierCurveTo3 = _interopRequireDefault(_bezierCurveTo2);
 
-var _CanvasRenderer = __webpack_require__(13);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -30047,7 +30076,7 @@ Graphics._SPRITE_TEXTURE = null;
 
 
 /***/ }),
-/* 145 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30102,7 +30131,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 
 
 /***/ }),
-/* 146 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30114,35 +30143,35 @@ var _utils = __webpack_require__(2);
 
 var _const = __webpack_require__(1);
 
-var _ObjectRenderer2 = __webpack_require__(19);
+var _ObjectRenderer2 = __webpack_require__(20);
 
 var _ObjectRenderer3 = _interopRequireDefault(_ObjectRenderer2);
 
-var _WebGLRenderer = __webpack_require__(20);
+var _WebGLRenderer = __webpack_require__(21);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _WebGLGraphicsData = __webpack_require__(147);
+var _WebGLGraphicsData = __webpack_require__(150);
 
 var _WebGLGraphicsData2 = _interopRequireDefault(_WebGLGraphicsData);
 
-var _PrimitiveShader = __webpack_require__(148);
+var _PrimitiveShader = __webpack_require__(151);
 
 var _PrimitiveShader2 = _interopRequireDefault(_PrimitiveShader);
 
-var _buildPoly = __webpack_require__(149);
+var _buildPoly = __webpack_require__(152);
 
 var _buildPoly2 = _interopRequireDefault(_buildPoly);
 
-var _buildRectangle = __webpack_require__(150);
+var _buildRectangle = __webpack_require__(153);
 
 var _buildRectangle2 = _interopRequireDefault(_buildRectangle);
 
-var _buildRoundedRectangle = __webpack_require__(151);
+var _buildRoundedRectangle = __webpack_require__(154);
 
 var _buildRoundedRectangle2 = _interopRequireDefault(_buildRoundedRectangle);
 
-var _buildCircle = __webpack_require__(152);
+var _buildCircle = __webpack_require__(155);
 
 var _buildCircle2 = _interopRequireDefault(_buildCircle);
 
@@ -30372,7 +30401,7 @@ _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
 
 
 /***/ }),
-/* 147 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30520,7 +30549,7 @@ exports.default = WebGLGraphicsData;
 
 
 /***/ }),
-/* 148 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30528,7 +30557,7 @@ exports.default = WebGLGraphicsData;
 
 exports.__esModule = true;
 
-var _Shader2 = __webpack_require__(15);
+var _Shader2 = __webpack_require__(17);
 
 var _Shader3 = _interopRequireDefault(_Shader2);
 
@@ -30570,7 +30599,7 @@ exports.default = PrimitiveShader;
 
 
 /***/ }),
-/* 149 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30579,13 +30608,13 @@ exports.default = PrimitiveShader;
 exports.__esModule = true;
 exports.default = buildPoly;
 
-var _buildLine = __webpack_require__(22);
+var _buildLine = __webpack_require__(23);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
 var _utils = __webpack_require__(2);
 
-var _earcut = __webpack_require__(70);
+var _earcut = __webpack_require__(71);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
@@ -30661,7 +30690,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 150 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30670,7 +30699,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRectangle;
 
-var _buildLine = __webpack_require__(22);
+var _buildLine = __webpack_require__(23);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -30742,7 +30771,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 151 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30751,11 +30780,11 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 exports.__esModule = true;
 exports.default = buildRoundedRectangle;
 
-var _earcut = __webpack_require__(70);
+var _earcut = __webpack_require__(71);
 
 var _earcut2 = _interopRequireDefault(_earcut);
 
-var _buildLine = __webpack_require__(22);
+var _buildLine = __webpack_require__(23);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -30903,7 +30932,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 
 
 /***/ }),
-/* 152 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30912,7 +30941,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 exports.__esModule = true;
 exports.default = buildCircle;
 
-var _buildLine = __webpack_require__(22);
+var _buildLine = __webpack_require__(23);
 
 var _buildLine2 = _interopRequireDefault(_buildLine);
 
@@ -31001,7 +31030,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 
 
 /***/ }),
-/* 153 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31009,7 +31038,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 
 exports.__esModule = true;
 
-var _CanvasRenderer = __webpack_require__(13);
+var _CanvasRenderer = __webpack_require__(15);
 
 var _CanvasRenderer2 = _interopRequireDefault(_CanvasRenderer);
 
@@ -31275,7 +31304,7 @@ _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
 
 
 /***/ }),
-/* 154 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31542,7 +31571,7 @@ exports.default = Spritesheet;
 
 
 /***/ }),
-/* 155 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32691,7 +32720,7 @@ function deprecation(core) {
 
 
 /***/ }),
-/* 156 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32699,7 +32728,7 @@ function deprecation(core) {
 
 exports.__esModule = true;
 
-var _accessibleTarget = __webpack_require__(73);
+var _accessibleTarget = __webpack_require__(74);
 
 Object.defineProperty(exports, 'accessibleTarget', {
   enumerable: true,
@@ -32708,7 +32737,7 @@ Object.defineProperty(exports, 'accessibleTarget', {
   }
 });
 
-var _AccessibilityManager = __webpack_require__(157);
+var _AccessibilityManager = __webpack_require__(160);
 
 Object.defineProperty(exports, 'AccessibilityManager', {
   enumerable: true,
@@ -32721,7 +32750,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 157 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32737,7 +32766,7 @@ var _ismobilejs = __webpack_require__(29);
 
 var _ismobilejs2 = _interopRequireDefault(_ismobilejs);
 
-var _accessibleTarget = __webpack_require__(73);
+var _accessibleTarget = __webpack_require__(74);
 
 var _accessibleTarget2 = _interopRequireDefault(_accessibleTarget);
 
@@ -33220,7 +33249,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 
 /***/ }),
-/* 158 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33228,7 +33257,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 exports.__esModule = true;
 
-var _WebGLExtract = __webpack_require__(159);
+var _WebGLExtract = __webpack_require__(162);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -33237,7 +33266,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasExtract = __webpack_require__(160);
+var _CanvasExtract = __webpack_require__(163);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -33250,7 +33279,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 159 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33478,7 +33507,7 @@ core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
 
 
 /***/ }),
-/* 160 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33663,7 +33692,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 
 
 /***/ }),
-/* 161 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34077,7 +34106,7 @@ exports.default = AnimatedSprite;
 
 
 /***/ }),
-/* 162 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34528,7 +34557,7 @@ exports.default = TilingSprite;
 
 
 /***/ }),
-/* 163 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34695,7 +34724,7 @@ core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
 
 
 /***/ }),
-/* 164 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34709,7 +34738,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ObservablePoint = __webpack_require__(41);
+var _ObservablePoint = __webpack_require__(42);
 
 var _ObservablePoint2 = _interopRequireDefault(_ObservablePoint);
 
@@ -35291,7 +35320,7 @@ BitmapText.fonts = {};
 
 
 /***/ }),
-/* 165 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35700,7 +35729,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 
 
 /***/ }),
-/* 166 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35739,7 +35768,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 
 
 /***/ }),
-/* 167 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35777,7 +35806,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 
 /***/ }),
-/* 168 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35785,7 +35814,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 exports.__esModule = true;
 
-var _FXAAFilter = __webpack_require__(169);
+var _FXAAFilter = __webpack_require__(172);
 
 Object.defineProperty(exports, 'FXAAFilter', {
   enumerable: true,
@@ -35794,7 +35823,7 @@ Object.defineProperty(exports, 'FXAAFilter', {
   }
 });
 
-var _NoiseFilter = __webpack_require__(170);
+var _NoiseFilter = __webpack_require__(173);
 
 Object.defineProperty(exports, 'NoiseFilter', {
   enumerable: true,
@@ -35803,7 +35832,7 @@ Object.defineProperty(exports, 'NoiseFilter', {
   }
 });
 
-var _DisplacementFilter = __webpack_require__(171);
+var _DisplacementFilter = __webpack_require__(174);
 
 Object.defineProperty(exports, 'DisplacementFilter', {
   enumerable: true,
@@ -35812,7 +35841,7 @@ Object.defineProperty(exports, 'DisplacementFilter', {
   }
 });
 
-var _BlurFilter = __webpack_require__(172);
+var _BlurFilter = __webpack_require__(175);
 
 Object.defineProperty(exports, 'BlurFilter', {
   enumerable: true,
@@ -35821,7 +35850,7 @@ Object.defineProperty(exports, 'BlurFilter', {
   }
 });
 
-var _BlurXFilter = __webpack_require__(75);
+var _BlurXFilter = __webpack_require__(76);
 
 Object.defineProperty(exports, 'BlurXFilter', {
   enumerable: true,
@@ -35830,7 +35859,7 @@ Object.defineProperty(exports, 'BlurXFilter', {
   }
 });
 
-var _BlurYFilter = __webpack_require__(79);
+var _BlurYFilter = __webpack_require__(80);
 
 Object.defineProperty(exports, 'BlurYFilter', {
   enumerable: true,
@@ -35839,7 +35868,7 @@ Object.defineProperty(exports, 'BlurYFilter', {
   }
 });
 
-var _ColorMatrixFilter = __webpack_require__(173);
+var _ColorMatrixFilter = __webpack_require__(176);
 
 Object.defineProperty(exports, 'ColorMatrixFilter', {
   enumerable: true,
@@ -35848,7 +35877,7 @@ Object.defineProperty(exports, 'ColorMatrixFilter', {
   }
 });
 
-var _AlphaFilter = __webpack_require__(174);
+var _AlphaFilter = __webpack_require__(177);
 
 Object.defineProperty(exports, 'AlphaFilter', {
   enumerable: true,
@@ -35861,7 +35890,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 169 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35920,7 +35949,7 @@ exports.default = FXAAFilter;
 
 
 /***/ }),
-/* 170 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36022,7 +36051,7 @@ exports.default = NoiseFilter;
 
 
 /***/ }),
-/* 171 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36137,7 +36166,7 @@ exports.default = DisplacementFilter;
 
 
 /***/ }),
-/* 172 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36151,11 +36180,11 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _BlurXFilter = __webpack_require__(75);
+var _BlurXFilter = __webpack_require__(76);
 
 var _BlurXFilter2 = _interopRequireDefault(_BlurXFilter);
 
-var _BlurYFilter = __webpack_require__(79);
+var _BlurYFilter = __webpack_require__(80);
 
 var _BlurYFilter2 = _interopRequireDefault(_BlurYFilter);
 
@@ -36316,7 +36345,7 @@ exports.default = BlurFilter;
 
 
 /***/ }),
-/* 173 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36872,7 +36901,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 
 /***/ }),
-/* 174 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36959,7 +36988,7 @@ exports.default = AlphaFilter;
 
 
 /***/ }),
-/* 175 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36967,7 +36996,7 @@ exports.default = AlphaFilter;
 
 exports.__esModule = true;
 
-var _InteractionData = __webpack_require__(80);
+var _InteractionData = __webpack_require__(81);
 
 Object.defineProperty(exports, 'InteractionData', {
   enumerable: true,
@@ -36976,7 +37005,7 @@ Object.defineProperty(exports, 'InteractionData', {
   }
 });
 
-var _InteractionManager = __webpack_require__(176);
+var _InteractionManager = __webpack_require__(179);
 
 Object.defineProperty(exports, 'InteractionManager', {
   enumerable: true,
@@ -36985,7 +37014,7 @@ Object.defineProperty(exports, 'InteractionManager', {
   }
 });
 
-var _interactiveTarget = __webpack_require__(83);
+var _interactiveTarget = __webpack_require__(84);
 
 Object.defineProperty(exports, 'interactiveTarget', {
   enumerable: true,
@@ -36994,7 +37023,7 @@ Object.defineProperty(exports, 'interactiveTarget', {
   }
 });
 
-var _InteractionTrackingData = __webpack_require__(82);
+var _InteractionTrackingData = __webpack_require__(83);
 
 Object.defineProperty(exports, 'InteractionTrackingData', {
   enumerable: true,
@@ -37003,7 +37032,7 @@ Object.defineProperty(exports, 'InteractionTrackingData', {
   }
 });
 
-var _InteractionEvent = __webpack_require__(81);
+var _InteractionEvent = __webpack_require__(82);
 
 Object.defineProperty(exports, 'InteractionEvent', {
   enumerable: true,
@@ -37016,7 +37045,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 176 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37030,23 +37059,23 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _InteractionData = __webpack_require__(80);
+var _InteractionData = __webpack_require__(81);
 
 var _InteractionData2 = _interopRequireDefault(_InteractionData);
 
-var _InteractionEvent = __webpack_require__(81);
+var _InteractionEvent = __webpack_require__(82);
 
 var _InteractionEvent2 = _interopRequireDefault(_InteractionEvent);
 
-var _InteractionTrackingData = __webpack_require__(82);
+var _InteractionTrackingData = __webpack_require__(83);
 
 var _InteractionTrackingData2 = _interopRequireDefault(_InteractionTrackingData);
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _interactiveTarget = __webpack_require__(83);
+var _interactiveTarget = __webpack_require__(84);
 
 var _interactiveTarget2 = _interopRequireDefault(_interactiveTarget);
 
@@ -38781,7 +38810,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 
 
 /***/ }),
-/* 177 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38790,7 +38819,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 exports.__esModule = true;
 exports.shared = exports.Resource = exports.textureParser = exports.getResourcePath = exports.spritesheetParser = exports.parseBitmapFontData = exports.bitmapFontParser = exports.Loader = undefined;
 
-var _bitmapFontParser = __webpack_require__(84);
+var _bitmapFontParser = __webpack_require__(85);
 
 Object.defineProperty(exports, 'bitmapFontParser', {
     enumerable: true,
@@ -38805,7 +38834,7 @@ Object.defineProperty(exports, 'parseBitmapFontData', {
     }
 });
 
-var _spritesheetParser = __webpack_require__(89);
+var _spritesheetParser = __webpack_require__(90);
 
 Object.defineProperty(exports, 'spritesheetParser', {
     enumerable: true,
@@ -38820,7 +38849,7 @@ Object.defineProperty(exports, 'getResourcePath', {
     }
 });
 
-var _textureParser = __webpack_require__(90);
+var _textureParser = __webpack_require__(91);
 
 Object.defineProperty(exports, 'textureParser', {
     enumerable: true,
@@ -38829,7 +38858,7 @@ Object.defineProperty(exports, 'textureParser', {
     }
 });
 
-var _resourceLoader = __webpack_require__(16);
+var _resourceLoader = __webpack_require__(18);
 
 Object.defineProperty(exports, 'Resource', {
     enumerable: true,
@@ -38838,11 +38867,11 @@ Object.defineProperty(exports, 'Resource', {
     }
 });
 
-var _Application = __webpack_require__(71);
+var _Application = __webpack_require__(72);
 
 var _Application2 = _interopRequireDefault(_Application);
 
-var _loader = __webpack_require__(179);
+var _loader = __webpack_require__(182);
 
 var _loader2 = _interopRequireDefault(_loader);
 
@@ -38914,7 +38943,7 @@ AppPrototype.destroy = function destroy(removeView) {
 
 
 /***/ }),
-/* 178 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38924,15 +38953,15 @@ exports.__esModule = true;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _miniSignals = __webpack_require__(85);
+var _miniSignals = __webpack_require__(86);
 
 var _miniSignals2 = _interopRequireDefault(_miniSignals);
 
-var _parseUri = __webpack_require__(86);
+var _parseUri = __webpack_require__(87);
 
 var _parseUri2 = _interopRequireDefault(_parseUri);
 
-var _async = __webpack_require__(87);
+var _async = __webpack_require__(88);
 
 var async = _interopRequireWildcard(_async);
 
@@ -39537,7 +39566,7 @@ exports.default = Loader;
 
 
 /***/ }),
-/* 179 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39545,25 +39574,25 @@ exports.default = Loader;
 
 exports.__esModule = true;
 
-var _resourceLoader = __webpack_require__(16);
+var _resourceLoader = __webpack_require__(18);
 
 var _resourceLoader2 = _interopRequireDefault(_resourceLoader);
 
-var _blob = __webpack_require__(180);
+var _blob = __webpack_require__(183);
 
-var _eventemitter = __webpack_require__(8);
+var _eventemitter = __webpack_require__(9);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _textureParser = __webpack_require__(90);
+var _textureParser = __webpack_require__(91);
 
 var _textureParser2 = _interopRequireDefault(_textureParser);
 
-var _spritesheetParser = __webpack_require__(89);
+var _spritesheetParser = __webpack_require__(90);
 
 var _spritesheetParser2 = _interopRequireDefault(_spritesheetParser);
 
-var _bitmapFontParser = __webpack_require__(84);
+var _bitmapFontParser = __webpack_require__(85);
 
 var _bitmapFontParser2 = _interopRequireDefault(_bitmapFontParser);
 
@@ -39713,7 +39742,7 @@ Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
 
 
 /***/ }),
-/* 180 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39729,7 +39758,7 @@ var _Resource = __webpack_require__(36);
 
 var _Resource2 = _interopRequireDefault(_Resource);
 
-var _b = __webpack_require__(88);
+var _b = __webpack_require__(89);
 
 var _b2 = _interopRequireDefault(_b);
 
@@ -39806,7 +39835,7 @@ function blobMiddlewareFactory() {
 
 
 /***/ }),
-/* 181 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39814,7 +39843,7 @@ function blobMiddlewareFactory() {
 
 exports.__esModule = true;
 
-var _Mesh = __webpack_require__(17);
+var _Mesh = __webpack_require__(19);
 
 Object.defineProperty(exports, 'Mesh', {
   enumerable: true,
@@ -39823,7 +39852,7 @@ Object.defineProperty(exports, 'Mesh', {
   }
 });
 
-var _MeshRenderer = __webpack_require__(182);
+var _MeshRenderer = __webpack_require__(185);
 
 Object.defineProperty(exports, 'MeshRenderer', {
   enumerable: true,
@@ -39832,7 +39861,7 @@ Object.defineProperty(exports, 'MeshRenderer', {
   }
 });
 
-var _CanvasMeshRenderer = __webpack_require__(183);
+var _CanvasMeshRenderer = __webpack_require__(186);
 
 Object.defineProperty(exports, 'CanvasMeshRenderer', {
   enumerable: true,
@@ -39841,7 +39870,7 @@ Object.defineProperty(exports, 'CanvasMeshRenderer', {
   }
 });
 
-var _Plane = __webpack_require__(91);
+var _Plane = __webpack_require__(92);
 
 Object.defineProperty(exports, 'Plane', {
   enumerable: true,
@@ -39850,7 +39879,7 @@ Object.defineProperty(exports, 'Plane', {
   }
 });
 
-var _NineSlicePlane = __webpack_require__(184);
+var _NineSlicePlane = __webpack_require__(187);
 
 Object.defineProperty(exports, 'NineSlicePlane', {
   enumerable: true,
@@ -39859,7 +39888,7 @@ Object.defineProperty(exports, 'NineSlicePlane', {
   }
 });
 
-var _Rope = __webpack_require__(185);
+var _Rope = __webpack_require__(188);
 
 Object.defineProperty(exports, 'Rope', {
   enumerable: true,
@@ -39872,7 +39901,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 182 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39888,7 +39917,7 @@ var _pixiGlCore = __webpack_require__(5);
 
 var _pixiGlCore2 = _interopRequireDefault(_pixiGlCore);
 
-var _Mesh = __webpack_require__(17);
+var _Mesh = __webpack_require__(19);
 
 var _Mesh2 = _interopRequireDefault(_Mesh);
 
@@ -40028,7 +40057,7 @@ core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
 
 
 /***/ }),
-/* 183 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40040,7 +40069,7 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _Mesh = __webpack_require__(17);
+var _Mesh = __webpack_require__(19);
 
 var _Mesh2 = _interopRequireDefault(_Mesh);
 
@@ -40316,7 +40345,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 
 
 /***/ }),
-/* 184 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40326,7 +40355,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Plane2 = __webpack_require__(91);
+var _Plane2 = __webpack_require__(92);
 
 var _Plane3 = _interopRequireDefault(_Plane2);
 
@@ -40707,7 +40736,7 @@ exports.default = NineSlicePlane;
 
 
 /***/ }),
-/* 185 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40715,7 +40744,7 @@ exports.default = NineSlicePlane;
 
 exports.__esModule = true;
 
-var _Mesh2 = __webpack_require__(17);
+var _Mesh2 = __webpack_require__(19);
 
 var _Mesh3 = _interopRequireDefault(_Mesh2);
 
@@ -40948,7 +40977,7 @@ exports.default = Rope;
 
 
 /***/ }),
-/* 186 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40956,7 +40985,7 @@ exports.default = Rope;
 
 exports.__esModule = true;
 
-var _ParticleContainer = __webpack_require__(187);
+var _ParticleContainer = __webpack_require__(190);
 
 Object.defineProperty(exports, 'ParticleContainer', {
   enumerable: true,
@@ -40965,7 +40994,7 @@ Object.defineProperty(exports, 'ParticleContainer', {
   }
 });
 
-var _ParticleRenderer = __webpack_require__(188);
+var _ParticleRenderer = __webpack_require__(191);
 
 Object.defineProperty(exports, 'ParticleRenderer', {
   enumerable: true,
@@ -40978,7 +41007,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 187 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41361,7 +41390,7 @@ exports.default = ParticleContainer;
 
 
 /***/ }),
-/* 188 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41373,11 +41402,11 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ParticleShader = __webpack_require__(189);
+var _ParticleShader = __webpack_require__(192);
 
 var _ParticleShader2 = _interopRequireDefault(_ParticleShader);
 
-var _ParticleBuffer = __webpack_require__(190);
+var _ParticleBuffer = __webpack_require__(193);
 
 var _ParticleBuffer2 = _interopRequireDefault(_ParticleBuffer);
 
@@ -41842,7 +41871,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 
 /***/ }),
-/* 189 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41850,7 +41879,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 
 exports.__esModule = true;
 
-var _Shader2 = __webpack_require__(15);
+var _Shader2 = __webpack_require__(17);
 
 var _Shader3 = _interopRequireDefault(_Shader2);
 
@@ -41890,7 +41919,7 @@ exports.default = ParticleShader;
 
 
 /***/ }),
-/* 190 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42138,7 +42167,7 @@ exports.default = ParticleBuffer;
 
 
 /***/ }),
-/* 191 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42146,7 +42175,7 @@ exports.default = ParticleBuffer;
 
 exports.__esModule = true;
 
-var _WebGLPrepare = __webpack_require__(192);
+var _WebGLPrepare = __webpack_require__(195);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -42155,7 +42184,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasPrepare = __webpack_require__(193);
+var _CanvasPrepare = __webpack_require__(196);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -42173,7 +42202,7 @@ Object.defineProperty(exports, 'BasePrepare', {
   }
 });
 
-var _CountLimiter = __webpack_require__(92);
+var _CountLimiter = __webpack_require__(93);
 
 Object.defineProperty(exports, 'CountLimiter', {
   enumerable: true,
@@ -42182,7 +42211,7 @@ Object.defineProperty(exports, 'CountLimiter', {
   }
 });
 
-var _TimeLimiter = __webpack_require__(194);
+var _TimeLimiter = __webpack_require__(197);
 
 Object.defineProperty(exports, 'TimeLimiter', {
   enumerable: true,
@@ -42195,7 +42224,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 /***/ }),
-/* 192 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42322,7 +42351,7 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 
 
 /***/ }),
-/* 193 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42447,7 +42476,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 
 
 /***/ }),
-/* 194 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42510,13 +42539,13 @@ exports.default = TimeLimiter;
 
 
 /***/ }),
-/* 195 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const level_1 = __webpack_require__(196);
+const level_1 = __webpack_require__(199);
 class LevelPlayer {
     constructor(spec, am, parent) {
         this.spec = spec;
@@ -42544,52 +42573,52 @@ exports.LevelPlayer = LevelPlayer;
 
 
 /***/ }),
-/* 196 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const level_1 = __webpack_require__(197);
+const level_1 = __webpack_require__(200);
 exports.Level = level_1.Level;
 
 
 /***/ }),
-/* 197 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(18);
-const enemy_ai_1 = __webpack_require__(198);
-const player_ai_1 = __webpack_require__(199);
-const terragrid_1 = __webpack_require__(200);
-const fountain_1 = __webpack_require__(217);
-const constants_1 = __webpack_require__(218);
-const spawner_1 = __webpack_require__(219);
-const helper_1 = __webpack_require__(9);
-const animator_1 = __webpack_require__(220);
-const animation_1 = __webpack_require__(95);
-const tower_1 = __webpack_require__(96);
-const minion_1 = __webpack_require__(97);
-const collision_sys_1 = __webpack_require__(221);
-const hud_1 = __webpack_require__(222);
-const USE_DOM_FOR_GRID_ANALYSIS = true;
+const pixi = __webpack_require__(12);
+const enemy_ai_1 = __webpack_require__(201);
+const player_ai_1 = __webpack_require__(202);
+const fountain_1 = __webpack_require__(203);
+const constants_1 = __webpack_require__(38);
+const spawner_1 = __webpack_require__(204);
+const helper_1 = __webpack_require__(8);
+const animator_1 = __webpack_require__(205);
+const animation_1 = __webpack_require__(94);
+const tower_1 = __webpack_require__(95);
+const minion_1 = __webpack_require__(96);
+const collision_sys_1 = __webpack_require__(206);
+const hud_1 = __webpack_require__(207);
+const NS_SVG = 'http://www.w3.org/2000/svg';
 const HIGHLIGHT_CELL_UNDER_CURSOR = false;
 const Y_PADDING = 50;
-const DEBUG = true;
+const DEBUG = false;
 const SCROLL_MULTIPLIER = 4000;
 class Level {
     constructor(spec, am) {
         this.spec = spec;
         this.am = am;
+        this.terra = am.terra;
         this.spawners = [];
         this.towers = [];
         this.minions = [];
-        this.mapname = 'map_' + this.spec.map;
         this.animator = new animator_1.Animator();
         this.collsys = new collision_sys_1.CollisionSystem();
+        this.towerLocations = [];
         this.stats = {
             spawnedMinionCount: 0,
             deadMinionCount: 0,
@@ -42599,18 +42628,14 @@ class Level {
         let [vpw, vph] = this.computeViewportDimensions();
         this.initApp(vpw, vph);
         this.viewScaleRange = { min: vpw / this.am.docWidth, max: 1 };
-        this.terra = new terragrid_1.HexTerra({
-            width: this.am.docWidth,
-            height: this.am.docHeight,
-            cellsize: 50
-        });
-        this.doGridAnalysis().then(() => {
-            this.setupScene();
-            this.registerMouseInteraction();
-            this.enemyAI = new enemy_ai_1.EnemyAI(this);
-            this.playerAI = new player_ai_1.PlayerAI(this);
-            this.play();
-        });
+        this.terra = this.am.terra;
+        this.initLayers();
+        this.setupScene();
+        this.registerMouseInteraction();
+        this.enemyAI = new enemy_ai_1.EnemyAI(this);
+        this.playerAI = new player_ai_1.PlayerAI(this);
+        this.accPauseTime = 0;
+        this.play();
         const SCAN_UPDATE_INTERVAL = 100; // msec
         // rotation in radians per update interval for 30 revolutions per minute
         const DELTA_TOWER_ROTATION = (Math.PI / 2) * SCAN_UPDATE_INTERVAL / 1000;
@@ -42621,28 +42646,48 @@ class Level {
         });
         this.hud = new hud_1.HUD(this);
     }
-    addTower(tower) {
+    isMaxTowersCreated() {
+        return this.spec.maxTowers && this.towers.length >= this.spec.maxTowers;
+    }
+    isTowerAt(cell) {
+        return this.towerLocations.indexOf(`${cell[0]}-${cell[1]}`) >= 0;
+    }
+    getTowerAt(cell) {
+        for (let tower of this.towers) {
+            if (tower.cell[0] === cell[0] && tower.cell[1] === cell[1]) {
+                return tower;
+            }
+        }
+        return null;
+    }
+    addTower(cell) {
+        let tower = this.createTower(cell);
+        tower.setupAnimation();
         this.collsys.addMember(tower);
         this.towers.push(tower);
-        for (let sprite of tower.sprites) {
-            this.app.stage.addChild(sprite);
-        }
-        // Add weight at tower location on terrain
-        let cell = this.terra.resolveCell(tower.position[0], tower.position[1]);
-        console.assert(!!cell);
         this.terra.setWallAt(cell[0], cell[1]);
+        this.towerLocations.push(`${cell[0]}-${cell[1]}`);
+        this.recomputePath();
+        this.layers['towers'].addChild(tower.visual);
+    }
+    recomputePath() {
         // Make spawners recompute paths for minions spawned in future
         this.spawners.forEach(spawner => spawner.recomputePath());
         // Update paths of existing minions
         this.minions.forEach(minion => minion.recomputePath());
-        tower.setupAnimation();
     }
     removeTower(tower) {
-        for (let sprite of tower.sprites) {
-            this.app.stage.removeChild(sprite);
-        }
+        this.collsys.removeMember(tower);
         let idx = this.towers.indexOf(tower);
+        console.assert(idx >= 0);
         this.towers.splice(idx, 1);
+        idx = this.towerLocations.indexOf(`${tower.cell[0]}-${tower.cell[1]}`);
+        console.assert(idx >= 0);
+        this.towerLocations.splice(idx, 1);
+        this.terra.removeWallAt(tower.cell[0], tower.cell[1]);
+        this.recomputePath();
+        this.layers['towers'].removeChild(tower.visual);
+        this.layers['towers'].removeChild(tower.rangeSprite);
     }
     computeViewportDimensions() {
         let mapAspectRatio = this.am.docWidth / this.am.docHeight;
@@ -42661,32 +42706,1459 @@ class Level {
         }
         return [width, height];
     }
+    useAmmo() {
+        this.stats.ammoFired++;
+    }
+    hasAmmo() {
+        if (this.spec.maxAmmo) {
+            return this.stats.ammoFired < this.spec.maxAmmo;
+        }
+        else {
+            return true; // Unlimited ammo
+        }
+    }
+    hideGridDebugVisual() {
+        let div = document.getElementById('grid-visual-wrapper');
+        if (div) {
+            div.style.display = 'none';
+        }
+    }
+    showGridDebugVisual() {
+        let vpW = this.app.view.width;
+        let vpH = this.app.view.height;
+        let div = document.getElementById('grid-visual-wrapper');
+        if (!div) {
+            div = document.createElement('div');
+            div.setAttribute('id', 'grid-visual-wrapper');
+            div.style.position = 'absolute';
+            div.style.left = '50%';
+            div.style.top = '50%';
+            div.style.marginLeft = -vpW / 2 + 'px';
+            div.style.marginTop = -vpH / 2 + 'px';
+            div.style.zIndex = '10';
+            div.style.pointerEvents = 'none';
+        }
+        div.innerHTML = this.terra.toSVG(0.2);
+        let svg = div.querySelector('svg');
+        svg.setAttribute('id', 'grid-visual');
+        let width = parseInt(svg.getAttribute('width'));
+        let height = parseInt(svg.getAttribute('height'));
+        svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+        svg.setAttribute('width', vpW + '');
+        svg.setAttribute('height', vpH + '');
+        this.app.view.parentElement.appendChild(div);
+        let sx = vpW / width;
+        let sy = vpH / height;
+        this.spawners.forEach(spawner => {
+            let path = spawner.pathcopy();
+            let points = path.map((point) => `${point[0]},${point[1]}`).join(' ');
+            let polyline = document.createElementNS(NS_SVG, 'polyline');
+            polyline.setAttribute('points', points);
+            polyline.setAttribute('style', 'fill:none;stroke:#0000ff;stroke-width:3px');
+            svg.appendChild(polyline);
+        });
+        let highlightCellAndNeighbors = (coord) => {
+            // Reset color of all cells according to weights
+            this.terra.forEachCell((row, col) => {
+                let weight = this.terra.getWeight(row, col);
+                let cell = div.querySelector(`polygon#cell${row}-${col}`);
+                cell.setAttribute('fill', weight ? '#ffffff' : '#000000');
+            });
+            // Paint cell under cursor
+            let cell = div.querySelector(`polygon#cell${coord[0]}-${coord[1]}`);
+            cell.setAttribute('fill', '#ff0000');
+            // Paint neighbors of cell under cursor
+            let neighbors = this.terra.getNeighbors(coord[0], coord[1]);
+            for (let neighbor of neighbors) {
+                let cell = div.querySelector(`polygon#cell${neighbor[0]}-${neighbor[1]}`);
+                cell.setAttribute('fill', '#0000ff');
+            }
+        };
+        let showCoord = (coord) => {
+            console.log(coord);
+        };
+        div.addEventListener('mousemove', (ev) => {
+            let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
+            if (HIGHLIGHT_CELL_UNDER_CURSOR) {
+                highlightCellAndNeighbors(coord);
+            }
+            showCoord(coord);
+        });
+        div.addEventListener('click', (ev) => {
+            let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
+            console.log(this.terra.getCellDebugInfo(coord[0], coord[1]));
+        });
+        div.style.display = 'inherit';
+    }
+    highlightCell(row, col, color) {
+        let svg = this.app.view.parentElement.querySelector('#grid-visual');
+        let cell = svg.querySelector(`polygon#cell${row}-${col}`);
+        cell.setAttribute('fill', color);
+    }
+    /*
+    exportTerraGrid() {
+      remote.dialog.showSaveDialog({
+        filters : [
+          { name:'SVG', extensions:['svg']}
+        ]
+      }, (filename:string) => {
+        let svgdoc = this.terra.toSVG(0.2);
+        fs.writeFileSync(filename,svgdoc);
+      });
+    }
+    */
+    initApp(vpWidth, vpHeight) {
+        // Setup Pixi App
+        this.app = new pixi.Application(vpWidth, vpHeight, {
+            backgroundColor: 0xffffff,
+            antialias: true,
+            autoStart: false
+        });
+        this.app.view.setAttribute('id', 'app');
+        this.app.view.style.position = 'absolute';
+        this.app.view.style.left = '50%';
+        this.app.view.style.top = '50%';
+        this.app.view.style.marginLeft = -vpWidth / 2 + 'px';
+        this.app.view.style.marginTop = -vpHeight / 2 + 'px';
+    }
+    initFountain(cell) {
+        this.fountain = new fountain_1.Fountain(cell, this.spec.fountain.healthLossPerAttack, this.spec.fountain.maxHealth, this.spec.fountain.spiritGoal, this.spec.fountain.radius, this.am.fetchActorSprites('actor_fountain'), () => {
+            console.log('%cDivinity', 'background:#00ff00;color:#ffffff');
+            this.pause();
+        }, () => {
+            console.log('%cDestruction', 'background:#ff0000;color:#ffffff');
+            this.pause();
+        }, this);
+        this.layers['structures'].addChild(this.fountain.visual);
+    }
+    /**
+     * Cursors (top)
+     * Towers
+     * Structures
+     * Shells
+     * Minions
+     * Background (bottom)
+     */
+    initLayers() {
+        this.layers = {};
+        this.layers['cursors'] = new pixi.Container();
+        this.layers['towers'] = new pixi.Container();
+        this.layers['structures'] = new pixi.Container();
+        this.layers['shells'] = new pixi.Container();
+        this.layers['minions'] = new pixi.Container();
+        this.layers['background'] = new pixi.Container();
+        this.app.stage.addChild(this.layers['background']);
+        this.app.stage.addChild(this.layers['minions']);
+        this.app.stage.addChild(this.layers['shells']);
+        this.app.stage.addChild(this.layers['structures']);
+        this.app.stage.addChild(this.layers['towers']);
+        this.app.stage.addChild(this.layers['cursors']);
+    }
+    initBackground(texture) {
+        let W = this.am.docWidth;
+        let H = this.am.docHeight;
+        let D = Math.sqrt(W * W + H * H);
+        let sprite = new pixi.extras.TilingSprite(texture, D, D);
+        sprite.pivot.set(D / 2, D / 2);
+        sprite.position.set(W / 2, H / 2);
+        this.layers['background'].addChild(sprite);
+    }
+    setupScene() {
+        let am = this.am;
+        document.body.style.background = 'black';
+        let spriteTextureMap = am.spriteTextures['map'];
+        let spriteBoxes = am.spriteBoxes['map'];
+        let metadata = am.metadata['map'];
+        for (let key in metadata) {
+            let texture = spriteTextureMap[key];
+            if (key === 'background') {
+                this.initBackground(texture);
+                continue;
+            }
+            let { left, top, width, height } = spriteBoxes[key];
+            let sprite = null;
+            if (constants_1.PXC_META_REGEX.test(key)) {
+                let cell = this.terra.resolveCell(left + width / 2, top + height / 2);
+                console.assert(cell);
+                if (constants_1.PXC_META_SPAWN_REGEX.test(key)) {
+                    let spawner = this.createSpawner(cell, metadata[key]);
+                    this.addSpawner(spawner);
+                }
+                else if (key === 'pxc_meta_fountain') {
+                    this.initFountain(cell);
+                }
+            }
+            else {
+                sprite = new pixi.Sprite(texture);
+                sprite.position.set(left, top);
+                this.layers['structures'].addChild(sprite);
+            }
+        }
+        console.assert(this.fountain);
+        let scale = this.viewScaleRange.min;
+        let tx = 0;
+        let ty = 0;
+        this.app.stage.setTransform(tx, ty, scale, scale);
+        this.viewTransformDirty = true;
+        // let blurFilter = new pixi.filters.BlurFilter()
+        // this.app.stage.filters = [blurFilter];
+        if (DEBUG) {
+            this.debugGraphics = new pixi.Graphics();
+            this.app.stage.addChild(this.debugGraphics);
+        }
+        //this.showGridDebugVisual();
+    }
+    createTowerAddCursorSprite() {
+        let sprite = this.am.createSprite('sprites', 'tower-add-cursor');
+        let spriteRadius = sprite.getBounds().width / 2;
+        sprite.scale.set(this.spec.tower.fireRange / spriteRadius);
+        return sprite;
+    }
+    createTowerDeleteCursorSprite() {
+        let sprite = this.am.createSprite('sprites', 'tower-delete-cursor');
+        let spriteRadius = sprite.getBounds().width / 2;
+        sprite.scale.set(this.terra.radiusOuter / spriteRadius);
+        return sprite;
+    }
+    createMinion() {
+        let minionSprites = this.am.fetchActorSprites('actor_whiteminion');
+        let cellsize = this.terra.radiusInner;
+        for (let key in minionSprites) {
+            let sprite = minionSprites[key];
+            let spriteSize = sprite.getBounds().width;
+            sprite.scale.set(cellsize / spriteSize);
+        }
+        return new minion_1.Minion(minionSprites, [0, 0], this);
+    }
+    createSpawner(cell, spec) {
+        let spawnerSprites = this.am.fetchActorSprites('actor_spawner');
+        return new spawner_1.Spawner(spawnerSprites, cell, this, spec.interval, spec.rate);
+    }
+    createTower(cell) {
+        let towerSprites = this.am.fetchActorSprites('actor_greentower');
+        let cellsize = this.terra.radiusInner * 2;
+        for (let key in towerSprites) {
+            let sprite = towerSprites[key];
+            let spriteSize = sprite.getBounds().width;
+            sprite.scale.set(cellsize / spriteSize);
+        }
+        return new tower_1.Tower(towerSprites, cell, this);
+    }
+    canAddTowerWithoutBlocking(cell) {
+        let altTerra = this.terra.clone();
+        altTerra.setWallAt(cell[0], cell[1]);
+        let okToAddTower = true;
+        for (let spawner of this.spawners) {
+            let path = altTerra.searchPath(spawner.cell, this.fountain.cell);
+            if (path.length < 2) {
+                okToAddTower = false;
+                break;
+            }
+        }
+        return okToAddTower;
+    }
+    addMinion(cell, path) {
+        let terrain = this.terra;
+        console.assert(!this.terra.isWallAt(cell[0], cell[1]));
+        let minion = this.createMinion();
+        minion.position = terrain.getCellCenter(cell[0], cell[1]);
+        this.layers['minions'].addChild(minion.visual);
+        this.minions.push(minion);
+        this.collsys.addMember(minion);
+        minion.moveAlongPath(path, 5);
+        this.stats.spawnedMinionCount++;
+    }
+    addSpawner(spawner) {
+        this.spawners.push(spawner);
+        this.layers['structures'].addChild(spawner.visual);
+    }
+    viewportToDocument(x, y) {
+        return this.app.stage.transform.worldTransform
+            .applyInverse(new pixi.Point(x, y));
+    }
+    documentToViewport(x, y) {
+        return this.app.stage.transform.worldTransform
+            .apply(new pixi.Point(x, y));
+    }
+    doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1) {
+        let zoomAnimation = new animation_1.Animation(200, animation_1.Animation.EASEOUT, (u) => {
+            let tx = tx0 + (tx1 - tx0) * u;
+            let ty = ty0 + (ty1 - ty0) * u;
+            let scale = scale0 + (scale1 - scale0) * u;
+            this.app.stage.setTransform(tx, ty, scale, scale);
+        }, () => {
+            this.app.stage.setTransform(tx1, ty1, scale1, scale1);
+        });
+        this.animator.add(zoomAnimation);
+    }
+    zoomOut() {
+        let tx0 = this.app.stage.position.x;
+        let ty0 = this.app.stage.position.y;
+        let scale0 = this.app.stage.scale.x;
+        let tx1 = 0;
+        let ty1 = 0;
+        let scale1 = this.viewScaleRange.min;
+        this.doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1);
+    }
+    zoomIn(vpCursor) {
+        let vpWidth = this.app.view.width;
+        let vpHeight = this.app.view.height;
+        let docWidth = this.am.docWidth;
+        let docHeight = this.am.docHeight;
+        let docCenter = [docWidth / 2, docHeight / 2];
+        let docCursor = this.viewportToDocument(vpCursor.x, vpCursor.y);
+        let tx0 = this.app.stage.position.x;
+        let ty0 = this.app.stage.position.y;
+        let scale0 = this.app.stage.scale.x;
+        let tx1 = 0;
+        let ty1 = 0;
+        let scale1 = this.viewScaleRange.max;
+        if (Math.abs(docCursor.x - docCenter[0]) < vpWidth / 2) {
+            tx1 = (docWidth - vpWidth) / 2;
+        }
+        else if (docCursor.x > docWidth - vpWidth) {
+            tx1 = docWidth - vpWidth;
+        }
+        else if (docCursor.x < vpWidth) {
+            tx1 = 0;
+        }
+        else {
+            // Viewport is too small, so there are some blank regions which
+            // will escape above criteria. Just zoom to edge of viewport
+            if (docCursor.x < docCenter[0]) {
+                tx1 = 0;
+            }
+            else {
+                tx1 = docWidth - vpWidth;
+            }
+        }
+        if (Math.abs(docCursor.y - docCenter[1]) < vpHeight / 2) {
+            ty1 = (docHeight - vpHeight) / 2;
+        }
+        else if (docCursor.y > docHeight - vpHeight) {
+            ty1 = docHeight - vpHeight;
+        }
+        else if (docCursor.y < vpHeight) {
+            ty1 = 0;
+        }
+        else {
+            // Viewport is too small, so there are some blank regions which
+            // will escape above criteria. Just zoom to edge of viewport
+            if (docCursor.y < docCenter[1]) {
+                ty1 = 0;
+            }
+            else {
+                ty1 = docHeight - vpHeight;
+            }
+        }
+        this.doZoomAnimation(tx0, ty0, scale0, -tx1, -ty1, scale1);
+    }
+    registerMouseInteraction() {
+        let vpWidth = this.app.view.width;
+        let vpHeight = this.app.view.height;
+        let vpCenter = [vpWidth / 2, vpHeight / 2];
+        this.app.view.addEventListener('mouseleave', (ev) => {
+            let { offsetX: x, offsetY: y } = ev;
+            let dx = x - vpCenter[0];
+            let dy = y - vpCenter[1];
+            let mag = dx * dx + dy * dy;
+            this.viewScrollVector = [dx / mag, dy / mag];
+        });
+        this.app.view.addEventListener('mouseenter', () => {
+            this.viewScrollVector = null;
+        });
+        this.app.view.addEventListener('mousewheel', (ev) => {
+            if (ev.deltaY > 0) {
+                this.zoomOut();
+            }
+            else {
+                this.zoomIn(new pixi.Point(ev.offsetX, ev.offsetY));
+            }
+        });
+        this.app.view.addEventListener('mousedown', (ev) => {
+            this.playerAI.onMouseDown(ev);
+        });
+        this.app.view.addEventListener('mouseup', (ev) => {
+            this.playerAI.onMouseUp(ev);
+        });
+        this.app.view.addEventListener('mousemove', (ev) => {
+            this.playerAI.onMouseMove(ev);
+        });
+    }
+    doViewScroll() {
+        let app = this.app;
+        if (this.viewScrollVector) {
+            let vpWidth = this.app.view.width;
+            let vpHeight = this.app.view.height;
+            let docWidth = this.am.docWidth;
+            let docHeight = this.am.docHeight;
+            let scale = app.stage.scale.x;
+            let tx = app.stage.position.x;
+            let ty = app.stage.position.y;
+            let dx = 0;
+            let dy = 0;
+            if (this.viewScrollVector) {
+                dx = this.viewScrollVector[0] * SCROLL_MULTIPLIER;
+                dy = this.viewScrollVector[1] * SCROLL_MULTIPLIER;
+            }
+            tx -= dx;
+            ty -= dy;
+            // Since we only support two zoom levels, we clamp the scale
+            // to those two values. There are instances when scale value
+            // varies from them due to numerical errors or other reasons
+            // (for e.g. zooming and scrolling happending simultaneously)
+            let isScaleMin = Math.abs(scale - this.viewScaleRange.min) <
+                Math.abs(scale - this.viewScaleRange.max);
+            if (isScaleMin) {
+                tx = 0;
+                ty = 0;
+            }
+            else {
+                tx = Math.max(Math.min(-tx, docWidth - vpWidth), 0);
+                ty = Math.max(Math.min(-ty, docHeight - vpHeight), 0);
+            }
+            app.stage.setTransform(-tx, -ty, scale, scale);
+            this.viewTransformDirty = false;
+        }
+    }
+    isSpawnerAt(cell) {
+        for (let spawner of this.spawners) {
+            if (spawner.cell[0] === cell[0] && spawner.cell[1] === cell[1]) {
+                return true;
+            }
+        }
+        return false;
+    }
+    isOccupiedByFountain(cell) {
+        let [cx, cy] = this.terra.getCellCenter(cell[0], cell[1]);
+        let [frow, fcol] = this.fountain.cell;
+        let [fx, fy] = this.terra.getCellCenter(frow, fcol);
+        let dx = fx - cx;
+        let dy = fy - cy;
+        return dx * dx + dy * dy < this.fountain.radius * this.fountain.radius;
+    }
+    backgroundTick(t) {
+        const BACKGROUND_ROTATION_RPM = -0.25;
+        let dt = t - this.stats.startTime;
+        let dtheta = dt * (BACKGROUND_ROTATION_RPM * 2 * Math.PI / (60 * 1000));
+        let sprite = this.layers['background'].children[0];
+        sprite.rotation = dtheta;
+    }
+    isPlaying() {
+        return this.app.ticker.started;
+    }
+    pause() {
+        this.pauseInstant = Date.now().valueOf();
+        this.am.getSound('background-beat').pause();
+        this.app.ticker.stop();
+    }
+    resume() {
+        let now = Date.now().valueOf();
+        this.accPauseTime += now - this.pauseInstant;
+        if (!window.localStorage.getItem('mute-background-audio')) {
+            this.am.getSound('background-beat').play();
+        }
+        this.app.ticker.start();
+    }
+    play() {
+        let app = this.app;
+        app.ticker.add(() => {
+            let now = new Date().valueOf();
+            let t = (now - this.stats.startTime) - this.accPauseTime;
+            this.doViewScroll();
+            let [row, col] = this.fountain.cell;
+            let [fx, fy] = this.terra.getCellCenter(row, col);
+            let proxLimitSq = this.fountain.radius * this.fountain.radius;
+            // Move actors if they are in motion
+            for (let minion of this.minions) {
+                if (minion.inmotion) {
+                    minion.move(t);
+                    let [mx, my] = minion.position;
+                    let dx = fx - mx;
+                    let dy = fy - my;
+                    if (dx * dx + dy * dy <= proxLimitSq) {
+                        // Fountain suffers finite attack
+                        this.fountain.sufferAttack(minion);
+                        // Minion suffers infinite attack, thus dying
+                        minion.sufferAttack(Infinity);
+                    }
+                }
+            }
+            this.cleanupDeadMinions();
+            this.fountain.tick(t);
+            this.enemyAI.tick(t);
+            this.playerAI.tick(t);
+            this.animator.tick(t);
+            this.towers.forEach(tower => tower.tick(t));
+            this.towerScanTimer.tick(t);
+            //this.backgroundTick(t);
+            this.collsys.analyse();
+            this.hud.tick(t);
+        });
+        app.ticker.start();
+        if (!window.localStorage.getItem('mute-background-audio')) {
+            this.am.getSound('background-beat').play();
+        }
+    }
+    cleanupDeadMinions() {
+        let minionsToRemove = [];
+        for (let minion of this.minions) {
+            if (minion.isdead()) {
+                this.stats.deadMinionCount++;
+                minionsToRemove.push(minion);
+            }
+        }
+        minionsToRemove.forEach(minion => this.removeMinion(minion));
+    }
+    removeMinion(minion) {
+        // Minion self destructs after the attack on fountain
+        this.layers['minions'].removeChild(minion.visual);
+        let idx = this.minions.indexOf(minion);
+        console.assert(idx >= 0);
+        this.minions.splice(idx, 1);
+        this.collsys.removeMember(minion);
+    }
+    // Debug routines
+    drawLine(pa, pb, color = 0x000000) {
+        console.assert(DEBUG);
+        this.debugGraphics.beginFill(0x000000);
+        this.debugGraphics.lineStyle(2, color);
+        this.debugGraphics.moveTo(pa[0], pa[1]);
+        this.debugGraphics.lineTo(pb[0], pb[1]);
+        this.debugGraphics.endFill();
+    }
+}
+exports.Level = Level;
+
+
+/***/ }),
+/* 201 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const helper_1 = __webpack_require__(8);
+class EnemyAI {
+    constructor(level) {
+        this.level = level;
+        this.spawnTimers = this.level.spawners.map((spl) => {
+            let interval;
+            if (spl.interval) {
+                interval = spl.interval;
+            }
+            else if (spl.rate) {
+                interval = Math.round(60 / spl.rate);
+            }
+            else {
+                interval = 10;
+            }
+            return new helper_1.Timer(interval * 1000, () => {
+                this.level.addMinion(spl.cell, spl.pathcopy());
+            });
+        });
+    }
+    tick(t) {
+        this.spawnTimers.forEach(sptmr => sptmr.tick(t));
+    }
+}
+exports.EnemyAI = EnemyAI;
+
+
+/***/ }),
+/* 202 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const helper_1 = __webpack_require__(8);
+class PlayerAI {
+    constructor(level) {
+        this.level = level;
+        this.towerAddCursor = this.level.createTowerAddCursorSprite();
+        this.towerAddCursor.alpha = 0.3;
+        this.level.layers['cursors'].addChild(this.towerAddCursor);
+        this.towerAddCursor.visible = false;
+        this.towerDeleteCursor = this.level.createTowerDeleteCursorSprite();
+        this.towerDeleteCursor.alpha = 0.3;
+        this.level.layers['cursors'].addChild(this.towerDeleteCursor);
+        this.towerDeleteCursor.visible = false;
+        this.towerCursorInactiveTimer = new helper_1.Timer(1000, () => {
+            if ((Date.now().valueOf() - this.lastMouseActivityTimeStamp) > 2000) {
+                this.towerAddCursor.visible = false;
+            }
+        });
+        this.justAddedTower = null;
+    }
+    onMouseDown(ev) {
+        ev;
+        this.lastMouseActivityTimeStamp = Date.now().valueOf();
+    }
+    onMouseUp(ev) {
+        this.lastMouseActivityTimeStamp = Date.now().valueOf();
+        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
+        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
+        if (cell && this.level.isSpawnerAt(cell)) {
+            return;
+        }
+        if (cell && this.level.isOccupiedByFountain(cell)) {
+            return;
+        }
+        if (cell && this.level.isTowerAt(cell)) {
+            let tower = this.level.getTowerAt(cell);
+            if (tower) {
+                this.level.removeTower(tower);
+            }
+            else {
+                console.assert(false);
+            }
+            return;
+        }
+        if (this.level.isMaxTowersCreated()) {
+            return;
+        }
+        if (cell &&
+            !this.level.terra.isWallAt(cell[0], cell[1]) &&
+            this.level.canAddTowerWithoutBlocking(cell)) {
+            this.level.addTower(cell);
+            this.justAddedTower = this.level.getTowerAt(cell);
+        }
+    }
+    onMouseMove(ev) {
+        this.lastMouseActivityTimeStamp = Date.now().valueOf();
+        this.towerAddCursor.visible = true;
+        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
+        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
+        for (let tower of this.level.towers) {
+            tower.hideRange();
+        }
+        if (cell && this.level.isSpawnerAt(cell)) {
+            this.towerAddCursor.visible = false;
+            this.towerDeleteCursor.visible = false;
+            return;
+        }
+        if (cell && this.level.isOccupiedByFountain(cell)) {
+            this.towerAddCursor.visible = false;
+            this.towerDeleteCursor.visible = false;
+            return;
+        }
+        if (cell && this.level.isTowerAt(cell)) {
+            let towerUnderCursor = this.level.getTowerAt(cell);
+            if (this.justAddedTower && this.justAddedTower === towerUnderCursor) {
+                this.towerAddCursor.visible = false;
+                this.towerDeleteCursor.visible = false;
+            }
+            else {
+                towerUnderCursor.showRange();
+                this.towerAddCursor.visible = false;
+                this.towerDeleteCursor.visible = true;
+                let [x, y] = this.level.terra.getCellCenter(cell[0], cell[1]);
+                this.towerDeleteCursor.position.set(x, y);
+            }
+            return;
+        }
+        // Cursor has gone away from just added tower
+        this.justAddedTower = null;
+        if (this.level.isMaxTowersCreated()) {
+            this.towerAddCursor.visible = false;
+            this.towerDeleteCursor.visible = false;
+            return;
+        }
+        if (cell &&
+            !this.level.terra.isWallAt(cell[0], cell[1]) &&
+            this.level.canAddTowerWithoutBlocking(cell)) {
+            this.towerAddCursor.visible = true;
+            this.towerDeleteCursor.visible = false;
+            let [x, y] = this.level.terra.getCellCenter(cell[0], cell[1]);
+            this.towerAddCursor.position.set(x, y);
+        }
+        else {
+            this.towerAddCursor.visible = false;
+            this.towerDeleteCursor.visible = false;
+        }
+    }
+    tick(t) {
+        this.towerCursorInactiveTimer.tick(t);
+    }
+}
+exports.PlayerAI = PlayerAI;
+
+
+/***/ }),
+/* 203 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const actor_1 = __webpack_require__(11);
+const MAX_RPM = 10;
+/**
+ * Fountain has a health
+ * Fountain spins with a speed that's proportional to its health
+ * When fountain has completed certain no. of revolutions it achieves
+ * divinity.
+ * If the health of fountain goes to zero, it stops and gets destroyed
+ */
+class Fountain extends actor_1.Actor {
+    constructor(
+        // location of the fountain
+        cell, 
+        // The fountain loses health for every enemy actor that attacks it
+        healthLossPerAttack, 
+        // It rotates with this speed when it has max health
+        maxHealth, 
+        // Number of revolutions to complete to achieve divinity
+        spiritGoal, radiusMultiple, sprites, onSuccess, onFailure, level) {
+        super(sprites);
+        this.cell = cell;
+        this.healthLossPerAttack = healthLossPerAttack;
+        this.maxHealth = maxHealth;
+        this.spiritGoal = spiritGoal;
+        this.onSuccess = onSuccess;
+        this.onFailure = onFailure;
+        this.level = level;
+        this.position = this.level.terra.getCellCenter(cell[0], cell[1]);
+        let sprite = sprites['rest'];
+        this.radius = this.level.terra.cellsize * radiusMultiple;
+        let scale = 2 * this.radius / sprite.getBounds().width;
+        sprites['rest'].visible = true;
+        sprites['rest'].scale.set(scale, scale);
+        sprites['rest'].gotoAndStop(0);
+        this.health = this.maxHealth;
+        this.spirit = 0;
+        this.tlast = NaN;
+    }
+    sufferAttack(minion) {
+        // A weaker minion will impart lesser damage to fountain on attack
+        let minionStrength = minion.health / minion.maxhealth;
+        let healthLoss = this.healthLossPerAttack * minionStrength;
+        this.health -= healthLoss;
+        if (this.health < 0) {
+            this.onFailure();
+        }
+    }
+    tick(t) {
+        if (isNaN(this.tlast)) {
+            this.tlast = t;
+            return;
+        }
+        let dt = t - this.tlast; // msec
+        let rpm = MAX_RPM * (this.health / this.maxHealth); // revolutions-per-minute
+        let anglePerMSec = rpm * (2 * Math.PI) / (60 * 1000); // radians-per-msec
+        let drot = dt * anglePerMSec;
+        this.spirit += drot / (2 * Math.PI);
+        this.rotation = this.rotation + drot;
+        this.tlast = t;
+        let sprite = this._sprites['rest'];
+        let frameIdx = Math.floor((sprite.totalFrames - 1) * (this.spirit / this.spiritGoal));
+        sprite.gotoAndStop(frameIdx);
+        if (this.spirit >= this.spiritGoal) {
+            sprite.gotoAndStop(sprite.totalFrames - 1);
+            this.onSuccess();
+        }
+    }
+}
+exports.Fountain = Fountain;
+
+
+/***/ }),
+/* 204 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const actor_1 = __webpack_require__(11);
+class Spawner extends actor_1.Actor {
+    constructor(sprites, cell, level, interval, // time between spawn (in seconds)
+        rate) {
+        super(sprites);
+        this.cell = cell;
+        this.level = level;
+        this.interval = interval;
+        this.rate = rate;
+        let pos = level.terra.getCellCenter(cell[0], cell[1]);
+        this.visual.position.set(pos[0], pos[1]);
+    }
+    recomputePath() {
+        let terrain = this.level.terra;
+        let source = this.cell;
+        let target = this.level.fountain.cell;
+        this.pathFromSource = terrain
+            .searchPath(source, target, 'bfs')
+            .map(c => terrain.getCellCenter(c[0], c[1]));
+    }
+    pathcopy() {
+        if (!this.pathFromSource) {
+            this.recomputePath();
+        }
+        return JSON.parse(JSON.stringify(this.pathFromSource));
+    }
+}
+exports.Spawner = Spawner;
+
+
+/***/ }),
+/* 205 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class Animator {
+    constructor() {
+        this._queue = [];
+    }
+    add(animation) {
+        this._queue.push(animation);
+    }
+    tick(tstamp) {
+        // Process animations
+        for (let i = 0; i < this._queue.length; i++) {
+            let anim = this._queue[i];
+            if (!anim.isStarted()) {
+                anim.start(tstamp);
+            }
+            anim.eval(tstamp);
+            if (anim.isPastEnd(tstamp)) {
+                anim.end();
+                this._queue.splice(i, 1);
+                i--;
+            }
+        }
+    }
+}
+exports.Animator = Animator;
+
+
+/***/ }),
+/* 206 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const minion_1 = __webpack_require__(96);
+const tower_1 = __webpack_require__(95);
+class CollisionSystem {
+    constructor() {
+        this.minions = [];
+        this.towers = [];
+        this.inRangePairs = {};
+    }
+    addMember(member) {
+        if (member instanceof minion_1.Minion) {
+            this.minions.push(member);
+        }
+        else if (member instanceof tower_1.Tower) {
+            this.towers.push(member);
+        }
+    }
+    removeMember(member) {
+        let idx;
+        if (member instanceof minion_1.Minion) {
+            idx = this.minions.indexOf(member);
+            if (idx >= 0) {
+                this.minions.splice(idx, 1);
+            }
+        }
+        else if (member instanceof tower_1.Tower) {
+            idx = this.towers.indexOf(member);
+            if (idx >= 0) {
+                this.towers.splice(idx, 1);
+            }
+        }
+    }
+    analyse() {
+        for (let mi = 0; mi < this.minions.length; mi++) {
+            let minion = this.minions[mi];
+            let [mx, my] = minion.position;
+            let mr = 0;
+            for (let ti = 0; ti < this.towers.length; ti++) {
+                let tower = this.towers[ti];
+                let [tx, ty] = tower.position;
+                let tr = tower.fireRange;
+                let dx = tx - mx;
+                let dy = ty - my;
+                let pairId = minion.uid + '-' + tower.uid;
+                if (dx * dx + dy * dy < (mr + tr) * (mr + tr)) {
+                    if (!this.inRangePairs.hasOwnProperty(pairId)) {
+                        // not in range already
+                        tower.onCollisionStart(minion);
+                        minion.onCollisionStart(tower);
+                        this.inRangePairs[pairId] = 1;
+                    }
+                }
+                else {
+                    if (this.inRangePairs.hasOwnProperty(pairId)) {
+                        tower.onCollisionEnd(minion);
+                        minion.onCollisionEnd(tower);
+                        delete this.inRangePairs[pairId];
+                    }
+                }
+            }
+        }
+    }
+}
+exports.CollisionSystem = CollisionSystem;
+
+
+/***/ }),
+/* 207 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const helper_1 = __webpack_require__(8);
+class HUD {
+    constructor(level) {
+        this.level = level;
+        this.div = document.createElement('div');
+        this.div.setAttribute('id', 'hud');
+        this.div.style.width = level.app.view.width + 'px';
+        this.div.style.height = '20px';
+        this.div.style.position = 'absolute';
+        this.div.style.bottom = '0px';
+        this.div.style.left = '50%';
+        this.div.style.fontFamily = 'monospace';
+        this.div.style.marginLeft = (-level.app.view.width / 2) + 'px';
+        this.div.innerHTML = `
+    <span style="color:#888888">
+    Ammo fired <span id="ammo-fired"></span>
+    Towers
+    <span id="towers-used" style="color:#88ff88">
+    </span>
+    &nbsp;
+    Fountain
+    <span id="fountain-status" style="color:#88ff88">
+    </span>
+    &nbsp;
+    Time
+    <span id="time-spent" style="color:#88ff88">
+    </span>
+    <input type="checkbox" name="show-grid"></input>
+    <label for="show-grid">Grid</label>
+    </span>
+    `;
+        let showGridCheckbox = this.div.querySelector('input[name=show-grid]');
+        showGridCheckbox.onchange = () => {
+            if (showGridCheckbox.checked) {
+                this.level.showGridDebugVisual();
+            }
+            else {
+                this.level.hideGridDebugVisual();
+            }
+        };
+        this.updateTimer = new helper_1.Timer(3000, () => {
+            this.update();
+        });
+        this.update();
+    }
+    update() {
+        let stats = this.level.stats;
+        let now = Date.now().valueOf();
+        let timeSpent = (now - stats.startTime - this.level.accPauseTime) / 1000;
+        if (timeSpent > 60 * 60) {
+            let minutes = Math.round(timeSpent / 60);
+            timeSpent = Math.round(minutes / 60) + 'hr' + (minutes % 60) + 'min';
+        }
+        else if (timeSpent > 60) {
+            timeSpent = Math.round(timeSpent / 60) + 'min';
+        }
+        else {
+            timeSpent = Math.round(timeSpent) + 'sec';
+        }
+        this.div.querySelector('#time-spent').textContent = timeSpent;
+        let ammoEntry;
+        if (this.level.spec.maxAmmo) {
+            ammoEntry = stats.ammoFired + '/' + this.level.spec.maxAmmo;
+        }
+        else {
+            ammoEntry = stats.ammoFired + '';
+        }
+        this.div.querySelector('#ammo-fired').textContent = ammoEntry;
+        let towerEntry;
+        if (this.level.spec.maxTowers) {
+            towerEntry = this.level.towers.length + '/' + this.level.spec.maxTowers;
+        }
+        else {
+            towerEntry = this.level.towers.length + '';
+        }
+        this.div.querySelector('#towers-used').textContent = towerEntry;
+    }
+    tick(t) {
+        this.updateTimer.tick(t);
+    }
+}
+exports.HUD = HUD;
+
+
+/***/ }),
+/* 208 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(12);
+const electron_1 = __webpack_require__(97);
+const fs = __webpack_require__(209);
+const asset_manager_1 = __webpack_require__(210);
+const constants_1 = __webpack_require__(38);
+const terragrid_1 = __webpack_require__(98);
+const helper_1 = __webpack_require__(8);
+const ASSET_BUILD_DIR = 'assets/build/';
+class NativeAssetManager extends asset_manager_1.AssetManager {
+    // We create sprite sheet that's 2048x2048 max
+    makeSpriteSheet(names, manifest, size) {
+        const margin = 2;
+        let sW, sH;
+        let cW, cH;
+        let nrows, ncols;
+        let filename;
+        if (size) {
+            console.assert(2048 / size > Math.sqrt(names.length));
+            nrows = ncols = Math.ceil(Math.sqrt(names.length));
+            sW = sH = nrows * (size + 2 * margin);
+            cW = cH = size;
+            filename = 'bitmap' + size + '.png';
+        }
+        else {
+            cW = 0;
+            cH = 0;
+            for (let i = 0; i < names.length; i++) {
+                let [layername, sname] = names[i];
+                let { width, height } = this.spriteBoxes[layername][sname];
+                cW = Math.max(cW, width);
+                cH = Math.max(cH, height);
+            }
+            nrows = 1;
+            ncols = names.length;
+            filename = 'bitmapX.png';
+            sW = cW;
+            sH = cH * names.length;
+        }
+        let canvas = document.createElement('canvas');
+        canvas.width = sW;
+        canvas.height = sH;
+        let ctx = canvas.getContext('2d');
+        let x = 0, y = 0;
+        for (let i = 0; i < nrows; i++) {
+            for (let j = 0; j < ncols; j++) {
+                let idx = i * nrows + j;
+                if (idx < names.length) {
+                    let [layername, sname] = names[idx];
+                    if (!manifest[layername]) {
+                        manifest[layername] = {};
+                    }
+                    let icanvas = this.spriteCanvases[layername][sname];
+                    let { width, height } = this.spriteBoxes[layername][sname];
+                    if (size) {
+                        x = j * (cW + margin);
+                        y = i * (cH + margin);
+                    }
+                    else {
+                        x = 0;
+                    }
+                    manifest[layername][sname] = {
+                        x, y, width: Math.round(width), height: Math.round(height)
+                    };
+                    ctx.drawImage(icanvas, x, y);
+                    if (!size) {
+                        y += height + 2 * margin;
+                    }
+                }
+            }
+        }
+        let img = electron_1.nativeImage.createFromDataURL(canvas.toDataURL('image/png', 0.9));
+        fs.writeFileSync(ASSET_BUILD_DIR + filename, img.toPNG());
+    }
+    checkAssetBuildDir() {
+        if (!fs.existsSync(ASSET_BUILD_DIR)) {
+            fs.mkdirSync(ASSET_BUILD_DIR);
+        }
+    }
+    saveToCache() {
+        this.checkAssetBuildDir();
+        let categories = [[], [], []];
+        let manifest = {};
+        for (let layername in this.spriteBoxes) {
+            for (let sname in this.spriteBoxes[layername]) {
+                let box = this.spriteBoxes[layername][sname];
+                if (constants_1.PXC_META_REGEX.test(sname)) {
+                    continue;
+                }
+                let { width, height } = box;
+                if (width < 200 && height < 200) {
+                    categories[0].push([layername, sname]);
+                }
+                else if (width < 500 && height < 500) {
+                    categories[1].push([layername, sname]);
+                }
+                else {
+                    categories[2].push([layername, sname]);
+                }
+            }
+        }
+        let spriteMap = {};
+        spriteMap['200'] = {};
+        this.makeSpriteSheet(categories[0], spriteMap['200'], 200);
+        spriteMap['500'] = {};
+        this.makeSpriteSheet(categories[1], spriteMap['500'], 500);
+        spriteMap['X'] = {};
+        this.makeSpriteSheet(categories[2], spriteMap['X']);
+        manifest['spriteMap'] = spriteMap;
+        manifest['spriteBoxes'] = this.spriteBoxes;
+        manifest['terra'] = {
+            nrows: this.terra.numrows,
+            ncols: this.terra.numcols,
+            cellsize: this.terra.cellsize,
+            weights: this.terra.weightGrid.data
+        };
+        manifest['metadata'] = this.metadata;
+        manifest['docWidth'] = this.docWidth;
+        manifest['docHeight'] = this.docHeight;
+        fs.writeFileSync(ASSET_BUILD_DIR + 'manifest.json', JSON.stringify(manifest));
+    }
+    loadFromCache() {
+        console.info('Cache load');
+        let spriteBoxes = {};
+        let M = JSON.parse(new String(fs.readFileSync(ASSET_BUILD_DIR + 'manifest.json')).toString());
+        let MS = M.spriteMap;
+        for (let sizekey in MS) {
+            for (let layername in MS[sizekey]) {
+                if (!spriteBoxes[layername]) {
+                    spriteBoxes[layername] = {};
+                }
+                for (let sname in MS[sizekey][layername]) {
+                    spriteBoxes[layername][sname] = MS[sizekey][layername][sname];
+                }
+            }
+        }
+        this.layerNames = Object.keys(spriteBoxes);
+        return new Promise((cresolve, creject) => {
+            let promises = [];
+            for (let sizekey in M.spriteMap) {
+                let fname = ASSET_BUILD_DIR + 'bitmap' + sizekey + '.png';
+                promises.push(new Promise((resolve, reject) => {
+                    fs.readFile(fname, (err, data) => {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve([data, sizekey]);
+                        }
+                    });
+                }));
+            }
+            Promise.all(promises).then((data) => {
+                let spriteSheets = {};
+                for (let [buffer, sizekey] of data) {
+                    spriteSheets[sizekey] = electron_1.nativeImage.createFromBuffer(buffer);
+                }
+                let nativeImages = {};
+                for (let sizekey in MS) {
+                    for (let layername in MS[sizekey]) {
+                        if (!nativeImages[layername]) {
+                            nativeImages[layername] = {};
+                        }
+                        for (let sname in MS[sizekey][layername]) {
+                            nativeImages[layername][sname] =
+                                spriteSheets[sizekey].crop(spriteBoxes[layername][sname]);
+                        }
+                    }
+                }
+                let promises = [];
+                this.spriteImages = {};
+                for (let layername in nativeImages) {
+                    this.spriteImages[layername] = {};
+                    for (let sname in nativeImages[layername]) {
+                        promises.push(new Promise((resolve) => {
+                            let nimg = nativeImages[layername][sname];
+                            let img = new Image();
+                            this.spriteImages[layername][sname] = img;
+                            img.src = nimg.toDataURL();
+                            img.onload = () => {
+                                resolve();
+                            };
+                        }));
+                    }
+                }
+                Promise.all(promises).then(() => {
+                    this.spriteTextures = {};
+                    for (let lname in this.spriteImages) {
+                        this.spriteTextures[lname] = {};
+                        for (let sname in this.spriteImages[lname]) {
+                            let img = this.spriteImages[lname][sname];
+                            this.spriteTextures[lname][sname] = pixi.Texture.from(img);
+                        }
+                    }
+                    this.terra = new terragrid_1.HexTerra({
+                        nrows: M.terra.nrows,
+                        ncols: M.terra.ncols,
+                        weights: M.terra.weights,
+                        cellsize: M.terra.cellsize,
+                        resolvable: true
+                    });
+                    this.metadata = M.metadata;
+                    this.spriteBoxes = M.spriteBoxes;
+                    this.docWidth = M.docWidth;
+                    this.docHeight = M.docHeight;
+                    cresolve(true);
+                });
+            }).catch((err) => {
+                creject(err);
+            });
+        });
+    }
+    hasValidCache(svgpath) {
+        let MANIFEST_PATH = ASSET_BUILD_DIR + 'manifest.json';
+        let svgStat = fs.statSync(svgpath);
+        if (fs.existsSync(ASSET_BUILD_DIR)) {
+            if (fs.existsSync(MANIFEST_PATH)) {
+                let manifestStat = fs.statSync(MANIFEST_PATH);
+                return svgStat.ctime.valueOf() < manifestStat.ctime.valueOf();
+            }
+        }
+        return false;
+    }
+    loadFromSVG(svgpath) {
+        window.localStorage.setItem('recent-svg-file', svgpath);
+        if (this.hasValidCache(svgpath)) {
+            return this.loadFromCache();
+        }
+        console.info('SVG load');
+        let data = fs.readFileSync(svgpath);
+        let svgmarkup = new String(data).toString();
+        this.svgmarkup = svgmarkup;
+        this.createOffscreenSVGDiv(svgmarkup);
+        this.spriteBoxes = {};
+        this.spriteCanvases = {};
+        this.metadata = {};
+        this.svgroot = document.body.querySelector('svg');
+        let layers = this.svgroot.children;
+        let pxc_layers = [];
+        for (let i = 0; i < layers.length; i++) {
+            this.hideAllLayersInSVG();
+            // Turn only i-th layer visible
+            let layer = layers[i];
+            let label = layer.getAttribute('inkscape:label');
+            if (this.isPXCLayer(layer)) {
+                let layername = label;
+                layer.style.display = 'inline'; // TODO: test if this's necessary
+                this.spriteBoxes[layername] = {};
+                this.metadata[layername] = {};
+                pxc_layers.push(layer);
+                this.layerNames.push(layername);
+                this.extractSpriteBoxesForLayer(layer, layername);
+            }
+        }
+        ;
+        return new Promise((allspritesready) => {
+            let lidx = 0;
+            let sidx = 0;
+            let extractSpritesFromLayer = () => {
+                return new Promise((resolve) => {
+                    let layer = pxc_layers[lidx];
+                    let label = layer.getAttribute('inkscape:label');
+                    let layername = label;
+                    if (!this.spriteCanvases[layername]) {
+                        this.spriteCanvases[layername] = {};
+                    }
+                    // Only display current layer, hide all other layers
+                    this.hideAllLayersInSVG();
+                    layer.style.display = 'inline';
+                    // Hide all sprites in this layer
+                    for (let si = 0; si < layer.children.length; si++) {
+                        if (si !== sidx) {
+                            layer.children[si].style.display = 'none';
+                        }
+                        else {
+                            layer.children[si].style.display = 'inline';
+                        }
+                    }
+                    let svgmarkup = layer.parentElement.parentElement.innerHTML;
+                    helper_1.svgToCanvas(svgmarkup).then((canvas) => {
+                        let key = layer.children[sidx].getAttribute('inkscape:label');
+                        let box = this.spriteBoxes[layername][key];
+                        // Create canvas for the sprite
+                        let spriteCan = document.createElement('canvas');
+                        spriteCan.width = box.width;
+                        spriteCan.height = box.height;
+                        let spriteCtx = spriteCan.getContext('2d');
+                        spriteCtx.drawImage(canvas, box.left, box.top, box.width, box.height, 0, 0, box.width, box.height);
+                        this.spriteCanvases[layername][key] = spriteCan;
+                        // Extract metadata of this sprite
+                        let desc = layer.children[sidx].querySelector('desc');
+                        if (desc) {
+                            this.metadata[layername][key] =
+                                JSON.parse(desc.textContent || '{}');
+                        }
+                        else {
+                            this.metadata[layername][key] = {};
+                        }
+                        if (sidx >= layer.children.length - 1) {
+                            // Next layer
+                            lidx++;
+                            sidx = 0;
+                        }
+                        else {
+                            // Next sprite in current layer
+                            sidx++;
+                        }
+                        if (lidx < pxc_layers.length) {
+                            resolve();
+                        }
+                        else {
+                            this.spriteTextures = {};
+                            for (let lname in this.spriteCanvases) {
+                                this.spriteTextures[lname] = {};
+                                for (let sname in this.spriteCanvases[lname]) {
+                                    let canvas = this.spriteCanvases[lname][sname];
+                                    this.spriteTextures[lname][sname] = pixi.Texture.from(canvas);
+                                }
+                            }
+                            this.doGridAnalysis().then(() => {
+                                this.saveToCache();
+                                allspritesready();
+                            });
+                        }
+                    });
+                }).then(() => {
+                    return extractSpritesFromLayer();
+                });
+            };
+            extractSpritesFromLayer();
+        });
+    }
+    load(svgfilepath) {
+        return new Promise((resolve, reject) => {
+            let svgfname = svgfilepath ||
+                window.localStorage.getItem('recent-svg-file');
+            if (svgfname) {
+                let t0 = performance.now();
+                this.loadFromSVG(svgfname).then(() => {
+                    let t1 = performance.now();
+                    console.log('Load time', t1 - t0, 'msec');
+                    this.loadSounds().then(() => {
+                        resolve();
+                    });
+                });
+            }
+            else {
+                reject();
+            }
+        });
+    }
+}
+exports.NativeAssetManager = NativeAssetManager;
+
+
+/***/ }),
+/* 209 */
+/***/ (function(module, exports) {
+
+module.exports = require("fs");
+
+/***/ }),
+/* 210 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const pixi = __webpack_require__(12);
+const howler = __webpack_require__(211);
+const helper_1 = __webpack_require__(8);
+const actor_1 = __webpack_require__(11);
+const constants_1 = __webpack_require__(38);
+const terragrid_1 = __webpack_require__(98);
+const USE_DOM_FOR_GRID_ANALYSIS = true;
+const ASSET_DIR = 'assets/';
+class AssetManager {
+    constructor() {
+        this.sounds = {};
+        this.layerNames = [];
+    }
+    hideAllLayersInSVG() {
+        let layers = this.svgroot.children;
+        // Hide all layers
+        for (let i = 0; i < layers.length; i++) {
+            let layer = layers[i];
+            layer.style.display = 'none'; // hide all layers
+        }
+    }
+    isPXCLayer(layer) {
+        let label = layer.getAttribute('inkscape:label');
+        return label && (label === 'level' ||
+            label === 'map' ||
+            label === 'sprites' ||
+            /actor_(\w+)/.test(label));
+    }
+    createOffscreenSVGDiv(svgmarkup) {
+        let svgDiv = document.createElement('div');
+        svgDiv.setAttribute('id', 'svg-wrapper');
+        svgDiv.style.position = 'absolute';
+        svgDiv.style.left = '-10000px';
+        svgDiv.style.top = '0px';
+        svgDiv.innerHTML = svgmarkup;
+        document.body.appendChild(svgDiv);
+        let svg = svgDiv.querySelector('svg');
+        this.docWidth = parseInt(svg.getAttribute('width'));
+        this.docHeight = parseInt(svg.getAttribute('height'));
+    }
+    extractSpriteBoxesForLayer(layer, name) {
+        layer.style.display = 'inline';
+        let { left: offsetX, top: offsetY } = this.svgroot.getBoundingClientRect();
+        for (let j = 0; j < layer.children.length; j++) {
+            let spriteG = layer.children[j];
+            let { left, top, width, height } = spriteG.getBoundingClientRect();
+            let spriteName = spriteG.getAttribute('inkscape:label');
+            console.assert(spriteName);
+            this.spriteBoxes[name][spriteName] = {
+                left: left - offsetX,
+                top: top - offsetY,
+                width,
+                height
+            };
+        }
+    }
     doGridAnalysis() {
+        let levelSpec = this.metadata['level']['pxc_data'];
+        this.terra = new terragrid_1.HexTerra({
+            width: this.docWidth,
+            height: this.docHeight,
+            cellsize: levelSpec.cellsize,
+            resolvable: true
+        });
         let svgGridDiv = document.createElement('div');
         svgGridDiv.style.position = 'absolute';
         svgGridDiv.style.left = '0px';
         svgGridDiv.style.top = '0px';
         document.body.appendChild(svgGridDiv);
-        svgGridDiv.innerHTML = this.am.svgmarkup;
+        svgGridDiv.innerHTML = this.svgmarkup;
         let svg = svgGridDiv.querySelector('svg');
-        let docwidth = this.am.docWidth;
-        let docheight = this.am.docHeight;
+        let docwidth = this.docWidth;
+        let docheight = this.docHeight;
         // Hide all pxc_layers and then unhide only the current layer
         let layers = svg.children;
         for (let i = 0; i < layers.length; i++) {
             let layer = layers[i];
             let label = layer.getAttribute('inkscape:label');
-            if (label && constants_1.PXC_LAYER_REGEX.test(label)) {
-                layer.style.display = 'none'; // hide all layers
-            }
-            if (label === 'pxc_layer_' + this.mapname) {
+            layer.style.display = 'none'; // hide all layers
+            if (label === 'map') {
                 layer.style.display = 'inline';
             }
         }
         let aspectRatio = docwidth / docheight;
-        let width = 800;
-        let height = 600;
-        if (width < height) {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        let sx = width / docwidth;
+        let sy = height / docheight;
+        if (sx < sy) {
             height = width / aspectRatio;
         }
         else {
@@ -42696,28 +44168,42 @@ class Level {
         svg.setAttribute('width', `${width}px`);
         svg.setAttribute('height', `${height}px`);
         svg.setAttribute('viewBox', viewBox);
-        let sx = width / docwidth;
-        let sy = height / docheight;
+        sx = width / docwidth;
+        sy = height / docheight;
+        function isWallElement(elem) {
+            if (elem.tagName === 'svg') {
+                return false;
+            }
+            let label = elem.getAttribute('inkscape:label');
+            // Try looking for inkscape:label up the tree until we find one
+            // or we reach root of the DOM tree
+            while ((label === null || label === '') && elem.parentElement) {
+                elem = elem.parentElement;
+                label = elem.getAttribute('inkscape:label');
+            }
+            if (label) {
+                if (constants_1.PXC_META_REGEX.test(label)) {
+                    return false;
+                }
+                if (constants_1.PXC_REGEX.test(label)) {
+                    return true;
+                }
+                return false;
+            }
+            return false;
+        }
+        function isWallAtPoint(point) {
+            let x = Math.round(sx * point[0]);
+            let y = Math.round(sy * point[1]);
+            let elem = document.elementFromPoint(x, y);
+            if (x < 0 || y < 0 || x >= width || y >= height) {
+                return false;
+            }
+            return elem && isWallElement(elem);
+        }
         return new Promise((resolve) => {
             if (USE_DOM_FOR_GRID_ANALYSIS) {
-                this.analyseAllCells((point) => {
-                    let x = Math.round(sx * point[0]);
-                    let y = Math.round(sy * point[1]);
-                    let elem = document.elementFromPoint(x, y);
-                    if (x < 0 || y < 0 || x >= width || y >= height) {
-                        return false;
-                    }
-                    if (elem) {
-                        let label = elem.getAttribute('inkscape:label');
-                        if (elem.tagName !== 'svg') {
-                            if (label && constants_1.PXC_META_REGEX.test(label)) {
-                                return false;
-                            }
-                            return true;
-                        }
-                    }
-                    return false;
-                });
+                this.analyseAllCells(isWallAtPoint);
                 svgGridDiv.remove();
                 resolve();
             }
@@ -42778,3302 +44264,11 @@ class Level {
             this.terra.setWeight(row, col, weight);
         });
     }
-    hideGridDebugVisual() {
-        let div = document.getElementById('grid-visual-wrapper');
-        if (div) {
-            div.style.display = 'none';
-        }
-    }
-    showGridDebugVisual() {
-        let vpW = this.app.view.width;
-        let vpH = this.app.view.height;
-        let div = document.getElementById('grid-visual-wrapper');
-        if (!div) {
-            div = document.createElement('div');
-            div.setAttribute('id', 'grid-visual-wrapper');
-            div.innerHTML = this.terra.toSVG(0.2);
-            let svg = div.querySelector('svg');
-            svg.setAttribute('id', 'grid-visual');
-            let width = parseInt(svg.getAttribute('width'));
-            let height = parseInt(svg.getAttribute('height'));
-            svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-            svg.setAttribute('width', vpW + '');
-            svg.setAttribute('height', vpH + '');
-            div.style.position = 'absolute';
-            div.style.left = '50%';
-            div.style.top = '50%';
-            div.style.marginLeft = -vpW / 2 + 'px';
-            div.style.marginTop = -vpH / 2 + 'px';
-            div.style.zIndex = '10';
-            div.style.pointerEvents = 'none';
-            this.app.view.parentElement.appendChild(div);
-            let sx = vpW / width;
-            let sy = vpH / height;
-            let highlightCellAndNeighbors = (coord) => {
-                // Reset color of all cells according to weights
-                this.terra.forEachCell((row, col) => {
-                    let weight = this.terra.getWeight(row, col);
-                    let cell = div.querySelector(`polygon#cell${row}-${col}`);
-                    cell.setAttribute('fill', weight ? '#ffffff' : '#000000');
-                });
-                // Paint cell under cursor
-                let cell = div.querySelector(`polygon#cell${coord[0]}-${coord[1]}`);
-                cell.setAttribute('fill', '#ff0000');
-                // Paint neighbors of cell under cursor
-                let neighbors = this.terra.getNeighbors(coord[0], coord[1]);
-                for (let neighbor of neighbors) {
-                    let cell = div.querySelector(`polygon#cell${neighbor[0]}-${neighbor[1]}`);
-                    cell.setAttribute('fill', '#0000ff');
-                }
-            };
-            let showCoord = (coord) => {
-                console.log(coord);
-            };
-            div.addEventListener('mousemove', (ev) => {
-                let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
-                if (HIGHLIGHT_CELL_UNDER_CURSOR) {
-                    highlightCellAndNeighbors(coord);
-                }
-                showCoord(coord);
-            });
-            div.addEventListener('click', (ev) => {
-                let coord = this.terra.resolveCell(ev.offsetX / sx, ev.offsetY / sy);
-                console.log(this.terra.getCellDebugInfo(coord[0], coord[1]));
-            });
-        }
-        div.style.display = 'inherit';
-    }
-    highlightCell(row, col, color) {
-        let svg = this.app.view.parentElement.querySelector('#grid-visual');
-        let cell = svg.querySelector(`polygon#cell${row}-${col}`);
-        cell.setAttribute('fill', color);
-    }
-    initApp(vpWidth, vpHeight) {
-        // Setup Pixi App
-        this.app = new pixi.Application(vpWidth, vpHeight, {
-            backgroundColor: 0xffffff,
-            antialias: true,
-            autoStart: false
-        });
-        this.app.view.setAttribute('id', 'app');
-        this.app.view.style.position = 'absolute';
-        this.app.view.style.left = '50%';
-        this.app.view.style.top = '50%';
-        this.app.view.style.marginLeft = -vpWidth / 2 + 'px';
-        this.app.view.style.marginTop = -vpHeight / 2 + 'px';
-    }
-    initFountain(spec, cell) {
-        let sprite = this.am.createSprite('sprites', 'fountain');
-        let [fnx, fny] = this.terra.getCellCenter(cell[0], cell[1]);
-        sprite.position.set(fnx, fny);
-        sprite.scale.set(0.5, 0.5);
-        let radius = Math.max(sprite.height, sprite.width) / 2;
-        this.fountain = new fountain_1.Fountain(cell, spec.divinityPeriod, spec.baseSpirit, spec.spiritGoal, spec.spiritLossPerAttack, radius, sprite, () => {
-            console.log('%cDivinity', 'background:#00ff00;color:#ffffff');
-            this.pause();
-        }, () => {
-            console.log('%cDestruction', 'background:#ff0000;color:#ffffff');
-            this.pause();
-        });
-        this.app.stage.addChild(sprite);
-    }
-    setupScene() {
-        let am = this.am;
-        let app = this.app;
-        document.body.style.background = 'black';
-        let mapWidth = am.docWidth;
-        let mapHeight = am.docHeight;
-        let spriteCanvasMap = am.spriteCanvases[this.mapname];
-        let spriteBoxes = am.spriteBoxes[this.mapname];
-        let metadata = am.metadata[this.mapname];
-        for (let key in spriteCanvasMap) {
-            let texture = pixi.Texture.from(spriteCanvasMap[key]);
-            let { left, top, width, height } = spriteBoxes[key];
-            let sprite = null;
-            if (key === 'background') {
-                sprite = new pixi.extras.TilingSprite(texture, mapWidth, mapHeight);
-            }
-            else if (constants_1.PXC_META_REGEX.test(key)) {
-                let cell = this.terra.resolveCell(left + width / 2, top + height / 2);
-                console.assert(cell);
-                if (constants_1.PXC_META_SPAWN_REGEX.test(key)) {
-                    let spec = metadata[key];
-                    this.spawners.push(new spawner_1.Spawner(cell, this, spec.interval, spec.rate));
-                    sprite = new pixi.Sprite(texture);
-                    sprite.position.set(left, top);
-                }
-                else if (key === 'pxc_meta_fountain') {
-                    this.initFountain(metadata[key], cell);
-                }
-            }
-            else {
-                sprite = new pixi.Sprite(texture);
-                sprite.position.set(left, top);
-            }
-            if (sprite) {
-                app.stage.addChild(sprite);
-            }
-        }
-        let scale = this.viewScaleRange.min;
-        let tx = 0;
-        let ty = 0;
-        this.app.stage.setTransform(tx, ty, scale, scale);
-        this.viewTransformDirty = true;
-        if (DEBUG) {
-            this.debugGraphics = new pixi.Graphics();
-            this.app.stage.addChild(this.debugGraphics);
-        }
-    }
-    createTowerHolderSprite() {
-        let sprite = this.am.createSprite('sprites', 'towerpreview');
-        let rangeSpriteRadius = sprite.getBounds().width / 2;
-        sprite.scale.set(this.spec.towerFireRange / rangeSpriteRadius);
-        return sprite;
-    }
-    fetchActorSprites(actorLayerName) {
-        let spriteActionGroups = {};
-        let storeSpriteCanvas = (key, canvas) => {
-            console.assert(/(\w+)(\d+)/.test(key));
-            let match = /(\w+)(\d+)/.exec(key);
-            let action = match[1];
-            let sequence = parseInt(match[2]);
-            if (!spriteActionGroups[action]) {
-                spriteActionGroups[action] = [];
-            }
-            spriteActionGroups[action].push({
-                index: sequence,
-                canvas: canvas
-            });
-        };
-        let spriteCanvases = this.am.spriteCanvases[actorLayerName];
-        for (let key in spriteCanvases) {
-            storeSpriteCanvas(key, spriteCanvases[key]);
-        }
-        let actorSprites = {};
-        for (let action in spriteActionGroups) {
-            let actionGroup = spriteActionGroups[action];
-            actionGroup.sort((a, b) => a.index - b.index);
-            let frames = actionGroup.map((entry) => {
-                return pixi.Texture.fromCanvas(entry.canvas);
-            });
-            let animSprite = new pixi.extras.AnimatedSprite(frames);
-            animSprite.play();
-            animSprite.animationSpeed = 0.2;
-            actorSprites[action] = animSprite;
-        }
-        return actorSprites;
-    }
-    createMinion() {
-        let minionSprites = this.fetchActorSprites('actor_' + this.spec.minionActorName);
-        return new minion_1.Minion(minionSprites, [0, 0], this);
-    }
-    createTower() {
-        let towerSprites = this.fetchActorSprites('actor_' + this.spec.towerActorName);
-        let cellsize = this.terra.radiusInner * 2;
-        for (let key in towerSprites) {
-            let sprite = towerSprites[key];
-            let spriteSize = sprite.getBounds().width;
-            sprite.scale.set(cellsize / spriteSize);
-        }
-        return new tower_1.Tower(towerSprites, [0, 0], this);
-    }
-    addMinion(cell, path) {
-        let terrain = this.terra;
-        let app = this.app;
-        console.assert(!this.terra.isWallAt(cell[0], cell[1]));
-        let minion = this.createMinion();
-        minion.position = terrain.getCellCenter(cell[0], cell[1]);
-        minion.scale = [0.5, 0.5];
-        minion.speed = 3;
-        for (let sprite of minion.sprites) {
-            app.stage.addChild(sprite);
-        }
-        this.minions.push(minion);
-        this.collsys.addMember(minion);
-        minion.moveAlongPath(path, 5);
-        this.stats.spawnedMinionCount++;
-    }
-    viewportToDocument(x, y) {
-        return this.app.stage.transform.worldTransform
-            .applyInverse(new pixi.Point(x, y));
-    }
-    documentToViewport(x, y) {
-        return this.app.stage.transform.worldTransform
-            .apply(new pixi.Point(x, y));
-    }
-    doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1) {
-        let zoomAnimation = new animation_1.Animation(200, animation_1.Animation.EASEOUT, (u) => {
-            let tx = tx0 + (tx1 - tx0) * u;
-            let ty = ty0 + (ty1 - ty0) * u;
-            let scale = scale0 + (scale1 - scale0) * u;
-            this.app.stage.setTransform(tx, ty, scale, scale);
-        }, () => {
-            this.app.stage.setTransform(tx1, ty1, scale1, scale1);
-        });
-        this.animator.add(zoomAnimation);
-    }
-    zoomOut() {
-        let tx0 = this.app.stage.position.x;
-        let ty0 = this.app.stage.position.y;
-        let scale0 = this.app.stage.scale.x;
-        let tx1 = 0;
-        let ty1 = 0;
-        let scale1 = this.viewScaleRange.min;
-        this.doZoomAnimation(tx0, ty0, scale0, tx1, ty1, scale1);
-    }
-    zoomIn(vpCursor) {
-        let vpWidth = this.app.view.width;
-        let vpHeight = this.app.view.height;
-        let docWidth = this.am.docWidth;
-        let docHeight = this.am.docHeight;
-        let docCenter = [docWidth / 2, docHeight / 2];
-        let docCursor = this.viewportToDocument(vpCursor.x, vpCursor.y);
-        let tx0 = this.app.stage.position.x;
-        let ty0 = this.app.stage.position.y;
-        let scale0 = this.app.stage.scale.x;
-        let tx1 = 0;
-        let ty1 = 0;
-        let scale1 = this.viewScaleRange.max;
-        if (Math.abs(docCursor.x - docCenter[0]) < vpWidth / 2) {
-            tx1 = (docWidth - vpWidth) / 2;
-        }
-        else if (docCursor.x > docWidth - vpWidth) {
-            tx1 = docWidth - vpWidth;
-        }
-        else if (docCursor.x < vpWidth) {
-            tx1 = 0;
-        }
-        else {
-            console.assert(false);
-        }
-        if (Math.abs(docCursor.y - docCenter[1]) < vpHeight / 2) {
-            ty1 = (docHeight - vpHeight) / 2;
-        }
-        else if (docCursor.y > docHeight - vpHeight) {
-            ty1 = docHeight - vpHeight;
-        }
-        else if (docCursor.y < vpHeight) {
-            ty1 = 0;
-        }
-        else {
-            console.assert(false);
-        }
-        this.doZoomAnimation(tx0, ty0, scale0, -tx1, -ty1, scale1);
-    }
-    registerMouseInteraction() {
-        let vpWidth = this.app.view.width;
-        let vpHeight = this.app.view.height;
-        let vpCenter = [vpWidth / 2, vpHeight / 2];
-        this.app.view.addEventListener('mouseleave', (ev) => {
-            let { offsetX: x, offsetY: y } = ev;
-            let dx = x - vpCenter[0];
-            let dy = y - vpCenter[1];
-            let mag = dx * dx + dy * dy;
-            this.viewScrollVector = [dx / mag, dy / mag];
-        });
-        this.app.view.addEventListener('mouseenter', () => {
-            this.viewScrollVector = null;
-        });
-        this.app.view.addEventListener('mousewheel', (ev) => {
-            if (ev.deltaY > 0) {
-                this.zoomOut();
-            }
-            else {
-                this.zoomIn(new pixi.Point(ev.offsetX, ev.offsetY));
-            }
-        });
-        this.app.view.addEventListener('mousedown', (ev) => {
-            this.playerAI.onMouseDown(ev);
-        });
-        this.app.view.addEventListener('mouseup', (ev) => {
-            this.playerAI.onMouseUp(ev);
-        });
-        this.app.view.addEventListener('mousemove', (ev) => {
-            this.playerAI.onMouseMove(ev);
-        });
-    }
-    isPlaying() {
-        return this.app.ticker.started;
-    }
-    pause() {
-        this.app.ticker.stop();
-    }
-    resume() {
-        this.app.ticker.start();
-    }
-    doViewScroll() {
-        let app = this.app;
-        if (this.viewScrollVector) {
-            let vpWidth = this.app.view.width;
-            let vpHeight = this.app.view.height;
-            let docWidth = this.am.docWidth;
-            let docHeight = this.am.docHeight;
-            let scale = app.stage.scale.x;
-            let tx = app.stage.position.x;
-            let ty = app.stage.position.y;
-            let dx = 0;
-            let dy = 0;
-            if (this.viewScrollVector) {
-                dx = this.viewScrollVector[0] * SCROLL_MULTIPLIER;
-                dy = this.viewScrollVector[1] * SCROLL_MULTIPLIER;
-            }
-            tx -= dx;
-            ty -= dy;
-            // Since we only support two zoom levels, we clamp the scale
-            // to those two values. There are instances when scale value
-            // varies from them due to numerical errors or other reasons
-            // (for e.g. zooming and scrolling happending simultaneously)
-            let isScaleMin = Math.abs(scale - this.viewScaleRange.min) <
-                Math.abs(scale - this.viewScaleRange.max);
-            if (isScaleMin) {
-                tx = 0;
-                ty = 0;
-            }
-            else {
-                tx = Math.max(Math.min(-tx, docWidth - vpWidth), 0);
-                ty = Math.max(Math.min(-ty, docHeight - vpHeight), 0);
-            }
-            app.stage.setTransform(-tx, -ty, scale, scale);
-            this.viewTransformDirty = false;
-        }
-    }
-    play() {
-        let app = this.app;
-        app.ticker.add(() => {
-            this.doViewScroll();
-            let [row, col] = this.fountain.cell;
-            let [fx, fy] = this.terra.getCellCenter(row, col);
-            let proxLimitSq = this.fountain.radius * this.fountain.radius;
-            // Move actors if they are in motion
-            for (let minion of this.minions) {
-                if (minion.inmotion) {
-                    minion.move();
-                    let [mx, my] = minion.position;
-                    let dx = fx - mx;
-                    let dy = fy - my;
-                    if (dx * dx + dy * dy <= proxLimitSq) {
-                        // Fountain suffers finite attack
-                        this.fountain.sufferAttack(minion);
-                        // Minion suffers infinite attack, thus dying
-                        minion.sufferAttack(Infinity);
-                    }
-                }
-            }
-            this.cleanupDeadMinions();
-            let t = new Date().valueOf(); // TODO: convert to game time from real time
-            this.enemyAI.tick(t);
-            this.playerAI.tick(t);
-            this.animator.tick(t);
-            this.towers.forEach(tower => tower.tick(t));
-            this.towerScanTimer.tick(t);
-            this.collsys.analyse();
-            this.hud.tick(t);
-        });
-        app.ticker.start();
-        this.am.getSound('background-beat').play();
-    }
-    cleanupDeadMinions() {
-        let minionsToRemove = [];
-        for (let minion of this.minions) {
-            if (minion.isdead()) {
-                this.stats.deadMinionCount++;
-                minionsToRemove.push(minion);
-            }
-        }
-        minionsToRemove.forEach(minion => this.removeMinion(minion));
-    }
-    removeMinion(minion) {
-        // Minion self destructs after the attack on fountain
-        for (let sprite of minion.sprites) {
-            this.app.stage.removeChild(sprite);
-        }
-        let idx = this.minions.indexOf(minion);
-        console.assert(idx >= 0);
-        this.minions.splice(idx, 1);
-    }
-    // Debug routines
-    drawLine(pa, pb, color = 0x000000) {
-        console.assert(DEBUG);
-        this.debugGraphics.beginFill(0x000000);
-        this.debugGraphics.lineStyle(2, color);
-        this.debugGraphics.moveTo(pa[0], pa[1]);
-        this.debugGraphics.lineTo(pb[0], pb[1]);
-        this.debugGraphics.endFill();
-    }
-}
-exports.Level = Level;
-
-
-/***/ }),
-/* 198 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(9);
-class EnemyAI {
-    constructor(level) {
-        this.level = level;
-        this.spawnTimers = this.level.spawners.map((spl) => {
-            let interval;
-            if (spl.interval) {
-                interval = spl.interval;
-            }
-            else if (spl.rate) {
-                interval = Math.round(60 / spl.rate);
-            }
-            else {
-                interval = 10;
-            }
-            return new helper_1.Timer(interval * 1000, () => {
-                this.level.addMinion(spl.cell, spl.pathcopy());
-            });
-        });
-    }
-    tick(t) {
-        this.spawnTimers.forEach(sptmr => sptmr.tick(t));
-    }
-}
-exports.EnemyAI = EnemyAI;
-
-
-/***/ }),
-/* 199 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(9);
-class PlayerAI {
-    constructor(level) {
-        this.level = level;
-        let spiritGainIntervalmsec = 1000 *
-            this.level.fountain.divinityPeriod / this.level.fountain.spiritGainSteps;
-        this.towerCursor = this.level.createTowerHolderSprite();
-        this.towerCursor.alpha = 0.3;
-        this.spiritGainTimer = new helper_1.Timer(spiritGainIntervalmsec, () => {
-            this.level.fountain.gainSpirit();
-        });
-        this.towerCursorInactiveTimer = new helper_1.Timer(1000, () => {
-            if ((Date.now().valueOf() - this.lastMouseActivityTimeStamp) > 2000) {
-                this.towerCursor.visible = false;
-            }
-        });
-    }
-    onMouseDown(ev) {
-        ev;
-        this.lastMouseActivityTimeStamp = Date.now().valueOf();
-    }
-    onMouseUp(ev) {
-        this.lastMouseActivityTimeStamp = Date.now().valueOf();
-        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
-        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
-        if (cell && !this.level.terra.isWallAt(cell[0], cell[1])) {
-            let tower = this.level.createTower();
-            tower.place(cell);
-            this.level.addTower(tower);
-        }
-    }
-    onMouseMove(ev) {
-        this.lastMouseActivityTimeStamp = Date.now().valueOf();
-        this.towerCursor.visible = true;
-        let stage = this.level.app.stage;
-        let docPoint = this.level.viewportToDocument(ev.offsetX, ev.offsetY);
-        let cell = this.level.terra.resolveCell(docPoint.x, docPoint.y);
-        if (cell && !this.level.terra.isWallAt(cell[0], cell[1])) {
-            if (stage.children.indexOf(this.towerCursor) < 0) {
-                stage.addChild(this.towerCursor);
-            }
-            let [x, y] = this.level.terra.getCellCenter(cell[0], cell[1]);
-            this.towerCursor.position.set(x, y);
-        }
-        else {
-            if (stage.children.indexOf(this.towerCursor) >= 0) {
-                stage.removeChild(this.towerCursor);
-            }
-        }
-    }
-    tick(t) {
-        this.spiritGainTimer.tick(t);
-        this.towerCursorInactiveTimer.tick(t);
-    }
-}
-exports.PlayerAI = PlayerAI;
-
-
-/***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const terra_1 = __webpack_require__(38);
-exports.Terra = terra_1.Terra;
-const triterra_1 = __webpack_require__(215);
-exports.TriTerra = triterra_1.TriTerra;
-const hexterra_1 = __webpack_require__(216);
-exports.HexTerra = hexterra_1.HexTerra;
-
-
-/***/ }),
-/* 201 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = createKDTree
-module.exports.deserialize = deserializeKDTree
-
-var ndarray = __webpack_require__(39)
-var ndselect = __webpack_require__(204)
-var pack = __webpack_require__(205)
-var ops = __webpack_require__(94)
-var ndscratch = __webpack_require__(210)
-var pool = __webpack_require__(40)
-var inorderTree = __webpack_require__(212)
-var bits = __webpack_require__(12)
-var KDTHeap = __webpack_require__(214)
-
-function KDTree(points, ids, n, d) {
-  this.points = points
-  this.ids = ids
-  this.dimension = d
-  this.length = n
-}
-
-var proto = KDTree.prototype
-
-proto.serialize = function() {
-  if(this.length > 0) {
-    return {
-      p: Array.prototype.slice.call(this.points.data, 0, this.length*this.dimension),
-      i: Array.prototype.slice.call(this.ids, 0, this.length)
-    }
-  } else {
-    return { d: this.dimension }
-  }
-}
-
-//Range query
-proto.range = function kdtRangeQuery(lo, hi, visit) {
-  var n = this.length
-  if(n < 1) {
-    return
-  }
-
-  //Check degenerate case
-  var d = this.dimension
-  for(var i=0; i<d; ++i) {
-    if(hi[i] < lo[i]) {
-      return
-    }
-  }
-
-  var points = this.points
-  var ids = this.ids
-
-  //Walk tree in level order, skipping subtrees which do not intersect range
-  var visitRange = ndscratch.malloc([n, 2, d])
-  var visitIndex = pool.mallocInt32(n)
-  var rangeData = visitRange.data
-  var pointData = points.data
-  var visitCount = 1
-  var visitTop = 0
-  var retval
-
-  visitIndex[0] = 0
-  pack(lo, visitRange.pick(0,0))
-  pack(hi, visitRange.pick(0,1))
-  
-  while(visitTop < visitCount) {
-    var idx = visitIndex[visitTop]
-    var k = bits.log2(idx+1)%d
-    var loidx = visitRange.index(visitTop, 0, 0)
-    var hiidx = visitRange.index(visitTop, 1, 0)
-    var pidx = points.index(idx, 0)
-
-    var visitPoint = true
-    for(var i=0; i<d; ++i) {
-      var pc = pointData[pidx+i]
-      if((pc < rangeData[loidx + i]) || 
-         (rangeData[hiidx + i] < pc)) {
-        visitPoint = false
-        break
-      }
-    }
-    if(visitPoint) {
-      retval = visit(ids[idx])
-      if(retval !== undefined) {
-        break
-      }
-    }
-
-    //Visit children
-    var pk = pointData[pidx+k]
-    var hk = rangeData[hiidx+k]
-    var lk = rangeData[loidx+k]
-    if(lk <= pk) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        visitIndex[visitCount] = left
-        var y = visitRange.index(visitCount, 0, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[y+i] = rangeData[loidx+i]
-        }
-        var z = visitRange.index(visitCount, 1, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[z+i] = rangeData[hiidx+i]
-        }
-        rangeData[z+k] = Math.min(hk, pk)
-        visitCount += 1
-      }
-    }
-    if(pk <= hk) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        visitIndex[visitCount] = right
-        var y = visitRange.index(visitCount, 0, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[y+i] = rangeData[loidx+i]
-        }
-        var z = visitRange.index(visitCount, 1, 0)
-        for(var i=0; i<d; ++i) {
-          rangeData[z+i] = rangeData[hiidx+i]
-        }
-        rangeData[y+k] = Math.max(lk, pk)
-        visitCount += 1
-      }
-    }
-
-    //Increment pointer
-    visitTop += 1
-  }
-  ndscratch.free(visitRange)
-  pool.free(visitIndex)
-  return retval
-}
-
-proto.rnn = function(point, radius, visit) {
-  if(radius < 0) {
-    return
-  }
-  var n = this.length
-  if(n < 1) {
-    return
-  }
-  var d = this.dimension
-  var points = this.points
-  var ids = this.ids
-
-  //Walk tree in level order, skipping subtrees which do not intersect sphere
-  var visitDistance = ndscratch.malloc([n, d])
-  var visitIndex = pool.mallocInt32(n)
-  var distanceData = visitDistance.data
-  var pointData = points.data
-  var visitCount = 1
-  var visitTop = 0
-  var r2 = radius*radius
-  var retval
-
-  //Initialize top of queue
-  visitIndex[0] = 0
-  for(var i=0; i<d; ++i) {
-    visitDistance.set(0, i, 0)
-  }
-
-  //Walk over queue
-  while(visitTop < visitCount) {
-    var idx = visitIndex[visitTop]
-    var pidx = points.index(idx, 0)
-
-    //Check if point in sphere
-    var d2 = 0.0
-    for(var i=0; i<d; ++i) {
-      d2 += Math.pow(point[i] - pointData[pidx+i], 2)
-    }
-    if(d2 <= r2) {
-      retval = visit(ids[idx])
-      if(retval !== undefined) {
-        break
-      }
-    }
-
-    //Visit children
-    var k = bits.log2(idx+1)%d
-    var ds = 0.0
-    var didx = visitDistance.index(visitTop, 0)
-    for(var i=0; i<d; ++i) {
-      if(i !== k) {
-        ds += distanceData[didx + i]
-      }
-    }
-
-    //Handle split axis
-    var qk = point[k]
-    var pk = pointData[pidx+k]
-    var dk = distanceData[didx+k]
-    var lk = dk
-    var hk = dk
-    if(qk < pk) {
-      hk = Math.max(dk, Math.pow(pk - qk, 2))
-    } else {
-      lk = Math.max(dk, Math.pow(pk - qk, 2))
-    }
-
-    var d2l = lk + ds
-    var d2h = hk + ds
-
-    if(d2l <= r2) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        visitIndex[visitCount] = left
-        var y = visitDistance.index(visitCount, 0)
-        for(var i=0; i<d; ++i) {
-          distanceData[y+i] = distanceData[didx+i]
-        }
-        distanceData[y+k] = lk
-        visitCount += 1
-      }
-    }
-    if(d2h <= r2) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        visitIndex[visitCount] = right
-        var y = visitDistance.index(visitCount, 0)
-        for(var i=0; i<d; ++i) {
-          distanceData[y+i] = distanceData[didx+i]
-        }
-        distanceData[y+k] = hk
-        visitCount += 1
-      }
-    }
-
-    //Increment pointer
-    visitTop += 1
-  }
-
-  ndscratch.free(visitDistance)
-  pool.free(visitIndex)
-  return retval
-}
-
-proto.nn = function(point, maxDistance) {
-  var n = this.length
-  if(n < 1) {
-    return -1
-  }
-  if(typeof maxDistance === "number") {
-    if(maxDistance < 0) {
-      return -1
-    } 
-  } else {
-    maxDistance = Infinity
-  }
-  var d = this.dimension
-  var points = this.points
-  var pointData = points.data
-  var dataVector = pool.mallocFloat64(d)
-
-  var toVisit = new KDTHeap(n, d+1)
-  var index = toVisit.index
-  var data = toVisit.data
-  index[0] = 0
-  for(var i=0; i<=d; ++i) {
-    data[i] = 0
-  }
-  toVisit.count += 1
-
-  var nearest = -1
-  var nearestD = maxDistance
-
-  while(toVisit.count > 0) {
-    if(data[0] >= nearestD) {
-      break
-    }
-
-    var idx = index[0]
-    var pidx = points.index(idx, 0)
-    var d2 = 0.0
-    for(var i=0; i<d; ++i) {
-      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
-    }
-    if(d2 < nearestD) {
-      nearestD = d2
-      nearest = idx
-    }
-
-    //Compute distance bounds for children
-    var k = bits.log2(idx+1)%d
-    var ds = 0
-    for(var i=0; i<d; ++i) {
-      var dd = data[i+1]
-      if(i !== k) {
-        ds += dd
-      }
-      dataVector[i] = dd
-    }
-    var qk = point[k]
-    var pk = pointData[pidx+k]
-    var dk = dataVector[k]
-    var lk = dk
-    var hk = dk
-    if(qk < pk) {
-      hk = Math.max(dk, Math.pow(pk - qk, 2))
-    } else {
-      lk = Math.max(dk, Math.pow(pk - qk, 2))
-    }
-    var d2l = lk + ds
-    var d2h = hk + ds
-
-    toVisit.pop()
-    
-    if(d2l < nearestD) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        var vcount = toVisit.count
-        index[vcount] = left
-        var vptr = vcount * (d+1)
-        data[vptr] = d2l
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = lk
-        toVisit.push()
-      }
-    }
-    if(d2h < nearestD) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        var vcount = toVisit.count
-        index[vcount] = right
-        var vptr = vcount * (d+1)
-        data[vptr] = d2h
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = hk
-        toVisit.push()
-      }
-    }
-  }
-
-  pool.freeFloat64(dataVector)
-  toVisit.dispose()
-  
-  if(nearest < 0) {
-    return -1
-  }
-  return this.ids[nearest]
-}
-
-proto.knn = function(point, maxPoints, maxDistance) {
-  //Check degenerate cases
-  if(typeof maxDistance === "number") {
-    if(maxDistance < 0) {
-      return []
-    }
-  } else {
-    maxDistance = Infinity
-  }
-  var n = this.length
-  if(n < 1) {
-    return []
-  }
-  if(typeof maxPoints === "number") {
-    if(maxPoints <= 0) {
-      return []
-    }
-    maxPoints = Math.min(maxPoints, n)|0
-  } else {
-    maxPoints = n
-  }
-  var ids = this.ids
-
-  var d = this.dimension
-  var points = this.points
-  var pointData = points.data
-  var dataVector = pool.mallocFloat64(d)
-  
-  //List of closest points
-  var closestPoints = new KDTHeap(maxPoints, 1)
-  var cl_index = closestPoints.index
-  var cl_data = closestPoints.data
-
-  var toVisit = new KDTHeap(n, d+1)
-  var index = toVisit.index
-  var data = toVisit.data
-  index[0] = 0
-  for(var i=0; i<=d; ++i) {
-    data[i] = 0
-  }
-  toVisit.count += 1
-
-  var nearest = -1
-  var nearestD = maxDistance
-
-  while(toVisit.count > 0) {
-    if(data[0] >= nearestD) {
-      break
-    }
-
-    var idx = index[0]
-    var pidx = points.index(idx, 0)
-    var d2 = 0.0
-    for(var i=0; i<d; ++i) {
-      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
-    }
-    if(d2 < nearestD) {
-      if(closestPoints.count >= maxPoints) {
-        closestPoints.pop()
-      }
-      var pcount = closestPoints.count
-      cl_index[pcount] = idx
-      cl_data[pcount] = -d2
-      closestPoints.push()
-      if(closestPoints.count >= maxPoints) {
-        nearestD = -cl_data[0]
-      }
-    }
-
-    //Compute distance bounds for children
-    var k = bits.log2(idx+1)%d
-    var ds = 0
-    for(var i=0; i<d; ++i) {
-      var dd = data[i+1]
-      if(i !== k) {
-        ds += dd
-      }
-      dataVector[i] = dd
-    }
-    var qk = point[k]
-    var pk = pointData[pidx+k]
-    var dk = dataVector[k]
-    var lk = dk
-    var hk = dk
-    if(qk < pk) {
-      hk = Math.max(dk, Math.pow(pk - qk, 2))
-    } else {
-      lk = Math.max(dk, Math.pow(pk - qk, 2))
-    }
-    var d2l = lk + ds
-    var d2h = hk + ds
-
-    toVisit.pop()
-    if(d2l < nearestD) {
-      var left = 2 * idx + 1
-      if(left < n) {
-        var vcount = toVisit.count
-        index[vcount] = left
-        var vptr = vcount * (d+1)
-        data[vptr] = d2l
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = lk
-        toVisit.push()
-      }
-    }
-    if(d2h < nearestD) {
-      var right = 2 * (idx + 1)
-      if(right < n) {
-        var vcount = toVisit.count
-        index[vcount] = right
-        var vptr = vcount * (d+1)
-        data[vptr] = d2h
-        for(var i=1; i<=d; ++i) {
-          data[vptr+i] = dataVector[i-1]
-        }
-        data[vptr+k+1] = hk
-        toVisit.push()
-      }
-    }
-  }
-
-  pool.freeFloat64(dataVector)
-  toVisit.dispose()
-
-  //Sort result
-  var result = new Array(closestPoints.count)
-  var ids = this.ids
-  for(var i=closestPoints.count-1; i>=0; --i) {
-    result[i] = ids[cl_index[0]]
-    closestPoints.pop()
-  }
-  closestPoints.dispose()
-
-  return result
-}
-
-proto.dispose = function kdtDispose() {
-  pool.free(this.points.data)
-  pool.freeInt32(this.ids)
-  this.points = null
-  this.ids = null
-  this.length = 0
-}
-
-function createKDTree(points) {
-  var n, d, indexed
-  if(Array.isArray(points)) {
-    n = points.length
-    if(n === 0) {
-      return new KDTree(null, null, 0, 0)
-    }
-    d = points[0].length
-    indexed = ndarray(pool.mallocDouble(n*(d+1)), [n, d+1])
-    pack(points, indexed.hi(n, d))
-  } else {
-    n = points.shape[0]
-    d = points.shape[1]
-
-    //Round up data type size
-    var type = points.dtype
-    if(type === "int8" ||
-       type === "int16" ||
-       type === "int32" ) {
-      type = "int32"
-    } else if(type === "uint8" ||
-      type === "uint8_clamped" ||
-      type === "buffer" ||
-      type === "uint16" ||
-      type === "uint32") {
-      type = "uint32"
-    } else if(type === "float32") {
-      type = "float32"
-    } else {
-      type = "float64"
-    }
-    indexed = ndarray(pool.malloc(n*(d+1)), [n, d+1])
-    ops.assign(indexed.hi(n,d), points)
-  }
-  for(var i=0; i<n; ++i) {
-    indexed.set(i, d, i)
-  }
-
-  var pointArray = ndscratch.malloc([n, d], points.dtype)
-  var indexArray = pool.mallocInt32(n)
-  var pointer = 0
-  var pointData = pointArray.data
-  var arrayData = indexed.data
-  var l2_n = bits.log2(bits.nextPow2(n))
-
-  var sel_cmp = ndselect.compile(indexed.order, true, indexed.dtype)
-
-  //Walk tree in level order
-  var toVisit = [indexed]
-  while(pointer < n) {
-    var head = toVisit.shift()
-    var array = head
-    var nn = array.shape[0]|0
-    
-    //Find median
-    if(nn > 1) {
-      var k = bits.log2(pointer+1)%d
-      var median
-      var n_2 = inorderTree.root(nn)
-      median = sel_cmp(array, n_2, function(a,b) {
-        return a.get(k) - b.get(k)
-      })
-
-      //Copy into new array
-      var pptr = pointArray.index(pointer, 0)
-      var mptr = median.offset
-      for(var i=0; i<d; ++i) {
-        pointData[pptr++] = arrayData[mptr++]
-      }
-      indexArray[pointer] = arrayData[mptr]
-      pointer += 1
-
-      //Queue new items
-      toVisit.push(array.hi(n_2))
-      if(nn > 2) {
-        toVisit.push(array.lo(n_2+1))
-      }
-    } else {
-      //Copy into new array
-      var mptr = array.offset
-      var pptr = pointArray.index(pointer, 0)
-      for(var i=0; i<d; ++i) {
-        pointData[pptr+i] = arrayData[mptr++]
-      }
-      indexArray[pointer] = arrayData[mptr]
-      pointer += 1
-    }
-  }
-
-  //Release indexed
-  pool.free(indexed.data)
-
-  return new KDTree(pointArray, indexArray, n, d)
-}
-
-function deserializeKDTree(data) {
-  var points = data.p
-  var ids = data.i
-  if(points) {
-    var nd = points.length
-    var pointArray = pool.mallocFloat64(nd)
-    for(var i=0; i<nd; ++i) {
-      pointArray[i] = points[i]
-    }
-    var n = ids.length
-    var idArray = pool.mallocInt32(n)
-    for(var i=0; i<n; ++i) {
-      idArray[i] = ids[i]
-    }
-    var d = (nd/n)|0
-    return new KDTree(
-      ndarray(pointArray, [n,d]),
-      idArray,
-      n,
-      d)
-  } else {
-    return new KDTree(null, null, 0, data.d)
-  }
-}
-
-/***/ }),
-/* 202 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function iota(n) {
-  var result = new Array(n)
-  for(var i=0; i<n; ++i) {
-    result[i] = i
-  }
-  return result
-}
-
-module.exports = iota
-
-/***/ }),
-/* 203 */
-/***/ (function(module, exports) {
-
-/*!
- * Determine if an object is a Buffer
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
-
-// The _isBuffer check is for Safari 5-7 support, because it's missing
-// Object.prototype.constructor. Remove this eventually
-module.exports = function (obj) {
-  return obj != null && (isBuffer(obj) || isSlowBuffer(obj) || !!obj._isBuffer)
-}
-
-function isBuffer (obj) {
-  return !!obj.constructor && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
-}
-
-// For Node v0.10 support. Remove this eventually.
-function isSlowBuffer (obj) {
-  return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
-}
-
-
-/***/ }),
-/* 204 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = ndSelect
-module.exports.compile = lookupCache
-
-//Macros
-var ARRAY = "a"
-var RANK = "K"
-var CMP = "C"
-var DATA = "d"
-var OFFSET = "o"
-var RND = "R"
-var TMP = "T"
-var LO = "L"
-var HI = "H"
-var PIVOT = "X"
-function SHAPE(i) {
-  return "s" + i
-}
-function STRIDE(i) {
-  return "t" + i
-}
-function STEP(i) {
-  return "u" + i
-}
-function STEP_CMP(i) {
-  return "v" + i
-}
-function INDEX(i) {
-  return "i" + i
-}
-function PICK(i) {
-  return "p" + i
-}
-function PTR(i) {
-  return "x" + i
-}
-
-//Create new order where index 0 is slowest index
-function permuteOrder(order) {
-  var norder = order.slice()
-  norder.splice(order.indexOf(0), 1)
-  norder.unshift(0)
-  return norder
-}
-
-//Generate quick select procedure
-function compileQuickSelect(order, useCompare, dtype) {
-  order = permuteOrder(order)
-
-  var dimension = order.length
-  var useGetter = (dtype === "generic")
-  var funcName = "ndSelect" + dtype + order.join("_") + "_" + (useCompare ? "cmp" : "lex")
-
-  var code = []
-
-  //Get arguments for code
-  var args = [ARRAY, RANK]
-  if(useCompare) {
-    args.push(CMP)
-  }
-
-  //Unpack ndarray variables
-  var vars = [
-    DATA + "=" + ARRAY + ".data",
-    OFFSET + "=" + ARRAY + ".offset|0",
-    RND + "=Math.random",
-    TMP]
-  for(var i=0; i<2; ++i) {
-    vars.push(PTR(i) + "=0")
-  }
-  for(var i=0; i<dimension; ++i) {
-    vars.push(
-      SHAPE(i) + "=" + ARRAY + ".shape[" + i + "]|0",
-      STRIDE(i) + "=" + ARRAY + ".stride[" + i + "]|0",
-      INDEX(i) + "=0")
-  }
-  for(var i=1; i<dimension; ++i) {
-    if(i > 1) {
-      vars.push(STEP_CMP(i) + "=(" + STRIDE(i) + "-" + SHAPE(i-1) + "*" + STRIDE(i-1) + ")|0",
-                STEP(order[i]) + "=(" + STRIDE(order[i]) + "-" + SHAPE(order[i-1]) + "*" + STRIDE(order[i-1]) + ")|0")
-    } else {
-      vars.push(STEP_CMP(i) + "=" + STRIDE(i),
-                STEP(order[i]) + "=" + STRIDE(order[i]))
-    }
-  }
-  if(useCompare) {
-    for(var i=0; i<2; ++i) {
-      vars.push(PICK(i) + "=" + ARRAY + ".pick(0)")
-    }
-  }
-  vars.push(
-    PIVOT + "=0",
-    LO + "=0",
-    HI + "=" + SHAPE(order[0]) + "-1")
-
-  function compare(out, i0, i1) {
-    if(useCompare) {
-      code.push(
-        PICK(0), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
-        PICK(1), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");",
-        out, "=", CMP, "(", PICK(0), ",", PICK(1), ");")
-    } else {
-      code.push(
-        PTR(0), "=", OFFSET, "+", STRIDE(0), "*(", i0, ");",
-        PTR(1), "=", OFFSET, "+", STRIDE(0), "*(", i1, ");")
-      if(dimension > 1) {
-        code.push("_cmp:")
-      }
-      for(var i=dimension-1; i>0; --i) {
-        code.push("for(", INDEX(i), "=0;", 
-          INDEX(i), "<", SHAPE(i), ";",
-          INDEX(i), "++){")
-      }
-      if(useGetter) {
-        code.push(out, "=", DATA, ".get(", PTR(0), ")-", 
-                            DATA, ".get(", PTR(1), ");")
-      } else {
-        code.push(out, "=", DATA, "[", PTR(0), "]-", 
-                            DATA, "[", PTR(1), "];")
-      }
-      if(dimension > 1) {
-        code.push("if(", out, ")break _cmp;")
-      }
-      for(var i=1; i<dimension; ++i) {
-        code.push(
-          PTR(0), "+=", STEP_CMP(i), ";",
-          PTR(1), "+=", STEP_CMP(i),
-          "}")
-      }
-    }
-  }
-
-  function swap(i0, i1) {
-    code.push(
-      PTR(0), "=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
-      PTR(1), "=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");")
-    for(var i=dimension-1; i>0; --i) {
-      code.push("for(", INDEX(order[i]), "=0;", 
-        INDEX(order[i]), "<", SHAPE(order[i]), ";",
-        INDEX(order[i]), "++){")
-    }
-    if(useGetter) {
-      code.push(TMP, "=", DATA, ".get(", PTR(0), ");", 
-                DATA, ".set(", PTR(0), ",", DATA, ".get(", PTR(1), "));",
-                DATA, ".set(", PTR(1), ",", TMP, ");")
-    } else {
-      code.push(TMP, "=", DATA, "[", PTR(0), "];", 
-                DATA, "[", PTR(0), "]=", DATA, "[", PTR(1), "];",
-                DATA, "[", PTR(1), "]=", TMP, ";")
-    }
-    for(var i=1; i<dimension; ++i) {
-      code.push(
-        PTR(0), "+=", STEP(order[i]), ";",
-        PTR(1), "+=", STEP(order[i]),
-        "}")
-    }
-  }
-
-  code.push(
-    "while(", LO, "<", HI, "){",
-      PIVOT, "=(", RND, "()*(", HI, "-", LO, "+1)+", LO, ")|0;")
-
-  //Partition array by pivot
-  swap(PIVOT, HI) // Store pivot temporarily at the end of the array
-
-  code.push(
-    PIVOT, "=", LO, ";", // PIVOT will now be used to keep track of the end of the interval of elements less than the pivot
-    "for(", INDEX(0), "=", LO, ";",
-      INDEX(0), "<", HI, ";",
-      INDEX(0), "++){") // Loop over other elements (unequal to the pivot), note that HI now points to the pivot
-  compare(TMP, INDEX(0), HI) // Lexicographical compare of element with pivot
-  code.push("if(", TMP, "<0){")
-  swap(PIVOT, INDEX(0)) // Swap current element with element at index PIVOT if it is less than the pivot
-  code.push(PIVOT, "++;")
-  code.push("}}")
-  swap(PIVOT, HI) // Store pivot right after all elements that are less than the pivot (implying that all elements >= the pivot are behind the pivot)
-
-  //Check pivot bounds
-  code.push(
-    "if(", PIVOT, "===", RANK, "){",
-      LO, "=", PIVOT, ";",
-      "break;",
-    "}else if(", RANK, "<", PIVOT, "){",
-      HI, "=", PIVOT, "-1;",
-    "}else{",
-      LO, "=", PIVOT, "+1;",
-    "}",
-  "}")
-
-  if(useCompare) {
-    code.push(PICK(0), ".offset=", OFFSET, "+", LO, "*", STRIDE(0), ";",
-      "return ", PICK(0), ";")
-  } else {
-    code.push("return ", ARRAY, ".pick(", LO, ");")
-  }
-
-  //Compile and link js together
-  var procCode = [
-    "'use strict';function ", funcName, "(", args, "){",
-      "var ", vars.join(), ";",
-      code.join(""),
-    "};return ", funcName
-  ].join("")
-
-  var proc = new Function(procCode)
-  return proc()
-}
-
-var CACHE = {}
-
-function lookupCache(order, useCompare, dtype) {
-  var typesig = order.join() + useCompare + dtype
-  var proc = CACHE[typesig]
-  if(proc) {
-    return proc
-  }
-  return CACHE[typesig] = compileQuickSelect(order, useCompare, dtype)
-}
-
-function ndSelect(array, k, compare) {
-  k |= 0
-  if((array.dimension === 0) || 
-    (array.shape[0] <= k) ||
-    (k < 0)) {
-    return null
-  }
-  var useCompare = !!compare
-  var proc = lookupCache(array.order, useCompare, array.dtype)
-  if(useCompare) {
-    return proc(array, k, compare)
-  } else {
-    return proc(array, k)
-  }
-}
-
-/***/ }),
-/* 205 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var ndarray = __webpack_require__(39)
-var do_convert = __webpack_require__(206)
-
-module.exports = function convert(arr, result) {
-  var shape = [], c = arr, sz = 1
-  while(Array.isArray(c)) {
-    shape.push(c.length)
-    sz *= c.length
-    c = c[0]
-  }
-  if(shape.length === 0) {
-    return ndarray()
-  }
-  if(!result) {
-    result = ndarray(new Float64Array(sz), shape)
-  }
-  do_convert(result, arr)
-  return result
-}
-
-
-/***/ }),
-/* 206 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports=__webpack_require__(93)({"args":["array","scalar","index"],"pre":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"body":{"body":"{\nvar _inline_1_v=_inline_1_arg1_,_inline_1_i\nfor(_inline_1_i=0;_inline_1_i<_inline_1_arg2_.length-1;++_inline_1_i) {\n_inline_1_v=_inline_1_v[_inline_1_arg2_[_inline_1_i]]\n}\n_inline_1_arg0_=_inline_1_v[_inline_1_arg2_[_inline_1_arg2_.length-1]]\n}","args":[{"name":"_inline_1_arg0_","lvalue":true,"rvalue":false,"count":1},{"name":"_inline_1_arg1_","lvalue":false,"rvalue":true,"count":1},{"name":"_inline_1_arg2_","lvalue":false,"rvalue":true,"count":4}],"thisVars":[],"localVars":["_inline_1_i","_inline_1_v"]},"post":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"funcName":"convert","blockSize":64})
-
-
-/***/ }),
-/* 207 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// The function below is called when constructing a cwise function object, and does the following:
-// A function object is constructed which accepts as argument a compilation function and returns another function.
-// It is this other function that is eventually returned by createThunk, and this function is the one that actually
-// checks whether a certain pattern of arguments has already been used before and compiles new loops as needed.
-// The compilation passed to the first function object is used for compiling new functions.
-// Once this function object is created, it is called with compile as argument, where the first argument of compile
-// is bound to "proc" (essentially containing a preprocessed version of the user arguments to cwise).
-// So createThunk roughly works like this:
-// function createThunk(proc) {
-//   var thunk = function(compileBound) {
-//     var CACHED = {}
-//     return function(arrays and scalars) {
-//       if (dtype and order of arrays in CACHED) {
-//         var func = CACHED[dtype and order of arrays]
-//       } else {
-//         var func = CACHED[dtype and order of arrays] = compileBound(dtype and order of arrays)
-//       }
-//       return func(arrays and scalars)
-//     }
-//   }
-//   return thunk(compile.bind1(proc))
-// }
-
-var compile = __webpack_require__(208)
-
-function createThunk(proc) {
-  var code = ["'use strict'", "var CACHED={}"]
-  var vars = []
-  var thunkName = proc.funcName + "_cwise_thunk"
-  
-  //Build thunk
-  code.push(["return function ", thunkName, "(", proc.shimArgs.join(","), "){"].join(""))
-  var typesig = []
-  var string_typesig = []
-  var proc_args = [["array",proc.arrayArgs[0],".shape.slice(", // Slice shape so that we only retain the shape over which we iterate (which gets passed to the cwise operator as SS).
-                    Math.max(0,proc.arrayBlockIndices[0]),proc.arrayBlockIndices[0]<0?(","+proc.arrayBlockIndices[0]+")"):")"].join("")]
-  var shapeLengthConditions = [], shapeConditions = []
-  // Process array arguments
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    var j = proc.arrayArgs[i]
-    vars.push(["t", j, "=array", j, ".dtype,",
-               "r", j, "=array", j, ".order"].join(""))
-    typesig.push("t" + j)
-    typesig.push("r" + j)
-    string_typesig.push("t"+j)
-    string_typesig.push("r"+j+".join()")
-    proc_args.push("array" + j + ".data")
-    proc_args.push("array" + j + ".stride")
-    proc_args.push("array" + j + ".offset|0")
-    if (i>0) { // Gather conditions to check for shape equality (ignoring block indices)
-      shapeLengthConditions.push("array" + proc.arrayArgs[0] + ".shape.length===array" + j + ".shape.length+" + (Math.abs(proc.arrayBlockIndices[0])-Math.abs(proc.arrayBlockIndices[i])))
-      shapeConditions.push("array" + proc.arrayArgs[0] + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[0]) + "]===array" + j + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[i]) + "]")
-    }
-  }
-  // Check for shape equality
-  if (proc.arrayArgs.length > 1) {
-    code.push("if (!(" + shapeLengthConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same dimensionality!')")
-    code.push("for(var shapeIndex=array" + proc.arrayArgs[0] + ".shape.length-" + Math.abs(proc.arrayBlockIndices[0]) + "; shapeIndex-->0;) {")
-    code.push("if (!(" + shapeConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same shape!')")
-    code.push("}")
-  }
-  // Process scalar arguments
-  for(var i=0; i<proc.scalarArgs.length; ++i) {
-    proc_args.push("scalar" + proc.scalarArgs[i])
-  }
-  // Check for cached function (and if not present, generate it)
-  vars.push(["type=[", string_typesig.join(","), "].join()"].join(""))
-  vars.push("proc=CACHED[type]")
-  code.push("var " + vars.join(","))
-  
-  code.push(["if(!proc){",
-             "CACHED[type]=proc=compile([", typesig.join(","), "])}",
-             "return proc(", proc_args.join(","), ")}"].join(""))
-
-  if(proc.debug) {
-    console.log("-----Generated thunk:\n" + code.join("\n") + "\n----------")
-  }
-  
-  //Compile thunk
-  var thunk = new Function("compile", code.join("\n"))
-  return thunk(compile.bind(undefined, proc))
-}
-
-module.exports = createThunk
-
-
-/***/ }),
-/* 208 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var uniq = __webpack_require__(209)
-
-// This function generates very simple loops analogous to how you typically traverse arrays (the outermost loop corresponds to the slowest changing index, the innermost loop to the fastest changing index)
-// TODO: If two arrays have the same strides (and offsets) there is potential for decreasing the number of "pointers" and related variables. The drawback is that the type signature would become more specific and that there would thus be less potential for caching, but it might still be worth it, especially when dealing with large numbers of arguments.
-function innerFill(order, proc, body) {
-  var dimension = order.length
-    , nargs = proc.arrayArgs.length
-    , has_index = proc.indexArgs.length>0
-    , code = []
-    , vars = []
-    , idx=0, pidx=0, i, j
-  for(i=0; i<dimension; ++i) { // Iteration variables
-    vars.push(["i",i,"=0"].join(""))
-  }
-  //Compute scan deltas
-  for(j=0; j<nargs; ++j) {
-    for(i=0; i<dimension; ++i) {
-      pidx = idx
-      idx = order[i]
-      if(i === 0) { // The innermost/fastest dimension's delta is simply its stride
-        vars.push(["d",j,"s",i,"=t",j,"p",idx].join(""))
-      } else { // For other dimensions the delta is basically the stride minus something which essentially "rewinds" the previous (more inner) dimension
-        vars.push(["d",j,"s",i,"=(t",j,"p",idx,"-s",pidx,"*t",j,"p",pidx,")"].join(""))
-      }
-    }
-  }
-  if (vars.length > 0) {
-    code.push("var " + vars.join(","))
-  }  
-  //Scan loop
-  for(i=dimension-1; i>=0; --i) { // Start at largest stride and work your way inwards
-    idx = order[i]
-    code.push(["for(i",i,"=0;i",i,"<s",idx,";++i",i,"){"].join(""))
-  }
-  //Push body of inner loop
-  code.push(body)
-  //Advance scan pointers
-  for(i=0; i<dimension; ++i) {
-    pidx = idx
-    idx = order[i]
-    for(j=0; j<nargs; ++j) {
-      code.push(["p",j,"+=d",j,"s",i].join(""))
-    }
-    if(has_index) {
-      if(i > 0) {
-        code.push(["index[",pidx,"]-=s",pidx].join(""))
-      }
-      code.push(["++index[",idx,"]"].join(""))
-    }
-    code.push("}")
-  }
-  return code.join("\n")
-}
-
-// Generate "outer" loops that loop over blocks of data, applying "inner" loops to the blocks by manipulating the local variables in such a way that the inner loop only "sees" the current block.
-// TODO: If this is used, then the previous declaration (done by generateCwiseOp) of s* is essentially unnecessary.
-//       I believe the s* are not used elsewhere (in particular, I don't think they're used in the pre/post parts and "shape" is defined independently), so it would be possible to make defining the s* dependent on what loop method is being used.
-function outerFill(matched, order, proc, body) {
-  var dimension = order.length
-    , nargs = proc.arrayArgs.length
-    , blockSize = proc.blockSize
-    , has_index = proc.indexArgs.length > 0
-    , code = []
-  for(var i=0; i<nargs; ++i) {
-    code.push(["var offset",i,"=p",i].join(""))
-  }
-  //Generate loops for unmatched dimensions
-  // The order in which these dimensions are traversed is fairly arbitrary (from small stride to large stride, for the first argument)
-  // TODO: It would be nice if the order in which these loops are placed would also be somehow "optimal" (at the very least we should check that it really doesn't hurt us if they're not).
-  for(var i=matched; i<dimension; ++i) {
-    code.push(["for(var j"+i+"=SS[", order[i], "]|0;j", i, ">0;){"].join("")) // Iterate back to front
-    code.push(["if(j",i,"<",blockSize,"){"].join("")) // Either decrease j by blockSize (s = blockSize), or set it to zero (after setting s = j).
-    code.push(["s",order[i],"=j",i].join(""))
-    code.push(["j",i,"=0"].join(""))
-    code.push(["}else{s",order[i],"=",blockSize].join(""))
-    code.push(["j",i,"-=",blockSize,"}"].join(""))
-    if(has_index) {
-      code.push(["index[",order[i],"]=j",i].join(""))
-    }
-  }
-  for(var i=0; i<nargs; ++i) {
-    var indexStr = ["offset"+i]
-    for(var j=matched; j<dimension; ++j) {
-      indexStr.push(["j",j,"*t",i,"p",order[j]].join(""))
-    }
-    code.push(["p",i,"=(",indexStr.join("+"),")"].join(""))
-  }
-  code.push(innerFill(order, proc, body))
-  for(var i=matched; i<dimension; ++i) {
-    code.push("}")
-  }
-  return code.join("\n")
-}
-
-//Count the number of compatible inner orders
-// This is the length of the longest common prefix of the arrays in orders.
-// Each array in orders lists the dimensions of the correspond ndarray in order of increasing stride.
-// This is thus the maximum number of dimensions that can be efficiently traversed by simple nested loops for all arrays.
-function countMatches(orders) {
-  var matched = 0, dimension = orders[0].length
-  while(matched < dimension) {
-    for(var j=1; j<orders.length; ++j) {
-      if(orders[j][matched] !== orders[0][matched]) {
-        return matched
-      }
-    }
-    ++matched
-  }
-  return matched
-}
-
-//Processes a block according to the given data types
-// Replaces variable names by different ones, either "local" ones (that are then ferried in and out of the given array) or ones matching the arguments that the function performing the ultimate loop will accept.
-function processBlock(block, proc, dtypes) {
-  var code = block.body
-  var pre = []
-  var post = []
-  for(var i=0; i<block.args.length; ++i) {
-    var carg = block.args[i]
-    if(carg.count <= 0) {
-      continue
-    }
-    var re = new RegExp(carg.name, "g")
-    var ptrStr = ""
-    var arrNum = proc.arrayArgs.indexOf(i)
-    switch(proc.argTypes[i]) {
-      case "offset":
-        var offArgIndex = proc.offsetArgIndex.indexOf(i)
-        var offArg = proc.offsetArgs[offArgIndex]
-        arrNum = offArg.array
-        ptrStr = "+q" + offArgIndex // Adds offset to the "pointer" in the array
-      case "array":
-        ptrStr = "p" + arrNum + ptrStr
-        var localStr = "l" + i
-        var arrStr = "a" + arrNum
-        if (proc.arrayBlockIndices[arrNum] === 0) { // Argument to body is just a single value from this array
-          if(carg.count === 1) { // Argument/array used only once(?)
-            if(dtypes[arrNum] === "generic") {
-              if(carg.lvalue) {
-                pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
-                code = code.replace(re, localStr)
-                post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
-              } else {
-                code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
-              }
-            } else {
-              code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
-            }
-          } else if(dtypes[arrNum] === "generic") {
-            pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
-            code = code.replace(re, localStr)
-            if(carg.lvalue) {
-              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
-            }
-          } else {
-            pre.push(["var ", localStr, "=", arrStr, "[", ptrStr, "]"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
-            code = code.replace(re, localStr)
-            if(carg.lvalue) {
-              post.push([arrStr, "[", ptrStr, "]=", localStr].join(""))
-            }
-          }
-        } else { // Argument to body is a "block"
-          var reStrArr = [carg.name], ptrStrArr = [ptrStr]
-          for(var j=0; j<Math.abs(proc.arrayBlockIndices[arrNum]); j++) {
-            reStrArr.push("\\s*\\[([^\\]]+)\\]")
-            ptrStrArr.push("$" + (j+1) + "*t" + arrNum + "b" + j) // Matched index times stride
-          }
-          re = new RegExp(reStrArr.join(""), "g")
-          ptrStr = ptrStrArr.join("+")
-          if(dtypes[arrNum] === "generic") {
-            /*if(carg.lvalue) {
-              pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
-              code = code.replace(re, localStr)
-              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
-            } else {
-              code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
-            }*/
-            throw new Error("cwise: Generic arrays not supported in combination with blocks!")
-          } else {
-            // This does not produce any local variables, even if variables are used multiple times. It would be possible to do so, but it would complicate things quite a bit.
-            code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
-          }
-        }
-      break
-      case "scalar":
-        code = code.replace(re, "Y" + proc.scalarArgs.indexOf(i))
-      break
-      case "index":
-        code = code.replace(re, "index")
-      break
-      case "shape":
-        code = code.replace(re, "shape")
-      break
-    }
-  }
-  return [pre.join("\n"), code, post.join("\n")].join("\n").trim()
-}
-
-function typeSummary(dtypes) {
-  var summary = new Array(dtypes.length)
-  var allEqual = true
-  for(var i=0; i<dtypes.length; ++i) {
-    var t = dtypes[i]
-    var digits = t.match(/\d+/)
-    if(!digits) {
-      digits = ""
-    } else {
-      digits = digits[0]
-    }
-    if(t.charAt(0) === 0) {
-      summary[i] = "u" + t.charAt(1) + digits
-    } else {
-      summary[i] = t.charAt(0) + digits
-    }
-    if(i > 0) {
-      allEqual = allEqual && summary[i] === summary[i-1]
-    }
-  }
-  if(allEqual) {
-    return summary[0]
-  }
-  return summary.join("")
-}
-
-//Generates a cwise operator
-function generateCWiseOp(proc, typesig) {
-
-  //Compute dimension
-  // Arrays get put first in typesig, and there are two entries per array (dtype and order), so this gets the number of dimensions in the first array arg.
-  var dimension = (typesig[1].length - Math.abs(proc.arrayBlockIndices[0]))|0
-  var orders = new Array(proc.arrayArgs.length)
-  var dtypes = new Array(proc.arrayArgs.length)
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    dtypes[i] = typesig[2*i]
-    orders[i] = typesig[2*i+1]
-  }
-  
-  //Determine where block and loop indices start and end
-  var blockBegin = [], blockEnd = [] // These indices are exposed as blocks
-  var loopBegin = [], loopEnd = [] // These indices are iterated over
-  var loopOrders = [] // orders restricted to the loop indices
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    if (proc.arrayBlockIndices[i]<0) {
-      loopBegin.push(0)
-      loopEnd.push(dimension)
-      blockBegin.push(dimension)
-      blockEnd.push(dimension+proc.arrayBlockIndices[i])
-    } else {
-      loopBegin.push(proc.arrayBlockIndices[i]) // Non-negative
-      loopEnd.push(proc.arrayBlockIndices[i]+dimension)
-      blockBegin.push(0)
-      blockEnd.push(proc.arrayBlockIndices[i])
-    }
-    var newOrder = []
-    for(var j=0; j<orders[i].length; j++) {
-      if (loopBegin[i]<=orders[i][j] && orders[i][j]<loopEnd[i]) {
-        newOrder.push(orders[i][j]-loopBegin[i]) // If this is a loop index, put it in newOrder, subtracting loopBegin, to make sure that all loopOrders are using a common set of indices.
-      }
-    }
-    loopOrders.push(newOrder)
-  }
-
-  //First create arguments for procedure
-  var arglist = ["SS"] // SS is the overall shape over which we iterate
-  var code = ["'use strict'"]
-  var vars = []
-  
-  for(var j=0; j<dimension; ++j) {
-    vars.push(["s", j, "=SS[", j, "]"].join("")) // The limits for each dimension.
-  }
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    arglist.push("a"+i) // Actual data array
-    arglist.push("t"+i) // Strides
-    arglist.push("p"+i) // Offset in the array at which the data starts (also used for iterating over the data)
-    
-    for(var j=0; j<dimension; ++j) { // Unpack the strides into vars for looping
-      vars.push(["t",i,"p",j,"=t",i,"[",loopBegin[i]+j,"]"].join(""))
-    }
-    
-    for(var j=0; j<Math.abs(proc.arrayBlockIndices[i]); ++j) { // Unpack the strides into vars for block iteration
-      vars.push(["t",i,"b",j,"=t",i,"[",blockBegin[i]+j,"]"].join(""))
-    }
-  }
-  for(var i=0; i<proc.scalarArgs.length; ++i) {
-    arglist.push("Y" + i)
-  }
-  if(proc.shapeArgs.length > 0) {
-    vars.push("shape=SS.slice(0)") // Makes the shape over which we iterate available to the user defined functions (so you can use width/height for example)
-  }
-  if(proc.indexArgs.length > 0) {
-    // Prepare an array to keep track of the (logical) indices, initialized to dimension zeroes.
-    var zeros = new Array(dimension)
-    for(var i=0; i<dimension; ++i) {
-      zeros[i] = "0"
-    }
-    vars.push(["index=[", zeros.join(","), "]"].join(""))
-  }
-  for(var i=0; i<proc.offsetArgs.length; ++i) { // Offset arguments used for stencil operations
-    var off_arg = proc.offsetArgs[i]
-    var init_string = []
-    for(var j=0; j<off_arg.offset.length; ++j) {
-      if(off_arg.offset[j] === 0) {
-        continue
-      } else if(off_arg.offset[j] === 1) {
-        init_string.push(["t", off_arg.array, "p", j].join(""))      
-      } else {
-        init_string.push([off_arg.offset[j], "*t", off_arg.array, "p", j].join(""))
-      }
-    }
-    if(init_string.length === 0) {
-      vars.push("q" + i + "=0")
-    } else {
-      vars.push(["q", i, "=", init_string.join("+")].join(""))
-    }
-  }
-
-  //Prepare this variables
-  var thisVars = uniq([].concat(proc.pre.thisVars)
-                      .concat(proc.body.thisVars)
-                      .concat(proc.post.thisVars))
-  vars = vars.concat(thisVars)
-  if (vars.length > 0) {
-    code.push("var " + vars.join(","))
-  }
-  for(var i=0; i<proc.arrayArgs.length; ++i) {
-    code.push("p"+i+"|=0")
-  }
-  
-  //Inline prelude
-  if(proc.pre.body.length > 3) {
-    code.push(processBlock(proc.pre, proc, dtypes))
-  }
-
-  //Process body
-  var body = processBlock(proc.body, proc, dtypes)
-  var matched = countMatches(loopOrders)
-  if(matched < dimension) {
-    code.push(outerFill(matched, loopOrders[0], proc, body)) // TODO: Rather than passing loopOrders[0], it might be interesting to look at passing an order that represents the majority of the arguments for example.
-  } else {
-    code.push(innerFill(loopOrders[0], proc, body))
-  }
-
-  //Inline epilog
-  if(proc.post.body.length > 3) {
-    code.push(processBlock(proc.post, proc, dtypes))
-  }
-  
-  if(proc.debug) {
-    console.log("-----Generated cwise routine for ", typesig, ":\n" + code.join("\n") + "\n----------")
-  }
-  
-  var loopName = [(proc.funcName||"unnamed"), "_cwise_loop_", orders[0].join("s"),"m",matched,typeSummary(dtypes)].join("")
-  var f = new Function(["function ",loopName,"(", arglist.join(","),"){", code.join("\n"),"} return ", loopName].join(""))
-  return f()
-}
-module.exports = generateCWiseOp
-
-
-/***/ }),
-/* 209 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function unique_pred(list, compare) {
-  var ptr = 1
-    , len = list.length
-    , a=list[0], b=list[0]
-  for(var i=1; i<len; ++i) {
-    b = a
-    a = list[i]
-    if(compare(a, b)) {
-      if(i === ptr) {
-        ptr++
-        continue
-      }
-      list[ptr++] = a
-    }
-  }
-  list.length = ptr
-  return list
-}
-
-function unique_eq(list) {
-  var ptr = 1
-    , len = list.length
-    , a=list[0], b = list[0]
-  for(var i=1; i<len; ++i, b=a) {
-    b = a
-    a = list[i]
-    if(a !== b) {
-      if(i === ptr) {
-        ptr++
-        continue
-      }
-      list[ptr++] = a
-    }
-  }
-  list.length = ptr
-  return list
-}
-
-function unique(list, compare, sorted) {
-  if(list.length === 0) {
-    return list
-  }
-  if(compare) {
-    if(!sorted) {
-      list.sort(compare)
-    }
-    return unique_pred(list, compare)
-  }
-  if(!sorted) {
-    list.sort()
-  }
-  return unique_eq(list)
-}
-
-module.exports = unique
-
-
-/***/ }),
-/* 210 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var ndarray = __webpack_require__(39)
-var ops = __webpack_require__(94)
-var pool = __webpack_require__(40)
-
-function clone(array) {
-  var dtype = array.dtype
-  if(dtype === "generic" || dtype === "array") {
-    dtype = "double"
-  }
-  var data = pool.malloc(array.size, dtype)
-  var result = ndarray(data, array.shape)
-  ops.assign(result, array)
-  return result
-}
-exports.clone = clone
-
-function malloc(shape, dtype) {
-  if(!dtype) {
-    dtype = "double"
-  }
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(var i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  return ndarray(pool.malloc(sz, dtype), shape, stride, 0)
-}
-exports.malloc = malloc
-
-function free(array) {
-  if(array.dtype === "generic" || array.dtype === "array") {
-    return
-  }
-  pool.free(array.data)
-}
-exports.free = free
-
-function zeros(shape, dtype) {
-  if(!dtype) {
-    dtype = "double"
-  }
-
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(var i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  var buf = pool.malloc(sz, dtype)
-  for(var i=0; i<sz; ++i) {
-    buf[i] = 0
-  }
-  return ndarray(buf, shape, stride, 0)
-}
-exports.zeros = zeros
-
-function ones(shape, dtype) {
-  if(!dtype) {
-    dtype = "double"
-  }
-
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(var i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  var buf = pool.malloc(sz, dtype)
-  for(var i=0; i<sz; ++i) {
-    buf[i] = 1
-  }
-  return ndarray(buf, shape, stride, 0)
-}
-exports.ones = ones
-
-function eye(shape, dtype) {
-  var i, offset
-  if(!dtype) {
-    dtype = "double"
-  }
-
-  var sz = 1
-  var stride = new Array(shape.length)
-  for(i=shape.length-1; i>=0; --i) {
-    stride[i] = sz
-    sz *= shape[i]
-  }
-  var buf = pool.malloc(sz, dtype)
-  for(i=0; i<sz; ++i) {
-    buf[i] = 0
-  }
-  var mindim = Infinity
-  var offsum = 0
-  for( i=shape.length-1; i>=0; i--) {
-    offsum += stride[i]
-    mindim = Math.min(mindim,shape[i])
-  }
-  for(i=0,offset=0; i<mindim; i++,offset+=offsum) {
-    buf[offset] = 1
-  }
-  return ndarray(buf, shape, stride, 0)
-}
-exports.eye = eye
-
-
-/***/ }),
-/* 211 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function dupe_array(count, value, i) {
-  var c = count[i]|0
-  if(c <= 0) {
-    return []
-  }
-  var result = new Array(c), j
-  if(i === count.length-1) {
-    for(j=0; j<c; ++j) {
-      result[j] = value
-    }
-  } else {
-    for(j=0; j<c; ++j) {
-      result[j] = dupe_array(count, value, i+1)
-    }
-  }
-  return result
-}
-
-function dupe_number(count, value) {
-  var result, i
-  result = new Array(count)
-  for(i=0; i<count; ++i) {
-    result[i] = value
-  }
-  return result
-}
-
-function dupe(count, value) {
-  if(typeof value === "undefined") {
-    value = 0
-  }
-  switch(typeof count) {
-    case "number":
-      if(count > 0) {
-        return dupe_number(count|0, value)
-      }
-    break
-    case "object":
-      if(typeof (count.length) === "number") {
-        return dupe_array(count, value, 0)
-      }
-    break
-  }
-  return []
-}
-
-module.exports = dupe
-
-/***/ }),
-/* 212 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var bits = __webpack_require__(213)
-
-function rootInorder(n) {
-  var ptree = (bits.nextPow2(n+1)>>>1) - 1
-  var f     = n - ptree
-  if(bits.nextPow2(f)-1 >= ptree) {
-    return ptree
-  }
-  return (ptree>>>1)+f
-}
-exports.root = rootInorder
-
-function beginInorder(n) {
-  return 0
-}
-exports.begin = beginInorder
-
-function endInorder(n) {
-  return n-1
-}
-exports.end = endInorder
-
-
-//This is really horrible because n is not necessarily a power of 2
-// If it was, we could just do:
-//
-//    height = bits.countTrailingZeros(~x)
-//
-// Instead, we just binary search because doing the right thing here is way too complicated.
-function heightInorder(n, x) {
-  if(n <= 0) {
-    return 0
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    return heightInorder(n-r-1, x-r-1)
-  } else if(x === r) {
-    return bits.log2(n)
-  }
-  return heightInorder(r, x)
-}
-exports.height = heightInorder
-
-function prevInorder(n, x) {
-  return Math.max(x-1,0)
-}
-exports.prev = prevInorder
-
-function nextInorder(n, x) {
-  return Math.min(x+1,n-1)
-}
-exports.next = nextInorder
-
-
-//The version for n = (1<<k)-1:
-//
-//  parent = (x & ~(1<<(h+1))) + (1<<h)
-//
-function parentInorder(n, x) {
-  if(n <= 0) {
-    return -1
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    var q = parentInorder(n-r-1, x-r-1)
-    if(q < 0) {
-      return r
-    } else {
-      return q + r + 1
-    }
-  } else if(x === r) {
-    return -1
-  }
-  var q =  parentInorder(r, x)
-  if(q < 0) {
-    return r
-  }
-  return q
-}
-exports.parent = parentInorder
-
-
-//Again, we get screwed because n is not a power of two -1.  If it was, we could do:
-//
-//    left = x - (1 << (h-1) )
-//
-// Where h is the height of the node
-//
-function leftInorder(n, x) {
-  if(n <= 0) {
-    return 0
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    return leftInorder(n-r-1, x-r-1) + r + 1
-  } else if(x === r) {
-    return rootInorder(x)
-  }
-  return leftInorder(r, x)
-
-}
-exports.left = leftInorder
-
-//for power of two minus one:
-//
-//    right = x + (1<<(h-1))
-//
-function rightInorder(n, x) {
-  if(n <= 0) {
-    return 0
-  }
-  var r = rootInorder(n)
-  if(x > r) {
-    return rightInorder(n-r-1, x-r-1) + r + 1
-  } else if(x === r) {
-    return rootInorder(n-r-1) + r + 1
-  }
-  return rightInorder(r, x)
-}
-exports.right = rightInorder
-
-
-function leafInorder(n, x) {
-  return heightInorder(n, x) === 0
-}
-exports.leaf = leafInorder
-
-
-function loInorder(n, x) {
-  n |= 0
-  x |= 0
-  var l = 0
-  while(n > 1) {
-    var r = rootInorder(n)
-    if(x > r) {
-      l += r + 1
-      n -= r + 1
-      x -= r + 1
-    } else if(x === r) {
-      break
-    } else {
-      n = r
-    }
-  }
-  return l
-}
-exports.lo = loInorder
-
-function hiInorder(n, x) {
-  n |= 0
-  x |= 0
-  var l = 0
-  while(n > 1) {
-    var r = rootInorder(n)
-    if(x > r) {
-      l += r + 1
-      n -= r + 1
-      x -= r + 1
-    } else if(x === r) {
-      l += n-1
-      break
-    } else {
-      n = r
-    }
-  }
-  return l
-}
-exports.hi = hiInorder
-
-
-/***/ }),
-/* 213 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/**
- * Bit twiddling hacks for JavaScript.
- *
- * Author: Mikola Lysenko
- *
- * Ported from Stanford bit twiddling hack library:
- *    http://graphics.stanford.edu/~seander/bithacks.html
- */
-
- "use restrict";
-
-//Number of bits in an integer
-var INT_BITS = 32;
-
-//Constants
-exports.INT_BITS  = INT_BITS;
-exports.INT_MAX   =  0x7fffffff;
-exports.INT_MIN   = -1<<(INT_BITS-1);
-
-//Returns -1, 0, +1 depending on sign of x
-exports.sign = function(v) {
-  return (v > 0) - (v < 0);
-}
-
-//Computes absolute value of integer
-exports.abs = function(v) {
-  var mask = v >> (INT_BITS-1);
-  return (v ^ mask) - mask;
-}
-
-//Computes minimum of integers x and y
-exports.min = function(x, y) {
-  return y ^ ((x ^ y) & -(x < y));
-}
-
-//Computes maximum of integers x and y
-exports.max = function(x, y) {
-  return x ^ ((x ^ y) & -(x < y));
-}
-
-//Checks if a number is a power of two
-exports.isPow2 = function(v) {
-  return !(v & (v-1)) && (!!v);
-}
-
-//Computes log base 2 of v
-exports.log2 = function(v) {
-  var r, shift;
-  r =     (v > 0xFFFF) << 4; v >>>= r;
-  shift = (v > 0xFF  ) << 3; v >>>= shift; r |= shift;
-  shift = (v > 0xF   ) << 2; v >>>= shift; r |= shift;
-  shift = (v > 0x3   ) << 1; v >>>= shift; r |= shift;
-  return r | (v >> 1);
-}
-
-//Computes log base 10 of v
-exports.log10 = function(v) {
-  return  (v >= 1000000000) ? 9 : (v >= 100000000) ? 8 : (v >= 10000000) ? 7 :
-          (v >= 1000000) ? 6 : (v >= 100000) ? 5 : (v >= 10000) ? 4 :
-          (v >= 1000) ? 3 : (v >= 100) ? 2 : (v >= 10) ? 1 : 0;
-}
-
-//Counts number of bits
-exports.popCount = function(v) {
-  v = v - ((v >>> 1) & 0x55555555);
-  v = (v & 0x33333333) + ((v >>> 2) & 0x33333333);
-  return ((v + (v >>> 4) & 0xF0F0F0F) * 0x1010101) >>> 24;
-}
-
-//Counts number of trailing zeros
-function countTrailingZeros(v) {
-  var c = 32;
-  v &= -v;
-  if (v) c--;
-  if (v & 0x0000FFFF) c -= 16;
-  if (v & 0x00FF00FF) c -= 8;
-  if (v & 0x0F0F0F0F) c -= 4;
-  if (v & 0x33333333) c -= 2;
-  if (v & 0x55555555) c -= 1;
-  return c;
-}
-exports.countTrailingZeros = countTrailingZeros;
-
-//Rounds to next power of 2
-exports.nextPow2 = function(v) {
-  v += v === 0;
-  --v;
-  v |= v >>> 1;
-  v |= v >>> 2;
-  v |= v >>> 4;
-  v |= v >>> 8;
-  v |= v >>> 16;
-  return v + 1;
-}
-
-//Rounds down to previous power of 2
-exports.prevPow2 = function(v) {
-  v |= v >>> 1;
-  v |= v >>> 2;
-  v |= v >>> 4;
-  v |= v >>> 8;
-  v |= v >>> 16;
-  return v - (v>>>1);
-}
-
-//Computes parity of word
-exports.parity = function(v) {
-  v ^= v >>> 16;
-  v ^= v >>> 8;
-  v ^= v >>> 4;
-  v &= 0xf;
-  return (0x6996 >>> v) & 1;
-}
-
-var REVERSE_TABLE = new Array(256);
-
-(function(tab) {
-  for(var i=0; i<256; ++i) {
-    var v = i, r = i, s = 7;
-    for (v >>>= 1; v; v >>>= 1) {
-      r <<= 1;
-      r |= v & 1;
-      --s;
-    }
-    tab[i] = (r << s) & 0xff;
-  }
-})(REVERSE_TABLE);
-
-//Reverse bits in a 32 bit word
-exports.reverse = function(v) {
-  return  (REVERSE_TABLE[ v         & 0xff] << 24) |
-          (REVERSE_TABLE[(v >>> 8)  & 0xff] << 16) |
-          (REVERSE_TABLE[(v >>> 16) & 0xff] << 8)  |
-           REVERSE_TABLE[(v >>> 24) & 0xff];
-}
-
-//Interleave bits of 2 coordinates with 16 bits.  Useful for fast quadtree codes
-exports.interleave2 = function(x, y) {
-  x &= 0xFFFF;
-  x = (x | (x << 8)) & 0x00FF00FF;
-  x = (x | (x << 4)) & 0x0F0F0F0F;
-  x = (x | (x << 2)) & 0x33333333;
-  x = (x | (x << 1)) & 0x55555555;
-
-  y &= 0xFFFF;
-  y = (y | (y << 8)) & 0x00FF00FF;
-  y = (y | (y << 4)) & 0x0F0F0F0F;
-  y = (y | (y << 2)) & 0x33333333;
-  y = (y | (y << 1)) & 0x55555555;
-
-  return x | (y << 1);
-}
-
-//Extracts the nth interleaved component
-exports.deinterleave2 = function(v, n) {
-  v = (v >>> n) & 0x55555555;
-  v = (v | (v >>> 1))  & 0x33333333;
-  v = (v | (v >>> 2))  & 0x0F0F0F0F;
-  v = (v | (v >>> 4))  & 0x00FF00FF;
-  v = (v | (v >>> 16)) & 0x000FFFF;
-  return (v << 16) >> 16;
-}
-
-
-//Interleave bits of 3 coordinates, each with 10 bits.  Useful for fast octree codes
-exports.interleave3 = function(x, y, z) {
-  x &= 0x3FF;
-  x  = (x | (x<<16)) & 4278190335;
-  x  = (x | (x<<8))  & 251719695;
-  x  = (x | (x<<4))  & 3272356035;
-  x  = (x | (x<<2))  & 1227133513;
-
-  y &= 0x3FF;
-  y  = (y | (y<<16)) & 4278190335;
-  y  = (y | (y<<8))  & 251719695;
-  y  = (y | (y<<4))  & 3272356035;
-  y  = (y | (y<<2))  & 1227133513;
-  x |= (y << 1);
-  
-  z &= 0x3FF;
-  z  = (z | (z<<16)) & 4278190335;
-  z  = (z | (z<<8))  & 251719695;
-  z  = (z | (z<<4))  & 3272356035;
-  z  = (z | (z<<2))  & 1227133513;
-  
-  return x | (z << 2);
-}
-
-//Extracts nth interleaved component of a 3-tuple
-exports.deinterleave3 = function(v, n) {
-  v = (v >>> n)       & 1227133513;
-  v = (v | (v>>>2))   & 3272356035;
-  v = (v | (v>>>4))   & 251719695;
-  v = (v | (v>>>8))   & 4278190335;
-  v = (v | (v>>>16))  & 0x3FF;
-  return (v<<22)>>22;
-}
-
-//Computes next combination in colexicographic order (this is mistakenly called nextPermutation on the bit twiddling hacks page)
-exports.nextCombination = function(v) {
-  var t = v | (v - 1);
-  return (t + 1) | (((~t & -~t) - 1) >>> (countTrailingZeros(v) + 1));
-}
-
-
-
-/***/ }),
-/* 214 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = KDTHeap
-
-var pool = __webpack_require__(40)
-
-function heapParent(i) {
-  if(i & 1) {
-    return (i - 1) >> 1
-  }
-  return (i >> 1) - 1
-}
-
-function KDTHeap(n, d) {
-  this.count = 0
-  this.dataSize = d
-  this.index = pool.mallocInt32(n)
-  this.data = pool.mallocFloat64(n*d)
-}
-
-var proto = KDTHeap.prototype
-
-proto.heapSwap = function(_i,_j) {
-  var data = this.data
-  var index = this.index
-  var d = this.dataSize
-  var tmp = index[_i]
-  index[_i] = index[_j]
-  index[_j] = tmp
-  var aptr = d*_i
-  var bptr = d*_j
-  for(var _k=0; _k<d; ++_k) {
-    var t2 = data[aptr]
-    data[aptr] = data[bptr]
-    data[bptr] = t2
-    aptr += 1
-    bptr += 1
-  }
-}
-
-proto.heapUp = function(i) {
-  var d = this.dataSize
-  var index = this.index
-  var data = this.data
-  var w = data[d*i]
-  while(i>0) {
-    var parent = heapParent(i)
-    if(parent >= 0) {
-      var pw = data[d*parent]
-      if(w < pw) {
-        this.heapSwap(i, parent)
-        i = parent
-        continue
-      }
-    }
-    break
-  }
-}
-
-proto.heapDown = function(i) {
-  var d = this.dataSize
-  var index = this.index
-  var data = this.data
-  var count = this.count
-  var w = data[d*i]
-  while(true) {
-    var tw = w
-    var left  = 2*i + 1
-    var right = 2*(i + 1)
-    var next = i
-    if(left < count) {
-      var lw = data[d*left]
-      if(lw < tw) {
-        next = left
-        tw = lw
-      }
-    }
-    if(right < count) {
-      var rw = data[d*right]
-      if(rw < tw) {
-        next = right
-      }
-    }
-    if(next === i) {
-      break
-    }
-    this.heapSwap(i, next)
-    i = next      
-  }
-}
-
-//Clear item from top of heap
-proto.pop = function() {
-  this.count -= 1
-  this.heapSwap(0, this.count)
-  this.heapDown(0)
-}
-
-//Assume object already written to data
-proto.push = function() {
-  this.heapUp(this.count)
-  this.count += 1
-}
-
-proto.dispose = function() {
-  pool.freeInt32(this.index)
-  pool.freeFloat64(this.data)
-}
-
-/***/ }),
-/* 215 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const terra_1 = __webpack_require__(38);
-class TriTerra extends terra_1.Terra {
-    deriveGridSize() {
-        let S = this.cellsize;
-        let H = this.cellsize * Math.sin(Math.PI / 3);
-        this.nrows = Math.ceil(this.height / H) - 1;
-        this.ncols = 2 * Math.ceil(this.width / S) - 2;
-    }
-    deriveTerraDimensions() {
-        let S = this.cellsize;
-        let H = this.cellsize * Math.sin(Math.PI / 3);
-        this.width = (this.ncols + 2) * S / 2;
-        this.height = (this.nrows + 1) * H;
-    }
-    getNeighbors(row, col) {
-        let neighbors;
-        let nrows = this.nrows;
-        let ncols = this.ncols;
-        if ((row + col) % 2) {
-            neighbors = [
-                [row, col - 1],
-                [row, col + 1],
-                [row + 1, col]
-            ];
-        }
-        else {
-            neighbors = [
-                [row - 1, col],
-                [row, col - 1],
-                [row, col + 1]
-            ];
-        }
-        return neighbors.filter(([row, col]) => {
-            return row >= 0 && row < nrows && col >= 0 && col < ncols;
-        });
-    }
-    isValidCellCoord(coord) {
-        coord;
-        return true; // TODO
-    }
-    distanceManhattan(a, b) {
-        return Math.abs(b[0] - a[0]) + Math.abs(b[1] - a[1]);
-    }
-    heuristic(from, to) {
-        return this.distanceManhattan(from, to);
-    }
-    getCellCenter(row, col) {
-        console.error('Not implemented');
-        return [row, col];
-    }
-    getCellCorners(i, j) {
-        let S = this.cellsize;
-        let H = S * Math.sin(Math.PI / 3);
-        if ((i + j) % 2) {
-            // Flat-side down triangle
-            return [
-                [j * S / 2 + S / 2, i * H],
-                [(j - 1) * S / 2 + S / 2, (i + 1) * H],
-                [(j + 1) * S / 2 + S / 2, (i + 1) * H],
-            ];
-        }
-        else {
-            // Flat-side up triangle
-            return [
-                [(j - 1) * S / 2 + S / 2, i * H],
-                [(j + 1) * S / 2 + S / 2, i * H],
-                [j * S / 2 + S / 2, (i + 1) * H]
-            ];
-        }
-    }
-}
-exports.TriTerra = TriTerra;
-
-
-/***/ }),
-/* 216 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const terra_1 = __webpack_require__(38);
-class HexTerra extends terra_1.Terra {
-    constructor(spec) {
-        super(spec);
-    }
-    get radiusInner() {
-        return this.cellsize * Math.sin(Math.PI / 3);
-    }
-    get radiusOuter() {
-        return this.cellsize;
-    }
-    deriveGridSize() {
-        let s = this.cellsize;
-        let h = s * Math.cos(Math.PI / 3);
-        let W = this.width;
-        let H = this.height;
-        this.ncols = Math.floor((W / s) * (2 / 3) + 1);
-        this.nrows = Math.ceil((H / (2 * h)) + 1);
-    }
-    deriveTerraDimensions() {
-        throw new Error('Not implemented');
-    }
-    getCellCenter(row, col) {
-        let s = this.cellsize;
-        let h = s * Math.cos(Math.PI / 6);
-        let cx, cy;
-        if (col % 2) {
-            cx = (0.5 + col + Math.floor(col / 2)) * s;
-            cy = (2 * row + 1) * h;
-        }
-        else {
-            cx = (3 * col / 2) * s;
-            cy = 2 * row * h;
-        }
-        return [cx, cy];
-    }
-    getCellCorners(row, col) {
-        let s = this.cellsize;
-        let h = s * Math.cos(Math.PI / 6);
-        let [cx, cy] = this.getCellCenter(row, col);
-        return [
-            [cx + s, cy],
-            [cx + s / 2, cy + h],
-            [cx - s / 2, cy + h],
-            [cx - s, cy],
-            [cx - s / 2, cy - h],
-            [cx + s / 2, cy - h]
-        ];
-    }
-    distanceManhattan(a, b) {
-        return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
-    }
-    isValidCellCoord(coord) {
-        let [row, col] = coord;
-        // Row min check
-        if (row < 0) {
-            return false;
-        }
-        // Row max check
-        if (col % 2) {
-            if (row >= this.nrows - 1) {
-                return false;
-            }
-        }
-        else {
-            if (row >= this.nrows) {
-                return false;
-            }
-        }
-        // Column min check
-        if (col < 0) {
-            return false;
-        }
-        // Column max check
-        if (col >= this.ncols) {
-            return false;
-        }
-        return true;
-    }
-    getNeighbors(row, col) {
-        let neighbors = [
-            [row + 1, col],
-            [row - 1, col]
-        ];
-        if (col % 2) {
-            neighbors.push([row, col - 1]);
-            neighbors.push([row + 1, col - 1]);
-            neighbors.push([row, col + 1]);
-            neighbors.push([row + 1, col + 1]);
-        }
-        else {
-            neighbors.push([row - 1, col - 1]);
-            neighbors.push([row, col - 1]);
-            neighbors.push([row - 1, col + 1]);
-            neighbors.push([row, col + 1]);
-        }
-        return neighbors.filter(coord => {
-            return this.isValidCellCoord(coord);
-        });
-    }
-    heuristic(from, to) {
-        return this.distanceManhattan(from, to);
-    }
-}
-exports.HexTerra = HexTerra;
-
-
-/***/ }),
-/* 217 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Fountain {
-    constructor(
-        // location of the fountain
-        cell, 
-        // When a fountain achieves divinity, the game is over
-        divinityPeriod, // in seconds
-        // Amount of spirit the fountain starts with.
-        // Striking minions will diminish this spirit.
-        // Passage of time will replenish it.
-        baseSpirit, 
-        // Total spirit required for divinity
-        spiritGoal, 
-        // The fountain generates spirit in order to reach divinity. The rate of
-        // spirit generation is spiritGoal/divinityPeriod
-        // The fountain loses spirit for every enemy actor that attacks it
-        spiritLossPerAttack, radius, sprite, onDivinity, onDestruction) {
-        this.cell = cell;
-        this.divinityPeriod = divinityPeriod;
-        this.baseSpirit = baseSpirit;
-        this.spiritGoal = spiritGoal;
-        this.spiritLossPerAttack = spiritLossPerAttack;
-        this.radius = radius;
-        this.sprite = sprite;
-        this.onDivinity = onDivinity;
-        this.onDestruction = onDestruction;
-        this.spirit = this.baseSpirit;
-        this.spiritGainSteps = 100;
-    }
-    sufferAttack(minion) {
-        // A weaker minion will impart lesser damage to fountain on attack
-        let minionStrength = minion.health / minion.maxhealth;
-        let spiritLoss = this.spiritLossPerAttack * minionStrength;
-        this.spirit -= spiritLoss;
-        this.updateDisplay();
-        if (this.spirit < 0) {
-            this.onDestruction();
-        }
-    }
-    updateDisplay() {
-        let frac = (this.spirit - this.baseSpirit) / this.spiritGoal;
-        let red, green, blue;
-        if (frac > 0) {
-            red = Math.round((1 - frac) * 255);
-            green = 255;
-            blue = Math.round((1 - frac) * 255);
-        }
-        else {
-            frac = Math.abs(frac);
-            red = 255;
-            green = Math.round((1 - frac) * 255);
-            blue = Math.round((1 - frac) * 255);
-        }
-        this.sprite.tint = red << 16 | green << 8 | blue;
-    }
-    gainSpirit() {
-        this.spirit += (this.spiritGoal - this.baseSpirit) / this.spiritGainSteps;
-        this.updateDisplay();
-        if (this.spirit >= this.spiritGoal) {
-            this.onDivinity();
-        }
-    }
-}
-exports.Fountain = Fountain;
-
-
-/***/ }),
-/* 218 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
-exports.PXC_META_REGEX = /pxc_meta_(\w+)/;
-exports.PXC_META_SPAWN_REGEX = /pxc_meta_spawn(\d+)/;
-
-
-/***/ }),
-/* 219 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Spawner {
-    constructor(cell, level, interval, // time between spawn (in seconds)
-        rate) {
-        this.cell = cell;
-        this.level = level;
-        this.interval = interval;
-        this.rate = rate;
-    }
-    recomputePath() {
-        let terrain = this.level.terra;
-        let source = this.cell;
-        let target = this.level.fountain.cell;
-        this.pathFromSource = terrain
-            .searchPath(source, target, 'bfs')
-            .map(c => terrain.getCellCenter(c[0], c[1]));
-    }
-    pathcopy() {
-        if (!this.pathFromSource) {
-            this.recomputePath();
-        }
-        return JSON.parse(JSON.stringify(this.pathFromSource));
-    }
-}
-exports.Spawner = Spawner;
-
-
-/***/ }),
-/* 220 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Animator {
-    constructor() {
-        this._queue = [];
-    }
-    add(animation) {
-        this._queue.push(animation);
-    }
-    tick(tstamp) {
-        // Process animations
-        for (let i = 0; i < this._queue.length; i++) {
-            let anim = this._queue[i];
-            if (!anim.isStarted()) {
-                anim.start(tstamp);
-            }
-            anim.eval(tstamp);
-            if (anim.isPastEnd(tstamp)) {
-                anim.end();
-                this._queue.splice(i, 1);
-                i--;
-            }
-        }
-    }
-}
-exports.Animator = Animator;
-
-
-/***/ }),
-/* 221 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const minion_1 = __webpack_require__(97);
-const tower_1 = __webpack_require__(96);
-class CollisionSystem {
-    constructor() {
-        this.minions = [];
-        this.towers = [];
-        this.inRangePairs = {};
-    }
-    addMember(member) {
-        if (member instanceof minion_1.Minion) {
-            this.minions.push(member);
-        }
-        else if (member instanceof tower_1.Tower) {
-            this.towers.push(member);
-        }
-    }
-    analyse() {
-        for (let mi = 0; mi < this.minions.length; mi++) {
-            let minion = this.minions[mi];
-            let [mx, my] = minion.position;
-            let mr = 0;
-            for (let ti = 0; ti < this.towers.length; ti++) {
-                let tower = this.towers[ti];
-                let [tx, ty] = tower.position;
-                let tr = tower.fireRange;
-                let dx = tx - mx;
-                let dy = ty - my;
-                let pairId = minion.uid + '-' + tower.uid;
-                if (dx * dx + dy * dy < (mr + tr) * (mr + tr)) {
-                    if (!this.inRangePairs.hasOwnProperty(pairId)) {
-                        // not in range already
-                        tower.onCollisionStart(minion);
-                        minion.onCollisionStart(tower);
-                        this.inRangePairs[pairId] = 1;
-                    }
-                }
-                else {
-                    if (this.inRangePairs.hasOwnProperty(pairId)) {
-                        tower.onCollisionEnd(minion);
-                        minion.onCollisionEnd(tower);
-                        delete this.inRangePairs[pairId];
-                    }
-                }
-            }
-        }
-    }
-}
-exports.CollisionSystem = CollisionSystem;
-
-
-/***/ }),
-/* 222 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(9);
-class HUD {
-    constructor(level) {
-        this.level = level;
-        this.div = document.createElement('div');
-        this.div.setAttribute('id', 'hud');
-        this.div.style.width = level.app.view.width + 'px';
-        this.div.style.height = '20px';
-        this.div.style.position = 'absolute';
-        this.div.style.bottom = '0px';
-        this.div.style.left = '50%';
-        this.div.style.fontFamily = 'monospace';
-        this.div.style.marginLeft = (-level.app.view.width / 2) + 'px';
-        this.updateTimer = new helper_1.Timer(3000, () => {
-            this.update();
-        });
-    }
-    update() {
-        let stats = this.level.stats;
-        let f = this.level.fountain;
-        let progress = (f.spirit - f.baseSpirit) * 100 / f.baseSpirit;
-        let progressColor = (progress < 0) ? '#ff0000' : '#00ff00';
-        let progressText = (progress < 0) ?
-            `Destruction ${Math.abs(Math.round(progress))}%` :
-            `Divinity ${Math.abs(Math.round(progress))}%`;
-        let progressSpan = `<span id="progress-status" style="color:${progressColor};font-weight:bold;font-size:15px;font-family:serif">${progressText}</span>`;
-        let timeSpent = (Date.now().valueOf() - stats.startTime) / 1000;
-        if (timeSpent > 60) {
-            timeSpent = Math.round(timeSpent / 60) + 'm';
-        }
-        else if (timeSpent > 60 * 60) {
-            let minutes = Math.round(timeSpent / 60);
-            timeSpent = Math.round(minutes / 60) + 'h' + (minutes % 60) + 'm';
-        }
-        else {
-            timeSpent = Math.round(timeSpent) + 's';
-        }
-        /*
-        <span id="spawned-minions-count" style="color:#555555">
-        Spawned ${stats.spawnedMinionCount}
-        </span>
-        <span id="dead-minions-count" style="color:#994444">
-        Dead ${stats.deadMinionCount}
-        </span>
-        <span id="ammo-fired" style="color:#ff8800">
-        Ammo fired ${stats.ammoFired}
-        </span>
-        &nbsp;
-        &nbsp;
-        */
-        this.div.innerHTML = `
-    ${progressSpan}
-    &nbsp;
-    &nbsp;
-    <span id="time-spent" style="color:#444444">
-    ${timeSpent}
-    </span>
-    `;
-    }
-    tick(t) {
-        this.updateTimer.tick(t);
-    }
-}
-exports.HUD = HUD;
-
-
-/***/ }),
-/* 223 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const pixi = __webpack_require__(18);
-const howler = __webpack_require__(224);
-const helper_1 = __webpack_require__(9);
-const PXC_LAYER_REGEX = /pxc_layer_(\w+)/;
-const actor_1 = __webpack_require__(23);
-class AssetManager {
-    constructor() {
-        this.sounds = {};
-    }
-    hideAllLayersInSVG() {
-        let layers = this.svgroot.children;
-        // Hide all layers
-        for (let i = 0; i < layers.length; i++) {
-            let layer = layers[i];
-            let label = layer.getAttribute('inkscape:label');
-            if (label && PXC_LAYER_REGEX.test(label)) {
-                layer.style.display = 'none'; // hide all layers
-            }
-        }
-    }
-    loadFromSVG(svgmarkup) {
-        this.svgmarkup = svgmarkup;
-        this.createOffscreenSVGDiv(svgmarkup);
-        this.spriteBoxes = {};
-        this.spriteCanvases = {};
-        this.metadata = {};
-        this.layerMap = {};
-        this.svgroot = document.body.querySelector('svg');
-        let layers = this.svgroot.children;
-        let pxc_layers = [];
-        for (let i = 0; i < layers.length; i++) {
-            this.hideAllLayersInSVG();
-            // Turn only i-th layer visible
-            let layer = layers[i];
-            let label = layer.getAttribute('inkscape:label');
-            if (label && PXC_LAYER_REGEX.test(label)) {
-                let layername = PXC_LAYER_REGEX.exec(label)[1];
-                layer.style.display = 'inline'; // TODO: test if this's necessary
-                this.spriteBoxes[layername] = {};
-                this.metadata[layername] = {};
-                pxc_layers.push(layer);
-                this.layerMap[layername] = layer;
-                this.extractSpriteBoxesForLayer(layer, layername);
-            }
-        }
-        ;
-        return new Promise((allspritesready) => {
-            let lidx = 0;
-            let sidx = 0;
-            let extractSpritesFromLayer = () => {
-                return new Promise((resolve) => {
-                    let layer = pxc_layers[lidx];
-                    let label = layer.getAttribute('inkscape:label');
-                    let layername = PXC_LAYER_REGEX.exec(label)[1];
-                    if (!this.spriteCanvases[layername]) {
-                        this.spriteCanvases[layername] = {};
-                    }
-                    // Only display current layer, hide all other layers
-                    this.hideAllLayersInSVG();
-                    layer.style.display = 'inline';
-                    // Hide all sprites in this layer
-                    for (let si = 0; si < layer.children.length; si++) {
-                        if (si !== sidx) {
-                            layer.children[si].style.display = 'none';
-                        }
-                        else {
-                            layer.children[si].style.display = 'inline';
-                        }
-                    }
-                    let svgmarkup = layer.parentElement.parentElement.innerHTML;
-                    helper_1.svgToCanvas(svgmarkup).then((canvas) => {
-                        let key = layer.children[sidx].getAttribute('inkscape:label');
-                        let box = this.spriteBoxes[layername][key];
-                        // Create canvas for the sprite
-                        let spriteCan = document.createElement('canvas');
-                        spriteCan.width = box.width;
-                        spriteCan.height = box.height;
-                        let spriteCtx = spriteCan.getContext('2d');
-                        spriteCtx.drawImage(canvas, box.left, box.top, box.width, box.height, 0, 0, box.width, box.height);
-                        this.spriteCanvases[layername][key] = spriteCan;
-                        // Extract metadata of this sprite
-                        let desc = layer.children[sidx].querySelector('desc');
-                        if (desc) {
-                            this.metadata[layername][key] = JSON.parse(desc.textContent || '{}');
-                        }
-                        else {
-                            this.metadata[layername][key] = {};
-                        }
-                        if (sidx >= layer.children.length - 1) {
-                            // Next layer
-                            lidx++;
-                            sidx = 0;
-                        }
-                        else {
-                            // Next sprite in current layer
-                            sidx++;
-                        }
-                        if (lidx < pxc_layers.length) {
-                            resolve();
-                        }
-                        else {
-                            allspritesready();
-                        }
-                    });
-                }).then(() => {
-                    return extractSpritesFromLayer();
-                });
-            };
-            extractSpritesFromLayer();
-        });
-    }
-    createOffscreenSVGDiv(svgmarkup) {
-        let svgDiv = document.createElement('div');
-        svgDiv.setAttribute('id', 'svg-wrapper');
-        svgDiv.style.position = 'absolute';
-        svgDiv.style.left = '-10000px';
-        svgDiv.style.top = '0px';
-        svgDiv.innerHTML = svgmarkup;
-        document.body.appendChild(svgDiv);
-        let svg = svgDiv.querySelector('svg');
-        this.docWidth = parseInt(svg.getAttribute('width'));
-        this.docHeight = parseInt(svg.getAttribute('height'));
-    }
-    extractSpriteBoxesForLayer(layer, name) {
-        layer.style.display = 'inline';
-        let { left: offsetX, top: offsetY } = this.svgroot.getBoundingClientRect();
-        for (let j = 0; j < layer.children.length; j++) {
-            let spriteG = layer.children[j];
-            let { left, top, width, height } = spriteG.getBoundingClientRect();
-            let spriteName = spriteG.getAttribute('inkscape:label');
-            console.assert(spriteName);
-            this.spriteBoxes[name][spriteName] = {
-                left: left - offsetX,
-                top: top - offsetY,
-                width,
-                height
-            };
-        }
-    }
     loadSounds() {
         return Promise.all([
             new Promise((resolve) => {
                 this.sounds['tower-fire'] = new howler.Howl({
-                    src: ['assets/tower-fire.mp3'],
+                    src: [ASSET_DIR + 'tower-fire.mp3'],
                     volume: 0.3,
                     loop: false,
                     autoplay: false,
@@ -46084,7 +44279,7 @@ class AssetManager {
             }),
             new Promise((resolve) => {
                 this.sounds['background-beat'] = new howler.Howl({
-                    src: ['assets/background-beat.mp3'],
+                    src: [ASSET_DIR + 'background-beat.mp3'],
                     volume: 0.5,
                     loop: true,
                     autoplay: false,
@@ -46098,43 +44293,50 @@ class AssetManager {
     getSound(key) {
         return this.sounds[key];
     }
-    createActor(layername) {
+    fetchActorSprites(layername) {
         let spriteActionGroups = {};
-        let storeSpriteCanvas = (key, canvas) => {
-            console.assert(/(\w+)(\d+)/.test(key));
-            let match = /(\w+)(\d+)/.exec(key);
+        let storeSpriteCanvas = (key, texture) => {
+            console.assert(constants_1.ACTION_NAME_REGEX.test(key));
+            let match = constants_1.ACTION_NAME_REGEX.exec(key);
             let action = match[1];
             let sequence = parseInt(match[2]);
             if (!spriteActionGroups[action]) {
                 spriteActionGroups[action] = [];
             }
             spriteActionGroups[action].push({
-                index: sequence,
-                canvas: canvas
+                index: isNaN(sequence) ? undefined : sequence,
+                texture: texture
             });
         };
-        let spriteCanvases = this.spriteCanvases[layername];
-        for (let key in spriteCanvases) {
-            storeSpriteCanvas(key, spriteCanvases[key]);
+        let spriteTextures = this.spriteTextures[layername];
+        for (let key in spriteTextures) {
+            storeSpriteCanvas(key, spriteTextures[key]);
         }
         let actorSprites = {};
         for (let action in spriteActionGroups) {
             let actionGroup = spriteActionGroups[action];
-            actionGroup.sort((a, b) => a.index - b.index);
-            let frames = actionGroup.map((entry) => {
-                return pixi.Texture.fromCanvas(entry.canvas);
-            });
-            let animSprite = new pixi.extras.AnimatedSprite(frames);
-            animSprite.play();
-            animSprite.animationSpeed = 0.2;
-            actorSprites[action] = animSprite;
+            if (actionGroup.length > 1) {
+                actionGroup.sort((a, b) => a.index - b.index);
+                let frames = actionGroup.map((entry) => entry.texture);
+                let animSprite = new pixi.extras.AnimatedSprite(frames);
+                animSprite.play();
+                animSprite.animationSpeed = 0.2;
+                actorSprites[action] = animSprite;
+            }
+            else {
+                let texture = actionGroup[0].texture;
+                actorSprites[action] = new pixi.Sprite(texture);
+            }
         }
+        return actorSprites;
+    }
+    createActor(layername) {
+        let actorSprites = this.fetchActorSprites(layername);
         return actorSprites.move ?
             new actor_1.MovableActor(actorSprites) : new actor_1.Actor(actorSprites);
     }
     createSprite(layername, keyPrefix) {
-        let spriteCanvas = this.spriteCanvases[layername][keyPrefix];
-        let texture = pixi.Texture.from(spriteCanvas);
+        let texture = this.spriteTextures[layername][keyPrefix];
         let sprite = new pixi.Sprite(texture);
         sprite.anchor.set(0.5);
         return sprite;
@@ -46144,7 +44346,7 @@ exports.AssetManager = AssetManager;
 
 
 /***/ }),
-/* 224 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -48997,16 +47199,2341 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 225 */
+/* 212 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = createKDTree
+module.exports.deserialize = deserializeKDTree
+
+var ndarray = __webpack_require__(40)
+var ndselect = __webpack_require__(215)
+var pack = __webpack_require__(216)
+var ops = __webpack_require__(100)
+var ndscratch = __webpack_require__(221)
+var pool = __webpack_require__(41)
+var inorderTree = __webpack_require__(223)
+var bits = __webpack_require__(14)
+var KDTHeap = __webpack_require__(225)
+
+function KDTree(points, ids, n, d) {
+  this.points = points
+  this.ids = ids
+  this.dimension = d
+  this.length = n
+}
+
+var proto = KDTree.prototype
+
+proto.serialize = function() {
+  if(this.length > 0) {
+    return {
+      p: Array.prototype.slice.call(this.points.data, 0, this.length*this.dimension),
+      i: Array.prototype.slice.call(this.ids, 0, this.length)
+    }
+  } else {
+    return { d: this.dimension }
+  }
+}
+
+//Range query
+proto.range = function kdtRangeQuery(lo, hi, visit) {
+  var n = this.length
+  if(n < 1) {
+    return
+  }
+
+  //Check degenerate case
+  var d = this.dimension
+  for(var i=0; i<d; ++i) {
+    if(hi[i] < lo[i]) {
+      return
+    }
+  }
+
+  var points = this.points
+  var ids = this.ids
+
+  //Walk tree in level order, skipping subtrees which do not intersect range
+  var visitRange = ndscratch.malloc([n, 2, d])
+  var visitIndex = pool.mallocInt32(n)
+  var rangeData = visitRange.data
+  var pointData = points.data
+  var visitCount = 1
+  var visitTop = 0
+  var retval
+
+  visitIndex[0] = 0
+  pack(lo, visitRange.pick(0,0))
+  pack(hi, visitRange.pick(0,1))
+  
+  while(visitTop < visitCount) {
+    var idx = visitIndex[visitTop]
+    var k = bits.log2(idx+1)%d
+    var loidx = visitRange.index(visitTop, 0, 0)
+    var hiidx = visitRange.index(visitTop, 1, 0)
+    var pidx = points.index(idx, 0)
+
+    var visitPoint = true
+    for(var i=0; i<d; ++i) {
+      var pc = pointData[pidx+i]
+      if((pc < rangeData[loidx + i]) || 
+         (rangeData[hiidx + i] < pc)) {
+        visitPoint = false
+        break
+      }
+    }
+    if(visitPoint) {
+      retval = visit(ids[idx])
+      if(retval !== undefined) {
+        break
+      }
+    }
+
+    //Visit children
+    var pk = pointData[pidx+k]
+    var hk = rangeData[hiidx+k]
+    var lk = rangeData[loidx+k]
+    if(lk <= pk) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        visitIndex[visitCount] = left
+        var y = visitRange.index(visitCount, 0, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[y+i] = rangeData[loidx+i]
+        }
+        var z = visitRange.index(visitCount, 1, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[z+i] = rangeData[hiidx+i]
+        }
+        rangeData[z+k] = Math.min(hk, pk)
+        visitCount += 1
+      }
+    }
+    if(pk <= hk) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        visitIndex[visitCount] = right
+        var y = visitRange.index(visitCount, 0, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[y+i] = rangeData[loidx+i]
+        }
+        var z = visitRange.index(visitCount, 1, 0)
+        for(var i=0; i<d; ++i) {
+          rangeData[z+i] = rangeData[hiidx+i]
+        }
+        rangeData[y+k] = Math.max(lk, pk)
+        visitCount += 1
+      }
+    }
+
+    //Increment pointer
+    visitTop += 1
+  }
+  ndscratch.free(visitRange)
+  pool.free(visitIndex)
+  return retval
+}
+
+proto.rnn = function(point, radius, visit) {
+  if(radius < 0) {
+    return
+  }
+  var n = this.length
+  if(n < 1) {
+    return
+  }
+  var d = this.dimension
+  var points = this.points
+  var ids = this.ids
+
+  //Walk tree in level order, skipping subtrees which do not intersect sphere
+  var visitDistance = ndscratch.malloc([n, d])
+  var visitIndex = pool.mallocInt32(n)
+  var distanceData = visitDistance.data
+  var pointData = points.data
+  var visitCount = 1
+  var visitTop = 0
+  var r2 = radius*radius
+  var retval
+
+  //Initialize top of queue
+  visitIndex[0] = 0
+  for(var i=0; i<d; ++i) {
+    visitDistance.set(0, i, 0)
+  }
+
+  //Walk over queue
+  while(visitTop < visitCount) {
+    var idx = visitIndex[visitTop]
+    var pidx = points.index(idx, 0)
+
+    //Check if point in sphere
+    var d2 = 0.0
+    for(var i=0; i<d; ++i) {
+      d2 += Math.pow(point[i] - pointData[pidx+i], 2)
+    }
+    if(d2 <= r2) {
+      retval = visit(ids[idx])
+      if(retval !== undefined) {
+        break
+      }
+    }
+
+    //Visit children
+    var k = bits.log2(idx+1)%d
+    var ds = 0.0
+    var didx = visitDistance.index(visitTop, 0)
+    for(var i=0; i<d; ++i) {
+      if(i !== k) {
+        ds += distanceData[didx + i]
+      }
+    }
+
+    //Handle split axis
+    var qk = point[k]
+    var pk = pointData[pidx+k]
+    var dk = distanceData[didx+k]
+    var lk = dk
+    var hk = dk
+    if(qk < pk) {
+      hk = Math.max(dk, Math.pow(pk - qk, 2))
+    } else {
+      lk = Math.max(dk, Math.pow(pk - qk, 2))
+    }
+
+    var d2l = lk + ds
+    var d2h = hk + ds
+
+    if(d2l <= r2) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        visitIndex[visitCount] = left
+        var y = visitDistance.index(visitCount, 0)
+        for(var i=0; i<d; ++i) {
+          distanceData[y+i] = distanceData[didx+i]
+        }
+        distanceData[y+k] = lk
+        visitCount += 1
+      }
+    }
+    if(d2h <= r2) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        visitIndex[visitCount] = right
+        var y = visitDistance.index(visitCount, 0)
+        for(var i=0; i<d; ++i) {
+          distanceData[y+i] = distanceData[didx+i]
+        }
+        distanceData[y+k] = hk
+        visitCount += 1
+      }
+    }
+
+    //Increment pointer
+    visitTop += 1
+  }
+
+  ndscratch.free(visitDistance)
+  pool.free(visitIndex)
+  return retval
+}
+
+proto.nn = function(point, maxDistance) {
+  var n = this.length
+  if(n < 1) {
+    return -1
+  }
+  if(typeof maxDistance === "number") {
+    if(maxDistance < 0) {
+      return -1
+    } 
+  } else {
+    maxDistance = Infinity
+  }
+  var d = this.dimension
+  var points = this.points
+  var pointData = points.data
+  var dataVector = pool.mallocFloat64(d)
+
+  var toVisit = new KDTHeap(n, d+1)
+  var index = toVisit.index
+  var data = toVisit.data
+  index[0] = 0
+  for(var i=0; i<=d; ++i) {
+    data[i] = 0
+  }
+  toVisit.count += 1
+
+  var nearest = -1
+  var nearestD = maxDistance
+
+  while(toVisit.count > 0) {
+    if(data[0] >= nearestD) {
+      break
+    }
+
+    var idx = index[0]
+    var pidx = points.index(idx, 0)
+    var d2 = 0.0
+    for(var i=0; i<d; ++i) {
+      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
+    }
+    if(d2 < nearestD) {
+      nearestD = d2
+      nearest = idx
+    }
+
+    //Compute distance bounds for children
+    var k = bits.log2(idx+1)%d
+    var ds = 0
+    for(var i=0; i<d; ++i) {
+      var dd = data[i+1]
+      if(i !== k) {
+        ds += dd
+      }
+      dataVector[i] = dd
+    }
+    var qk = point[k]
+    var pk = pointData[pidx+k]
+    var dk = dataVector[k]
+    var lk = dk
+    var hk = dk
+    if(qk < pk) {
+      hk = Math.max(dk, Math.pow(pk - qk, 2))
+    } else {
+      lk = Math.max(dk, Math.pow(pk - qk, 2))
+    }
+    var d2l = lk + ds
+    var d2h = hk + ds
+
+    toVisit.pop()
+    
+    if(d2l < nearestD) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        var vcount = toVisit.count
+        index[vcount] = left
+        var vptr = vcount * (d+1)
+        data[vptr] = d2l
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = lk
+        toVisit.push()
+      }
+    }
+    if(d2h < nearestD) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        var vcount = toVisit.count
+        index[vcount] = right
+        var vptr = vcount * (d+1)
+        data[vptr] = d2h
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = hk
+        toVisit.push()
+      }
+    }
+  }
+
+  pool.freeFloat64(dataVector)
+  toVisit.dispose()
+  
+  if(nearest < 0) {
+    return -1
+  }
+  return this.ids[nearest]
+}
+
+proto.knn = function(point, maxPoints, maxDistance) {
+  //Check degenerate cases
+  if(typeof maxDistance === "number") {
+    if(maxDistance < 0) {
+      return []
+    }
+  } else {
+    maxDistance = Infinity
+  }
+  var n = this.length
+  if(n < 1) {
+    return []
+  }
+  if(typeof maxPoints === "number") {
+    if(maxPoints <= 0) {
+      return []
+    }
+    maxPoints = Math.min(maxPoints, n)|0
+  } else {
+    maxPoints = n
+  }
+  var ids = this.ids
+
+  var d = this.dimension
+  var points = this.points
+  var pointData = points.data
+  var dataVector = pool.mallocFloat64(d)
+  
+  //List of closest points
+  var closestPoints = new KDTHeap(maxPoints, 1)
+  var cl_index = closestPoints.index
+  var cl_data = closestPoints.data
+
+  var toVisit = new KDTHeap(n, d+1)
+  var index = toVisit.index
+  var data = toVisit.data
+  index[0] = 0
+  for(var i=0; i<=d; ++i) {
+    data[i] = 0
+  }
+  toVisit.count += 1
+
+  var nearest = -1
+  var nearestD = maxDistance
+
+  while(toVisit.count > 0) {
+    if(data[0] >= nearestD) {
+      break
+    }
+
+    var idx = index[0]
+    var pidx = points.index(idx, 0)
+    var d2 = 0.0
+    for(var i=0; i<d; ++i) {
+      d2 += Math.pow(point[i]-pointData[pidx+i], 2)
+    }
+    if(d2 < nearestD) {
+      if(closestPoints.count >= maxPoints) {
+        closestPoints.pop()
+      }
+      var pcount = closestPoints.count
+      cl_index[pcount] = idx
+      cl_data[pcount] = -d2
+      closestPoints.push()
+      if(closestPoints.count >= maxPoints) {
+        nearestD = -cl_data[0]
+      }
+    }
+
+    //Compute distance bounds for children
+    var k = bits.log2(idx+1)%d
+    var ds = 0
+    for(var i=0; i<d; ++i) {
+      var dd = data[i+1]
+      if(i !== k) {
+        ds += dd
+      }
+      dataVector[i] = dd
+    }
+    var qk = point[k]
+    var pk = pointData[pidx+k]
+    var dk = dataVector[k]
+    var lk = dk
+    var hk = dk
+    if(qk < pk) {
+      hk = Math.max(dk, Math.pow(pk - qk, 2))
+    } else {
+      lk = Math.max(dk, Math.pow(pk - qk, 2))
+    }
+    var d2l = lk + ds
+    var d2h = hk + ds
+
+    toVisit.pop()
+    if(d2l < nearestD) {
+      var left = 2 * idx + 1
+      if(left < n) {
+        var vcount = toVisit.count
+        index[vcount] = left
+        var vptr = vcount * (d+1)
+        data[vptr] = d2l
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = lk
+        toVisit.push()
+      }
+    }
+    if(d2h < nearestD) {
+      var right = 2 * (idx + 1)
+      if(right < n) {
+        var vcount = toVisit.count
+        index[vcount] = right
+        var vptr = vcount * (d+1)
+        data[vptr] = d2h
+        for(var i=1; i<=d; ++i) {
+          data[vptr+i] = dataVector[i-1]
+        }
+        data[vptr+k+1] = hk
+        toVisit.push()
+      }
+    }
+  }
+
+  pool.freeFloat64(dataVector)
+  toVisit.dispose()
+
+  //Sort result
+  var result = new Array(closestPoints.count)
+  var ids = this.ids
+  for(var i=closestPoints.count-1; i>=0; --i) {
+    result[i] = ids[cl_index[0]]
+    closestPoints.pop()
+  }
+  closestPoints.dispose()
+
+  return result
+}
+
+proto.dispose = function kdtDispose() {
+  pool.free(this.points.data)
+  pool.freeInt32(this.ids)
+  this.points = null
+  this.ids = null
+  this.length = 0
+}
+
+function createKDTree(points) {
+  var n, d, indexed
+  if(Array.isArray(points)) {
+    n = points.length
+    if(n === 0) {
+      return new KDTree(null, null, 0, 0)
+    }
+    d = points[0].length
+    indexed = ndarray(pool.mallocDouble(n*(d+1)), [n, d+1])
+    pack(points, indexed.hi(n, d))
+  } else {
+    n = points.shape[0]
+    d = points.shape[1]
+
+    //Round up data type size
+    var type = points.dtype
+    if(type === "int8" ||
+       type === "int16" ||
+       type === "int32" ) {
+      type = "int32"
+    } else if(type === "uint8" ||
+      type === "uint8_clamped" ||
+      type === "buffer" ||
+      type === "uint16" ||
+      type === "uint32") {
+      type = "uint32"
+    } else if(type === "float32") {
+      type = "float32"
+    } else {
+      type = "float64"
+    }
+    indexed = ndarray(pool.malloc(n*(d+1)), [n, d+1])
+    ops.assign(indexed.hi(n,d), points)
+  }
+  for(var i=0; i<n; ++i) {
+    indexed.set(i, d, i)
+  }
+
+  var pointArray = ndscratch.malloc([n, d], points.dtype)
+  var indexArray = pool.mallocInt32(n)
+  var pointer = 0
+  var pointData = pointArray.data
+  var arrayData = indexed.data
+  var l2_n = bits.log2(bits.nextPow2(n))
+
+  var sel_cmp = ndselect.compile(indexed.order, true, indexed.dtype)
+
+  //Walk tree in level order
+  var toVisit = [indexed]
+  while(pointer < n) {
+    var head = toVisit.shift()
+    var array = head
+    var nn = array.shape[0]|0
+    
+    //Find median
+    if(nn > 1) {
+      var k = bits.log2(pointer+1)%d
+      var median
+      var n_2 = inorderTree.root(nn)
+      median = sel_cmp(array, n_2, function(a,b) {
+        return a.get(k) - b.get(k)
+      })
+
+      //Copy into new array
+      var pptr = pointArray.index(pointer, 0)
+      var mptr = median.offset
+      for(var i=0; i<d; ++i) {
+        pointData[pptr++] = arrayData[mptr++]
+      }
+      indexArray[pointer] = arrayData[mptr]
+      pointer += 1
+
+      //Queue new items
+      toVisit.push(array.hi(n_2))
+      if(nn > 2) {
+        toVisit.push(array.lo(n_2+1))
+      }
+    } else {
+      //Copy into new array
+      var mptr = array.offset
+      var pptr = pointArray.index(pointer, 0)
+      for(var i=0; i<d; ++i) {
+        pointData[pptr+i] = arrayData[mptr++]
+      }
+      indexArray[pointer] = arrayData[mptr]
+      pointer += 1
+    }
+  }
+
+  //Release indexed
+  pool.free(indexed.data)
+
+  return new KDTree(pointArray, indexArray, n, d)
+}
+
+function deserializeKDTree(data) {
+  var points = data.p
+  var ids = data.i
+  if(points) {
+    var nd = points.length
+    var pointArray = pool.mallocFloat64(nd)
+    for(var i=0; i<nd; ++i) {
+      pointArray[i] = points[i]
+    }
+    var n = ids.length
+    var idArray = pool.mallocInt32(n)
+    for(var i=0; i<n; ++i) {
+      idArray[i] = ids[i]
+    }
+    var d = (nd/n)|0
+    return new KDTree(
+      ndarray(pointArray, [n,d]),
+      idArray,
+      n,
+      d)
+  } else {
+    return new KDTree(null, null, 0, data.d)
+  }
+}
+
+/***/ }),
+/* 213 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function iota(n) {
+  var result = new Array(n)
+  for(var i=0; i<n; ++i) {
+    result[i] = i
+  }
+  return result
+}
+
+module.exports = iota
+
+/***/ }),
+/* 214 */
 /***/ (function(module, exports) {
 
-module.exports = require("electron");
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+// The _isBuffer check is for Safari 5-7 support, because it's missing
+// Object.prototype.constructor. Remove this eventually
+module.exports = function (obj) {
+  return obj != null && (isBuffer(obj) || isSlowBuffer(obj) || !!obj._isBuffer)
+}
+
+function isBuffer (obj) {
+  return !!obj.constructor && typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
+}
+
+// For Node v0.10 support. Remove this eventually.
+function isSlowBuffer (obj) {
+  return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
+}
+
+
+/***/ }),
+/* 215 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = ndSelect
+module.exports.compile = lookupCache
+
+//Macros
+var ARRAY = "a"
+var RANK = "K"
+var CMP = "C"
+var DATA = "d"
+var OFFSET = "o"
+var RND = "R"
+var TMP = "T"
+var LO = "L"
+var HI = "H"
+var PIVOT = "X"
+function SHAPE(i) {
+  return "s" + i
+}
+function STRIDE(i) {
+  return "t" + i
+}
+function STEP(i) {
+  return "u" + i
+}
+function STEP_CMP(i) {
+  return "v" + i
+}
+function INDEX(i) {
+  return "i" + i
+}
+function PICK(i) {
+  return "p" + i
+}
+function PTR(i) {
+  return "x" + i
+}
+
+//Create new order where index 0 is slowest index
+function permuteOrder(order) {
+  var norder = order.slice()
+  norder.splice(order.indexOf(0), 1)
+  norder.unshift(0)
+  return norder
+}
+
+//Generate quick select procedure
+function compileQuickSelect(order, useCompare, dtype) {
+  order = permuteOrder(order)
+
+  var dimension = order.length
+  var useGetter = (dtype === "generic")
+  var funcName = "ndSelect" + dtype + order.join("_") + "_" + (useCompare ? "cmp" : "lex")
+
+  var code = []
+
+  //Get arguments for code
+  var args = [ARRAY, RANK]
+  if(useCompare) {
+    args.push(CMP)
+  }
+
+  //Unpack ndarray variables
+  var vars = [
+    DATA + "=" + ARRAY + ".data",
+    OFFSET + "=" + ARRAY + ".offset|0",
+    RND + "=Math.random",
+    TMP]
+  for(var i=0; i<2; ++i) {
+    vars.push(PTR(i) + "=0")
+  }
+  for(var i=0; i<dimension; ++i) {
+    vars.push(
+      SHAPE(i) + "=" + ARRAY + ".shape[" + i + "]|0",
+      STRIDE(i) + "=" + ARRAY + ".stride[" + i + "]|0",
+      INDEX(i) + "=0")
+  }
+  for(var i=1; i<dimension; ++i) {
+    if(i > 1) {
+      vars.push(STEP_CMP(i) + "=(" + STRIDE(i) + "-" + SHAPE(i-1) + "*" + STRIDE(i-1) + ")|0",
+                STEP(order[i]) + "=(" + STRIDE(order[i]) + "-" + SHAPE(order[i-1]) + "*" + STRIDE(order[i-1]) + ")|0")
+    } else {
+      vars.push(STEP_CMP(i) + "=" + STRIDE(i),
+                STEP(order[i]) + "=" + STRIDE(order[i]))
+    }
+  }
+  if(useCompare) {
+    for(var i=0; i<2; ++i) {
+      vars.push(PICK(i) + "=" + ARRAY + ".pick(0)")
+    }
+  }
+  vars.push(
+    PIVOT + "=0",
+    LO + "=0",
+    HI + "=" + SHAPE(order[0]) + "-1")
+
+  function compare(out, i0, i1) {
+    if(useCompare) {
+      code.push(
+        PICK(0), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
+        PICK(1), ".offset=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");",
+        out, "=", CMP, "(", PICK(0), ",", PICK(1), ");")
+    } else {
+      code.push(
+        PTR(0), "=", OFFSET, "+", STRIDE(0), "*(", i0, ");",
+        PTR(1), "=", OFFSET, "+", STRIDE(0), "*(", i1, ");")
+      if(dimension > 1) {
+        code.push("_cmp:")
+      }
+      for(var i=dimension-1; i>0; --i) {
+        code.push("for(", INDEX(i), "=0;", 
+          INDEX(i), "<", SHAPE(i), ";",
+          INDEX(i), "++){")
+      }
+      if(useGetter) {
+        code.push(out, "=", DATA, ".get(", PTR(0), ")-", 
+                            DATA, ".get(", PTR(1), ");")
+      } else {
+        code.push(out, "=", DATA, "[", PTR(0), "]-", 
+                            DATA, "[", PTR(1), "];")
+      }
+      if(dimension > 1) {
+        code.push("if(", out, ")break _cmp;")
+      }
+      for(var i=1; i<dimension; ++i) {
+        code.push(
+          PTR(0), "+=", STEP_CMP(i), ";",
+          PTR(1), "+=", STEP_CMP(i),
+          "}")
+      }
+    }
+  }
+
+  function swap(i0, i1) {
+    code.push(
+      PTR(0), "=", OFFSET, "+", STRIDE(order[0]), "*(", i0, ");",
+      PTR(1), "=", OFFSET, "+", STRIDE(order[0]), "*(", i1, ");")
+    for(var i=dimension-1; i>0; --i) {
+      code.push("for(", INDEX(order[i]), "=0;", 
+        INDEX(order[i]), "<", SHAPE(order[i]), ";",
+        INDEX(order[i]), "++){")
+    }
+    if(useGetter) {
+      code.push(TMP, "=", DATA, ".get(", PTR(0), ");", 
+                DATA, ".set(", PTR(0), ",", DATA, ".get(", PTR(1), "));",
+                DATA, ".set(", PTR(1), ",", TMP, ");")
+    } else {
+      code.push(TMP, "=", DATA, "[", PTR(0), "];", 
+                DATA, "[", PTR(0), "]=", DATA, "[", PTR(1), "];",
+                DATA, "[", PTR(1), "]=", TMP, ";")
+    }
+    for(var i=1; i<dimension; ++i) {
+      code.push(
+        PTR(0), "+=", STEP(order[i]), ";",
+        PTR(1), "+=", STEP(order[i]),
+        "}")
+    }
+  }
+
+  code.push(
+    "while(", LO, "<", HI, "){",
+      PIVOT, "=(", RND, "()*(", HI, "-", LO, "+1)+", LO, ")|0;")
+
+  //Partition array by pivot
+  swap(PIVOT, HI) // Store pivot temporarily at the end of the array
+
+  code.push(
+    PIVOT, "=", LO, ";", // PIVOT will now be used to keep track of the end of the interval of elements less than the pivot
+    "for(", INDEX(0), "=", LO, ";",
+      INDEX(0), "<", HI, ";",
+      INDEX(0), "++){") // Loop over other elements (unequal to the pivot), note that HI now points to the pivot
+  compare(TMP, INDEX(0), HI) // Lexicographical compare of element with pivot
+  code.push("if(", TMP, "<0){")
+  swap(PIVOT, INDEX(0)) // Swap current element with element at index PIVOT if it is less than the pivot
+  code.push(PIVOT, "++;")
+  code.push("}}")
+  swap(PIVOT, HI) // Store pivot right after all elements that are less than the pivot (implying that all elements >= the pivot are behind the pivot)
+
+  //Check pivot bounds
+  code.push(
+    "if(", PIVOT, "===", RANK, "){",
+      LO, "=", PIVOT, ";",
+      "break;",
+    "}else if(", RANK, "<", PIVOT, "){",
+      HI, "=", PIVOT, "-1;",
+    "}else{",
+      LO, "=", PIVOT, "+1;",
+    "}",
+  "}")
+
+  if(useCompare) {
+    code.push(PICK(0), ".offset=", OFFSET, "+", LO, "*", STRIDE(0), ";",
+      "return ", PICK(0), ";")
+  } else {
+    code.push("return ", ARRAY, ".pick(", LO, ");")
+  }
+
+  //Compile and link js together
+  var procCode = [
+    "'use strict';function ", funcName, "(", args, "){",
+      "var ", vars.join(), ";",
+      code.join(""),
+    "};return ", funcName
+  ].join("")
+
+  var proc = new Function(procCode)
+  return proc()
+}
+
+var CACHE = {}
+
+function lookupCache(order, useCompare, dtype) {
+  var typesig = order.join() + useCompare + dtype
+  var proc = CACHE[typesig]
+  if(proc) {
+    return proc
+  }
+  return CACHE[typesig] = compileQuickSelect(order, useCompare, dtype)
+}
+
+function ndSelect(array, k, compare) {
+  k |= 0
+  if((array.dimension === 0) || 
+    (array.shape[0] <= k) ||
+    (k < 0)) {
+    return null
+  }
+  var useCompare = !!compare
+  var proc = lookupCache(array.order, useCompare, array.dtype)
+  if(useCompare) {
+    return proc(array, k, compare)
+  } else {
+    return proc(array, k)
+  }
+}
+
+/***/ }),
+/* 216 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var ndarray = __webpack_require__(40)
+var do_convert = __webpack_require__(217)
+
+module.exports = function convert(arr, result) {
+  var shape = [], c = arr, sz = 1
+  while(Array.isArray(c)) {
+    shape.push(c.length)
+    sz *= c.length
+    c = c[0]
+  }
+  if(shape.length === 0) {
+    return ndarray()
+  }
+  if(!result) {
+    result = ndarray(new Float64Array(sz), shape)
+  }
+  do_convert(result, arr)
+  return result
+}
+
+
+/***/ }),
+/* 217 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports=__webpack_require__(99)({"args":["array","scalar","index"],"pre":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"body":{"body":"{\nvar _inline_1_v=_inline_1_arg1_,_inline_1_i\nfor(_inline_1_i=0;_inline_1_i<_inline_1_arg2_.length-1;++_inline_1_i) {\n_inline_1_v=_inline_1_v[_inline_1_arg2_[_inline_1_i]]\n}\n_inline_1_arg0_=_inline_1_v[_inline_1_arg2_[_inline_1_arg2_.length-1]]\n}","args":[{"name":"_inline_1_arg0_","lvalue":true,"rvalue":false,"count":1},{"name":"_inline_1_arg1_","lvalue":false,"rvalue":true,"count":1},{"name":"_inline_1_arg2_","lvalue":false,"rvalue":true,"count":4}],"thisVars":[],"localVars":["_inline_1_i","_inline_1_v"]},"post":{"body":"{}","args":[],"thisVars":[],"localVars":[]},"funcName":"convert","blockSize":64})
+
+
+/***/ }),
+/* 218 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// The function below is called when constructing a cwise function object, and does the following:
+// A function object is constructed which accepts as argument a compilation function and returns another function.
+// It is this other function that is eventually returned by createThunk, and this function is the one that actually
+// checks whether a certain pattern of arguments has already been used before and compiles new loops as needed.
+// The compilation passed to the first function object is used for compiling new functions.
+// Once this function object is created, it is called with compile as argument, where the first argument of compile
+// is bound to "proc" (essentially containing a preprocessed version of the user arguments to cwise).
+// So createThunk roughly works like this:
+// function createThunk(proc) {
+//   var thunk = function(compileBound) {
+//     var CACHED = {}
+//     return function(arrays and scalars) {
+//       if (dtype and order of arrays in CACHED) {
+//         var func = CACHED[dtype and order of arrays]
+//       } else {
+//         var func = CACHED[dtype and order of arrays] = compileBound(dtype and order of arrays)
+//       }
+//       return func(arrays and scalars)
+//     }
+//   }
+//   return thunk(compile.bind1(proc))
+// }
+
+var compile = __webpack_require__(219)
+
+function createThunk(proc) {
+  var code = ["'use strict'", "var CACHED={}"]
+  var vars = []
+  var thunkName = proc.funcName + "_cwise_thunk"
+  
+  //Build thunk
+  code.push(["return function ", thunkName, "(", proc.shimArgs.join(","), "){"].join(""))
+  var typesig = []
+  var string_typesig = []
+  var proc_args = [["array",proc.arrayArgs[0],".shape.slice(", // Slice shape so that we only retain the shape over which we iterate (which gets passed to the cwise operator as SS).
+                    Math.max(0,proc.arrayBlockIndices[0]),proc.arrayBlockIndices[0]<0?(","+proc.arrayBlockIndices[0]+")"):")"].join("")]
+  var shapeLengthConditions = [], shapeConditions = []
+  // Process array arguments
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    var j = proc.arrayArgs[i]
+    vars.push(["t", j, "=array", j, ".dtype,",
+               "r", j, "=array", j, ".order"].join(""))
+    typesig.push("t" + j)
+    typesig.push("r" + j)
+    string_typesig.push("t"+j)
+    string_typesig.push("r"+j+".join()")
+    proc_args.push("array" + j + ".data")
+    proc_args.push("array" + j + ".stride")
+    proc_args.push("array" + j + ".offset|0")
+    if (i>0) { // Gather conditions to check for shape equality (ignoring block indices)
+      shapeLengthConditions.push("array" + proc.arrayArgs[0] + ".shape.length===array" + j + ".shape.length+" + (Math.abs(proc.arrayBlockIndices[0])-Math.abs(proc.arrayBlockIndices[i])))
+      shapeConditions.push("array" + proc.arrayArgs[0] + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[0]) + "]===array" + j + ".shape[shapeIndex+" + Math.max(0,proc.arrayBlockIndices[i]) + "]")
+    }
+  }
+  // Check for shape equality
+  if (proc.arrayArgs.length > 1) {
+    code.push("if (!(" + shapeLengthConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same dimensionality!')")
+    code.push("for(var shapeIndex=array" + proc.arrayArgs[0] + ".shape.length-" + Math.abs(proc.arrayBlockIndices[0]) + "; shapeIndex-->0;) {")
+    code.push("if (!(" + shapeConditions.join(" && ") + ")) throw new Error('cwise: Arrays do not all have the same shape!')")
+    code.push("}")
+  }
+  // Process scalar arguments
+  for(var i=0; i<proc.scalarArgs.length; ++i) {
+    proc_args.push("scalar" + proc.scalarArgs[i])
+  }
+  // Check for cached function (and if not present, generate it)
+  vars.push(["type=[", string_typesig.join(","), "].join()"].join(""))
+  vars.push("proc=CACHED[type]")
+  code.push("var " + vars.join(","))
+  
+  code.push(["if(!proc){",
+             "CACHED[type]=proc=compile([", typesig.join(","), "])}",
+             "return proc(", proc_args.join(","), ")}"].join(""))
+
+  if(proc.debug) {
+    console.log("-----Generated thunk:\n" + code.join("\n") + "\n----------")
+  }
+  
+  //Compile thunk
+  var thunk = new Function("compile", code.join("\n"))
+  return thunk(compile.bind(undefined, proc))
+}
+
+module.exports = createThunk
+
+
+/***/ }),
+/* 219 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var uniq = __webpack_require__(220)
+
+// This function generates very simple loops analogous to how you typically traverse arrays (the outermost loop corresponds to the slowest changing index, the innermost loop to the fastest changing index)
+// TODO: If two arrays have the same strides (and offsets) there is potential for decreasing the number of "pointers" and related variables. The drawback is that the type signature would become more specific and that there would thus be less potential for caching, but it might still be worth it, especially when dealing with large numbers of arguments.
+function innerFill(order, proc, body) {
+  var dimension = order.length
+    , nargs = proc.arrayArgs.length
+    , has_index = proc.indexArgs.length>0
+    , code = []
+    , vars = []
+    , idx=0, pidx=0, i, j
+  for(i=0; i<dimension; ++i) { // Iteration variables
+    vars.push(["i",i,"=0"].join(""))
+  }
+  //Compute scan deltas
+  for(j=0; j<nargs; ++j) {
+    for(i=0; i<dimension; ++i) {
+      pidx = idx
+      idx = order[i]
+      if(i === 0) { // The innermost/fastest dimension's delta is simply its stride
+        vars.push(["d",j,"s",i,"=t",j,"p",idx].join(""))
+      } else { // For other dimensions the delta is basically the stride minus something which essentially "rewinds" the previous (more inner) dimension
+        vars.push(["d",j,"s",i,"=(t",j,"p",idx,"-s",pidx,"*t",j,"p",pidx,")"].join(""))
+      }
+    }
+  }
+  if (vars.length > 0) {
+    code.push("var " + vars.join(","))
+  }  
+  //Scan loop
+  for(i=dimension-1; i>=0; --i) { // Start at largest stride and work your way inwards
+    idx = order[i]
+    code.push(["for(i",i,"=0;i",i,"<s",idx,";++i",i,"){"].join(""))
+  }
+  //Push body of inner loop
+  code.push(body)
+  //Advance scan pointers
+  for(i=0; i<dimension; ++i) {
+    pidx = idx
+    idx = order[i]
+    for(j=0; j<nargs; ++j) {
+      code.push(["p",j,"+=d",j,"s",i].join(""))
+    }
+    if(has_index) {
+      if(i > 0) {
+        code.push(["index[",pidx,"]-=s",pidx].join(""))
+      }
+      code.push(["++index[",idx,"]"].join(""))
+    }
+    code.push("}")
+  }
+  return code.join("\n")
+}
+
+// Generate "outer" loops that loop over blocks of data, applying "inner" loops to the blocks by manipulating the local variables in such a way that the inner loop only "sees" the current block.
+// TODO: If this is used, then the previous declaration (done by generateCwiseOp) of s* is essentially unnecessary.
+//       I believe the s* are not used elsewhere (in particular, I don't think they're used in the pre/post parts and "shape" is defined independently), so it would be possible to make defining the s* dependent on what loop method is being used.
+function outerFill(matched, order, proc, body) {
+  var dimension = order.length
+    , nargs = proc.arrayArgs.length
+    , blockSize = proc.blockSize
+    , has_index = proc.indexArgs.length > 0
+    , code = []
+  for(var i=0; i<nargs; ++i) {
+    code.push(["var offset",i,"=p",i].join(""))
+  }
+  //Generate loops for unmatched dimensions
+  // The order in which these dimensions are traversed is fairly arbitrary (from small stride to large stride, for the first argument)
+  // TODO: It would be nice if the order in which these loops are placed would also be somehow "optimal" (at the very least we should check that it really doesn't hurt us if they're not).
+  for(var i=matched; i<dimension; ++i) {
+    code.push(["for(var j"+i+"=SS[", order[i], "]|0;j", i, ">0;){"].join("")) // Iterate back to front
+    code.push(["if(j",i,"<",blockSize,"){"].join("")) // Either decrease j by blockSize (s = blockSize), or set it to zero (after setting s = j).
+    code.push(["s",order[i],"=j",i].join(""))
+    code.push(["j",i,"=0"].join(""))
+    code.push(["}else{s",order[i],"=",blockSize].join(""))
+    code.push(["j",i,"-=",blockSize,"}"].join(""))
+    if(has_index) {
+      code.push(["index[",order[i],"]=j",i].join(""))
+    }
+  }
+  for(var i=0; i<nargs; ++i) {
+    var indexStr = ["offset"+i]
+    for(var j=matched; j<dimension; ++j) {
+      indexStr.push(["j",j,"*t",i,"p",order[j]].join(""))
+    }
+    code.push(["p",i,"=(",indexStr.join("+"),")"].join(""))
+  }
+  code.push(innerFill(order, proc, body))
+  for(var i=matched; i<dimension; ++i) {
+    code.push("}")
+  }
+  return code.join("\n")
+}
+
+//Count the number of compatible inner orders
+// This is the length of the longest common prefix of the arrays in orders.
+// Each array in orders lists the dimensions of the correspond ndarray in order of increasing stride.
+// This is thus the maximum number of dimensions that can be efficiently traversed by simple nested loops for all arrays.
+function countMatches(orders) {
+  var matched = 0, dimension = orders[0].length
+  while(matched < dimension) {
+    for(var j=1; j<orders.length; ++j) {
+      if(orders[j][matched] !== orders[0][matched]) {
+        return matched
+      }
+    }
+    ++matched
+  }
+  return matched
+}
+
+//Processes a block according to the given data types
+// Replaces variable names by different ones, either "local" ones (that are then ferried in and out of the given array) or ones matching the arguments that the function performing the ultimate loop will accept.
+function processBlock(block, proc, dtypes) {
+  var code = block.body
+  var pre = []
+  var post = []
+  for(var i=0; i<block.args.length; ++i) {
+    var carg = block.args[i]
+    if(carg.count <= 0) {
+      continue
+    }
+    var re = new RegExp(carg.name, "g")
+    var ptrStr = ""
+    var arrNum = proc.arrayArgs.indexOf(i)
+    switch(proc.argTypes[i]) {
+      case "offset":
+        var offArgIndex = proc.offsetArgIndex.indexOf(i)
+        var offArg = proc.offsetArgs[offArgIndex]
+        arrNum = offArg.array
+        ptrStr = "+q" + offArgIndex // Adds offset to the "pointer" in the array
+      case "array":
+        ptrStr = "p" + arrNum + ptrStr
+        var localStr = "l" + i
+        var arrStr = "a" + arrNum
+        if (proc.arrayBlockIndices[arrNum] === 0) { // Argument to body is just a single value from this array
+          if(carg.count === 1) { // Argument/array used only once(?)
+            if(dtypes[arrNum] === "generic") {
+              if(carg.lvalue) {
+                pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
+                code = code.replace(re, localStr)
+                post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
+              } else {
+                code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
+              }
+            } else {
+              code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
+            }
+          } else if(dtypes[arrNum] === "generic") {
+            pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
+            code = code.replace(re, localStr)
+            if(carg.lvalue) {
+              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
+            }
+          } else {
+            pre.push(["var ", localStr, "=", arrStr, "[", ptrStr, "]"].join("")) // TODO: Could we optimize by checking for carg.rvalue?
+            code = code.replace(re, localStr)
+            if(carg.lvalue) {
+              post.push([arrStr, "[", ptrStr, "]=", localStr].join(""))
+            }
+          }
+        } else { // Argument to body is a "block"
+          var reStrArr = [carg.name], ptrStrArr = [ptrStr]
+          for(var j=0; j<Math.abs(proc.arrayBlockIndices[arrNum]); j++) {
+            reStrArr.push("\\s*\\[([^\\]]+)\\]")
+            ptrStrArr.push("$" + (j+1) + "*t" + arrNum + "b" + j) // Matched index times stride
+          }
+          re = new RegExp(reStrArr.join(""), "g")
+          ptrStr = ptrStrArr.join("+")
+          if(dtypes[arrNum] === "generic") {
+            /*if(carg.lvalue) {
+              pre.push(["var ", localStr, "=", arrStr, ".get(", ptrStr, ")"].join("")) // Is this necessary if the argument is ONLY used as an lvalue? (keep in mind that we can have a += something, so we would actually need to check carg.rvalue)
+              code = code.replace(re, localStr)
+              post.push([arrStr, ".set(", ptrStr, ",", localStr,")"].join(""))
+            } else {
+              code = code.replace(re, [arrStr, ".get(", ptrStr, ")"].join(""))
+            }*/
+            throw new Error("cwise: Generic arrays not supported in combination with blocks!")
+          } else {
+            // This does not produce any local variables, even if variables are used multiple times. It would be possible to do so, but it would complicate things quite a bit.
+            code = code.replace(re, [arrStr, "[", ptrStr, "]"].join(""))
+          }
+        }
+      break
+      case "scalar":
+        code = code.replace(re, "Y" + proc.scalarArgs.indexOf(i))
+      break
+      case "index":
+        code = code.replace(re, "index")
+      break
+      case "shape":
+        code = code.replace(re, "shape")
+      break
+    }
+  }
+  return [pre.join("\n"), code, post.join("\n")].join("\n").trim()
+}
+
+function typeSummary(dtypes) {
+  var summary = new Array(dtypes.length)
+  var allEqual = true
+  for(var i=0; i<dtypes.length; ++i) {
+    var t = dtypes[i]
+    var digits = t.match(/\d+/)
+    if(!digits) {
+      digits = ""
+    } else {
+      digits = digits[0]
+    }
+    if(t.charAt(0) === 0) {
+      summary[i] = "u" + t.charAt(1) + digits
+    } else {
+      summary[i] = t.charAt(0) + digits
+    }
+    if(i > 0) {
+      allEqual = allEqual && summary[i] === summary[i-1]
+    }
+  }
+  if(allEqual) {
+    return summary[0]
+  }
+  return summary.join("")
+}
+
+//Generates a cwise operator
+function generateCWiseOp(proc, typesig) {
+
+  //Compute dimension
+  // Arrays get put first in typesig, and there are two entries per array (dtype and order), so this gets the number of dimensions in the first array arg.
+  var dimension = (typesig[1].length - Math.abs(proc.arrayBlockIndices[0]))|0
+  var orders = new Array(proc.arrayArgs.length)
+  var dtypes = new Array(proc.arrayArgs.length)
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    dtypes[i] = typesig[2*i]
+    orders[i] = typesig[2*i+1]
+  }
+  
+  //Determine where block and loop indices start and end
+  var blockBegin = [], blockEnd = [] // These indices are exposed as blocks
+  var loopBegin = [], loopEnd = [] // These indices are iterated over
+  var loopOrders = [] // orders restricted to the loop indices
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    if (proc.arrayBlockIndices[i]<0) {
+      loopBegin.push(0)
+      loopEnd.push(dimension)
+      blockBegin.push(dimension)
+      blockEnd.push(dimension+proc.arrayBlockIndices[i])
+    } else {
+      loopBegin.push(proc.arrayBlockIndices[i]) // Non-negative
+      loopEnd.push(proc.arrayBlockIndices[i]+dimension)
+      blockBegin.push(0)
+      blockEnd.push(proc.arrayBlockIndices[i])
+    }
+    var newOrder = []
+    for(var j=0; j<orders[i].length; j++) {
+      if (loopBegin[i]<=orders[i][j] && orders[i][j]<loopEnd[i]) {
+        newOrder.push(orders[i][j]-loopBegin[i]) // If this is a loop index, put it in newOrder, subtracting loopBegin, to make sure that all loopOrders are using a common set of indices.
+      }
+    }
+    loopOrders.push(newOrder)
+  }
+
+  //First create arguments for procedure
+  var arglist = ["SS"] // SS is the overall shape over which we iterate
+  var code = ["'use strict'"]
+  var vars = []
+  
+  for(var j=0; j<dimension; ++j) {
+    vars.push(["s", j, "=SS[", j, "]"].join("")) // The limits for each dimension.
+  }
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    arglist.push("a"+i) // Actual data array
+    arglist.push("t"+i) // Strides
+    arglist.push("p"+i) // Offset in the array at which the data starts (also used for iterating over the data)
+    
+    for(var j=0; j<dimension; ++j) { // Unpack the strides into vars for looping
+      vars.push(["t",i,"p",j,"=t",i,"[",loopBegin[i]+j,"]"].join(""))
+    }
+    
+    for(var j=0; j<Math.abs(proc.arrayBlockIndices[i]); ++j) { // Unpack the strides into vars for block iteration
+      vars.push(["t",i,"b",j,"=t",i,"[",blockBegin[i]+j,"]"].join(""))
+    }
+  }
+  for(var i=0; i<proc.scalarArgs.length; ++i) {
+    arglist.push("Y" + i)
+  }
+  if(proc.shapeArgs.length > 0) {
+    vars.push("shape=SS.slice(0)") // Makes the shape over which we iterate available to the user defined functions (so you can use width/height for example)
+  }
+  if(proc.indexArgs.length > 0) {
+    // Prepare an array to keep track of the (logical) indices, initialized to dimension zeroes.
+    var zeros = new Array(dimension)
+    for(var i=0; i<dimension; ++i) {
+      zeros[i] = "0"
+    }
+    vars.push(["index=[", zeros.join(","), "]"].join(""))
+  }
+  for(var i=0; i<proc.offsetArgs.length; ++i) { // Offset arguments used for stencil operations
+    var off_arg = proc.offsetArgs[i]
+    var init_string = []
+    for(var j=0; j<off_arg.offset.length; ++j) {
+      if(off_arg.offset[j] === 0) {
+        continue
+      } else if(off_arg.offset[j] === 1) {
+        init_string.push(["t", off_arg.array, "p", j].join(""))      
+      } else {
+        init_string.push([off_arg.offset[j], "*t", off_arg.array, "p", j].join(""))
+      }
+    }
+    if(init_string.length === 0) {
+      vars.push("q" + i + "=0")
+    } else {
+      vars.push(["q", i, "=", init_string.join("+")].join(""))
+    }
+  }
+
+  //Prepare this variables
+  var thisVars = uniq([].concat(proc.pre.thisVars)
+                      .concat(proc.body.thisVars)
+                      .concat(proc.post.thisVars))
+  vars = vars.concat(thisVars)
+  if (vars.length > 0) {
+    code.push("var " + vars.join(","))
+  }
+  for(var i=0; i<proc.arrayArgs.length; ++i) {
+    code.push("p"+i+"|=0")
+  }
+  
+  //Inline prelude
+  if(proc.pre.body.length > 3) {
+    code.push(processBlock(proc.pre, proc, dtypes))
+  }
+
+  //Process body
+  var body = processBlock(proc.body, proc, dtypes)
+  var matched = countMatches(loopOrders)
+  if(matched < dimension) {
+    code.push(outerFill(matched, loopOrders[0], proc, body)) // TODO: Rather than passing loopOrders[0], it might be interesting to look at passing an order that represents the majority of the arguments for example.
+  } else {
+    code.push(innerFill(loopOrders[0], proc, body))
+  }
+
+  //Inline epilog
+  if(proc.post.body.length > 3) {
+    code.push(processBlock(proc.post, proc, dtypes))
+  }
+  
+  if(proc.debug) {
+    console.log("-----Generated cwise routine for ", typesig, ":\n" + code.join("\n") + "\n----------")
+  }
+  
+  var loopName = [(proc.funcName||"unnamed"), "_cwise_loop_", orders[0].join("s"),"m",matched,typeSummary(dtypes)].join("")
+  var f = new Function(["function ",loopName,"(", arglist.join(","),"){", code.join("\n"),"} return ", loopName].join(""))
+  return f()
+}
+module.exports = generateCWiseOp
+
+
+/***/ }),
+/* 220 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function unique_pred(list, compare) {
+  var ptr = 1
+    , len = list.length
+    , a=list[0], b=list[0]
+  for(var i=1; i<len; ++i) {
+    b = a
+    a = list[i]
+    if(compare(a, b)) {
+      if(i === ptr) {
+        ptr++
+        continue
+      }
+      list[ptr++] = a
+    }
+  }
+  list.length = ptr
+  return list
+}
+
+function unique_eq(list) {
+  var ptr = 1
+    , len = list.length
+    , a=list[0], b = list[0]
+  for(var i=1; i<len; ++i, b=a) {
+    b = a
+    a = list[i]
+    if(a !== b) {
+      if(i === ptr) {
+        ptr++
+        continue
+      }
+      list[ptr++] = a
+    }
+  }
+  list.length = ptr
+  return list
+}
+
+function unique(list, compare, sorted) {
+  if(list.length === 0) {
+    return list
+  }
+  if(compare) {
+    if(!sorted) {
+      list.sort(compare)
+    }
+    return unique_pred(list, compare)
+  }
+  if(!sorted) {
+    list.sort()
+  }
+  return unique_eq(list)
+}
+
+module.exports = unique
+
+
+/***/ }),
+/* 221 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var ndarray = __webpack_require__(40)
+var ops = __webpack_require__(100)
+var pool = __webpack_require__(41)
+
+function clone(array) {
+  var dtype = array.dtype
+  if(dtype === "generic" || dtype === "array") {
+    dtype = "double"
+  }
+  var data = pool.malloc(array.size, dtype)
+  var result = ndarray(data, array.shape)
+  ops.assign(result, array)
+  return result
+}
+exports.clone = clone
+
+function malloc(shape, dtype) {
+  if(!dtype) {
+    dtype = "double"
+  }
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(var i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  return ndarray(pool.malloc(sz, dtype), shape, stride, 0)
+}
+exports.malloc = malloc
+
+function free(array) {
+  if(array.dtype === "generic" || array.dtype === "array") {
+    return
+  }
+  pool.free(array.data)
+}
+exports.free = free
+
+function zeros(shape, dtype) {
+  if(!dtype) {
+    dtype = "double"
+  }
+
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(var i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  var buf = pool.malloc(sz, dtype)
+  for(var i=0; i<sz; ++i) {
+    buf[i] = 0
+  }
+  return ndarray(buf, shape, stride, 0)
+}
+exports.zeros = zeros
+
+function ones(shape, dtype) {
+  if(!dtype) {
+    dtype = "double"
+  }
+
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(var i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  var buf = pool.malloc(sz, dtype)
+  for(var i=0; i<sz; ++i) {
+    buf[i] = 1
+  }
+  return ndarray(buf, shape, stride, 0)
+}
+exports.ones = ones
+
+function eye(shape, dtype) {
+  var i, offset
+  if(!dtype) {
+    dtype = "double"
+  }
+
+  var sz = 1
+  var stride = new Array(shape.length)
+  for(i=shape.length-1; i>=0; --i) {
+    stride[i] = sz
+    sz *= shape[i]
+  }
+  var buf = pool.malloc(sz, dtype)
+  for(i=0; i<sz; ++i) {
+    buf[i] = 0
+  }
+  var mindim = Infinity
+  var offsum = 0
+  for( i=shape.length-1; i>=0; i--) {
+    offsum += stride[i]
+    mindim = Math.min(mindim,shape[i])
+  }
+  for(i=0,offset=0; i<mindim; i++,offset+=offsum) {
+    buf[offset] = 1
+  }
+  return ndarray(buf, shape, stride, 0)
+}
+exports.eye = eye
+
+
+/***/ }),
+/* 222 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function dupe_array(count, value, i) {
+  var c = count[i]|0
+  if(c <= 0) {
+    return []
+  }
+  var result = new Array(c), j
+  if(i === count.length-1) {
+    for(j=0; j<c; ++j) {
+      result[j] = value
+    }
+  } else {
+    for(j=0; j<c; ++j) {
+      result[j] = dupe_array(count, value, i+1)
+    }
+  }
+  return result
+}
+
+function dupe_number(count, value) {
+  var result, i
+  result = new Array(count)
+  for(i=0; i<count; ++i) {
+    result[i] = value
+  }
+  return result
+}
+
+function dupe(count, value) {
+  if(typeof value === "undefined") {
+    value = 0
+  }
+  switch(typeof count) {
+    case "number":
+      if(count > 0) {
+        return dupe_number(count|0, value)
+      }
+    break
+    case "object":
+      if(typeof (count.length) === "number") {
+        return dupe_array(count, value, 0)
+      }
+    break
+  }
+  return []
+}
+
+module.exports = dupe
+
+/***/ }),
+/* 223 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var bits = __webpack_require__(224)
+
+function rootInorder(n) {
+  var ptree = (bits.nextPow2(n+1)>>>1) - 1
+  var f     = n - ptree
+  if(bits.nextPow2(f)-1 >= ptree) {
+    return ptree
+  }
+  return (ptree>>>1)+f
+}
+exports.root = rootInorder
+
+function beginInorder(n) {
+  return 0
+}
+exports.begin = beginInorder
+
+function endInorder(n) {
+  return n-1
+}
+exports.end = endInorder
+
+
+//This is really horrible because n is not necessarily a power of 2
+// If it was, we could just do:
+//
+//    height = bits.countTrailingZeros(~x)
+//
+// Instead, we just binary search because doing the right thing here is way too complicated.
+function heightInorder(n, x) {
+  if(n <= 0) {
+    return 0
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    return heightInorder(n-r-1, x-r-1)
+  } else if(x === r) {
+    return bits.log2(n)
+  }
+  return heightInorder(r, x)
+}
+exports.height = heightInorder
+
+function prevInorder(n, x) {
+  return Math.max(x-1,0)
+}
+exports.prev = prevInorder
+
+function nextInorder(n, x) {
+  return Math.min(x+1,n-1)
+}
+exports.next = nextInorder
+
+
+//The version for n = (1<<k)-1:
+//
+//  parent = (x & ~(1<<(h+1))) + (1<<h)
+//
+function parentInorder(n, x) {
+  if(n <= 0) {
+    return -1
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    var q = parentInorder(n-r-1, x-r-1)
+    if(q < 0) {
+      return r
+    } else {
+      return q + r + 1
+    }
+  } else if(x === r) {
+    return -1
+  }
+  var q =  parentInorder(r, x)
+  if(q < 0) {
+    return r
+  }
+  return q
+}
+exports.parent = parentInorder
+
+
+//Again, we get screwed because n is not a power of two -1.  If it was, we could do:
+//
+//    left = x - (1 << (h-1) )
+//
+// Where h is the height of the node
+//
+function leftInorder(n, x) {
+  if(n <= 0) {
+    return 0
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    return leftInorder(n-r-1, x-r-1) + r + 1
+  } else if(x === r) {
+    return rootInorder(x)
+  }
+  return leftInorder(r, x)
+
+}
+exports.left = leftInorder
+
+//for power of two minus one:
+//
+//    right = x + (1<<(h-1))
+//
+function rightInorder(n, x) {
+  if(n <= 0) {
+    return 0
+  }
+  var r = rootInorder(n)
+  if(x > r) {
+    return rightInorder(n-r-1, x-r-1) + r + 1
+  } else if(x === r) {
+    return rootInorder(n-r-1) + r + 1
+  }
+  return rightInorder(r, x)
+}
+exports.right = rightInorder
+
+
+function leafInorder(n, x) {
+  return heightInorder(n, x) === 0
+}
+exports.leaf = leafInorder
+
+
+function loInorder(n, x) {
+  n |= 0
+  x |= 0
+  var l = 0
+  while(n > 1) {
+    var r = rootInorder(n)
+    if(x > r) {
+      l += r + 1
+      n -= r + 1
+      x -= r + 1
+    } else if(x === r) {
+      break
+    } else {
+      n = r
+    }
+  }
+  return l
+}
+exports.lo = loInorder
+
+function hiInorder(n, x) {
+  n |= 0
+  x |= 0
+  var l = 0
+  while(n > 1) {
+    var r = rootInorder(n)
+    if(x > r) {
+      l += r + 1
+      n -= r + 1
+      x -= r + 1
+    } else if(x === r) {
+      l += n-1
+      break
+    } else {
+      n = r
+    }
+  }
+  return l
+}
+exports.hi = hiInorder
+
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Bit twiddling hacks for JavaScript.
+ *
+ * Author: Mikola Lysenko
+ *
+ * Ported from Stanford bit twiddling hack library:
+ *    http://graphics.stanford.edu/~seander/bithacks.html
+ */
+
+ "use restrict";
+
+//Number of bits in an integer
+var INT_BITS = 32;
+
+//Constants
+exports.INT_BITS  = INT_BITS;
+exports.INT_MAX   =  0x7fffffff;
+exports.INT_MIN   = -1<<(INT_BITS-1);
+
+//Returns -1, 0, +1 depending on sign of x
+exports.sign = function(v) {
+  return (v > 0) - (v < 0);
+}
+
+//Computes absolute value of integer
+exports.abs = function(v) {
+  var mask = v >> (INT_BITS-1);
+  return (v ^ mask) - mask;
+}
+
+//Computes minimum of integers x and y
+exports.min = function(x, y) {
+  return y ^ ((x ^ y) & -(x < y));
+}
+
+//Computes maximum of integers x and y
+exports.max = function(x, y) {
+  return x ^ ((x ^ y) & -(x < y));
+}
+
+//Checks if a number is a power of two
+exports.isPow2 = function(v) {
+  return !(v & (v-1)) && (!!v);
+}
+
+//Computes log base 2 of v
+exports.log2 = function(v) {
+  var r, shift;
+  r =     (v > 0xFFFF) << 4; v >>>= r;
+  shift = (v > 0xFF  ) << 3; v >>>= shift; r |= shift;
+  shift = (v > 0xF   ) << 2; v >>>= shift; r |= shift;
+  shift = (v > 0x3   ) << 1; v >>>= shift; r |= shift;
+  return r | (v >> 1);
+}
+
+//Computes log base 10 of v
+exports.log10 = function(v) {
+  return  (v >= 1000000000) ? 9 : (v >= 100000000) ? 8 : (v >= 10000000) ? 7 :
+          (v >= 1000000) ? 6 : (v >= 100000) ? 5 : (v >= 10000) ? 4 :
+          (v >= 1000) ? 3 : (v >= 100) ? 2 : (v >= 10) ? 1 : 0;
+}
+
+//Counts number of bits
+exports.popCount = function(v) {
+  v = v - ((v >>> 1) & 0x55555555);
+  v = (v & 0x33333333) + ((v >>> 2) & 0x33333333);
+  return ((v + (v >>> 4) & 0xF0F0F0F) * 0x1010101) >>> 24;
+}
+
+//Counts number of trailing zeros
+function countTrailingZeros(v) {
+  var c = 32;
+  v &= -v;
+  if (v) c--;
+  if (v & 0x0000FFFF) c -= 16;
+  if (v & 0x00FF00FF) c -= 8;
+  if (v & 0x0F0F0F0F) c -= 4;
+  if (v & 0x33333333) c -= 2;
+  if (v & 0x55555555) c -= 1;
+  return c;
+}
+exports.countTrailingZeros = countTrailingZeros;
+
+//Rounds to next power of 2
+exports.nextPow2 = function(v) {
+  v += v === 0;
+  --v;
+  v |= v >>> 1;
+  v |= v >>> 2;
+  v |= v >>> 4;
+  v |= v >>> 8;
+  v |= v >>> 16;
+  return v + 1;
+}
+
+//Rounds down to previous power of 2
+exports.prevPow2 = function(v) {
+  v |= v >>> 1;
+  v |= v >>> 2;
+  v |= v >>> 4;
+  v |= v >>> 8;
+  v |= v >>> 16;
+  return v - (v>>>1);
+}
+
+//Computes parity of word
+exports.parity = function(v) {
+  v ^= v >>> 16;
+  v ^= v >>> 8;
+  v ^= v >>> 4;
+  v &= 0xf;
+  return (0x6996 >>> v) & 1;
+}
+
+var REVERSE_TABLE = new Array(256);
+
+(function(tab) {
+  for(var i=0; i<256; ++i) {
+    var v = i, r = i, s = 7;
+    for (v >>>= 1; v; v >>>= 1) {
+      r <<= 1;
+      r |= v & 1;
+      --s;
+    }
+    tab[i] = (r << s) & 0xff;
+  }
+})(REVERSE_TABLE);
+
+//Reverse bits in a 32 bit word
+exports.reverse = function(v) {
+  return  (REVERSE_TABLE[ v         & 0xff] << 24) |
+          (REVERSE_TABLE[(v >>> 8)  & 0xff] << 16) |
+          (REVERSE_TABLE[(v >>> 16) & 0xff] << 8)  |
+           REVERSE_TABLE[(v >>> 24) & 0xff];
+}
+
+//Interleave bits of 2 coordinates with 16 bits.  Useful for fast quadtree codes
+exports.interleave2 = function(x, y) {
+  x &= 0xFFFF;
+  x = (x | (x << 8)) & 0x00FF00FF;
+  x = (x | (x << 4)) & 0x0F0F0F0F;
+  x = (x | (x << 2)) & 0x33333333;
+  x = (x | (x << 1)) & 0x55555555;
+
+  y &= 0xFFFF;
+  y = (y | (y << 8)) & 0x00FF00FF;
+  y = (y | (y << 4)) & 0x0F0F0F0F;
+  y = (y | (y << 2)) & 0x33333333;
+  y = (y | (y << 1)) & 0x55555555;
+
+  return x | (y << 1);
+}
+
+//Extracts the nth interleaved component
+exports.deinterleave2 = function(v, n) {
+  v = (v >>> n) & 0x55555555;
+  v = (v | (v >>> 1))  & 0x33333333;
+  v = (v | (v >>> 2))  & 0x0F0F0F0F;
+  v = (v | (v >>> 4))  & 0x00FF00FF;
+  v = (v | (v >>> 16)) & 0x000FFFF;
+  return (v << 16) >> 16;
+}
+
+
+//Interleave bits of 3 coordinates, each with 10 bits.  Useful for fast octree codes
+exports.interleave3 = function(x, y, z) {
+  x &= 0x3FF;
+  x  = (x | (x<<16)) & 4278190335;
+  x  = (x | (x<<8))  & 251719695;
+  x  = (x | (x<<4))  & 3272356035;
+  x  = (x | (x<<2))  & 1227133513;
+
+  y &= 0x3FF;
+  y  = (y | (y<<16)) & 4278190335;
+  y  = (y | (y<<8))  & 251719695;
+  y  = (y | (y<<4))  & 3272356035;
+  y  = (y | (y<<2))  & 1227133513;
+  x |= (y << 1);
+  
+  z &= 0x3FF;
+  z  = (z | (z<<16)) & 4278190335;
+  z  = (z | (z<<8))  & 251719695;
+  z  = (z | (z<<4))  & 3272356035;
+  z  = (z | (z<<2))  & 1227133513;
+  
+  return x | (z << 2);
+}
+
+//Extracts nth interleaved component of a 3-tuple
+exports.deinterleave3 = function(v, n) {
+  v = (v >>> n)       & 1227133513;
+  v = (v | (v>>>2))   & 3272356035;
+  v = (v | (v>>>4))   & 251719695;
+  v = (v | (v>>>8))   & 4278190335;
+  v = (v | (v>>>16))  & 0x3FF;
+  return (v<<22)>>22;
+}
+
+//Computes next combination in colexicographic order (this is mistakenly called nextPermutation on the bit twiddling hacks page)
+exports.nextCombination = function(v) {
+  var t = v | (v - 1);
+  return (t + 1) | (((~t & -~t) - 1) >>> (countTrailingZeros(v) + 1));
+}
+
+
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = KDTHeap
+
+var pool = __webpack_require__(41)
+
+function heapParent(i) {
+  if(i & 1) {
+    return (i - 1) >> 1
+  }
+  return (i >> 1) - 1
+}
+
+function KDTHeap(n, d) {
+  this.count = 0
+  this.dataSize = d
+  this.index = pool.mallocInt32(n)
+  this.data = pool.mallocFloat64(n*d)
+}
+
+var proto = KDTHeap.prototype
+
+proto.heapSwap = function(_i,_j) {
+  var data = this.data
+  var index = this.index
+  var d = this.dataSize
+  var tmp = index[_i]
+  index[_i] = index[_j]
+  index[_j] = tmp
+  var aptr = d*_i
+  var bptr = d*_j
+  for(var _k=0; _k<d; ++_k) {
+    var t2 = data[aptr]
+    data[aptr] = data[bptr]
+    data[bptr] = t2
+    aptr += 1
+    bptr += 1
+  }
+}
+
+proto.heapUp = function(i) {
+  var d = this.dataSize
+  var index = this.index
+  var data = this.data
+  var w = data[d*i]
+  while(i>0) {
+    var parent = heapParent(i)
+    if(parent >= 0) {
+      var pw = data[d*parent]
+      if(w < pw) {
+        this.heapSwap(i, parent)
+        i = parent
+        continue
+      }
+    }
+    break
+  }
+}
+
+proto.heapDown = function(i) {
+  var d = this.dataSize
+  var index = this.index
+  var data = this.data
+  var count = this.count
+  var w = data[d*i]
+  while(true) {
+    var tw = w
+    var left  = 2*i + 1
+    var right = 2*(i + 1)
+    var next = i
+    if(left < count) {
+      var lw = data[d*left]
+      if(lw < tw) {
+        next = left
+        tw = lw
+      }
+    }
+    if(right < count) {
+      var rw = data[d*right]
+      if(rw < tw) {
+        next = right
+      }
+    }
+    if(next === i) {
+      break
+    }
+    this.heapSwap(i, next)
+    i = next      
+  }
+}
+
+//Clear item from top of heap
+proto.pop = function() {
+  this.count -= 1
+  this.heapSwap(0, this.count)
+  this.heapDown(0)
+}
+
+//Assume object already written to data
+proto.push = function() {
+  this.heapUp(this.count)
+  this.count += 1
+}
+
+proto.dispose = function() {
+  pool.freeInt32(this.index)
+  pool.freeFloat64(this.data)
+}
 
 /***/ }),
 /* 226 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("fs");
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const terra_1 = __webpack_require__(39);
+class TriTerra extends terra_1.Terra {
+    deriveGridSize() {
+        let S = this.cellsize;
+        let H = this.cellsize * Math.sin(Math.PI / 3);
+        this.nrows = Math.ceil(this.height / H) - 1;
+        this.ncols = 2 * Math.ceil(this.width / S) - 2;
+    }
+    deriveTerraDimensions() {
+        let S = this.cellsize;
+        let H = this.cellsize * Math.sin(Math.PI / 3);
+        this.width = (this.ncols + 2) * S / 2;
+        this.height = (this.nrows + 1) * H;
+    }
+    getNeighbors(row, col) {
+        let neighbors;
+        let nrows = this.nrows;
+        let ncols = this.ncols;
+        if ((row + col) % 2) {
+            neighbors = [
+                [row, col - 1],
+                [row, col + 1],
+                [row + 1, col]
+            ];
+        }
+        else {
+            neighbors = [
+                [row - 1, col],
+                [row, col - 1],
+                [row, col + 1]
+            ];
+        }
+        return neighbors.filter(([row, col]) => {
+            return row >= 0 && row < nrows && col >= 0 && col < ncols;
+        });
+    }
+    isValidCellCoord(coord) {
+        coord;
+        return true; // TODO
+    }
+    distanceManhattan(a, b) {
+        return Math.abs(b[0] - a[0]) + Math.abs(b[1] - a[1]);
+    }
+    heuristic(from, to) {
+        return this.distanceManhattan(from, to);
+    }
+    getCellCenter(row, col) {
+        console.error('Not implemented');
+        return [row, col];
+    }
+    getCellCorners(i, j) {
+        let S = this.cellsize;
+        let H = S * Math.sin(Math.PI / 3);
+        if ((i + j) % 2) {
+            // Flat-side down triangle
+            return [
+                [j * S / 2 + S / 2, i * H],
+                [(j - 1) * S / 2 + S / 2, (i + 1) * H],
+                [(j + 1) * S / 2 + S / 2, (i + 1) * H],
+            ];
+        }
+        else {
+            // Flat-side up triangle
+            return [
+                [(j - 1) * S / 2 + S / 2, i * H],
+                [(j + 1) * S / 2 + S / 2, i * H],
+                [j * S / 2 + S / 2, (i + 1) * H]
+            ];
+        }
+    }
+}
+exports.TriTerra = TriTerra;
+
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const terra_1 = __webpack_require__(39);
+class HexTerra extends terra_1.Terra {
+    constructor(spec) {
+        super(spec);
+    }
+    clone() {
+        return new HexTerra({
+            nrows: this.nrows,
+            ncols: this.ncols,
+            cellsize: this.cellsize,
+            weights: this.weightGrid.data,
+            resolvable: false
+        });
+    }
+    get radiusInner() {
+        return this.cellsize * Math.sin(Math.PI / 3);
+    }
+    get radiusOuter() {
+        return this.cellsize;
+    }
+    deriveGridSize() {
+        let s = this.cellsize;
+        let h = this.radiusInner;
+        let W = this.width;
+        let H = this.height;
+        this.ncols = Math.floor((W / s) * (2 / 3) + 1);
+        this.nrows = Math.ceil((H / (2 * h)) + 1);
+    }
+    deriveTerraDimensions() {
+        let s = this.cellsize;
+        let h = this.radiusInner;
+        this.width = s * 3 * (this.ncols - 1) / 2;
+        this.height = 2 * (this.nrows - 1) * h;
+    }
+    getCellCenter(row, col) {
+        let s = this.cellsize;
+        let h = this.radiusInner;
+        let cx, cy;
+        if (col % 2) {
+            cx = (0.5 + col + Math.floor(col / 2)) * s;
+            cy = (2 * row + 1) * h;
+        }
+        else {
+            cx = (3 * col / 2) * s;
+            cy = 2 * row * h;
+        }
+        return [cx, cy];
+    }
+    getCellCorners(row, col) {
+        let s = this.cellsize;
+        let h = this.radiusInner;
+        let [cx, cy] = this.getCellCenter(row, col);
+        return [
+            [cx + s, cy],
+            [cx + s / 2, cy + h],
+            [cx - s / 2, cy + h],
+            [cx - s, cy],
+            [cx - s / 2, cy - h],
+            [cx + s / 2, cy - h]
+        ];
+    }
+    distanceManhattan(a, b) {
+        return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
+    }
+    isValidCellCoord(coord) {
+        let [row, col] = coord;
+        // Row min check
+        if (row < 0) {
+            return false;
+        }
+        // Row max check
+        if (col % 2) {
+            if (row >= this.nrows - 1) {
+                return false;
+            }
+        }
+        else {
+            if (row >= this.nrows) {
+                return false;
+            }
+        }
+        // Column min check
+        if (col < 0) {
+            return false;
+        }
+        // Column max check
+        if (col >= this.ncols) {
+            return false;
+        }
+        return true;
+    }
+    getNeighbors(row, col) {
+        let neighbors = [
+            [row + 1, col],
+            [row - 1, col]
+        ];
+        if (col % 2) {
+            neighbors.push([row, col - 1]);
+            neighbors.push([row + 1, col - 1]);
+            neighbors.push([row, col + 1]);
+            neighbors.push([row + 1, col + 1]);
+        }
+        else {
+            neighbors.push([row - 1, col - 1]);
+            neighbors.push([row, col - 1]);
+            neighbors.push([row - 1, col + 1]);
+            neighbors.push([row, col + 1]);
+        }
+        return neighbors.filter(coord => {
+            return this.isValidCellCoord(coord);
+        });
+    }
+    heuristic(from, to) {
+        return this.distanceManhattan(from, to);
+    }
+}
+exports.HexTerra = HexTerra;
+
 
 /***/ })
 /******/ ]);
