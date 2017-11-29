@@ -4,13 +4,9 @@ Review : Ghost In The Shell - The blinds scene
 
 The 2017 Hollywood movie featuring Scarlett Johansson is based on the Japanese animation movie from 1995 of the same name directed by Mamoru Oshii. The original movie is particularly notable for some of its scenes which are artistic master-pieces. Here we will talk about a one minute sequence at the opening of the movie - "The blinds scene".
 
-<video src="/videos/Ghost-In-The-Shell.webm"/>
+<video width="500px" src="/videos/Ghost-In-The-Shell.webm" poster="/images/review-ghost-in-the-shell/watching-out-the-window.jpg" controls/>
 
-The scene after the opening titles shows the protagonist of the story, Major Motoko Kusanagi wake up in her apartment.
-
-<img src="/images/review-ghost-in-the-shell/watching-out-the-window.jpg"/>
-
-She ponders for a few moments, gets out of the bed, goes to the other room to get dressed and leaves the apartment. For majority of the scene the audience is seeing a rectangular window showing the skyline of the city and the top of the bed that's illuminated by the light coming from the window. Everything else is completely dark. This is an incredibly minimal scene in terms of visible content.
+The scene after the opening titles shows the protagonist of the story, Major Motoko Kusanagi wake up in her apartment. She ponders for a few moments, gets out of the bed, goes to the other room to get dressed and leaves the apartment. For majority of the scene the audience is seeing a rectangular window showing the skyline of the city and the top of the bed that's illuminated by the light coming from the window. Everything else is completely dark. This is an incredibly minimal scene in terms of visible content.
 
 <img src="/images/review-ghost-in-the-shell/window-and-bed.jpg"/>
 
