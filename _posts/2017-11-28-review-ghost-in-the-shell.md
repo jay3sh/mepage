@@ -4,7 +4,8 @@ Review : Ghost In The Shell - The blinds scene
 
 The 2017 Hollywood movie featuring Scarlett Johansson is based on the Japanese animation movie from 1995 of the same name directed by Mamoru Oshii. The original movie is particularly notable for some of its scenes which are artistic master-pieces. Here we will talk about a one minute sequence at the opening of the movie - "The blinds scene".
 
-<video width="500px" src="/videos/Ghost-In-The-Shell.webm" poster="/images/review-ghost-in-the-shell/watching-out-the-window.jpg" controls/>
+<video width="600px" src="/videos/Ghost-In-The-Shell.webm" poster="/images/review-ghost-in-the-shell/watching-out-the-window.jpg" controls></video>
+
 
 The scene after the opening titles shows the protagonist of the story, Major Motoko Kusanagi wake up in her apartment. She ponders for a few moments, gets out of the bed, goes to the other room to get dressed and leaves the apartment. For majority of the scene the audience is seeing a rectangular window showing the skyline of the city and the top of the bed that's illuminated by the light coming from the window. Everything else is completely dark. This is an incredibly minimal scene in terms of visible content.
 
@@ -17,9 +18,11 @@ When Kusanagi is out of the frame, in the adjascent room, we see the light comin
 In addition to the minimalism, another brilliant technique used here is the alternating use of **negative and positive space**. The dark shapes that appear as silhouettes and shadows are carved out of negative space. They show in the later part when Kusanagi wears the jacket slipping one hand into its sleeve as she's walking out of the apartment. However earlier in the scene the director uses positive space to tell the story. This is when Kusanagi is out of the frame and is in the neighbouring room, her actions are shown in her shadow falling in the bright light coming from the room's door. The light from the door creates a small positive space on the dark canvas and shows the character's actions in negative space embedded inside it.
 
 *Negative Space*
+
 <img src="/images/review-ghost-in-the-shell/negative-space.jpg"/>
 
 *Positive Space (with embedded negative space)*
+
 <img src="/images/review-ghost-in-the-shell/positive-space.jpg"/>
 
 The switch between positive and negative spaces makes a compelling portrait.
