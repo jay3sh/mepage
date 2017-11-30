@@ -21528,20 +21528,11 @@ class Tower extends actor_1.Actor {
         this.position = level.terra.getCellCenter(cell[0], cell[1]);
         this.ammoStrength = this.level.spec.tower.ammoStrength;
         this.fireRange = this.level.spec.tower.fireRange;
-        this.fireInterval = this.level.spec.tower.fireInterval;
         this.trackingPeriod = this.level.spec.tower.trackingPeriod;
         this.fireStartInstant = this.trackingPeriod * 0.5;
         this.fireShellInstant = this.trackingPeriod * 0.7;
         this.shellFlightTime = this.trackingPeriod - this.fireShellInstant;
         this.targetMinions = [];
-        this.fireTimer = new helper_1.Timer(this.fireInterval, () => {
-            if (this.targetMinions.length > 0 && this.level.hasAmmo()) {
-                this.level.useAmmo();
-                let targetMinion = this.targetMinions[0];
-                this.isFiring = true;
-                this.trackMinion(targetMinion);
-            }
-        });
         this.rangeSprite = this.level.am.createSprite('sprites', 'towerrange');
         this.rangeSprite.alpha = 0.2;
         let rangeSpriteRadius = this.rangeSprite.getBounds().width / 2;
@@ -21558,6 +21549,14 @@ class Tower extends actor_1.Actor {
     }
     hideRange() {
         this.rangeSprite.visible = false;
+    }
+    engageMinionIfNotBusy() {
+        if (!this.isFiring && this.targetMinions.length > 0 && this.level.hasAmmo()) {
+            this.level.useAmmo();
+            let targetMinion = this.targetMinions[0];
+            this.isFiring = true;
+            this.trackMinion(targetMinion);
+        }
     }
     rotateToScanIfNotBusy(deltaRot) {
         if (!this.isFiring) {
@@ -21602,8 +21601,6 @@ class Tower extends actor_1.Actor {
             this.setAction('fire');
             this.animateOnce('fire').then(() => {
                 this.setAction('rest');
-                // console.log(`%c Tower ${this.uid} -> Minion ${minion.uid}`,
-                //   'color:white;background:red;font-weight:bold');
                 minion.sufferAttack(this.ammoStrength);
                 resolve();
             });
@@ -21637,7 +21634,8 @@ class Tower extends actor_1.Actor {
         }
     }
     tick(t) {
-        this.fireTimer.tick(t);
+        t;
+        this.engageMinionIfNotBusy();
         // Remove dead minions
         for (let i = this.targetMinions.length - 1; i >= 0; i--) {
             if (this.targetMinions[i].isdead()) {
@@ -42553,7 +42551,6 @@ class LevelPlayer {
         this.parent = parent;
         this.level = new level_1.Level(spec, this.am);
         this.parent.appendChild(this.level.app.view);
-        this.parent.appendChild(this.level.hud.div);
     }
     load() {
     }
@@ -42605,7 +42602,7 @@ const collision_sys_1 = __webpack_require__(206);
 const hud_1 = __webpack_require__(207);
 const NS_SVG = 'http://www.w3.org/2000/svg';
 const HIGHLIGHT_CELL_UNDER_CURSOR = false;
-const Y_PADDING = 50;
+const Y_PADDING = 5;
 const DEBUG = false;
 const SCROLL_MULTIPLIER = 4000;
 class Level {
@@ -42625,17 +42622,22 @@ class Level {
             ammoFired: 0,
             startTime: Date.now().valueOf()
         };
+        this.bglayers = [
+            'minions', 'shells', 'structures', 'towers', 'cursors'
+        ];
+        this.createMessagePane();
         let [vpw, vph] = this.computeViewportDimensions();
         this.initApp(vpw, vph);
         this.viewScaleRange = { min: vpw / this.am.docWidth, max: 1 };
         this.terra = this.am.terra;
         this.initLayers();
         this.setupScene();
+        this.initShadows();
         this.registerMouseInteraction();
         this.enemyAI = new enemy_ai_1.EnemyAI(this);
         this.playerAI = new player_ai_1.PlayerAI(this);
         this.accPauseTime = 0;
-        this.play();
+        this.startLevel();
         const SCAN_UPDATE_INTERVAL = 100; // msec
         // rotation in radians per update interval for 30 revolutions per minute
         const DELTA_TOWER_ROTATION = (Math.PI / 2) * SCAN_UPDATE_INTERVAL / 1000;
@@ -42645,6 +42647,179 @@ class Level {
             });
         });
         this.hud = new hud_1.HUD(this);
+        if (window.gtag) {
+            window.gtag('event', 'game_start_' + window.version);
+        }
+    }
+    /**
+     * @param point Point in doc space that will be at center
+     * @param width width in doc space that will match the viewport width
+     */
+    zoomOutFrom(point, width) {
+        let docWidth = this.am.docWidth;
+        let docHeight = this.am.docHeight;
+        let AR = docWidth / docHeight;
+        return new Promise((resolve) => {
+            let height = width / AR;
+            let scale0 = docWidth / width;
+            let tx0 = -((point[0] - width / 2)) * scale0;
+            let ty0 = -((point[1] - height / 2)) * scale0;
+            let tx1 = 0;
+            let ty1 = 0;
+            let scale1 = this.viewScaleRange.min;
+            this.animator.add(new animation_1.Animation(5000, animation_1.Animation.LINEAR, (u) => {
+                let tx = tx0 + (tx1 - tx0) * u;
+                let ty = ty0 + (ty1 - ty0) * u;
+                let scale = scale0 + (scale1 - scale0) * u;
+                this.app.stage.setTransform(tx, ty, scale, scale);
+            }, () => {
+                this.app.stage.setTransform(0, 0, scale1, scale1);
+                resolve();
+            }));
+        });
+    }
+    hideBackgroundLayers() {
+        this.bglayers.forEach((lname) => { this.layers[lname].alpha = 0.1; });
+    }
+    showBackgroundLayers() {
+        this.bglayers.forEach((lname) => { this.layers[lname].alpha = 1; });
+    }
+    startSpinningFountainWithMessage() {
+        const STARTUP_SPINNING_TIME = 6000; // msec
+        let tlast = 0;
+        return new Promise((resolve) => {
+            document.body.appendChild(this.msgPaneDiv);
+            this.msgPaneDiv.querySelector('#content').textContent = 'Spin I must';
+            this.animator.add(new animation_1.Animation(STARTUP_SPINNING_TIME, animation_1.Animation.LINEAR, (u) => {
+                let dt = u * STARTUP_SPINNING_TIME - tlast;
+                // Rotate the fountain at increasing speed
+                let rpm = u * fountain_1.Fountain.maxSpeed;
+                let anglePerMSec = rpm * (2 * Math.PI) / (60 * 1000); // radians-per-msec
+                let drot = dt * anglePerMSec;
+                this.fountain.rotation = this.fountain.rotation + drot;
+                tlast = u * STARTUP_SPINNING_TIME;
+            }, () => {
+                this.msgPaneDiv.remove();
+                resolve();
+            }));
+        });
+    }
+    fadeInBackgroundLayersWithFountainRotating() {
+        let alpha0 = this.layers['minions'].alpha;
+        const STARTUP_FADEIN_TIME = 4000; // msec
+        let tlast = 0;
+        return new Promise((resolve) => {
+            this.animator.add(new animation_1.Animation(STARTUP_FADEIN_TIME, animation_1.Animation.LINEAR, (u) => {
+                // Fade in background layers
+                let alpha = alpha0 + (1 - alpha0) * u;
+                this.bglayers.forEach((lname) => {
+                    this.layers[lname].alpha = alpha;
+                });
+                // Keep fountain rotating at max speed
+                let dt = u * STARTUP_FADEIN_TIME - tlast;
+                let rpm = fountain_1.Fountain.maxSpeed;
+                let anglePerMSec = rpm * (2 * Math.PI) / (60 * 1000); // radians-per-msec
+                let drot = dt * anglePerMSec;
+                this.fountain.rotation = this.fountain.rotation + drot;
+                tlast = u * STARTUP_FADEIN_TIME;
+            }, () => {
+                this.showBackgroundLayers();
+                resolve();
+            }));
+        });
+    }
+    startLevel() {
+        if (window.localStorage.getItem('skip-start-animation')) {
+            this.isStarted = true;
+            this.play();
+            return;
+        }
+        this.isStarted = false;
+        this.isEnded = false;
+        this.hideBackgroundLayers();
+        this.startSpinningFountainWithMessage()
+            .then(() => {
+            return this.fadeInBackgroundLayersWithFountainRotating();
+        })
+            .then(() => {
+            this.isStarted = true;
+        });
+        this.play();
+    }
+    fadeOutBackgroundLayers() {
+        const LEVEL_END_TIME = 4000; // msec
+        let alpha0 = this.layers['minions'].alpha;
+        let alpha1 = 0.1;
+        return new Promise((resolve) => {
+            this.animator.add(new animation_1.Animation(LEVEL_END_TIME, animation_1.Animation.LINEAR, (u) => {
+                let alpha = alpha0 + (alpha1 - alpha0) * u;
+                this.bglayers.forEach((lname) => {
+                    this.layers[lname].alpha = alpha;
+                });
+            }, () => {
+                this.bglayers.forEach((lname) => {
+                    this.layers[lname].alpha = alpha1;
+                });
+                resolve();
+            }));
+        });
+    }
+    endLevel(success) {
+        this.isEnded = true;
+        let followHTML = `
+    Follow
+    &nbsp;
+    <a target="_blank" href="http://twitter.com/jyro"><i class="fa fa-twitter "></i></a>
+    &nbsp;
+    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd7BiBWGvFr8SKtgBtngGIbICN-LZcsJAF-JB2K1pycnxgo8A/viewform?usp=sf_link"><i class="fa fa-envelope"></i></a>
+    `;
+        this.fadeOutBackgroundLayers().then(() => {
+            document.body.appendChild(this.msgPaneDiv);
+            if (success) {
+                this.msgPaneDiv.querySelector('#content').innerHTML =
+                    `Congrats<br><a href="${window.location.href}">Replay</a>`;
+            }
+            else {
+                this.msgPaneDiv.querySelector('#content').innerHTML =
+                    `<a href="${window.location.href}">Try again</a>`;
+            }
+            this.msgPaneDiv.querySelector('#follow').innerHTML = followHTML;
+            let anchors = this.msgPaneDiv.querySelectorAll('a');
+            anchors.forEach(anchor => {
+                anchor.style.textDecoration = 'none';
+                anchor.style.color = '#e2ec00';
+            });
+        });
+    }
+    createMessagePane() {
+        let div = document.createElement('div');
+        div.setAttribute('id', 'game-finish-message');
+        let W = 500;
+        let H = 200;
+        div.style.width = W + 'px';
+        div.style.height = H + 'px';
+        div.style.position = 'absolute';
+        div.style.zIndex = '100';
+        div.style.left = '50%';
+        div.style.top = '50%';
+        div.style.marginLeft = -(W / 2) + 'px';
+        div.style.marginTop = '0px';
+        div.style.borderRadius = '10px';
+        div.style.background = 'rgba(0,0,0,0.7)';
+        div.style.color = '#ffffff';
+        div.style.fontWeight = 'bold';
+        div.style.fontSize = '25px';
+        div.style.fontFamily = 'Atomic Age, cursive';
+        div.style.display = 'flex';
+        div.style.flexDirection = 'column';
+        div.style.justifyContent = 'space-around';
+        div.innerHTML = '<span id="content"></span><span id="follow"></span>';
+        let contentSpan = div.querySelector('#content');
+        contentSpan.style.textAlign = 'center';
+        let followSpan = div.querySelector('#follow');
+        followSpan.style.textAlign = 'center';
+        followSpan.style.fontSize = '80%';
+        this.msgPaneDiv = div;
     }
     isMaxTowersCreated() {
         return this.spec.maxTowers && this.towers.length >= this.spec.maxTowers;
@@ -42661,6 +42836,8 @@ class Level {
         return null;
     }
     addTower(cell) {
+        console.assert(this.towers.length < this.spec.maxTowers);
+        this.checkoutTowerFromArsenal();
         let tower = this.createTower(cell);
         tower.setupAnimation();
         this.collsys.addMember(tower);
@@ -42677,6 +42854,7 @@ class Level {
         this.minions.forEach(minion => minion.recomputePath());
     }
     removeTower(tower) {
+        this.returnTowerToArsenal();
         this.collsys.removeMember(tower);
         let idx = this.towers.indexOf(tower);
         console.assert(idx >= 0);
@@ -42795,25 +42973,20 @@ class Level {
         let cell = svg.querySelector(`polygon#cell${row}-${col}`);
         cell.setAttribute('fill', color);
     }
-    /*
-    exportTerraGrid() {
-      remote.dialog.showSaveDialog({
-        filters : [
-          { name:'SVG', extensions:['svg']}
-        ]
-      }, (filename:string) => {
-        let svgdoc = this.terra.toSVG(0.2);
-        fs.writeFileSync(filename,svgdoc);
-      });
-    }
-    */
     initApp(vpWidth, vpHeight) {
+        pixi.utils.skipHello();
         // Setup Pixi App
         this.app = new pixi.Application(vpWidth, vpHeight, {
             backgroundColor: 0xffffff,
             antialias: true,
             autoStart: false
         });
+        if (this.app.renderer.type === pixi.RENDERER_TYPE.WEBGL) {
+            console.log('WebGL backend');
+        }
+        else if (this.app.renderer.type === pixi.RENDERER_TYPE.CANVAS) {
+            console.log('Canvas backend');
+        }
         this.app.view.setAttribute('id', 'app');
         this.app.view.style.position = 'absolute';
         this.app.view.style.left = '50%';
@@ -42822,14 +42995,23 @@ class Level {
         this.app.view.style.marginTop = -vpHeight / 2 + 'px';
     }
     initFountain(cell) {
+        let version = window.version;
         this.fountain = new fountain_1.Fountain(cell, this.spec.fountain.healthLossPerAttack, this.spec.fountain.maxHealth, this.spec.fountain.spiritGoal, this.spec.fountain.radius, this.am.fetchActorSprites('actor_fountain'), () => {
-            console.log('%cDivinity', 'background:#00ff00;color:#ffffff');
-            this.pause();
+            if (window.gtag) {
+                let timeSpent = Math.round((Date.now().valueOf() - this.stats.startTime) / 1000);
+                window.gtag('event', 'game_win_' + version);
+                window.gtag('event', 'game_win_time_' + version, { 'value': timeSpent });
+            }
+            this.endLevel(true);
         }, () => {
-            console.log('%cDestruction', 'background:#ff0000;color:#ffffff');
-            this.pause();
+            if (window.gtag) {
+                let timeSpent = Math.round((Date.now().valueOf() - this.stats.startTime) / 1000);
+                window.gtag('event', 'game_lose_' + version);
+                window.gtag('event', 'game_lose_time_' + version, { 'value': timeSpent });
+            }
+            this.endLevel(false);
         }, this);
-        this.layers['structures'].addChild(this.fountain.visual);
+        this.layers['fountain'].addChild(this.fountain.visual);
     }
     /**
      * Cursors (top)
@@ -42841,18 +43023,22 @@ class Level {
      */
     initLayers() {
         this.layers = {};
+        this.layers['fountain'] = new pixi.Container();
         this.layers['cursors'] = new pixi.Container();
         this.layers['towers'] = new pixi.Container();
         this.layers['structures'] = new pixi.Container();
         this.layers['shells'] = new pixi.Container();
         this.layers['minions'] = new pixi.Container();
+        this.layers['shadows'] = new pixi.Container();
         this.layers['background'] = new pixi.Container();
         this.app.stage.addChild(this.layers['background']);
+        this.app.stage.addChild(this.layers['shadows']);
         this.app.stage.addChild(this.layers['minions']);
         this.app.stage.addChild(this.layers['shells']);
         this.app.stage.addChild(this.layers['structures']);
         this.app.stage.addChild(this.layers['towers']);
         this.app.stage.addChild(this.layers['cursors']);
+        this.app.stage.addChild(this.layers['fountain']);
     }
     initBackground(texture) {
         let W = this.am.docWidth;
@@ -42862,6 +43048,68 @@ class Level {
         sprite.pivot.set(D / 2, D / 2);
         sprite.position.set(W / 2, H / 2);
         this.layers['background'].addChild(sprite);
+    }
+    initShadows() {
+        if (this.app.renderer.type === pixi.RENDERER_TYPE.WEBGL) {
+            let W = this.am.docWidth;
+            let H = this.am.docHeight;
+            let sprite = this.am.createSprite('sprites', 'map-shadow');
+            sprite.scale.set(2, 2);
+            sprite.position.set(W / 2, H / 2);
+            this.layers['shadows'].addChild(sprite);
+            let blurFilter = new pixi.filters.BlurFilter(20);
+            this.layers['shadows'].filters = [blurFilter];
+            this.layers['shadows'].alpha = 0.4;
+        }
+    }
+    initArsenal(box) {
+        console.assert(this.spec.maxTowers === 20);
+        this.arsenalEntries = new Array(this.spec.maxTowers);
+        this.arsenalEntries.fill(true);
+        this.arsenalPresentSprites = [];
+        this.arsenalAbsentSprites = [];
+        let { left, top, width, height } = box;
+        let nrows = 5;
+        let ncols = 4;
+        let dw = width / (ncols);
+        let dh = height / (nrows);
+        let size = Math.min(dw, dh) * 0.9;
+        for (let row = 0; row < nrows; row++) {
+            for (let col = 0; col < ncols; col++) {
+                let presentSprite = this.am.createSprite('sprites', 'tower-in-arsenal');
+                let absentSprite = this.am.createSprite('sprites', 'tower-outof-arsenal');
+                this.layers['structures'].addChild(presentSprite);
+                this.layers['structures'].addChild(absentSprite);
+                let x = left + dw / 2 + col * dw;
+                let y = top + dh / 2 + row * dh;
+                let bounds = presentSprite.getBounds();
+                let scale = size / bounds.width;
+                presentSprite.scale.set(scale, scale);
+                presentSprite.position.set(x, y);
+                absentSprite.scale.set(scale, scale);
+                absentSprite.position.set(x, y);
+                presentSprite.visible = true;
+                absentSprite.visible = false;
+                this.arsenalPresentSprites.push(presentSprite);
+                this.arsenalAbsentSprites.push(absentSprite);
+            }
+        }
+    }
+    checkoutTowerFromArsenal() {
+        let idx;
+        do {
+            idx = Math.round((this.spec.maxTowers - 1) * Math.random());
+        } while (!this.arsenalEntries[idx]);
+        this.arsenalEntries[idx] = false;
+        this.arsenalPresentSprites[idx].visible = false;
+        this.arsenalAbsentSprites[idx].visible = true;
+    }
+    returnTowerToArsenal() {
+        let idx = this.arsenalEntries.indexOf(false);
+        console.assert(idx >= 0);
+        this.arsenalEntries[idx] = true;
+        this.arsenalPresentSprites[idx].visible = true;
+        this.arsenalAbsentSprites[idx].visible = false;
     }
     setupScene() {
         let am = this.am;
@@ -42887,6 +43135,9 @@ class Level {
                 else if (key === 'pxc_meta_fountain') {
                     this.initFountain(cell);
                 }
+                else if (key === 'pxc_meta_arsenal') {
+                    this.initArsenal(spriteBoxes[key]);
+                }
             }
             else {
                 sprite = new pixi.Sprite(texture);
@@ -42900,8 +43151,6 @@ class Level {
         let ty = 0;
         this.app.stage.setTransform(tx, ty, scale, scale);
         this.viewTransformDirty = true;
-        // let blurFilter = new pixi.filters.BlurFilter()
-        // this.app.stage.filters = [blurFilter];
         if (DEBUG) {
             this.debugGraphics = new pixi.Graphics();
             this.app.stage.addChild(this.debugGraphics);
@@ -42932,7 +43181,7 @@ class Level {
     }
     createSpawner(cell, spec) {
         let spawnerSprites = this.am.fetchActorSprites('actor_spawner');
-        return new spawner_1.Spawner(spawnerSprites, cell, this, spec.interval, spec.rate);
+        return new spawner_1.Spawner(spawnerSprites, cell, this, spec.delay, spec.interval);
     }
     createTower(cell) {
         let towerSprites = this.am.fetchActorSprites('actor_greentower');
@@ -43076,13 +43325,19 @@ class Level {
             }
         });
         this.app.view.addEventListener('mousedown', (ev) => {
-            this.playerAI.onMouseDown(ev);
+            if (this.isStarted && !this.isEnded) {
+                this.playerAI.onMouseDown(ev);
+            }
         });
         this.app.view.addEventListener('mouseup', (ev) => {
-            this.playerAI.onMouseUp(ev);
+            if (this.isStarted && !this.isEnded) {
+                this.playerAI.onMouseUp(ev);
+            }
         });
         this.app.view.addEventListener('mousemove', (ev) => {
-            this.playerAI.onMouseMove(ev);
+            if (this.isStarted && !this.isEnded) {
+                this.playerAI.onMouseMove(ev);
+            }
         });
     }
     doViewScroll() {
@@ -43160,40 +43415,46 @@ class Level {
         }
         this.app.ticker.start();
     }
+    checkFountainMinionProximity(t) {
+        let [row, col] = this.fountain.cell;
+        let [fx, fy] = this.terra.getCellCenter(row, col);
+        let proxLimitSq = this.fountain.radius * this.fountain.radius;
+        // Move actors if they are in motion
+        for (let minion of this.minions) {
+            if (minion.inmotion) {
+                minion.move(t);
+                let [mx, my] = minion.position;
+                let dx = fx - mx;
+                let dy = fy - my;
+                if (dx * dx + dy * dy <= proxLimitSq) {
+                    // Fountain suffers finite attack
+                    this.fountain.sufferAttack(minion);
+                    // Minion suffers infinite attack, thus dying
+                    minion.sufferAttack(Infinity);
+                }
+            }
+        }
+    }
     play() {
         let app = this.app;
         app.ticker.add(() => {
             let now = new Date().valueOf();
             let t = (now - this.stats.startTime) - this.accPauseTime;
-            this.doViewScroll();
-            let [row, col] = this.fountain.cell;
-            let [fx, fy] = this.terra.getCellCenter(row, col);
-            let proxLimitSq = this.fountain.radius * this.fountain.radius;
-            // Move actors if they are in motion
-            for (let minion of this.minions) {
-                if (minion.inmotion) {
-                    minion.move(t);
-                    let [mx, my] = minion.position;
-                    let dx = fx - mx;
-                    let dy = fy - my;
-                    if (dx * dx + dy * dy <= proxLimitSq) {
-                        // Fountain suffers finite attack
-                        this.fountain.sufferAttack(minion);
-                        // Minion suffers infinite attack, thus dying
-                        minion.sufferAttack(Infinity);
-                    }
-                }
-            }
-            this.cleanupDeadMinions();
-            this.fountain.tick(t);
-            this.enemyAI.tick(t);
-            this.playerAI.tick(t);
             this.animator.tick(t);
-            this.towers.forEach(tower => tower.tick(t));
-            this.towerScanTimer.tick(t);
-            //this.backgroundTick(t);
-            this.collsys.analyse();
-            this.hud.tick(t);
+            if (this.isStarted && !this.isEnded) {
+                this.doViewScroll();
+                this.checkFountainMinionProximity(t);
+                this.cleanupDeadMinions();
+                this.fountain.tick(t);
+                this.enemyAI.tick(t);
+                this.playerAI.tick(t);
+                this.towers.forEach(tower => tower.tick(t));
+                this.towerScanTimer.tick(t);
+                this.spawners.forEach(spawner => spawner.tick(t));
+                //this.backgroundTick(t);
+                this.collsys.analyse();
+                this.hud.tick(t);
+            }
         });
         app.ticker.start();
         if (!window.localStorage.getItem('mute-background-audio')) {
@@ -43238,28 +43499,12 @@ exports.Level = Level;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const helper_1 = __webpack_require__(8);
 class EnemyAI {
     constructor(level) {
-        this.level = level;
-        this.spawnTimers = this.level.spawners.map((spl) => {
-            let interval;
-            if (spl.interval) {
-                interval = spl.interval;
-            }
-            else if (spl.rate) {
-                interval = Math.round(60 / spl.rate);
-            }
-            else {
-                interval = 10;
-            }
-            return new helper_1.Timer(interval * 1000, () => {
-                this.level.addMinion(spl.cell, spl.pathcopy());
-            });
-        });
+        level;
     }
     tick(t) {
-        this.spawnTimers.forEach(sptmr => sptmr.tick(t));
+        t;
     }
 }
 exports.EnemyAI = EnemyAI;
@@ -43393,7 +43638,7 @@ exports.PlayerAI = PlayerAI;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const actor_1 = __webpack_require__(11);
-const MAX_RPM = 10;
+const MAX_RPM = 25;
 /**
  * Fountain has a health
  * Fountain spins with a speed that's proportional to its health
@@ -43460,6 +43705,7 @@ class Fountain extends actor_1.Actor {
         }
     }
 }
+Fountain.maxSpeed = MAX_RPM;
 exports.Fountain = Fountain;
 
 
@@ -43471,16 +43717,57 @@ exports.Fountain = Fountain;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const actor_1 = __webpack_require__(11);
+const helper_1 = __webpack_require__(8);
+const animation_1 = __webpack_require__(94);
 class Spawner extends actor_1.Actor {
-    constructor(sprites, cell, level, interval, // time between spawn (in seconds)
-        rate) {
+    constructor(sprites, cell, level, delay, // time to wait before start spawning (in seconds)
+        interval) {
         super(sprites);
         this.cell = cell;
         this.level = level;
+        this.delay = delay;
         this.interval = interval;
-        this.rate = rate;
         let pos = level.terra.getCellCenter(cell[0], cell[1]);
         this.visual.position.set(pos[0], pos[1]);
+        this._sprites['halo'].visible = false;
+        this.timer = new helper_1.Timer(this.interval * 1000, (count) => {
+            if (!this.delay || (count > this.delay / this.interval)) {
+                if (this.enabled) {
+                    this.level.addMinion(this.cell, this.pathcopy());
+                }
+                else {
+                    this.enable();
+                }
+            }
+        });
+        this.tStart = NaN;
+        this.enabled = false;
+        if (!this.delay) {
+            this.visual.visible = true;
+            this.enabled = true;
+        }
+        else {
+            this.visual.visible = false;
+            this.enabled = false;
+        }
+    }
+    enable() {
+        const SPAWNER_ENABLE_PERIOD = 3000;
+        this._sprites['halo'].visible = true;
+        return new Promise((resolve) => {
+            this.visual.visible = true;
+            this.visual.alpha = 0;
+            this.enabled = true;
+            this.level.am.getSound('spawner-whistle').play();
+            this.level.animator.add(new animation_1.Animation(SPAWNER_ENABLE_PERIOD, animation_1.Animation.LINEAR, (u) => {
+                this.visual.alpha = u;
+                this._sprites['halo'].scale.set(1 - u);
+            }, () => {
+                this._sprites['halo'].visible = false;
+                this.visual.alpha = 1;
+                resolve();
+            }));
+        });
     }
     recomputePath() {
         let terrain = this.level.terra;
@@ -43495,6 +43782,13 @@ class Spawner extends actor_1.Actor {
             this.recomputePath();
         }
         return JSON.parse(JSON.stringify(this.pathFromSource));
+    }
+    tick(t) {
+        if (isNaN(this.tStart)) {
+            this.tStart = t;
+            return;
+        }
+        this.timer.tick(t);
     }
 }
 exports.Spawner = Spawner;
@@ -44269,7 +44563,7 @@ class AssetManager {
             new Promise((resolve) => {
                 this.sounds['tower-fire'] = new howler.Howl({
                     src: [ASSET_DIR + 'tower-fire.mp3'],
-                    volume: 0.3,
+                    volume: 0.2,
                     loop: false,
                     autoplay: false,
                     onload: () => {
@@ -44280,8 +44574,19 @@ class AssetManager {
             new Promise((resolve) => {
                 this.sounds['background-beat'] = new howler.Howl({
                     src: [ASSET_DIR + 'background-beat.mp3'],
-                    volume: 0.5,
+                    volume: 0.4,
                     loop: true,
+                    autoplay: false,
+                    onload: () => {
+                        resolve();
+                    }
+                });
+            }),
+            new Promise((resolve) => {
+                this.sounds['spawner-whistle'] = new howler.Howl({
+                    src: [ASSET_DIR + 'spawner-whistle.mp3'],
+                    volume: 0.9,
+                    loop: false,
                     autoplay: false,
                     onload: () => {
                         resolve();
@@ -44337,6 +44642,7 @@ class AssetManager {
     }
     createSprite(layername, keyPrefix) {
         let texture = this.spriteTextures[layername][keyPrefix];
+        console.assert(texture);
         let sprite = new pixi.Sprite(texture);
         sprite.anchor.set(0.5);
         return sprite;
