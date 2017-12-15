@@ -1,3 +1,7 @@
+---
+layout: post
+title: Review Ghost In The Shell - The blinds scene
+---
 
 Review : Ghost In The Shell - The blinds scene
 ===
