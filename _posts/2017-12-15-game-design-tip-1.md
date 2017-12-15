@@ -3,6 +3,9 @@ layout: post
 title: Game Design tip for Programmers - Less Automation
 ---
 
+Game Design tip for Programmers - Less Automation
+===
+
 For past few months I've been working on 2D Tower Defense game. One of the things I've learnt is some of the (good) habits I've as long time Software developer are counter-productive when designing games.One of them is the obsession with code structure.
 
 A good software design practice dictates that "Never hard code". That's define the parameters of your program as variables or constants, or read them from configuration files. This is a good idea when you are designing a library, framework or a game engine. But not while making a game. If you are an indie developer working on an game idea that's not fully fleshed out yet, then your requirements are going to change. The efforts you spent in writing the adapter for a configuration file could be replaced in future by a 3rd party tool you might end up using. For example, I wrote a complete SVG based pipeline to design my game. I could design the map in Inkscape and specify the parameters as JSON in SVG description tags. My game code then would load these SVGs at runtime, render each sprite (caching them whenever it can) and building the game level from the configuration JSON embedded in the SVG. This all worked find and dandy (as you can see in this playable demo). But when I started looking at adding skeleton based animation, I realized it would be better to use Spine instead. Then I realized I should use Spine for almost everything, thus completely abondoning the SVG pipeline I had written. Lesson learned - focus on finishing the game/prototype, don't worry about sophistication of architecture.
