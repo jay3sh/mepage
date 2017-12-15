@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Game Design tip for Programmers - Less Automation
 ---
 
