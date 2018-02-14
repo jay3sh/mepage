@@ -1,0 +1,370 @@
+
+foldwars.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+block/block-body
+  rotate: false
+  xy: 1037, 128
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+gun/back-coil
+  rotate: false
+  xy: 1249, 200
+  size: 25, 5
+  orig: 25, 5
+  offset: 0, 0
+  index: -1
+gun/body-2
+  rotate: true
+  xy: 1065, 195
+  size: 59, 105
+  orig: 59, 105
+  offset: 0, 0
+  index: -1
+gun/body-3
+  rotate: true
+  xy: 923, 64
+  size: 56, 81
+  orig: 56, 81
+  offset: 0, 0
+  index: -1
+gun/bullet
+  rotate: false
+  xy: 1413, 237
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+gun/bullet-3
+  rotate: false
+  xy: 1156, 145
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+gun/bullet-slot-3
+  rotate: false
+  xy: 1158, 133
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+gun/canon-ammo
+  rotate: false
+  xy: 1425, 238
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+gun/canon-body
+  rotate: true
+  xy: 1172, 199
+  size: 55, 75
+  orig: 55, 75
+  offset: 0, 0
+  index: -1
+gun/canon-body-shadow
+  rotate: false
+  xy: 923, 122
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+gun/canon-mechanism
+  rotate: false
+  xy: 550, 9
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+gun/canon-nozzle
+  rotate: true
+  xy: 1383, 237
+  size: 10, 28
+  orig: 10, 28
+  offset: 0, 0
+  index: -1
+gun/canon-nozzle-shadow
+  rotate: true
+  xy: 585, 9
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+gun/coil
+  rotate: false
+  xy: 775, 5
+  size: 25, 5
+  orig: 25, 5
+  offset: 0, 0
+  index: -1
+gun/front-coil
+  rotate: false
+  xy: 1416, 249
+  size: 15, 5
+  orig: 15, 5
+  offset: 0, 0
+  index: -1
+gun/gun-ammo
+  rotate: true
+  xy: 456, 6
+  size: 4, 15
+  orig: 4, 15
+  offset: 0, 0
+  index: -1
+gun/gun-body
+  rotate: false
+  xy: 728, 2
+  size: 45, 60
+  orig: 45, 60
+  offset: 0, 0
+  index: -1
+gun/gun-mechanism
+  rotate: true
+  xy: 1010, 123
+  size: 7, 25
+  orig: 7, 25
+  offset: 0, 0
+  index: -1
+gun/gun-nozzle
+  rotate: true
+  xy: 1351, 232
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+gun/laser-coil-back
+  rotate: false
+  xy: 456, 12
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+gun/laser-coil-front
+  rotate: false
+  xy: 503, 12
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+gun/nozzle
+  rotate: true
+  xy: 1351, 249
+  size: 5, 63
+  orig: 5, 63
+  offset: 0, 0
+  index: -1
+gun/nozzle-2
+  rotate: true
+  xy: 585, 27
+  size: 15, 36
+  orig: 15, 36
+  offset: 0, 0
+  index: -1
+gun/nozzle-3
+  rotate: true
+  xy: 1104, 129
+  size: 12, 35
+  orig: 12, 35
+  offset: 0, 0
+  index: -1
+gun/slot-bottom-3
+  rotate: true
+  xy: 402, 2
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+gun/slot-top-3
+  rotate: true
+  xy: 429, 2
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+intro-map/belt-1
+  rotate: true
+  xy: 144, 2
+  size: 40, 100
+  orig: 40, 100
+  offset: 0, 0
+  index: -1
+intro-map/building-1
+  rotate: true
+  xy: 2, 44
+  size: 210, 310
+  orig: 210, 310
+  offset: 0, 0
+  index: -1
+intro-map/building-2
+  rotate: true
+  xy: 314, 44
+  size: 210, 310
+  orig: 210, 310
+  offset: 0, 0
+  index: -1
+intro-map/sq1
+  rotate: false
+  xy: 775, 12
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+intro-map/sq2
+  rotate: false
+  xy: 827, 12
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+intro-map/sq3
+  rotate: false
+  xy: 879, 12
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+intro-map/sq4
+  rotate: false
+  xy: 931, 12
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+intro-map/sq5
+  rotate: false
+  xy: 1104, 143
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+intro-map/white-sq-small
+  rotate: false
+  xy: 983, 12
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+pavilion/factoid
+  rotate: true
+  xy: 1156, 158
+  size: 35, 10
+  orig: 35, 10
+  offset: 0, 0
+  index: -1
+ship/back-wave-x
+  rotate: false
+  xy: 246, 5
+  size: 100, 10
+  orig: 100, 10
+  offset: 0, 0
+  index: -1
+ship/back-wave-xx
+  rotate: false
+  xy: 626, 47
+  size: 100, 15
+  orig: 100, 15
+  offset: 0, 0
+  index: -1
+ship/back-wave-xxx
+  rotate: false
+  xy: 1249, 234
+  size: 100, 20
+  orig: 100, 20
+  offset: 0, 0
+  index: -1
+ship/back-wave-xxxx
+  rotate: false
+  xy: 246, 17
+  size: 100, 25
+  orig: 100, 25
+  offset: 0, 0
+  index: -1
+ship/base
+  rotate: true
+  xy: 626, 64
+  size: 190, 295
+  orig: 190, 295
+  offset: 0, 0
+  index: -1
+ship/bulldog-passenger
+  rotate: true
+  xy: 1326, 207
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+ship/front-wave
+  rotate: false
+  xy: 923, 209
+  size: 140, 45
+  orig: 140, 45
+  offset: 0, 0
+  index: -1
+ship/middle-wave
+  rotate: false
+  xy: 2, 2
+  size: 140, 40
+  orig: 140, 40
+  offset: 0, 0
+  index: -1
+ship/walker-passenger
+  rotate: false
+  xy: 1348, 210
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+tower/base
+  rotate: false
+  xy: 348, 2
+  size: 25, 40
+  orig: 25, 40
+  offset: 0, 0
+  index: -1
+tower/left_arm
+  rotate: false
+  xy: 1010, 132
+  size: 25, 75
+  orig: 25, 75
+  offset: 0, 0
+  index: -1
+tower/right_arm
+  rotate: true
+  xy: 1249, 207
+  size: 25, 75
+  orig: 25, 75
+  offset: 0, 0
+  index: -1
+walker/arm
+  rotate: true
+  xy: 1375, 215
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+walker/body
+  rotate: true
+  xy: 375, 2
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+walker/foot
+  rotate: true
+  xy: 1037, 197
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1
+walker/leg
+  rotate: false
+  xy: 1141, 126
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
