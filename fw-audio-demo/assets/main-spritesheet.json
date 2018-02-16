@@ -2,7 +2,7 @@
 
 "bouncer-body":
 {
-	"frame": {"x":4,"y":4,"w":53,"h":38},
+	"frame": {"x":2,"y":51,"w":53,"h":38},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":38},
@@ -11,25 +11,52 @@
 },
 "bouncer-shield":
 {
-	"frame": {"x":61,"y":4,"w":24,"h":40},
+	"frame": {"x":136,"y":2,"w":24,"h":40},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":40},
 	"sourceSize": {"w":24,"h":40},
 	"pivot": {"x":0.5,"y":0.5}
 },
+"gold-in-mine":
+{
+	"frame": {"x":32,"y":2,"w":17,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":17},
+	"sourceSize": {"w":17,"h":17},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"gold-not-in-mine":
+{
+	"frame": {"x":11,"y":2,"w":17,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":17},
+	"sourceSize": {"w":17,"h":17},
+	"pivot": {"x":0.5,"y":0.5}
+},
 "gold":
 {
-	"frame": {"x":89,"y":4,"w":5,"h":15},
+	"frame": {"x":2,"y":2,"w":5,"h":15},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":15},
 	"sourceSize": {"w":5,"h":15},
 	"pivot": {"x":0.5,"y":0.5}
 },
+"shipbase":
+{
+	"frame": {"x":2,"y":93,"w":200,"h":295},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":295},
+	"sourceSize": {"w":200,"h":295},
+	"pivot": {"x":0.5,"y":0.5}
+},
 "sprinter-body":
 {
-	"frame": {"x":98,"y":4,"w":23,"h":45},
+	"frame": {"x":53,"y":2,"w":23,"h":45},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":45},
@@ -38,7 +65,7 @@
 },
 "sprinter-shield":
 {
-	"frame": {"x":125,"y":4,"w":24,"h":33},
+	"frame": {"x":108,"y":2,"w":24,"h":33},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":33},
@@ -47,16 +74,16 @@
 },
 "walker-body":
 {
-	"frame": {"x":153,"y":4,"w":37,"h":38},
+	"frame": {"x":164,"y":2,"w":38,"h":38},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":38},
-	"sourceSize": {"w":37,"h":38},
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":38},
+	"sourceSize": {"w":38,"h":38},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "walker-shield":
 {
-	"frame": {"x":194,"y":4,"w":24,"h":40},
+	"frame": {"x":80,"y":2,"w":24,"h":40},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":40},
@@ -66,10 +93,10 @@
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "ghosts-spritesheet.png",
+	"image": "main-spritesheet.png",
 	"format": "RGBA8888",
-	"size": {"w":222,"h":53},
+	"size": {"w":204,"h":390},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:4c00232bdda4d899c99623050f538a4b:e7dcdb5fabcc989acc0905e87e5a667f:75e3e14bb41a2c41afdce7a2c5a06a56$"
+	"smartupdate": "$TexturePacker:SmartUpdate:7289dbfcf96ea2826cdd3950c10fab87:2da35a02627bfdd4f3634a485dfe1e55:9287f5870737fe6c022da6965e55ed72$"
 }
 }
