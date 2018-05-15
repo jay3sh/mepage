@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>FoldWars</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!--
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99857402-3"></script>
+    <script>
+      window.dataLayer=window.dataLayer||[];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-99857402-3');
+    </script>
+    -->
+    <script src="https://www.bluemathsoftware.com/foldwars/kong-histats.js"></script>
+    <style>
+      body {
+        background : #10222f;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; 
+      }
+    </style>
+<script src="./ext/bowser.min.js"></script>
+<script src='https://cdn1.kongregate.com/javascripts/kongregate_api.js'></script>
+
+<script type="application/javascript">
+  var NS_SVG='http://www.w3.org/2000/svg';
+  function createSVGElement(tag) {
+    return document.createElementNS(NS_SVG, tag);
+  }
+  var docWidth=1920;
+  var docHeight=1080;
+
+  function showLoadMeter() {
+    var svg = createSVGElement('svg');
+
+    svg.setAttribute('width', window.innerWidth+'px');
+    svg.setAttribute('height', window.innerHeight+'px');
+    svg.setAttribute('id','load-meter');
+    svg.style.position = 'absolute';
+    svg.style.left = '50%';
+    svg.style.top = '50%';
+    svg.style.marginLeft = (-window.innerWidth/2)+'px';
+    svg.style.marginTop = (-window.innerHeight/2)+'px';
+    svg.setAttribute('viewBox', '0 0 1920 1080');
+    var midx = docWidth/2;
+    var midy = docHeight/2;
+    var barWidth = docWidth/5;
+    var barHeight = barWidth*9/32;
+    var slantX = barHeight;
+    svg.innerHTML = 
+    '<path d="M '+(midx-barWidth/2+slantX/2)+','+(midy-barHeight/2)+' '+
+      'L '+(midx+barWidth/2+slantX/2)+','+(midy-barHeight/2)+' '+
+      'L '+(midx+barWidth/2-slantX/2)+','+(midy+barHeight/2)+' '+
+      'L '+(midx-barWidth/2-slantX/2)+','+(midy+barHeight/2)+' '+
+      'Z'+
+    '" style="stroke:none;fill:#555555" id="meter-background">'+
+    '</path>'+
+    '<path d="M '+(midx-barWidth/2+slantX/2)+','+(midy-barHeight/2)+' '+
+      'L '+(midx-barWidth/2+slantX/2)+','+(midy-barHeight/2)+' '+
+      'L '+(midx-barWidth/2-slantX/2)+','+(midy+barHeight/2)+' '+
+      'L '+(midx-barWidth/2-slantX/2)+','+(midy+barHeight/2)+' '+
+      'Z'+
+    '" style="stroke:none;fill:#ffffff" id="meter-foreground">'+
+    '</path>';
+    document.body.appendChild(svg);
+  }
+
+  function removeLoadMeter() {
+    document.querySelector('#load-meter').remove();
+  }
+
+  function updateLoadMeter(u) {
+    u = Math.max(0, Math.min(1,u));
+    var midx = docWidth/2;
+    var midy = docHeight/2;
+    var barWidth = docWidth/5;
+    var barHeight = barWidth*9/32;
+    var slantX = barHeight;
+    var meterFG = document.body.querySelector('#meter-foreground');
+    meterFG.setAttribute('d',
+      'M '+(midx-barWidth/2+slantX/2)+','+(midy-barHeight/2)+' '+
+      'L '+(midx-barWidth/2+slantX/2+u*barWidth)+','+(midy-barHeight/2)+' '+
+      'L '+(midx-barWidth/2-slantX/2+u*barWidth)+','+(midy+barHeight/2)+' '+
+      'L '+(midx-barWidth/2-slantX/2)+','+(midy+barHeight/2)+' '+
+      'Z'
+    );
+  }
+
+    function isBrowserSupported() {
+      return (
+        bowser.check({ chrome: '60' }, true)||
+        bowser.check({ firefox: '58' }, true)||
+        bowser.check({ msedge: '16' }, true)||
+        bowser.check({ opera: '52' }, true)||
+        bowser.check({ safari: '10' }, true));
+    }
+
+  window.onload = function () {
+    if(isBrowserSupported()) {
+      showLoadMeter();
+      var script = document.createElement('script');
+      script.onload = function () {
+        updateLoadMeter(0.1);
+        loadGameResources(function (u) {
+          updateLoadMeter(0.1+(0.9)*u);
+        }, function() {
+          removeLoadMeter();
+          startGame();
+        })
+      }
+      script.src = './build/game-web.js';
+      document.head.appendChild(script);
+    } else {
+      var span=document.createElement('p');
+      span.innerHTML=
+        '<b>Fold Wars</b> is only supported on following browsers'+
+        '<ul>'+
+        '  <li>Google Chrome (v60+)</li>'+
+        '  <li>Firefox (v58+)</li>'+
+        '  <li>Microsoft Edge (v16+)</li>'+
+        '  <li>Safari (v10+)</li>'+
+        '</ul>';
+      span.style.color='#fff';
+      document.body.appendChild(span);
+      document.body.style.background='#000';
+    }
+  }
+</script>
+
+  </head>
+  <body>
+  </body>
+</html>
