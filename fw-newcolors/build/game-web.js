@@ -1964,6 +1964,7 @@ exports.getDifficultyParam = getDifficultyParam;
 function isOnKong() {
     return constants_1.IS_KONG &&
         window.location.hostname !== 'localhost' &&
+        window.location.hostname !== 'jayesh.me' &&
         !/\d+\.\d+\.\d+\.\d+/.test(window.location.hostname);
 }
 exports.isOnKong = isOnKong;
@@ -2483,7 +2484,7 @@ class Game {
     }
 }
 // The following line is modified by packaging script
-Game.version = 111;
+Game.version = 113;
 Game.resourcesLoaded = false;
 Game.isAudioMuted = false;
 Game.purchases = [];
