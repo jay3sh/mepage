@@ -2483,7 +2483,7 @@ class Game {
     }
 }
 // The following line is modified by packaging script
-Game.version = 114;
+Game.version = 111;
 Game.resourcesLoaded = false;
 Game.isAudioMuted = false;
 Game.purchases = [];
@@ -6561,7 +6561,7 @@ exports.spec = {
             maxshield: 5,
             capacity: 0,
             impairDistance: 1,
-            impairDuration: 8,
+            impairDuration: 10,
         },
         aegis: {
             maxhealth: 0.1,
