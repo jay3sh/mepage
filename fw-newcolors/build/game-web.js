@@ -2346,8 +2346,7 @@ class Game {
         };
         loop(0);
         Game.screenMan = new scrman_1.ScreenManager(Game.resources['screens'].data, Game.vpWidth, Game.vpHeight);
-        if (helper_1.hasLevelParam() && constants_1.ISDEV) {
-            Game.inspectKongPurchases();
+        if (helper_1.hasLevelParam()) {
             let lvlid = helper_1.getLevelParam();
             let diffparam = helper_1.getDifficultyParam() || 'normal';
             this.screenMan.loadLevelById(lvlid, diffparam);
@@ -2484,7 +2483,7 @@ class Game {
     }
 }
 // The following line is modified by packaging script
-Game.version = 113;
+Game.version = 114;
 Game.resourcesLoaded = false;
 Game.isAudioMuted = false;
 Game.purchases = [];
