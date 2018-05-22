@@ -6,7 +6,7 @@ title: Violet end of spectrum
 Violet end of spectrum
 ===
 
-For past couple of weeks I'm wearing these yellow glasses while working on computer or watching TV. It has some interesting effect - both physically and psychologically.
+For past couple of weeks I'm wearing [these yellow glasses](https://www.amazon.ca/gp/product/B000USRG90/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) while working on computer or watching TV. It has some interesting effect - both physically and psychologically.
 
 I read that these glasses filter out the violet end of color spectrum. When you wear them you cannot see blue. If you see a rainbow, you will see black where you are supposed to see blue. They are supposed to reduce the strain on the eyes. I didn't find any solid research that corroborates this, however the theory seemed logical. The energy content of the light (or electromagnetic radiation) increases towards to blue-violet end of spectrum. The ultra-violet rays are not visible to our eyes, but they can burn our skin. So it sounds logical that the blue light entering our eyes may put more strain on them than the light lower in the spectrum (green, yellow, red). In any case, there doesn't seem to be any harm in trying them.
 
