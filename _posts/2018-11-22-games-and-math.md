@@ -17,3 +17,5 @@ In Braid, the player is presented with the new universe where time changes in ma
 Player does not necessarily understand the patterns, for instance they don't necessarily know the formula that governs the reversal of time in Braid, they just develop a perception that's good enough to predict how the time will behave. He/she just gets used to these patterns enough to solve the problem at hand. However different problems presented with the same mechanism trains the player's brain to get used to it more easily, learning subtlties along the way.
 
 "in mathematics you don't understand things. You just get used to them." - Von Neumann [[link](http://math.stackexchange.com/questions/11267/what-are-some-interpretations-of-von-neumanns-quote)]
+
+“I am interested in mathematics only as a creative art” - G.H.Hardy [[link](https://en.wikiquote.org/wiki/G._H._Hardy)]
