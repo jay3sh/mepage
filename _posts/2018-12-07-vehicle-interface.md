@@ -1,10 +1,10 @@
 ---
-layout:post
-title:Bicycle pedals
+layout: post
+title: Bicycle pedals
 ---
 
 Bicycle Pedals
----
+===
 
 Let's think about three kinds of vehicles as a closed system called vehicle - Car, Motorcycle, Bicycle.
 
