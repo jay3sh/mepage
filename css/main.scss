@@ -68,6 +68,13 @@ body {
     #archiveheader {
       font-weight : $base-font-weight * 2;
     }
+    table {
+      border : 1px solid #666666;
+    }
+    td,th {
+      border : 1px solid #666666;
+      padding : 5px;
+    }
   }
 
   a {
