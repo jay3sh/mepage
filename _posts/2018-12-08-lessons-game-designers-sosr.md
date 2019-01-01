@@ -26,7 +26,7 @@ A new game idea has to fulfill most of the following criteria to satisfactory ex
 3. It should be within the scope of my capabilities (technical/artistic)
 4. If I need outside help (technical/artistic) it should be within the financial budget
 5. It should generate revenue (i.e. it should be marketable, not too experimental/niche)
-6. It should achieve some higher level goal/principle that gives meaning to your work
+6. It should achieve some higher level goal/principle that gives meaning to my work
 
 (5 and 6 are always at odds with each other)
 
