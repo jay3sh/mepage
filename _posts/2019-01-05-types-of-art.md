@@ -8,7 +8,7 @@ Types of Art
 
 There are two types in which art is created.
 
-Pursuation of craft
+Pursuit of craft
 ---
 
 A person likes certain craft - writing, painting, singing, playing guitar, doodling, etc. If they like it a lot they pursue it for a long time. After years they create artifacts (paintings, songs, novels) that are interesting in some way. If they can trigger some kind of emotional response in the audience then they qualify as an artwork. However they are not necessarily created in order to trigger that certain response.
