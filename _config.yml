@@ -26,4 +26,4 @@ google_analytics_trackid: "UA-85416133-1"
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
